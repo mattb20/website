@@ -17,6 +17,25 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
+  letter-spacing: .125em;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
 }
 
 p {
@@ -25,7 +44,7 @@ p {
 
 a {
   color: $action-color;
-  text-decoration: none;
+  text-decoration: underline;
   transition: color 0.1s linear;
 
   &:active,

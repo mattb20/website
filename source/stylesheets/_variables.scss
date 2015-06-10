@@ -1,9 +1,14 @@
 // Typography
-$base-font-family: $helvetica;
+$futura: "futura-pt", Futura, $helvetica;
+$base-font-family: $futura;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
+$h1-font-size: modular-scale(4);
+$h2-font-size: modular-scale(3);
+$h3-font-size: modular-scale(2);
+$h4-font-size: modular-scale(1);
 
 // Line height
 $base-line-height: 1.5;
@@ -16,23 +21,36 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #477dca;
-$dark-gray: #333;
-$medium-gray: #999;
+// palette from http://bit.ly/1dwLGKe
+// note all alt-colors are designed to show on a blue background
+$white: #FFFFFF;
 $light-gray: #ddd;
+$medium-gray: #999;
+$dark-gray: #333;
+$black: #000;
+$navy: #062533;
+$sea-blue: #00333F;
+$off-white: #EFF7F2;
+$red: #AA1925;
+
+$brand-primary-color: $red;
+$brand-secondary-color: $black;
 
 // Font Colors
-$base-background-color: #fff;
+$base-background-color: $white;
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$alt-font-color: $white;
+$action-color: lighten($sea-blue, 0.1);
 
 // Border
 $base-border-color: $light-gray;
+$alt-border-color: $white;
 $base-border: 1px solid $base-border-color;
+$base-border-radius: 0.2em;
 
 // Forms
-$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+$form-box-shadow: none;
+$form-box-shadow-focus: none;
 
 // Breakpoints
 $small-screen: em(480);
