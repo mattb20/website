@@ -1,0 +1,20 @@
+header.navigation {
+  @include ma-hidden-mobile;
+  position: fixed;
+  width: 100%;
+  height: $navbar-height;
+  top: 0;
+  z-index: 999;
+  background: orange;
+  opacity: 0.8;
+
+  nav {
+    @include outer_container;
+    text-align: right;
+
+    li {
+      display: inline;
+
+    }
+  }
+}

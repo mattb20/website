@@ -1,0 +1,45 @@
+.centered-row {
+  @include row;
+  text-align: center;
+}
+
+.button-row {
+  @include row;
+
+  button {
+    margin: 0 5%;
+  }
+}
+
+.form-row {
+  input {
+    display: inline-block;
+  }
+}
+
+.profile-row {
+  @include row;
+
+  .image {
+    @include media($desktop) {
+      @include span-columns(5);
+    }
+  }
+
+  .copy {
+    text-align: right;
+
+    @include media($desktop) {
+      @include span-columns(7);
+    }
+  }
+}
+
+.three-width-row {
+  @include ma-rows(3);
+}
+
+.four-width-row {
+  @include ma-rows(4);
+}
+

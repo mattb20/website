@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+
+  @include media($desktop) {
+    @include outer-container;
+    padding: 5rem;
+    text-align: left;
+  }
+
+  .footer-links {
+    @include ma-rows(4);
+  }
+}
+
