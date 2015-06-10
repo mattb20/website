@@ -16,3 +16,68 @@
 
 // Components
 @import "components/hero";
+
+$desktop: new-breakpoint(min-width 700px);
+
+section {
+  @include media($desktop) {
+    @include outer-container;
+    padding: 5rem;
+  }
+
+  background: orange;
+  border: black 3px dotted;
+  text-align: center;
+}
+
+.centered-row {
+  background: teal;
+  @include row;
+}
+
+.button-row {
+  background: red;
+  @include row;
+  button {
+    margin: 0 5%;
+  }
+}
+
+.form-row {
+  input {
+    display: inline-block;
+  }
+}
+
+.profile-row {
+  @include row;
+  background: gray;
+  .image {
+    @include media($desktop) {
+      @include span-columns(5);
+    }
+
+    background: blue;
+  }
+  .copy {
+    text-align: right;
+    @include media($desktop) {
+      @include span-columns(7);
+    }
+
+    background: green;
+  }
+}
+
+section.slider {}
+
+.three-width-row {
+  background: salmon;
+  @include row;
+  .column {
+    background: goldenrod;
+    @include media($desktop) {
+      @include span-columns(4);
+    }
+  }
+}
