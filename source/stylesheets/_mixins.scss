@@ -15,10 +15,23 @@
 // On mobile the columns will just all be inline
 @mixin ma-columns($rows) {
   @include ma-container;
-
   .column {
     @include media($desktop) {
       @include span-columns($grid-columns / $rows);
     }
   }
+}
+
+// Generate linea arrow icon
+@mixin ma-arrow-icon($arrow) {
+  font-family: "linea-arrows-10" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: $arrow;
 }

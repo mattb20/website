@@ -14,18 +14,27 @@
   .container
     .profile-row
       .image
-        %img{ src: lorem.image("400x400") }
+        = image_tag "graduates/test-grad.png"
       .copy
-        %h1= lorem.sentence
-        %h2= lorem.sentence
-        %p= lorem.paragraph
+        %h1 Gabe Arafa
+        %h2.subheader Emergency Call Operator
+        %blockquote= lorem.paragraph
+        .button-row
+          %p
+            %a.button Read more
+            %a.button Read blog
     .profile-row
-      .copy
-        %h1= lorem.sentence
-        %h2= lorem.sentence
-        %p= lorem.paragraph
       .image
-        %img{ src: lorem.image("400x400") }
+        = image_tag "graduates/test-grad.png"
+      .copy
+        %h1 Dave Smith
+        %h2.subheader Friend to all
+        %blockquote= lorem.paragraph
+        .button-row
+          %p
+            %a.button Read more
+            %a.button Read blog
+
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row

@@ -5,20 +5,16 @@
 
 .button-row {
   @include row;
-  button {
-    margin: 0 5%;
+  .button {
+    margin: 5%;
   }
 }
 
 .email-capture-row {
   @include row;
+  // TODO create form.alt stylings
   form {
-    /*@include media($desktop) {*/
-      /*@include span-columns(8);*/
-      /*@include shift(2);*/
-    /*}*/
     display: inline-block;
-
     input[type="email"] {
       color: $alt-font-color;
       background: transparent;
@@ -30,7 +26,6 @@
       width: auto;
       margin: 0;
     }
-
     input[type="submit"] {
       @extend .button--alt;
       @include border-left-radius(0);
@@ -41,16 +36,27 @@
 .profile-row {
   @include row;
   .image {
+    img {
+      margin: 0 auto $base-spacing;
+    }
     @include media($desktop) {
       @include span-columns(5);
+      img {
+        margin-bottom: 0;
+      }
     }
   }
   .copy {
-    text-align: right;
+    padding-top: $base-spacing;
     @include media($desktop) {
+      text-align: right;
       @include span-columns(7);
     }
   }
+}
+
+.two-width-row {
+  @include ma-columns(2);
 }
 
 .three-width-row {

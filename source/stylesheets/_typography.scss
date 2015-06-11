@@ -12,7 +12,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, {
   font-family: $heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
@@ -21,6 +21,11 @@ h6 {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   font-weight: normal;
+  color: $brand-primary-color;
+
+  &.subheader {
+    color: $medium-gray;
+  }
 }
 
 h1 {
@@ -58,6 +63,41 @@ a {
   &:focus {
     outline: none;
   }
+}
+
+blockquote {
+  /* --- structure --- */
+  position: relative;
+  margin: 0;
+
+  /* theme */
+  font-style: italic;
+  text-indent: 2em;
+
+  &:before {
+    display: block;
+    position: absolute;
+    height: 0;
+    width: 0;
+    font-size: 3em;
+    font-family: "helvetica";
+    font-weight: bold;
+    line-height: 0;
+    text-indent: 0;
+  }
+
+  &:before {
+    content: "\201C"; /* &ldquo; */
+    left: 0.10em;
+    top: 0.28em;
+  }
+
+}
+
+.article__blockquote {
+  max-width: 480px;
+  padding-bottom: rhythm-increment(0) + em;
+  padding-left: 0.618em; /* 1.618em * 0.618em = 16px/1em */
 }
 
 hr {

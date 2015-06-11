@@ -1,0 +1,64 @@
+.slider {
+  position: relative;
+
+  .container {
+    padding: 0 $base-spacing * 3;
+  }
+
+  h1 {
+    margin-bottom: modular-scale(-5);
+  }
+  h2.subheader {
+    font-size: modular-scale(0);
+    margin-bottom: modular-scale(3);
+  }
+  blockquote {
+    font-size: modular-scale(1);
+  }
+  .button-row {
+    padding-right: 0.2em;
+  }
+
+  .button {
+    margin-right: 0;
+  }
+
+  .slick-prev, .slick-next {
+
+     /*--- structure --- */
+    position: absolute;
+    top: 50%;
+
+     /*--- theming --- */
+    border: none;
+    color: transparent;
+    background: transparent;
+    &:focus {
+      outline: none;
+    }
+    &:before {
+      font-size: modular-scale(4);
+      position: absolute;
+      color: $dark-gray;
+      top: 0;
+      height: modular_scale(0);
+      width: modular_scale(0);
+      cursor: pointer;
+    }
+    &:hover:before {
+      color: orange;
+    }
+  }
+  .slick-prev {
+    left: 0;
+    &:before {
+      @include ma-arrow-icon($left-arrow);
+    }
+  }
+  .slick-next {
+    right: 0;
+    &:before {
+      @include ma-arrow-icon($right-arrow);
+    }
+  }
+}
