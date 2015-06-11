@@ -1,7 +1,7 @@
 footer {
   color: $alt-font-color;
   text-align: center;
-  background-color: $red;
+  background-color: $brand-primary-color;
   h3, small {
     color: inherit;
     font-weight: book;
@@ -32,7 +32,12 @@ footer {
 
   .footer-links {
     @include ma-columns(4);
-    margin: modular-scale(1) 0 modular-scale(4);
+    margin: 0 0 modular-scale(4);
+    padding-top: modular-scale(2);
+
+    .column {
+      margin-bottom: modular-scale(3);
+    }
   }
 }
 
