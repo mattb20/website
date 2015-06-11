@@ -1,12 +1,14 @@
 .hero {
-  padding: modular-scale(2) modular-scale(0);
+  padding: modular-scale(4) modular-scale(0) modular-scale(6);
   color: $alt-font-color;
   background-color: $alt-background-color;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  /*padding: modular-scale(8) modular-scale(1);*/
+  @include media($desktop) {
+    padding: modular-scale(8) modular-scale(1);
+  }
 
   .logo {
     margin-bottom: modular-scale(2);
