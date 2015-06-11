@@ -15,11 +15,9 @@ select {
 label {
   font-weight: 600;
   margin-bottom: $small-spacing / 2;
-
   &.required::after {
     content: "*";
   }
-
   abbr {
     display: none;
   }
@@ -34,15 +32,13 @@ textarea {
   box-sizing: border-box;
   font-family: $base-font-family;
   font-size: $base-font-size;
-  margin-bottom: $base-spacing / 2;
-  padding: $base-spacing / 3;
+  margin-bottom: modular_scale(-4);
+  padding: modular_scale(-3);
   transition: border-color;
   width: 100%;
-
   &:hover {
     border-color: darken($base-border-color, 10%);
   }
-
   &:focus {
     border-color: $action-color;
     box-shadow: $form-box-shadow-focus;
@@ -73,4 +69,17 @@ select {
   margin-bottom: $base-spacing;
   max-width: 100%;
   width: auto;
+}
+
+form.alt {
+  color: $alt-font-color;
+  #{$all-text-inputs},
+  select[multiple=multiple],
+  textarea {
+    background: transparent;
+    border: $base-border;
+  }
+  input[type="submit"] {
+    @extend .button--alt;
+  }
 }

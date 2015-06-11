@@ -14,11 +14,9 @@
   @include row;
   // TODO create form.alt stylings
   form {
+    @extend form.alt;
     display: inline-block;
     input[type="email"] {
-      color: $alt-font-color;
-      background: transparent;
-      border: $base-border;
       border-right-width: 0;
       @include border-left-radius($base-border-radius);
       display: block;
@@ -27,8 +25,8 @@
       margin: 0;
     }
     input[type="submit"] {
-      @extend .button--alt;
       @include border-left-radius(0);
+      padding: 0.6em;
     }
   }
 }
