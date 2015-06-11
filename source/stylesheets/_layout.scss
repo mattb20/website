@@ -1,9 +1,3 @@
-body {
-  @include media($desktop) {
-    padding-top: $navbar-height;
-  }
-}
-
 section {
   text-align: center;
 

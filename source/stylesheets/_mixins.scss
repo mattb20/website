@@ -35,3 +35,15 @@
   -moz-osx-font-smoothing: grayscale;
   content: $arrow;
 }
+
+// Calculates color for button
+@mixin ma-button-color($color) {
+  color: $color;
+  border-color: $color;
+
+  &:hover,
+  &:focus {
+    background-color: darken($color, 15%);
+    color: $white;
+  }
+}

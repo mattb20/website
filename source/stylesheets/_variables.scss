@@ -15,7 +15,6 @@ $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
@@ -46,7 +45,8 @@ $action-color: lighten($sea-blue, 0.1);
 // Border
 $base-border-color: $light-gray;
 $alt-border-color: $white;
-$base-border: 2px solid $base-border-color;
+$base-border-width: 2px;
+$base-border: $base-border-width solid $base-border-color;
 $base-border-radius: 0.2em;
 
 // Forms
@@ -62,8 +62,13 @@ $mobile: new-breakpoint(max-width $small-screen);
 $desktop: new-breakpoint(min-width $large-screen);
 
 // Navigation
-$navbar-height: 3em;
+$navbar-height: $base-spacing;
 
 // Icons
 $left-arrow: "\e03f";
 $right-arrow: "\e04b";
+
+// Buttons
+$button-color: $base-font-color;
+$large-button-color: $brand-primary-color;
+$alt-button-color: $alt-font-color;

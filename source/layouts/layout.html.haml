@@ -17,18 +17,12 @@
     %header{class: "navigation", role: "banner"}
       %nav{role: "navigation"}
         %ul.navigation-menu
-          %li
-            %a Home
-          %li
-            %a Graduates
-          %li
-            %a Partners
-          %li
-            %a Curriculum
-          %li
-            %a About Us
-          %li
-            %a Apply
+          %li= link_to "Home", "/"
+          %li= link_to "Graduates", "graduates.html"
+          %li= link_to "Partners", "partners.html"
+          %li= link_to "Curriculum", "curriculum.html"
+          %li= link_to "About Us", "about.html"
+          %li= link_to "Apply", "apply.html", class: "button--large"
 
     = yield
 

@@ -1,29 +1,22 @@
 #{$all-button-inputs},
 .button, button {
   @include appearance(none);
+  border: $base-border;
+  @include ma-button-color($button-color);
   -webkit-font-smoothing: antialiased;
   background-color: transparent;
   border-radius: $base-border-radius;
-  border: $base-border;
-  border-color: $base-font-color;
-  color: $base-font-color;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
   font-size: $base-font-size;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1;
-  padding: 0.65em 1em;
+  padding: modular_scale(-2) modular_scale(0);
   text-decoration: none;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-
-  &:hover,
-  &:focus {
-    background-color: darken($action-color, 15%);
-    color: #fff;
-  }
 
   &:disabled {
     cursor: not-allowed;
@@ -33,6 +26,13 @@
 
 .button--alt {
   @extend button;
-  color: $alt-font-color;
-  border-color: $alt-font-color;
+  @include ma-button-color($alt-button-color);
+}
+
+.button--large {
+  @extend button;
+  @include ma-button-color($large-button-color);
+  padding: modular_scale(0) modular_scale(2);
+  border-width: 3px;
+  border-radius: $base-border-radius * 4;
 }
