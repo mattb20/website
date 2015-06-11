@@ -1,14 +1,14 @@
 footer {
   text-align: center;
+  @include ma-container;
 
   @include media($desktop) {
-    @include outer-container;
-    padding: 5rem;
+    padding: $base-spacing * 2;
     text-align: left;
   }
 
   .footer-links {
-    @include ma-rows(4);
+    @include ma-columns(4);
   }
 }
 

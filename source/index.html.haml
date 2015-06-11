@@ -1,45 +1,48 @@
 %section
-  .centered-row
-    %img{ src: lorem.image("100x100") }
-    %h1= lorem.sentence
-    %h2= lorem.sentence
-    %p= lorem.paragraph
-  .form-row
-    %form
-      %p
-        %input
-        %input{type: "submit"}
-  .button-row
-    %button= lorem.word
-    %button= lorem.word
-    %button= lorem.word
+  .container
+    .centered-row
+      %img{ src: lorem.image("100x100") }
+      %h1= lorem.sentence
+      %h2= lorem.sentence
+      %p= lorem.paragraph
+    .form-row
+      %form
+        %p
+          %input
+          %input{type: "submit"}
+    .button-row
+      %button= lorem.word
+      %button= lorem.word
+      %button= lorem.word
 
 %section.slider
-  .profile-row
-    .image
-      %img{ src: lorem.image("400x400") }
-    .copy
-      %h1= lorem.sentence
-      %h2= lorem.sentence
-      %p= lorem.paragraph
-  .profile-row
-    .copy
-      %h1= lorem.sentence
-      %h2= lorem.sentence
-      %p= lorem.paragraph
-    .image
-      %img{ src: lorem.image("400x400") }
+  .container
+    .profile-row
+      .image
+        %img{ src: lorem.image("400x400") }
+      .copy
+        %h1= lorem.sentence
+        %h2= lorem.sentence
+        %p= lorem.paragraph
+    .profile-row
+      .copy
+        %h1= lorem.sentence
+        %h2= lorem.sentence
+        %p= lorem.paragraph
+      .image
+        %img{ src: lorem.image("400x400") }
 %section
-  .centered-row
-    %h1= lorem.sentence
-    %p= lorem.paragraph
+  .container
+    .centered-row
+      %h1= lorem.sentence
+      %p= lorem.paragraph
 
-  .three-width-row
-    .column
-      %img{ src: lorem.image("200x100") }
-      %img{ src: lorem.image("200x100") }
-    .column
-      %button= lorem.word
-    .column
-      %img{ src: lorem.image("200x100") }
-      %img{ src: lorem.image("200x100") }
+    .three-width-row
+      .column
+        %img{ src: lorem.image("200x100") }
+        %img{ src: lorem.image("200x100") }
+      .column
+        %button= lorem.word
+      .column
+        %img{ src: lorem.image("200x100") }
+        %img{ src: lorem.image("200x100") }

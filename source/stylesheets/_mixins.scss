@@ -1,20 +1,24 @@
 // Hide content for mobile devices
 @mixin ma-hidden-mobile {
-
   @include media($mobile) {
     visibility: hidden;
   }
 }
 
+@mixin ma-container {
+  @include media($desktop) {
+    @include outer-container;
+  }
+}
+
 // Sets up a responsive grid for the number of $rows
 // On mobile the columns will just all be inline
-@mixin ma-rows($rows) {
-  @include row;
+@mixin ma-columns($rows) {
+  @include ma-container;
 
   .column {
     @include media($desktop) {
-      // TODO get 12 from a variable
-      @include span-columns(12 / $rows);
+      @include span-columns($grid-columns / $rows);
     }
   }
 }

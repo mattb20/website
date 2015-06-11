@@ -12,6 +12,7 @@
 }
 
 .form-row {
+  @include row;
   input {
     display: inline-block;
   }
@@ -36,10 +37,10 @@
 }
 
 .three-width-row {
-  @include ma-rows(3);
+  @include ma-columns(3);
 }
 
 .four-width-row {
-  @include ma-rows(4);
+  @include ma-columns(4);
 }
 

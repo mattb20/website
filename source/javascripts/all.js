@@ -3,6 +3,6 @@
 //= require_tree .
 
 $(document).ready(function() {
-  $('.slider').slick();
+  $('.slider .container').slick();
   console.log('slick');
 });

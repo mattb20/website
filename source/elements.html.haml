@@ -1,10 +1,19 @@
 :css
-  section { text-align: left; }
-%section.container
+  .elements { text-align: left; }
+
+%h1#main Makers Academy Elements
+%p The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.
+%hr/
+
+%h2 Components
+%hr/
+
+%section.hero
+  .centered-row
+    %h1 Hero Component rthsyafds
+
+%section.elements
   .wrapper
-    %h1#main Makers Academy Elements
-    %p The purpose of this HTML is to help determine what default settings are with Bitters and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.
-    %hr/
     %h1#headings Headings
     %h1 h1. Learn to code in 12 weeks
     %h2 h2. Learn to code in 12 weeks
@@ -61,8 +70,8 @@
         %p
           %label{:for => "text_area"} Text Area:
           %textarea#text_area
-        %p
-          %label{:for => "select_element"} Select Element:
+            %p
+              %label{:for => "select_element"} Select Element:
           %select{:name => "select_element"}
             %optgroup{:label => "Option Group 1"}
               %option{:value => "1"} Option 1
