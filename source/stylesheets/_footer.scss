@@ -1,14 +1,38 @@
 footer {
+  color: $alt-font-color;
   text-align: center;
-  @include ma-container;
+  background-color: $red;
+  h3, small {
+    color: inherit;
+    font-weight: book;
+    font-size: modular-scale(-1);
+  }
+  small {
+    letter-spacing: modular-scale(-9);
+    font-size: modular-scale(-2);
+    opacity: .75;
+  }
+  a, a:visited, a:active {
+    color: inherit;
+    font-size: modular-scale(-1);
+    text-decoration: none;
+  }
+  img {
+    width: modular-scale(4);
+  }
+  .container {
+    @include ma-container;
 
-  @include media($desktop) {
-    padding: $base-spacing * 2;
-    text-align: left;
+    @include media($desktop) {
+      padding: modular-scale(-1)  0 0 modular-scale(4);
+      background-color: $red;
+      text-align: left;
+    }
   }
 
   .footer-links {
     @include ma-columns(4);
+    margin: modular-scale(1) 0 modular-scale(4);
   }
 }
 

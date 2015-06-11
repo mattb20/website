@@ -32,41 +32,43 @@
 
     = yield
 
-    %footer.footer{role: "contentinfo"}
-      .footer-links
-        %ul.column
-          %li
-            %h3 Content
-          %li
-            %a About
-          %li
-            %a Contact
-          %li
-            %a Products
-        %ul.column
-          %li
-            %h3 Follow Us
-          %li
-            %a Facebook
-          %li
-            %a Twitter
-          %li
-            %a YouTube
-        %ul.column
-          %li
-            %h3 Legal
-          %li
-            %a Terms and Conditions
-          %li
-            %a Privacy Policy
-        %ul.column
-          %li
-            %h3 Legal
-          %li
-            %a Terms and Conditions
-          %li
-            %a Privacy Policy
-      .centered-row
-        .footer-logo
-          %img{src: lorem.image("100x100")}
-        %p= lorem.sentence
+    %footer{role: "contentinfo"}
+      .container
+        .footer-links
+          %ul.column
+            %li
+              %h3 Content
+            %li
+              %a About
+            %li
+              %a Contact
+            %li
+              %a Products
+          %ul.column
+            %li
+              %h3 Follow Us
+            %li
+              %a Facebook
+            %li
+              %a Twitter
+            %li
+              %a YouTube
+          %ul.column
+            %li
+              %h3 Legal
+            %li
+              %a Terms and Conditions
+            %li
+              %a Privacy Policy
+          %ul.column
+            %li
+              %h3 Legal
+            %li
+              %a Terms and Conditions
+            %li
+              %a Privacy Policy
+        .centered-row
+          .footer-logo
+            = image_tag "logo/ma-white.png", class: "logo"
+          %p
+            %small= "&copy; Makers Academy #{Time.now.year}"
