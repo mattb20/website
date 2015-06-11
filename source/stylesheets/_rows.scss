@@ -32,9 +32,8 @@
     }
 
     input[type="submit"] {
+      @extend .button--alt;
       @include border-left-radius(0);
-      border: $base-border;
-      background: none;
     }
   }
 }

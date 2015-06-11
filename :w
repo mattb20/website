@@ -1,5 +1,5 @@
 - description "Powerful website full of best practices and keywords"
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+%section.hero{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
       = image_tag "logo/ma-white.png", class: "logo"
@@ -33,10 +33,10 @@
       %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
     .three-width-row
       .column
-        = image_tag "hiring-partners/ctm-logo.png"
-        = image_tag "hiring-partners/deloitte-logo.png"
+        %img{ src: lorem.image("200x100") }
+        %img{ src: lorem.image("200x100") }
       .column
-        %a.button--alt See more partners
+        %button= lorem.word
       .column
-        = image_tag "hiring-partners/springer-logo.png"
-        = image_tag "hiring-partners/thoughtworks-logo.png"
+        %img{ src: lorem.image("200x100") }
+        %img{ src: lorem.image("200x100") }
