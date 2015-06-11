@@ -5,31 +5,49 @@
 
 .button-row {
   @include row;
-
   button {
     margin: 0 5%;
   }
 }
 
-.form-row {
+.email-capture-row {
   @include row;
-  input {
+  form {
+    /*@include media($desktop) {*/
+      /*@include span-columns(8);*/
+      /*@include shift(2);*/
+    /*}*/
     display: inline-block;
+
+    input[type="email"] {
+      color: $alt-font-color;
+      background: transparent;
+      border: $base-border;
+      border-right-width: 0;
+      @include border-left-radius($base-border-radius);
+      display: block;
+      float: left;
+      width: auto;
+      margin: 0;
+    }
+
+    input[type="submit"] {
+      @include border-left-radius(0);
+      border: $base-border;
+      background: none;
+    }
   }
 }
 
 .profile-row {
   @include row;
-
   .image {
     @include media($desktop) {
       @include span-columns(5);
     }
   }
-
   .copy {
     text-align: right;
-
     @include media($desktop) {
       @include span-columns(7);
     }
@@ -43,4 +61,3 @@
 .four-width-row {
   @include ma-columns(4);
 }
-

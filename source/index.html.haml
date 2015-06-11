@@ -1,19 +1,14 @@
-%section
+- description "Powerful website full of best practices and keywords"
+%section.hero{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %img{ src: lorem.image("100x100") }
-      %h1= lorem.sentence
-      %h2= lorem.sentence
-      %p= lorem.paragraph
-    .form-row
+      = image_tag "logo/ma-white.png", class: "logo"
+      %h1 Learn to code in 12 weeks
+      %p= lorem.sentences(5)
+    .email-capture-row
       %form
-        %p
-          %input
-          %input{type: "submit"}
-    .button-row
-      %button= lorem.word
-      %button= lorem.word
-      %button= lorem.word
+        %input{type: "email", placeholder: "Email Address"}
+        %input{type: "submit"}
 
 %section.slider
   .container

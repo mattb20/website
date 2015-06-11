@@ -3,6 +3,7 @@
 ###
 
 #activate :directory_indexes
+activate :meta_tags
 
 # Change Compass configuration
 # compass_config do |config|

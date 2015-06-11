@@ -8,9 +8,18 @@
 %h2 Components
 %hr/
 
-%section.hero
-  .centered-row
-    %h1 Hero Component rthsyafds
+%h3 Hero Component
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      = image_tag "logo/ma-white.png", class: "logo"
+      %h1 Learn to code in 12 weeks
+      %p= lorem.sentences(5)
+    .email-capture-row
+      %form
+        %input{type: "email", placeholder: "Email Address"}
+        %input{type: "submit"}
 
 %section.elements
   .wrapper

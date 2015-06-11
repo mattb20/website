@@ -17,9 +17,10 @@ h6 {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
-  letter-spacing: .125em;
+  letter-spacing: 0.015em;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  font-weight: normal;
 }
 
 h1 {

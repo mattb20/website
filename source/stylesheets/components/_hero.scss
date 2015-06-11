@@ -1,8 +1,23 @@
 .hero {
-
+  color: $alt-font-color;
   background-color: $alt-background-color;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 3em;
+  padding: modular-scale(8) modular-scale(1);
+
+  .logo {
+    margin-bottom: modular-scale(2);
+  }
+
+  h1 {
+    margin-bottom: modular-scale(-1);
+  }
+
+  p {
+    font-size: modular-scale(1);
+    margin-bottom: modular-scale(2);
+    max-width: em(450);
+    display: inline-block;
+  }
 }

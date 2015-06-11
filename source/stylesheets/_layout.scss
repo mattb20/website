@@ -1,5 +1,7 @@
 body {
-  padding-top: $navbar-height;
+  @include media($desktop) {
+    padding-top: $navbar-height;
+  }
 }
 
 section {
