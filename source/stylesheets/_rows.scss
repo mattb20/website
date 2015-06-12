@@ -4,7 +4,6 @@
   img {
     @include ma-hide-mobile;
   }
-
   @include media($desktop) {
     img {
       margin: 0 5%;
@@ -21,7 +20,6 @@
 
 .email-capture-row {
   @include ma-row;
-  // TODO create form.alt stylings
   form {
     @extend form.alt;
     display: inline-block;
@@ -42,6 +40,7 @@
 
 .profile-row {
   @include ma-row;
+  margin-bottom: 0;
   .image {
     img {
       margin: 0 auto $base-spacing;
