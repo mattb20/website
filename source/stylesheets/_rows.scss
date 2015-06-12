@@ -31,7 +31,8 @@
     display: inline-block;
     input[type="email"] {
       border-right-width: 0;
-      @include border-left-radius($base-border-radius);
+      @include border-left-radius($button-border-radius);
+      padding-left: modular-scale(0);
       display: block;
       float: left;
       width: auto;
@@ -39,7 +40,7 @@
     }
     input[type="submit"] {
       @include border-left-radius(0);
-      padding: 0.6em;
+      padding: 0.6em modular-scale(0);
     }
   }
 }

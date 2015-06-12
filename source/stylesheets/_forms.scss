@@ -71,15 +71,17 @@ select {
   width: auto;
 }
 
+// Alternative form color on darker background
 form.alt {
-  color: $alt-font-color;
   #{$all-text-inputs},
   select[multiple=multiple],
   textarea {
     background: transparent;
     border: $base-border;
+    color: $alt-font-color;
   }
   input[type="submit"] {
-    @extend .button--alt;
+    border: $base-border;
+    color: $alt-font-color;
   }
 }
