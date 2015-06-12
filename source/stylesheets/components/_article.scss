@@ -1,11 +1,13 @@
 .article {
   @include ma-container;
+  padding-top: modular-scale(1);
   article {
     @include clearfix;
     text-align: left;
-    /*h1, h2, h3, p {*/
-      /*margin: 0;*/
-    /*}*/
+    padding-bottom: modular-scale(2);
+    h1, h2, h3 {
+      margin-top: modular-scale(0);
+    }
     hr {
       border-bottom: 1px solid $light-gray;
       border-left: none;
@@ -71,6 +73,12 @@
         text-transform: uppercase;
       }
     }
+    ol {
+      @extend .default-ol
+    }
+    ul {
+      @extend .default-ul
+    }
     hr {
       width: 3em;
     }
@@ -91,5 +99,13 @@
     p.author {
       font-style: italic;
     }
+  }
+}
+.article--centered {
+  @extend .article;
+  max-width: $large-screen;
+
+  article {
+    text-align: center;
   }
 }

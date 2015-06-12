@@ -2,65 +2,40 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-banner.jpg")});"}
   .container
     .centered-row
-      = image_tag "logo/ma-white.png", class: "logo"
-      %h1 About Makers Academy
+      %h1 About Us
       %p Makers Academy is a fully immersive, full-time computer programming bootcamp, designed to turn people with no knowledge of web-development into job-ready junior developers in just 12 weeks. We’re Europe’s #1 Developer Bootcamp, running new classes of 25 students every 6 weeks, and we’re based in the heart of London’s Tech City.
-    .email-capture-row
-      %form
-        %input{type: "email", placeholder: "Your Email Address"}
-        %input{type: "submit", value: "Stay Informed"}
-
-%section
-  .container
-    .slider-row
-      .slider-content
-        .profile-row
-          .image
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Paul Fitzgerald
-            %h2.subheader Marketing Executive to Junior Developer
-            %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
-            .button-row
-              %p
-                %a.button Read more
-                %a.button Read blog
-        .profile-row
-          .image
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Dave Smith
-            %h2.subheader Friend to all
-            %blockquote I love Makers - they are a really nice bunch of chaps
-            .button-row
-              %p
-                %a.button Read more
-                %a.button Read blog
+%section.article--centered
+  %article
+    %h1 Makers Story
+    %p
+      %span Makers Academy was founded by Evgeny Shadchnev and Rob Johnson when they met at Forward labs.
+      Evgeny was a classically trained software developer and as he was trying to build out his team he discovered a lack of qualified developers on the market. At the same time Rob had been teaching himself to program through a book on Objective C and it took him 9 months and 30 hours a week to get through it. A conversation between the two made them realise that while computer science programs were good at drilling students with theory, they were training people to become computer science professors instead of programmers, and something had to be done.
+    %p About 4 months after that conversation they started their first cohort &hyphen; in February 2013 - creating Makers Academy - an alternative to university and a vocational route into a job as a web developer, allowing people to switch careers and learn to code in 3 hyper-intensive months. Makers Academy has now been going for over 2 years and has graduated over 300 students.
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
-      %h1 Meet our hiring partners
-      %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
-    .three-width-row
-      .column
-        = image_tag "hiring-partners/ctm-logo.png"
-        = image_tag "hiring-partners/deloitte-logo.png"
-      .column
-        %a.button--alt See more partners
-      .column
-        = image_tag "hiring-partners/springer-logo.png"
-        = image_tag "hiring-partners/thoughtworks-logo.png"
+      %h1 Our Team
+      %p Our mission is to teach as many people as possible to code well and since we started in early 2013 we’ve grown from two people to a team of twenty. We are not just colleagues, we’re a family. The Makers Academy team is a diverse bunch who work hard and play hard. Interested in joining us on our journey? Get in touch.
 %section
   .container
     .centered-row
-      %h1 Curriculum
-      %p We believe that teaching consists of much more than just the materials we provide and the curriculum we created. We currently use a mixture of workshops, exercises, projects, classroom break-out sessions and end of the week tests to help our students understand programming. The immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our teaching process.
-    .centered-row
-      = image_tag "technologies/ruby-logo.png", height: 150
-      = image_tag "technologies/html5-logo.png", height: 150
-      = image_tag "technologies/javascript-logo.png", height: 150
-      = image_tag "technologies/git-logo.png", height: 150
+      %h1 Frequently-Asked Questions
+    .faq-row
+      %aside#scroll-on-page-top
+        %a.scroll-on-page-link{href: "#scroll-link-1"} Can I really learn to code in 12 weeks?
+        %a.scroll-on-page-link{href: "#scroll-link-2"} Really?
+        %a.scroll-on-page-link{href: "#scroll-link-3"} No, Seriously...
+      %article
+        .question
+          %h4#scroll-link-1 Can I really learn to code in 12 weeks?
+          %p= lorem.paragraphs(3)
+        .question
+          %h4#scroll-link-2 Really?
+          %p= lorem.paragraphs(3)
+        .question
+          %h4#scroll-link-3 No, Seriously...
+          %p= lorem.paragraphs(3)
 %section.hero{style: "background-image: url(#{image_path("backgrounds/shop-floor.jpg")});"}
   .container
     .centered-row

@@ -14,6 +14,11 @@
     @include span-columns(10);
     @include shift(1);
     @include omega;
+    margin-bottom: modular-scale(2);
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -92,4 +97,50 @@
 
 .four-width-row {
   @include ma-columns(4);
+}
+
+.faq-row {
+  display: inline-block;
+
+  aside {
+    @include media($desktop) {
+      @include span-columns(4);
+    }
+  }
+
+  .scroll-on-page-link {
+    display: block;
+    margin-right: $base-spacing;
+    outline: none;
+    padding: ($base-spacing / 2) 0;
+    text-align: right;
+
+    &:last-child {
+      margin-bottom: $base-spacing;
+    }
+  }
+
+  article {
+    h4 {
+      margin: 0 0 0.5em 0;
+      text-align: left;
+    }
+
+    p {
+      color: $base-font-color;
+      line-height: $base-line-height;
+    }
+
+    .question p:last-of-type {
+      margin-bottom: 2em;
+      text-align: left;
+      h4 {
+        text-align: left;
+      }
+    }
+
+    @include media($large-screen) {
+      @include span-columns(8);
+    }
+  }
 }
