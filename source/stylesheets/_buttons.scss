@@ -12,7 +12,7 @@
   font-size: $base-font-size;
   font-weight: normal;
   line-height: 1;
-  padding: modular_scale(-2) modular_scale(0);
+  padding: modular-scale(-2) modular-scale(0);
   text-decoration: none;
   user-select: none;
   vertical-align: middle;
@@ -32,7 +32,7 @@
 .button--large {
   @extend button;
   @include ma-button-color($large-button-color);
-  padding: modular_scale(0) modular_scale(2);
+  padding: modular-scale(0) modular-scale(2);
   border-width: 3px;
   border-radius: $base-border-radius * 4;
 }

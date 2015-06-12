@@ -5,6 +5,11 @@
   }
 }
 
+@mixin ma-row {
+  @include row;
+  margin-bottom: $base-spacing;
+}
+
 @mixin ma-container {
   @include media($desktop) {
     @include outer-container;

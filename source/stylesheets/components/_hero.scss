@@ -11,13 +11,12 @@
   }
 
   h1 {
-    margin-bottom: modular-scale(-1);
+    margin-bottom: 0.5em;
     color: inherit;
   }
 
   p {
     font-size: modular-scale(1);
-    margin-bottom: modular-scale(2);
     max-width: em(450);
     display: inline-block;
   }

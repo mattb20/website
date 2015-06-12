@@ -1,17 +1,17 @@
 .centered-row {
-  @include row;
+  @include ma-row;
   text-align: center;
 }
 
 .button-row {
-  @include row;
+  @include ma-row;
   .button {
     margin: 5%;
   }
 }
 
 .email-capture-row {
-  @include row;
+  @include ma-row;
   // TODO create form.alt stylings
   form {
     @extend form.alt;
@@ -32,7 +32,7 @@
 }
 
 .profile-row {
-  @include row;
+  @include ma-row;
   .image {
     img {
       margin: 0 auto $base-spacing;
