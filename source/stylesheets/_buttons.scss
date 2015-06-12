@@ -1,38 +1,51 @@
 #{$all-button-inputs},
 .button, button {
   @include appearance(none);
-  border: $base-border;
-  @include ma-button-color($button-color);
+  border: 2px solid $button-color;
+  color: $button-color;
   -webkit-font-smoothing: antialiased;
   background-color: transparent;
-  border-radius: $base-border-radius;
+  border-radius: $base-border-radius * 4;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
   font-size: $base-font-size;
   font-weight: normal;
   line-height: 1;
-  padding: modular-scale(-2) modular-scale(0);
+  padding: modular-scale(0) modular-scale(1);
   text-decoration: none;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
+  @include transition(all 0.2s ease-in-out);
 
   &:disabled {
     cursor: not-allowed;
     opacity: 0.5;
   }
+
+  &:hover,
+  &:focus {
+    color: inherit;
+    background: rgba($button-color, 0.2);
+  }
+}
+
+.button--apply {
+  @extend button;
+  color: $alt-font-color;
+  background-color: $apply-button-color;
 }
 
 .button--alt {
   @extend button;
-  @include ma-button-color($alt-button-color);
+  color: $alt-button-color;
+  border-color: $alt-button-color;
+  background-color: transparent;
 }
 
 .button--large {
   @extend button;
-  @include ma-button-color($large-button-color);
   padding: modular-scale(0) modular-scale(2);
   border-width: 3px;
-  border-radius: $base-border-radius * 4;
 }

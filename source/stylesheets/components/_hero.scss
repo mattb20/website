@@ -1,5 +1,5 @@
 .hero {
-  padding: modular-scale(4) modular-scale(0) modular-scale(6);
+  padding: modular-scale(4) modular-scale(0);
   color: $alt-font-color;
   background-color: $alt-background-color;
   background-position: center center;
@@ -17,8 +17,12 @@
 
   p {
     font-size: modular-scale(1);
-    max-width: em(450);
-    display: inline-block;
+  }
+
+  .button--alt, .button {
+    border-color: $alt-font-color;
+    font-size: modular-scale(-1);
+    margin: 0 modular-scale(2);
   }
 }
 
