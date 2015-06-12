@@ -32,7 +32,7 @@ footer {
 
   .footer-links {
     @include ma-columns(4);
-    margin: 0 0 modular-scale(4);
+    margin: 0 0 $base-spacing;
     padding-top: modular-scale(2);
 
     .column {

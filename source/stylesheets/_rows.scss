@@ -1,6 +1,15 @@
 .centered-row {
   @include ma-row;
   text-align: center;
+  img {
+    @include ma-hide-mobile;
+  }
+
+  @include media($desktop) {
+    img {
+      margin: 0 5%;
+    }
+  }
 }
 
 .button-row {
@@ -59,20 +68,20 @@
 
 .three-width-row {
   @include ma-columns(3);
+  .column {
+    img {
+      width: 70%;
+      margin-bottom: modular-scale(1);
+    }
+  }
+  @include media($desktop) {
     .column {
       img {
-        width: 70%;
-        margin-bottom: modular-scale(1);
+        width: 100%;
+        margin-bottom: 0;
       }
     }
-    @include media($desktop) {
-      .column {
-        img {
-          width: 100%;
-          margin-bottom: 0;
-        }
-      }
-    }
+  }
 }
 
 .four-width-row {

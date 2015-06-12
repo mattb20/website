@@ -47,7 +47,7 @@ h4 {
 p {
   margin: 0 0 $small-spacing;
 
-  &:last-of-type {
+  &:last-child {
     margin-bottom: 0;
   }
 }

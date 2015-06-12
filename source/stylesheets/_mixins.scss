@@ -1,7 +1,7 @@
 // Hide content for mobile devices
-@mixin ma-hidden-mobile {
+@mixin ma-hide-mobile {
   @include media($mobile) {
-    visibility: hidden;
+    display: none;
   }
 }
 

@@ -1,11 +1,15 @@
+// Navigation is hidden unless on desktop for the moment
 header.navigation {
-  @include ma-hidden-mobile;
+  display: none;
   position: fixed;
   width: 100%;
   padding: ($navbar-height / 2) 0;
   top: 0;
   z-index: 999;
   background: transparentize($base-background-color, 0.2);
+  @include media($desktop) {
+    display: block;
+  }
   nav {
     @include outer_container;
     ul {
