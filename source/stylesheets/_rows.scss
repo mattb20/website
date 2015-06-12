@@ -9,6 +9,12 @@
       margin: 0 5%;
     }
   }
+
+  p {
+    @include span-columns(10);
+    @include shift(1);
+    @include omega;
+  }
 }
 
 .button-row {

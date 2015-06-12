@@ -39,5 +39,10 @@ footer {
       margin-bottom: modular-scale(3);
     }
   }
+
+  .footer-copyright {
+    @extend .centered-row;
+    margin-bottom: 0;
+  }
 }
 
