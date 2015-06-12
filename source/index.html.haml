@@ -10,30 +10,32 @@
         %input{type: "email", placeholder: "Your Email Address"}
         %input{type: "submit", value: "Stay Informed"}
 
-%section.slider
+%section
   .container
-    .profile-row
-      .image
-        = image_tag "graduates/paul-smith.png"
-      .copy
-        %h1 Paul Fitzgerald
-        %h2.subheader Marketing Executive to Junior Developer
-        %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
-        .button-row
-          %p
-            %a.button Read more
-            %a.button Read blog
-    .profile-row
-      .image
-        = image_tag "graduates/paul-smith.png"
-      .copy
-        %h1 Dave Smith
-        %h2.subheader Friend to all
-        %blockquote I love Makers - they are a really nice bunch of chaps
-        .button-row
-          %p
-            %a.button Read more
-            %a.button Read blog
+    .slider-row
+      .slider-content
+        .profile-row
+          .image
+            = image_tag "graduates/paul-smith.png"
+          .copy
+            %h1 Paul Fitzgerald
+            %h2.subheader Marketing Executive to Junior Developer
+            %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
+            .button-row
+              %p
+                %a.button Read more
+                %a.button Read blog
+        .profile-row
+          .image
+            = image_tag "graduates/paul-smith.png"
+          .copy
+            %h1 Dave Smith
+            %h2.subheader Friend to all
+            %blockquote I love Makers - they are a really nice bunch of chaps
+            .button-row
+              %p
+                %a.button Read more
+                %a.button Read blog
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
