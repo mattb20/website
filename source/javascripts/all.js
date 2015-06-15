@@ -1,4 +1,5 @@
 //= require jquery
+//= require ajaxchimp
 //= require slick
 //= require_tree .
 
@@ -7,4 +8,5 @@ $(document).ready(function() {
     prevArrow: "<a class='slick-prev'></a>",
     nextArrow: "<a class='slick-next'></a>"
   });
+  $('.email-capture').ajaxChimp();
 });
