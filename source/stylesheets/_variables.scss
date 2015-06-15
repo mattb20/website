@@ -60,6 +60,7 @@ $medium-screen: em(640);
 $large-screen: em(860);
 
 $mobile: new-breakpoint(max-width $small-screen);
+$tablet: new-breakpoint(min-width $medium-screen);
 $desktop: new-breakpoint(min-width $large-screen);
 
 // Navigation

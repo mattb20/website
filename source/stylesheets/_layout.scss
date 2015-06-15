@@ -1,7 +1,12 @@
 section {
   text-align: center;
-  padding: $section-spacing 0;
-  
+  padding: $section-spacing $base-spacing;
+
+  @include media($desktop) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .container {
     @include ma-container;
   }

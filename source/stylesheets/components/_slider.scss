@@ -28,11 +28,15 @@
   .half-slider-row {
     @include ma-row(table);
     margin-bottom: 0;
+    .copy {
+      padding-top: $section-spacing;
+    }
     .copy, .slider {
       width: 100%;
       vertical-align: middle;
       @include media($desktop) {
         @include span-columns(6);
+        padding-top: 0;
       }
     }
   }

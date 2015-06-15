@@ -12,9 +12,6 @@
   }
 
   p {
-    /*@include span-columns(10);
-    @include shift(1);
-    @include omega;*/
     margin-bottom: modular-scale(2);
 
     &:last-of-type {
@@ -39,6 +36,9 @@
     input {
       display: block;
       float: left;
+      @include media($mobile) {
+        font-size: modular-scale(-1);
+      }
     }
 
     input[type="email"] {
