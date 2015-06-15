@@ -12,11 +12,6 @@
   h1 {
     margin-bottom: 0.5em;
   }
-  .button--alt, .button {
-    border-color: $alt-font-color;
-    font-size: modular-scale(-1);
-    margin: 0 modular-scale(2);
-  }
 }
 
 .hero-splash {
