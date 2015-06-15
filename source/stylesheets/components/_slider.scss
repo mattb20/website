@@ -29,8 +29,9 @@
     margin-bottom: 0;
     .copy {
       padding-top: $section-spacing;
+      width: 100%;
     }
-    .copy, .slider {
+    .column {
       width: 100%;
       vertical-align: middle;
       @include media($desktop) {
@@ -38,11 +39,26 @@
         padding-top: 0;
       }
     }
+
+    @include media($desktop) {
+      // Padding on the elements inside,
+      // regardless of element
+      .column:first-child {
+        padding-right: modular-scale(2);
+      }
+      .column:last-child {
+        padding-left: modular-scale(2);
+      }
+    }
   }
   .slide {
     padding: $section-spacing;
+    .subheader {
+      padding-top: modular-scale(0);
+      margin-bottom: modular-scale(0);
+    }
     p {
-      max-width: modular-scale(10);
+      max-width: modular-scale(11);
       margin: 0 auto;
     }
   }
@@ -67,14 +83,15 @@
   &:before {
     font-size: modular-scale(4);
     position: absolute;
-    color: $dark-gray;
+    color: $medium-gray;
     top: 50%;
     height: modular-scale(0);
     width: modular-scale(0);
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
   }
   &:hover:before {
-    color: orange;
+    color: $brand-primary-color;
   }
   // This is to stop buttons from appearing
   // on hover (specificity w/.button)

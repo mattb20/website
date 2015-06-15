@@ -8,9 +8,6 @@
 @mixin ma-row($display: block) {
   @include row($display);
   margin-bottom: $section-spacing;
-  @if $display == table {
-    vertical-align: middle;
-  }
   &:last-child {
     margin-bottom: 0;
   }
@@ -18,8 +15,6 @@
 
 @mixin ma-container($local-max-width: $max-width) {
   @include clearfix;
-  display: table-cell;
-  vertical-align: middle;
   @include media($desktop) {
     @include outer-container($local-max-width);
   }

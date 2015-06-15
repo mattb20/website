@@ -10,10 +10,15 @@
       margin-left: 5%;
     }
   }
+  .column {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+  }
 
   p {
-    margin-bottom: modular-scale(2);
-
+    margin: 0 auto modular-scale(2);
+    max-width: em(580);
     &:last-of-type {
       margin-bottom: 0;
     }

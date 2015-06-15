@@ -13,30 +13,32 @@
 %section.half-slider
   .container
     .half-slider-row
-      .copy.copy--left
-        %h2.leader Meet
-        %h1 Our Grads
-        %p We've graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
-        .button-row
-          %p
-            %a.button--horizontal Read Grad Stories
-      .slider
-        .slider-content
-          %figure.with-caption
-            .image
-              = image_tag "graduates/paul-smith.png"
-            %figcaption
-              %p= lorem.words(2)
-              %p= lorem.words(2)
-              %p= lorem.words(2)
-        .slider-content
-          %figure.with-caption
-            .image
-              = image_tag "graduates/paul-smith.png"
-            %figcaption
-              %p= lorem.words(2)
-              %p= lorem.words(2)
-              %p= lorem.words(2)
+      .column
+        .copy.copy--left
+          %h2.leader Meet
+          %h1 Our Grads
+          %p We've graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
+          .button-row
+            %p
+              %a.button--horizontal Read Grad Stories
+      .column
+        .slider
+          .slider-content
+            %figure.with-caption
+              .image
+                = image_tag "graduates/paul-smith.png"
+              %figcaption
+                %p= lorem.words(2)
+                %p= lorem.words(2)
+                %p= lorem.words(2)
+          .slider-content
+            %figure.with-caption
+              .image
+                = image_tag "graduates/paul-smith.png"
+              %figcaption
+                %p= lorem.words(2)
+                %p= lorem.words(2)
+                %p= lorem.words(2)
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
@@ -57,29 +59,30 @@
 %section.half-slider
   .container
     .half-slider-row
-      .slider
-        .slide
-          .image--centered
-            = image_tag "technologies/ruby-logo.png", height: 150
-          %h2.subheader Ruby
-          %p Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.
-        .slide
-          .image--centered
-            = image_tag "technologies/html5-logo.png", height: 150
-          %h2.subheader HTML
-          %p HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both server- and client-side.
-        .slide
-          .image--centered
-            = image_tag "technologies/javascript-logo.png", height: 150
-          %h2.subheader JavaScript
-          %p JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.
-        .slide
-          .image--centered
-            = image_tag "technologies/git-logo.png", height: 150
-          %h2.subheader git
-          %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits out focus on Pair Programming - and our Hiring Partners.
-
-      .copy.copy--right
+      .column
+        .slider
+          .slide
+            .image--centered
+              = image_tag "technologies/ruby-logo.png", height: 150
+            %h2.subheader Ruby
+            %p Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.
+          .slide
+            .image--centered
+              = image_tag "technologies/html5-logo.png", height: 150
+            %h2.subheader HTML
+            %p HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both server- and client-side.
+          .slide
+            .image--centered
+              = image_tag "technologies/javascript-logo.png", height: 150
+            %h2.subheader JavaScript
+            %p JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.
+          .slide
+            .image--centered
+              = image_tag "technologies/git-logo.png", height: 150
+            %h2.subheader git
+            %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits out focus on Pair Programming - and our Hiring Partners.
+      .column
+        .copy.copy--right
         %h3.leader A World-Leading
         %h1 Curriculum
         %p Our immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our teaching process.
@@ -87,13 +90,4 @@
           %p
             %a.button--horizontal Our Education Philosophy
 
-%section.hero--apply{style: "background-image: url(#{image_path("backgrounds/shop-floor.jpg")});"}
-  .container
-    .centered-row
-      %h1 Apply Now
-      %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options
-    .button-row
-      %p
-        = link_to "Payment Options", "payment", class: "button button--horizontal"
-        = link_to "Apply", "http://apply.makersacademy.com", class: "button button--vertical button--large"
-        = link_to "Learn More", "curriculum", class: "button button--horizontal"
+= partial :"partials/apply"

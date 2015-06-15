@@ -17,7 +17,7 @@ h6, {
   font-size: $base-font-size;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
-  letter-spacing: 0.015em;
+  letter-spacing: 0.25em;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   font-weight: normal;
@@ -31,7 +31,6 @@ h6, {
 
 h1 {
   font-size: $h1-font-size;
-
   @include media($mobile) {
     font-size: modular-scale(-1, $h1-font-size);
   }
@@ -125,7 +124,9 @@ picture {
 
 // General-purpose copy, including titles
 .copy {
-
+  .button-row {
+    padding-top: modular-scale(2);
+  }
 }
 
 .copy--left {
