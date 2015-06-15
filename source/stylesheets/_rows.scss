@@ -34,13 +34,16 @@
   @include ma-row;
   form {
     @extend form.alt;
-    display: inline-block;
+
+    input {
+      display: block;
+      float: left;
+    }
+
     input[type="email"] {
       border-right-width: 0;
       @include border-left-radius($button-border-radius);
       padding-left: modular-scale(0);
-      display: block;
-      float: left;
       width: auto;
       margin: 0;
     }

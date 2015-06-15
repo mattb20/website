@@ -4,20 +4,19 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  img {
-    margin-top: modular-scale(2);
+  @include media($desktop) {
+    img {
+      margin-top: modular-scale(2);
+    }
   }
 
   .logo {
     margin-bottom: modular-scale(2);
   }
-
   h1 {
     margin-bottom: 0.5em;
     color: inherit;
   }
-
   .button--alt, .button {
     border-color: $alt-font-color;
     font-size: modular-scale(-1);
@@ -27,7 +26,6 @@
 
 .hero-splash {
   @extend .hero;
-
   @include media($desktop) {
     padding: modular-scale(7) modular-scale(1);
   }
