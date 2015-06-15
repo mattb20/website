@@ -13,6 +13,7 @@
   font-weight: normal;
   line-height: $base-line-height;
   padding: modular-scale(-2) modular-scale(1);
+  min-width: 10em;
   text-decoration: none;
   user-select: none;
   vertical-align: middle;
@@ -26,7 +27,11 @@
 
   &:hover,
   &:focus {
-    background: rgba($white, 0.4);
+    background: rgba($white, 0.2);
+  }
+
+  @include media(mobile) {
+    background-color: rgba($white, 0.4);
   }
 }
 
@@ -50,21 +55,8 @@
   }
 }
 
-.button--apply {
-  @extend button;
-  color: darken($alt-font-color, 10%);
-  background-color: darken($apply-button-color, 10%);
-}
-
-.button--alt {
-  @extend button;
-  color: $alt-button-color;
-  border-color: $alt-button-color;
-  background-color: transparent;
-}
-
 .button--large {
   @extend button;
-  padding: modular-scale(0) modular-scale(2);
-  border-width: 3px;
+  max-width: 11.1em;
+  font-size: modular-scale(1);
 }

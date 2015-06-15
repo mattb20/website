@@ -13,12 +13,13 @@
 %section.half-slider
   .container
     .half-slider-row
-      .copy
+      .copy.copy--left
+        %h2.leader Meet
         %h1 Our Grads
         %p We've graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
         .button-row
           %p
-            %a.button Read Grad Stories
+            %a.button--horizontal Read Grad Stories
       .slider
         .slider-content
           %figure.with-caption
@@ -40,14 +41,15 @@
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
-      %h1 Meet our hiring partners
+      %h2.leader Meet
+      %h1 Our hiring partners
       %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
     .three-width-row
       .column
         = image_tag "hiring-partners/ctm-logo.png"
         = image_tag "hiring-partners/deloitte-logo.png"
       .column
-        %a.button--alt See more partners
+        %a.button--horizontal See more partners
       .column
         = image_tag "hiring-partners/springer-logo.png"
         = image_tag "hiring-partners/thoughtworks-logo.png"
@@ -77,21 +79,21 @@
           %h2.subheader git
           %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits out focus on Pair Programming - and our Hiring Partners.
 
-      .copy
+      .copy.copy--right
         %h3.leader A World-Leading
         %h1 Curriculum
         %p Our immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our teaching process.
         .button-row
           %p
-            %a.button Our Education Philosophy
+            %a.button--horizontal Our Education Philosophy
 
-%section.hero{style: "background-image: url(#{image_path("backgrounds/shop-floor.jpg")});"}
+%section.hero--apply{style: "background-image: url(#{image_path("backgrounds/shop-floor.jpg")});"}
   .container
     .centered-row
       %h1 Apply Now
       %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options
     .button-row
       %p
-        = link_to "Payment Options", "payment", class: "button--alt"
-        = link_to "Apply", "http://apply.makersacademy.com", class: "button--apply"
-        = link_to "Learn More", "curriculum", class: "button--alt"
+        = link_to "Payment Options", "payment", class: "button button--horizontal"
+        = link_to "Apply", "http://apply.makersacademy.com", class: "button button--vertical button--large"
+        = link_to "Learn More", "curriculum", class: "button button--horizontal"

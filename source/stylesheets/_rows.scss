@@ -23,7 +23,28 @@
 .button-row {
   @include ma-row;
   .button {
-    margin: 5%;
+    display: inline-block;
+
+    /* margins for central CTAs only */
+    &:nth-child(2n) {
+      margin: 0 2.61em;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+
+    /* --- mobile --- */
+    @include media($mobile) {
+      display: block;
+      max-width: 10em;
+      margin: 0 auto 1em auto;
+      &:nth-child(2n) {
+        margin: 0 auto 1em auto;
+      }
+      &:last-child {
+        margin-right: auto;
+      }
+    }
   }
 }
 

@@ -1,5 +1,8 @@
 .hero {
   @extend .backgrounded;
+  display: table;
+  text-align: center;
+  width: 100%;
   @include media($desktop) {
     img {
       margin-top: modular-scale(2);

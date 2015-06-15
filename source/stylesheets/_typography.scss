@@ -122,3 +122,18 @@ picture {
   margin: 0;
   max-width: 100%;
 }
+
+// General-purpose copy, including titles
+.copy {
+
+}
+
+.copy--left {
+  @extend .copy;
+  text-align: left;
+}
+
+.copy--right {
+  @extend .copy;
+  text-align: right;
+}
