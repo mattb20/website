@@ -5,9 +5,12 @@
   }
 }
 
-@mixin ma-row {
-  @include row;
+@mixin ma-row($display: block) {
+  @include row($display);
   margin-bottom: $section-spacing;
+  @if $display == table {
+    vertical-align: middle;
+  }
 }
 
 @mixin ma-container {
@@ -19,7 +22,7 @@
 // Sets up a responsive grid for the number of $rows
 // On mobile the columns will just all be inline
 @mixin ma-columns($rows) {
-  @include ma-row;
+  @include ma-row(table);
   .column {
     @include media($desktop) {
       @include span-columns($grid-columns / $rows);

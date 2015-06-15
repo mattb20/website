@@ -11,8 +11,8 @@
   font-family: $base-font-family;
   font-size: $base-font-size;
   font-weight: normal;
-  line-height: 1;
-  padding: modular-scale(0) modular-scale(1);
+  line-height: $base-line-height;
+  padding: modular-scale(-2) modular-scale(1);
   text-decoration: none;
   user-select: none;
   vertical-align: middle;

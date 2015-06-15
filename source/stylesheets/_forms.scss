@@ -10,6 +10,7 @@ select {
   display: block;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  line-height: $base-line-height;
 }
 
 label {
@@ -33,7 +34,7 @@ textarea {
   font-family: $base-font-family;
   font-size: $base-font-size;
   margin-bottom: modular-scale(-4);
-  padding: modular-scale(-3);
+  padding: $form-input-padding;
   transition: border-color;
   width: 100%;
   &:hover {

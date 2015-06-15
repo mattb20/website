@@ -1,4 +1,3 @@
-// TODO rearrange
 .slider-row {
   .slider-content {
     position: relative;
@@ -15,15 +14,15 @@
     }
     .button-row {
       padding-right: 0.2em;
+      margin-bottom:0;
     }
     .button {
       margin-right: 0;
     }
+    // Style slick buttons
     .slick-prev, .slick-next {
-      /*--- structure --- */
       position: absolute;
       top: 50%;
-      /*--- theming --- */
       border: none;
       color: transparent;
       background: transparent;

@@ -52,6 +52,7 @@ $base-border-radius: 0.2em;
 // Forms
 $form-box-shadow: none;
 $form-box-shadow-focus: none;
+$form-input-padding: modular-scale(-3);
 
 // Breakpoints
 $small-screen: em(480);
