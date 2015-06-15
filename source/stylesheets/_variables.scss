@@ -4,7 +4,7 @@ $base-font-family: $futura;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
-$base-font-size: 16px;
+$base-font-size: 18px;
 $h1-font-size: modular-scale(4);
 $h2-font-size: modular-scale(3);
 $h3-font-size: modular-scale(2);
@@ -62,7 +62,7 @@ $mobile: new-breakpoint(max-width $small-screen);
 $desktop: new-breakpoint(min-width $large-screen);
 
 // Navigation
-$navbar-height: $base-spacing;
+$navbar-height: modular-scale(0);
 
 // Icons
 $left-arrow: "\e03f";
@@ -73,3 +73,6 @@ $button-color: $brand-primary-color;
 $apply-button-color: $brand-primary-color; // Filled in button
 $alt-button-color: $alt-font-color;
 $button-border-radius: $base-border-radius * 4;
+
+// Layout
+$section-spacing: modular-scale(4);

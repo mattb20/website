@@ -1,10 +1,13 @@
 .hero {
-  padding: modular-scale(4) modular-scale(0);
   color: $alt-font-color;
   background-color: $alt-background-color;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  img {
+    margin-top: modular-scale(2);
+  }
 
   .logo {
     margin-bottom: modular-scale(2);
@@ -13,10 +16,6 @@
   h1 {
     margin-bottom: 0.5em;
     color: inherit;
-  }
-
-  p {
-    font-size: modular-scale(1);
   }
 
   .button--alt, .button {
@@ -30,6 +29,6 @@
   @extend .hero;
 
   @include media($desktop) {
-    padding: modular-scale(9) modular-scale(1);
+    padding: modular-scale(7) modular-scale(1);
   }
 }

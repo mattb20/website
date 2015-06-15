@@ -3,10 +3,12 @@ header.navigation {
   display: none;
   position: fixed;
   width: 100%;
+  font-size: modular-scale(-1);
   padding: ($navbar-height / 2) 0;
   top: 0;
   z-index: 999;
   background: transparentize($base-background-color, 0.2);
+  border-bottom: $base-border;
   @include media($desktop) {
     display: block;
   }
@@ -21,6 +23,10 @@ header.navigation {
       }
       a {
         text-decoration: none;
+
+        &.button--apply {
+          font-size: modular-scale(0);
+        }
       }
     }
   }

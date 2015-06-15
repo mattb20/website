@@ -1,6 +1,6 @@
 section {
   text-align: center;
-  padding-top: $base-spacing;
+  padding: $section-spacing modular-scale(0) 0;
 
   .container {
     @include ma-container;

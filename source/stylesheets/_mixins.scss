@@ -7,7 +7,7 @@
 
 @mixin ma-row {
   @include row;
-  margin-bottom: $base-spacing;
+  margin-bottom: $section-spacing;
 }
 
 @mixin ma-container {
@@ -19,7 +19,7 @@
 // Sets up a responsive grid for the number of $rows
 // On mobile the columns will just all be inline
 @mixin ma-columns($rows) {
-  @include ma-container;
+  @include ma-row;
   .column {
     @include media($desktop) {
       @include span-columns($grid-columns / $rows);
