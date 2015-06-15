@@ -1,10 +1,8 @@
-.slider-row {
-  .slider-content {
+.full-slider {
+  padding-bottom: 0;
+  .slider {
     position: relative;
-    @include media($desktop) {
-      padding: 0 ($base-spacing * 3);
-    }
-
+    width: 100%;
     h1 {
       margin-bottom: modular-scale(-5);
     }
@@ -22,40 +20,63 @@
     .button {
       margin-right: 0;
     }
-    // Style slick buttons
-    .slick-prev, .slick-next {
-      position: absolute;
-      top: 50%;
-      border: none;
-      color: transparent;
-      background: transparent;
-      &:focus {
-        outline: none;
-      }
-      &:before {
-        font-size: modular-scale(4);
-        position: absolute;
-        color: $dark-gray;
-        top: 0;
-        height: modular-scale(0);
-        width: modular-scale(0);
-        cursor: pointer;
-      }
-      &:hover:before {
-        color: orange;
+  }
+}
+
+.half-slider {
+  padding-bottom: 0;
+  .half-slider-row {
+    @include ma-row(table);
+    margin-bottom: 0;
+    .copy, .slider {
+      width: 100%;
+      vertical-align: middle;
+      @include media($desktop) {
+        @include span-columns(6);
       }
     }
-    .slick-prev {
-      left: 0;
-      &:before {
-        @include ma-arrow-icon($left-arrow);
-      }
-    }
-    .slick-next {
-      right: 0;
-      &:before {
-        @include ma-arrow-icon($right-arrow);
-      }
-    }
+  }
+}
+
+// Style slick buttons
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  border: none;
+  color: transparent;
+  background: transparent;
+  &:focus {
+    outline: none;
+  }
+  &:before {
+    font-size: modular-scale(4);
+    position: absolute;
+    color: $dark-gray;
+    top: 0;
+    height: modular-scale(0);
+    width: modular-scale(0);
+    cursor: pointer;
+  }
+  &:hover:before {
+    color: orange;
+  }
+  // This is to stop buttons from appearing
+  // on hover (specificity w/.button)
+  &:hover, &:focus {
+    background: transparent;
+    color: transparent;
+    border: none;
+  }
+}
+.slick-prev {
+  left: 0;
+  &:before {
+    @include ma-arrow-icon($left-arrow);
+  }
+}
+.slick-next {
+  right: 0;
+  &:before {
+    @include ma-arrow-icon($right-arrow);
   }
 }
