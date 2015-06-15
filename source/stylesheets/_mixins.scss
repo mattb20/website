@@ -16,10 +16,10 @@
   }
 }
 
-@mixin ma-container {
+@mixin ma-container($local-max-width: $max-width) {
   @include clearfix;
   @include media($desktop) {
-    @include outer-container;
+    @include outer-container($local-max-width);
   }
 }
 

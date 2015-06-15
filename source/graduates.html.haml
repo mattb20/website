@@ -37,3 +37,37 @@
               %p
                 %a.button Read more
                 %a.button Read blog
+
+%section.full-slider.backgrounded
+  .slider
+    .slide{ style: "background-image: url(#{image_path("graduate_projects/test-project.jpg")})" }
+      .container
+        .centered-row
+          %h1 Google Maps
+          %h2.subheader Gabe, Alan, and Dave, April 2015
+          %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals. 
+        .button-row
+          %p
+            %a.button See it live
+            %a.button View code
+    .slide{ style: "background-image: url(#{image_path("graduate_projects/test-project-2.jpg")})" }
+      .container
+        .centered-row
+          %h1 Turnup Tunein
+          %h2.subheader Maurice, Martin, and Lauren, May 2015
+          %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals. 
+        .button-row
+          %p
+            %a.button See it live
+            %a.button View code
+
+%section
+  .container
+    .centered-row
+      %h1 Apply Now
+      %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options
+    .button-row
+      %p
+        = link_to "Payment Options", "payment", class: "button--alt"
+        = link_to "Apply", "http://apply.makersacademy.com", class: "button--apply"
+        = link_to "Learn More", "curriculum", class: "button--alt"

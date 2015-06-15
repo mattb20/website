@@ -1,5 +1,5 @@
 .full-slider {
-  padding-bottom: 0;
+  padding: 0;
   .slider {
     position: relative;
     width: 100%;
@@ -24,7 +24,7 @@
 }
 
 .half-slider {
-  padding-bottom: 0;
+  padding: 0;
   .half-slider-row {
     @include ma-row(table);
     margin-bottom: 0;
@@ -38,10 +38,16 @@
   }
 }
 
+.slide {
+  padding: $section-spacing 0 0;
+}
+
 // Style slick buttons
 .slick-prev, .slick-next {
   position: absolute;
-  top: 50%;
+  top: 0;
+  height: 100%;
+  width: modular-scale(2);
   border: none;
   color: transparent;
   background: transparent;
@@ -52,7 +58,7 @@
     font-size: modular-scale(4);
     position: absolute;
     color: $dark-gray;
-    top: 0;
+    top: 50%;
     height: modular-scale(0);
     width: modular-scale(0);
     cursor: pointer;
@@ -71,12 +77,14 @@
 .slick-prev {
   left: 0;
   &:before {
+    left: 0;
     @include ma-arrow-icon($left-arrow);
   }
 }
 .slick-next {
   right: 0;
   &:before {
+    right: 0;
     @include ma-arrow-icon($right-arrow);
   }
 }

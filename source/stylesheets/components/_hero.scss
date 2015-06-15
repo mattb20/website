@@ -1,9 +1,5 @@
 .hero {
-  color: $alt-font-color;
-  background-color: $alt-background-color;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  @extend .backgrounded;
   @include media($desktop) {
     img {
       margin-top: modular-scale(2);
@@ -15,7 +11,6 @@
   }
   h1 {
     margin-bottom: 0.5em;
-    color: inherit;
   }
   .button--alt, .button {
     border-color: $alt-font-color;
