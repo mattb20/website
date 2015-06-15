@@ -1,7 +1,7 @@
 #{$all-button-inputs},
 .button, button {
   @include appearance(none);
-  border: 2px solid $button-color;
+  border: 2px solid $brand-secondary-color;
   color: $button-color;
   -webkit-font-smoothing: antialiased;
   background-color: transparent;
@@ -26,15 +26,34 @@
 
   &:hover,
   &:focus {
-    color: inherit;
-    background: rgba($button-color, 0.2);
+    background: rgba($white, 0.4);
+  }
+}
+
+.button--vertical {
+  @extend button;
+  color: $brand-primary-color;
+  border-color: $brand-primary-color;
+  &:hover {
+    color: darken($brand-primary-color, 10%);
+    border-color: darken($brand-primary-color, 10%);
+  }
+}
+
+.button--horizontal {
+  @extend button;
+  color: $brand-secondary-color;
+  border-color: $brand-secondary-color;
+  &:hover {
+    color: $brand-secondary-color;
+    border-color: $brand-secondary-color;
   }
 }
 
 .button--apply {
   @extend button;
-  color: $alt-font-color;
-  background-color: $apply-button-color;
+  color: darken($alt-font-color, 10%);
+  background-color: darken($apply-button-color, 10%);
 }
 
 .button--alt {

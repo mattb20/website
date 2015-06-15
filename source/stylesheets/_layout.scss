@@ -7,3 +7,13 @@ section {
   }
 }
 
+.backgrounded {
+  background-color: $alt-background-color;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  *, .slick-prev:before, .slick-next:before {
+    color: $alt-font-color !important;
+    border-color: $alt-border-color !important;
+  }
+}

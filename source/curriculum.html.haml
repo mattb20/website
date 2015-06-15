@@ -1,0 +1,33 @@
+- description "See our world-leading curriculum."
+%section
+  .container
+    .centered-row
+      %h1 Curriculum
+      %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals. 
+    .image-row
+      .centered-row
+        = image_tag "curriculum/overview.png", height: 200
+
+%section.article
+  %article
+    %h1 Why us?
+    %p
+      %span Learning is so much more than a curriculum and some educational materials.
+      We currently use a mixture of workshops, exercises, projects, classroom break-out sessions and end-of-week tests to help our students understand programming. The immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our learning process.
+
+    %p Programming is a practical skill - reading books or listening to lectures alone will never make you a developer. We encourage our students to spend every waking second thinking about and writing code... And many of them end up dreaming about it too! This is the only way to become a job-ready junior developer in a few short months. We start every day with a lecture or a workshop, and outside of 'class work', most of our students' time is spent pair programming on practical exercises in the presence of experts.
+
+    %p We don't want our students getting bored, so we encourage people to explore topics that interest them, and since no 2 students are alike, we use the interactive learning environment to tailor the experience for each cohort. In short - if you've never heard of the technologies we list above, don't be put off, and if you already have some experience of coding, there's still a huge amount of value to be had enrolling on one of our courses. We also regularly invite industry expects to give talks to our students. It's a great opportunity to learn from practicing professionals and build your network. So far we have hosted speakers from Stripe, Forward Parners, Moo, Happy Bear Software,Shutl, Skimlinks and many others.
+
+    %p We often get soft software development companies coming in to pair with our students too. We've been fortunate enough in the past to have developers from Pivotal Labs, Skimlinks and other companies to come pair with our students.
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/shop-floor.jpg")});"}
+  .container
+    .centered-row
+      %h1 Apply Now
+      %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options
+    .button-row
+      %p
+        = link_to "Payment Options", "payment", class: "button--alt"
+        = link_to "Apply", "http://apply.makersacademy.com", class: "button--apply"
+        = link_to "Learn More", "curriculum", class: "button--alt" 
