@@ -1,0 +1,20 @@
+.with-caption {
+  position: relative;
+  figcaption {
+    display: none;
+    @include media($desktop) {
+      display: block;
+      position: absolute;
+      bottom: modular-scale(0);
+      width: 100%;
+      font-size: $base-font-size;
+      font-style: italic;
+      text-align: right;
+      color: $white;
+      text-shadow: 1px 1px 1px $dark-gray;
+      p {
+        display: block;
+      }
+    }
+  }
+}

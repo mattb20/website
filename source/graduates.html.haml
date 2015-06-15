@@ -1,0 +1,39 @@
+- description "We have the best graduates."
+%section.hero-small{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h1 Graduates
+      %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals. 
+    .email-capture-row
+      %form
+        %input{type: "email", placeholder: "Your Email Address"}
+        %input{type: "submit", value: "Stay Informed"}
+
+%section.full-slider
+  .slider
+    .slide
+      .container
+        .profile-row
+          .image
+            = image_tag "graduates/paul-smith.png"
+          .copy
+            %h1 Paul Fitzgerald
+            %h2.subheader Marketing Executive to Junior Developer
+            %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
+            .button-row
+              %p
+                %a.button Read more
+                %a.button Read blog
+    .slide
+      .container
+        .profile-row
+          .image
+            = image_tag "graduates/paul-smith.png"
+          .copy
+            %h1 Dave Smith
+            %h2.subheader Friend to all
+            %blockquote I love Makers - they are a really nice bunch of chaps
+            .button-row
+              %p
+                %a.button Read more
+                %a.button Read blog

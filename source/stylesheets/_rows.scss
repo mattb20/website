@@ -1,5 +1,5 @@
 .centered-row {
-  @include ma-row;
+  @include ma-row(table);
   text-align: center;
   img {
     @include ma-hide-mobile;
@@ -12,9 +12,9 @@
   }
 
   p {
-    @include span-columns(10);
+    /*@include span-columns(10);
     @include shift(1);
-    @include omega;
+    @include omega;*/
     margin-bottom: modular-scale(2);
 
     &:last-of-type {

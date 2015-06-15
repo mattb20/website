@@ -30,3 +30,10 @@
     padding: modular-scale(7) modular-scale(1);
   }
 }
+
+.hero-small {
+  @extend .hero;
+  @include media($desktop) {
+    padding: modular-scale(5) modular-scale(1);
+  }
+}

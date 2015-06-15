@@ -45,7 +45,7 @@
 %section
   .container
     .slider-row
-      .slider-content
+      .slider
         .profile-row
           .image
             = image_tag "graduates/paul-smith.png"
@@ -69,6 +69,33 @@
                 %a.button Read more
                 %a.button Read blog
 %hr/
+%h3 Half Slider Row
+
+%section
+  .container
+    .half-slider-row
+      .copy
+        = lorem.sentences(4)
+      .slider
+        .slider-content
+          %figure.with-caption
+            .image
+              = image_tag "graduates/paul-smith.png"
+            %figcaption
+              %p= lorem.words(2)
+              %p= lorem.words(2)
+              %p= lorem.words(2)
+        .slider-content
+          %figure.with-caption
+            .image
+              = image_tag "graduates/paul-smith.png"
+            %figcaption
+              %p= lorem.words(2)
+              %p= lorem.words(2)
+              %p= lorem.words(2)
+
+        
+
 %h3 Article Component
 %section.article
   %article

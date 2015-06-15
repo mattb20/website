@@ -11,6 +11,9 @@
   @if $display == table {
     vertical-align: middle;
   }
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 @mixin ma-container {
