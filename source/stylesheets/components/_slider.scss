@@ -7,7 +7,6 @@
       margin-bottom: modular-scale(-5);
     }
     h2.subheader {
-      font-size: modular-scale(0);
       margin-bottom: modular-scale(3);
     }
     blockquote {
@@ -38,6 +37,13 @@
         @include span-columns(6);
         padding-top: 0;
       }
+    }
+  }
+  .slide {
+    padding: $section-spacing;
+    p {
+      max-width: modular-scale(10);
+      margin: 0 auto;
     }
   }
 }

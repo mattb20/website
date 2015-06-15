@@ -23,8 +23,9 @@ h6, {
   font-weight: normal;
   color: $brand-primary-color;
 
-  &.subheader {
+  &.subheader, &.leader {
     color: $medium-gray;
+    font-size: modular-scale(0);
   }
 }
 

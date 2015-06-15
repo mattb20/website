@@ -51,16 +51,40 @@
       .column
         = image_tag "hiring-partners/springer-logo.png"
         = image_tag "hiring-partners/thoughtworks-logo.png"
-%section
+
+%section.half-slider
   .container
-    .centered-row
-      %h1 Curriculum
-      %p We believe that teaching consists of much more than just the materials we provide and the curriculum we created. We currently use a mixture of workshops, exercises, projects, classroom break-out sessions and end of the week tests to help our students understand programming. The immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our teaching process.
-    .centered-row
-      = image_tag "technologies/ruby-logo.png", height: 150
-      = image_tag "technologies/html5-logo.png", height: 150
-      = image_tag "technologies/javascript-logo.png", height: 150
-      = image_tag "technologies/git-logo.png", height: 150
+    .half-slider-row
+      .slider
+        .slide
+          .image--centered
+            = image_tag "technologies/ruby-logo.png", height: 150
+          %h2.subheader Ruby
+          %p Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.
+        .slide
+          .image--centered
+            = image_tag "technologies/html5-logo.png", height: 150
+          %h2.subheader HTML
+          %p HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both server- and client-side.
+        .slide
+          .image--centered
+            = image_tag "technologies/javascript-logo.png", height: 150
+          %h2.subheader JavaScript
+          %p JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.
+        .slide
+          .image--centered
+            = image_tag "technologies/git-logo.png", height: 150
+          %h2.subheader git
+          %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits out focus on Pair Programming - and our Hiring Partners.
+
+      .copy
+        %h3.leader A World-Leading
+        %h1 Curriculum
+        %p Our immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our teaching process.
+        .button-row
+          %p
+            %a.button Our Education Philosophy
+
 %section.hero{style: "background-image: url(#{image_path("backgrounds/shop-floor.jpg")});"}
   .container
     .centered-row

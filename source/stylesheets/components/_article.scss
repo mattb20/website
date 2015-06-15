@@ -95,7 +95,6 @@
 }
 .article--centered {
   @extend .article;
-  max-width: $large-screen;
 
   article {
     text-align: center;
@@ -104,9 +103,11 @@
 
 .article--right {
   @extend .article;
-  max-width: $large-screen;
 
   article {
     text-align: right;
+    p {
+      float: right;
+    }
   }
 }

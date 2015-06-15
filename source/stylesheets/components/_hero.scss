@@ -27,3 +27,8 @@
     padding: modular-scale(5) modular-scale(1);
   }
 }
+
+.hero--apply {
+  @extend .hero;
+  min-height: 61.8vh;
+}
