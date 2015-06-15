@@ -34,6 +34,7 @@
   @include ma-row;
   form {
     @extend form.alt;
+    display: inline-block;
 
     input {
       display: block;
