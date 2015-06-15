@@ -18,6 +18,8 @@
 
 @mixin ma-container($local-max-width: $max-width) {
   @include clearfix;
+  display: table-cell;
+  vertical-align: middle;
   @include media($desktop) {
     @include outer-container($local-max-width);
   }

@@ -1,5 +1,8 @@
 .hero {
   @extend .backgrounded;
+  display: table;
+  text-align: center;
+  width: 100%;
   @include media($desktop) {
     img {
       margin-top: modular-scale(2);
@@ -26,4 +29,9 @@
   @include media($desktop) {
     padding: modular-scale(5) modular-scale(1);
   }
+}
+
+.hero--apply {
+  @extend .hero;
+  min-height: 61.8vh;
 }
