@@ -1,3 +1,6 @@
+require 'lib/current_page_helper'
+require 'lib/partner_logos_helper'
+
 ###
 # Compass
 ###
@@ -44,11 +47,7 @@ activate :meta_tags
  end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers CurrentPageHelper, PartnerLogosHelper
 
 set :css_dir, 'stylesheets'
 

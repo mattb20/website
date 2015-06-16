@@ -1,0 +1,17 @@
+%header{class: "navigation", role: "banner"}
+  %nav{role: "navigation"}
+    %ul.navigation-menu
+      - unless current_page.url == "/"
+        %li{ class: current_if_current_page(current_page, "/") }
+          = link_to "Home", "/"
+      %li{ class: current_if_current_page(current_page, "/graduates/") }
+        = link_to "Graduates", "graduates.html"
+      %li{ class: current_if_current_page(current_page, "/partners/") }
+        = link_to "Partners", "partners.html"
+      %li{ class: current_if_current_page(current_page, "/curriculum/") }
+        = link_to "Curriculum", "curriculum.html"
+      - if current_page.url == "/about-us/"
+        %li{ class: current_if_current_page(current_page, "/about-us/") }
+          = link_to "About Us", "about-us.html"
+      %li{ class: current_if_current_page(current_page, "/apply/") }
+        = link_to "Apply", "apply.html", class: "button--vertical"

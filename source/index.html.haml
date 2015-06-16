@@ -18,9 +18,9 @@
           %h2.leader Meet
           %h1 Our Grads
           %p We've graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
-          .button-row
+          .button-row.shift-to-bottom
             %p
-              %a.button--horizontal Read Grad Stories
+              = link_to "Read Grad Stories", "graduates.html", class: "button--horizontal"
       .column
         .slider
           .slider-content
@@ -48,17 +48,27 @@
       %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
     .three-width-row
       .column
-        = image_tag "hiring-partners/ctm-logo.png"
-        = image_tag "hiring-partners/deloitte-logo.png"
+        .image--centered
+          = image_tag "hiring-partners/ctm-logo.png"
+        .image--centered
+          = image_tag "hiring-partners/deloitte-logo.png"
       .column
-        %a.button--horizontal See more partners
+        = link_to "See our Partners", "partners.html", class: "button--horizontal"
       .column
         = image_tag "hiring-partners/springer-logo.png"
         = image_tag "hiring-partners/thoughtworks-logo.png"
 
-%section.half-slider
+%section.half-slider.half-slider--reverse.with-padding
   .container
     .half-slider-row
+      .hide-desktop
+        .copy.copy--right
+          %h3.leader A World-Leading
+          %h1 Curriculum
+          %p Our immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our teaching process.
+          .button-row.shift-to-bottom
+            %p
+              = link_to "Our Education Philosophy", "curriculum.html", class: "button--horizontal"
       .column
         .slider
           .slide
@@ -81,13 +91,13 @@
               = image_tag "technologies/git-logo.png", height: 150
             %h2.subheader git
             %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits out focus on Pair Programming - and our Hiring Partners.
-      .column
+      .column.show-desktop
         .copy.copy--right
           %h3.leader A World-Leading
           %h1 Curriculum
           %p Our immersive environment, having expert teachers on hand all day, and pairing with other students are all key to our teaching process.
           .button-row
             %p
-              %a.button--horizontal Our Education Philosophy
+              = link_to "Our Education Philosophy", "curriculum.html", class: "button--horizontal"
 
 = partial :"partials/apply"

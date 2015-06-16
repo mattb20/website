@@ -1,5 +1,5 @@
 - description "Check out our hiring partners."
-%section.backgrounded{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
       %h1 Hiring Partners
@@ -10,44 +10,28 @@
 
 %section.article
   %article
+    %h2.subheader Who are our Hiring Partners?
+    %p Our hiring partners come in all sorts of sizes. From big corporate established companies looking to update their tech team with new blood to autonomous agencies looking to get you just making.
+
+%section.backgrounded.image-grid
+  .container
+    = output_logo_tags
+
+
+%section.article--right
+  %article
     %h2.subheader Why do they hire Makers grads?
     %p Makers Academy graduates are hired because they're passionate, driven, curious and engaging.  Due to the variety of backgrounds of our students, hiring parters like to hire from us because they know you're more than just a junior developer thanks to your succesful careers in other industries everything from corporate and start-up, whether law, marketing, graphic design or anything else: experience you will take to your new company.
 
-%section.full-slider
+%hr
+
+%section.full-slider.no-min-height.with-padding
   .slider
     .slide
       .container
         .profile-row
-          .image
-            = image_tag "graduates/paul-smith.png"
-          .copy
+          .copy--center
             %blockquote Makers Academy is a Conveyor Belt of Awesome! There is no other source of recruitment that I would put this much energy into.
             %h2.subheader Martin Aspeli, Chief Engineer, Deloitte Digital
-    .slide
-      .container
-        .profile-row
-          .image
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
-            %h2.subheader Marketing Executive to Junior Developer
-
-%section.article--right
-  %article
-    %h2.subheader Who are our Hiring Partners?
-    %p Our hiring partners come in all sorts of sizes. From big corporate established companies looking to update their tech team with new blood to autonomous agencies looking to get you just making.
-
-%section.backgrounded
-  .container
-    .three-width-row
-      .column
-        = image_tag "hiring-partners/ctm-logo.png"
-        = image_tag "hiring-partners/deloitte-logo.png"
-      .column
-        = image_tag "hiring-partners/springer-logo.png"
-        = image_tag "hiring-partners/thoughtworks-logo.png"
-      .column
-        = image_tag "hiring-partners/springer-logo.png"
-        = image_tag "hiring-partners/thoughtworks-logo.png"
 
 = partial :"partials/apply"

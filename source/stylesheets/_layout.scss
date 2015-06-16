@@ -1,10 +1,13 @@
 section {
+  position: relative;
   text-align: center;
-  padding: $section-spacing $base-spacing;
+  padding: modular-scale(-1, $section-spacing) modular-scale(-5, $section-spacing);
   min-height: 400px;
+  &.no-min-height {
+    min-height: 0;
+  }
   @include media($desktop) {
-    padding-right: 0;
-    padding-left: 0;
+    padding: $section-spacing 0;
   }
 
   .container {
@@ -20,5 +23,36 @@ section {
   *, .slick-prev:before, .slick-next:before {
     color: $alt-font-color !important;
     border-color: $alt-border-color !important;
+  }
+}
+
+hr {
+  display: block;
+  margin: 0 auto;
+  width: 61.8%;
+}
+
+.hide-desktop {
+  display: block !important;
+  @include media($desktop) {
+    display: none !important;
+  }
+}
+
+.show-desktop {
+  display: none !important;
+  @include media($desktop) {
+    display: table-cell !important;
+  }
+}
+
+.shift-to-bottom {
+  position: absolute;
+  bottom: modular-scale(2);
+  left: modular-scale(2);
+  right: modular-scale(2);
+  z-index: 10;
+  @include media($desktop) {
+    position: static;
   }
 }

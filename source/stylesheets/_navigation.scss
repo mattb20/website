@@ -1,17 +1,16 @@
 // Navigation is hidden unless on desktop for the moment
 header.navigation {
   display: none;
+  @include media($desktop) {
+    display: block;
+  }
   position: fixed;
   width: 100%;
-  font-size: modular-scale(-1);
   padding: ($navbar-height / 2) 0;
   top: 0;
   z-index: 999;
   background: transparentize($base-background-color, 0.2);
   border-bottom: $base-border;
-  @include media($desktop) {
-    display: block;
-  }
   nav {
     @include outer_container;
     ul {
@@ -20,10 +19,19 @@ header.navigation {
         display: inline;
         text-align: right;
         padding-right: $base-spacing;
+        &.current a:after {
+          content: "";
+          position: absolute;
+          left:0;
+          right:0;
+          bottom:-1 * modular-scale(-3);
+          height: 2px;
+          background: rgba($brand-secondary-color, 0.6);
+        }
       }
       a {
         text-decoration: none;
-
+        position: relative;
         &.button--apply {
           font-size: modular-scale(0);
         }

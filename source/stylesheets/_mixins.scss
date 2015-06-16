@@ -7,14 +7,19 @@
 
 @mixin ma-row($display: block) {
   @include row($display);
-  margin-bottom: $section-spacing;
+  margin-bottom: modular-scale(0);
   &:last-child {
     margin-bottom: 0;
+  }
+  @include media($desktop) {
+    margin-bottom: $section-spacing;
   }
 }
 
 @mixin ma-container($local-max-width: $max-width) {
   @include clearfix;
+  padding-left: modular-scale(1);
+  padding-right: modular-scale(1);
   @include media($desktop) {
     @include outer-container($local-max-width);
   }

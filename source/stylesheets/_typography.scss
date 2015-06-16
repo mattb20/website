@@ -15,9 +15,9 @@ h5,
 h6, {
   font-family: $heading-font-family;
   font-size: $base-font-size;
-  line-height: $heading-line-height;
+  line-height: $large-line-height;
   margin: 0 0 $small-spacing;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   font-weight: normal;
@@ -30,29 +30,42 @@ h6, {
 }
 
 h1 {
-  font-size: $h1-font-size;
-  @include media($mobile) {
-    font-size: modular-scale(-1, $h1-font-size);
+  font-size: modular-scale(-2, $h1-font-size);
+  line-height: $heading-line-height;
+  @include media($desktop) {
+    font-size: $h1-font-size;
   }
 }
 
 h2 {
-  font-size: $h2-font-size;
+  font-size: modular-scale(-2, $h2-font-size);
+  @include media($desktop) {
+    font-size: $h2-font-size;
+  }
 }
 
 h3 {
-  font-size: $h3-font-size;
+  font-size: modular-scale(-2, $h3-font-size);
+  @include media($desktop) {
+    font-size: $h3-font-size;
+  }
 }
 
 h4 {
-  font-size: $h4-font-size;
+  font-size: modular-scale(-2, $h4-font-size);
+  @include media($desktop) {
+    font-size: $h4-font-size;
+  }
 }
 
 p {
   margin: 0 0 $small-spacing;
-
+  font-size: $base-font-size;
   &:last-child {
     margin-bottom: 0;
+  }
+  @include media($desktop) {
+    font-size: $base-font-size;
   }
 }
 
@@ -76,7 +89,7 @@ a {
 blockquote {
   /* --- structure --- */
   position: relative;
-  margin: 0;
+  margin: 0 0 modular-scale(1);
 
   /* theme */
   font-style: italic;
@@ -96,7 +109,7 @@ blockquote {
 
   &:before {
     content: "\201C"; /* &ldquo; */
-    left: 0.10em;
+    left: -0.05em;
     top: 0.28em;
   }
 
@@ -127,14 +140,20 @@ picture {
   .button-row {
     padding-top: modular-scale(2);
   }
+  text-align: center;
 }
 
 .copy--left {
   @extend .copy;
-  text-align: left;
+
+  @include media($desktop) {
+    text-align: left;
+  }
 }
 
 .copy--right {
   @extend .copy;
-  text-align: right;
+  @include media($desktop) {
+    text-align: right;
+  }
 }

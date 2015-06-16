@@ -1,5 +1,5 @@
 - description "We have the best graduates."
-%section.hero-small{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
       %h1 Graduates
@@ -14,31 +14,35 @@
     .slide
       .container
         .profile-row
-          .image
+          .image.show-desktop
             = image_tag "graduates/paul-smith.png"
           .copy
             %h1 Paul Fitzgerald
             %h2.subheader Marketing Executive to Junior Developer
             %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
-            .button-row
+            .button-row.shift-to-bottom
               %p
-                %a.button Read more
-                %a.button Read blog
+                = link_to "Read more", "#", class: "button--horizontal"
+                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
+          .image.hide-desktop.no-padding
+            = image_tag "graduates/paul-smith.png"
     .slide
       .container
         .profile-row
-          .image
+          .image.show-desktop
             = image_tag "graduates/paul-smith.png"
           .copy
             %h1 Dave Smith
             %h2.subheader Friend to all
-            %blockquote I love Makers - they are a really nice bunch of chaps
-            .button-row
+            %blockquote Why not Makers? It's pretty sick
+            .button-row.shift-to-bottom
               %p
-                %a.button Read more
-                %a.button Read blog
+                = link_to "Read more", "#", class: "button--horizontal"
+                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
+          .image.hide-desktop.no-padding
+            = image_tag "graduates/paul-smith.png"
 
-%section.full-slider.backgrounded
+%section.full-slider.backgrounded.with-padding
   .slider
     .slide{ style: "background-image: url(#{image_path("graduate_projects/test-project.jpg")})" }
       .container
@@ -48,8 +52,8 @@
           %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals. 
         .button-row
           %p
-            %a.button See it live
-            %a.button View code
+            = link_to "See it live", "http://google.com", class: "button--horizontal", target: "_blank"
+            = link_to "View code", "http://github.com", class: "button--horizontal", target: "_blank"
     .slide{ style: "background-image: url(#{image_path("graduate_projects/test-project-2.jpg")})" }
       .container
         .centered-row
@@ -58,16 +62,7 @@
           %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals. 
         .button-row
           %p
-            %a.button See it live
-            %a.button View code
+            = link_to "See it live", "http://google.com", class: "button--horizontal", target: "_blank"
+            = link_to "View code", "http://github.com", class: "button--horizontal", target: "_blank"
 
-%section.hero--apply
-  .container
-    .centered-row
-      %h1 Apply Now
-      %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options
-    .button-row
-      %p
-        = link_to "Payment Options", "payment", class: "button--alt"
-        = link_to "Apply", "http://apply.makersacademy.com", class: "button--apply"
-        = link_to "Learn More", "curriculum", class: "button--alt"
+= partial :"partials/apply", locals: {backgrounded: false}

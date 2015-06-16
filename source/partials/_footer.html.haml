@@ -1,0 +1,37 @@
+%footer{role: "contentinfo"}
+  .container
+    .footer-links
+      %ul.column
+        %li
+          %h3 Follow Us
+        %li
+          = link_to "Facebook", "http://www.facebook.com/MakersAcademy"
+        %li
+          = link_to "Twitter", "http://twitter.com/makersacademy"
+        %li
+          = link_to "YouTube", "https://www.youtube.com/user/makersacademy"
+      %ul.column
+        %li
+          %h3 Reviews
+        %li
+          = link_to "Switchup Reviews", "https://www.switchup.org/bootcamps/makers-academy", target: "_blank"
+        %li
+          = link_to "Quora Reviews", "https://www.quora.com/makers-academy", target: "_blank"
+        %li
+          = link_to "Course Report Reviews", "https://www.coursereport.com/schools/makers-academy#/reviews", target: "_blank"
+      %ul.column
+        %li
+          %h3 Legal
+        %li
+          = link_to "Terms and Conditions", "terms.html"
+        %li
+          = link_to "Priacy Policy", "privacy.html"
+    .footer-logos
+      .footer-logo
+        / This mixpanel must stay as long as we want free Mixpanel
+        %a{href: "https://mixpanel.com/f/partner"}
+          %img{alt: "Mobile Analytics", src: "//cdn.mxpnl.com/site_media/images/partner/badge_blue.png"}/
+    .footer-copyright
+      = image_tag "logo/ma-white.png", class: "logo"
+      %p
+        = "&copy; Makers Academy #{Time.now.year}"
