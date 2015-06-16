@@ -6,7 +6,7 @@
       %p We want to help you start your career as a junior developer so with our on-site careers service to realtionships with hiring partners we'll make sure to work day and night to land you your dream job.
     .button-row
       %p 
-        = link_to "Looking to Hire Graduates?", "http://employers.makersacademy.com", class: "button--horizontal"
+        = link_to "Looking to Hire Graduates?", "employers.html", class: "button--horizontal"
 
 %section.article--left
   %article
@@ -26,13 +26,6 @@
 
 %hr
 
-%section.full-slider.no-min-height.with-padding
-  .slider
-    .slide
-      .container
-        .profile-row
-          .copy--center
-            %blockquote Makers Academy is a Conveyor Belt of Awesome! There is no other source of recruitment that I would put this much energy into.
-            %h2.subheader Martin Aspeli, Chief Engineer, Deloitte Digital
+= partial :"partials/employer_testimonials"
 
 = partial :"partials/apply"
