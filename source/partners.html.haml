@@ -13,10 +13,11 @@
     %h2.subheader Who are our Hiring Partners?
     %p Our hiring partners come in all sorts of sizes. From big corporate established companies looking to update their tech team with new blood to autonomous agencies looking to get you just making.
 
-%section.backgrounded.image-grid
+%section.backgrounded
   .container
-    = output_logo_tags
-
+    .image-grid-row
+      - fetch_logos.each do | logo |
+        = image_tag logo
 
 %section.article--right
   %article
