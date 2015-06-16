@@ -1,6 +1,9 @@
 !!!
 %html
   %head
+    %script{src: "//use.typekit.net/fla8fba.js"}
+    :javascript
+      try{Typekit.load();}catch(e){}
     %meta{charset: "utf-8"}/
     %meta{content: "noindex", name: "robots"}
     %meta{content: "ie=edge", "http-equiv" => "x-ua-compatible"}/
@@ -12,9 +15,6 @@
     %link{href: image_path("favicons/favicon-32x32.png"), rel: "icon", sizes: "32x32", type: "image/png"}/
     %link{href: image_path("favicons/favicon-96x96.png"), rel: "icon", sizes: "96x96", type: "image/png"}/
     %link{href: image_path("favicons/favicon-16x16.png"), rel: "icon", sizes: "16x16", type: "image/png"}/
-    %script{src: "//use.typekit.net/fla8fba.js"}
-      :javascript
-        try{Typekit.load();}catch(e){}
     = javascript_include_tag  "all"
   %body{class: page_classes}
     = partial :"partials/navigation"
