@@ -19,23 +19,7 @@
             %p
               = link_to "Read Grad Stories", "graduates.html", class: "button--horizontal"
       .column
-        .slider
-          .slider-content
-            %figure.with-caption
-              .image
-                = image_tag "graduates/paul-smith.png"
-              %figcaption
-                %p= lorem.words(2)
-                %p= lorem.words(2)
-                %p= lorem.words(2)
-          .slider-content
-            %figure.with-caption
-              .image
-                = image_tag "graduates/paul-smith.png"
-              %figcaption
-                %p= lorem.words(2)
-                %p= lorem.words(2)
-                %p= lorem.words(2)
+        = partial("partials/preview_graduates")
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
