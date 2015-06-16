@@ -46,6 +46,13 @@ hr {
   }
 }
 
+.show-desktop-block {
+  display: none !important;
+  @include media($desktop) {
+    display: block !important;
+  }
+}
+
 .shift-to-bottom {
   position: absolute;
   bottom: modular-scale(2);
