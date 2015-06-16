@@ -2,6 +2,7 @@
 .mobile-navigation {
   width: 100%;
   transform: translateX(100%);
+  -webkit-transform: translateX(100%);
   position: absolute;
   z-index: 10;
   right:0;
@@ -10,6 +11,7 @@
     background: $brand-primary-color;
     padding: modular-scale(2);
     transform: translateX(0);
+    -webkit-transform: translateX(0);
     transition: all 0.2s ease-in-out;
     height: 100vh;
     li {
@@ -50,6 +52,7 @@
     visibility: hidden;
     &:checked + nav {
       transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
     }
   }
   @include media($desktop) {
