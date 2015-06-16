@@ -153,11 +153,17 @@
       width: 70%;
       margin-bottom: modular-scale(1);
     }
+    &:nth-child(2) {
+      margin-bottom: modular-scale(2);
+    }
   }
   @include media($desktop) {
     .column {
       img {
         width: 100%;
+        margin-bottom: 0;
+      }
+      &:nth-child(2) {
         margin-bottom: 0;
       }
     }
