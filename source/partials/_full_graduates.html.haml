@@ -1,32 +1,20 @@
 %section.full-slider
   .slider
-    .slide
-      .container
-        .profile-row
-          .image.show-desktop
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Paul Fitzgerald
-            %h2.subheader Marketing Executive to Junior Developer
-            %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
-            .button-row.shift-to-bottom
-              %p
-                = link_to "Read more", "#", class: "button--horizontal"
-                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
-          .image.hide-desktop.no-padding
-            = image_tag "graduates/paul-smith.png"
-    .slide
-      .container
-        .profile-row
-          .image.show-desktop
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Dave Smith
-            %h2.subheader Friend to all
-            %blockquote Why not Makers? It's pretty sick
-            .button-row.shift-to-bottom
-              %p
-                = link_to "Read more", "#", class: "button--horizontal"
-                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
-          .image.hide-desktop.no-padding
-            = image_tag "graduates/paul-smith.png"
+    - data.graduates.each do |grad|
+      .slide
+        .container
+          .profile-row
+            .image.show-desktop
+              = image_tag "graduates/#{grad[:image]}"
+            .copy
+              %h1= grad[:name]
+              %h2.subheader= grad[:summary]
+              %blockquote= grad[:testimonial]
+              .button-row.shift-to-bottom
+                %p
+                  - if grad[:case_study_link]
+                    = link_to "Read more", grad[:case_study_link], class: "button--horizontal", target: "_blank"
+                  - if grad[:blog_link]
+                    = link_to "Read blog", grad[:blog_link], class: "button--horizontal", target: "_blank"
+            .image.hide-desktop.no-padding
+              = image_tag "graduates/paul-smith.png"
