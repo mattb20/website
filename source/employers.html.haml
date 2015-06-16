@@ -1,0 +1,70 @@
+- description "Unlike any junior developers you've ever seen."
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+  .container
+    .centered-row
+      %h1 Makers Academy Graduates
+      %p Unlike any junior developers you've ever seen.
+    .button-row
+      %p 
+        = link_to "Hire Junior Devs", "#", class: "button--vertical"
+
+%section
+  .container
+    .centered-row
+      %h2 Work-ready junior developers
+    .three-width-row
+      .column
+        = image_tag "placeholders/nuclear-blue.png"
+        %h2.subheader Clean Code
+        %p= lorem.sentences(3)
+      .column
+        = image_tag "placeholders/nuclear-blue.png"
+        %h2.subheader Clean Code
+        %p= lorem.sentences(3)
+      .column
+        = image_tag "placeholders/nuclear-blue.png"
+        %h2.subheader Clean Code
+        %p= lorem.sentences(3)
+
+%section.backgrounded
+  .article--left
+    %article
+      %p 
+        %span Makers Academy graduates are passionate, driven, curious and engaging.
+      %p They are excellent communicators, easily translating across departments. They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
+      %p Unlike other sources of junior software talent, Makers Academy graduates have usually been successful in another industry, corporate and start-up, whether law, marketing, graphic design or anything else: experience they will bring to your company.
+
+= partial :"partials/full_graduates"
+
+%section.backgrounded
+  .article--centered
+    %article
+      %p 
+        %span We focus on attitude first, methodology second, and technologies third.
+      %p < Curriculum Summary >
+
+%section.article--right
+  %article
+    %p
+      %span We graduate 25 people every 6 weeks.
+    %p They go straight into junior developer jobs that pay an average of more than £30,000.
+    %p Students learn Ruby and Javascript, but have been hired into Java, .NET, PHP and Python, as well as Ruby on Rails, Angular.js, Node.js and many other frameworks.
+
+%section.no-min-height
+  .container
+    %h2 Makers Academy graduates over-deliver, time and again.
+
+= partial :"partials/employer_testimonials"
+
+%section
+  %container
+    .centered-row
+      %h2 Ways to engage with MA
+    .centered-row
+      %table
+        %thead
+          %tr
+            %th Activity
+            %th Time
+            %th Frequency
+

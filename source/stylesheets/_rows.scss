@@ -149,6 +149,7 @@
 .three-width-row {
   @include ma-columns(3);
   .column {
+    padding: 0 modular-scale(2);
     img {
       width: 70%;
       margin-bottom: modular-scale(1);

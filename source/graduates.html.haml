@@ -3,41 +3,10 @@
   .container
     .centered-row
       %h1 Graduates
-      %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals. 
+      %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals.
     = partial("partials/email-capture")
 
-%section.full-slider
-  .slider
-    .slide
-      .container
-        .profile-row
-          .image.show-desktop
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Paul Fitzgerald
-            %h2.subheader Marketing Executive to Junior Developer
-            %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
-            .button-row.shift-to-bottom
-              %p
-                = link_to "Read more", "#", class: "button--horizontal"
-                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
-          .image.hide-desktop.no-padding
-            = image_tag "graduates/paul-smith.png"
-    .slide
-      .container
-        .profile-row
-          .image.show-desktop
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Dave Smith
-            %h2.subheader Friend to all
-            %blockquote Why not Makers? It's pretty sick
-            .button-row.shift-to-bottom
-              %p
-                = link_to "Read more", "#", class: "button--horizontal"
-                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
-          .image.hide-desktop.no-padding
-            = image_tag "graduates/paul-smith.png"
+= partial :"partials/full_graduates"
 
 %section.full-slider.backgrounded.with-padding
   .slider
