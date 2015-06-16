@@ -23,6 +23,8 @@
 
 .hero-splash {
   @extend .hero;
+  padding-left: 0;
+  padding-right: 0;
   @include media($desktop) {
     padding: modular-scale(8) 0;
   }
