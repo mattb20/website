@@ -2,7 +2,6 @@
 
 //= require jquery
 //= require slick
-//= require email-signup
 
 $(document).ready(function() {
   // set up sliders using Slick
