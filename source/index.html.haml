@@ -5,7 +5,7 @@
       = image_tag "logo/ma-white.png", class: "logo"
       %h1 Learn to code in 12 weeks
       %p Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over 300 students into their dream jobs as junior developers.
-    = partial("partials/email-capture")
+    = partial :"partials/email-capture"
 
 %section.half-slider
   .container
@@ -19,23 +19,7 @@
             %p
               = link_to "Read Grad Stories", "graduates.html", class: "button--horizontal"
       .column
-        .slider
-          .slider-content
-            %figure.with-caption
-              .image
-                = image_tag "graduates/paul-smith.png"
-              %figcaption
-                %p= lorem.words(2)
-                %p= lorem.words(2)
-                %p= lorem.words(2)
-          .slider-content
-            %figure.with-caption
-              .image
-                = image_tag "graduates/paul-smith.png"
-              %figcaption
-                %p= lorem.words(2)
-                %p= lorem.words(2)
-                %p= lorem.words(2)
+        = partial :"partials/preview_graduates"
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
