@@ -41,8 +41,11 @@
   padding: 0;
   .container {
     min-height: 61.8vh;
-    padding: $section-spacing $base-spacing;
     display: table-cell;
     vertical-align: middle;
+    padding: $section-spacing modular-scale(1);
+  }
+  @include media($desktop) {
+    padding: $section-spacing $base-spacing;
   }
 }
