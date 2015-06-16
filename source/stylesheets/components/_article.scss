@@ -1,5 +1,5 @@
 .article {
-  @include ma-container(em(580));
+  @include ma-container;
   padding-top: modular-scale(1);
   min-height: 0;
   article {
@@ -102,12 +102,30 @@
     }
   }
 }
+
+.article--left {
+  @extend .article;
+  @include media($desktop) {
+    article {
+      float: left;
+      text-align: left;
+      h1, h2, h3, p {
+        text-align: left;
+      }
+    }
+  }
+}
+
 .article--centered {
   @extend .article;
+  @include ma-container(em(580));
 
   @include media($desktop) {
     article {
-      text-align: center;
+      text-align: left;
+    }
+    h1, h2, h3, p {
+      text-align: left;
     }
   }
 }
@@ -120,6 +138,9 @@
       text-align: right;
       p {
         float: right;
+      }
+      h1, h2, h3, p {
+        text-align: right;
       }
     }
   }
