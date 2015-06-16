@@ -1,0 +1,13 @@
+- name: Google Maps
+  team: Gabe, Alan and Dave, April 2015
+  blurb: Blah blah blah blah
+  heroku_link: http://weird-cave.herokuapp.com
+  github_repo: http://github.com/alan/google-maps
+  image: test-project.jpg
+
+- name: Google Maps
+  team: Gabe, Alan and Dave, April 2015
+  blurb: Blah blah blah blah
+  heroku_link: http://weird-cave.herokuapp.com
+  github_link: http://github.com/alan/google-maps
+  image: test-project-2.jpg
