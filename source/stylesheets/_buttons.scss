@@ -29,6 +29,7 @@
   &:hover,
   &:focus {
     background: rgba($white, 0.2);
+    outline: 0;
   }
 
   @include media($desktop) {
