@@ -6,38 +6,7 @@
       %p Our graduates come from all sorts of backgrounds from academics to bankers, through university leavers to stay at home mums. The diversity of our students has proved one thing - no matter what your background, it's possibly to learn to code in 12 weeks and make a career change if you really want it!
     = partial("partials/email-capture")
 
-%section.full-slider
-  .slider
-    .slide
-      .container
-        .profile-row
-          .image.show-desktop
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Paul Fitzgerald
-            %h2.subheader Marketing Executive to Junior Developer
-            %blockquote I love Makers - they are a really nice bunch of chaps. They also play a mean game of Jenga, not to mention the Karaoke talent is formidable.
-            .button-row.shift-to-bottom
-              %p
-                = link_to "Read more", "#", class: "button--horizontal"
-                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
-          .image.hide-desktop.no-padding
-            = image_tag "graduates/paul-smith.png"
-    .slide
-      .container
-        .profile-row
-          .image.show-desktop
-            = image_tag "graduates/paul-smith.png"
-          .copy
-            %h1 Dave Smith
-            %h2.subheader Friend to all
-            %blockquote Why not Makers? It's pretty sick
-            .button-row.shift-to-bottom
-              %p
-                = link_to "Read more", "#", class: "button--horizontal"
-                = link_to "Read blog", "#", class: "button--horizontal", target: "_blank"
-          .image.hide-desktop.no-padding
-            = image_tag "graduates/paul-smith.png"
+= partial :"partials/full_graduates"
 
 %section.full-slider.backgrounded.with-padding
   .slider
