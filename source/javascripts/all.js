@@ -2,6 +2,7 @@
 
 //= require jquery
 //= require slick
+//= require ajaxchimp
 
 $(document).ready(function() {
   // set up sliders using Slick
