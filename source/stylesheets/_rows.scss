@@ -42,8 +42,11 @@
       display: inline-block;
       margin-bottom: 0 !important;
 
+
       /* margins for central CTAs only */
-      margin-right: modular-scale(2);
+      &:nth-child(2n) {
+        margin: 0 modular-scale(1);
+      }
       &:last-child {
         margin-right: 0;
       }
@@ -57,6 +60,19 @@
         }
       }
     }
+  }
+}
+
+.button-row--left {
+  @extend .button-row;
+  text-align: center;
+
+  .button, .button--horizontal, .button--vertical {
+    display: inline-block;
+  }
+
+  @include media($desktop) {
+    text-align: left;
   }
 }
 
