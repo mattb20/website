@@ -41,11 +41,6 @@ activate :meta_tags
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Reload the browser automatically whenever files change
- configure :development do
-   activate :livereload
- end
-
 # Methods defined in the helpers block are available in templates
 helpers CurrentPageHelper, PartnerLogosHelper
 
@@ -56,21 +51,36 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 sprockets.append_path File.join root, 'bower_components'
 
+configure :development do
+  activate :livereload
+  set :mixpanel_token, 'f3e503bb7803dd7089f5b4124baa03a4'
+
+  # custom setting for switching off analytics in development
+  set :run_analytics, false
+end
 
 # Build-specific configuration
 configure :build do
+
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
   # activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # TODO once we're live switch back on analytics
+  set :run_analytics, true
+
+  # TODO: Make sure to change this when the site goes live to production
+  # mixpanel!
+  set :mixpanel_token, 'f3e503bb7803dd7089f5b4124baa03a4'
 end

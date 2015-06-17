@@ -1,5 +1,4 @@
-/*!
-Mailchimp Ajax Submit
+/* Mailchimp Ajax Submit
 jQuery Plugin
 Author: Siddharth Doshi
 
@@ -106,8 +105,9 @@ For e.g. 'http://blahblah.us1.list-manage.com/subscribe/post-json?u=5afsdhfuhdsi
                     label.html(msg);
 
                     label.show(2000);
+                    // Added by Makers Engineering
                     if (settings.callback) {
-                        settings.callback(resp);
+                        settings.callback(resp, email.val());
                     }
                 }
 

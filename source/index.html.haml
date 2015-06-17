@@ -82,3 +82,8 @@
               = link_to "Our Education Philosophy", "curriculum.html", class: "button--horizontal"
 
 = partial :"partials/apply"
+
+/ Mixpanel event for visiting homepage
+:javascript
+  mixpanel.track('Viewed homepage');
+  mixpanel.people.increment('Viewed homepage');

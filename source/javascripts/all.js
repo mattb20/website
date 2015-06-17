@@ -2,7 +2,9 @@
 
 //= require jquery
 //= require slick
-//= require ajaxchimp
+//= require vendor/jquery.ajaxchimp
+//= require mixpanel-email-capture
+
 
 $(document).ready(function() {
   // set up sliders using Slick
@@ -12,5 +14,7 @@ $(document).ready(function() {
     adaptiveHeight: true
   });
   // set up email capture using AJAXChimp
-  $('.email-capture').ajaxChimp();
+  $('.email-capture').ajaxChimp({
+    callback: mixpanelEmailCapture
+  });
 });
