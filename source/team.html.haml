@@ -1,0 +1,38 @@
+- description "Members of our team."
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")})"}
+  .container
+    .centered-row
+      %h1 Our Team
+      %p We're a bunch of beautiful and diverse people here at Makers HQ. Come check us out.
+
+%section
+  .article--centered
+    %article
+      %h2 Who are we?
+      %p 
+        %span We are senior programmers with decades of experience, machine learning experts, education theorists, designers, craftspeople, craft beer afficionadoes, and we all love what we do: taking complete beginners from zero to junior developer in 12 weeks.
+      %p If you're at a loose end around Commercial Street in London, come drop in: we'd love to meet you.
+      %p Without further ado, let's introduce the team:
+
+%hr
+
+%section.full-slider
+  .slider
+    - data.team.each do | team_member |
+      .slide
+        .container
+          .profile-row
+            .image.show-desktop
+              = image_tag "team/#{team_member[:image]}"
+            .copy
+              %h1= team_member[:name]
+              %h2.subheader= team_member[:job_title]
+              %p= team_member[:about]
+              .button-row.shift-to-bottom
+                %p
+                  = link_to "Read #{team_member[:name]}'s Blog", "#", class: "button--horizontal", target: "_blank"
+                  = link_to "Join the Team", "join-the-team.html", class: "button--horizontal"
+            .image.hide-desktop.no-padding
+              = image_tag "team/#{team_member[:image]}"
+
+= partial "partials/apply"
