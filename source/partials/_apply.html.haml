@@ -15,6 +15,20 @@
           = link_to "Hire Junior Devs", "https://makersacademy.typeform.com/to/sz8vTw", class: "button button--vertical button--large"
           = link_to "Still not sure?", "about-us.html", class: "button button--horizontal"
 
+- elsif partners
+
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
+    .container
+      .centered-row
+        .column
+          %h1 Apply Now
+          %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options.
+      .button-row
+        %p
+          = link_to "Payment Options", "payment.html", class: "button button--horizontal"
+          = link_to "Apply", "http://apply.makersacademy.com", class: "button button--vertical button--large"
+          = link_to "Hire Graduates", "employers.html", class: "button button--horizontal"
+
 - else
 
   %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
