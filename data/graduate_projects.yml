@@ -1,3 +1,52 @@
+- name: Turn up Tune In
+  team: Andy, Hannah, Jack, Matteo, December 2014
+  blurb: A way to collaborate on creating a playlist, with the unique feature that the songs move with the person who chose them. You 'turn up' and your tunes go in. You leave and your tunes leave with you.
+  github_link: https://github.com/andygnewman/playlister
+  heroku_link: https://turnuptunein.herokuapp.com
+  image: turnuptunein.png
+
+- name: One Day
+  team: Emily, Sanda, Luke, Johnathan, Huy, December 2014
+  blurb: A project for One Day from openIDEO. Connects young people searching for a job inspiration with professionals that are ready to share their passion for a one-day in-work experience
+  github_link: https://github.com/emilysas/One_Day_Experience_Prototype
+  heroku_link: https://one-day-xp.herokuapp.com/
+  image: oneday.png
+
+- name: I am Me
+  team: Charlie, Danielle, Ptolemy, India, Gus, December 2014
+  blurb: A visual calender app for a real life client
+  github_link: https://github.com/ciawalsh/iamME
+  heroku_link: https://i-am-me.herokuapp.com
+  image:
+
+- name: Oodles
+  team: Claudia, Alan, Izzy, Ben H, October 2014
+  blurb: Connecting those with surplus food with charities that can use that food
+  heroku_link: http://www.oodls.io/
+  github_link: https://github.com/Callisto13/Oodls
+  image: oodles.png
+
+- name: Look Up
+  team: Shan, Pavel, Rich, Attila, October 2014
+  blurb: App to assess Solar capacity of roofs. Made for 10:10 Charity
+  heroku_link: http://look-up-production.herokuapp.com
+  github_link: https://github.com/ralake/LookUp
+  image:
+
+- name: Hipspot
+  team: Mishal, Ed, Ming, Nick, October 2014
+  blurb: Providing local hipster spots of interest on mobile.
+  heroku_link: http://hipspot.uk/
+  github_link: https://github.com/ejbyne/hipspot
+  image: hipspot.png
+
+- name: Charity Stop Aids
+  team: John, Chris H, Giorgia, Clare, Dale, October 2014
+  blurb: Would you rather? A project for the charity – StopAids to increse student political engagment thorough twitter with a would you rather game allowing Mps to easily answer.
+  heroku_link: https://students-stop-aids.herokuapp.com
+  github_link: https://github.com/chandley/stop-aids
+  image: studentstop.png
+
 - name: Trackathon
   team: Yvette, Camilla, Alex, Ella and Victoria, September 2014
   blurb: A simply dashing way to track hackathons
@@ -32,3 +81,31 @@
   heroku_link: http://fhellow.herokuapp.com/
   github_repo: https://github.com/michballard/fhellow
   image: fhellow.png
+
+- name: Bunch
+  team: Charlotte, David, Jenny, Jeremy,Peter, June 2014
+  blurb: Bunch takes the arguments out of organising a meetup with friends. Just tell it where you're coming from and Bunch will find the best bars, cafes and restaurants in a central location that suits the whole group.
+  heroku_link: http://bunch-ldn.herokuapp.com/
+  github_repo: https://github.com/thejennywang/bunch
+  image: bunch.png
+
+- name: Challenge Me
+  team: Nicola, Toan, Jamie, Chloe, Nikesh, Joe, June 2014
+  blurb: Bunch takes the arguments out of organising a meetup with friends. Just tell it where you're coming from and Bunch will find the best bars, cafes and restaurants in a central location that suits the whole group.
+  heroku_link: http://challenge--me.herokuapp.com/
+  github_repo: https://github.com/yoshdog/challenge-me
+  image:
+
+- name: Strides
+  team: Julia, Nic, Margherita May 2014
+  blurb: Strides is a web app that helps marathon runners find suitable accommodation for their upcomming race.
+  heroku_link: http://strides.herokuapp.com/
+  github_repo: https://github.com/juliatan/racefinder
+  image: strides.png
+
+- name: Angry Kitty
+  team: Nico, Sroop, Will, Dan, Scott, Robin, Apostolis, March 2014
+  blurb: Angry Kitty is an app designed to help organisers chase participants of an event for contributions.
+  heroku_link: http://www.angrykitty.co.uk/
+  github_repo: https://github.com/willhall88/Angry-Kitty
+  image: angrykitty.png
