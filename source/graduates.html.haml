@@ -7,29 +7,6 @@
     = partial :"partials/email-capture"
 
 = partial :"partials/full_graduates"
-
-%section.full-slider.backgrounded.with-padding
-  .slider
-    .slide{ style: "background-image: url(#{image_path("graduate_projects/test-project.jpg")})" }
-      .container
-        .centered-row
-          %h1 Google Maps
-          %h2.subheader Gabe, Alan, and Dave, April 2015
-          %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals.
-        .button-row
-          %p
-            = link_to "See it live", "http://google.com", class: "button--horizontal", target: "_blank"
-            = link_to "View code", "http://github.com", class: "button--horizontal", target: "_blank"
-    .slide{ style: "background-image: url(#{image_path("graduate_projects/test-project-2.jpg")})" }
-      .container
-        .centered-row
-          %h1 Turnup Tunein
-          %h2.subheader Maurice, Martin, and Lauren, May 2015
-          %p Makers Academy is Europe’s leading developer bootcamp. Learn the principles of software craftsmanship under the guidance of top industry professionals.
-        .button-row
-          %p
-            = link_to "See it live", "http://google.com", class: "button--horizontal", target: "_blank"
-            = link_to "View code", "http://github.com", class: "button--horizontal", target: "_blank"
-
+  
 = partial :"partials/graduate_projects"
 = partial :"partials/apply", locals: {backgrounded: false}
