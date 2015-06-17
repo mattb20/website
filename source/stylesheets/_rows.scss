@@ -245,16 +245,34 @@
   @include ma-row;
   img {
     margin-right: 0 !important;
-    @include span-columns(4);
+    @include span-columns(6);
     padding: modular-scale(1);
-    &:nth-child(3n) {
+    &:nth-child(2n) {
       padding-right: 0;
     }
-    &:nth-child(3n + 1) {
+    &:nth-child(2n + 1) {
       padding-left: 0;
     }
     &:first-child {
       padding-left: 0;
+    }
+  }
+  @include media($desktop) {
+    img {
+      @include span-columns(4);
+      &:nth-child(2n) {
+        padding-right: modular-scale(1);
+      }
+      &:nth-child(2n + 1) {
+        padding-left: modular-scale(1);
+      }
+
+      &:nth-child(3n) {
+        padding-right: 0;
+      }
+      &:nth-child(3n + 1) {
+        padding-left: 0;
+      }
     }
   }
 }

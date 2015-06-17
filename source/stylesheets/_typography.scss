@@ -95,6 +95,7 @@ blockquote {
   /* theme */
   font-style: italic;
   text-indent: 2em;
+  font-size: modular-scale(0);
 
   &:before {
     display: block;
@@ -112,6 +113,10 @@ blockquote {
     content: "\201C"; /* &ldquo; */
     left: -0.05em;
     top: 0.28em;
+  }
+
+  @include media($desktop) {
+    font-size: modular-scale(1);
   }
 
 }
