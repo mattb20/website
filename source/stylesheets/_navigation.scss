@@ -93,8 +93,10 @@ header.navigation {
         a {
           text-decoration: none;
           position: relative;
-          &.button--apply {
+          top: 3px;
+          &.button--vertical {
             font-size: modular-scale(0);
+            top: 0;
           }
         }
       }
