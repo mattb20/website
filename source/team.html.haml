@@ -1,0 +1,52 @@
+- description "Members of our team."
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")})"}
+  .container
+    .centered-row
+      %h1 Our Team
+      %p We're a bunch of beautiful and diverse people here at Makers HQ. Come check us out.
+
+%section
+  .article--centered
+    %article
+      %h2 Who are we?
+      %p 
+        %span We are senior programmers with decades of experience, machine learning experts, education theorists, designers, craftspeople, craft beer afficionadoes, and we all love what we do: taking complete beginners from zero to junior developer in 12 weeks.
+      %p If you're at a loose end around Commercial Street in London, come drop in: we'd love to meet you.
+      %p Without further ado, let's introduce the team:
+
+%hr
+
+%section.full-slider
+  .slider
+    .slide
+      .container
+        .profile-row
+          .image.show-desktop
+            = image_tag "team/tansaku.png"
+          .copy
+            %h1 Sam Joseph
+            %h2.subheader Head of Education
+            %p Sam holds degrees in Astrophysics, Cognitive Science and Computer Science and speaks Japanese. He is also co-founder of the non-profit project incubator Agile Ventures, and he runs the Funniest Computer Ever (FCE) competition as part of his research on creating humorous chatbots.
+            .button-row.shift-to-bottom
+              %p
+                = link_to "Read Sam's Blog", "#", class: "button--horizontal", target: "_blank"
+                = link_to "Join the Team", "join-the-team.html", class: "button--horizontal"
+          .image.hide-desktop.no-padding
+            = image_tag "team/sam_joseph.png"
+    .slide
+      .container
+        .profile-row
+          .image.show-desktop
+            = image_tag "team/jordan.png"
+          .copy
+            %h1 Jordan Poulton
+            %h2.subheader Sales &amp; Marketing Director
+            %p Jordan is our Sales and Marketing Director at Makers Academy, and he's also heading up our latest secret project, codenamed 'Ronin'. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
+            .button-row.shift-to-bottom
+              %p
+                = link_to "Read Jordan's Blog", "#", class: "button--horizontal", target: "_blank"
+                = link_to "Join the Team", "join-the-team.html", class: "button--horizontal"
+          .image.hide-desktop.no-padding
+            = image_tag "team/jordan.png"
+
+= partial "partials/apply"
