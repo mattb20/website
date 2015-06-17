@@ -1,3 +1,18 @@
+- name: Craig Horsborough
+  image: craig.png
+  summary: Recruitment Consultant to Junior Developer at Tombola
+  testimonial: Take the leap, you won’t regret it.
+  cohort: September 2014
+  case_study_link: http://blog.makersacademy.com/craig-horsborough-recruitment-consultant-to-junior-developer-at-tombola-co-uk/?doing_wp_cron=1434470675.4901759624481201171875
+
+- name: Denise Yu
+  image: denise.png
+  summary: MSc in Social Policy to Junior Developer at Merger Market
+  testimonial: I now have an interesting job that forces me to think and learn something new everyday and that’s not something I can’t say for the other jobs I’ve had.
+  cohort: September 2014
+  blog_link: http://www.deniseyu.com
+  case_study_link: http://blog.makersacademy.com/denise-yu-finishing-my-msc-in-social-policy-at-the-lse-trying-to-work-in-behavioral-sciences-and-policy-research-to-junior-developer-at-third-space-learning-www-thirdspacelearning-com/?doing_wp_cron=1434471284.1373879909515380859375
+
 - name: Nico Saueressig
   image: Nico.png
   summary: Music Producer to Junior Developer at Shutl (eBay)
@@ -6,8 +21,67 @@
   blog_link: http://nicolearnscoding.blogspot.de/
   case_study_link: http://blog.makersacademy.com/nico-saueressig/?doing_wp_cron=1434471455.1138060092926025390625
 
-- name: Nico Saueressig
-  image: paul-smith.png
-  summary: Music Producer to Junior Developer at Shutl (eBay)
-  testimonial: Makers Rule
+- name: Sroop Sunar
+  image: sroop.png
+  summary: Illustrator to Junior Developer at New Bamboo
+  testimonial: Students from Makers Academy are not the same kind of species as normal developers out there and it’s your background and experiences that don’t necessarily relate to coding that will give you an edge.
   cohort: March 2014
+  blog_link: http://handmadecode.tumblr.com/
+  case_study_link: http://blog.makersacademy.com/sroop-sunar-graphic-designer-illustrator-junior-developer-new-bamboo/?doing_wp_cron=1434471558.8263139724731445312500
+
+- name: Stefania Cardenas
+  image: stefania.png
+  summary: It Recruiter to Junior Web Developer at BCSG
+  testimonial: Makers Academy changed my life. It gave me the confidence that I can achieve whatever I want in life.
+  cohort: March 2014
+  case_study_link: http://blog.makersacademy.com/stefania-ferullo-cardenas-recruiter-junior-developer-bcsg/?doing_wp_cron=1433757531.1750309467315673828125
+
+- name: Andrew Cumine
+  image: andrew-cumine.png
+  summary: Aeronautic Engineering Graduate to Junior Developer at Red Badger
+  testimonial: Although £8,000 might feel very expensive just think about how much is a years worth of university tuition.
+  cohort: February 2014
+  case_study_link: http://blog.makersacademy.com/andrew-cumine-graduate-mechanical-engineering-junior-developer-red-badger/?doing_wp_cron=1433705109.1819319725036621093750
+
+- name: Will Hall
+  image: will.png
+  summary: Research & Development Scientist to Junior Developer at Factory Media
+  testimonial: My Makers Academy experience was intense, tiring and fun. Everybody was very positive and driven to learn and work together. It was easy to stay motivated in that environment.
+  cohort: March 2014
+  case_study_link: http://blog.makersacademy.com/will-hall-research-development-scientist-junior-developer-factory-media/?doing_wp_cron=1433676934.0689411163330078125000
+
+- name: Nick Roberts
+  image: nickr.png
+  summary: Business Development Manager to Junior Developer at Red56
+  testimonial: Since graduation my life has changed, as I enjoy my work a lot more in general.
+  cohort: August 2014
+  case_study_link: http://blog.makersacademy.com/nick-roberts-business-development-manager-junior-developer-intern-easyart/?doing_wp_cron=1433757079.8854498863220214843750
+
+- name: Yvette Cook
+  image: yvette.png
+  summary: Project Management to iOS Developer at MyGravity
+  testimonial: MA was probably the best experience of my life! It was life-changing and like any big change, it wasn’t always easy but I now feel that my future is very bright.
+  cohort: September 2014
+  case_study_link: http://blog.makersacademy.com/yvette-cook-i-was-working-in-project-management-in-a-small-team-at-a-social-enterprise-it-was-interesting-at-first-but-as-time-went-on-i-didnt-feel-like-i-was-developing-any-tangible-skills-to/?doing_wp_cron=1434470598.1935110092163085937500
+
+- name: Simon Woolf
+  image: simonw.png
+  summary: Law to Junior Developer at Econsultancy
+  testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from econsultancy eight days after that.
+  cohort: November 2013
+  case_study_link: http://blog.makersacademy.com/simon-woolf-law-junior-developer-econsultancy/
+
+- name: Ethel Ng
+  image: ethel.png
+  summary: Psychology Graduate to Junior Graduate at usTwo
+  testimonial: I received a job offer on the Monday after graduation.
+  cohort: August 2013
+  case_study_link: I received a job offer on the Monday after graduation.
+
+- name: Mario Gintili
+  image: mario.png
+  summary: Economics student to Junior Developer at Show My Homework
+  testimonial: Since graduation my life is much better. I have good job prospects with growth opportunities.
+  cohort: February 2013
+  case_study_link: http://blog.makersacademy.com/mario-gintili-venezuela-junior-developer-london/?doing_wp_cron=1434473021.1335680484771728515625
+  blog_link: http://racetomakers.tumblr.com/
