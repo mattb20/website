@@ -160,8 +160,9 @@ picture {
 }
 
 figcaption {
+  @include clearfix;
   p {
-      display: inline-block !important;
+      display: inline-block;
       float: right;
       clear: right;
       background-color: $red;
