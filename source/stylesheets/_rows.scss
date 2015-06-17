@@ -189,6 +189,9 @@
 
 .four-width-row {
   @include ma-columns(4);
+  .column {
+    padding: modular-scale(3);
+  }
 }
 
 .faq-row {
