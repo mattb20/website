@@ -101,6 +101,9 @@
       font-style: italic;
     }
   }
+  & + .container > .button-row {
+    padding-top: $base-spacing;
+  }
 }
 
 .article--left {

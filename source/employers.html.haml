@@ -14,15 +14,15 @@
       %h2 Work-ready junior developers
     .three-width-row
       .column
-        = image_tag "placeholders/nuclear-blue.png"
+        = image_tag "placeholders/nuclear-blue.png", height: 200, width: 200
         %h2.subheader Clean Code
         %p= lorem.sentences(3)
       .column
-        = image_tag "placeholders/nuclear-blue.png"
+        = image_tag "placeholders/nuclear-blue.png", height: 200, width: 200
         %h2.subheader Clean Code
         %p= lorem.sentences(3)
       .column
-        = image_tag "placeholders/nuclear-blue.png"
+        = image_tag "placeholders/nuclear-blue.png", height: 200, width: 200
         %h2.subheader Clean Code
         %p= lorem.sentences(3)
 
@@ -40,22 +40,91 @@
 %section
   .article--centered
     %article
+      %h2 What they learn
       %p 
         %span We focus on attitude first, methodology second, and technologies third.
-      %p < Curriculum Summary >
+      %p Below is the breakdown of our course structure. To keep pace with the fast-moving nature of the tech industry, we update our curriculum frequently, so please be aware that this structure is dynamic and prone to regular changes.
+
+      %p
+        %span The Pre-Course
+
+      %p In the four weeks preceding the course students take part in a mandatory part-time pre-course to ensure all students obtain the required basic level of competence. We focus on the foundations: command-line, version control and the basics of Ruby. The pre-course requires an average of 15-20 hours per week to complete successfully. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the pre-course, we will send out a challenge to help solidify and focus the students' learning and to check in on their progress.
+
+      %p
+        %span Week 1 — Test-Driven Development and Object-Oriented Programming
+
+      %p The main topics of week 1 are test-driven development and object-oriented programming. By now the students have some experience writing pure Ruby code and are familiar with the functionality of core Ruby classes. This week we starting creating our own classes in a test-driven way. The aim of this week is to understand how to structure the code well using objects. The Friday challenge involves writing a simple object-oriented system of interacting classes.
+
+      %p
+        %span Week 2 — Further TDD and OOP
+
+      %p This week we'll be building a game using test-driven development and object-oriented programming to make sure all students understand these important concepts well. We'll also cover more advanced Ruby topics: lambdas vs procs, composition vs inheritance, iterators and recursion. The Friday challenge involves reimplementing some of the more advanced methods of the Ruby core library.
+
+      %p
+        %span Week 3 — Introduction to Web Development
+
+      %p By now the students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocol, Sinatra framework, HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. The Friday challenge involves building a Sinatra application and deploying it to Heroku.
+
+      %p
+        %span Week 4 — Databases and User Management
+
+      %p It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: using hashing and salting, choosing a good hashing algorithm and mitigating common security risks. The students write a user management system (sign up, sign in, sign out, etc) from scratch paying special attention to the security aspects. Finally, the students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases.
+
+      %p
+        %span Week 5 — Front-End Technologies
+
+      %p Now that the students can build database-backed Sinatra applications in test-driven mode, while paying attention to security considerations, it's time to start talking about other front-end technologies: JavaScript, jQuery, AJAX and responsive design. The Friday challenge asks the students to reimplement the front-end of one of the most popular websites in the world.
+
+      %p
+        %span Week 6 — Lab Week
+
+      %p This is a less structured week to allow students to consolidate their learning. Students may choose to revisit topics from the previous weeks, catch up on missed work or explore new projects.
+
+      %p
+        %span Week 7 — NodeJS
+
+      %p NodeJS is a powerful Javascript framework that allows developers to use the same programming language for both their front-end and back-end development. This week, students will create a simple-yet-powerful interactive web application. The Friday challenge is based on refreshing Ruby knowledge.
+
+      %p
+        %span Week 8 — Ruby on Rails Basics
+
+      %p In week 8 we start working with Ruby on Rails. By now the students have a solid understanding of Ruby, the web (HTTP, HTML, Javascript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand because it merely automates what they can do without it. This week we talk about ActiveRecord, asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails.
+
+      %p
+        %span Week 9 — Advanced Ruby on Rails Topics
+
+      %p This week we talk about more advanced topics: websockets, HTML5 APIs, using Twitter Bootstrap or Foundation, connecting to various APIs: Stripe, Twilio, etc. The challenge for this week focuses on these topics.
+
+      %p
+        %span Week 10 — The Final Project
+
+      %p By now the students are confident junior developers. To put their skills to test, they build a final project that shows how far they've come since they started. This week we introduce few new topics but instead focus on helping the students to build the first version of their final project.
+
+      %p
+        %span Week 11 — Graduation
+
+      %p Early in the week we declare a feature freeze to make sure the final projects are as polished as possible. This is going to be the most intensive week at Makers Academy, when all teams stay late trying to outperform each other to write the most impressive code. There is no Friday challenge. Instead, we have a graduation ceremony, followed by a party attended by friends, families, hiring partners, recruiters, ex-students and prospective students of Makers Academy.
+
+      %p
+        %span Week 12 — Hiring Week
+
+      %p This week our new graduates will receive the personal attention of our expert placements team. They will focus on honing life-long learning skills and preparing to enter the jobs market. This could include technical tests, working on open-source code or even working on projects for charities that we partner with.
   .container
     .button-row
       =link_to "Learn about our Curriculum", "curriculum.html", class: "button--horizontal"
 
 %section.backgrounded
-  .article--right
-    %article
-      %p
-        %span We graduate 25 people every 6 weeks.
-      %p They go straight into junior developer jobs that pay an average of more than £30,000.
-      %p Students learn Ruby and Javascript, but have been hired into Java, .NET, PHP and Python, as well as Ruby on Rails, Angular.js, Node.js and many other frameworks.
-      %p
-        %span Makers Academy graduates over-deliver, time and again.
+  .container
+    .four-width-row
+      .column
+        = image_tag "employers/stats/stat_1-white.png"
+      .column
+        = image_tag "employers/stats/stat_2-white.png"
+      .column
+        = image_tag "employers/stats/stat_3-white.png"
+      .column
+        = image_tag "employers/stats/stat_4-white.png"
+
 
 = partial :"partials/employer_testimonials"
 
@@ -64,7 +133,7 @@
 %section.backgrounded
   .container
     .centered-row
-      %h2 Ways to engage with MA
+      %h2 Ways to engage
     .centered-row
       %h2.subheader Engaging with Students
       %table
@@ -75,17 +144,9 @@
             %th Frequency
         %tbody
           %tr
-            %td Provide kit, resources, or sponsorship
-            %td None
-            %td Per cohort (12 weeks)
-          %tr
             %td Give a 'lunchtime talk' on what it's like in the real world of software development
             %td 1 hour
             %td Per cohort
-          %tr
-            %td Act as a 'day coach': pair program with students, helping them learn
-            %td 4 - 8 hours
-            %td No limit
           %tr
             %td Organise hackathons (or other events) at Makers Academy, inviting the students
             %td 1 - 3 days
@@ -95,14 +156,6 @@
             %td 3 hours
             %td Every 6 weeks
           %tr
-            %td Contribute to 'Hiring Week' - a week of employability content, after graduation
-            %td 1 - 2 hours
-            %td Every 6 weeks
-    .centered-row
-      %h2.subheader Engaging with Graduates
-      %table
-        %tbody
-          %tr
             %td Attend our 'Sort of Careers Fair' on the Friday morning of Hiring Week
             %td 3 hours
             %td Every 6 weeks
@@ -111,30 +164,12 @@
             %td 40 minutes
             %td Every Wednesday
           %tr
-            %td Arrange a site visit to your offices - preferably in the evening with drinks
-            %td 2 hours
-            %td No limit
-          %tr
-            %td Publish your tech test(s) to them - and let us manage submissions
-            %td None
-            %td No limit
-          %tr
             %td Publish your jobs to our internal job board - and let us manage applications
             %td None
-            %td No limit
-          %tr
-            %td Conduct interviews at Makers Academy, saving you time and effort
-            %td A few hours
             %td No limit
 
 %section
   .container
-    .centered-row
-      %h2.subheader All of the above for free, until you find someone.
-      %p
-        Then it's 
-        %b 20% 
-        of starting salary.
     .centered-row
       %table
         %thead
@@ -184,6 +219,13 @@
           %tr
             %td Team size
             %td other stuff
+
+    .centered-row
+      %h2.subheader All of the above for free, until you find someone.
+      %p
+        Then it's 
+        %b 20% 
+        of starting salary.
 
 = partial :"partials/apply", locals: {employers: true}
 
