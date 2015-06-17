@@ -1,0 +1,13 @@
+%section.full-slider.backgrounded.with-padding
+  .slider
+    - data.graduate_projects.each do |project|
+      .slide{ style: "background-image: url(#{image_path("graduate_projects/#{project[:image]}")})" }
+        .container
+          .centered-row
+            %h1= project[:name]
+            %h2.subheader= project[:team]
+            %p= project[:blurb]
+          .button-row
+            %p
+              = link_to "See it live", project[:heroku_link], class: "button--horizontal", target: "_blank"
+              = link_to "View code", project[:github_link], class: "button--horizontal", target: "_blank"
