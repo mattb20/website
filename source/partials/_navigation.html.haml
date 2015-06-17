@@ -29,5 +29,9 @@
       - if current_page.url == "/about-us/"
         %li{ class: current_if_current_page(current_page, "/about-us/") }
           = link_to "About Us", "about-us.html"
-      %li{ class: current_if_current_page(current_page, "/apply/") }
-        = link_to "Apply", "apply.html", class: "button--vertical"
+      - if current_page.url == "/employers/"
+        %li{ class: current_if_current_page(current_page, "/apply/") }
+        = link_to "Hire", "https://makersacademy.typeform.com/to/sz8vTw", class: "button--vertical", target: "_blank"
+      - else
+        %li{ class: current_if_current_page(current_page, "/apply/") }
+          = link_to "Apply", "apply.html", class: "button--vertical"
