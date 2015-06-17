@@ -1,13 +1,34 @@
-- name: Google Maps
-  team: Gabe, Alan and Dave, April 2015
-  blurb: Blah blah blah blah
-  heroku_link: http://weird-cave.herokuapp.com
-  github_repo: http://github.com/alan/google-maps
-  image: test-project.jpg
+- name: Trackathon
+  team: Yvette, Camilla, Alex, Ella and Victoria, September 2014
+  blurb: A simply dashing way to track hackathons
+  heroku_link: http://dashing-trackathon.herokuapp.com/dashing/dashboards/hackathon?id=1
+  github_link: https://github.com/yvettecook/Trackathon
+  image: track.png
 
-- name: Google Maps
-  team: Gabe, Alan and Dave, April 2015
-  blurb: Blah blah blah blah
-  heroku_link: http://weird-cave.herokuapp.com
-  github_link: http://github.com/alan/google-maps
-  image: test-project-2.jpg
+- name: FlickyNotes
+  team: Bernard, Karin, Rachel, Ana, Elena and Dan, September 2014
+  blurb: Flicky Notes is a meeting app which allows you to write your own notes on a mobile device and then, with a simple swipe movement, send it to the board on your desktop.
+  heroku_link: http://flickynotes.meteor.com/
+  github_link: https://github.com/karinnielsen/Final-Project-POSTit
+  image: flickynotes.png
+
+- name: NodeRover
+  team: Andrew, Colin, Hadi, Andrew and Zeeshan, September 2015
+  blurb: Node Rover is a group final project from Makers Academy. The original task was to build some form of robot that could be controlled wirelessely. The team decided to make a robot based on the Mars rover (4 engines with continuous tracks). It was builtt from scratch, and you can control it via a Node.js server. The goal was to have a mobile first web app which could control several aspects of the rover (motor movement, claw, camera pan tilt bracket) over wifi.
+  heroku_link: https://prezi.com/lt3irqzqae9f/node-rover/?utm_campaign=share&utm_medium=copy
+  github_repo: https://github.com/Schlap/project-noderover
+  image: noderover.png
+
+- name: tweetMap
+  team: Elliot, Javier, Spike, and Ethel, August 2015
+  blurb: Around the world, around 8000 tweets are sent per second. But what do people tweet about? The project visualises the moods of world regions based on tweets. Each word is analysed for emotional content using the AFINN database and given a score, e.g. +3 for 'happy' and -2 for 'sad'. The average score of a tweet determines its colour. Finally, the tweet is plotted on a HTML Canvas using the coordinates it was sent from.
+  heroku_link: http://tweetmapp.herokuapp.com/
+  github_repo: https://github.com/spike01/mapp
+  image: tweetmapp.png
+
+- name: Fhellow
+  team: Maya, Ruth, Michelle, Jerome, August 2015
+  blurb: Fhellow is a community of Freelancers, Entrepreneurs, Digital Nomads and others who spend alot of time working independently. Our mission is to connect us all so we too can enjoy the benefits of having a work commmunity.
+  heroku_link: https://github.com/michballard/fhellow
+  github_repo: https://github.com/michballard/fhellow
+  image: fhellow.png
