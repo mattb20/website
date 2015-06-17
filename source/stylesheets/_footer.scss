@@ -37,6 +37,15 @@ footer {
       margin-bottom: modular-scale(3);
       text-align:center;
     }
+    address {
+        font-style: normal;
+      span {
+        font-size: modular-scale(-1);
+      }
+      .tel {
+        font-size: modular-scale(0);
+      }
+    }
   }
 
   .footer-logos {
