@@ -167,6 +167,6 @@ figcaption {
       clear: right;
       background-color: $red;
       text-shadow: none;
-      padding: 0 em(10);
+      padding: 0 modular-scale(-1);
   }
 }
