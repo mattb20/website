@@ -17,6 +17,7 @@
     %link{href: image_path("favicons/favicon-16x16.png"), rel: "icon", sizes: "16x16", type: "image/png"}/
     = javascript_include_tag  "hooks"
   %body{class: page_classes}
+    = partial :"partials/analytics_scripts"
     = partial :"partials/navigation"
 
     = yield
