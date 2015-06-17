@@ -158,3 +158,14 @@ picture {
     text-align: right;
   }
 }
+
+figcaption {
+  p {
+      display: inline-block !important;
+      float: right;
+      clear: right;
+      background-color: $red;
+      text-shadow: none;
+      padding: 0 em(10);
+  }
+}
