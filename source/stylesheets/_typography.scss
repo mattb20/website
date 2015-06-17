@@ -158,3 +158,15 @@ picture {
     text-align: right;
   }
 }
+
+figcaption {
+  @include clearfix;
+  p {
+      display: inline-block;
+      float: right;
+      clear: right;
+      background-color: $red;
+      text-shadow: none;
+      padding: 0 modular-scale(-1);
+  }
+}
