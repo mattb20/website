@@ -7,8 +7,8 @@
             .image.show-desktop.vertical-center
               = image_tag "curriculum/#{week[:image]}"
             .copy
-              %h1= week[:title]
-              %h2.subheader= week[:summary]
+              %h2= week[:summary]
+              %h2.subheader= week[:title]
               %p= week[:blurb]
             .image.hide-desktop.no-padding
               = image_tag "curriculum/#{week[:image]}"
