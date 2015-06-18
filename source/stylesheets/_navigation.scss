@@ -72,6 +72,7 @@ header.navigation {
     z-index: 999;
     background: transparentize($base-background-color, 0.2);
     border-bottom: $base-border;
+    transition: all 0.2s ease-in-out;
     nav {
       @include outer_container;
       ul {
@@ -100,6 +101,10 @@ header.navigation {
           }
         }
       }
+    }
+    &.hidden-nav {
+      transform: translateY(-76px);
+      -webkit-transform: translateY(-76px);
     }
   }
 }
