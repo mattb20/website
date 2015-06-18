@@ -7,3 +7,23 @@
   image: jordan.png
   job_title: Sales and Marketing Director
   about: Jordan is our Sales and Marketing Director at Makers Academy, and he's also heading up our latest secret project, codenamed 'Ronin'. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
+
+- name: Roi
+  image: roi.png
+  job_title: Head of Magic
+  about: Roi is an MA graduate and has over 10 years of experience in print and web design with clients including Philips, Toshiba, Emirates Bank, and West End shows. Roi loves problem solving in any form, especially coding.
+
+- name: Arfah
+  image: arfah.png
+  job_title: Marketing Executive
+  about: Arfah assists in running marketing campaigns. There is a good chance that her work was, either directly or indirectly, responsible for bringing you to this page.
+
+- name: Ruben
+  image: ruben.png
+  job_title: First Sealord
+  about: Ruben's just some guy, you know?
+
+- name: Will
+  image: will.png
+  job_title: Head of Careers
+  about: Will's pretty awesome too.
