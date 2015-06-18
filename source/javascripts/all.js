@@ -4,6 +4,7 @@
 //= require slick
 //= require vendor/jquery.ajaxchimp
 //= require mixpanel-email-capture
+//= require navigation
 
 
 $(document).ready(function() {
