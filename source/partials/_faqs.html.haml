@@ -1,0 +1,13 @@
+%section
+  .container
+    .centered-row
+      %h2 Frequently-Asked Questions
+    .faq-row
+      %aside#scroll-on-page-top
+        - data.faqs.each_with_index do |faq, index|
+          %a.scroll-on-page-link{href: "#scroll-link-#{index}"}= faq[:question]
+      %article
+        - data.faqs.each_with_index do |faq, index|
+          .question
+            %h4{id: "scroll-link-#{index}"}= faq[:question]
+            %p= faq[:answer]
