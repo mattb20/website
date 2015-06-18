@@ -1,0 +1,14 @@
+%section.full-slider.with-padding
+  .slider
+    - data.curriculum_weeks.each do | week |
+      .slide
+        .container
+          .profile-row
+            .image.show-desktop.vertical-center
+              = image_tag "curriculum/#{week[:image]}"
+            .copy
+              %h2= week[:summary]
+              %h2.subheader= week[:title]
+              %p= week[:blurb]
+            .image.hide-desktop.no-padding
+              = image_tag "curriculum/#{week[:image]}"
