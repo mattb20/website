@@ -22,9 +22,19 @@
         padding: 0 modular-scale(1);
       }
     }
+    @include media($desktop) {
+      .copy {
+        padding-left: $section-spacing;
+      }
+    }
   }
   &.with-padding .slide {
     padding-bottom: $section-spacing;
+  }
+  @include media($desktop) {
+    &.no-padding .slide {
+      padding-top: 0;
+    }
   }
 }
 
