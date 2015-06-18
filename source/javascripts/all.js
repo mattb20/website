@@ -5,14 +5,21 @@
 //= require vendor/jquery.ajaxchimp
 //= require mixpanel-email-capture
 
-
 $(document).ready(function() {
-  // set up sliders using Slick
+
+  $('.slider').on('init', function(){
+    var $sliderRows = $('.slider-row, .half-slider-row');
+    $sliderRows.css("opacity", 1);
+    $sliderRows.css("min-height", 0);
+  });
+
   $('.slider').slick({
     prevArrow: "<a class='slick-prev'></a>",
     nextArrow: "<a class='slick-next'></a>",
     adaptiveHeight: true
   });
+
+  // set up sliders using Slick
   // set up email capture using AJAXChimp
   $('.email-capture').ajaxChimp({
     callback: mixpanelEmailCapture

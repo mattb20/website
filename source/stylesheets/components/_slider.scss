@@ -90,6 +90,14 @@
   }
 }
 
+// Hide on load to av
+.slider-row, .half-slider-row {
+  opacity: 0;
+  min-height: 800px;
+  // TODO abstract to variable
+  @include transition(opacity 0.2s ease-in-out);
+}
+
 .slide {
   position: relative;
   padding: $section-spacing 0 0;
