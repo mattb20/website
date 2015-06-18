@@ -1,3 +1,83 @@
+- name: Nicole Pellicena
+  image: nicole.png
+  summary: Marketing Manager to Junior Developer at Deloitte Digital
+  testimonial: The three words to describe Makers Academy is crazy, intense and awesome
+  cohort: September 2014
+  blog_link: http://niccipell.wordpress.com/
+  case_study_link: http://blog.makersacademy.com/nicole-pellicena-i-was-managing-the-marketing-functions-for-a-legal-recruitment-company-to-junior-developer-at-deloitte-digital/
+
+- name: Nick Dyer
+  image: nickd.png
+  summary: Project Manager to Junior Developer at Atos Consulting
+  testimonial: I am now enjoying work and getting to work with cool people. I’m just a lot happier than I was before.
+  cohort: October 2014
+  case_study_link: http://blog.makersacademy.com/nick-dyer-i-was-a-project-manager-for-a-company-that-did-home-automation-to-junior-developer-at-atos-consulting/
+
+- name: Alexandra Parkinson
+  image: alexandra.png
+  summary: Retail Worker to Junior Developer at Pun Publish
+  testimonial: MA was really fun, exciting and my first experience in education that I actually enjoyed!
+  cohort: February 2014
+  case_study_link: http://blog.makersacademy.com/alexandra-parkinson-working-in-retail-to-junior-developer-at-punk-publishing/
+
+- name: Fadie Hannona
+  image: fadie.png
+  summary: Marketing Manager to Junior Developer at Deloitte Digital
+  testimonial: You an either stay in a career that doesn't fulfill you or you can take action until you reach your desired goal.
+  cohort: September 2014
+  case_study_link: http://blog.makersacademy.com/fadie-hannona-i-was-working-at-makers-academy-as-a-marketing-manager-so-you-could-say-i-was-a-victim-of-my-own-marketing-to-junior-developer-at-deloitte-digital/
+
+- name: Ruth Earle
+  image: ruth.png
+  summary: Full-time Mum to Junior Developer at Mergermarket
+  testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, its actually a steal.
+  cohort: September 2014
+  case_study_link: http://blog.makersacademy.com/ruth-earle-i-was-a-full-time-mum-for-7-years-and-before-that-i-had-my-own-franchise-business-to-junior-developer-at-merger-market/
+
+- name: Mishal Islam
+  image: mishal.png
+  summary: Environmental Geography Draduate to Junior Developer at Deloitte Digital
+  testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, its actually a steal.
+  cohort: September 2014
+  case_study_link: http://blog.makersacademy.com/mishal-islam-i-was-at-the-university-of-york-where-i-studied-environmental-geography-to-junior-developer-at-deloitte-digital/
+
+- name: Izzy Marwick
+  image: izzy.png
+  summary: Business Developer at a Fashion Tech Startup to Freelancing Junior Developer
+  testimonial: Makers is amazing, intense and quite life changing.
+  cohort: October 2014
+  case_study_link: http://blog.makersacademy.com/izzy-markwick-before-makers-academy-i-was-working-in-a-fashion-tech-startup-doing-a-bit-of-everything-but-my-job-title-was-business-development-and-i-went-there-straight-from-uni-where-i-studied-inte/
+
+- name: Vanessa Virgitti
+  image: vanessa.png
+  summary: Online Marketing Manager to Junior Developer at Mergermarket
+  testimonial: Makers Academy is challenging and intense, but full of rewards!
+  cohort: February 2014
+  case_study_link: http://blog.makersacademy.com/vanessa-virgitti-1206-pm-i-was-working-as-an-online-marketing-manager-for-huge-companies-to-junior-developer-at-merger-market/
+
+- name: Rachel Nolan
+  image: rachel.png
+  summary: Subscription Cheese Boxes Startup to Junior Developer at Atos
+  testimonial: Makers was great fun! The best thing I’ve done in terms of education!
+  cohort: September 2014
+  case_study_link: http://blog.makersacademy.com/fadie-hannona-i-was-working-at-makers-academy-as-a-marketing-manager-so-you-could-say-i-was-a-victim-of-my-own-marketing-to-junior-developer-at-deloitte-digital/
+
+- name: Matteo Manzo
+  image: matteo.png
+  summary: International Hotel Bartender to Junior Software Engineer at Compare The Market
+  testimonial: Makers was both a big jump and a huge bet, but it was the best decision I could have made!
+  cohort: December 2014
+  blog_link: https://matteomanzo.github.io/
+  case_study_link: http://blog.makersacademy.com/matteo-manzo-i-was-working-in-hotels-around-the-world-as-bartender-to-junior-developer-at-at-comparethemarket-com-as-a-junior-software-engineer/
+
+- name: Alex Blease
+  image: alex.png
+  summary: Medical Services Industry to Web Developer at CloudCredo
+  testimonial: Makers Academy changed my life. I now work in a job that suits me and I really enjoy working how I want.
+  cohort: October 2014
+  case_study_link: http://blog.makersacademy.com/alex-blease-working-part-time-for-a-medical-services-company-to-junior-developer-at-cloudcredo-a-cloud-foundry-consultancy/?doing_wp_cron=1434470574.2644610404968261718750
+
+
 - name: Craig Horsborough
   image: craig.png
   summary: Recruitment Consultant to Junior Developer at Tombola
@@ -41,6 +121,7 @@
   summary: Aeronautic Engineering Graduate to Junior Developer at Red Badger
   testimonial: Although £8,000 might feel very expensive just think about how much a years worth of university tuition.
   cohort: February 2014
+  blog_link: https://sevenhoursbehind.wordpress.com/ 
   case_study_link: http://blog.makersacademy.com/andrew-cumine-graduate-mechanical-engineering-junior-developer-red-badger/
 
 - name: Will Hall
