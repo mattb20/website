@@ -42,3 +42,33 @@
   image: nikesh.png
   job_title: Hive Queen
   about: Nikesh is just this guy, you know?
+
+- name: Ben
+  image: ben.png
+  job_title: Coachineer
+  about: Ben's just this guy, you know?
+
+- name: Evgeny
+  image: evgeny.png
+  job_title: Chief Executive Officer
+  about: Evgeny is a co-founder of Makers Academy. After graduating from uni with a masters degree in computer science, he worked for several years as a software developer in London. He knows first-hand how hard it is to hire software developers and how easy it is to get a job for those who can code, so he's now building Makers Academy to help more people to code well.
+
+- name: Dana
+  image: dana.png
+  job_title: Chief Joy Officer
+  about: Dana is our Chief Joy Officer. She facilitates the wellbeing of the students, everything from yoga and meditation to personal chats and advice while running the office and organising graduation parties. She's also a DJ, singer, songwriter and so much more!
+
+- name: Sam
+  image: samm.png
+  job_title: Ronin Coordinator
+  about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship.
+
+- name: Stefan
+  image: stefan.png
+  job_title: Coachineer
+  about: Stefan's just this guy, you know?
+
+- name: Ana
+  image: ana.png
+  job_title: Coachineer
+  about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she is responsible for keeping Makers HQ running! Her official title is Mother Goose and that says it all.
