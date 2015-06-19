@@ -46,7 +46,7 @@
 - name: Ben
   image: ben.png
   job_title: Coachineer
-  about: Ben's just this guy, you know?
+  about: Ben has been developing software for over 15 years and has designed and built production systems for large businesses using C#, Java and Ruby.  Ben is an expert in object oriented design and is passionate about clean code.
 
 - name: Evgeny
   image: evgeny.png
