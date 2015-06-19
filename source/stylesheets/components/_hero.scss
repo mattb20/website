@@ -40,7 +40,6 @@
 
 .hero--apply {
   @extend .hero;
-  min-height: 61.8vh;
   padding: 0;
   .container {
     min-height: 61.8vh;
@@ -50,5 +49,6 @@
   }
   @include media($desktop) {
     padding: $section-spacing $base-spacing;
+    min-height: 61.8vh;
   }
 }
