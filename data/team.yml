@@ -27,3 +27,18 @@
   image: will.png
   job_title: Head of Careers
   about: Will's pretty awesome too.
+
+- name: Ptolemy
+  image: ptolemy.png
+  job_title: Coachineer
+  about: Ptolemy, a graduate of Makers Academy, is a Junior Developer/Coach with a background in education. His mission is to find the perfect formula for introducing students to the Maker's style of software development.
+
+- name: Dan
+  image: dan.png
+  job_title: Coachineer
+  about: Dan graduated from Makers Academy and is now Junior Developer/Coach. He primarily works on the the software applications used by Makers Academy staff and students, but also loves to pair with students to give them experience of 'real-world' development.
+
+- name: Nikesh
+  image: nikesh.png
+  job_title: Hive Queen
+  about: Nikesh is just this guy, you know?
