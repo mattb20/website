@@ -1,8 +1,12 @@
 footer {
   color: $alt-font-color;
   text-align: center;
-  min-height: 38.2vh;
   background-color: $brand-primary-color;
+
+  @include media($desktop) {
+    min-height: 38.2vh;
+  }
+
   h3, small {
     color: inherit;
     font-weight: book;
@@ -20,26 +24,23 @@ footer {
   }
   .container {
     @include ma-container;
-
     @include media($desktop) {
-      padding: modular-scale(-1)  0 0 modular-scale(4);
+      padding: modular-scale(-1) 0 0 modular-scale(4);
       background-color: $red;
       text-align: left;
     }
   }
-
   .footer-links {
     @include ma-columns(4);
     margin: 0 0 $base-spacing;
     padding-top: modular-scale(2);
-
     .column {
       margin-bottom: modular-scale(3);
-      text-align:center;
+      text-align: center;
     }
     address {
-        font-style: normal;
-        line-height: inherit;
+      font-style: normal;
+      line-height: inherit;
       span {
         font-size: modular-scale(-1);
       }
@@ -48,7 +49,6 @@ footer {
       }
     }
   }
-
   .footer-logos {
     text-align: center;
     font-size: $base-font-size;
@@ -66,7 +66,6 @@ footer {
       }
     }
   }
-
   .footer-copyright {
     @extend .centered-row;
     padding-top: modular-scale(1);
@@ -84,4 +83,3 @@ footer {
     }
   }
 }
-
