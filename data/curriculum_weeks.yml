@@ -22,7 +22,7 @@
   image: ruby.png
   summary: Databases and User Management
   blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: using hashing and salting, choosing a good hashing algorithm and mitigating common security risks. The students write a user management system (sign up, sign in, sign out, etc) from scratch paying special attention to the security aspects. Finally, the students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases."
-  
+
 - title: Week 5
   image: ruby.png
   summary: Front-End Technologies
@@ -61,5 +61,4 @@
 - title: Week 12
   image: ruby.png
   summary: Hiring Week
-  blurb: "This week our new graduates will receive the personal attention of our expert placements team. They will focus on honing life-long learning skills and preparing to enter the jobs market. This could include technical tests, working on open-source code or even working on projects for charities that we partner with."
-
+  blurb: "This week our new graduates will receive the personal attention of our expert placements team. They will focus on honing life-long learning skills and preparing to enter the jobs market. This could include technical tests, working on open-source code or even working on projects for charities that we partner with. For those students who attend Makers as Entrepreneurs, this is a great week to start working on your MVP!"
