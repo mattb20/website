@@ -5,7 +5,7 @@
 //= require vendor/jquery.ajaxchimp
 //= require mixpanel-email-capture
 //= require navigation
-
+//= require images
 
 $(document).ready(function() {
   // set up sliders using Slick
@@ -18,4 +18,6 @@ $(document).ready(function() {
   $('.email-capture').ajaxChimp({
     callback: mixpanelEmailCapture
   });
+
+  aspectRatioIs();
 });
