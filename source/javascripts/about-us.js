@@ -1,1 +1,0 @@
-//= require faq_controls
