@@ -16,7 +16,7 @@
 
 %hr
 
-%section.full-slider
+%section.full-slider.no-padding
   .slider
     - data.team.each do | team_member |
       .slide
@@ -25,7 +25,7 @@
             .image.show-desktop
               = image_tag "team/#{team_member[:image]}"
             .copy
-              %h1= team_member[:name]
+              %h2= team_member[:name]
               %h2.subheader= team_member[:job_title]
               %p= team_member[:about]
               .button-row.shift-to-bottom
