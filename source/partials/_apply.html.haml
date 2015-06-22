@@ -42,6 +42,7 @@
         %p
           = link_to "Payment Options", "payment.html", class: "button button--horizontal"
           = link_to "Apply", "http://www.makersacademy.com/apply", class: "button button--vertical button--large"
-          = link_to "Learn More", "about-us.html", class: "button button--horizontal"
-
-  
+          - if current_page.url == "/about-us/"
+            = link_to "See our curriculum", "curriculum.html", class: "button button--horizontal"
+          - else
+            = link_to "Learn More", "about-us.html", class: "button button--horizontal"
