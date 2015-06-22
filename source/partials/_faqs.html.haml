@@ -10,4 +10,4 @@
         - data.faqs.each_with_index do |faq, index|
           .question
             %h4{id: "scroll-link-#{index}"}= faq[:question]
-            %p= faq[:answer]
+            = markdown faq[:answer]
