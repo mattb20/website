@@ -35,13 +35,13 @@
 
 - title: Week 7
   image: ruby.png
-  summary: NodeJS
-  blurb: "NodeJS is a powerful Javascript framework that allows developers to use the same programming language for both their front-end and back-end development. This week, students will create a simple-yet-powerful interactive web application. The Friday challenge is based on refreshing Ruby knowledge."
+  summary: Node.js
+  blurb: "Node.js is a powerful JavaScript framework that allows developers to use the same programming language for both their front-end and back-end development. This week, students will create a simple-yet-powerful interactive web application. The Friday challenge is based on refreshing Ruby knowledge."
 
 - title: Week 8
   image: ruby.png
   summary: Ruby on Rails Basics
-  blurb: "In week 8 we start working with Ruby on Rails. By now the students have a solid understanding of Ruby, the web (HTTP, HTML, Javascript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand because it merely automates what they can do without it. This week we talk about ActiveRecord, asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
+  blurb: "In week 8 we start working with Ruby on Rails. By now the students have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand because it merely automates what they can do without it. This week we talk about ActiveRecord, asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
 
 - title: Week 9
   image: ruby.png
