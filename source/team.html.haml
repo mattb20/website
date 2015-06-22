@@ -9,8 +9,8 @@
   .article--centered
     %article
       %h2 Who are we?
-      %p 
-        %span We are senior programmers with decades of experience, machine learning experts, education theorists, designers, craftspeople, craft beer afficionadoes, and we all love what we do: taking complete beginners from zero to junior developer in 12 weeks.
+      %p
+        %span We are senior programmers with decades of experience, machine learning experts, education theorists, designers, craftspeople, craft beer aficionados, and we all love what we do: taking complete beginners from zero to junior developer in 12 weeks.
       %p If you're at a loose end around Commercial Street in London, come drop in: we'd love to meet you.
       %p Without further ado, let's introduce the team:
 
@@ -30,7 +30,7 @@
               %p= team_member[:about]
               .button-row.shift-to-bottom
                 %p
-                  = link_to "Read #{team_member[:name]}'s Blog", "#", class: "button--horizontal", target: "_blank"
+                  -#= link_to "Read #{team_member[:name]}'s Blog", "#", class: "button--horizontal", target: "_blank"
                   = link_to "Join the Team", "join-the-team.html", class: "button--horizontal"
             .image.hide-desktop.no-padding
               = image_tag "team/#{team_member[:image]}"

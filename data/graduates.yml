@@ -1,7 +1,7 @@
 - name: Nicole Pellicena
   image: nicole.png
   summary: Marketing Manager to Junior Developer at Deloitte Digital
-  testimonial: The three words to describe Makers Academy is crazy, intense and awesome
+  testimonial: The three words to describe Makers Academy are crazy, intense and awesome.
   cohort: September 2014
   blog_link: http://niccipell.wordpress.com
   case_study_link: http://blog.makersacademy.com/nicole-pellicena-i-was-managing-the-marketing-functions-for-a-legal-recruitment-company-to-junior-developer-at-deloitte-digital/
@@ -23,7 +23,7 @@
 - name: Fadie Hannona
   image: fadie.png
   summary: Marketing Manager to Junior Developer at Deloitte Digital
-  testimonial: You an either stay in a career that doesn't fulfill you or you can take action until you reach your desired goal.
+  testimonial: You can either stay in a career that doesn't fulfil you or you can take action until you reach your desired goal.
   cohort: September 2014
   case_study_link: http://blog.makersacademy.com/fadie-hannona-i-was-working-at-makers-academy-as-a-marketing-manager-so-you-could-say-i-was-a-victim-of-my-own-marketing-to-junior-developer-at-deloitte-digital/
 
@@ -34,17 +34,17 @@
   cohort: September 2014
   case_study_link: http://blog.makersacademy.com/ruth-earle-i-was-a-full-time-mum-for-7-years-and-before-that-i-had-my-own-franchise-business-to-junior-developer-at-merger-market/
 
-- name: Mishal Islam
-  image: mishal.png
-  summary: Environmental Geography Graduate to Junior Developer at Deloitte Digital
-  testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, its actually a steal.
-  cohort: September 2014
-  case_study_link: http://blog.makersacademy.com/mishal-islam-i-was-at-the-university-of-york-where-i-studied-environmental-geography-to-junior-developer-at-deloitte-digital/
+#- name: Mishal Islam
+  #image: mishal.png
+  #summary: Environmental Geography Graduate to Junior Developer at Deloitte Digital
+  #testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, its actually a steal.
+  #cohort: September 2014
+  #case_study_link: http://blog.makersacademy.com/mishal-islam-i-was-at-the-university-of-york-where-i-studied-environmental-geography-to-junior-developer-at-deloitte-digital/
 
 - name: Izzy Marwick
   image: izzy.png
   summary: Business Developer at a Fashion Tech Startup to Freelancing Junior Developer
-  testimonial: Makers is amazing, intense and quite life changing.
+  testimonial: Makers is amazing, intense and quite life-changing.
   cohort: October 2014
   case_study_link: http://blog.makersacademy.com/izzy-markwick-before-makers-academy-i-was-working-in-a-fashion-tech-startup-doing-a-bit-of-everything-but-my-job-title-was-business-development-and-i-went-there-straight-from-uni-where-i-studied-inte/
 
@@ -147,7 +147,7 @@
 
 - name: Simon Woolf
   image: simonw.png
-  summary: Law to Junior Developer at Econsultancy
+  summary: Law to Junior Developer at eConsultancy
   testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from econsultancy eight days after that.
   cohort: November 2013
   case_study_link: http://blog.makersacademy.com/simon-woolf-law-junior-developer-econsultancy/
