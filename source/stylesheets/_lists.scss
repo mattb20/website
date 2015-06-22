@@ -5,10 +5,7 @@ ol {
   padding: 0;
 
   &.default-ul {
-    list-style-type: disc;
-    margin-bottom: $small-spacing;
-    padding-left: $base-spacing;
-    text-align: left;
+    @include ma-unordered-list;
   }
 
   &.default-ol {
