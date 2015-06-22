@@ -63,3 +63,10 @@
   -moz-osx-font-smoothing: grayscale;
   content: "\e032";
 }
+
+@mixin ma-unordered-list {
+  list-style-type: disc;
+  margin-bottom: $small-spacing;
+  padding-left: $base-spacing;
+  text-align: left;
+}

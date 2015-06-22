@@ -230,13 +230,16 @@
     @include media($desktop) {
       @include span-columns(4);
     }
+
+    a {
+      text-decoration: none;
+    }
   }
 
   .scroll-on-page-link {
     display: block;
     outline: none;
-    padding: modular-scale(0) 0;
-    
+    padding: modular-scale(-3) 0;
 
     &:last-child {
       margin-bottom: $base-spacing;
@@ -259,11 +262,14 @@
       line-height: $base-line-height;
     }
 
-    .question p:last-of-type {
-      margin-bottom: 2em;
-      text-align: left;
-      h4 {
+    .question {
+      p {
+        margin-bottom: 2em;
         text-align: left;
+      }
+      ul {
+        @include ma-unordered-list;
+        margin-bottom: 2em;
       }
     }
 

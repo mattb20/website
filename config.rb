@@ -1,5 +1,6 @@
 require 'lib/current_page_helper'
 require 'lib/partner_logos_helper'
+require 'lib/markdown_helper'
 
 ###
 # Compass
@@ -42,7 +43,7 @@ activate :meta_tags
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-helpers CurrentPageHelper, PartnerLogosHelper
+helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper
 
 set :css_dir, 'stylesheets'
 
