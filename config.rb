@@ -5,7 +5,7 @@ require 'lib/partner_logos_helper'
 # Compass
 ###
 
-activate :directory_indexes
+#activate :directory_indexes
 activate :meta_tags
 
 # Change Compass configuration
