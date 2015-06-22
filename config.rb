@@ -78,10 +78,7 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 
-  # TODO once we're live switch back on analytics
   set :run_analytics, true
 
-  # TODO: Make sure to change this when the site goes live to production
-  # mixpanel!
-  set :mixpanel_token, 'f3e503bb7803dd7089f5b4124baa03a4'
+  set :mixpanel_token, 'b839b30fbe0796d650ae20e7eae6d0d1'
 end
