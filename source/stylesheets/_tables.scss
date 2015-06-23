@@ -27,4 +27,8 @@ tr,
 td,
 th {
   vertical-align: middle;
+
+  @include media($mobile) {
+    vertical-align: top;
+  }
 }
