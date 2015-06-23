@@ -7,8 +7,8 @@
             .image.show-desktop
               = image_tag "graduates/#{grad[:image]}"
             .copy
-              %h1= grad[:name]
-              %h2.subheader= grad[:summary]
+              %h2= grad[:name]
+              %h4.subheader= grad[:summary]
               %blockquote= grad[:testimonial]
               .button-row.shift-to-bottom
                 %p
