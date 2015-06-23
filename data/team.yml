@@ -10,7 +10,7 @@
 
 - name: Roi
   image: roi.png
-  job_title: Head of Magic
+  job_title: Coachineer
   about: Roi is an MA graduate and has over 10 years of experience in print and web design with clients including Philips, Toshiba, Emirates Bank, and West End shows. Roi loves problem solving in any form, especially coding.
 
 - name: Arfah
@@ -18,15 +18,15 @@
   job_title: Head of Marketing
   about: Arfah leads on the various marketing campaigns to get you excited about Makers Academy! There is a good chance that her work was, either directly or indirectly, responsible for bringing you to this page. She is always involved in various things from being Youth Trustee of charity Spark+Mettle to co-founding a skills development site for young people called Discoverables. 
 
-#- name: Ruben
-  #image: ruben.png
-  #job_title: First Sealord
-  #about: Ruben's just some guy, you know?
+- name: Ruben
+  image: ruben.png
+  job_title: Chief Operating Officer
+  about: Ruben is part of the founding team at Makers, having himself taken the second course and built the career side of the business. Today, his focus is on the organisational structure and culture, the team and our strategic growth. Ruben is passionate about new [un]management styles, education and food.
 
-#- name: Will
-  #image: will.png
-  #job_title: Head of Careers
-  #about: Will's pretty awesome too.
+- name: Will
+  image: will.png
+  job_title: Head of Careers
+  about: Will is one of those odd people who likes recruitment. Couple that with a passion for education and tech, mix in a history of starting and growing education startups, and he's found the perfect place to work. He also volunteers for a number of organisations including EdTech UK, Tech London Advocates, Learning Futures and The Tech Partnership.
 
 - name: Ptolemy
   image: ptolemy.png
@@ -40,40 +40,35 @@
 
 - name: Nikesh
   image: nikesh.png
-  job_title: Hive Queen
-  about: Nikesh is just this guy, you know?
+  job_title: Gatekeeper
+  about: Nikesh is the self proclaimed gatekeeper for Makers Academy. After completing the course in June 2014, he refused to leave to we gave him a job. He now spends time selecting the best students for each cohort, facilitates the PreCourse and works with engineering to automate operations at Makers Academy. He also part of the Escape the City Founding Members and runs a charity and business in his “down” time.
 
 - name: Ben
   image: ben.png
   job_title: Coachineer
   about: Ben has been developing software for over 15 years and has designed and built production systems for large businesses using C#, Java and Ruby.  Ben is an expert in object oriented design and is passionate about clean code.
 
-#- name: Evgeny
-  #image: evgeny.png
-  #job_title: Chief Executive Officer
-  #about: Evgeny is a co-founder of Makers Academy. After graduating from uni with a masters degree in computer science, he worked for several years as a software developer in London. He knows first-hand how hard it is to hire software developers and how easy it is to get a job for those who can code, so he's now building Makers Academy to help more people to code well.
-
-#- name: Dana
-  #image: dana.png
-  #job_title: Chief Joy Officer
-  #about: Dana is our Chief Joy Officer. She facilitates the wellbeing of the students, everything from yoga and meditation to personal chats and advice while running the office and organising graduation parties. She's also a DJ, singer, songwriter and so much more!
-
-#- name: Sam
-  #image: samm.png
-  #job_title: Ronin Coordinator
-  #about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship.
-
-#- name: Stefan
-  #image: stefan.png
-  #job_title: Coachineer
-  #about: Stefan's just this guy, you know?
-
-#- name: Ana
-  #image: ana.png
-  #job_title: Coachineer
-  #about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she is responsible for keeping Makers HQ running! Her official title is Mother Goose and that says it all.
-
-- name: Stephen
-  image: stephen.png
+- name: Leo
+  image: leo.png
   job_title: Coachineer
-  about: Stephen is a coach with nearly a decade of commercial coding experience. When he's not coding you'll find him cycling obscene distances or drinking coffee in one of London's many coffee shops.
+  about: Leo was our first hire at Makers Academy - he helped graduate the first few cohorts at Makers before leaving to travel round the world. Now he's back in London and helping us grow our engineering team with his 8 years experience working for everything from large Bay Area companies like CouchSurfing to money transfer companies in South Africa.
+
+- name: Evgeny
+  image: evgeny.png
+  job_title: Chief Executive Officer
+  about: Evgeny is a co-founder of Makers Academy. After graduating from uni with a masters degree in computer science, he worked for several years as a software developer in London. He knows first-hand how hard it is to hire software developers and how easy it is to get a job for those who can code, so he's now building Makers Academy to help more people to code well.
+
+- name: Sam
+  image: samm.png
+  job_title: Ronin Coordinator and Coachineer
+  about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship. He has nearly a decade of experience building complex web applications in a variety of roles, and leads Makers' Ronin online cohorts.
+
+- name: Stefan
+  image: stefan.png
+  job_title: Coachineer
+  about: Stefan joined us to bolster the coachineering team. He's a senior developer with half a decade of experience working mainly in Ruby on Rails.
+
+- name: Ana
+  image: ana.png
+  job_title: Coachineer
+  about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she is responsible for keeping Makers HQ running! Her official title is Mother Goose and that says it all.
