@@ -29,6 +29,16 @@ th {
   vertical-align: middle;
 
   @include media($mobile) {
+    font-size: .975em;
     vertical-align: top;
+    padding-right: .5em;
+
+    td:nth-of-type(2n) {
+      border-left: $base-border;
+      padding-left: .5em;
+    }
+    &:last-of-type td {
+      border-bottom: none;
+    }
   }
 }
