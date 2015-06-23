@@ -118,7 +118,7 @@
   &:before {
     font-size: modular-scale(4);
     position: absolute;
-    color: $medium-gray;
+    color: $dark-gray;
     top: 50%;
     height: modular-scale(0);
     width: modular-scale(0);
@@ -141,6 +141,7 @@
   &:before {
     left: 0;
     @include ma-arrow-icon($left-arrow);
+    font-weight: bold;
   }
 }
 .slick-next {
