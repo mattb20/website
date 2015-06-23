@@ -1,6 +1,4 @@
-require 'lib/current_page_helper'
-require 'lib/partner_logos_helper'
-require 'lib/markdown_helper'
+Dir["lib/*.rb"].each { |file| require file }
 
 ###
 # Compass

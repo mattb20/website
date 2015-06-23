@@ -23,35 +23,37 @@ td {
   padding: $small-spacing 0;
 }
 
-tr,
-td,
-th {
-  font-size: 0.95em;
+tr {
   vertical-align: top;
-  padding-right: 0.5em;
-
-  td:nth-of-type(2n) {
-    border-left: $base-border;
-    padding-left: 0.5em;
-  }
   &:last-of-type td {
     border-bottom: none;
   }
 
   @include media($desktop) {
-    font-size: modular-scale(0);
-    vertical-align: middle;
-    padding-right: none;
+    border-bottom: $base-border;
+  }
 
-    td:nth-of-type(2n) {
+  td,th {
+    font-size: 0.95em;
+    padding-right: 0.5em;
+    border-left: $base-border;
+    padding-left: 0.5em;
+
+    &:first-of-type {
       border-left: none;
       padding-left: none;
     }
-    &:last-of-type td {
-      border-bottom: $base-border;
+
+    @include media($desktop) {
+      font-size: modular-scale(0);
+      vertical-align: middle;
+      padding-right: none;
+      border-left:none;
+      padding-left: none;
     }
   }
 }
+
 
 table.responsive-table {
   @include media($mobile) {
@@ -61,13 +63,21 @@ table.responsive-table {
     tbody {
       tr {
         position: relative;
+        &:last-of-type {
+          td:last-of-type {
+            border: none;
+          }
+        }
       }
       th {
         display: block;
       }
       td {
-        &:nth-of-type(2n) {
-          padding-left: 0;
+        &:last-of-type {
+          border-bottom: $base-border;
+          border-width: 1px;
+          margin-bottom: modular-scale(1);
+          padding-bottom: modular-scale(1);
         }
         width: 100%;
         float: right;
@@ -79,7 +89,7 @@ table.responsive-table {
           content: attr(data-header) ":";
           display: block;
           float: left;
-          text-align:left;
+          text-align: left;
           padding-right: modular-scale(1);
           left: 0;
           line-height: modular-scale(2);
