@@ -36,14 +36,14 @@
 
 - name: Mishal Islam
   image: mishal.png
-  summary: Environmental Geography Graduate to Junior Developer at Deloitte Digital
+  summary: Environmental Geography Grad to Junior Developer at Deloitte Digital
   testimonial: Makers Academy was the best investment I ever made!
   cohort: Graduated January 2015
   case_study_link: http://blog.makersacademy.com/mishal-islam-i-was-at-the-university-of-york-where-i-studied-environmental-geography-to-junior-developer-at-deloitte-digital/
 
-- name: Izzy Marwick
+- name: Izzy Markwick
   image: izzy.png
-  summary: Business Developer at a Fashion Tech Startup to Freelancing Developer
+  summary: Business Developer at a Fashion Tech Startup to Freelance Developer
   testimonial: Makers is amazing, intense and quite life-changing.
   cohort: Graduated January 2015
   case_study_link: http://blog.makersacademy.com/izzy-markwick-before-makers-academy-i-was-working-in-a-fashion-tech-startup-doing-a-bit-of-everything-but-my-job-title-was-business-development-and-i-went-there-straight-from-uni-where-i-studied-inte/
@@ -57,7 +57,7 @@
 
 - name: Rachel Nolan
   image: rachel.png
-  summary: Subscription Cheese Boxes Startup to Junior Developer at Atos
+  summary: Subscription Cheese Box Startup to Junior Developer at Atos
   testimonial: Makers was great fun! The best thing I’ve done in terms of education!
   cohort: Graduated January 2015
   case_study_link: http://blog.makersacademy.com/fadie-hannona-i-was-working-at-makers-academy-as-a-marketing-manager-so-you-could-say-i-was-a-victim-of-my-own-marketing-to-junior-developer-at-deloitte-digital/
@@ -72,7 +72,7 @@
 
 - name: Alex Blease
   image: alex.png
-  summary: Medical Services Industry to Web Developer at CloudCredo
+  summary: Medical Services IT Manager to Web Developer at CloudCredo
   testimonial: Makers Academy changed my life. I now work in a job that suits me and I really enjoy working how I want.
   cohort: Graduated January 2015
   case_study_link: http://blog.makersacademy.com/alex-blease-working-part-time-for-a-medical-services-company-to-junior-developer-at-cloudcredo-a-cloud-foundry-consultancy/?doing_wp_cron=1434470574.2644610404968261718750
@@ -139,15 +139,15 @@
 
 - name: Yvette Cook
   image: yvette.png
-  summary: Project Management to iOS Developer at MyGravity
+  summary: Project Manager to iOS Developer at MyGravity
   testimonial: MA was probably the best experience of my life! It was life-changing and like any big change, it wasn’t always easy but I now feel that my future is very bright.
   cohort: Graduated December 2014
   case_study_link: http://blog.makersacademy.com/yvette-cook-i-was-working-in-project-management-in-a-small-team-at-a-social-enterprise-it-was-interesting-at-first-but-as-time-went-on-i-didnt-feel-like-i-was-developing-any-tangible-skills-to/
 
 - name: Simon Woolf
   image: simonw.png
-  summary: Law to Junior Developer at eConsultancy
-  testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from econsultancy eight days after that.
+  summary: Law student to Junior Developer at Econsultancy
+  testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from Econsultancy eight days after that.
   cohort: Graduated February 2014
   case_study_link: http://blog.makersacademy.com/simon-woolf-law-junior-developer-econsultancy/
 
