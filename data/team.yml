@@ -18,15 +18,15 @@
   job_title: Head of Marketing
   about: Arfah leads on the various marketing campaigns to get you excited about Makers Academy! There is a good chance that her work was, either directly or indirectly, responsible for bringing you to this page. She is always involved in various things from being Youth Trustee of charity Spark+Mettle to co-founding a skills development site for young people called Discoverables. 
 
-- name: Ruben
-  image: ruben.png
-  job_title: First Sealord
-  about: Ruben's just some guy, you know?
+#- name: Ruben
+  #image: ruben.png
+  #job_title: First Sealord
+  #about: Ruben's just some guy, you know?
 
-- name: Will
-  image: will.png
-  job_title: Head of Careers
-  about: Will's pretty awesome too.
+#- name: Will
+  #image: will.png
+  #job_title: Head of Careers
+  #about: Will's pretty awesome too.
 
 - name: Ptolemy
   image: ptolemy.png
@@ -48,30 +48,30 @@
   job_title: Coachineer
   about: Ben has been developing software for over 15 years and has designed and built production systems for large businesses using C#, Java and Ruby.  Ben is an expert in object oriented design and is passionate about clean code.
 
-- name: Evgeny
-  image: evgeny.png
-  job_title: Chief Executive Officer
-  about: Evgeny is a co-founder of Makers Academy. After graduating from uni with a masters degree in computer science, he worked for several years as a software developer in London. He knows first-hand how hard it is to hire software developers and how easy it is to get a job for those who can code, so he's now building Makers Academy to help more people to code well.
+#- name: Evgeny
+  #image: evgeny.png
+  #job_title: Chief Executive Officer
+  #about: Evgeny is a co-founder of Makers Academy. After graduating from uni with a masters degree in computer science, he worked for several years as a software developer in London. He knows first-hand how hard it is to hire software developers and how easy it is to get a job for those who can code, so he's now building Makers Academy to help more people to code well.
 
-- name: Dana
-  image: dana.png
-  job_title: Chief Joy Officer
-  about: Dana is our Chief Joy Officer. She facilitates the wellbeing of the students, everything from yoga and meditation to personal chats and advice while running the office and organising graduation parties. She's also a DJ, singer, songwriter and so much more!
+#- name: Dana
+  #image: dana.png
+  #job_title: Chief Joy Officer
+  #about: Dana is our Chief Joy Officer. She facilitates the wellbeing of the students, everything from yoga and meditation to personal chats and advice while running the office and organising graduation parties. She's also a DJ, singer, songwriter and so much more!
 
-- name: Sam
-  image: samm.png
-  job_title: Ronin Coordinator
-  about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship.
+#- name: Sam
+  #image: samm.png
+  #job_title: Ronin Coordinator
+  #about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship.
 
-- name: Stefan
-  image: stefan.png
-  job_title: Coachineer
-  about: Stefan's just this guy, you know?
+#- name: Stefan
+  #image: stefan.png
+  #job_title: Coachineer
+  #about: Stefan's just this guy, you know?
 
-- name: Ana
-  image: ana.png
-  job_title: Coachineer
-  about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she is responsible for keeping Makers HQ running! Her official title is Mother Goose and that says it all.
+#- name: Ana
+  #image: ana.png
+  #job_title: Coachineer
+  #about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she is responsible for keeping Makers HQ running! Her official title is Mother Goose and that says it all.
 
 - name: Stephen
   image: stephen.png
