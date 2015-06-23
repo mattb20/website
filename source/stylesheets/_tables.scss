@@ -26,9 +26,29 @@ td {
 tr,
 td,
 th {
-  vertical-align: middle;
+  font-size: 0.95em;
+  vertical-align: top;
+  padding-right: 0.5em;
 
-  @include media($mobile) {
-    vertical-align: top;
+  td:nth-of-type(2n) {
+    border-left: $base-border;
+    padding-left: 0.5em;
+  }
+  &:last-of-type td {
+    border-bottom: none;
+  }
+
+  @include media($desktop) {
+    font-size: modular-scale(0);
+    vertical-align: middle;
+    padding-right: none;
+
+    td:nth-of-type(2n) {
+      border-left: none;
+      padding-left: none;
+    }
+    &:last-of-type td {
+      border-bottom: $base-border;
+    }
   }
 }
