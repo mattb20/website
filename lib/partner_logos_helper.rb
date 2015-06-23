@@ -12,6 +12,13 @@ module PartnerLogosHelper
     end
   end
 
+  def alt_text_from_filename(logo_name)
+    logo_name.split('/').last
+             .split('.').first
+             .gsub('-', ' ')
+             .gsub(/\b(?<!['â`])[a-z]/) { $&.capitalize }
+  end
+
   private
 
   def strip_directories!(paths)

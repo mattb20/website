@@ -18,7 +18,7 @@
   .container
     .image-grid-row
       - fetch_logos.each do | logo |
-        = image_tag logo
+        = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
 
 %section.article--right
   %article
