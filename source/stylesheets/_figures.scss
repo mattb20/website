@@ -14,7 +14,8 @@ figure.with-caption {
       text-shadow: 1px 1px 1px $dark-gray;
       p {
         display: block;
-        margin-right: 1%;
+        margin-right: modular-scale(2);
+        margin-left: modular-scale(2);
       }
     }
   }

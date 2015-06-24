@@ -19,7 +19,7 @@
   p {
     margin: 0 auto modular-scale(2);
     max-width: em(580);
-    &:last-of-type {
+    &:last-child {
       margin-bottom: 0;
     }
   }
@@ -270,6 +270,9 @@
       ul {
         @include ma-unordered-list;
         margin-bottom: 2em;
+      }
+      &:last-of-type p {
+        margin-bottom: 0;
       }
     }
 

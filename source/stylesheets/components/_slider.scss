@@ -100,7 +100,7 @@
 
 .slide {
   position: relative;
-  padding: $section-spacing 0 0;
+  padding: $section-spacing modular-scale(2) 0;
 }
 
 // Style slick buttons
@@ -111,7 +111,6 @@
   width: modular-scale(2);
   border: none;
   color: transparent;
-  background: transparent;
   &:focus {
     outline: none;
   }
@@ -122,6 +121,7 @@
     top: 50%;
     height: modular-scale(0);
     width: modular-scale(0);
+    margin-top: -1 * modular-scale(0)/2;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
   }
