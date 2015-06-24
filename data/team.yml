@@ -68,6 +68,11 @@
   job_title: Coachineer
   about: Stefan joined us to bolster the coachineering team. He's a senior developer with half a decade of experience working mainly in Ruby on Rails.
 
+- name: Stephen
+  image: steve.png
+  job_title: Coachineer
+  about: Stephen is a coach with nearly a decade of commercial coding experience. When he's not coding you'll find him cycling obscene distances or drinking coffee in one of London's many coffee shops.
+
 - name: Ana
   image: ana.png
   job_title: Coachineer

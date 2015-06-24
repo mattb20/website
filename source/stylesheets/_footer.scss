@@ -25,7 +25,7 @@ footer {
   .container {
     @include ma-container;
     @include media($desktop) {
-      padding: modular-scale(-1) 0 0 modular-scale(4);
+      padding: modular-scale(-1) modular-scale(4) 0 modular-scale(4);
       background-color: $red;
       text-align: left;
     }
