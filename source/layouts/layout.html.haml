@@ -1,6 +1,7 @@
 !!!
 %html
   %head
+    = partial :"partials/analytics_scripts"
     %script{src: "//use.typekit.net/fla8fba.js"}
     :javascript
       try{Typekit.load();}catch(e){}
@@ -16,7 +17,8 @@
     %link{href: image_path("favicons/favicon-16x16.png"), rel: "icon", sizes: "16x16", type: "image/png"}/
     = javascript_include_tag  "hooks"
   %body{class: page_classes}
-    = partial :"partials/analytics_scripts"
+    - # Tag manager must go in the body, the other analytics scripts go in the head
+    = partial :"partials/google_tag_manager"
     = partial :"partials/navigation"
 
     = yield
