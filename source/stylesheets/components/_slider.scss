@@ -17,10 +17,7 @@
       margin-right: 0;
     }
     blockquote {
-      padding: 0 modular-scale(1);
-      & + .subheader {
-        padding: 0 modular-scale(1);
-      }
+      margin-top: modular-scale(1);
     }
     @include media($desktop) {
       .copy {
@@ -47,8 +44,11 @@
     @include ma-row(table);
     margin-bottom: 0;
     .copy {
-      padding-top: $section-spacing;
       width: 100%;
+      padding-top: modular-scale(2);
+      @include media($desktop) {
+        padding-top: $section-spacing;
+      }
     }
     .column {
       width: 100%;
