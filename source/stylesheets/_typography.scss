@@ -16,22 +16,17 @@ h6, {
   font-family: $heading-font-family;
   font-size: $base-font-size;
   line-height: $large-line-height;
-  margin: 0 0 $small-spacing;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   font-weight: 500;
   color: $brand-primary-color;
-
-  &.subheader, &.leader {
-    color: $medium-gray;
-    font-size: modular-scale(0);
-  }
 }
 
 h1 {
   font-size: modular-scale(-2, $h1-font-size);
   line-height: $heading-line-height;
+  margin: 0 0 modular-scale(-2);
   @include media($desktop) {
     font-size: $h1-font-size;
   }
@@ -39,6 +34,7 @@ h1 {
 
 h2 {
   font-size: modular-scale(-2, $h2-font-size);
+  margin: 0 0 modular-scale(-3);
   @include media($desktop) {
     font-size: $h2-font-size;
   }
@@ -46,15 +42,34 @@ h2 {
 
 h3 {
   font-size: modular-scale(-2, $h3-font-size);
+  margin: 0 0 modular-scale(-2);
   @include media($desktop) {
     font-size: $h3-font-size;
   }
 }
 
 h4 {
-  font-size: modular-scale(-2, $h4-font-size);
+  font-size: modular-scale(-4, $h4-font-size);
+  margin: 0 0 modular-scale(-2);
+  color: $medium-gray;
   @include media($desktop) {
     font-size: $h4-font-size;
+  }
+
+  &.leader, &.subheader {
+    color: $medium-gray;
+    font-size: modular-scale(0);
+  }
+
+  &.leader {
+    margin-bottom: 0;
+  }
+
+  &.subheader {
+    margin-top: -1 * modular-scale(0);
+    & + .subheader {
+      margin-top: 0;
+    }
   }
 }
 

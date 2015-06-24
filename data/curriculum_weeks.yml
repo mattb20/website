@@ -1,6 +1,6 @@
-- title: Everything you need to get ready for the main course
+- title: Precourse
   image: git.png
-  summary: Precourse
+  summary: Everything you need to get ready for the main course
   blurb: "In the four weeks preceding the course students take part in a mandatory part-time pre-course to ensure all students obtain the required basic level of competence. We focus on the foundations: command-line, version control and the basics of Ruby. The pre-course requires an average of 15-20 hours per week to complete successfully. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the pre-course, we send out a challenge to help solidify and focus students' learning and check in on their progress."
 
 - title: Week 1
