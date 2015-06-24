@@ -162,7 +162,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.3.12)
   middleman-gh-pages
-  middleman-imageoptim
+  middleman-imageoptim (= 0.2.1)
   middleman-livereload (~> 3.1.0)
   middleman-meta-tags
   rspec
