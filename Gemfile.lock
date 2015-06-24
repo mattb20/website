@@ -26,6 +26,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
+    diff-lcs (1.2.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -92,11 +93,7 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
-    puma (2.11.3)
-      rack (>= 1.1, < 2.0)
     rack (1.6.1)
-    rack-contrib (1.2.0)
-      rack (>= 0.9.1)
     rack-livereload (0.3.15)
       rack
     rack-test (0.6.3)
@@ -105,6 +102,19 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    rspec (3.2.0)
+      rspec-core (~> 3.2.0)
+      rspec-expectations (~> 3.2.0)
+      rspec-mocks (~> 3.2.0)
+    rspec-core (3.2.3)
+      rspec-support (~> 3.2.0)
+    rspec-expectations (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-mocks (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-support (3.2.2)
     sass (3.4.14)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -136,5 +146,4 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-livereload (~> 3.1.0)
   middleman-meta-tags
-  puma
-  rack-contrib
+  rspec

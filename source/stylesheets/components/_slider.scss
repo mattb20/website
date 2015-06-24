@@ -17,10 +17,7 @@
       margin-right: 0;
     }
     blockquote {
-      padding: 0 modular-scale(1);
-      & + .subheader {
-        padding: 0 modular-scale(1);
-      }
+      margin-top: modular-scale(1);
     }
     @include media($desktop) {
       .copy {
@@ -47,8 +44,11 @@
     @include ma-row(table);
     margin-bottom: 0;
     .copy {
-      padding-top: $section-spacing;
       width: 100%;
+      padding-top: modular-scale(2);
+      @include media($desktop) {
+        padding-top: $section-spacing;
+      }
     }
     .column {
       width: 100%;
@@ -100,7 +100,7 @@
 
 .slide {
   position: relative;
-  padding: $section-spacing 0 0;
+  padding: $section-spacing modular-scale(2) 0;
 }
 
 // Style slick buttons
@@ -111,7 +111,6 @@
   width: modular-scale(2);
   border: none;
   color: transparent;
-  background: transparent;
   &:focus {
     outline: none;
   }
@@ -122,6 +121,7 @@
     top: 50%;
     height: modular-scale(0);
     width: modular-scale(0);
+    margin-top: -1 * modular-scale(0)/2;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
   }
