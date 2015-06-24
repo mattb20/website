@@ -52,3 +52,47 @@ th {
     }
   }
 }
+
+table.responsive-table {
+  @include media($mobile) {
+    thead {
+      display: none;
+    }
+    tbody {
+      tr {
+        position: relative;
+      }
+      th {
+        display: block;
+      }
+      td {
+        &:nth-of-type(2n) {
+          padding-left: 0;
+        }
+        width: 100%;
+        float: right;
+        border: none;
+        line-height: modular-scale(2);
+        text-align: right;
+        &:before {
+          font-weight: 500;
+          content: attr(data-header) ":";
+          display: block;
+          float: left;
+          text-align:left;
+          padding-right: modular-scale(1);
+          left: 0;
+          line-height: modular-scale(2);
+        }
+      }
+    }
+    tr.no-respond {
+      td {
+        text-align: center;
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
