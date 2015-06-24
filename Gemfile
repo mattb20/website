@@ -12,7 +12,11 @@ gem 'middleman-gh-pages'
 gem 'middleman-meta-tags'
 
 # Heroku deployment
-group :production do
-  gem 'rack-contrib'
-  gem 'puma'
+#group :production do
+  #gem 'rack-contrib'
+  #gem 'puma'
+#end
+
+group :development, :test do
+  gem 'rspec'
 end
