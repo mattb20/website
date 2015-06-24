@@ -26,13 +26,16 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
+    diff-lcs (1.2.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     eventmachine (1.0.7)
     execjs (2.5.2)
+    exifr (1.2.3)
     ffi (1.9.8)
+    fspath (2.1.1)
     haml (4.0.6)
       tilt
     hike (1.2.3)
@@ -41,6 +44,17 @@ GEM
       uber (~> 0.0.4)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
+    image_optim (0.20.2)
+      exifr (~> 1.1, >= 1.1.3)
+      fspath (~> 2.1)
+      image_size (~> 1.3)
+      in_threads (~> 1.3)
+      progress (~> 3.0, >= 3.0.1)
+    image_optim_pack (0.2.1.20150525)
+      fspath (~> 2.1)
+      image_optim (~> 0.19)
+    image_size (1.4.1)
+    in_threads (1.3.1)
     json (1.8.3)
     kramdown (1.7.0)
     listen (2.10.0)
@@ -72,6 +86,10 @@ GEM
       tilt (~> 1.4.1, < 2.0)
     middleman-gh-pages (0.0.3)
       rake (> 0.9.3)
+    middleman-imageoptim (0.2.1)
+      image_optim (~> 0.20.2)
+      image_optim_pack (~> 0.2.1)
+      middleman-core (>= 3.1)
     middleman-livereload (3.1.1)
       em-websocket (>= 0.2.0)
       middleman-core (>= 3.0.2)
@@ -92,11 +110,8 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
-    puma (2.11.3)
-      rack (>= 1.1, < 2.0)
+    progress (3.1.0)
     rack (1.6.1)
-    rack-contrib (1.2.0)
-      rack (>= 0.9.1)
     rack-livereload (0.3.15)
       rack
     rack-test (0.6.3)
@@ -105,6 +120,19 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.1)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-mocks (3.3.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-support (3.3.0)
     sass (3.4.14)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -134,7 +162,10 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.3.12)
   middleman-gh-pages
+  middleman-imageoptim
   middleman-livereload (~> 3.1.0)
   middleman-meta-tags
-  puma
-  rack-contrib
+  rspec
+
+BUNDLED WITH
+   1.10.2

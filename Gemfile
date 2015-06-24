@@ -11,6 +11,9 @@ gem 'middleman-gh-pages'
 
 gem 'middleman-meta-tags'
 
+# Compresses and optimises images on the build task
+gem 'middleman-imageoptim'
+
 # Heroku deployment
 #group :production do
   #gem 'rack-contrib'

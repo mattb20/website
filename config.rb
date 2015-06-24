@@ -63,6 +63,8 @@ end
 # Build-specific configuration
 configure :build do
 
+  activate :imageoptim
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
