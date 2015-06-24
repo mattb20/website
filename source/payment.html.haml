@@ -20,7 +20,7 @@
 %section
   .container
     .centered-row
-      %table
+      %table.responsive-table
         %thead.plans
           %tr.plans
             %th.plan-labels
@@ -34,29 +34,29 @@
         %tbody
           %tr
             %th.plan-labels Deposit
-            %td £800
-            %td £800
-            %td £800
+            %td{data:{header: "Early Payment"}} £800
+            %td{data:{header: "(10% Discount)"}} £800
+            %td{data:{header: "PCDL"}} £800
           %tr
             %th.plan-labels Upfront Payment
-            %td £6,400
-            %td £7,200
-            %td None
+            %td{data:{header: "Early Payment"}} £6,400
+            %td{data:{header: "(10% Discount)"}} £7,200
+            %td{data:{header: "PCDL"}} None
           %tr
             %th.plan-labels Payment after the course
-            %td None
-            %td None
-            %td To be defined*
+            %td{data:{header: "Early Payment"}} None
+            %td{data:{header: "(10% Discount)"}} None
+            %td{data:{header: "PCDL"}} To be defined*
           %tr
             %th.plan-labels Total cost to you
-            %td.total-cost £7,200
-            %td.total-cost £8,000
-            %td.total-cost To be defined*
-          %tr
+            %td.total-cost{data:{header: "Early Payment"}} £7,200
+            %td.total-cost{data:{header: "(10% Discount)"}} £8,000
+            %td.total-cost{data:{header: "PCDL"}} To be defined*
+          %tr.no-respond
             %th.plan-labels More info
             %td{:colspan => "2"} 10% discount only applies when full payment is received 30 days before your course.
             %td
-              %a{:href => "https://www.gov.uk/career-development-loans/overview"} Find out more
+              %a{:href => "https://www.gov.uk/career-development-loans/overview", :class => "button button--horizontal", :target => "_blank"} Find out more
     %small.loans-blurb
       *Professional and Career Development Loans are commercial bank loans that can be used to help pay for work related learning. You can borrow between £300 and £10,000 to help support the cost of up to two years of learning (or three years if it includes one year’s relevant unpaid practical work). The Government will pay the interest on the loan while you are learning and for one month afterwards. You will then need to start repaying the loan as you would any other commercial loans product. The loan can be used to pay course fees or other costs such as travel and living expenses. You can also use the loan to supplement other forms of support such as grants or bursaries.
     %small.loans-blurb
