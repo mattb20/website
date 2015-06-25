@@ -5,6 +5,6 @@
         .image--centered
           = image_tag "graduates/#{grad[:image]}"
         %figcaption
-          %p= grad[:name]
+          %p= "#{grad[:first_name]} #{grad[:last_name]}"
           %p= grad[:summary]
           %p= grad[:cohort]
