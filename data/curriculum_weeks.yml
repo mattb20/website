@@ -1,7 +1,7 @@
-- title: Precourse
-  image: git.png
-  summary: Everything you need to get ready for the main course
-  blurb: "In the four weeks preceding the course students take part in a mandatory part-time pre-course to ensure all students obtain the required basic level of competence. We focus on the foundations: command-line, version control and the basics of Ruby. The pre-course requires an average of 15-20 hours per week to complete successfully. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the pre-course, we send out a challenge to help solidify and focus students' learning and check in on their progress."
+- title: Everything you need to get ready for the main course
+  image: git_command_version_ruby_test_db_html_css_js_jquery_node_lab_agile_rails_graduate.png
+  summary: Precourse
+  blurb: "In the four weeks preceding the course students take part in a mandatory part-time pre-course to ensure all students obtain the required basic level of competence. We focus on the foundations: command-line which is key to navigate around your computer, creating files and directories and the abilitly to search your entire system, version control for saving your work and easily contribute to others code and the basics of Ruby which will be your first programming language. The pre-course requires an average of 15-20 hours per week to complete successfully. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the pre-course, we send out a challenge to help solidify and focus students' learning and check in on their progress."
 
 - title: Week 1
   image: ruby.png
@@ -11,12 +11,12 @@
 - title: Week 2
   image: ruby.png
   summary: Further TDD and OOP
-  blurb: "This week we build a game using test-driven development and object-oriented programming to make sure students understand these important concepts well. We also cover more advanced Ruby topics: lambdas vs procs, composition vs inheritance, iterators and recursion. The Friday challenge involves reimplementing some of the more advanced methods from the Ruby core library."
+  blurb: "This week we build a game using test-driven development and object-oriented programming to make sure students understand these important concepts well. We also cover more advanced Ruby and programming topics: lambdas vs procs, composition vs inheritance, iterators and recursion. The Friday challenge involves reimplementing some of the more advanced methods from the Ruby core library."
 
 - title: Week 3
   image: ruby.png
   summary: Introduction to Web Development
-  blurb: "By now, students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. The Friday challenge involves building a Sinatra application and deploying it to Heroku."
+  blurb: "By now, students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, touch on HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. The Friday challenge involves building a Sinatra application and deploying it to Heroku."
 
 - title: Week 4
   image: ruby.png
