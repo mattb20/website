@@ -1,62 +1,62 @@
 - name: Nicole Pellicena
-  image: nicole.png
+  image: nicole.jpg
   summary: Marketing Manager to Junior Developer at Deloitte Digital
   testimonial: The three words to describe Makers Academy are crazy, intense and awesome.
   cohort: Graduated December 2014
   blog_link: http://niccipell.wordpress.com
   case_study_link: http://blog.makersacademy.com/nicole-pellicena-i-was-managing-the-marketing-functions-for-a-legal-recruitment-company-to-junior-developer-at-deloitte-digital/
 
+- name: Ruth Earle
+  image: ruth.jpg
+  summary: Full-time Mum to Junior Developer at Mergermarket
+  testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, its actually a steal.
+  cohort: Graduated October 2014
+  case_study_link: http://blog.makersacademy.com/ruth-earle-i-was-a-full-time-mum-for-7-years-and-before-that-i-had-my-own-franchise-business-to-junior-developer-at-merger-market/
+
 - name: Nick Dyer
-  image: nickd.png
+  image: nickd.jpg
   summary: Project Manager to Junior Developer at Atos Consulting
   testimonial: I am now enjoying work and getting to work with cool people. I’m just a lot happier than I was before.
   cohort: Graduated January 2015
   case_study_link: http://blog.makersacademy.com/nick-dyer-i-was-a-project-manager-for-a-company-that-did-home-automation-to-junior-developer-at-atos-consulting/
 
 - name: Alexandra Parkinson
-  image: alexandra.png
+  image: alexandra.jpg
   summary: Retail Worker to Junior Developer at Punk Publishing
   testimonial: MA was really fun, exciting and my first experience in education that I actually enjoyed!
   cohort: Graduated May 2015
   case_study_link: http://blog.makersacademy.com/alexandra-parkinson-working-in-retail-to-junior-developer-at-punk-publishing/
 
 - name: Fadie Hannona
-  image: fadie.png
+  image: fadie.jpg
   summary: Marketing Manager to Junior Developer at Deloitte Digital
   testimonial: You can either stay in a career that doesn't fulfil you or you can take action until you reach your desired goal.
   cohort: Graduated December 2014
   case_study_link: http://blog.makersacademy.com/fadie-hannona-i-was-working-at-makers-academy-as-a-marketing-manager-so-you-could-say-i-was-a-victim-of-my-own-marketing-to-junior-developer-at-deloitte-digital/
 
-- name: Ruth Earle
-  image: ruth.png
-  summary: Full-time Mum to Junior Developer at Mergermarket
-  testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, its actually a steal.
-  cohort: Graduated October 2014
-  case_study_link: http://blog.makersacademy.com/ruth-earle-i-was-a-full-time-mum-for-7-years-and-before-that-i-had-my-own-franchise-business-to-junior-developer-at-merger-market/
-
 - name: Mishal Islam
-  image: mishal.png
+  image: mishal.jpg
   summary: Environmental Geography Grad to Junior Developer at Deloitte Digital
   testimonial: Makers Academy was the best investment I ever made!
   cohort: Graduated January 2015
   case_study_link: http://blog.makersacademy.com/mishal-islam-i-was-at-the-university-of-york-where-i-studied-environmental-geography-to-junior-developer-at-deloitte-digital/
 
 - name: Izzy Markwick
-  image: izzy.png
+  image: izzy.jpg
   summary: Business Developer at a Fashion Tech Startup to Freelance Developer
   testimonial: Makers is amazing, intense and quite life-changing.
   cohort: Graduated January 2015
   case_study_link: http://blog.makersacademy.com/izzy-markwick-before-makers-academy-i-was-working-in-a-fashion-tech-startup-doing-a-bit-of-everything-but-my-job-title-was-business-development-and-i-went-there-straight-from-uni-where-i-studied-inte/
 
 - name: Vanessa Virgitti
-  image: vanessa.png
+  image: vanessa.jpg
   summary: Online Marketing Manager to Junior Developer at Mergermarket
   testimonial: Makers Academy is challenging and intense, but full of rewards!
   cohort: Graduated May 2015
   case_study_link: http://blog.makersacademy.com/vanessa-virgitti-1206-pm-i-was-working-as-an-online-marketing-manager-for-huge-companies-to-junior-developer-at-merger-market/
 
 - name: Rachel Nolan
-  image: rachel.png
+  image: rachel.jpg
   summary: Subscription Cheese Box Startup to Junior Developer at Atos
   testimonial: Makers was great fun! The best thing I’ve done in terms of education!
   cohort: Graduated January 2015
