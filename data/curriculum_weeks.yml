@@ -1,64 +1,64 @@
 - title: Everything you need to get ready for the main course
-  image: git_command_version_ruby_test_db_html_css_js_jquery_node_lab_agile_rails_graduate.png
+  image: precourse.png
   summary: Precourse
   blurb: "In the four weeks preceding the course students take part in a mandatory part-time pre-course to ensure all students obtain the required basic level of competence. We focus on the foundations: command-line which is key to navigate around your computer, creating files and directories and the abilitly to search your entire system, version control for saving your work and easily contribute to others code and the basics of Ruby which will be your first programming language. The pre-course requires an average of 15-20 hours per week to complete successfully. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the pre-course, we send out a challenge to help solidify and focus students' learning and check in on their progress."
 
 - title: Week 1
-  image: ruby.png
+  image: tdd.png
   summary: Test-Driven Development and Object-Oriented Programming
   blurb: "The main topics of week 1 are test-driven development and object-oriented programming. By now, students have some experience writing pure Ruby code and are familiar with the functionality of core Ruby classes. This week we start creating our own classes in a test-driven way. The aim of this week is to understand how to structure code using objects. The Friday challenge involves writing a simple object-oriented system of interacting classes."
 
 - title: Week 2
-  image: ruby.png
+  image: tdd.png
   summary: Further TDD and OOP
   blurb: "This week we build a game using test-driven development and object-oriented programming to make sure students understand these important concepts well. We also cover more advanced Ruby and programming topics: lambdas vs procs, composition vs inheritance, iterators and recursion. The Friday challenge involves reimplementing some of the more advanced methods from the Ruby core library."
 
 - title: Week 3
-  image: ruby.png
+  image: http.png
   summary: Introduction to Web Development
   blurb: "By now, students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, touch on HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. The Friday challenge involves building a Sinatra application and deploying it to Heroku."
 
 - title: Week 4
-  image: ruby.png
+  image: db.png
   summary: Databases and User Management
-  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. Students write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. Finally, students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases."
+  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. Students write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. Finally, students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases. This is a an important milestone in the journey as students will have a full picture of web development."
 
 - title: Week 5
-  image: ruby.png
+  image: js.png
   summary: Front-End Technologies
-  blurb: "Now that students can build database-backed Sinatra applications in test-driven mode, while paying attention to security considerations, it's time to start talking about other front-end technologies: JavaScript, jQuery, AJAX and responsive design. The Friday challenge asks students to reimplement the front-end of one of the most popular websites in the world."
+  blurb: "Now that students can build database-backed Sinatra applications in test-driven mode, while paying attention to security considerations, it's time to start talking about other front-end technologies: JavaScript, jQuery, AJAX and responsive design. JavaScript is known as the language of the web, It will also be your second programming language. The Friday challenge asks students to reimplement the front-end of one of the most popular websites in the world."
 
 - title: Week 6
-  image: ruby.png
+  image: lab.png
   summary: Lab Week
   blurb: "This is a less structured week to allow students to consolidate their learning. Students may choose to revisit topics from the previous weeks, catch up on missed work or explore new projects."
 
 - title: Week 7
-  image: ruby.png
+  image: advanced-js.png
   summary: Node.js
-  blurb: "Node.js is a powerful JavaScript framework that allows developers to use the same programming language for both their front-end and back-end development. This week, students create a simple-yet-powerful interactive web application. The Friday challenge is based on refreshing Ruby knowledge."
+  blurb: "All your knowledge of JavaScript is pushed in this week by using Angularjs or Node.js You can use it to make very power application. The world is your oyster as you use the most powerful programming language to its max. This week, students create a simple-yet-powerful interactive web application. The Friday challenge is based on refreshing Ruby knowledge."
 
 - title: Week 8
-  image: ruby.png
+  image: rails.png
   summary: Ruby on Rails Basics
-  blurb: "In week 8 we start working with Ruby on Rails. By now students have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand as it merely automates what they can do without it. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
+  blurb: "No doubt you would have heard the hype, Ruby on Rails is powerful. It has everything, The Ruby programming language wrapped up in a framework which gives you JavaScript, Databases, MVC design patterns the lot. This would be a tough week but we've noticed you've already learnt everything in isolation and it all makes sense. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
 
 - title: Week 9
-  image: ruby.png
+  image: advanced-rails.png
   summary: Advanced Ruby on Rails Topics
   blurb: "This week we talk about more advanced topics: Websockets, HTML5 APIs, using Bootstrap or Foundation, connecting to various APIs: Stripe, Twilio, etc. The challenge for this week focuses on these topics."
 
 - title: Week 10
-  image: ruby.png
+  image: final-projects.png
   summary: The Final Project
   blurb: "By now students are confident junior developers. To put their skills to test, they build a final project that shows how far they've come since they started. This week we introduce fewer new topics and instead focus on helping students to build the first version of their final project."
 
 - title: Week 11
-  image: ruby.png
+  image: graduation.png
   summary: Graduation
   blurb: "Early in the week we declare a feature freeze to make sure the final projects are as polished as possible. This is the most intensive week at Makers Academy, when all teams stay late trying to outperform each other to write the most impressive code. There is no Friday challenge. Instead, we have a graduation ceremony, followed by a party attended by friends, families, hiring partners, recruiters, ex-students and prospective students of Makers Academy."
 
 - title: Week 12
-  image: ruby.png
+  image: graduation.png
   summary: Hiring Week
   blurb: "This week our new graduates receive the personal attention of our expert placements team. They focus on honing life-long learning skills and preparing to enter the jobs market. This could include technical tests, working on open-source code or even working on projects for charities that we partner with. For those students who attend Makers as entrepreneurs, this is a great week to start working on their MVP!"
