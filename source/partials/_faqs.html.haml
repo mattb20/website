@@ -3,11 +3,15 @@
     .centered-row
       %h2 Frequently-Asked Questions
     .faq-row
-      %aside#scroll-on-page-top
-        - data.faqs.each_with_index do |faq, index|
-          %a.scroll-on-page-link{href: "#scroll-link-#{index}"}= faq[:question]
+      %aside#faq-top
+        %nav.faq-links
+          - data.faqs.each_with_index do |category, index|
+            %a.faq-link{href: "#faq-category-#{index}"}= category[:category_name]
       %article
-        - data.faqs.each_with_index do |faq, index|
-          .question
-            %h4{id: "scroll-link-#{index}"}= faq[:question]
-            = markdown faq[:answer]
+        - data.faqs.each_with_index do |category, index|
+          .category
+            %h3.subheader{id: "faq-category-#{index}"}= category[:category_name]
+            - category[:faqs].each do |faq|
+              %dl.faq
+                %dt= faq[:question]
+                %dd= markdown faq[:answer]
