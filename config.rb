@@ -1,6 +1,4 @@
-require 'lib/current_page_helper'
-require 'lib/partner_logos_helper'
-require 'lib/markdown_helper'
+Dir["lib/*.rb"].each { |file| require file }
 
 ###
 # Compass
@@ -43,7 +41,7 @@ activate :meta_tags
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper
+helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper, PossessiveHelper
 
 set :css_dir, 'stylesheets'
 

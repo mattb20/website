@@ -7,14 +7,14 @@
             .image.show-desktop
               %img{'data-lazy' => image_path("graduates/#{grad[:image]}"), height: "515px"}
             .copy
-              %h2= grad[:name]
+              %h2= "#{grad[:first_name]} #{grad[:last_name]}"
               %h4.subheader= grad[:summary]
               %blockquote= grad[:testimonial]
               .button-row.shift-to-bottom
                 %p
                   - if grad[:case_study_link]
-                    = link_to "Read more", grad[:case_study_link], class: "button--horizontal", target: "_blank"
+                    = link_to "Read #{possessivize(grad[:first_name])} story", grad[:case_study_link], class: "button--horizontal", target: "_blank"
                   - if grad[:blog_link]
-                    = link_to "Read blog", grad[:blog_link], class: "button--horizontal", target: "_blank"
+                    = link_to "Visit #{possessivize(grad[:first_name])} blog", grad[:blog_link], class: "button--horizontal", target: "_blank"
             .image.hide-desktop.no-padding
               %img{'data-lazy' => image_path("graduates/#{grad[:image]}")}
