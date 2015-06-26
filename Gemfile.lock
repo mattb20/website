@@ -166,3 +166,6 @@ DEPENDENCIES
   middleman-livereload (~> 3.1.0)
   middleman-meta-tags
   rspec
+
+BUNDLED WITH
+   1.10.2

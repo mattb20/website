@@ -5,7 +5,7 @@
         .container
           .profile-row
             .image.show-desktop
-              = image_tag "graduates/#{grad[:image]}"
+              = image_tag("graduates/#{grad[:image]}")
             .copy
               %h2= "#{grad[:first_name]} #{grad[:last_name]}"
               %h4.subheader= grad[:summary]
@@ -17,4 +17,4 @@
                   - if grad[:blog_link]
                     = link_to "Visit #{possessivize(grad[:first_name])} blog", grad[:blog_link], class: "button--horizontal", target: "_blank"
             .image.hide-desktop.no-padding
-              = image_tag "graduates/#{grad[:image]}"
+              = image_tag("graduates/#{grad[:image]}")

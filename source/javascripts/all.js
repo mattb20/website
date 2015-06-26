@@ -15,10 +15,16 @@ $(document).ready(function() {
     $sliderRows.css("min-height", 0);
   });
 
-  $('.slider').slick({
+  $('.slider:not(.lazy-slider)').slick({
     prevArrow: "<a class='slick-prev'></a>",
     nextArrow: "<a class='slick-next'></a>",
     adaptiveHeight: true
+  });
+
+  $('.lazy-slider').slick({
+    prevArrow: "<a class='slick-prev'></a>",
+    nextArrow: "<a class='slick-next'></a>",
+    lazyload: 'progressive'
   });
 
   // set up sliders using Slick

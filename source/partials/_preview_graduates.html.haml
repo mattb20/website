@@ -1,9 +1,9 @@
-.slider
+.slider.lazy-slider
   - data.graduates.each do |grad|
     .slider-content
       %figure.with-caption
         .image--centered
-          = image_tag "graduates/#{grad[:image]}"
+          %img{'data-lazy' => image_path("graduates/#{grad[:image]}")}
         %figcaption
           %p= "#{grad[:first_name]} #{grad[:last_name]}"
           %p= grad[:summary]
