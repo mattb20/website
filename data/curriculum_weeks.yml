@@ -16,17 +16,17 @@
 - title: Week 3
   image: http.png
   summary: Introduction to Web Development
-  blurb: "By now, students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, touch on HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. The Friday challenge involves building a Sinatra application and deploying it to Heroku."
+  blurb: "By now, students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. The Friday challenge involves building a Sinatra application and deploying it to Heroku."
 
 - title: Week 4
   image: db.png
   summary: Databases and User Management
-  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. Students write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. Finally, students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases. This is a an important milestone in the journey as students will have a full picture of web development."
+  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. Students write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. Finally, students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases. This is a an important milestone as students now have a full picture of web development."
 
 - title: Week 5
   image: js.png
   summary: Front-End Technologies
-  blurb: "Now that students can build database-backed Sinatra applications in test-driven mode, while paying attention to security considerations, it's time to start talking about other front-end technologies: JavaScript, jQuery, AJAX and responsive design. JavaScript is known as the language of the web, It will also be your second programming language. The Friday challenge asks students to reimplement the front-end of one of the most popular websites in the world."
+  blurb: "Now that students can build test-driven, secure, database-backed web applications, it's time to start talking about other front-end technologies: JavaScript, jQuery, AJAX and responsive design. Students begin learning their second language: JavaScript, also known as the language of the web. The Friday challenge asks students to reimplement the front-end of one of the most popular websites in the world."
 
 - title: Week 6
   image: lab.png
@@ -36,12 +36,12 @@
 - title: Week 7
   image: advanced-js.png
   summary: Node.js
-  blurb: "All your knowledge of JavaScript is pushed in this week by using Angularjs or Node.js You can use it to make very powerful application. The world is your oyster as you use the most worlds most popular programming language to its max. This week, students create a simple-yet-powerful interactive web application. The Friday challenge is based on refreshing Ruby knowledge."
+  blurb: "Students expand their knowledge of JavaScript by learning Angular (a popular front-end framework) and Node (JavaScript for the server), combining them to build powerful full-stack applications. The Friday challenge is based on refreshing Ruby knowledge."
 
 - title: Week 8
   image: rails.png
   summary: Ruby on Rails Basics
-  blurb: "No doubt you would have heard the hype, Ruby on Rails is powerful. It has everything, The Ruby programming language wrapped up in a framework which gives you JavaScript, Databases, MVC design patterns the lot. This would be a tough week but we've noticed you've already learnt everything in isolation and it all makes sense. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
+  blurb: "In week 8 we start working with Ruby on Rails. By now students have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand as it merely automates what they can do without it. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
 
 - title: Week 9
   image: advanced-rails.png
