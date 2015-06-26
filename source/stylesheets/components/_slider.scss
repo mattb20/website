@@ -80,9 +80,13 @@
       padding-top: modular-scale(0);
       margin-bottom: modular-scale(0);
     }
+    .image--centered + h3 {
+      padding-top: modular-scale(-4);
+    }
     p {
       display: none;
       @include media($desktop) {
+        display: block;
         max-width: modular-scale(11);
         margin: 0 auto;
       }
