@@ -13,8 +13,8 @@
               .button-row.shift-to-bottom
                 %p
                   - if grad[:case_study_link]
-                    = link_to "Read #{grad[:first_name]}'s Story", grad[:case_study_link], class: "button--horizontal", target: "_blank"
+                    = link_to "Read #{possessivize(grad[:first_name])} story", grad[:case_study_link], class: "button--horizontal", target: "_blank"
                   - if grad[:blog_link]
-                    = link_to "Read blog", grad[:blog_link], class: "button--horizontal", target: "_blank"
+                    = link_to "Visit #{possessivize(grad[:first_name])} blog", grad[:blog_link], class: "button--horizontal", target: "_blank"
             .image.hide-desktop.no-padding
               = image_tag "graduates/#{grad[:image]}"

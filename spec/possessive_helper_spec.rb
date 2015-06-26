@@ -5,10 +5,12 @@ class PossessiveHelperWrapper
 end
 
 describe PossessiveHelperWrapper do
-  xit "possessivizes a regular name" do
+  it "possessivizes a regular name" do
+    expect(subject.possessivize("Samm")).to eq "Samm's"
   end
 
-  xit "possessivizes a name that ends in an s" do
+  it "possessivizes a name that ends in an s" do
+    expect(subject.possessivize("Ross")).to eq "Ross'"
   end
 
   # And the Leo test                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
@@ -111,6 +113,7 @@ describe PossessiveHelperWrapper do
   #     `,::::;;'';;;'''''''''''''''+'''';:,,,..........................,,,,,,''''''';''';:;''                                                                    
   #   .,;;;';;';'';';;'''''''''''''';+'''':,,,,...................``....,,,,:'''''';'''';;;;''';                                                                  
   # `,:;''''';;;';';;;;'''''''''''''''''++';:,.,..................`....,,,,;'''''+'''''';;;;;''';:,;                    
-  xit "possessivizes Leo's name" do
+  it "possessivizes Leo's name" do
+    expect(subject.possessivize("Leo")).to eq "Leo's"
   end
 end
