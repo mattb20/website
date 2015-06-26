@@ -1,11 +1,11 @@
 %section.full-slider.no-padding
-  .slider
+  .lazy-slider
     - data.graduates.each do | grad |
       .slide
         .container
           .profile-row
             .image.show-desktop
-              = image_tag "graduates/#{grad[:image]}"
+              %img{'data-lazy' => image_path("graduates/#{grad[:image]}"), height: "515px"}
             .copy
               %h2= grad[:name]
               %h4.subheader= grad[:summary]
@@ -17,4 +17,4 @@
                   - if grad[:blog_link]
                     = link_to "Read blog", grad[:blog_link], class: "button--horizontal", target: "_blank"
             .image.hide-desktop.no-padding
-              = image_tag "graduates/#{grad[:image]}"
+              %img{'data-lazy' => image_path("graduates/#{grad[:image]}")}

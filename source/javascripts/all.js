@@ -21,6 +21,12 @@ $(document).ready(function() {
     adaptiveHeight: true
   });
 
+  $('.lazy-slider').slick({
+    prevArrow: "<a class='slick-prev'></a>",
+    nextArrow: "<a class='slick-next'></a>",
+    lazyload: 'progressive'
+  });
+
   // set up sliders using Slick
   // set up email capture using AJAXChimp
   $('.email-capture').ajaxChimp({
