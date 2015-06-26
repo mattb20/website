@@ -63,6 +63,11 @@ end
 # Build-specific configuration
 configure :build do
 
+  activate :imageoptim do |options|
+    options.pngout    = false
+    options.svgo      = false
+  end
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
