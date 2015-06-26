@@ -1,7 +1,7 @@
-- title: Everything you need to get ready for the main course
+- title: Precourse
+  summary: Everything you need to get ready for the main course
   image: precourse.png
-  summary: Precourse
-  blurb: "In the four weeks preceding the course students take part in a mandatory part-time pre-course to ensure all students obtain the required basic level of competence. We focus on the foundations: command-line which is key to navigate around your computer, creating files and directories and the abilitly to search your entire system, version control for saving your work and easily contribute to others code and the basics of Ruby which will be your first programming language. The pre-course requires an average of 15-20 hours per week to complete successfully. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the pre-course, we send out a challenge to help solidify and focus students' learning and check in on their progress."
+  blurb: "In the four weeks preceding the full-time course, all students take a (very important!) part-time pre-course, which ensures that all of our students get to the required basic level of competence when they enroll at Makers Academy. We focus on the foundations: first, the command-line, which is key to navigating around your computer, creating files and directories and give you the ability to search your entire system; second, you'll tackle version control using Git, which is great for saving your work and makes it super easy to collaborate with other coders, and finally you'll learn some basic Ruby, which will be your first programming language. The pre-course requires a minimum of 15 hours per week to complete successfully, but the more time you can spend on the pre-course, the better. Access to a computer with an internet connection is a necessity. Students will be allocated a mentor from their preceding cohort, to help direct their learning and assist with any technical problems. Each Friday during the pre-course, we send out a challenge to help solidify and focus students' learning and check in on their progress."
 
 - title: Week 1
   image: tdd.png
@@ -36,7 +36,7 @@
 - title: Week 7
   image: advanced-js.png
   summary: Node.js
-  blurb: "Students expand their knowledge of JavaScript by learning Angular (a popular front-end framework) and Node (JavaScript for the server), combining them to build powerful full-stack applications. The Friday challenge is based on refreshing Ruby knowledge."
+  blurb: "Students expand their knowledge of JavaScript by learning Angular (a popular front-end framework) and Node (JavaScript for the server), combining them to build powerful full-stack applications. The Friday challenge is based on refreshing your Ruby knowledge."
 
 - title: Week 8
   image: rails.png
@@ -51,7 +51,7 @@
 - title: Week 10
   image: final-projects.png
   summary: The Final Project
-  blurb: "By now students are confident junior developers. To put their skills to test, they build a final project that shows how far they've come since they started. This week we introduce fewer new topics and instead focus on helping students to build the first version of their final project."
+  blurb: "By now students are confident junior developers. To put their skills to their test, they build a final project that shows how far they've come since they started. This week we introduce fewer new topics and instead focus on helping students to build the first version of their final project."
 
 - title: Week 11
   image: graduation.png
@@ -61,4 +61,4 @@
 - title: Week 12
   image: graduation.png
   summary: Hiring Week
-  blurb: "This week our new graduates receive the personal attention of our expert placements team. They focus on honing life-long learning skills and preparing to enter the jobs market. This could include technical tests, working on open-source code or even working on projects for charities that we partner with. For those students who attend Makers as entrepreneurs, this is a great week to start working on their MVP!"
+  blurb: "This week our new graduates receive the personal attention of our expert placements team. They focus on honing life-long learning skills and preparing to enter the jobs market. This could include technical tests, working on open-source code or even working on projects for charities that we partner with. For those students who attend Makers as entrepreneurs, this is a great week to start working on your MVP!"
