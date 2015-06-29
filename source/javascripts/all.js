@@ -6,6 +6,7 @@
 //= require vendor/jquery.ajaxchimp
 //= require mixpanel-email-capture
 //= require navigation
+//= require jquery.fixedscroll
 
 $(document).ready(function() {
 
@@ -32,4 +33,6 @@ $(document).ready(function() {
   $('.email-capture').ajaxChimp({
     callback: mixpanelEmailCapture
   });
+
+  $('.faq-links').fixedScroll();
 });
