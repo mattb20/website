@@ -6,6 +6,9 @@ section {
   &.no-min-height {
     min-height: 0;
   }
+  &.no-padding-bottom {
+    padding-bottom: 0;
+  }
   @include media($desktop) {
     padding: $section-spacing 0;
   }
