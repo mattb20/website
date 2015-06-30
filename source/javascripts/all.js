@@ -2,7 +2,11 @@
 
 //= require jquery
 //= require vendor/retina.min
-//= require slick
+//
+// The bower package is called slick.js so we have to call the file slick.js.js
+// or the asset pipeline gets confused
+//
+//= require slick.js.js
 //= require vendor/jquery.ajaxchimp
 //= require mixpanel-email-capture
 //= require navigation
