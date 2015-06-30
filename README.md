@@ -19,7 +19,7 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 
 * [Ruby](https://www.ruby-lang.org/en/) as our server side language
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)/[jQuery](http://jquery.com/) for client side scripts
-* [Middleman](https://middlemanapp.com/) for compiling our code into a static website we can host on [GitHub pages]
+* [Middleman](https://middlemanapp.com/) for compiling our code into a static website we can host on [GitHub pages](https://pages.github.com/)
 * [RSpec](http://rspec.info/) for testing
 * [Bower](http://bower.info/) for installing shared assets
 * [Sass](http://sass-lang.com/) to help write our CSS
