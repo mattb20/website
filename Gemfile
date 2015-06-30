@@ -22,4 +22,5 @@ gem 'middleman-imageoptim', "0.2.1"
 
 group :development, :test do
   gem 'rspec'
+  gem 'sass'
 end

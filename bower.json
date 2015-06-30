@@ -1,16 +1,17 @@
 {
-  "name": "makers again",
-  "version": "0.0.0",
+  "name": "makers_styles",
+  "version": "0.2.0",
   "authors": [
-    "Leo Allen <leo.f.allen@gmail.com>"
+    "Makers Engineering <dev@makersacademy.com>"
   ],
+  "main": "all.css.scss",
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "node_modules",
+    "spec",
     "bower_components",
-    "test",
-    "tests"
+    "build",
+    "lib"
   ],
   "dependencies": {
     "neat": "~1.7.2",
