@@ -1,0 +1,26 @@
+/ Case Study Template
+
+%section.no-padding-bottom
+  .container
+    .profile-row
+      .image.show-desktop
+        = image_tag("graduates/#{grad[:image]}")
+      .copy
+        %h4.leader Case Study
+        %h1= "#{grad[:first_name]} #{grad[:last_name]}"
+        %h4.subheader= grad[:summary]
+        %blockquote= grad[:testimonial]
+      .image.hide-desktop.no-padding
+        = image_tag("graduates/#{grad[:image]}")
+
+%section.backgrounded
+  .article--centered
+    %article
+      %dl
+        - grad[:case_study].each do | qa |
+          %dt= qa[:question]
+          %dd
+            %p= qa[:answer]
+
+= partial :"partials/apply"
+

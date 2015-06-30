@@ -12,7 +12,9 @@
               %blockquote= grad[:testimonial]
               .button-row.shift-to-bottom
                 %p
-                  - if grad[:case_study_link]
+                  - if grad[:case_study]
+                    = link_to "Read #{possessivize(grad[:first_name])} story", "/case-studies/#{slug(grad[:first_name] + ' ' + grad[:last_name])}", class: "button--horizontal"
+                  - elsif grad[:case_study_link]
                     = link_to "Read #{possessivize(grad[:first_name])} story", grad[:case_study_link], class: "button--horizontal", target: "_blank"
                   - if grad[:blog_link]
                     = link_to "Visit #{possessivize(grad[:first_name])} blog", grad[:blog_link], class: "button--horizontal", target: "_blank"

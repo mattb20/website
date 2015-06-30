@@ -6,6 +6,33 @@
   cohort: Graduated December 2014
   blog_link: http://niccipell.wordpress.com
   case_study_link: http://blog.makersacademy.com/nicole-pellicena-i-was-managing-the-marketing-functions-for-a-legal-recruitment-company-to-junior-developer-at-deloitte-digital/
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was managing the marketing functions for a legal recruitment company.
+    - question: What made you want to start learning to code in the first place?
+      answer: I always wanted to learn to code and I kept doing the marketing thing but realised I still wanted to learn to code. I was speaking to a friend who connected me to Nikesh who was doing the course at the time and that convinced me.
+    - question: How did you come across MA and what made you decide to apply?
+      answer: I knew Nikesh who was doing the course at the time so I applied to both GA and Makers Academy but the actual interview process for Makers convinced me that Makers was the better choice. It gave me an insight into the course and I liked the atmosphere and vibe. I read a lot of blogs from students and that all convinced me.
+    - question: What Cohort were you?
+      answer: September 2014
+    - question: What did you find difficult during the course?
+      answer: The intensity of the course is difficult and it’s relentless. There are so many moments where you think you are stupid but you have no choice but to keep going at it until you get it.
+    - question: What happened during / after graduation and where are you job wise?
+      answer: I was an alumni helper for a few months. I worked on a couple of paid freelance projects while job hunting and kept learning. I now have a job at Deloitte Digital.
+    - question: Where are you now working?
+      answer: Deloitte Digital
+    - question: How has your life changed since graduation?
+      answer: My life has changed completely because in real terms my career has completely changed and I’ve got a great group of friends that came out of Makers. Doing the course hits your confidence but weirdly makes you much more confident.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Make sure you do your research and you’ve given yourself and make sure you budget so you can take time to pick your dream job but at the same time don’t over think it and overthink the choice.
+    - question: What would you say to people who say £8000 is very expensive?
+      answer: It is expensive but I don’t regret a single pound I spent as it has made so many things possible for me. I know if I tried to do it on my own I would not have got there quickly and position that I am in now. A big thing that is underestimate is the network that also comes out of Makers Academy as well.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I left an 8 year career so it kept crossing my mind if I was making a big mistake to start all over again. I’m so happy with my decision. It was risky but worth it.
+    - question: Sum up your Makers Academy experience
+      answer: Probably the best experience of my life! Crazy. Intense. Awesome.
+    - question: Any other advice about interviewing for a dev role for all our graduates?
+      answer: Get yourself out there as soon as possible so you start to practice your interview skills and confidence in a new world for you.
 
 - first_name: Ruth
   last_name: Earle
