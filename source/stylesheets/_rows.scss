@@ -126,9 +126,11 @@
   .image {
     vertical-align: bottom;
     img {
+      display: block;
       margin: 0 auto $base-spacing;
     }
     &.no-padding img {
+      display: block;
       margin: 0 auto;
     }
     @include media($desktop) {
