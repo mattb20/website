@@ -1,6 +1,6 @@
 {
   "name": "makers_styles",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "authors": [
     "Makers Engineering <dev@makersacademy.com>"
   ],
@@ -13,6 +13,5 @@
     "build",
     "lib"
   ],
-  "dependencies": {
-  }
+  "dependencies": {}
 }
