@@ -1,23 +1,13 @@
-# site-mvp
+# Makers Academy Beta Site
 
 [ ![Codeship Status for makersacademy/site-mvp](https://codeship.com/projects/e5781160-fcad-0132-3d45-5a06a30fe976/status?branch=master)](https://codeship.com/projects/87550)
 
-Main site version 0.2
+Our new-look website, currently viewable at [http://beta.makersacademy.com](http://beta.makersacademy.com).
 
-To deploy, simply push to master and CI will handle deployment
+## Why are we open sourcing our website?
 
-Website reveal video: https://www.youtube.com/watch?v=rOlXg-kwz2w
+Here at Makers Academy we believe in practising what we preach - which means both open-sourcing code wherever possible and writing code that we're proud to showcase to the world. We wanted our new website to be open so people can both see the principles that drive our code, and as a learning tool for students and graduates alike.
 
-For the moment the only documentation is on the [elements page](http://beta.makersacademy.com/elements/), we'll add [in more in the next sprint](https://waffle.io/makersacademy/engineering/cards/558bdc3e8518ae1d0098d780).
+## Setting up our site
 
-## Margins/Padding
-
-Here's the deal: padding-top, margin-bottom. Ignore this at your peril.
-
-## Header Layout 
-
-* `h1` is used once per page, for the main page headline. For example, 'Learn to Code in 12 weeks' on the homepage. It is a large red header in caps.
-* `h2` is used for section headers. For example, 'our graduates'. It is a smaller red header in caps.
-* `h2.subheader` is used for in-body headers. For example, 'who are our hiring partners?' in partners.html.haml. It is a smaller **gray** header in caps.
-* `h3.leader` is used for leaders to larger titles. These look just like `h2.subheader` but have adjusted margins. For example, 'Our' on the homepage.
-* `h3.subheader` is used for subheaders to larger titles. These look just like `h3.leader` but have adjusted margins. For example, job titles on the 'team' page.
+Clone the repo
