@@ -19,10 +19,10 @@ activate :meta_tags
 # Per-page layout changes:
 #
 # With no layout
-# page "/path/to/file.html", :layout => false
+# page "/path/to/file.html", layout: false
 #
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+# page "/path/to/file.html", layout: :otherlayout
 #
 # A path which all have the same layout
 # with_layout :admin do
@@ -44,7 +44,7 @@ data.graduates.each do | grad |
   if grad[:case_study]
     full_name = "#{grad[:first_name]} #{grad[:last_name]}"
     url_slug = slug(full_name)
-    proxy "/case-studies/#{url_slug}.html", "/case-studies/template.html", :locals => { grad: grad }
+    proxy "/case-studies/#{url_slug}.html", "/case-studies/template.html", locals: { grad: grad }, ignore: true
   end
 end
 
