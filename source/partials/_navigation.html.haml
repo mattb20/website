@@ -8,26 +8,26 @@
       %li{ class: current_if_current_page(current_page, "/") }
         = link_to "Home", "/"
       %li{ class: current_if_current_page(current_page, "/graduates/") }
-        = link_to "Graduates", "graduates.html"
+        = link_to "Graduates", "/graduates.html"
       %li{ class: current_if_current_page(current_page, "/partners/") }
-        = link_to "Partners", "partners.html"
+        = link_to "Partners", "/partners.html"
       %li{ class: current_if_current_page(current_page, "/curriculum/") }
-        = link_to "Curriculum", "curriculum.html"
+        = link_to "Curriculum", "/curriculum.html"
       %li{ class: current_if_current_page(current_page, "/about-us/") }
-        = link_to "About Us", "about-us.html"
+        = link_to "About Us", "/about-us.html"
 
 %header{class: "navigation", role: "banner"}
   %nav{role: "navigation"}
     = link_to image_tag("logo/ma-wordmark-red.png"), "/", class: "image--brand"
     %ul.navigation-menu
       %li{ class: current_if_current_page(current_page, "/graduates/") }
-        = link_to "Graduates", "graduates.html"
+        = link_to "Graduates", "/graduates.html"
       %li{ class: current_if_current_page(current_page, "/partners/") }
-        = link_to "Partners", "partners.html"
+        = link_to "Partners", "/partners.html"
       %li{ class: current_if_current_page(current_page, "/curriculum/") }
-        = link_to "Curriculum", "curriculum.html"
+        = link_to "Curriculum", "/curriculum.html"
       %li{ class: current_if_current_page(current_page, "/about-us/") }
-        = link_to "About Us", "about-us.html"
+        = link_to "About Us", "/about-us.html"
       - if current_page.url == "/employers/"
         %li{ class: current_if_current_page(current_page, "/apply/") }
         = link_to "Hire", "https://makersacademy.typeform.com/to/sz8vTw", class: "button--vertical", target: "_blank"
