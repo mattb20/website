@@ -8,15 +8,17 @@ namespace :assets do
 end
 
 desc "Publishes to github pages and publishs to bower version and publishs."
-task :publish_to_bower do
-  publish_to_bower
+namespace :publish do
+  task :bower do
+    publish_to_bower
+  end
 end
 
 def publish_to_bower
   puts "Please enter a version number, previous version was #{bower["version"]}:"
   new_version = $stdin.gets
   puts "Compiling Sass files into CSS"
-  `sass source/sass/all.css.scss`
+  `sass  --update source/sass:source/stylesheets`
   puts "Committing files to Git"
   `git add .`
   `git commit -m "Compiles and updates stylesheets in preperation for new version"`
