@@ -15,7 +15,7 @@ describe Intake do
     }
   end
 
-  let(:precourse_start) do
+  let(:precourse_start_date) do
     Date.today + intake_offset - described_class::PRECOURSE_LENGTH
   end
 
@@ -28,7 +28,7 @@ describe Intake do
   end
 
   it "calculates the pre course start date" do
-    expect(intake.precourse_start).to eq(precourse_start)
+    expect(intake.precourse_start_date).to eq(precourse_start_date)
   end
 
   describe "Finding intakes" do
