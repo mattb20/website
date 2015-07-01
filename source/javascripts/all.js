@@ -7,6 +7,7 @@
 //= require mixpanel-email-capture
 //= require navigation
 //= require jquery.fixedscroll
+//= require doorbell
 
 $(document).ready(function() {
 
