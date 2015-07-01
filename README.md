@@ -24,3 +24,13 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 * [Bower](http://bower.info/) for installing shared assets
 * [Sass](http://sass-lang.com/) to help write our CSS
 * [Bourbon](http://bourbon.io/)/[Neat](http://neat.bourbon.io/)/[Bitters](http://bitters.bourbon.io/) as a framework for our CSS
+
+## Publishing to Bower
+
+We use Bower to share our assets across the various Makers Academy websites. If
+you need to update the assets here so a newer version can be made available to
+our other sites, just run `rake publish:bower`, and enter a [semantic versioning
+number](http://semver.org/).
+
+The latest SASS changes will be compiled into CSS and a new version of the
+styles will be published to Bower.

@@ -13,6 +13,7 @@ gem 'middleman-meta-tags'
 
 # Compresses and optimises images on the build task
 gem 'middleman-imageoptim', "0.2.1"
+gem 'neat', "~> 1.7.2"
 
 # Heroku deployment
 #group :production do
@@ -22,4 +23,5 @@ gem 'middleman-imageoptim', "0.2.1"
 
 group :development, :test do
   gem 'rspec'
+  gem 'sass'
 end

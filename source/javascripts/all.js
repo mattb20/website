@@ -1,8 +1,8 @@
 // All, loaded in the footer
 
-//= require jquery
+//= require vendor/jquery
 //= require vendor/retina.min
-//= require slick
+//= require vendor/slick.js
 //= require vendor/jquery.ajaxchimp
 //= require mixpanel-email-capture
 //= require navigation
