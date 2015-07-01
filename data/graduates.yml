@@ -39,7 +39,7 @@
   cohort_year: 2014
   case_study:
       - question: What were you doing before joining Makers Academy?
-        answer: I was a full-time Mum for 7 years and before that I had my own franchise business.
+        answer: I was a full time Mum for 7 years and before that I had my own franchise business.
       - question: What made you want to start learning to code in the first place?
         answer: I've always loved tech and I was curious about code. A friend of mine said I should consider doing it as a career.
       - question: How did you come across MA and what made you decide to apply?
@@ -308,7 +308,29 @@
   testimonial: Makers Academy changed my life. I now work in a job that suits me and I really enjoy working how I want.
   cohort_month: January
   cohort_year: 2015
-  case_study_link: http://blog.makersacademy.com/alex-blease-working-part-time-for-a-medical-services-company-to-junior-developer-at-cloudcredo-a-cloud-foundry-consultancy/?doing_wp_cron=1434470574.2644610404968261718750
+  case_study:
+          - question: What were you doing before joining Makers Academy?
+            answer: I was working part time for a medical services company.
+          - question: What made you want to start learning to code in the first place?
+            answer: Originally I wanted to build video games.
+          - question: How did you come across MA and what made you decide to apply?
+            answer: I realised that I was wasting my time trying teach myself the basics of some languages. I just wasn't learning fast enough. I stumbled across the MA website after searching for 'coding bootcamps in London', read their website, gave them a phone call and applied the next morning.
+          - question: What did you find difficult during the course?
+            answer: Realising your own limitations. There is so much to learn and you want all of it in your brain the second you hear about it.
+          - question: What happened during / after graduation and where are you job wise?
+            answer: After graduating I stayed on at Makers as an Alumni helper, and stayed in frequent contact with the Makers placement team. They found my a job just 4 weeks after I graduated.
+          - question: How has your life changed since graduation?
+            answer: I am now a full time developer for a cloud computing start up. I love every minute of my working day. I never thought I would say that.
+          - question: What advice would you give to people thinking of changing career?
+            answer: Do you like being happy? Look at your current daily schedule. Do you enjoy it? Do read around your job regularly, attend meetups and conferences and actually get excited about going to these events? If you don't you should probably consider changing your career.
+          - question: What would you say to people who say £8000 is very expensive?
+            answer: It is an expensive one off payment. But it is a life changing experience.
+          - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+            answer: Failure. I wasn't sure If i was going to cope with the bootcamp style learning experience, and the first few weeks were hard. Now, I feel stupid for not applying to do this years ago.
+          - question: Sum up your Makers Academy experience
+            answer: Made some life-long friends. Learned invaluable skills. Turned my life around.
+          - question: What advice would you give to people interviewing for developer roles?
+            answer: Don't worry about what you know, show how quick you are to learn. Engage in the conversation and have fun with it.
 
 - first_name: Craig
   last_name: Horsborough
@@ -327,7 +349,28 @@
   cohort_month: December
   cohort_year: 2014
   blog_link: http://www.deniseyu.com
-  case_study_link: http://blog.makersacademy.com/denise-yu-finishing-my-msc-in-social-policy-at-the-lse-trying-to-work-in-behavioral-sciences-and-policy-research-to-junior-developer-at-third-space-learning-www-thirdspacelearning-com/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: Finishing my MSc in Social Policy at the LSE, trying to work in behavioural sciences and policy research.
+            - question: What made you want to start learning to code in the first place?
+              answer: I was always interested in building websites and was pretty good at HTML and CSS back in the day. I knew that coding is a valuable skill to have regardless of what industry I end up in.
+            - question: How did you come across MA and what made you decide to apply?
+              answer: I think I saw a Facebook or Google ad for MA at some point -- I don't really remember. I decided to apply after reading some student blogs and testimonials on the website.
+            - question: What did you find difficult during the course?
+              answer: The hardest thing for me was being patient with myself. I had high expectations of myself going into the course, and many times when I didn't understand how to complete a task, I had to remember to separate the task at hand from some reflection of myself. It's very easy to fall into a nasty cycle of self-deprecation when you're surrounded by really intelligent, motivated people.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: After graduation I spent 6 weeks on the floor as an alumni helper while frantically trying to get a job before my visa ran out and landed a job as a rails developer at an ed-tech startup. I've now moved onto to my 2nd job at Mergermarket.
+            - question: How has your life changed since graduation?
+              answer: I have an interesting job that forces me to think and learn something new everyday. I can't say that for the other jobs that I've had. I'm surrounded by supportive co-workers on and off the dev team, and it's a really great place to get my software development career started. I also have become very involved with coding-related meetups in London. I currently help organise Codebar each week, and recently became interested in learning Clojure. The London tech community is a tight-knit but welcoming one, and it's a very exciting time for me, personally and professionally.
+            - question: What advice would you give to people thinking of changing career?
+              answer: Many people are put off by coding because they perceive it to be difficult. I was definitely one of these people. However, once you get past the first few weeks of memorising syntax and getting your head around the logic, you will realise that coding is the most incredibly rewarding skill you can learn. From a more pragmatic view, you only need to look at the front page of Techcrunch to see that software developers have incredibly high vertical and horizontal mobility -- so if you're the kind of person that doesn't like to sit still, the software development industry will give you freedom to travel and move around. If you get your feet wet with a good boot camp that teaches software craftsmanship and TDD and other best practices, you will have around the equivalent of a 6-month head start on other boot camp graduates applying for the same roles.
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: It's cheaper than an MSc in Computer Science, you will meet many people who are well-connected, and London development salaries are extremely good compared to continental Europe.
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: I thought I would be terrible at coding. I'm still not great, but I think I'm no longer terrible.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Admit readily to failure and shortcomings in your knowledge. Don't pretend like you know more than you do. This pisses off team leaders/product managers and instantly flags you as a bad team member. Get a sense of the company culture -- google the CEO, CTO, your immediate supervisor if you can. Have a story for how you discovered the company and why that particular company stands out to you. Assume that all of your social media profiles have been aggregated by recruitment tools and presented to the people interviewing you. Have at least one public repo on your Github that is well-tested, refactored, CLEAN, and that you understand 100%. Preferably not your final project, but better to have something that you built independently after Makers, using at least one new technology not taught on the course. Be sure that you can defend every single method and variable name you've chosen.
+>>>>>>> 070165f... 13 more case studies boom boom
 
 - first_name: Nico
   last_name: Saueressig
@@ -337,7 +380,29 @@
   cohort_month: June
   cohort_year: 2014
   blog_link: http://nicolearnscoding.blogspot.de/
-  case_study_link: http://blog.makersacademy.com/nico-saueressig/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was working as a Music Producer.
+            - question: What made you want to start learning to code in the first place?
+              answer: Bringing my own Software ideas to fruition and changing careers.
+            - question: How did you come across MA and what made you decide to apply?
+              answer: A friend recommended me to look into Programming Bootcamps since I was trying to find a way to enter the world of Software.
+            - question: What did you find difficult during the course?
+              answer: Truly getting to a point where I can honestly embrace Agile practices and use them for my own benefit.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: I applied to jobs and then interviewed, three weeks later I had two full-time job offers.
+            - question: How has your life changed since graduation?
+              answer: I moved to London and am working as a Software Engineer now. I even moved into my own place.
+            - question: What advice would you give to people thinking of changing career?
+              answer: If you have the opportunity and the desire to do it - don't hesitate for a second!
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: Good luck with finding a better course in Europe that gets you a job as a Software Engineer!
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: Not actually being able to get a job after the course. It was absolutely justified to be scared of that but it also drove me to succeed.
+            - question: Sum up your Makers Academy experience
+              answer: It was the most intense and most rewarding learning experience of my life.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Clean up your Github thoroughly and then be yourself and be honest.
 
 - first_name: Sroop
   last_name: Sunar
@@ -347,7 +412,29 @@
   cohort_month: June
   cohort_year: 2014
   blog_link: http://handmadecode.tumblr.com/
-  case_study_link: http://blog.makersacademy.com/sroop-sunar-graphic-designer-illustrator-junior-developer-new-bamboo/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was a Graphic designer and Illustrator.
+            - question: What made you want to start learning to code in the first place?
+              answer: The desire to acquire new skills and learn new technologies made me want to start learning to code. I felt limited by my design skills and wanted to open up new doors for myself and expose myself to different opportunities. I also wanted to know how to make things for myself and explore a new creative medium. Coding ticked all the boxes!
+            - question: How did you come across MA and what made you decide to apply?
+              answer: I googled around for courses - Makers was up there as the best. I read countless student reviews and was really impressed by the unique classroom teaching style. I was also won over by the placements team who seemed to be putting graduates into insanely good starting positions at some awesome companies.
+            - question: What did you find difficult during the course?
+              answer: To begin with, I found pairing with other people quite hard and frustrating but then halfway through the course, you learn how to do it well and it's the best experience. I also found the fast pace quite difficult to keep up with. It didn't bother me so much though, and I trusted that given the extra hard work I put it, it would all eventually make sense.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: After graduation I hit the ground running with back to back interviews and technical tests. The placements team are incredible and so supportive. I landed a job 4 weeks later.
+            - question: How has your life changed since graduation?
+              answer: It's turned my life around. I didn't take this course with the intention of becoming a developer. At the time, I was interested in acquiring some front end skills so I could push forward my design work and take things from there. I ended up loving Ruby and getting a full stack role at a brilliant agency. I have a job that I love with clear focus, direction and endless possibilities.
+            - question: What advice would you give to people thinking of changing career?
+              answer: Do it. The direction of your life is never set in stone. Make sensible decisions, follow your heart and enjoy the ride.
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: I thought the exact same thing. I was umm-ing and ahh-ing about whether to apply for ages because of the huge price tag. But after the first day, you completely forget that this was ever an issue. Worth every penny.
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: My biggest worry was whether or not I would actually be able to learn anything of any value. Will I understand the content? Will I actually be able to sit down and make something from scratch? Would I become more employable? Will I get a job? Nothing is guaranteed on the course, but I can say that with enough enthusiasm, positivity and hard work there is no reason to worry.
+            - question: Sum up your Makers Academy experience
+              answer: Emotional, exhausting, exhilarating.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Be yourself. Students from Makers Academy are not the same kind of species as normal developers out there and it's your background and experiences which don't necessarily relate to coding that will give you an edge. And TDD everything.
 
 - first_name: Stefania
   last_name: Cardenas
@@ -356,7 +443,25 @@
   testimonial: Makers Academy changed my life. It gave me the confidence that I can achieve whatever I want in life.
   cohort_month: June
   cohort_year: 2014
-  case_study_link: http://blog.makersacademy.com/stefania-ferullo-cardenas-recruiter-junior-developer-bcsg/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was a recruiter in the IT sector.
+            - question: What made you want to start learning to code in the first place?
+              answer: I was doing simple websites for friends and family since the age of 14 and wanted to learn how to code to get a job as a web developer.
+            - question: What did you find difficult during the course?
+              answer: I found the pace of the course difficult as some people in my cohort knew already how to code and they were leading the pace of the lessons.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: I finished on 20th June. I took the summer off to travel with my family and clean my github. I started looking for a job on 1st September. I did only one application through LinkedIn and I got the job. I was offered a paid three months internship. After two weeks working there they told me they were very happy with me, so after 6 weeks of internship I was made permanent. They offered me £28k. I'm very happy to work there.
+            - question: How has your life changed since graduation?
+              answer: Makers Academy changed my life. It gave me the confidence that I can achieve whatever I want in life.
+            - question: What advice would you give to people thinking of changing career?
+              answer: "Do it. It's the best thing you could do to yourself. Confucius said: \"Choose a job you love, and you will never have to work a day in your life.\" This is so true. I go to work with a smile and when I go back home I feel like I have just been doing something that I like."
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: Living in London for three months without an income can be tough. £8000 is definitely a lot of money but it's definitely worth it. It's an investment for your future self.
+            - question: Sum up your Makers Academy experience
+              answer: I've learned way more than software development. It has been tough at the beginning but now I'm seeing the results.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Generally speaking you have more to offer than what most employers expect from a Junior grad. Be confident and happy.
 
 - first_name: Andrew
   last_name: Cumine
@@ -366,7 +471,25 @@
   cohort_month: May
   cohort_year: 2014
   blog_link: https://sevenhoursbehind.wordpress.com/
-  case_study_link: http://blog.makersacademy.com/andrew-cumine-graduate-mechanical-engineering-junior-developer-red-badger/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: Before Makers Academy I did a Masters of Mechanical (Aeronautical) Engineering degree at Durham University.
+            - question: What made you want to start learning to code in the first place?
+              answer: The experiences at university, a need for a challenge and wanting to see immediate result of my work led me to learn to code.
+            - question: How did you come across MA and what made you decide to apply?
+              answer: I came across MA at Silicon Milkroundabout, I had a chat with companies hiring there and they said that MA was a good start.
+            - question: What did you find difficult during the course?
+              answer: I applied to and was hired by Red Badger.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: I have a job that I enjoy, that provides me with a challenge every day, surrounded by intelligent people. It's great.
+            - question: How has your life changed since graduation?
+              answer: Make sure you are ready to struggle and are up for a fight.
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: How much is a years worth of university tuition?
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: That I would end up working for a company that I didn't like on a project I didn't care about. I work for a consultancy that cares about everything they do. It's more a culture that is important than that who you are working for at Red Badger.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Make sure you have similar ideals to the company, that you fit their culture. Otherwise you will find it difficult to enjoy it there.
 
 - first_name: Will
   last_name: Hall
@@ -375,7 +498,27 @@
   testimonial: My Makers Academy experience was intense, tiring and fun. Everybody was very positive and driven to learn and work together. It was easy to stay motivated in that environment.
   cohort_month: June
   cohort_year: 2014
-  case_study_link: http://blog.makersacademy.com/will-hall-research-development-scientist-junior-developer-factory-media/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was a Research & Development Scientist at Linpac Packaging.
+            - question: What made you want to start learning to code in the first place?
+              answer: I had a little experience from my university degree and really enjoyed it so wanted to pursue it further.
+            - question: How did you come across MA and what made you decide to apply?
+              answer: I came across MA through a google search. I wanted to apply because it appeared to suit the sort of learning course I was looking for. Intensive immersion of learning.
+            - question: What did you find difficult during the course?
+              answer: The lack of sleep!
+            - question: How has your life changed since graduation?
+              answer: I have moved to London permanently. I achieved my goal of getting a developer role after the course and changing my career. I am now doing something that I enjoy every day and the work/life balance is a lot better.
+            - question: What advice would you give to people thinking of changing career?
+              answer: For me before I started the course it felt like a huge risk. I was quitting a well paid, secure job and paying a lot of money to do the course. There was no guarantee of a job at the end of it. However it still felt like a calculated risk, and one worth taking. If I didn't take that risk then I would still potentially be working in the same job with very little progress in changing careers. MA was the fast track route to changing careers taking a bit more control of my life direction. It is still the best choice I have ever made.
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: It is a lot of money, but you have to question how committed you are to making that change in your life. For me it was worth spending the money because I was committed to making that change.
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: My biggest worry was the question mark of how long it would take to secure a job after the course - and whether I would be able to secure a developer job or not. Luckily that question has now been answered.
+            - question: Sum up your Makers Academy experience
+              answer: Intense, tiring, fun. Everybody was very positive and driven to learning and working together. It was easy to stay motivated when in that environment.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Try to keep the motivation up after the course and keep finding projects and tasks to code to and try to pair with people even if it is remotely. I found it very hard to keep motivated sitting in an empty flat during the day. A complete contrast to Makers.
 
 - first_name: Nick
   last_name: Roberts
@@ -384,7 +527,29 @@
   testimonial: Since graduation my life has changed, as I enjoy my work a lot more in general.
   cohort_month: October
   cohort_year: 2014
-  case_study_link: http://blog.makersacademy.com/nick-roberts-business-development-manager-junior-developer-intern-easyart/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was working as a Business Development Manager for a B2B Media Company.
+            - question: What made you want to start learning to code in the first place?
+              answer: I wanted to have a skill and I wanted to make things.
+            - question: How did you come across MA and what made you decide to apply?
+              answer: Through an article in Vice that led me to an article in the Guardian. Friends of mine that were graphic designers though told me how much demand there was for people with Coding experience as well.
+            - question: What did you find difficult during the course?
+              answer: Everything! In all seriousness, the hardest thing was going from the transition from an office mindset to a learning mindset. It took me a while to accept that finding the answers out for myself and moving at that pace was a lot more worth while than getting an answer from somewhere and moving on before I fully understood an issue.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: I had intended to go back to my old job for 2 days a week post makers, while I continued my learning and look for a job. Makers were able to find me an internship, which has been an excellent way to learn about life as a developer and I got a job at Red56. I feel I have learned a lot more than I would have independently and I have valuable work experience to add to my CV as well.
+            - question: How has your life changed since graduation?
+              answer: I enjoy my work a lot more in general. I have renewed enthusiasm for the two days a week spent at my old job and am loving interning as a developer.
+            - question: What advice would you give to people thinking of changing career?
+              answer: Do it. In my 5 months since I started at Makers, I have found the tech world inclusive, inspiring, rewarding and fun. It's a great industry to be a part of and it's also growing at a rate of knots. Exciting times!
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: Why would you not want to invest £8000 in making your life better? You can learn to code in countless ways, however you are unlikely to get a fraction of the benefit you receive from your 12 weeks at Makers. You receive face to face tuition from experienced developers, you meet a group of peers who support you through the course and beyond, you find out about exciting new technologies from real trailblazers, you attend industry events and are able to network with potential employers, you receive talks from developers at all types of businesses (from Household e-commerce brands to fledgling starts ups) that tell you of life in the developer world... and you get to do all of this in a first class facility that is open 65 hours a week. If that's not worth £8000, I don't know what is.
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: I worried that I would not get 'it', however makers taught me that 'it' comes to you with hard work and enthusiasm. There is a lot that still baffles me about coding, however I know with patience and the correct approach I can solve any problem.
+            - question: Sum up your Makers Academy experience
+              answer: Awesome!
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Be yourself, be honest and be enthusiastic. Your first job will likely be a bigger learning curve than Makers. Your potential employer needs to know you are someone who will be keen to learn, is aware of where they need to improve and will be easy to work with.
 
 - first_name: Yvette
   last_name: Cook
@@ -393,7 +558,31 @@
   testimonial: MA was probably the best experience of my life! It was life-changing and like any big change, it wasn’t always easy but I now feel that my future is very bright.
   cohort_month: December
   cohort_year: 2014
-  case_study_link: http://blog.makersacademy.com/yvette-cook-i-was-working-in-project-management-in-a-small-team-at-a-social-enterprise-it-was-interesting-at-first-but-as-time-went-on-i-didnt-feel-like-i-was-developing-any-tangible-skills-to/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was working in project management in a small team at a social enterprise. It was interesting at first, but as time went on, I didn't feel like I was developing any tangible skills.
+            - question: What made you want to start learning to code in the first place?
+              answer: I've always enjoyed working with computers, but before Makers Academy my limit was really doing fancy graphs in Excel! In 2012 I started doing bits and pieces of CodeAcademy courses, but without any clear plan or end goal, life (and other hobbies) quickly overtook it. There just didn't seem to be any clear connection between following tutorials, and actually getting a job as a developer.
+            - question: How did you come across MA and what made you decide to apply?
+              answer: I read an article about MA when it first launched (around the time I was graduating from my history degree) and remember filing it away in my head as an awesome idea, but not in my life plan! At the time I needed a job pronto. However, it always stayed in the back of my mind. When in 2014 I started to realise project management wasn't challenging me enough, I kept coming back to the MA website, but it took me months to work up the courage to apply.
+            - question: What did you find difficult during the course?
+              answer: The pace of the learning is challenging for everyone - if it's wasn't, then Maker wouldn't have been pushing us hard enough. What I found most difficult was suppressing my natural competitiveness. Everyone picks up different things at different paces, and when I felt like I was slower than others around me, it was hard not to beat myself up about it. I learnt to remind myself that the aim was to learn, not to race through the material as fast as possible. Equally if I felt I did understand things that others hadn't yet got, the best thing to do was to help them. It reinforced my understanding, and I knew I could ask them when I needed it. As a cohort, we were stronger together!
+            - question: What happened during / after graduation and where are you job wise?
+              answer: I graduated just before Christmas, so the job market was unusually slow. But I worked at Makers as an alumni helper, which was brilliant, as it forced me to keep reinforcing what I'd learnt on the course. I had a handful of interviews in January, and was offered a job as a Software Developer, after a whirlwind interview process at an exciting personal-data start-up.
+            - question: Where are you now working?
+              answer: I'm working as the lead (and only!) iOS developer at MyGravity. I was originally hired as a Ruby developer, but after a month was asked to take over development of our iPhone and iPad apps. It was daunting at first to be using a language which is so unlike anything we covered at MA, but I loved the challenge.
+            - question: How has your life changed since graduation?
+              answer: Completely! I'm in a job that keeping me thinking and learning every single day - which is priceless. I'm also working on my own start-up on the side which I would never have even considered before doing MA. The future is totally unmapped, but feeling very bright right now.
+            - question: What advice would you give to people thinking of changing career?
+              answer: Be as sure as you can before taking the step. If it's coding, try out course like CodeAcademy. Even if you don't complete it (like me), pay attention to how you feel when you're coding and learning. Is it tiring, or invigorating? Could you picture yourself doing it all day? But also, don't be too afraid of taking that next step - whether that's applying to MA, or signing up for an online course. If you never give it a shot, how will you ever know?
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: It is expensive, and you have to be sure you can survive without a salary for 4+ months. Run the numbers, try out living on that budget for a while, because you don't want to panicking about paying your rent in the middle of the course. However, personally, it was the best decision I've made. It's changed my life and given me a job and prospects that I could have only of dreamt of before. I'd do it again in a shot.
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: I was most worried about how I'd cope with the pace and the pressure - 3 months is a long time to spend cramming your brain with a whole new world of knowledge. Now, I'm proud that I got through it. For me it was really important to look after myself. It might sound small, but making sure I got 7 hours of sleep a night, some exercise everyday cycling into MA, and a fully stocked freezer of home cooked meals made a massive difference.
+            - question: Sum up your Makers Academy experience
+              answer: Life changing. And like any big change, not easy.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Treat every interview like a learning experience. For every interview that didn't get me a job, it taught me something that I used in my final one. And if it's a tech test - make you have a ready supply of tea on hand!
 
 - first_name: Simon
   last_name: Woolf
@@ -402,7 +591,19 @@
   testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from Econsultancy eight days after that.
   cohort_month: February
   cohort_year: 2014
-  case_study_link: http://blog.makersacademy.com/simon-woolf-law-junior-developer-econsultancy/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: Looking for a legal job after a Law conversion course.
+            - question: What made you want to start learning to code in the first place?
+              answer: I already could code, a little, haphazardly. Wanted to become well-enough versed in modern webdev to get a job in it.
+            - question: What did you find difficult during the course?
+              answer: Debugging when I had problems with Rails (at the time it seemed like a giant black box, didn't know where to start)
+            - question: What happened during / after graduation and where are you job wise?
+              answer: Spent a few months freelancing (as needed to sort some other parts of my life out, move house etc). Then told Ruben I was ready to start a full-time job, I got an offer from econsultancy eight days after that.
+            - question: How has your life changed since graduation?
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: That I would stop coding for fun if I was doing it as a career rather rather than a hobby, and starting finding it boring. That hasn't been a problem - if anything I enjoyed hobby-coding more for being much better at it.
+>>>>>>> 070165f... 13 more case studies boom boom
 
 - first_name: Ethel
   last_name: Ng
@@ -411,7 +612,26 @@
   testimonial: I received a job offer on the Monday after graduation.
   cohort_month: October
   cohort_year: 2014
-  case_study_link: http://blog.makersacademy.com/ethel-ng-psychology-graduate-junior-developer-ustwo/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was a fresh graduate in Psychology considering my career options. I wanted to work in tech but was worried that I was being unrealistic given my background. I was having a hard time finding companies willing to train up a complete beginner, so I was considering doing something non-technical while teaching myself how to code.
+            - question: What made you want to start learning to code in the first place?
+              answer: I've had a strong interest in tech from a young age, although I can't claim to have a history as a hacker. I taught myself enough HTML and CSS to make simple websites, and my experience in university helping societies with their websites made me realise that this was something I really enjoyed doing.
+            - question: How did you come across MA and what made you decide to apply?
+              answer: I came across a promoted tweet on Twitter from way back in November 2013. I saved it and emailed it to myself, and I still have that email! It was a giant stroke of luck that I was cleaning up old mail and came across it again roughly 3 weeks before the August cohort started. I had very little time to think about it but looking back it was a no-brainer. With exactly 3 months left on my student visa at that point in time, it would probably be my only opportunity to join Makers Academy.
+            - question: What did you find difficult during the course?
+              answer: The intensity of the course was definitely hard at times, especially when you feel like you haven't quite grasped something but the next week and the next new concept are coming your way whether you like it or not! That said, I never felt completely out of my depth, and I knew I could count on my cohort and the coaches to help me out if I needed it.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: Graduation was amazing! We'd been working on the project non-stop for two weeks and I know all of my team were really proud of it. It was a great feeling to be able to demo it and see the audience's enthusiasm about something that we made. The week leading up to graduation was tough for me as I was torn between preparing to leave the country and simultaneously juggling job interviews. I'm really happy that it all paid off, and I received a job offer on the Monday after graduation.
+            - question: What would you say to people who say £8000 is very expensive?
+              answer: £8000 for 3 months of learning is expensive. On the other hand, £8000 is also the approximate equivalent of the salary you could be earning as a developer in the same time frame of 3 months. I can't deny that it's a big investment, and it's one you have to think through yourself. For me, the resources and learning environment at Makers Academy made it worth it.
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: I was mostly worried that I wouldn't be able to cope with the long hours. At uni, I was used to having a few lectures a week and being left to my own devices the rest of the time. As it turns out, although you are in the building for 9–12 hours a day, Makers Academy operates on a similar schedule. I found that time flew by when I was engrossed in coding, and it was more of a struggle to get myself to stop thinking about code.
+            - question: Sum up your Makers Academy experience
+              answer: I learnt a lot about pushing my limits, about working well with others, about what education should be like, and I also learnt how to code along the way.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Bring a laptop and be prepared to show examples of your code on the spot. Separately, I felt a little uneasy about the number of times I said "I don't know" during my technical interview, but in line with the other advice out there, it's better to be upfront about that (and be open to what the interviewer says after that!) than to pretend you know more than you do.
+>>>>>>> 070165f... 13 more case studies boom boom
 
 - first_name: Mario
   last_name: Gintili
@@ -420,5 +640,21 @@
   testimonial: Since graduation my life is much better. I have good job prospects with growth opportunities.
   cohort_month: May
   cohort_year: 2014
-  case_study_link: http://blog.makersacademy.com/mario-gintili-venezuela-junior-developer-london/?doing_wp_cron=1434473021.1335680484771728515625
   blog_link: http://racetomakers.tumblr.com/
+  case_study:
+            - question: What were you doing before joining Makers Academy?
+              answer: I was a economics student, working as a waiter and an intern.
+            - question: What made you want to start learning to code in the first place?
+              answer: I worked at a software company, seemed like something that conveyed countless transferrable skills, not to mention I always loved building things.
+            - question: What did you find difficult during the course?
+              answer: Applying myself consistently for 3 months was hard.
+            - question: What happened during / after graduation and where are you job wise?
+              answer: I worked as a contractor for a month, then received a full-time offer from a different company, although the first one made an offer as well.
+            - question: How has your life changed since graduation?
+              answer: It's all better, good job prospects with growth opportunities.
+            - question: What advice would you give to people thinking of changing career?
+              answer: Bear in mind that there's going to be people a lot more trained than you are, but small efforts make big differences.
+            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+              answer: That I won't be able to get a job afterwards and being completely lost but that didn't happen at all.
+            - question: What advice would you give to people interviewing for developer roles?
+              answer: Sometimes the right answer just won't come in time. It's okay to fail an interview, no one is consistently good in this profession.
