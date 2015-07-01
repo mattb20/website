@@ -21,7 +21,7 @@ class Intake
     Date.parse(dates["end_date"])
   end
 
-  def precourse_start
+  def precourse_start_date
     start_date - PRECOURSE_LENGTH
   end
 
