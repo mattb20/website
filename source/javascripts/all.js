@@ -30,6 +30,7 @@ $(document).ready(function() {
 
   // set up sliders using Slick
   // set up email capture using AJAXChimp
+  // set up instant feedback form using doorbell.io
   $('.email-capture').ajaxChimp({
     callback: mixpanelEmailCapture
   });
