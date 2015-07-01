@@ -7,7 +7,7 @@ namespace :assets do
   end
 end
 
-desc "Publishes to github pages and publishs to bower version and publishs."
+desc "Publishes latest changes to bower"
 namespace :publish do
   task :bower do
     publish_to_bower
