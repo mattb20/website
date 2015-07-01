@@ -349,35 +349,35 @@
           - question: What advice would you give to people interviewing for developer roles?
             answer: Makers Academy teaches quality code and the best standard of practices, demonstrate your knowledge of these and you will be fine.
 
-- first_name: Denise
-  last_name: Yu
-  image: denise.jpg
-  summary: MSc in Social Policy to Junior Developer at Mergermarket
-  testimonial: I now have an interesting job that forces me to think and learn something new everyday and that’s not something I can say for the other jobs I’ve had.
-  cohort: Graduated December 2014
-  blog_link: http://www.deniseyu.com
-  case_study:
-            - question: What were you doing before joining Makers Academy?
-              answer: Finishing my MSc in Social Policy at the LSE, trying to work in behavioural sciences and policy research.
-            - question: What made you want to start learning to code in the first place?
-              answer: I was always interested in building websites and was pretty good at HTML and CSS back in the day. I knew that coding is a valuable skill to have regardless of what industry I end up in.
-            - question: How did you come across MA and what made you decide to apply?
-              answer: I think I saw a Facebook or Google ad for MA at some point -- I don't really remember. I decided to apply after reading some student blogs and testimonials on the website.
-            - question: What did you find difficult during the course?
-              answer: The hardest thing for me was being patient with myself. I had high expectations of myself going into the course, and many times when I didn't understand how to complete a task, I had to remember to separate the task at hand from some reflection of myself. It's very easy to fall into a nasty cycle of self-deprecation when you're surrounded by really intelligent, motivated people.
-            - question: What happened during / after graduation and where are you job wise?
-              answer: I currently work as a junior Rails developer at Third Space Learning. After graduation I spent 6 weeks on the floor as an alumni helper while frantically trying to get a job before my visa ran out and landed a job as a rails developer at an ed-tech startup. I've now moved onto to my 2nd job at Mergermarket.
-            - question: How has your life changed since graduation?
-              answer: I have an interesting job that forces me to think and learn something new everyday. I can't say that for the other jobs that I've had. I'm surrounded by supportive co-workers on and off the dev team, and it's a really great place to get my software development career started. I also have become very involved with coding-related meetups in London. I currently help organise Codebar each week, and recently became interested in learning Clojure. The London tech community is a tight-knit but welcoming one, and it's a very exciting time for me, personally and professionally.
-            - question: What advice would you give to people thinking of changing career?
-              answer: Many people are put off by coding because they perceive it to be difficult. I was definitely one of these people. However, once you get past the first few weeks of memorising syntax and getting your head around the logic, you will realise that coding is the most incredibly rewarding skill you can learn. From a more pragmatic view, you only need to look at the front page of Techcrunch to see that software developers have incredibly high vertical and horizontal mobility -- so if you're the kind of person that doesn't like to sit still, the software development industry will give you freedom to travel and move around. If you get your feet wet with a good boot camp that teaches software craftsmanship and TDD and other best practices, you will have around the equivalent of a 6-month head start on other boot camp graduates applying for the same roles.
-            - question: What would you say to people who say £8000 is very expensive?
-              answer: It's cheaper than an MSc in Computer Science, you will meet many people who are well-connected, and London development salaries are extremely good compared to continental Europe.
-            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-              answer: I thought I would be terrible at coding. I'm still not great, but I think I'm no longer terrible.
-            - question: What advice would you give to people interviewing for developer roles?
-              answer: Admit readily to failure and shortcomings in your knowledge. Don't pretend like you know more than you do. This pisses off team leaders/product managers and instantly flags you as a bad team member. Get a sense of the company culture -- google the CEO, CTO, your immediate supervisor if you can. Have a story for how you discovered the company and why that particular company stands out to you. Assume that all of your social media profiles have been aggregated by recruitment tools and presented to the people interviewing you. Have at least one public repo on your Github that is well-tested, refactored, CLEAN, and that you understand 100%. Preferably not your final project, but better to have something that you built independently after Makers, using at least one new technology not taught on the course. Be sure that you can defend every single method and variable name you've chosen.
-
+#- first_name: Denise
+#  last_name: Yu
+#  image: denise.jpg
+#  summary: MSc in Social Policy to Junior Developer at Mergermarket
+#  testimonial: I now have an interesting job that forces me to think and learn something new everyday and that’s not something I can say for the other jobs I’ve had.
+#  cohort: Graduated December 2014
+#  blog_link: http://www.deniseyu.com
+#  case_study:
+#            - question: What were you doing before joining Makers Academy?
+#              answer: Finishing my MSc in Social Policy at the LSE, trying to work in behavioural sciences and policy research.
+#            - question: What made you want to start learning to code in the first place?
+#              answer: I was always interested in building websites and was pretty good at HTML and CSS back in the day. I knew that coding is a valuable skill to have regardless of what industry I end up in.
+#            - question: How did you come across MA and what made you decide to apply?
+#              answer: I think I saw a Facebook or Google ad for MA at some point -- I don't really remember. I decided to apply after reading some student blogs and testimonials on the website.
+#            - question: What did you find difficult during the course?
+#              answer: The hardest thing for me was being patient with myself. I had high expectations of myself going into the course, and many times when I didn't understand how to complete a task, I had to remember to separate the task at hand from some reflection of myself. It's very easy to fall into a nasty cycle of self-deprecation when you're surrounded by really intelligent, motivated people.
+#            - question: What happened during / after graduation and where are you job wise?
+#              answer: I currently work as a junior Rails developer at Third Space Learning. After graduation I spent 6 weeks on the floor as an alumni helper while frantically trying to get a job before my visa ran out and landed a job as a rails developer at an ed-tech startup. I've now moved onto to my 2nd job at Mergermarket.
+#            - question: How has your life changed since graduation?
+#              answer: I have an interesting job that forces me to think and learn something new everyday. I can't say that for the other jobs that I've had. I'm surrounded by supportive co-workers on and off the dev team, and it's a really great place to get my software development career started. I also have become very involved with coding-related meetups in London. I currently help organise Codebar each week, and recently became interested in learning Clojure. The London tech community is a tight-knit but welcoming one, and it's a very exciting time for me, personally and professionally.
+#            - question: What advice would you give to people thinking of changing career?
+#              answer: Many people are put off by coding because they perceive it to be difficult. I was definitely one of these people. However, once you get past the first few weeks of memorising syntax and getting your head around the logic, you will realise that coding is the most incredibly rewarding skill you can learn. From a more pragmatic view, you only need to look at the front page of Techcrunch to see that software developers have incredibly high vertical and horizontal mobility -- so if you're the kind of person that doesn't like to sit still, the software development industry will give you freedom to travel and move around. If you get your feet wet with a good boot camp that teaches software craftsmanship and TDD and other best practices, you will have around the equivalent of a 6-month head start on other boot camp graduates applying for the same roles.
+#            - question: What would you say to people who say £8000 is very expensive?
+#              answer: It's cheaper than an MSc in Computer Science, you will meet many people who are well-connected, and London development salaries are extremely good compared to continental Europe.
+#            - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+#              answer: I thought I would be terrible at coding. I'm still not great, but I think I'm no longer terrible.
+#            - question: What advice would you give to people interviewing for developer roles?
+#              answer: Admit readily to failure and shortcomings in your knowledge. Don't pretend like you know more than you do. This pisses off team leaders/product managers and instantly flags you as a bad team member. Get a sense of the company culture -- google the CEO, CTO, your immediate supervisor if you can. Have a story for how you discovered the company and why that particular company stands out to you. Assume that all of your social media profiles have been aggregated by recruitment tools and presented to the people interviewing you. Have at least one public repo on your Github that is well-tested, refactored, CLEAN, and that you understand 100%. Preferably not your final project, but better to have something that you built independently after Makers, using at least one new technology not taught on the course. Be sure that you can defend every single method and variable name you've chosen.
+#
 - first_name: Nico
   last_name: Saueressig
   image: Nico.jpg
