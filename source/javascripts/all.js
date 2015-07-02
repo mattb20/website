@@ -25,6 +25,7 @@
 //= require navigation
 //= require jquery.fixedscroll
 //= require doorbell
+//= require vendor/baseliner
 
 $(document).ready(function() {
 
@@ -54,4 +55,7 @@ $(document).ready(function() {
   });
 
   $('.faq-links').fixedScroll();
+
+  var baseliner = new Baseliner({'gridHeight': [[24, 'green'],[18, 'red']]});
+  //var baseliner = new Baseliner({'gridHeight': 18, 'gridcolor': [196,196,196], 'overlayId': 'new-baseline-overlay'});
 });

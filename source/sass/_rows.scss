@@ -351,3 +351,8 @@
     }
   }
 }
+
+.form-row {
+  @include ma-row(table);
+  text-align: left;
+}
