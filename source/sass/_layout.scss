@@ -3,12 +3,6 @@ section {
   text-align: center;
   padding: modular-scale(-1, $section-spacing) modular-scale(-5, $section-spacing);
   min-height: 400px;
-  &.no-min-height {
-    min-height: 0;
-  }
-  &.no-padding-bottom {
-    padding-bottom: 0;
-  }
   @include media($desktop) {
     padding: $section-spacing 0;
   }

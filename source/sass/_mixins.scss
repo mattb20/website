@@ -9,7 +9,7 @@
   @include row($display);
   margin-bottom: modular-scale(0);
   &:last-child {
-    margin-bottom: 0;
+    margin-bottom: -1px; // fix for last-child in Chrome, no ill effects in other browsers
   }
   *:last-child {
     margin-bottom: 0;
