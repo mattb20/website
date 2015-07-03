@@ -41,7 +41,7 @@ layout: "app_layout"
               - Intake.future_dates.each do |intake|
                 -#- start_date = intake.start_date("
                 - checked = @params.fetch(:to_join, []).include?(intake.start_date)
-                - input_id = 'to_join_' + intake.start_date.to_s
+                - input_id = "to_join_#{intake.start_date}"
                 %tr{class: checked ? 'active' : ''}
                   %td
                     %input{id: input_id, type: 'radio', name: "to_join[]", value: intake.start_date, checked: checked, required: true}
