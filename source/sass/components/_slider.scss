@@ -112,7 +112,7 @@
   position: absolute;
   top: 0;
   height: 100%;
-  width: modular-scale(2);
+  width: ma-spacing(1);
   border: none;
   color: transparent;
   &:focus {
@@ -123,8 +123,8 @@
     position: absolute;
     color: $dark-gray;
     top: 50%;
-    height: modular-scale(0);
-    width: modular-scale(0);
+    height: ma-spacing(1);
+    width: ma-spacing(3);
     margin-top: -1 * modular-scale(0)/2;
     cursor: pointer;
     transition: all 0.2s ease-in-out;

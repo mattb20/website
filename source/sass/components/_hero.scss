@@ -4,20 +4,10 @@
   text-align: center;
   width: 100%;
   @include media($desktop) {
-    img {
-      margin-top: modular-scale(2);
-    }
     p {
       font-size: modular-scale(1);
-      line-height: $large-line-height;
+      line-height: 1.25 * $base-line-height;
     }
-  }
-
-  .logo {
-    margin-bottom: modular-scale(2);
-  }
-  h1 {
-    margin-bottom: 0.5em;
   }
 }
 
@@ -25,16 +15,16 @@
   @extend .hero;
   padding-left: 0;
   padding-right: 0;
-  padding-top: modular-scale(5);
+  padding-top: ma-spacing(3);
   @include media($desktop) {
-    padding: modular-scale(8) 0;
+    padding: ma-spacing(5) 0;
   }
 }
 
 .hero-small {
   @extend .hero;
   @include media($desktop) {
-    padding: modular-scale(5) modular-scale(1);
+    padding: ma-spacing(5) ma-spacing(1);
   }
 }
 

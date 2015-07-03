@@ -2,23 +2,16 @@
 $futura: "futura-pt", Futura, $helvetica;
 $base-font-family: $futura;
 $heading-font-family: $base-font-family;
-
-// Font Sizes
 $base-font-size: 18px;
-$h1-font-size: modular-scale(4);
-$h2-font-size: modular-scale(3);
-$h3-font-size: modular-scale(2);
-$h4-font-size: modular-scale(0);
 
-// Line height
-$base-line-height: 1.8;
-$large-line-height: 1.5;
-$heading-line-height: 1.2;
+// Vertical rhythm set-up
+$em-base: $base-font-size;
+$modular-scale-ratio: $perfect-fourth;
+$modular-scale-base: rem($em-base);
+$base-line-height: 1.5rem;
+$base-spacing: $base-line-height;
 
 // Other Sizes
-$base-spacing: modular-scale(2);
-$small-spacing: modular-scale(-2);
-$base-z-index: 0;
 $base-button-width: 10em;
 $mobile-nav-width: em(300);
 
@@ -67,7 +60,7 @@ $tablet: new-breakpoint(min-width $medium-screen);
 $desktop: new-breakpoint(min-width $large-screen);
 
 // Navigation
-$navbar-height: modular-scale(0);
+$navbar-height: ma-spacing(2);
 
 // Icons
 $left-arrow: "\e03f";
@@ -80,4 +73,4 @@ $alt-button-color: $alt-font-color;
 $button-border-radius: $base-border-radius * 4;
 
 // Layout
-$section-spacing: modular-scale(4);
+$section-spacing: $base-line-height * 3;

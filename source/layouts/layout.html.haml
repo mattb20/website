@@ -26,3 +26,12 @@
     = partial :"partials/footer"
 
     = javascript_include_tag  "all"
+
+    - if config.show_baseline_grid
+      %script{:src => "http://files.keyes.ie/things/baseliner/baseliner-latest.min.js"}
+        :cdata
+      :javascript
+        window.onload = function() {
+            var baseliner = new Baseliner(27);
+            baseliner.toggle();
+        }
