@@ -10,7 +10,7 @@ layout: "app_layout"
       %p Come and join us at Makers Academy and before you know it you'll be a coder!
 %section
   .container
-    .centered-row
+    .form-row
       %form{method: "post"}
         %fieldset
           %input{type: "hidden", name: "course_type", value: "Offline"}
@@ -28,16 +28,18 @@ layout: "app_layout"
             %input{type: "tel", required: true, name: "phone_number", id: "phone_number", value: @params[:phone_number]}
             %p.input-info
               We will call you if we have further questions about your application
-          .input-row
           .radio-table-row
+            // Fieldset with legend
             %h4
               If accepted, which class would you like to attend?
             %table{class: "radio-table"}
-              %tr
-                %th &nbsp;
-                %th Pre-Course Start
-                %th Course Start
-                %th Course End
+              %thead
+                %tr
+                  %th &nbsp;
+                  %th Pre-Course Start
+                  %th Course Start
+                  %th Course End
+              %tbody
               - Intake.future_dates.each do |intake|
                 -#- start_date = intake.start_date("
                 - checked = @params.fetch(:to_join, []).include?(intake.start_date)
@@ -64,7 +66,7 @@ layout: "app_layout"
             %textarea{required: true, name: "why_attend", class: "wordcount", id: "why_attend", value: @params[:why_attend]}
             %p.input-info
               Build the next Facebook? Change the world? Quit a boring job and start an exciting career? Make lots of money as a software developer? Just because you like coding?
-              %small (Please keep your response between 80 - 250 words!)
+              %span.hint (Please keep your response between 80 - 250 words!)
 
           .input-row
             %label{for: "computer_skills", class: "required"}
@@ -72,7 +74,7 @@ layout: "app_layout"
             %textarea{required: true, name: "computer_skills", class: "wordcount", id: "computer_skills", value: @params[:computer_skills]}
             %p.input-info
               If you can't code, it won't count against you: all you need is passion and the ability to unlearn the word "quit."
-              %small (Please keep your response between 80 - 250 words!)
+              %span.hint (Please keep your response between 80 - 250 words!)
 
           .input-row
             %label{for: "how_did_you_hear_about_us", class: "required"}
