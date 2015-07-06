@@ -3,7 +3,8 @@
   image: nicole.jpg
   summary: Marketing Manager to Junior Developer at Deloitte Digital
   testimonial: The three words to describe Makers Academy are crazy, intense and awesome.
-  cohort: Graduated December 2014
+  cohort_month: December
+  cohort_year: 2014
   blog_link: http://niccipell.wordpress.com
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -34,7 +35,8 @@
   image: ruth.jpg
   summary: Full-time Mum to Junior Developer at Mergermarket
   testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, it's actually a steal.
-  cohort: Graduated October 2014
+  cohort_month: October
+  cohort_year: 2014
   case_study:
       - question: What were you doing before joining Makers Academy?
         answer: I was a full-time Mum for 7 years and before that I had my own franchise business.
@@ -64,7 +66,8 @@
   image: nickd.jpg
   summary: Project Manager to Junior Developer at Atos Consulting
   testimonial: I am now enjoying work and getting to work with cool people. I’m just a lot happier than I was before.
-  cohort: Graduated January 2015
+  cohort_month: January
+  cohort_year: 2015
   case_study:
       - question: What were you doing before joining Makers Academy?
         answer: I was a project manager for a company that did home automation.
@@ -94,7 +97,8 @@
   image: alexandra.jpg
   summary: Retail Worker to Junior Developer at Punk Publishing
   testimonial: MA was really fun, exciting and my first experience in education that I actually enjoyed!
-  cohort: Graduated May 2015
+  cohort_month: May
+  cohort_year: 2015
   case_study:
         - question: What were you doing before joining Makers Academy?
           answer: I was working in retail.
@@ -124,7 +128,8 @@
   image: fadie.jpg
   summary: Marketing Manager to Junior Developer at Deloitte Digital
   testimonial: You can either stay in a career that doesn't fulfil you, or you can take action until you reach your desired goal.
-  cohort: Graduated December 2014
+  cohort_month: December
+  cohort_year: 2014
   case_study:
           - question: What were you doing before joining Makers Academy?
             answer: I was working at Makers Academy as a Marketing Manager. So you could say I was a victim of my own marketing.
@@ -154,7 +159,8 @@
   image: mishal.jpg
   summary: Environmental Geography Grad to Junior Developer at Deloitte Digital
   testimonial: Makers Academy was the best investment I ever made!
-  cohort: Graduated January 2015
+  cohort_month: January
+  cohort_year: 2015
   case_study:
           - question: What were you doing before joining Makers Academy?
             answer: I was at the University of York where I studied Environmental Geography.
@@ -182,7 +188,8 @@
   image: izzy.jpg
   summary: Business Developer at a Fashion Tech Startup to Freelance Developer
   testimonial: Makers is amazing, intense and quite life-changing.
-  cohort: Graduated January 2015
+  cohort_month: January
+  cohort_year: 2015
   case_study:
           - question: What were you doing before joining Makers Academy?
             answer: Before Makers Academy I was working in a Fashion Tech Startup doing a bit of everything, but my job title was business development. I went there straight from uni where I studied International Politics at Kings College.
@@ -207,7 +214,8 @@
   image: vanessa.jpg
   summary: Online Marketing Manager to Junior Developer at Mergermarket
   testimonial: Makers Academy is challenging and intense, but full of rewards!
-  cohort: Graduated May 2015
+  cohort_month: May
+  cohort_year: 2015
   case_study:
           - question: What were you doing before joining Makers Academy?
             answer: I was working as an Online Marketing Manager for multi-million dollar businesses.
@@ -235,7 +243,8 @@
   image: rachel.jpg
   summary: Subscription Cheese Box Startup to Junior Developer at Atos
   testimonial: Makers was great fun! The best thing I’ve done in terms of education!
-  cohort: Graduated January 2015
+  cohort_month: January
+  cohort_year: 2015
   case_study:
           - question: What were you doing before joining Makers Academy?
             answer: I was doing my own startup selling subscription cheese boxes.
@@ -265,7 +274,8 @@
   image: matteo.jpg
   summary: Hotel Bartender to Junior Software Engineer at Compare The Market
   testimonial: Makers was both a big jump and a huge bet, but it was the best decision I could have made!
-  cohort: Graduated March 2015
+  cohort_month: March
+  cohort_year: 2015
   blog_link: https://matteomanzo.github.io/
   case_study:
           - question: What were you doing before joining Makers Academy?
@@ -296,7 +306,8 @@
   image: alex.jpg
   summary: Medical Services IT Manager to Web Developer at CloudCredo
   testimonial: Makers Academy changed my life. I now work in a job that suits me and I really enjoy working how I want.
-  cohort: Graduated January 2015
+  cohort_month: January
+  cohort_year: 2015
   case_study_link: http://blog.makersacademy.com/alex-blease-working-part-time-for-a-medical-services-company-to-junior-developer-at-cloudcredo-a-cloud-foundry-consultancy/?doing_wp_cron=1434470574.2644610404968261718750
 
 - first_name: Craig
@@ -304,7 +315,8 @@
   image: craig.jpg
   summary: Recruitment Consultant to Junior Developer at Tombola
   testimonial: Take the leap, you won’t regret it.
-  cohort: Graduated December 2014
+  cohort_month: December
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/craig-horsborough-recruitment-consultant-to-junior-developer-at-tombola-co-uk/
 
 - first_name: Denise
@@ -312,7 +324,8 @@
   image: denise.jpg
   summary: MSc in Social Policy to Junior Developer at Mergermarket
   testimonial: I now have an interesting job that forces me to think and learn something new everyday and that’s not something I can say for the other jobs I’ve had.
-  cohort: Graduated December 2014
+  cohort_month: December
+  cohort_year: 2014
   blog_link: http://www.deniseyu.com
   case_study_link: http://blog.makersacademy.com/denise-yu-finishing-my-msc-in-social-policy-at-the-lse-trying-to-work-in-behavioral-sciences-and-policy-research-to-junior-developer-at-third-space-learning-www-thirdspacelearning-com/
 
@@ -321,7 +334,8 @@
   image: Nico.jpg
   summary: Music Producer to Junior Developer at Shutl (eBay)
   testimonial: Makers are doing an amazing job at finding great, unique and dedicated individuals to work with. After graduation three weeks down the line I had two full-time job offers.
-  cohort: Graduated June 2014
+  cohort_month: June
+  cohort_year: 2014
   blog_link: http://nicolearnscoding.blogspot.de/
   case_study_link: http://blog.makersacademy.com/nico-saueressig/
 
@@ -330,7 +344,8 @@
   image: sroop.jpg
   summary: Illustrator to Junior Developer at New Bamboo
   testimonial: Students from Makers Academy are not the same kind of species as normal developers out there and it’s your background and experiences that don’t necessarily relate to coding that will give you an edge.
-  cohort: Graduated June 2014
+  cohort_month: June
+  cohort_year: 2014
   blog_link: http://handmadecode.tumblr.com/
   case_study_link: http://blog.makersacademy.com/sroop-sunar-graphic-designer-illustrator-junior-developer-new-bamboo/
 
@@ -339,7 +354,8 @@
   image: stefania.jpg
   summary: ICT Recruiter to Junior Web Developer at BCSG
   testimonial: Makers Academy changed my life. It gave me the confidence that I can achieve whatever I want in life.
-  cohort: Graduated June 2014
+  cohort_month: June
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/stefania-ferullo-cardenas-recruiter-junior-developer-bcsg/
 
 - first_name: Andrew
@@ -347,7 +363,8 @@
   image: andrew-cumine.jpg
   summary: Aeronautic Engineering Graduate to Junior Developer at Red Badger
   testimonial: Although £8,000 might feel very expensive just think about how much a years worth of university tuition.
-  cohort: Graduated May 2014
+  cohort_month: May
+  cohort_year: 2014
   blog_link: https://sevenhoursbehind.wordpress.com/
   case_study_link: http://blog.makersacademy.com/andrew-cumine-graduate-mechanical-engineering-junior-developer-red-badger/
 
@@ -356,7 +373,8 @@
   image: will.jpg
   summary: Research & Development Scientist to Junior Developer at Factory Media
   testimonial: My Makers Academy experience was intense, tiring and fun. Everybody was very positive and driven to learn and work together. It was easy to stay motivated in that environment.
-  cohort: Graduated June 2014
+  cohort_month: June
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/will-hall-research-development-scientist-junior-developer-factory-media/
 
 - first_name: Nick
@@ -364,7 +382,8 @@
   image: nickr.jpg
   summary: Business Development Manager to Junior Developer at Red56
   testimonial: Since graduation my life has changed, as I enjoy my work a lot more in general.
-  cohort: Graduated October 2014
+  cohort_month: October
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/nick-roberts-business-development-manager-junior-developer-intern-easyart/
 
 - first_name: Yvette
@@ -372,7 +391,8 @@
   image: yvette.jpg
   summary: Project Manager to iOS Developer at MyGravity
   testimonial: MA was probably the best experience of my life! It was life-changing and like any big change, it wasn’t always easy but I now feel that my future is very bright.
-  cohort: Graduated December 2014
+  cohort_month: December
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/yvette-cook-i-was-working-in-project-management-in-a-small-team-at-a-social-enterprise-it-was-interesting-at-first-but-as-time-went-on-i-didnt-feel-like-i-was-developing-any-tangible-skills-to/
 
 - first_name: Simon
@@ -380,7 +400,8 @@
   image: simonw.jpg
   summary: Law Student to Junior Developer at Econsultancy
   testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from Econsultancy eight days after that.
-  cohort: Graduated February 2014
+  cohort_month: February
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/simon-woolf-law-junior-developer-econsultancy/
 
 - first_name: Ethel
@@ -388,7 +409,8 @@
   image: ethel.jpg
   summary: Psychology Graduate to Junior Developer at usTwo
   testimonial: I received a job offer on the Monday after graduation.
-  cohort: Graduated October 2014
+  cohort_month: October
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/ethel-ng-psychology-graduate-junior-developer-ustwo/
 
 - first_name: Mario
@@ -396,6 +418,7 @@
   image: mario.jpg
   summary: Economics Student to Junior Developer at Show My Homework
   testimonial: Since graduation my life is much better. I have good job prospects with growth opportunities.
-  cohort: Graduated May 2014
+  cohort_month: May
+  cohort_year: 2014
   case_study_link: http://blog.makersacademy.com/mario-gintili-venezuela-junior-developer-london/?doing_wp_cron=1434473021.1335680484771728515625
   blog_link: http://racetomakers.tumblr.com/
