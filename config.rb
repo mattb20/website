@@ -93,6 +93,8 @@ configure :build do
 
   set :mixpanel_token, 'b839b30fbe0796d650ae20e7eae6d0d1'
 
+  set :show_baseline_grid, false
+
   ignore 'elements.html.haml'
   ignore 'typography.html.haml'
 end
