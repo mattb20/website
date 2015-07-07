@@ -1,6 +1,6 @@
 fieldset {
-  margin: 0 0 $small-spacing;
-  padding: $base-spacing;
+  margin: 0 0 ma-spacing(1);
+  padding: ma-spacing(1);
   border: none;
 }
 
@@ -15,7 +15,7 @@ select {
 
 label {
   font-weight: 600;
-  margin-bottom: $small-spacing / 2;
+  margin-bottom: ma-spacing(1);
   &.required::after {
     content: "*";
   }
@@ -35,9 +35,7 @@ textarea {
   border-radius: 0;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  margin-bottom: modular-scale(-4);
+  margin-bottom: ma-spacing(1);
   padding: $form-input-padding;
   transition: border-color;
   width: 100%;
@@ -62,16 +60,16 @@ input[type="search"] {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
-  margin-right: $small-spacing / 2;
+  margin-right: ma-spacing(1) / 2;
 }
 
 input[type="file"] {
-  padding-bottom: $small-spacing;
+  padding-bottom: ma-spacing(1);
   width: 100%;
 }
 
 select {
-  margin-bottom: $base-spacing;
+  margin-bottom: ma-spacing(1);
   max-width: 100%;
   width: auto;
 }

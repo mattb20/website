@@ -25,7 +25,7 @@ footer {
   .container {
     @include ma-container;
     @include media($desktop) {
-      padding: modular-scale(-1) modular-scale(4) 0 modular-scale(4);
+      padding: $base-spacing modular-scale(4) 0 modular-scale(4);
       background-color: $red;
       text-align: left;
     }
@@ -62,14 +62,14 @@ footer {
         margin-right: 0;
       }
       img {
-        height: modular-scale(3);
+        height: ma-spacing(1);
       }
     }
   }
   .footer-copyright {
     @extend .centered-row;
-    padding-top: modular-scale(1);
-    margin-bottom: modular-scale(1) !important;
+    padding-top: ma-spacing(1);
+    margin-bottom: ma-spacing(1) !important;
     p {
       display: inline-block;
       margin: 0 0 0 modular-scale(-2);

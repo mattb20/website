@@ -8,6 +8,7 @@
 //= require navigation
 //= require jquery.fixedscroll
 //= require vendor/baseliner
+//= require doorbell
 
 $(document).ready(function() {
 

@@ -17,7 +17,7 @@
   }
 
   p {
-    margin: 0 auto modular-scale(2);
+    margin: 0 auto ma-spacing(1);
     max-width: em(580);
     &:last-child {
       margin-bottom: 0;
@@ -30,9 +30,9 @@
   .button, .button--horizontal, .button--vertical {
     display: block;
     margin: 0 auto;
-    margin-bottom: 1em;
+    margin-bottom: ma-spacing(1);
     &:nth-child(2n) {
-      margin: 0 auto 1em auto;
+      margin: 0 auto ma-spacing(1) auto;
     }
     &:last-child {
       margin-right: auto;
