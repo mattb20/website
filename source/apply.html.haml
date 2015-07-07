@@ -23,15 +23,18 @@ layout: "app_layout"
               What's your last name?
             %input{type: "text", required: true, name: "last_name", id: "last_name", value: @params[:last_name]}
           .input-row
+            %label{for: "email", class: "required"}
+              What's your email address?
+            %input{type: "email", required: true, name: "email", id: "email", value: @params[:email]}
+          .input-row
             %label{for: "phone_number", class: "required"}
               What's your phone number?
             %input{type: "tel", required: true, name: "phone_number", id: "phone_number", value: @params[:phone_number]}
             %p.input-info
               We will call you if we have further questions about your application
+        %fieldset
+          %legend If accepted, which class would you like to attend?
           .radio-table-row
-            // Fieldset with legend
-            %h4
-              If accepted, which class would you like to attend?
             %table{class: "radio-table"}
               %thead
                 %tr
@@ -41,7 +44,6 @@ layout: "app_layout"
                   %th Course End
               %tbody
               - Intake.future_dates.each do |intake|
-                -#- start_date = intake.start_date("
                 - checked = @params.fetch(:to_join, []).include?(intake.start_date)
                 - input_id = "to_join_#{intake.start_date}"
                 %tr{class: checked ? 'active' : ''}
@@ -105,4 +107,5 @@ layout: "app_layout"
             %p.input-info
               Purely for marketing reasons. If you heard about us through multiple channels, choose the one that influenced your decision the most.
           .button-row
-            %input{type: "submit", value: "Apply"}
+            %p
+              %input{type: "submit", value: "Apply"}
