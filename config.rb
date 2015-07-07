@@ -49,10 +49,10 @@ data.graduates.each do | grad |
 end
 
 set :css_dir, 'sass'
-
 set :js_dir, 'javascripts'
-
+set :partials_dir, 'partials'
 set :images_dir, 'images'
+
 sprockets.append_path File.join root, 'bower_components'
 
 configure :development do
