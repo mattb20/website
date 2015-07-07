@@ -4,6 +4,7 @@ require 'date'
 class Intake
 
   FILE_NAME = File.join("data", "intakes.yml")
+
   DAYS_IN_WEEK = 7
   PRECOURSE_LENGTH = 4 * DAYS_IN_WEEK
 
