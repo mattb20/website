@@ -7,15 +7,12 @@
 
 @mixin ma-row($display: block) {
   @include row($display);
-  margin-bottom: modular-scale(0);
+  margin-bottom: ma-spacing(1);
   &:last-child {
     margin-bottom: -1px; // fix for last-child in Chrome, no ill effects in other browsers
   }
   *:last-child {
     margin-bottom: 0;
-  }
-  @include media($desktop) {
-    margin-bottom: modular-scale(2);
   }
 }
 
@@ -69,7 +66,28 @@
 
 @mixin ma-unordered-list {
   list-style-type: disc;
-  margin-bottom: $small-spacing;
+  margin-bottom: $base-spacing;
   padding-left: $base-spacing;
   text-align: left;
+}
+
+// Generates correct vertical rhythm for header elements
+//
+// Step is how many steps on the modular scale
+// so if you want modular-scale(3) as the font size, pass in 3
+@mixin ma-header($step, $margin-lines: 1) {
+  @include ma-font-size($step);
+  margin-bottom: $base-line-height * $margin-lines;
+
+  @include media($desktop) {
+    @include ma-font-size($step);
+  }
+}
+
+@mixin ma-font-size($step) {
+  $font-size: modular-scale($step);
+  $lines: ceil(strip-units($font-size / $base-line-height));
+
+  font-size: $font-size;
+  line-height: $lines * $base-line-height;
 }

@@ -6,7 +6,7 @@ figure.with-caption {
       @include clearfix;
       display: block;
       position: absolute;
-      bottom: modular-scale(0);
+      bottom: ma-spacing(1);
       width: 100%;
       font-size: $base-font-size;
       font-style: italic;

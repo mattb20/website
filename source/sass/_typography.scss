@@ -1,4 +1,4 @@
-body {
+body, html {
   @include font-feature-settings("kern", "liga", "pnum");
   -webkit-font-smoothing: antialiased;
   color: $base-font-color;
@@ -21,44 +21,32 @@ h6, {
   text-rendering: optimizeLegibility;
   font-weight: 500;
   color: $brand-primary-color;
+  margin: 0 0 $base-line-height;
+  /*background-color: salmon;*/
 }
 
+/*p {*/
+  /*background-color: teal;*/
+/*}*/
+
 h1 {
-  font-size: modular-scale(-2, $h1-font-size);
-  line-height: $heading-line-height;
-  margin: 0 0 modular-scale(-2);
-  @include media($desktop) {
-    font-size: $h1-font-size;
-  }
+  @include ma-header(4);
 }
 
 h2 {
-  font-size: modular-scale(-2, $h2-font-size);
-  margin: 0 0 modular-scale(-3);
-  @include media($desktop) {
-    font-size: $h2-font-size;
-  }
+  @include ma-header(3);
 }
 
 h3 {
-  font-size: modular-scale(-2, $h3-font-size);
-  margin: 0 0 modular-scale(-2);
-  @include media($desktop) {
-    font-size: $h3-font-size;
-  }
+  @include ma-header(2);
 }
 
 h4 {
-  font-size: modular-scale(-4, $h4-font-size);
-  margin: 0 0 modular-scale(-2);
+  @include ma-header(0);
   color: $medium-gray;
-  @include media($desktop) {
-    font-size: $h4-font-size;
-  }
 
   &.leader, &.subheader {
     color: $medium-gray;
-    font-size: modular-scale(0);
   }
 
   &.leader {
@@ -66,6 +54,7 @@ h4 {
   }
 
   &.subheader {
+    // TODO rhythm
     margin-top: -1 * modular-scale(0);
     & + .subheader {
       margin-top: 0;
@@ -74,7 +63,7 @@ h4 {
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $base-spacing;
   font-size: $base-font-size;
   font-weight: 400;
   &:last-child {
@@ -109,12 +98,12 @@ strong {
 blockquote {
   /* --- structure --- */
   position: relative;
-  margin: 0 0 modular-scale(1);
+  margin: 0 0 $base-spacing;
 
   /* theme */
   font-style: italic;
   text-indent: 2em;
-  font-size: modular-scale(0);
+  font-size: $base-font-size;
 
   &:before {
     display: block;
@@ -136,6 +125,7 @@ blockquote {
 
   @include media($desktop) {
     font-size: modular-scale(1);
+    line-height: 1.5 * $base-line-height;
   }
 
 }
@@ -146,14 +136,6 @@ blockquote {
   padding-left: 0.618em; /* 1.618em * 0.618em = 16px/1em */
 }
 
-hr {
-  border-bottom: $base-border;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  margin: $base-spacing 0;
-}
-
 img,
 picture {
   margin: 0;
@@ -162,9 +144,6 @@ picture {
 
 // General-purpose copy, including titles
 .copy {
-  .button-row {
-    padding-top: modular-scale(2);
-  }
   text-align: center;
 }
 

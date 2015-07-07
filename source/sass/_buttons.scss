@@ -12,7 +12,7 @@
   font-size: $base-font-size;
   font-weight: normal;
   line-height: $base-line-height;
-  padding: modular-scale(-2) modular-scale(1);
+  padding: ma-spacing(0.5) modular-scale(1);
   min-width: $base-button-width;
   text-decoration: none;
   user-select: none;

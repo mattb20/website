@@ -1,8 +1,8 @@
 section {
   position: relative;
   text-align: center;
-  padding: modular-scale(-1, $section-spacing) modular-scale(-5, $section-spacing);
-  min-height: 400px;
+  padding: ma-spacing(2) ma-spacing(1);
+  min-height: $base-spacing * 15;
   @include media($desktop) {
     padding: $section-spacing 0;
   }
@@ -23,9 +23,14 @@ section {
   }
 }
 
+
 hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto $base-spacing - rem($base-border-width);
   width: 61.8%;
   position: relative;
   &:after, &:before {
