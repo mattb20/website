@@ -19,7 +19,6 @@ $mobile-nav-width: em(300);
   $header-font-size: modular-scale($step);
   $single_line: $base-line-height / $header-font-size;
   $lines: ceil($base-font-size / $base-line-height);
-  /*$lines: ceil($header-font-size / em($base-line-height * $base-font-size));*/
   font-size: $header-font-size;
   line-height: $lines * $single_line;
   margin-bottom: $single_line;

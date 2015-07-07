@@ -94,5 +94,5 @@ configure :build do
   set :mixpanel_token, 'b839b30fbe0796d650ae20e7eae6d0d1'
 
   ignore 'elements.html.haml'
-  ignore 'rhythm.html.haml'
+  ignore 'typography.html.haml'
 end
