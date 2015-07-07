@@ -22,12 +22,7 @@ h6, {
   font-weight: 500;
   color: $brand-primary-color;
   margin: 0 0 $base-line-height;
-  /*background-color: salmon;*/
 }
-
-/*p {*/
-  /*background-color: teal;*/
-/*}*/
 
 h1 {
   @include ma-header(4);
