@@ -19,4 +19,7 @@
   font-size: 18px;
   border: 2px solid rgba(#fff, 0.6);
   border-bottom: 0;
+  @include media($mobile) {
+    display: none;
+  }
 }
