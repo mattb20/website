@@ -32,5 +32,20 @@ you need to update the assets here so a newer version can be made available to
 our other sites, just run `rake publish:bower`, and enter a [semantic versioning
 number](http://semver.org/).
 
-The latest SASS changes will be compiled into CSS and a new version of the
-styles will be published to Bower.
+The latest SASS changes will be compiled into CSS and a new version of the styles will be published to Bower.
+
+## Versioning
+
+We use [semantic versioning](http://semver.org) when creating new releases using
+tags. This is used both for Bower (see above) and for tracking changes in
+Mixpanel so we can compare how different versions of the website perform.
+
+A few things to bear in mind:
+
+- If you are only creating a release to update Bower with some style changes,
+  just release a PATCH version
+- If you have made a change that is important enough to be tracked in Mixpanel,
+  release a MINOR version or if it's a huge change a MAJOR
+- Make sure that when releasing a MAJOR or MINOR version (e.g. upgrading from 2.1.3 to 2.2.0) you:
+  1. change in `config.rb` the `website_version` number - this number is sent to Mixpanel, **please don't forget to do this!**
+  2. run `rake publish:bower` with the new version number to ensure that the **bower.json** file has the correct version

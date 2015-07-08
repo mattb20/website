@@ -1,3 +1,7 @@
+# This is the website version registered in Mixpanel
+# It should match the minor version (e.g. 2.1) of the website
+set :website_version, 2
+
 Dir["lib/*.rb"].each { |file| require file }
 
 ###
@@ -53,10 +57,10 @@ data.graduates.each do | grad |
 end
 
 set :css_dir, 'sass'
-
 set :js_dir, 'javascripts'
-
+set :partials_dir, 'partials'
 set :images_dir, 'images'
+
 sprockets.append_path File.join root, 'bower_components'
 
 configure :development do
@@ -65,6 +69,9 @@ configure :development do
 
   # custom setting for switching off analytics in development
   set :run_analytics, false
+
+  # turn on to view a baseline grid for setting vertical rhythm
+  set :show_baseline_grid, false
 end
 
 # Build-specific configuration
@@ -93,4 +100,9 @@ configure :build do
   set :run_analytics, true
 
   set :mixpanel_token, 'b839b30fbe0796d650ae20e7eae6d0d1'
+
+  set :show_baseline_grid, false
+
+  ignore 'elements.html.haml'
+  ignore 'typography.html.haml'
 end
