@@ -1,17 +1,22 @@
 {
   "name": "makers_styles",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "authors": [
     "Makers Engineering <dev@makersacademy.com>"
   ],
-  "main": "source/sass/all.scss",
+  "main": [
+    "source/sass/all.scss",
+    "source/javascripts/all.js"
+  ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
-    "spec",
-    "bower_components",
-    "build",
-    "lib"
+    "*",
+    "!source/stylesheets/**",
+    "!source/sass/**",
+    "!source/fonts/**",
+    "!source/images/**",
+    "!source/javascripts/**",
+    "!data/**"
   ],
   "dependencies": {}
 }

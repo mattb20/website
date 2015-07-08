@@ -1,8 +1,8 @@
 !!!
 %html
   %head
-    = stylesheet_link_tag "normalize", "all"
-    = partial :"partials/analytics_scripts"
+    = stylesheet_link_tag "all"
+    = partial :"analytics_scripts"
     %script{src: "//use.typekit.net/fla8fba.js"}
     :javascript
       try{Typekit.load();}catch(e){}
@@ -18,12 +18,12 @@
     = javascript_include_tag  "hooks"
   %body{class: page_classes}
     - # Tag manager must go in the body, the other analytics scripts go in the head
-    = partial :"partials/google_tag_manager"
-    = partial :"partials/navigation"
+    = partial :"google_tag_manager"
+    = partial :"navigation"
 
     = yield
 
-    = partial :"partials/footer"
+    = partial :"footer"
 
     = javascript_include_tag  "all"
 
