@@ -1,0 +1,4 @@
+Sitemap: https://beta.makersacademy.com/sitemap.xml
+
+
+User-agent: *

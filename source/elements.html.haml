@@ -16,7 +16,7 @@
       = image_tag "logo/ma-white.png", class: "logo"
       %h1 Learn to code in 12 weeks
       %p= lorem.sentences(5)
-    = partial("partials/email-capture")
+    = partial :"email-capture"
 
 %hr/
 %h3 Hero Component
@@ -91,7 +91,7 @@
               %p= lorem.words(2)
               %p= lorem.words(2)
 
-        
+
 
 %h3 Article Component
 %section.article--centered

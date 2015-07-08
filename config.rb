@@ -8,8 +8,12 @@ Dir["lib/*.rb"].each { |file| require file }
 # Compass
 ###
 
+
 activate :directory_indexes
 activate :meta_tags
+
+set :url_root, 'http://beta.makersacademy.com'
+activate :search_engine_sitemap
 
 # Change Compass configuration
 # compass_config do |config|
