@@ -1,5 +1,4 @@
-Sitemap: https://beta.makersacademy.com/__middleman/sitemap/
+Sitemap: https://beta.makersacademy.com/sitemap.xml
 
 
 User-agent: *
-Disallow: /applications/complete

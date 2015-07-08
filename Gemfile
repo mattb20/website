@@ -10,7 +10,7 @@ gem "middleman-livereload", "~> 3.1.0"
 gem 'middleman-gh-pages'
 
 gem 'middleman-meta-tags'
-
+gem 'middleman-search_engine_sitemap'
 # Compresses and optimises images on the build task
 gem 'middleman-imageoptim', "0.2.1"
 gem 'neat', "~> 1.7.2"
