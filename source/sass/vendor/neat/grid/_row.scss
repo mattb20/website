@@ -35,10 +35,6 @@
 
   $layout-direction: $direction !global;
 
-  @if $display != default {
-    @include -neat-warn("The $display argument will be deprecated in future versions in favor of the display(){...} mixin.");
-  }
-
   @if $display == table {
     display: table;
     @include fill-parent;

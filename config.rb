@@ -1,3 +1,7 @@
+# This is the website version registered in Mixpanel
+# It should match the minor version (e.g. 2.1) of the website
+set :website_version, 2
+
 Dir["lib/*.rb"].each { |file| require file }
 
 ###
@@ -49,10 +53,10 @@ data.graduates.each do | grad |
 end
 
 set :css_dir, 'sass'
-
 set :js_dir, 'javascripts'
-
+set :partials_dir, 'partials'
 set :images_dir, 'images'
+
 sprockets.append_path File.join root, 'bower_components'
 
 configure :development do
