@@ -82,7 +82,7 @@ header.navigation {
         li {
           display: inline;
           text-align: right;
-          padding-right: $base-spacing * 1.5;
+          padding-right: $base-spacing * $perfect-fourth;
           &.current a:after {
             content: "";
             position: absolute;
