@@ -179,6 +179,3 @@ DEPENDENCIES
   neat (~> 1.7.2)
   rspec
   sass
-
-BUNDLED WITH
-   1.10.5
