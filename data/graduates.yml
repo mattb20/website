@@ -732,7 +732,7 @@
   last_name: Scully
   image: tim.jpg
   summary: From Tesco to Junior Developer at Ogilvy and Mather
-  testimonial: A course like this is possibly the best thing you can do to help yourself, both for employability and your own mindset
+  testimonial: A course like this is possibly the best thing you can do to help yourself, both for employability and your own mindset.
   cohort_month: December
   cohort_year: 2014
   case_study:
@@ -758,7 +758,7 @@
   last_name: Newman
   image: andyn.jpg
   summary: Commercial Management to Junior Developer at Financial Times Labs
-  testimonial: It's difficult to remember life before MA, but I'm really looking forwad to starting my new career!
+  testimonial: It's difficult to remember life before MA, but I'm really looking forward to starting my new career!
   cohort_month: March
   cohort_year: 2015
   blog_link: http://initialdigital.com/
@@ -915,7 +915,7 @@
     - question: What were you doing before joining Makers Academy?
       answer: I was working in an Investment analyst.
     - question: What did you learn to code?
-      answer: To be able to build the MVP for my startup and understand how things work.
+      answer: To be able to build my MVP for my startup and understand how things work.
     - question: How did you come across Makers Academy and what made you decide to apply?
       answer: A friend of mine recommended MA among other names. I liked the programme, and the dates suited me.
     - question: What did you find difficult during the course?
@@ -952,7 +952,7 @@
     - question: Tell us more about your business?
       answer: We build software that helps brands collaborate with highly influential YouTubers. You can see more at <a href='http://peg.co' target='_blank'>peg.co</a>.
     - question: How do you think Makers Academy helped in setting up your tech business?
-      answer: It gave me the knowledge I needed to build our MVP and I found my two Co-Founders there.
+      answer: It gave me the knowledge I needed to build our MVP and I found my two cofounders there.
     - question: Have you raised? If so how much and from where?
       answer: Yes - we're closing right now. It's in the region of £325k at a post-valuation of about £2.6m. All angel investors.
     - question: Are you still coding/involved in the technical side of your business?
