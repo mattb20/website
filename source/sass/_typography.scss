@@ -68,6 +68,10 @@ p {
     font-size: $base-font-size;
   }
 }
+.small {
+  font-size: $base-font-size / $modular-scale-ratio;
+  color: lighten($dark-gray, 15%);
+}
 
 a {
   color: $action-color;

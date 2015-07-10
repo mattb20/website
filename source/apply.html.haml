@@ -1,7 +1,3 @@
----
-layout: "app_layout"
----
-
 - @params = {}
 %section.hero{style: "background-image: url(#{image_path("backgrounds/student-concentrating.jpg")});"}
   .container
@@ -9,31 +5,30 @@ layout: "app_layout"
       %h1 Apply to Makers Academy
       %p Come and join us at Makers Academy and before you know it you'll be a coder!
 %section
-  .container
+  .container.container--narrow
     .form-row
       %form{method: "post"}
         %fieldset
           %input{type: "hidden", name: "course_type", value: "Offline"}
           .input-row
             %label{for: "first_name", class: "required"}
-              What's your first name?
+              First name
             %input{type: "text", required: true, name: "first_name", id: "first_name", value: @params[:first_name]}
           .input-row
             %label{for: "last_name", class: "required"}
-              What's your last name?
+              Last name
             %input{type: "text", required: true, name: "last_name", id: "last_name", value: @params[:last_name]}
           .input-row
             %label{for: "email", class: "required"}
-              What's your email address?
+              Email address
             %input{type: "email", required: true, name: "email", id: "email", value: @params[:email]}
           .input-row
             %label{for: "phone_number", class: "required"}
-              What's your phone number?
+              Phone number
             %input{type: "tel", required: true, name: "phone_number", id: "phone_number", value: @params[:phone_number]}
-            %p.input-info
-              We will call you if we have further questions about your application
         %fieldset
-          %legend If accepted, which class would you like to attend?
+          %legend
+            %span If accepted, which class would you like to attend?
           .radio-table-row
             %table{class: "radio-table"}
               %thead
@@ -58,29 +53,34 @@ layout: "app_layout"
                     =intake.end_date
         %fieldset
           %legend
-            Let's talk a little bit more about you
-          %p.description
-            Please take the following questions seriously. We will use your answers to decide whether we should schedule an interview at Makers Academy.
+            %span
+              Let's talk a little bit more about you
 
           .input-row
             %label{for: "why_attend", class: "required"}
               Why do you want to attend Makers Academy?
-            %textarea{required: true, name: "why_attend", class: "wordcount", id: "why_attend", value: @params[:why_attend]}
-            %p.input-info
+            %p.input-hint
               Build the next Facebook? Change the world? Quit a boring job and start an exciting career? Make lots of money as a software developer? Just because you like coding?
-              %span.hint (Please keep your response between 80 - 250 words!)
+              %span.small (80 - 250 words)
+            %textarea{required: true, name: "why_attend", class: "wordcount", id: "why_attend", value: @params[:why_attend]}
+            %p.input-feedback
+              %span.input-warning You have 200 words
 
           .input-row
             %label{for: "computer_skills", class: "required"}
               How have you learnt to code so far?
-            %textarea{required: true, name: "computer_skills", class: "wordcount", id: "computer_skills", value: @params[:computer_skills]}
-            %p.input-info
+            %p.input-hint
               If you can't code, it won't count against you: all you need is passion and the ability to unlearn the word "quit."
-              %span.hint (Please keep your response between 80 - 250 words!)
+              %span.small (80 - 250 words)
+            %textarea{required: true, name: "computer_skills", class: "wordcount", id: "computer_skills", value: @params[:computer_skills]}
+            %p.input-feedback
+              %span.input-success You have 200 words
 
           .input-row
             %label{for: "how_did_you_hear_about_us", class: "required"}
               How did you hear about us?
+            %p.input-hint
+              Purely for marketing reasons. If you heard about us through multiple channels, choose the one that influenced your decision the most.
             %select{required: true, name: "how_did_you_hear_about_us", id: "how_did_you_hear_about_us"}
               %option{value: ''} Select an option&hellip;
               %option{value: 'Google', selected: @params[:how_did_you_hear_about_us] == 'Google'} Google
@@ -104,8 +104,6 @@ layout: "app_layout"
               %option{value: 'Other media coverage', selected: @params[:how_did_you_hear_about_us] == 'Other media coverage'} Other media coverage
               %option{value: 'Alumnus recommendation', selected: @params[:how_did_you_hear_about_us] == 'Alumnus recommendation'} Alumnus recommendation
               %option{value: "Someone else's recommendation", selected: @params[:how_did_you_hear_about_us] == "Someone else's recommendation"} Someone else's recommendation
-            %p.input-info
-              Purely for marketing reasons. If you heard about us through multiple channels, choose the one that influenced your decision the most.
           .button-row
             %p
-              %input{type: "submit", value: "Apply"}
+              %input{type: "submit", value: "Submit Application", class: "button button--vertical button--large"}

@@ -1,7 +1,7 @@
 section {
   position: relative;
   text-align: center;
-  padding: ma-spacing(2) ma-spacing(1);
+  padding: ma-spacing(2) 0;
   min-height: $base-spacing * 15;
   @include media($desktop) {
     padding: $section-spacing 0;
@@ -9,6 +9,9 @@ section {
 
   .container {
     @include ma-container;
+  }
+  .container--narrow {
+    @include ma-container(em(780));
   }
 }
 
