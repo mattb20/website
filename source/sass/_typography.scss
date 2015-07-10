@@ -25,19 +25,19 @@ h6, {
 }
 
 h1 {
-  @include ma-header(4);
-}
-
-h2 {
   @include ma-header(3);
 }
 
-h3 {
+h2 {
   @include ma-header(2);
 }
 
+h3 {
+  @include ma-header(1);
+}
+
 h4 {
-  @include ma-header(0);
+  @include ma-header(-1);
   color: $medium-gray;
 
   &.leader, &.subheader {

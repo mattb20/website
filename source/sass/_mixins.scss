@@ -80,7 +80,7 @@
   margin-bottom: $base-line-height * $margin-lines;
 
   @include media($desktop) {
-    @include ma-font-size($step);
+    @include ma-font-size($step + 1);
   }
 }
 
