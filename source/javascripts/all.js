@@ -5,6 +5,17 @@
 // these yourself - the simplest way is just to add them using <script> tags in
 // your layout html file
 //
+// Here are some useful paths for your copy/pasting convenience:
+// bower_components/makers_styles/source/javascripts/all.js
+// bower_components/makers_styles/source/javascripts/doorbell.js
+// bower_components/makers_styles/source/javascripts/hooks.js
+// bower_components/makers_styles/source/javascripts/jquery.fixedscroll.js
+// bower_components/makers_styles/source/javascripts/mixpanel-email-capture.js
+// bower_components/makers_styles/source/javascripts/navigation.js
+// bower_components/makers_styles/source/javascripts/vendor/jquery.ajaxchimp.js
+// bower_components/makers_styles/source/javascripts/vendor/retina.min.js
+// bower_components/makers_styles/source/javascripts/vendor/slick.js
+
 //= require vendor/jquery
 //= require vendor/retina.min
 //= require vendor/slick.js
