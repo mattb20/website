@@ -71,7 +71,7 @@ configure :development do
   set :run_analytics, false
 
   # turn on to view a baseline grid for setting vertical rhythm
-  set :show_baseline_grid, true
+  set :show_baseline_grid, false
 end
 
 # Build-specific configuration
