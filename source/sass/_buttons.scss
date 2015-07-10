@@ -13,7 +13,7 @@
   font-weight: normal;
   line-height: $base-line-height;
   padding: ma-spacing(0.5) ;
-  min-width: $base-button-width;
+  min-width: $base-button-width / 2;
   text-decoration: none;
   user-select: none;
   vertical-align: middle;
@@ -34,6 +34,8 @@
 
   @include media($desktop) {
     background-color: transparent;
+    min-width: $base-button-width;
+
   }
 }
 
@@ -59,7 +61,10 @@
 
 .button--large {
   @extend button;
-  min-width: 11.1em;
+  min-width: 11.1em / 2;
   font-size: modular-scale(2);
   line-height: $perfect-fourth * $golden;
+  @include media($desktop) {
+    min-width: 11.1em;
+  }
 }
