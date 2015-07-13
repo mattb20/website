@@ -122,7 +122,6 @@
       }
       input[type="submit"] {
         @include border-left-radius(0);
-        /*padding: $form-input-padding modular-scale(0);*/
       }
     }
   }
