@@ -26,6 +26,7 @@ h6, {
 
 h1 {
   @include ma-header(3);
+  font-size: 1.9rem;
 }
 
 h2 {
