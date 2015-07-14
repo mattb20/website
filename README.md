@@ -30,6 +30,7 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 * [Bower](http://bower.info/) for installing shared assets
 * [Sass](http://sass-lang.com/) to help write our CSS
 * [Bourbon](http://bourbon.io/)/[Neat](http://neat.bourbon.io/)/[Bitters](http://bitters.bourbon.io/) as a framework for our CSS
+* [Typekit](http://typekit.com) for tasty typefaces
 
 ## Publishing to Bower
 
