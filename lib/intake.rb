@@ -4,6 +4,7 @@ require 'date'
 class Intake
 
   FILE_NAME = File.join("data", "intakes.yml")
+
   DAYS_IN_WEEK = 7
   PRECOURSE_LENGTH = 4 * DAYS_IN_WEEK
 
@@ -21,7 +22,7 @@ class Intake
     Date.parse(dates["end_date"])
   end
 
-  def precourse_start
+  def precourse_start_date
     start_date - PRECOURSE_LENGTH
   end
 

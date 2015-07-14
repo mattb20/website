@@ -106,3 +106,13 @@ table.responsive-table {
     }
   }
 }
+
+.radio-table {
+  tbody tr {
+    &:hover {
+      background-color: lighten($light-gray, 8%);
+      cursor: pointer;
+    }
+  }
+}
+

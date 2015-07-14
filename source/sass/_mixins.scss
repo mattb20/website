@@ -11,7 +11,7 @@
   &:last-child {
     margin-bottom: -1px; // fix for last-child in Chrome, no ill effects in other browsers
   }
-  *:last-child {
+  > *:last-child {
     margin-bottom: 0;
   }
 }

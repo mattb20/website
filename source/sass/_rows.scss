@@ -27,7 +27,7 @@
 
 .button-row {
   @include ma-row;
-  .button, .button--horizontal, .button--vertical {
+  #{$all-button-inputs}, .button, .button--horizontal, .button--vertical {
     display: block;
     margin: 0 auto;
     margin-bottom: ma-spacing(1);
@@ -39,6 +39,9 @@
     }
 
     @include media($desktop) {
+      & > p {
+        text-align: center;
+      }
       display: inline-block;
       margin-bottom: 0 !important;
 
@@ -90,7 +93,11 @@
 
     input[type="email"] {
       border-radius: $button-border-radius;
-      margin-bottom: modular-scale(1);
+      margin-bottom: ma-spacing(1);
+      line-height: $base-line-height;
+      padding: ma-spacing(0.5);
+      // Magic number for the benefit of IE (die)
+      height: 3.22rem;
     }
 
     input[type="submit"] {
@@ -108,13 +115,12 @@
         border-radius: 0;
         border-right-width: 0;
         @include border-left-radius($button-border-radius);
-        padding-left: modular-scale(0);
+        padding-left: $base-line-height;
         width: auto;
         margin: 0;
       }
       input[type="submit"] {
         @include border-left-radius(0);
-        padding: $form-input-padding modular-scale(0);
       }
     }
   }
@@ -350,4 +356,14 @@
       }
     }
   }
+}
+
+.form-row {
+  @include ma-row(table);
+  text-align: left;
+}
+
+.radio-table-row {
+  text-align: center;
+  margin-bottom: $base-line-height;
 }

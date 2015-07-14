@@ -25,6 +25,7 @@
 //= require navigation
 //= require jquery.fixedscroll
 //= require doorbell
+//= require vendor/baseliner
 
 $(document).ready(function() {
 
@@ -54,4 +55,5 @@ $(document).ready(function() {
   });
 
   $('.faq-links').fixedScroll();
+
 });
