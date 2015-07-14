@@ -20,9 +20,6 @@ select {
 label {
   font-weight: 600;
   margin-bottom: $base-line-height * 0.4;
-  &.required::after {
-    content: "*";
-  }
   abbr {
     display: none;
   }
