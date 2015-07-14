@@ -1,6 +1,6 @@
 # This is the website version registered in Mixpanel
 # It should match the minor version (e.g. 2.1) of the website
-set :website_version, 2
+set :website_version, 2.1
 
 Dir["lib/*.rb"].each { |file| require file }
 
@@ -62,6 +62,8 @@ set :partials_dir, 'partials'
 set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
+
+set :apply_form_url, "https://apply.makersacademy.com"
 
 configure :development do
   activate :livereload
