@@ -76,6 +76,7 @@ input[type="text"],
 input[type="tel"],
 input[type="email"] {
   line-height: $base-line-height * 2.5;
+  height: $base-line-height * 3;
 }
 
 legend {
@@ -141,5 +142,11 @@ form.alt {
     display: block;
     margin: 0 auto;
     margin-bottom: $base-line-height;
+  }
+}
+
+form {
+  .button-row p {
+    text-align: center;
   }
 }

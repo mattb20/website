@@ -27,9 +27,6 @@
 
 .button-row {
   @include ma-row;
-  & > p {
-    text-align: center;
-  }
   #{$all-button-inputs}, .button, .button--horizontal, .button--vertical {
     display: block;
     margin: 0 auto;
@@ -99,6 +96,8 @@
       margin-bottom: ma-spacing(1);
       line-height: $base-line-height;
       padding: ma-spacing(0.5);
+      // Magic number for the benefit of IE (die)
+      height: 3.22rem;
     }
 
     input[type="submit"] {

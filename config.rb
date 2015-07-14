@@ -101,4 +101,5 @@ configure :build do
 
   ignore 'elements.html.haml'
   ignore 'typography.html.haml'
+  ignore 'form-styles.html.haml'
 end
