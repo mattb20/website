@@ -26,6 +26,8 @@ h6, {
 
 h1 {
   @include ma-header(3);
+  // Custom font size for mobile.
+  font-size: 1.9rem;
 }
 
 h2 {
