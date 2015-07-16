@@ -19,14 +19,12 @@
       margin-bottom: ma-spacing(1);
     }
     code {
-      background: #F7F7F7;
-      border-radius: $base-border-radius * 1.5;
-      border: 1px solid #E0E0E0;
       font-family: monaco;
       font-size: modular-scale(-1);
       font-style: normal;
       padding: 0.1em 0.4em;
-      white-space: nowrap;
+      white-space: inherit;
+      word-wrap: break-all;
     }
     h3 {
       font-weight: 500;
