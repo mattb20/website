@@ -542,7 +542,7 @@ legend span {
   font-size: 1.333rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
-  word-break: break-word;
+  word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -741,11 +741,12 @@ h1 {
   font-size: 2.36859rem;
   line-height: 3rem;
   margin-bottom: 1.5rem;
-  word-break: break-word;
+  word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  hyphens: auto; }
+  hyphens: auto;
+  font-size: 1.9rem; }
   @media screen and (min-width: 1024px) {
     h1 {
       font-size: 3.15733rem;
@@ -755,7 +756,7 @@ h2 {
   font-size: 1.77689rem;
   line-height: 3rem;
   margin-bottom: 1.5rem;
-  word-break: break-word;
+  word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -769,7 +770,7 @@ h3 {
   font-size: 1.333rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
-  word-break: break-word;
+  word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -783,7 +784,7 @@ h4 {
   font-size: 0.75019rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
-  word-break: break-word;
+  word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -1821,14 +1822,12 @@ footer {
       font-weight: 500;
       margin-bottom: 1.5rem; }
     .article article code, .article--left article code, .article--centered article code, .article--right article code {
-      background: #F7F7F7;
-      border-radius: 3px;
-      border: 1px solid #E0E0E0;
       font-family: monaco;
       font-size: 0.75019rem;
       font-style: normal;
       padding: 0.1em 0.4em;
-      white-space: nowrap; }
+      white-space: inherit;
+      word-wrap: break-all; }
     .article article h3, .article--left article h3, .article--centered article h3, .article--right article h3 {
       font-weight: 500;
       text-transform: uppercase; }
