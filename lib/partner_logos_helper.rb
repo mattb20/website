@@ -1,10 +1,12 @@
-# -*- coding: utf-8 -*-
+require "./lib/image_helper"
+require "open-uri"
+require "json"
+
 module PartnerLogosHelper
-  LOGOS_DIR = "source/images/hiring-partners"
-  RENDERED_DIR = "hiring-partners"
+  API_URL = "https://api.github.com/repos/makersacademy/makers-assets/contents/images/hiring-partners"
 
   def fetch_logos
-    strip_directories!(Dir.entries(LOGOS_DIR)).map { |logo| prepend_path(logo)  }
+    logos.map { |logo| "hiring-partners/#{logo["name"]}" }
   end
 
   def alt_text_from_filename(logo_name)
@@ -16,12 +18,7 @@ module PartnerLogosHelper
 
   private
 
-  def strip_directories!(paths)
-    paths.delete_if { |path| path[0] == "." }
-    paths.delete_if { |path| [".", ".."].include? path }
-  end
-
-  def prepend_path(logo)
-    "#{RENDERED_DIR}/#{logo}"
+  def logos
+    JSON.load(open(API_URL))
   end
 end

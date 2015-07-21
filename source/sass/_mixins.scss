@@ -81,11 +81,11 @@
 
   // Word wrapping
 
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+  /*word-wrap: break-word;*/
+  /*-webkit-hyphens: auto;*/
+  /*-moz-hyphens: auto;*/
+  /*-ms-hyphens: auto;*/
+  /*hyphens: auto;*/
 
   @include media($desktop) {
     @include ma-font-size($step + 1);
