@@ -32,6 +32,12 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 * [Bourbon](http://bourbon.io/)/[Neat](http://neat.bourbon.io/)/[Bitters](http://bitters.bourbon.io/) as a framework for our CSS
 * [Typekit](http://typekit.com) for typefaces
 
+## Adding images
+
+Our images are stored on the [makers assets GitHub repo](https://github.com/makersacademy/makers-assets) - we've split them out to a seperate repository to keep the size of this repository down. All assets from that repository can be accessed from http://assets.makersacademy.com.
+
+When adding a new image, add it to the [images directory](https://github.com/makersacademy/makers-assets/tree/gh-pages/images) of the [makers assets GitHub repo](https://github.com/makersacademy/makers-assets), and make sure that the image has been compressed using [image optim](https://imageoptim.com/) and are good quality images that fit the look and feel of the site.
+
 ## Publishing to Bower
 
 We use Bower to share our assets across the various Makers Academy websites. If
