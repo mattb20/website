@@ -11,17 +11,10 @@ gem 'middleman-gh-pages'
 
 gem 'middleman-meta-tags'
 gem 'middleman-search_engine_sitemap'
-# Compresses and optimises images on the build task
-gem 'middleman-imageoptim', "0.2.1"
 gem 'neat', "~> 1.7.2"
 
-# Heroku deployment
-#group :production do
-  #gem 'rack-contrib'
-  #gem 'puma'
-#end
-
 group :development, :test do
+  gem 'pry'
   gem 'rspec'
   gem 'sass'
 end

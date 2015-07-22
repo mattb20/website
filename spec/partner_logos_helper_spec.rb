@@ -5,9 +5,17 @@ class PartnerLogosHelperWrapper
 end
 
 describe PartnerLogosHelperWrapper do
+  let(:logos) do
+    [{
+      "name" => "image.png"
+    }].to_json
+  end
+
+  let(:logo_path) { "hiring-partners/image.png" }
+
   it "fetches a list of available partner logos" do
-    test_logo = "test-logo.png"
-    expect(subject.fetch_logos).not_to be_empty
+    allow(subject).to receive(:open).and_return(logos)
+    expect(subject.fetch_logos).to eq([logo_path])
   end
 
   it "outputs human friendly titles for alt text and title" do
