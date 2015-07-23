@@ -12,6 +12,6 @@
           .category
             %h3.subheader{id: "faq-category-#{index}"}= category[:category_name]
             - category[:faqs].each do |faq|
-              %dl.faq
+              %dl.faq{id: string_to_link(faq[:question])}
                 %dt= faq[:question]
                 %dd= markdown faq[:answer]
