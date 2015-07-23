@@ -41,13 +41,13 @@
     - question: What were you doing before joining Makers Academy?
       answer: I was a waiter for a catering company.
     - question: What made you want to start learning to code in the first place?
-      answer: Well programming was fun and catering wasn't. Really it was the whole problem solving aspect of coding that was really fun and got me into it.
+      answer: Well, programming was fun and catering wasn't. It was really the whole problem solving aspect of coding that was really fun and got me into it.
     - question: How did you come across Makers Academy and what made you decide to apply?
-      answer: My brother showed it to me, and I didn't think I'd get in so I just submitted an application without much thought of doing the course.
+      answer: My brother showed it to me, and I didn't think I'd get in so I just submitted an application without much thought.
     - question: What did you find difficult during the course?
       answer: The pace. The constant projects and having to start a new one directly after finishing one was hard, it wears you down, but you definitely learn a lot.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: I became an alumni helper, and then after a couple weeks I was flown out to the Czech Republic for a recruiting hackathon with a couple of other people from my cohort and I ended up getting a job there.
+      answer: I became an alumni helper, and then after a couple weeks I was flown out to the Czech Republic for a recruitment hackathon with a couple of other people from my cohort. I ended up getting a job there!
     - question: How has your life changed since graduation?
       answer: Definitely for the better, I'm moving to Brno and couldn't be more excited.
     - question: What advice would you give to people thinking of changing career?
@@ -59,7 +59,7 @@
     - question: Sum up your Makers Academy experience
       answer: I quickly developed Stockholm syndrome for code and the people here.
     - question: What advice would you give to people interviewing for developer roles?
-      answer: Apparently we're worth hiring. I had no clue after the course that we would actually be on par with people who spent years at school, but we definitely are judging by how people keep hiring us.
+      answer: Apparently we're worth hiring. I had no clue after the course that we would actually be on par with people who spent years at university, but we definitely are judging by how people keep hiring us.
 
 - first_name: Ruth
   last_name: Earle
@@ -101,23 +101,23 @@
   cohort_year: 2015
   case_study:
     - question: What were you doing before joining Makers Academy?
-      answer: I have a background in client management and analyst roles. Just before Makers, I was working as a Project Manager intern for a startup and as a Project Coordinator in a Charity.
+      answer: My background is in client management and analyst roles. Just before Makers, I was working as a Project Management intern for a startup and as a Project Coordinator in a Charity.
     - question: What made you want to start learning to code in the first place?
       answer: It is always useful to know how to code, it is the future.
     - question: How did you come across Makers Academy and what made you decide to apply?
       answer: Googling. I wanted a change and Makers was the solution to being able to make it fast.
-    - question: What did you find difficult during the course??
+    - question: What did you find difficult during the course?
       answer: The intensity. Every week we were leaving behind something to learn something else.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: Just after the graduation, my brain was on strike for two weeks. After that I kept studying on my own while I was searching for a job. First weeks the job market was very quiet but suddenly it woke up and lots of opportunities came up. I am working now as a web application developer.
+      answer: Just after the graduation, my brain was on strike for two weeks. After that I kept studying on my own while I was searching for a job. For the first few weeks the job market was very quiet but suddenly it woke up and lots of opportunities came up. I am working now as a Web Application Developer.
     - question: How has life changed since graduation?
-      answer: I am challenged and I learn new things everyday.
+      answer: I am constantly challenged and I learn new things everyday.
     - question: What advice would you give to people thinking of changing career?
-      answer: Do it! If you don't take a risk you will regret all your life and if it goes wrong, at least you tried it.
+      answer: Do it! If you don't take a risk you will regret it all your life and if it goes wrong, at least you tried.
     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-      answer: I had two worries, one was that I could not be 100% sure I was going to love coding as a profession and another one was if I would be able to cope with the intensity (energy wise, as I have a b12 deficiency when I joined). After the course I can say I love coding and being able to create things. I took care of myself during the course and I could cope with my energy, in fact my b12 was perfect after the course.
+      answer: I had two worries: one was that I could not be 100% sure I was going to love coding as a profession, and if I would be able to cope with the intensity (energy wise, as I have a B12 deficiency when I joined). After the course I can say I love coding and being able to create things. I took care of myself during the course and I could cope with my energy, in fact my B12 was perfect after the course.
     - question: Sum up your Makers Academy experience
-      answer: Intense but worth it
+      answer: Intense but worth it.
     - question: What advice would you give to people interviewing for developer roles?
       answer: Relax and be yourself.
 
@@ -131,13 +131,13 @@
   cohort_year: 2015
   case_study:
     - question: What were you doing before joining Makers Academy?
-      answer: In January I graduated from university where I studied communication.
+      answer: In January I graduated from university where I studied Communication.
     - question: What made you want to start learning to code in the first place?
-      answer: I used to code by myself but everything I knew was self taught and I needed a place to teach me the best practices.
+      answer: I used to code by myself but everything I knew was self-taught and I needed a place to teach me the best practices.
     - question: How did you come across Makers Academy and what made you decide to apply?
       answer: I came across Makers Academy on Google and I applied because it looked like exactly what I wanted.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: After graduation I worked at Makers Academy as an Alumni helper. Then Makers found me a job at FNZ in the Czech Republic after we went to a recruitment hackathon there which was awesome. FNZ showed us around and paid for our meals and beers, and then gave me a job with a great relocation package.
+      answer: After graduation I worked at Makers Academy as an Alumni Helper. Then Makers found me a job at FNZ in the Czech Republic after we went to a recruitment hackathon there which was awesome. FNZ showed us around and paid for our meals and beers, and then gave me a job with a great relocation package.
     - question: What would you say to people who say £8,000 is very expensive?
       answer: If you want to learn to code then Makers Academy is worth it.
     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
@@ -672,7 +672,7 @@
     - question: What did you find difficult during the course?
       answer: I found the pace of the course difficult as some people in my cohort knew already how to code and they were leading the pace of the lessons.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: I finished on 20th June. I took the summer off to travel with my family and clean my github. I started looking for a job on 1st September. I did only one application through LinkedIn and I got the job. I was offered a paid three months internship. After two weeks working there they told me they were very happy with me, so after 6 weeks of internship I was made permanent. I'm very happy to work there.
+      answer: I finished on 20th June. I took the summer off to travel with my family and clean my GitHub. I started looking for a job on 1st September. I did only one application through LinkedIn and I got the job. I was offered a paid three months internship. After two weeks working there they told me they were very happy with me, so after 6 weeks of internship I was made permanent. I'm very happy to work there.
     - question: How has your life changed since graduation?
       answer: Makers Academy changed my life. It gave me the confidence that I can achieve whatever I want in life.
     - question: What advice would you give to people thinking of changing career?
