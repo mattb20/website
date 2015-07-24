@@ -20,8 +20,7 @@
       %dl
         - grad[:case_study].each do | qa |
           %dt= qa[:question]
-          %dd
-            %p= qa[:answer]
+          %dd= markdown qa[:answer]
 
 = partial :"apply"
 

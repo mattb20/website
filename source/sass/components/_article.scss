@@ -7,7 +7,7 @@
     text-align: left;
     padding-bottom: 0;
     *:last-child {
-      margin-bottom: 0;
+      margin-bottom: $base-spacing;
       padding-bottom: 0;
     }
     h1, h2, h3 {

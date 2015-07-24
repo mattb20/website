@@ -96,7 +96,7 @@
   last_name: Cristòfol
   image: bibiana.jpg
   summary: Project Manager Intern and Coordinator to Web Application Developer at Tempus Energy
-  testimonial: Intense but worth it
+  testimonial: Intense but worth it.
   cohort_month: March
   cohort_year: 2015
   case_study:
@@ -500,36 +500,6 @@
       answer: Take the leap, you'll be glad you did.
     - question: What would you say to people who say £8,000 is very expensive?
       answer: For the expertise of the coaches and the experience it is 100% worth it & I would pay it again.
-    - question: What advice would you give to people interviewing for developer roles?
-      answer: Makers Academy teaches quality code and the best standard of practices, demonstrate your knowledge of these and you will be fine.
-
-- first_name: Denise
-  last_name: Yu
-  image: denise.jpg
-  summary: MSc in Social Policy to Junior Developer at Mergermarket
-  testimonial: I now have an interesting job that forces me to think and learn something new everyday and that’s not something I can say for the other jobs I’ve had.
-  cohort_month: December
-  cohort_year: 2014
-  blog_link: http://www.deniseyu.com
-  case_study:
-    - question: What were you doing before joining Makers Academy?
-      answer: I was working as a Recruitment Consultant.
-    - question: What made you want to start learning to code in the first place?
-      answer: I had interest in the industry and needed a career change.
-    - question: How did you come across Makers Academy and what made you decide to apply?
-      answer: Found it via an internet search and after reading the website and blogs I decided it was for me.
-    - question: What did you find difficult during the course?
-      answer: The steep learning curve and the long hours.
-    - question: What happened during/after graduation and where are you job-wise?
-      answer: After graduation I returned home to Newcastle and found a job about a month after I graduated.
-    - question: How has your life changed since graduation?
-      answer: I have successfully became a developer and I am part of the Makers alumni. I also got a tattoo with the Makers Academy logo. It was that life changing!
-    - question: What advice would you give to people thinking of changing career?
-      answer: Take the leap, you'll be glad you did.
-    - question: What would you say to people who say £8,000 is very expensive?
-      answer: For the expertise of the coaches and the experience it is 100% worth it & I would pay it again.
-    - question: Sum up your Makers Academy experience
-      answer: Awesome!
     - question: What advice would you give to people interviewing for developer roles?
       answer: Makers Academy teaches quality code and the best standard of practices, demonstrate your knowledge of these and you will be fine.
 
