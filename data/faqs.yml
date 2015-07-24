@@ -135,9 +135,6 @@
     - question: How satisfied are students after completing the program?
       answer: "Our Net Promoter Score (as decided by feedback from Graduating Students over the past year) is 9.3. The highest you can get is a 10, and anything above 5 is considered to be ‘Excellent’."
 
-    - question: What is the average cohort size?
-      answer: "We have a hard limit of 30 students per cohort, but we we'd rather have smaller class sizes and focus on high-quality students over filling every class just to make a fast buck. These days the average class size is around 25 people."
-
     - question: What is the drop out rate/failure of the course?
       answer: "Out of around 350 students so far we have had around 25 drop out, for various reasons. We have an application/interview process at Makers Academy that is designed to only accept people who are serious about learning to code, but we can’t always get it right!"
 
