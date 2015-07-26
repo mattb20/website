@@ -105,7 +105,7 @@
 - name: Challenge Me
   team: Nicola, Toan, Jamie, Chloe, Nikesh, Joe
   cohort: June 2014
-  blurb: Bunch takes the arguments out of organising a meetup with friends. Just tell it where you're coming from and Bunch will find the best bars, cafes and restaurants in a central location that suits the whole group.
+  blurb: An app to make raising money for charity easy.
   live_link: http://challenge--me.herokuapp.com/
   code_link: https://github.com/yoshdog/challenge-me
   image: cm.jpeg
