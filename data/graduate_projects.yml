@@ -27,14 +27,16 @@
   cohort: Ronin March 2015
   blurb: Giftbox is a collaborative service to allow groups to collectively purchase gifts for an individual. A simple process allows the user to select a gift, add contributers, take payments and automatically make the purchase and ship on receiving the last contribution.
   code_link: https://github.com/ilyafaybisovich/present_cobuy
-  live_link: https://github.com/ilyafaybisovich/present_cobuy
-  image: giftbox.jpg
+  live_link: http://www.ronin-giftbox.co.uk
+  image: giftbox.jpeg
 
 - name: Street Pacman
-  team: Vanessa, Tommaso,Diego,Guido
+  team: Vanessa, Tommaso, Diego, Guido
   cohort: February 2015
   blurb: Street Pacman is inspired by the '80s game Pacman but with a twist, it's now a real-life tag game. 5 players connect to the app and choose to be either Pacman or one of the 4 Ghosts. Pacman's goal is to eliminate every Ghost with the help of 4 super pellets located on the map and the Ghosts' aim is to tag Pacman.
-  image: pacman.jpg
+  code_link: https://github.com/vvirgitti/Street_Pacman
+  live_link: https://www.youtube.com/watch?v=LkLc1CcXZ6Y&feature=em-upload_owner
+  image: pacman.jpeg
 
 - name: Dinnr
   team: Andy, Hannah, Jack, Matteo
