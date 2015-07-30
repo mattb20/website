@@ -3,7 +3,7 @@
   .container
     .centered-row
       %h1 Hire London's <br> top junior developers
-      %p 30 new devs every 6 weeks
+      %p 30 new candidates every 6 weeks
     .button-row
       %p
         = link_to "Hire Developers", "https://makersacademy.typeform.com/to/sz8vTw", class: "button--vertical", target: "_blank"
@@ -14,15 +14,15 @@
       %h2 Work-ready junior developers
     .three-width-row
       .column
-        = image_tag "icons/icon-heart.png"
+        = image_tag "icons/icon-heart.png", { style: 'height: 55%; width: 70%;' }
         %h3 Passion
         %p Driven, curious and engaged: our graduates are incredibly enthusiastic about code. They are determined and dedicated in the face of problems and committed to constantly discovering more.
       .column
-        = image_tag "icons/icon-craft.png"
+        = image_tag "icons/icon-craft.png", { style: 'height: 55%; width: 70%;' }
         %h3 Craft
         %p Clean, maintainable and extendable: their code is a pleasure to read. Our graduates are advocates of TDD, pair programming, and SOLID and Agile principles - they write quality code.
       .column
-        = image_tag "icons/icon-briefcase.png"
+        = image_tag "icons/icon-briefcase.png", { style: 'height: 55%; width: 70%;' }
         %h3 Experience
         %p Personable, knowledgable and capabale: our graduates add value beyond the code - most have built successful careers in other industries: experience they will bring to your company.
 
@@ -55,13 +55,17 @@
   .container
     .four-width-row.row-with-borders
       .column
-        %h3 stats
+        %h3 £32,000
+        %h4 Average Salary
       .column
-        %h3 stats
+        %h3 28
+        %h4 Average Age
       .column
-        %h3 stats
+        %h3 29%
+        %h4 Female Students
       .column
-        %h3 stats
+        %h3 85%+
+        %h4 Employed within 3 months
 
 %section.half-slider
   .container
@@ -114,16 +118,17 @@
 
 %section
   .container
-    .two-width-row
+    .two-width-row.row-with-borders
       .column
-        %h4 Our Fee is
+        %h3 <br>
+        %h4 Success Fee
         %h1 20%
         %h4.subheader of starting salary
         .button-row
-          =link_to "Request a callback", "/contact.html", class: "button--horizontal"
+          =link_to "Request a callback", "http://bit.ly/meetWB", class: "button--horizontal"
       .column
         .copy.copy--left
-          %h4 All of the above, unlimited, for free
+          %h5.subheader you get all of the above, unlimited, for free
           %h4.subheader You only pay when you find someone you like
           %p Unlike other coding bootcamps, we charge a fee for recruitment - which means we're incentivised at every point of our process to produce phenomenally employable people.
           %p You don't pay a penny for engaging with our graduates, whether you're attending our careers fair, or simply posting a job - you only pay when you find someone you like.
@@ -133,15 +138,15 @@
 %section.backgrounded
   .container
     .centered-row
-      %h2 Our Ideal Employer
+      %h2 Our Hiring Partners
       %table
         %tbody
           %tr
             %td Commitment to Learning
-            %td Fans of Software Craftsmanship
+            %td Tech team bigger than 10 people
           %tr
             %td Mentoring or Buddying
-            %td Tech team bigger than 10 people
+            %td Fans of Software Craftsmanship
           %tr
             %td TDD / BDD
             %td Pair Programming
