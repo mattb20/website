@@ -1,3 +1,51 @@
+- name: Makers Visitors App
+  team: Sarah, Richard, James, Milena
+  cohort: March 2015
+  blurb: An iPhone app that helps visitors coming to Makers Academy, telling them where to go for their meeting, and notifying the relevant Makers staff member of their arrival.
+  code_link: https://github.com/MakersApp/makers-app
+  live_link: https://www.youtube.com/watch?v=v1GVvMg1-Js
+  image: app.jpg
+
+- name: Ignite
+  team: Andrea, George, Paul, Kanishk
+  cohort: March 2015
+  blurb: A crowdfunding platform for local community projects.
+  code_link: https://github.com/IgniteIt/ignite_it
+  live_link: https://igniteit.herokuapp.com/
+  image: ignite.jpg
+
+- name: Lend and Tend
+  team: Dan, Joe, Gus, Jade
+  cohort: Ronin March 2015
+  blurb: Fewer people can afford their own gardens these days, and people with gardens often have to work such long hours that they don't have time to do any gardening. Enter Lend and Tend. We match people with unused gardens they could lend, to people wanting to borrow a garden so they can tend.
+  code_link: https://github.com/joejknowles/lend_and_tend
+  live_link: http://pacific-tundra-1942.herokuapp.com/
+  image: lendandtend.jpg
+
+- name: Ronin Giftbox
+  team: Iciar, Ilya, Mark, Rob
+  cohort: Ronin March 2015
+  blurb: Giftbox is a collaborative service to allow groups to collectively purchase gifts for an individual. A simple process allows the user to select a gift, add contributers, take payments, automatically make the purchase and ship after receiving the last contribution.
+  code_link: https://github.com/ilyafaybisovich/present_cobuy
+  live_link: http://www.ronin-giftbox.co.uk
+  image: giftbox.jpeg
+
+- name: Street Pacman
+  team: Vanessa, Tommaso, Diego, Guido
+  cohort: February 2015
+  blurb: Street Pacman is inspired by the '80s game Pacman but with a twist - it's now a real-life tag game. 5 players connect to the app and choose to be either Pacman or one of the 4 Ghosts. Pacman's goal is to eliminate every Ghost (with the help of 4 super pellets located on the map), and the Ghosts' aim is to tag Pacman.
+  code_link: https://github.com/vvirgitti/Street_Pacman
+  live_link: https://www.youtube.com/watch?v=LkLc1CcXZ6Y&feature=em-upload_owner
+  image: pacman.jpeg
+
+- name: Dinnr
+  team: Andy, Hannah, Jack, Matteo
+  cohort: Febuary 2015
+  blurb: Dinnr is a social app for organizing dinner parties, similar to Airbnb.
+  code_link: https://github.com/Dinnr-Makers/Dinnr
+  live_link: https://dinnr.herokuapp.com/
+  image: dinnr.jpg
+
 - name: Turn up Tune In
   team: Andy, Hannah, Jack, Matteo
   cohort: December 2014
@@ -9,15 +57,15 @@
 - name: One Day
   team: Emily, Sanda, Luke, Johnathan, Huy
   cohort: December 2014
-  blurb: A project for One Day from openIDEO. Connects young people searching for a job inspiration with professionals that are ready to share their passion for a one-day in-work experience
+  blurb: A project for One Day from openIDEO. Connects young people searching for a job inspiration with professionals that are ready to share their passion for a one-day in-work experience.
   code_link: https://github.com/emilysas/One_Day_Experience_Prototype
   live_link: https://one-day-xp.herokuapp.com/
   image: oneday2.jpeg
 
-- name: I am Me
+- name: I Am Me
   team: Charlie, Danielle, Ptolemy, India, Gus
   cohort: December 2014
-  blurb: A visual calender app for a real life client
+  blurb: A visual calender app for a real life client.
   code_link: https://github.com/ciawalsh/iamME
   live_link: https://i-am-me.herokuapp.com
   image: iamme.jpeg
@@ -25,7 +73,7 @@
 - name: Oodles
   team: Claudia, Alan, Izzy, Ben H
   cohort: October 2014
-  blurb: Connecting those with surplus food with charities that can use that food
+  blurb: Connecting those with surplus food with charities that can use that food.
   live_link: http://www.oodls.io/
   code_link: https://github.com/Callisto13/Oodls
   image: oodles.jpeg
@@ -33,7 +81,7 @@
 - name: Look Up
   team: Shan, Pavel, Rich, Attila
   cohort: October 2014
-  blurb: App to assess Solar capacity of roofs. Made for 10:10 Charity
+  blurb: App to assess the solar capacity of roofs. Made for the 10:10 charity.
   live_link: http://look-up-production.herokuapp.com
   code_link: https://github.com/ralake/LookUp
   image: lookup2.jpeg
@@ -49,7 +97,7 @@
 - name: Charity Stop Aids
   team: John, Chris H, Giorgia, Clare, Dale
   cohort: October 2014
-  blurb: Would you rather? A project for the charity – StopAids to increse student political engagment thorough twitter with a would you rather game allowing Mps to easily answer.
+  blurb: Would you rather? A project for the charity StopAids to increse student political engagment thorough Twitter with a 'Would you rather?' game allowing MPs to easily answer.
   live_link: https://students-stop-aids.herokuapp.com
   code_link: https://github.com/chandley/stop-aids
   image: studentstop.jpeg
@@ -111,7 +159,7 @@
   image: cm.jpeg
 
 - name: Strides
-  team: Julia, Nic, Margherita 
+  team: Julia, Nic, Margherita
   cohort: May 2014
   blurb: Strides is a web app that helps marathon runners find suitable accommodation for their upcomming race.
   live_link: http://strides.herokuapp.com/
