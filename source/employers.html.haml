@@ -30,11 +30,21 @@
   .article--centered
     %article
       %h3 What they learn
+      %p
+        %span
+          Learning to be a developer at Makers Academy is less about 
+          %em what you know
+          and more about 
+          %em how you do it.
       %p 
-        %span Learning to be a developer at Makers Academy is less about what you know and more about how you do it.
-      %p Attitude: Students learn how to solve problems for themsleves, to find their own answers.
-      %p Behaviour: They're pair-programming 80% of the time, working in scrum teams on projects and writing clean, maintainable code.
-      %p Technology: Our curriculum is mainly Ruby and Javascript, but students often teach themselves all manner of other technologies.
+        %em Attitude - 
+        Students learn how to solve problems for themsleves, to find their own answers.
+      %p 
+        %em Behaviour -
+        They're pair-programming 80% of the time, working in scrum teams on projects and writing clean, maintainable code.
+      %p
+        %em Technology - 
+        Our curriculum is mainly Ruby and Javascript, but students often teach themselves all manner of other technologies.
   .container
     .button-row
       =link_to "Discover our Curriculum", "/curriculum.html", class: "button--horizontal"
@@ -42,27 +52,33 @@
 = partial :"employer_testimonials"
 
 %section.backgrounded
-  .article--centered
-    %article
-      %h3 !! Employment Statistics !!
-
-%section
-  .article--centered
-    %article
-      %p
-        %span Makers Academy graduates are passionate, driven, curious and engaging.
-      %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
-      %p Unlike other sources of junior software talent, Makers Academy graduates have usually been successful in another industry, corporate and start-up, whether law, marketing, graphic design or anything else: experience they will bring to your company.
   .container
-    .button-row--centered
-      =link_to "Meet our Graduates", "/graduates.html", class: "button--horizontal"
+    .four-width-row.row-with-borders
+      .column
+        %h3 stats
+      .column
+        %h3 stats
+      .column
+        %h3 stats
+      .column
+        %h3 stats
 
-%hr
+%section.half-slider
+  .container
+    .half-slider-row
+      .column
+        .copy.copy--left
+          %h3 Who they are
+          %p Makers Academy graduates are passionate, driven, curious and engaging.
+          %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
+          %p The majority of our graduates have been successful in another industry, including law, marketing, banking, design, and many more: that's experience they'll bring to your company.
+      .column
+        = partial :"preview_graduates"
 
 %section.backgrounded
   .container
     .centered-row
-      %h2 Ways to engage
+      %h2 Working with us
     .centered-row
       %table
         %thead
@@ -96,12 +112,23 @@
             %td None
             %td No limit
 
-    .centered-row
-      %h3 All of the above for free, until you find someone.
-      %p
-        Then it's
-        %b 20%
-        of starting salary.
+%section
+  .container
+    .two-width-row
+      .column
+        %h4 Our Fee is
+        %h1 20%
+        %h4.subheader of starting salary
+        .button-row
+          =link_to "Request a callback", "/contact.html", class: "button--horizontal"
+      .column
+        .copy.copy--left
+          %h4 All of the above, unlimited, for free
+          %h4.subheader You only pay when you find someone you like
+          %p Unlike other coding bootcamps, we charge a fee for recruitment - which means we're incentivised at every point of our process to produce phenomenally employable people.
+          %p You don't pay a penny for engaging with our graduates, whether you're attending our careers fair, or simply posting a job - you only pay when you find someone you like.
+          %p Our fee is also greater than some other sources of recruitment, because working with Makers Academy is much more than simply getting a list of keyword-matched CVs. We know our candidates inside-out, we're technologists and educators, not salespeople - and we care about creating the next generation of exceptional software developers.
+
 
 %section.backgrounded
   .container
@@ -121,6 +148,12 @@
           %tr
             %td Agile
             %td Diverse
+
+%section.backgrounded
+  .container
+    .image-grid-row
+      - fetch_logos.shuffle.each do | logo |
+        = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
 
 = partial :"apply", locals: {page: :employers}
 

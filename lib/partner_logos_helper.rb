@@ -3,7 +3,7 @@ require "open-uri"
 require "json"
 
 module PartnerLogosHelper
-  API_URL = "https://api.github.com/repos/makersacademy/makers-assets/contents/images/hiring-partners"
+  API_URL = "https://api.github.com/repos/makersacademy/makers-assets/contents/images/hiring-partners?access_token=" + ENV['GITHUB_ACCESS_TOKEN']
 
   def fetch_logos
     logos.map { |logo| "hiring-partners/#{logo["name"]}" }
