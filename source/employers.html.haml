@@ -2,8 +2,8 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
-      %h1 Hire London's top junior developers
-      %p 30 graduates every 6 weeks
+      %h1 Hire London's <br> top junior developers
+      %p 30 new devs every 6 weeks
     .button-row
       %p
         = link_to "Hire Developers", "https://makersacademy.typeform.com/to/sz8vTw", class: "button--vertical", target: "_blank"
@@ -24,48 +24,38 @@
       .column
         = image_tag "icons/icon-briefcase.png"
         %h3 Experience
-        %p Personable, knowledgable and capabale: our graduates add value above and beyond the code - most have built successful careers in other industries: experience they will bring to your company.
+        %p Personable, knowledgable and capabale: our graduates add value beyond the code - most have built successful careers in other industries: experience they will bring to your company.
 
 %section.backgrounded
-  .article--left
+  .article--centered
     %article
-      %p
-        %span Makers Academy graduates are passionate, driven, curious and engaging.
-        They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
-      %p Unlike other sources of junior software talent, Makers Academy graduates have usually been successful in another industry, corporate and start-up, whether law, marketing, graphic design or anything else: experience they will bring to your company.
+      %h3 What they learn
+      %p 
+        %span Learning to be a developer at Makers Academy is less about what you know and more about how you do it.
+      %p Attitude: Students learn how to solve problems for themsleves, to find their own answers.
+      %p Behaviour: They're pair-programming 80% of the time, working in scrum teams on projects and writing clean, maintainable code.
+      %p Technology: Our curriculum is mainly Ruby and Javascript, but students often teach themselves all manner of other technologies.
   .container
-    .button-row--left
-      =link_to "Meet our Graduates", "/graduates.html", class: "button--horizontal"
+    .button-row
+      =link_to "Discover our Curriculum", "/curriculum.html", class: "button--horizontal"
+
+= partial :"employer_testimonials"
+
+%section.backgrounded
+  .article--centered
+    %article
+      %h3 !! Employment Statistics !!
 
 %section
   .article--centered
     %article
-      %h3 What they learn
       %p
-        %span We focus on attitude first, behaviour second, and technologies third.
-      %p Attitude: how to solve your own problems, sometimes using tools you've never used before.
-
-      %p Behaviour: test-driven development, pair programming and Agile development.
-
-      %p Technology: mainly Ruby and JavaScript, but our graduates are language-agnostic, often getting jobs in all manner of other technologies.
+        %span Makers Academy graduates are passionate, driven, curious and engaging.
+      %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
+      %p Unlike other sources of junior software talent, Makers Academy graduates have usually been successful in another industry, corporate and start-up, whether law, marketing, graphic design or anything else: experience they will bring to your company.
   .container
-    .button-row
-      =link_to "Learn about our Curriculum", "/curriculum.html", class: "button--horizontal"
-
-%section.backgrounded
-  .container
-    .four-width-row.row-with-borders
-      .column
-        = image_tag "employers/stats/stat_1-white.png"
-      .column
-        = image_tag "employers/stats/stat_2-white.png"
-      .column
-        = image_tag "employers/stats/stat_3-white.png"
-      .column
-        = image_tag "employers/stats/stat_4-white.png"
-
-
-= partial :"employer_testimonials"
+    .button-row--centered
+      =link_to "Meet our Graduates", "/graduates.html", class: "button--horizontal"
 
 %hr
 
