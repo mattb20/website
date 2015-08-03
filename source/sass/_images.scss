@@ -16,6 +16,11 @@
   max-width: modular-scale(4);
 }
 
+.image--medium {
+  max-height: modular-scale(8);
+  max-width: modular-scale(8);
+}
+
 .image--brand {
   float: left;
   opacity: 0.9;
