@@ -1,35 +1,40 @@
-require 'intake'
+require "timecop"
+require "intake"
 
 describe Intake do
 
   subject(:intake) do
-    described_class.new(relevant_intake)
+    described_class.new(future_intake)
   end
 
-  let(:intake_offset) { 30 }
+  before do
+    Timecop.travel(Date.parse("5th Aug 2015"))
+  end
 
-  let(:relevant_intake) do
+  after do
+    Timecop.return
+  end
+
+  let(:future_intake) do
     {
-      "start_date" => date(intake_offset),
-      "end_date" => date(120)
+      "start_date" => "12th October 2015",
+      "end_date" => "15th January 2016"
     }
   end
 
-  let(:precourse_start_date) do
-    Date.today + intake_offset - described_class::PRECOURSE_LENGTH
-  end
-
   it "has a start date" do
-    expect(intake.start_date).to eq(Date.parse(relevant_intake["start_date"]))
+    expect(intake.start_date).to eq(Date.parse(future_intake["start_date"]))
   end
 
   it "has a end date" do
-    expect(intake.end_date).to eq(Date.parse(relevant_intake["end_date"]))
+    expect(intake.end_date).to eq(Date.parse(future_intake["end_date"]))
   end
 
   it "calculates the pre course start date" do
+    precourse_start_date = Date.parse("14th September 2015")
     expect(intake.precourse_start_date).to eq(precourse_start_date)
   end
+
 
   describe "Finding intakes" do
 
@@ -39,29 +44,25 @@ describe Intake do
 
     let(:past_intake) do
       {
-        "start_date" => date(29),
-        "end_date" => date(90)
+        "start_date" => "20 July 2015",
+        "end_date" => "9 October 2015"
       }
     end
 
-    let(:future_intake) do
+    let(:precourse_started_intake) do
       {
-        "start_date" => date(1),
-        "end_date" => date(30)
+        "start_date" => "1st September 2015",
+        "end_date" => "20th November 2015"
       }
     end
 
     let(:intakes) do
-      [past_intake, relevant_intake, future_intake]
+      [past_intake, precourse_started_intake, future_intake]
     end
 
-    it "finds all future intakes where the precourse has not started yet" do
-      intake = Intake.new(relevant_intake)
-      expect(described_class.future_dates).to eq([intake])
+    it "finds all advertised intakes where the precourse has not started yet" do
+      intakes = [Intake.new(future_intake)]
+      expect(described_class.advertised_dates).to eq(intakes)
     end
-  end
-
-  def date(days_offset)
-    (Date.today + days_offset).strftime("%d %B %Y")
   end
 end

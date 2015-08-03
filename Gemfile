@@ -19,4 +19,5 @@ group :development, :test do
   gem 'pry'
   gem 'rspec'
   gem 'sass'
+  gem 'timecop'
 end

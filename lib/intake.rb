@@ -8,6 +8,9 @@ class Intake
   DAYS_IN_WEEK = 7
   PRECOURSE_LENGTH = 4 * DAYS_IN_WEEK
 
+  # We hide courses two days before the precourse starts
+  PRECOURSE_BUFFER = 2
+
   attr_reader :dates
 
   def initialize(dates)
@@ -27,18 +30,26 @@ class Intake
   end
 
   def in_future?
-    start_date >= (Date.today + PRECOURSE_LENGTH + 2)
+    start_date >= Date.today
+  end
+
+  def precourse_started?
+    Date.today > (precourse_start_date - PRECOURSE_BUFFER)
   end
 
   def ==(intake)
     intake.dates == dates
   end
 
-  def self.future_dates
-    all.select(&:in_future?)
+  def self.advertised_dates
+    future_dates.reject(&:precourse_started?)
   end
 
   private
+
+  def self.future_dates
+    all.select(&:in_future?)
+  end
 
   def self.all
     YAML.load_file(FILE_NAME).map do |dates|
