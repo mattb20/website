@@ -162,5 +162,5 @@
       - fetch_logos.shuffle.each do | logo |
         = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
 
-= partial :"apply", locals: {page: :employers}
+= partial :"apply", locals: { page: :employers }
 
