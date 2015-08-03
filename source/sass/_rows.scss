@@ -200,35 +200,40 @@
   .column {
     padding: modular-scale(3);
   }
-  &.row-with-borders {
-    .column {
-      position: relative;
-      &:after {
-        content: "";
-        position: absolute;
-        left: 20%;
-        right: 20%;
-        bottom: 1px;
-        height: 1px;
-        background-color: rgba($white, 0.6);
-      }
-      &:last-of-type:after {
-        display: none;
-      }
+}
+
+.row-with-borders {
+  .column {
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 20%;
+      right: 20%;
+      bottom: 1px;
+      height: 1px;
+      background-color: $light-gray;
     }
-    @include media($desktop) {
-      .column {
-        &:after {
-          top: 20%;
-          bottom: 20%;
-          right: 1px;
-          left: auto;
-          width: 1px;
-          height: auto;
-        }
+    &:last-of-type:after {
+      display: none;
+    }
+  }
+  @include media($desktop) {
+    .column {
+      &:after {
+        top: 20%;
+        bottom: 20%;
+        right: 1px;
+        left: auto;
+        width: 1px;
+        height: auto;
       }
     }
   }
+}
+
+.backgrounded .row-with-borders .column:after {
+  background-color: rgba($white, 0.6);
 }
 
 .faq-row {
