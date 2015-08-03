@@ -205,6 +205,13 @@
   }
 }
 
+.five-width-row {
+  @include ma-columns(5);
+  .column {
+    padding: 0 modular-scale(1);
+  }
+}
+
 .row-with-borders {
   .column {
     position: relative;
