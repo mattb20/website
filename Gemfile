@@ -13,6 +13,8 @@ gem 'middleman-meta-tags'
 gem 'middleman-search_engine_sitemap'
 gem 'neat', "~> 1.7.2"
 
+gem 'middleman-dotenv', '~> 1.0'
+
 group :development, :test do
   gem 'pry'
   gem 'rspec'
