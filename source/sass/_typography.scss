@@ -166,3 +166,10 @@ picture {
     text-align: right;
   }
 }
+
+.statistic {
+  @include ma-header(3);
+  // Custom font size for mobile.
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
