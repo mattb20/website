@@ -168,6 +168,9 @@
 
 .two-width-row {
   @include ma-columns(2);
+  .column {
+    padding: 0 modular-scale(2);
+  }
 }
 
 .three-width-row {
