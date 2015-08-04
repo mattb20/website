@@ -1,4 +1,4 @@
-# Makers Academy Beta Site
+# Makers Academy Site
 
 [ ![Codeship Status for makersacademy/site-mvp](https://codeship.com/projects/e5781160-fcad-0132-3d45-5a06a30fe976/status?branch=master)](https://codeship.com/projects/87550)
 
