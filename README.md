@@ -12,6 +12,7 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 
 * Clone the repo
 * Run `bundle` to install gems
+* Create a **.env** file - you can copy the [.env.example file](https://github.com/makersacademy/site-mvp/blob/master/.env.example) provided as an example to get you started
 * Start the server with `middleman s`
 * Go to __http://localhost:4567__ to view the site in your browser
 
