@@ -1,4 +1,4 @@
-Sitemap: http://beta.makersacademy.com/sitemap.xml
+Sitemap: http://www.makersacademy.com/sitemap.xml
 
 
 User-agent: *

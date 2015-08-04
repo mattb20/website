@@ -1,7 +1,7 @@
 activate :dotenv
 # This is the website version registered in Mixpanel
 # It should match the minor version (e.g. 2.1) of the website
-set :website_version, 2.1
+set :website_version, 2.2
 
 Dir["lib/*.rb"].each { |file| require file }
 
@@ -12,7 +12,7 @@ Dir["lib/*.rb"].each { |file| require file }
 activate :directory_indexes
 activate :meta_tags
 
-set :url_root, 'http://beta.makersacademy.com'
+set :url_root, 'http://www.makersacademy.com'
 activate :search_engine_sitemap
 
 # Change Compass configuration
