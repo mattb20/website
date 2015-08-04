@@ -65,6 +65,12 @@ sprockets.append_path File.join root, 'bower_components'
 
 set :apply_form_url, "https://apply.makersacademy.com"
 
+# Redirects from old site urls
+redirect "payments/new", to: "#{config.apply_form_url}/payments/new"
+redirect "apply", to: config.apply_form_url
+redirect "apply-for-ronin", to: "#{config.apply_form_url}/ronin/application"
+redirect "fellowship", to: "http://techcityfellowship.org/"
+
 configure :development do
   activate :livereload
   set :mixpanel_token, 'f3e503bb7803dd7089f5b4124baa03a4'
