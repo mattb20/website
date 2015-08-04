@@ -16,6 +16,8 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 * Start the server with `middleman s`
 * Go to __http://localhost:4567__ to view the site in your browser
 
+> You'll need to run tests using `bundle exec rspec` rather than just `rspec`
+
 ## Deploying
 
 * Make sure you have submitted a pull request and had it approved following our [contributing guidelines](https://github.com/makersacademy/site-mvp/blob/master/CONTRIBUTING.md)
