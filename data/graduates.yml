@@ -6,6 +6,9 @@
   cohort_month: December
   cohort_year: 2014
   blog_link: http://niccipell.wordpress.com
+  categories:
+    - career changer
+    - Female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was managing the marketing functions for a legal recruitment company.
@@ -37,6 +40,8 @@
   testimonial: I'll be making twice as much as I was before the course so it's definitely a decent investment.
   cohort_month: May
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a waiter for a catering company.
@@ -68,6 +73,10 @@
   testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, it's actually a steal.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - career changer
+    - mum
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a full time Mum for 7 years and before that I had my own franchise business.
@@ -99,6 +108,9 @@
   testimonial: Intense but worth it.
   cohort_month: March
   cohort_year: 2015
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: My background is in client management and analyst roles. Just before Makers, I was working as a Project Management intern for a startup and as a Project Coordinator in a Charity.
@@ -129,6 +141,8 @@
   testimonial: If you want to learn to code then Makers Academy is worth it.
   cohort_month: March
   cohort_year: 2015
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: In January I graduated from university where I studied Communication.
@@ -154,6 +168,8 @@
   testimonial: I am now enjoying work and getting to work with cool people. I’m just a lot happier than I was before.
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a project manager for a company that did home automation.
@@ -185,6 +201,8 @@
   testimonial: MA was really fun, exciting and my first experience in education that I actually enjoyed!
   cohort_month: May
   cohort_year: 2015
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in retail.
@@ -216,6 +234,8 @@
   testimonial: You can either stay in a career that doesn't fulfil you, or you can take action until you reach your desired goal.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working at Makers Academy as a Marketing Manager. So you could say I was a victim of my own marketing.
@@ -245,6 +265,9 @@
   testimonial: Makers Academy was the best investment I ever made!
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - education leaver
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was at the University of York where I studied Environmental Geography.
@@ -274,6 +297,9 @@
   testimonial: Makers is amazing, intense and quite life-changing.
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was working in a Fashion Tech Startup doing a bit of everything, but my job title was business development. I went there straight from uni where I studied International Politics at Kings College.
@@ -301,6 +327,9 @@
   testimonial: Makers Academy is challenging and intense, but full of rewards!
   cohort_month: May
   cohort_year: 2015
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an Online Marketing Manager for multi-million dollar businesses.
@@ -330,6 +359,9 @@
   testimonial: Makers was great fun! The best thing I’ve done in terms of education!
   cohort_month: January
   cohort_year: 2015
+  categories:
+      - career changer
+      - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was doing my own startup selling subscription cheese boxes.
@@ -361,6 +393,10 @@
   testimonial: Makers is worth every penny! You won't regret it!
   cohort_month: January
   cohort_year: 2014
+  categories:
+    - education leaver
+    - female
+    - creative
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I had just finished my art degree.
@@ -389,6 +425,8 @@
   cohort_month: March
   cohort_year: 2015
   blog_link: http://initialdigital.com/
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was working in Commercial Management in the airline industry.
@@ -421,6 +459,8 @@
   cohort_month: March
   cohort_year: 2015
   blog_link: https://matteomanzo.github.io/
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in hotels around the world as Bartender.
@@ -452,6 +492,8 @@
   testimonial: Makers Academy changed my life. I now work in a job that suits me and I really enjoy working how I want.
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working part time for a medical services company.
@@ -483,6 +525,8 @@
   testimonial: Take the leap, you won’t regret it.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Recruitment Consultant.
@@ -540,6 +584,9 @@
   cohort_month: June
   cohort_year: 2014
   blog_link: http://nicolearnscoding.blogspot.de/
+  categories:
+    - career changer
+    - creative
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Music Producer.
@@ -572,6 +619,10 @@
   cohort_month: June
   cohort_year: 2014
   blog_link: http://handmadecode.tumblr.com
+  categories:
+    - career changer
+    - creative
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a Graphic designer and Illustrator.
@@ -603,6 +654,9 @@
   testimonial: Makers Academy changed my life. It gave me the confidence to know that I can achieve whatever I want in life.
   cohort_month: June
   cohort_year: 2014
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a recruiter in the IT sector.
@@ -630,6 +684,9 @@
   testimonial: Although £8,000 might feel very expensive just think about how much a years' worth of university tuition.
   cohort_month: May
   cohort_year: 2014
+  categories:
+    - career changer
+    - education leaver
   blog_link: https://sevenhoursbehind.wordpress.com/
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -658,6 +715,8 @@
   testimonial: My Makers Academy experience was intense, tiring and fun. Everybody was very positive and driven to learn and work together. It was easy to stay motivated in that environment.
   cohort_month: June
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a Research & Development Scientist at Linpac Packaging.
@@ -687,6 +746,8 @@
   testimonial: Since graduation my life has changed, as I enjoy my work a lot more in general.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Business Development Manager for a B2B Media Company.
@@ -718,6 +779,8 @@
   testimonial: MA was probably the best experience of my life! It was life-changing and like any big change, it wasn’t always easy but I now feel that my future is very bright.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in project management in a small team at a social enterprise. It was interesting at first, but as time went on I didn't feel like I was developing any tangible skills.
@@ -751,6 +814,8 @@
   testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from Econsultancy eight days after that.
   cohort_month: February
   cohort_year: 2014
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Looking for a legal job after a Law conversion course.
@@ -770,6 +835,8 @@
   testimonial: I received a job offer on the Monday after graduation.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a fresh graduate in Psychology considering my career options. I wanted to work in tech but was worried that I was being unrealistic given my background. I was having a hard time finding companies willing to train up a complete beginner, so I was considering doing something non-technical while teaching myself how to code.
@@ -798,6 +865,8 @@
   cohort_month: May
   cohort_year: 2014
   blog_link: http://racetomakers.tumblr.com/
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was an economics student, working as a waiter and an intern.
@@ -823,6 +892,8 @@
   testimonial: A course like this is possibly the best thing you can do to help yourself, both for employability and your own mindset.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working at Tesco.
@@ -848,6 +919,9 @@
   testimonial: It was the hardest thing I've ever done and the best thing I've ever done.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked as a Website Manager - writing and editing some blogs and doing bits of SEO and making sure the site gained traffic.
@@ -879,6 +953,9 @@
   testimonial: Makers Academy will stay with me forever!
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a supervisor in a coffee shop/restaurant
@@ -908,6 +985,8 @@
   testimonial: Makers was three of the most empowering months of my life!
   cohort_month: April
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an editor for the local newspaper "Oberhessische Presse" in Marburg, Germany.
@@ -937,6 +1016,8 @@
   testimonial: I'm getting paid to do the same things I did at Makers Academy and I love it!
   cohort_month: April
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Marketing Executive at Just IT Training.
@@ -966,6 +1047,9 @@
   testimonial: Without Makers Academy, I don't think I would have been able to build a website myself
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - entrepreneur
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an Investment analyst.
@@ -993,6 +1077,8 @@
   testimonial: Makers Academy gave me the knowledge I needed to build our MVP and I found my two cofounders there.
   cohort_month: August
   cohort_year: 2014
+  categories:
+      - entrepreneur
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as the Digital Brand Director at Syco Entertainment/Sony Music.
@@ -1022,6 +1108,8 @@
   testimonial: Join Makers Academy if you want to know tech speak but also if you are looking for a good backup plan, should you not succeed!
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - entrepreneur
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked on Wall St and in the City for Deutsche Bank and UBS.
@@ -1051,6 +1139,8 @@
   testimonial: " Makers Academy was the twelve most intense, insanely challenging and rewarding weeks of my life!"
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - entrepreneur
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Until July 2014, I was MD of a translation agency which I tried to acquire. The deal eventually fell through after 12 months and I left the business to ponder about what I should do with my career from there. Having fallen out of love with the industry, I knew that I would have to do something radically different that would retain my interest.
