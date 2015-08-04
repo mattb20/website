@@ -1,7 +1,7 @@
 activate :dotenv
 # This is the website version registered in Mixpanel
 # It should match the minor version (e.g. 2.1) of the website
-set :website_version, 2.1
+set :website_version, 2.2
 
 Dir["lib/*.rb"].each { |file| require file }
 
@@ -12,7 +12,7 @@ Dir["lib/*.rb"].each { |file| require file }
 activate :directory_indexes
 activate :meta_tags
 
-set :url_root, 'http://beta.makersacademy.com'
+set :url_root, 'http://www.makersacademy.com'
 activate :search_engine_sitemap
 
 # Change Compass configuration
@@ -64,6 +64,12 @@ set :images_dir, 'images'
 sprockets.append_path File.join root, 'bower_components'
 
 set :apply_form_url, "https://apply.makersacademy.com"
+
+# Redirects from old site urls
+redirect "payments/new", to: "#{config.apply_form_url}/payments/new"
+redirect "apply", to: config.apply_form_url
+redirect "apply-for-ronin", to: "#{config.apply_form_url}/ronin/application"
+redirect "fellowship", to: "http://techcityfellowship.org/"
 
 configure :development do
   activate :livereload

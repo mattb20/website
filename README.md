@@ -1,8 +1,8 @@
-# Makers Academy Beta Site
+# Makers Academy Site
 
 [ ![Codeship Status for makersacademy/site-mvp](https://codeship.com/projects/e5781160-fcad-0132-3d45-5a06a30fe976/status?branch=master)](https://codeship.com/projects/87550)
 
-Our new-look website, currently viewable at [http://beta.makersacademy.com](http://beta.makersacademy.com).
+Our new-look website, currently viewable at [http://www.makersacademy.com](http://www.makersacademy.com).
 
 ## Why are we open sourcing our website?
 
