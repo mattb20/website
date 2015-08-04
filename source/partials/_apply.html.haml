@@ -1,0 +1,52 @@
+- backgrounded ||= true
+- page ||= :default
+
+- if page == :employers
+
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
+    .container
+      .centered-row
+        .column
+          %h2 Join Us
+          %p It costs nothing, until you find the right person.
+      .button-row
+        %p
+          = link_to "Need something special?", "http://bit.ly/meetWB", class: "button button--horizontal"
+          = link_to "Hire Developers", "https://makersacademy.typeform.com/to/sz8vTw", class: "button button--vertical button--large", target: "_blank"
+          = link_to "Have more questions?", "http://bit.ly/meetWB", class: "button button--horizontal"
+
+- elsif page == :partners
+
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
+    .container
+      .centered-row
+        .column
+          %h2 Apply Now
+          %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options.
+      .button-row
+        %p
+          = link_to "Payment Options", "/payment.html", class: "button button--horizontal"
+          = link_to "Apply", config.apply_form_url, class: "button button--vertical button--large"
+          = link_to "Hire Graduates", "/employers.html", class: "button button--horizontal"
+
+- else
+
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
+    .container
+      .centered-row
+        .column
+          %h2 Apply Now
+          %p The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options.
+      .button-row
+        %p
+          - if page == :payment
+            = link_to "See Our Graduates", "/graduates.html", class: "button button--horizontal"
+          - else
+            = link_to "Payment Options", "/payment.html", class: "button button--horizontal"
+
+          = link_to "Apply", config.apply_form_url, class: "button button--vertical button--large"
+
+          - if page == :about_us
+            = link_to "See Our Curriculum", "/curriculum.html", class: "button button--horizontal"
+          - else
+            = link_to "Learn More", "/about-us.html", class: "button button--horizontal"

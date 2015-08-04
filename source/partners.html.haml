@@ -1,0 +1,32 @@
+- description "Makers Academy has solid relationships with hiring partners that come in all sorts of sizes. Our on-site careers service will work day and night to land you your dream job. "
+- title "Hiring Partners"
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+  .container
+    .centered-row
+      %h1 Hiring Partners
+      %p Our careers team is dedicated to helping you start your career as a junior developer. They've cultivated strong relationships with a wide range of hiring partners, and will work day and night to help you land you your dream job.
+    .button-row
+      %p
+        = link_to "Looking to Hire Graduates?", "/employers.html", class: "button--horizontal"
+
+%section.article--left
+  %article
+    %h3 Who are our Hiring Partners?
+    %p Our hiring partners come from a wide range of industries. We work with everyone from high-growth startups, through established corporates seeking to update their tech teams, to high-profile agencies looking for best-practice evangelists. All of our partners are united by one thing: they're all robust, high-quality companies with a strong track record of stability.
+
+%section.backgrounded
+  .container
+    .image-grid-row
+      - fetch_logos.shuffle.each do | logo |
+        = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
+
+%section.article--right
+  %article
+    %h3 Why do they hire Makers grads?
+    %p Makers Academy graduates are hired because they're passionate, driven, curious and engaging.  Due to our students' varied backgrounds, hiring partners know you're more than just a junior developer thanks to your successful careers in other industries - everything from corporate to start-up. Whether law, marketing, graphic design or anything else: any previous commercial experience will help you to add value in your new role as a developer.
+
+%hr
+
+= partial :"employer_testimonials"
+
+= partial :"apply", locals: {page: :partners}
