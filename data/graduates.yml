@@ -6,12 +6,15 @@
   cohort_month: December
   cohort_year: 2014
   blog_link: http://niccipell.wordpress.com
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was managing the marketing functions for a legal recruitment company.
     - question: What made you want to start learning to code in the first place?
       answer: I always wanted to learn to code and I kept doing the marketing thing but realised I still wanted to learn to code. I was speaking to a friend who connected me to Nikesh who was doing the course at the time and that convinced me.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I knew Nikesh so I applied to both GA and Makers Academy but the actual interview process for Makers convinced me that Makers was the better choice. It gave me an insight into the course and I liked the atmosphere and vibe. I read a lot of blogs from students and that all convinced me.
     - question: What did you find difficult during the course?
       answer: The intensity of the course is difficult and relentless. There are so many moments where you think you are stupid but you have no choice but to keep going at it until you get it.
@@ -37,12 +40,14 @@
   testimonial: I'll be making twice as much as I was before the course so it's definitely a decent investment.
   cohort_month: May
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a waiter for a catering company.
     - question: What made you want to start learning to code in the first place?
       answer: Well, programming was fun and catering wasn't. It was really the whole problem solving aspect of coding that was really fun and got me into it.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: My brother showed it to me, and I didn't think I'd get in so I just submitted an application without much thought.
     - question: What did you find difficult during the course?
       answer: The pace. The constant projects and having to start a new one directly after finishing one was hard, it wears you down, but you definitely learn a lot.
@@ -68,12 +73,16 @@
   testimonial: Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, it's actually a steal.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - career changer
+    - mum
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a full time Mum for 7 years and before that I had my own franchise business.
     - question: What made you want to start learning to code in the first place?
       answer: I've always loved tech and I was curious about code. A friend of mine said I should consider doing it as a career.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across Makers Academy through a bootcamp review website. I was deciding between Makers and GA. GA felt too international and a numbers game. Makers on the other hand felt non-salesy and genuine and I liked that.
     - question: What did you find difficult during the course?
       answer: I had a lot of guilt as my mind was on the course so much that I didn't get to spend much quality time with my children, and any spare time I had I spent it coding. I also had to keep pushing through the times where I felt so stupid.
@@ -99,12 +108,15 @@
   testimonial: Intense but worth it.
   cohort_month: March
   cohort_year: 2015
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: My background is in client management and analyst roles. Just before Makers, I was working as a Project Management intern for a startup and as a Project Coordinator in a Charity.
     - question: What made you want to start learning to code in the first place?
       answer: It is always useful to know how to code, it is the future.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: Googling. I wanted a change and Makers was the solution to being able to make it fast.
     - question: What did you find difficult during the course?
       answer: The intensity. Every week we were leaving behind something to learn something else.
@@ -129,12 +141,14 @@
   testimonial: If you want to learn to code then Makers Academy is worth it.
   cohort_month: March
   cohort_year: 2015
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: In January I graduated from university where I studied Communication.
     - question: What made you want to start learning to code in the first place?
       answer: I used to code by myself but everything I knew was self-taught and I needed a place to teach me the best practices.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across Makers Academy on Google and I applied because it looked like exactly what I wanted.
     - question: What happened during/after graduation and where are you job-wise?
       answer: After graduation I worked at Makers Academy as an Alumni Helper. Then Makers found me a job at FNZ in the Czech Republic after we went to a recruitment hackathon there which was awesome. FNZ showed us around and paid for our meals and beers, and then gave me a job with a great relocation package.
@@ -154,12 +168,14 @@
   testimonial: I am now enjoying work and getting to work with cool people. I’m just a lot happier than I was before.
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a project manager for a company that did home automation.
     - question: What made you want to start learning to code in the first place?
       answer: Lots of the tech we installed needed programming. Due to a shortage of people at the company capable of doing such programming, I started commissioning a little bit at the end of jobs and I enjoyed that more than what I was doing.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: My girlfriend came across Makers Academy. I had made the decision to get into software development and I didn't know about bootcamps. I started to learn during evenings and took a part-time evening course for 6 weeks. After my first 2 hour evening session here at Makers, I realised that I had learned more at Makers than I did in that whole part-time course.
     - question: What did you find difficult during the course?
       answer: Initially, some concepts were difficult, but the hardest thing was managing my social life. I had met someone before the course who had previously done it and I put my life on hold for 3 months, which was difficult.
@@ -185,12 +201,14 @@
   testimonial: MA was really fun, exciting and my first experience in education that I actually enjoyed!
   cohort_month: May
   cohort_year: 2015
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in retail.
     - question: What made you want to start learning to code in the first place?
       answer: I've always been a techie, and I loved the code community and the idea that I could make awesome things from my computer.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I was looking online for resources on learning how to code and came across an article in the news about coding courses. Makers Academy looked awesome, friendly and super informative, so I thought there's no harm in applying if I don't get in, but thankfully I did!
     - question: What did you find difficult during the course?
       answer: The work load and realisation of how much you're expected to learn, at first, was difficult to process. But you find out it's so much fun and you enjoy and look forward to every new task you get.
@@ -216,6 +234,8 @@
   testimonial: You can either stay in a career that doesn't fulfil you, or you can take action until you reach your desired goal.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working at Makers Academy as a Marketing Manager. So you could say I was a victim of my own marketing.
@@ -245,12 +265,15 @@
   testimonial: Makers Academy was the best investment I ever made!
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - education leaver
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was at the University of York where I studied Environmental Geography.
     - question: What made you want to start learning to code in the first place?
       answer: I was playing around in Codecademy, and in my degree I enjoyed the modules that involved computers.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across Makers Academy a year before I actually applied, but back then I thought it wasn't for me and I couldn't hack it. But when I came across it again I just decided to go for it, and figure it out as I went along.
     - question: What did you find difficult during the course?
       answer: Being comfortable with not knowing everything was hard, but it led me to work harder.
@@ -274,6 +297,9 @@
   testimonial: Makers is amazing, intense and quite life-changing.
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was working in a Fashion Tech Startup doing a bit of everything, but my job title was business development. I went there straight from uni where I studied International Politics at Kings College.
@@ -301,12 +327,15 @@
   testimonial: Makers Academy is challenging and intense, but full of rewards!
   cohort_month: May
   cohort_year: 2015
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an Online Marketing Manager for multi-million dollar businesses.
     - question: What made you want to start learning to code in the first place?
       answer: I've always been interested in tech ever since I was young, especially video games. I then started my career as an Online Marketing Manager which was a way to combine both my business studies and tech. I used to work with tech teams and really enjoyed it - sometimes I found myself trying to help them despite not having any knowledge. Over time, I became more and more interested in learning about the technical side of marketing.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I was researching about coding classes and then I came across Makers Academy. I didn’t want to do a computer science degree as I did not want to spend 3 years to learn the theory only. I already knew I wanted to do web development. I was really impressed with the relationship Makers has with employers so I decided to apply.
     - question: What did you find difficult during the course?
       answer: The amount of things we had to learn in a small amount of time was difficult. It feels like we have a lot to learn but no time to really digest.
@@ -330,12 +359,15 @@
   testimonial: Makers was great fun! The best thing I’ve done in terms of education!
   cohort_month: January
   cohort_year: 2015
+  categories:
+      - career changer
+      - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was doing my own startup selling subscription cheese boxes.
     - question: What made you want to start learning to code in the first place?
       answer: I was working with some developers on the customer portal and I started taking some online tutorials so that I could better communicate with the developers.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I had been looking into coding tutorials and kept seeing adverts and then finally clicked on one. I talked to Jordan and came to visit a couple times before applying.
     - question: What did you find difficult during the course?
       answer: Keeping up with the speed of the course. Some elements of the course can be challenging, but its the pace that makes it hard.
@@ -361,6 +393,10 @@
   testimonial: Makers is worth every penny! You won't regret it!
   cohort_month: January
   cohort_year: 2014
+  categories:
+    - education leaver
+    - female
+    - creative
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I had just finished my art degree.
@@ -389,12 +425,14 @@
   cohort_month: March
   cohort_year: 2015
   blog_link: http://initialdigital.com/
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was working in Commercial Management in the airline industry.
     - question: What made you want to start learning to code in the first place?
       answer: I enjoy creating things and understanding code allows you to build stuff. I had stopped learning new stuff and I've had a fantastic career but wanted to do something different.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I first became aware of Makers Academy through a promoted tweet. I then visited a couple of times (a graduation and sat in on a lecture). After seeing the awesome work that the students were capable of delivering at the end of their course and experiencing the culture I decided it would be a great environment in which to learn a new skill.
     - question: What did you find difficult during the course?
       answer: Everything and nothing! Whilst it isn't easy, the learning environment and support is great to take you through the 12 weeks.
@@ -421,12 +459,14 @@
   cohort_month: March
   cohort_year: 2015
   blog_link: https://matteomanzo.github.io/
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in hotels around the world as Bartender.
     - question: What made you want to start learning to code in the first place?
       answer: The unlimited things that I could do with that skill.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: Internet and friends. It was a big jump, a huge bet but it was the best decision I could have taken.
     - question: What did you find difficult during the course?
       answer: Understanding that failing is just a step to success. To stop getting frustrated when I was failing.
@@ -452,12 +492,14 @@
   testimonial: Makers Academy changed my life. I now work in a job that suits me and I really enjoy working how I want.
   cohort_month: January
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working part time for a medical services company.
     - question: What made you want to start learning to code in the first place?
       answer: Originally I wanted to build video games.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I realised that I was wasting my time trying teach myself the basics of some languages. I just wasn't learning fast enough. I stumbled across the Makers Academy website after searching for 'coding bootcamps in London', read their website, gave them a phone call and applied the next morning.
     - question: What did you find difficult during the course?
       answer: Realising your own limitations. There is so much to learn and you want all of it in your brain the second you hear about it.
@@ -483,12 +525,14 @@
   testimonial: Take the leap, you won’t regret it.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Recruitment Consultant.
     - question: What made you want to start learning to code in the first place?
       answer: I had interest in the industry and needed a career change.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I found Makers Academy via an internet search and after reading the website and blogs I decided it was for me.
     - question: What did you find difficult during the course?
       answer: I found the steep learning curve and the long hours very difficult.
@@ -515,7 +559,7 @@
 #              answer: Finishing my MSc in Social Policy at the LSE, trying to work in behavioural sciences and policy research.
 #            - question: What made you want to start learning to code in the first place?
 #              answer: I was always interested in building websites and was pretty good at HTML and CSS back in the day. I knew that coding is a valuable skill to have regardless of what industry I end up in.
-#            - question: How did you come across Makers Academy and what made you decide to apply?
+#            - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
 #              answer: I think I saw a Facebook or Google ad for Makers Academy at some point &emdash; I don't really remember. I decided to apply after reading some student blogs and testimonials on the website.
 #            - question: What did you find difficult during the course?
 #              answer: The hardest thing for me was being patient with myself. I had high expectations of myself going into the course, and many times when I didn't understand how to complete a task, I had to remember to separate the task at hand from some reflection of myself. It's very easy to fall into a nasty cycle of self-deprecation when you're surrounded by really intelligent, motivated people.
@@ -540,12 +584,15 @@
   cohort_month: June
   cohort_year: 2014
   blog_link: http://nicolearnscoding.blogspot.de/
+  categories:
+    - career changer
+    - creative
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Music Producer.
     - question: What made you want to start learning to code in the first place?
       answer: Bringing my own Software ideas to fruition and changing careers.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: A friend recommended that I look into Programming Bootcamps since I was trying to find a way to enter the world of Software.
     - question: What did you find difficult during the course?
       answer: Truly getting to a point where I can honestly embrace Agile practices and use them for my own benefit.
@@ -572,12 +619,16 @@
   cohort_month: June
   cohort_year: 2014
   blog_link: http://handmadecode.tumblr.com
+  categories:
+    - career changer
+    - creative
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a Graphic designer and Illustrator.
     - question: What made you want to start learning to code in the first place?
       answer: The desire to acquire new skills and learn new technologies made me want to start learning to code. I felt limited by my design skills and wanted to open up new doors for myself and expose myself to different opportunities. I also wanted to know how to make things for myself and explore a new creative medium. Coding ticked all the boxes!
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I googled around for courses - Makers was up there as the best. I read countless student reviews and was really impressed by the unique classroom teaching style. I was also won over by the placements team who seemed to be putting graduates into insanely good starting positions at some awesome companies.
     - question: What did you find difficult during the course?
       answer: To begin with, I found pairing with other people quite hard and frustrating but then halfway through the course, you learn how to do it well and it's the best experience. I also found the fast pace quite difficult to keep up with. It didn't bother me so much though, and I trusted that given the extra hard work I put it, it would all eventually make sense.
@@ -603,6 +654,9 @@
   testimonial: Makers Academy changed my life. It gave me the confidence to know that I can achieve whatever I want in life.
   cohort_month: June
   cohort_year: 2014
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a recruiter in the IT sector.
@@ -630,13 +684,16 @@
   testimonial: Although £8,000 might feel very expensive just think about how much a years' worth of university tuition.
   cohort_month: May
   cohort_year: 2014
+  categories:
+    - career changer
+    - education leaver
   blog_link: https://sevenhoursbehind.wordpress.com/
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I did a Masters of Mechanical (Aeronautical) Engineering degree at Durham University.
     - question: What made you want to start learning to code in the first place?
       answer: The experiences at university, a need for a challenge and wanting to see immediate result of my work led me to learn to code.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across Makers Academy at Silicon Milkroundabout, I had a chat with companies hiring there and they said that Makers Academy was a good start.
     - question: What did you find difficult during the course?
       answer: I applied to and was hired by Red Badger.
@@ -658,12 +715,14 @@
   testimonial: My Makers Academy experience was intense, tiring and fun. Everybody was very positive and driven to learn and work together. It was easy to stay motivated in that environment.
   cohort_month: June
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a Research & Development Scientist at Linpac Packaging.
     - question: What made you want to start learning to code in the first place?
       answer: I had a little experience from my university degree and really enjoyed it so wanted to pursue it further.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across Makers Academy through a google search. I wanted to apply because it appeared to suit the sort of learning I was looking for. Intensive immersion of learning.
     - question: What did you find difficult during the course?
       answer: The lack of sleep!
@@ -687,12 +746,14 @@
   testimonial: Since graduation my life has changed, as I enjoy my work a lot more in general.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Business Development Manager for a B2B Media Company.
     - question: What made you want to start learning to code in the first place?
       answer: I wanted to have a new skill and I wanted to make things.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: Through an article in Vice that led me to an article in the Guardian. Friends of mine that were Graphic Designers though told me how much demand there was for people with coding experience as well.
     - question: What did you find difficult during the course?
       answer: Everything! In all seriousness, the hardest thing was the transition from an office mindset to a learning mindset. It took me a while to accept that finding the answers out for myself and moving at that pace was a lot more worth while than getting an answer from somewhere and moving on before I fully understood an issue.
@@ -718,12 +779,14 @@
   testimonial: MA was probably the best experience of my life! It was life-changing and like any big change, it wasn’t always easy but I now feel that my future is very bright.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in project management in a small team at a social enterprise. It was interesting at first, but as time went on I didn't feel like I was developing any tangible skills.
     - question: What made you want to start learning to code in the first place?
       answer: I've always enjoyed working with computers, but before Makers Academy my limit was really doing fancy graphs in Excel! In 2012 I started doing bits and pieces of Codecademy courses, but without any clear plan or end goal, life (and other hobbies) quickly overtook it. There just didn't seem to be any clear connection between following tutorials, and actually getting a job as a developer.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I read an article about Makers Academy when it first launched (around the time I was graduating from my history degree) and remember filing it away in my head as an awesome idea, but not in my life plan! At the time I needed a job pronto. However, it always stayed in the back of my mind. When in 2014 I started to realise project management wasn't challenging me enough, I kept coming back to the Makers Academy website, but it took me months to work up the courage to apply.
     - question: What did you find difficult during the course?
       answer: The pace of the learning is challenging for everyone - if it's wasn't, then Makers wouldn't have been pushing us hard enough. What I found most difficult was suppressing my natural competitiveness. Everyone picks up different things at different paces, and when I felt like I was slower than others around me, it was hard not to beat myself up about it. I learnt to remind myself that the aim was to learn, not to race through the material as fast as possible. Equally if I felt I did understand things that others hadn't yet got, the best thing to do was to help them. It reinforced my understanding, and I knew I could ask them when I needed it. As a cohort, we were stronger together!
@@ -751,6 +814,8 @@
   testimonial: I told Ruben that I was ready to start a full-time job and I got an offer from Econsultancy eight days after that.
   cohort_month: February
   cohort_year: 2014
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Looking for a legal job after a Law conversion course.
@@ -770,12 +835,14 @@
   testimonial: I received a job offer on the Monday after graduation.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a fresh graduate in Psychology considering my career options. I wanted to work in tech but was worried that I was being unrealistic given my background. I was having a hard time finding companies willing to train up a complete beginner, so I was considering doing something non-technical while teaching myself how to code.
     - question: What made you want to start learning to code in the first place?
       answer: I've had a strong interest in tech from a young age, although I can't claim to have a history as a hacker. I taught myself enough HTML and CSS to make simple websites, and my experience in university helping societies with their websites made me realise that this was something I really enjoyed doing.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across a promoted tweet on Twitter from way back in November 2013. I saved it and emailed it to myself, and I still have that email! It was a giant stroke of luck that I was cleaning up old mail and came across it again roughly 3 weeks before the August cohort started. I had very little time to think about it but looking back it was a no-brainer. With exactly 3 months left on my student visa at that point in time, it would probably be my only opportunity to join Makers Academy.
     - question: What did you find difficult during the course?
       answer: The intensity of the course was definitely hard at times, especially when you feel like you haven't quite grasped something but the next week and the next new concept are coming your way whether you like it or not! That said, I never felt completely out of my depth, and I knew I could count on my cohort and the coaches to help me out if I needed it.
@@ -798,6 +865,8 @@
   cohort_month: May
   cohort_year: 2014
   blog_link: http://racetomakers.tumblr.com/
+  categories:
+    - education leaver
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was an economics student, working as a waiter and an intern.
@@ -823,6 +892,8 @@
   testimonial: A course like this is possibly the best thing you can do to help yourself, both for employability and your own mindset.
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working at Tesco.
@@ -848,12 +919,15 @@
   testimonial: It was the hardest thing I've ever done and the best thing I've ever done.
   cohort_month: October
   cohort_year: 2014
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked as a Website Manager - writing and editing some blogs and doing bits of SEO and making sure the site gained traffic.
     - question: What made you want to start learning to code in the first place?
       answer: I fell into my past career because I sort of liked writing and I wasn't really sure what I wanted to do. But for the past few years I'd been finding it unfulfilling, uninspiring and couldn't see a future in it. I'd worked for tech companies and I felt that if I could start a career as a Developer, I'd have a lot more opportunities open to me, including travel and freelance working.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I started to teach myself how to code, but it was much harder than I thought it would be. A lot of online tutorials either assume too much prior knowledge or just don't apply to real-world situations. I've always thrived in a classroom environment so I decided to search online for face-to-face coding courses and came across Makers Academy. Makers offered a safe environment to learn how to code and could give me the tools I needed to become a Junior Developer.
     - question: What did you find difficult during the course?
       answer: The pace was furious! The course covers a great deal of material and, frankly, 12 weeks is not that long! Also, my old job was not very labour intensive so the transition to Makers - working Monday to Friday from 9am till late, and weekends too, was very hard.
@@ -879,12 +953,15 @@
   testimonial: Makers Academy will stay with me forever!
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a supervisor in a coffee shop/restaurant
     - question: What made you want to start learning to code in the first place?
       answer: I've always been very passionate about technology and I needed a change in my life.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: My uncle who lives in London is a graphic designer interviewed a girl from Makers Academy last year and he was really impressed. I told him I was thinking about studying Computer Science and he told me about Makers Academy.
     - question: What did you find difficult during the course?
       answer: Everything. It's really hard to keep up with the course but at the same time I had a wonderful time, I've met incredible people and I would do it again and again.
@@ -908,12 +985,14 @@
   testimonial: Makers was three of the most empowering months of my life!
   cohort_month: April
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an editor for the local newspaper "Oberhessische Presse" in Marburg, Germany.
     - question: What made you want to start learning to code in the first place?
       answer: By working on small blog projects I got obsessed by coding problems but I also knew that I wasn't actually coding but fiddling around and from my work experience I knew that I could land a way more interesting job if I knew how to code. I had unsuccessfully applied for two of those.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I think I had read about Steer.me and started Googleing for it when I had decided to learn how to code. Makers Academy ranked better and offered something way more substantial.
     - question: What did you find difficult during the course?
       answer: The beginning was hard. I thought I was just too stupid to get encapsulation and proper OOP done.
@@ -937,12 +1016,14 @@
   testimonial: I'm getting paid to do the same things I did at Makers Academy and I love it!
   cohort_month: April
   cohort_year: 2015
+  categories:
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Marketing Executive at Just IT Training.
     - question: What made you want to start learning to code in the first place?
       answer: I loved tech and I was fascinated by coding, and wanted to work in the tech industry.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: Makers Academy was a competitor to a programme that my previous company offered. Needless to say, I preferred the Makers approach.
     - question: What did you find difficult during the course?
       answer: Almost nothing was easy but I did cope a lot better than I thought I would from a sanity perspective.
@@ -966,19 +1047,22 @@
   testimonial: Without Makers Academy, I don't think I would have been able to build a website myself
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - entrepreneur
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an Investment analyst.
     - question: What did you learn to code?
       answer: To be able to build my MVP for my startup and understand how things work.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: A friend of mine recommended Makers Academy among other names. I liked the programme, and the dates suited me.
     - question: What did you find difficult during the course?
       answer: Being tired all the time.
     - question: What did you choose to learn to code rather than find a technical co-founder?
       answer: Since my website is the main product of my startup, it's important to me to understand how it's built and how it works. I don't want to have to rely entirely on someone else for the tech part of the business. I will eventually partner with a tech co-founder in the long-run, I think it's essential to have some tech knowledge in order to be able to communicate and work efficiently with my CTO/tech team.
     - question: Tell us more about your businesss?
-      answer: <a href='http://.vinterior.co' target='_blank'>Vinterior</a> is an online marketplace for second-hand high-end furniture.
+      answer: <a href='http://vinterior.co' target='_blank'>Vinterior</a> is an online marketplace for second-hand high-end furniture.
     - question: How do you think Makers Academy helped in setting up your tech business?
       answer: Without Makers Academy, I don't think I would have been able to build a website myself. Through Makers, I also met awesome people who helped me build the site and gave me great advice and ideas.
     - question: Are you still coding/involved in the technical side of your business?
@@ -993,12 +1077,14 @@
   testimonial: Makers Academy gave me the knowledge I needed to build our MVP and I found my two cofounders there.
   cohort_month: August
   cohort_year: 2014
+  categories:
+      - entrepreneur
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as the Digital Brand Director at Syco Entertainment/Sony Music.
     - question: Why did you learn to code?
       answer: I learned to code so I could build prototypes, manage developers and understand the world we live in.
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across Makers Academy on Google. The phrase "Oxford vs the Marines but for coders" is what sold it to me. I think you have to be somewhat unhinged to pay a lot of money for three months of torture - so that sentence did a good job of filtering out the sane people and only attracting the loons.
     - question: What did you find difficult during the course?
       answer: Confidence. Generally I'm fairly good at picking up new skills, but coding I really struggled with. Feeling stupid has to be one of the biggest confidence killers.
@@ -1022,12 +1108,14 @@
   testimonial: Join Makers Academy if you want to know tech speak but also if you are looking for a good backup plan, should you not succeed!
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - entrepreneur
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked on Wall St and in the City for Deutsche Bank and UBS.
     - question: Why did you learn to code?
       answer: I learnt to code because I wanted to build my own MVPs but I learnt so much more than that. It got me hosting on Airbnb and I learnt a lot from the Founders about the Lean Startup. Most of all though, it allowed me to understand what coders are saying!
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I came across Makers while exploring an escape from finance and thought it was for me, very quickly! I met with the team and then I was certain.
     - question: What did you find difficult during the course?
       answer: Nothing. It was easy! - The truth? Almost everything, the nature of coding is that you have to understand lots of concepts all at once. It is hard to keep track!
@@ -1051,12 +1139,14 @@
   testimonial: " Makers Academy was the twelve most intense, insanely challenging and rewarding weeks of my life!"
   cohort_month: December
   cohort_year: 2014
+  categories:
+    - entrepreneur
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Until July 2014, I was MD of a translation agency which I tried to acquire. The deal eventually fell through after 12 months and I left the business to ponder about what I should do with my career from there. Having fallen out of love with the industry, I knew that I would have to do something radically different that would retain my interest.
     - question: What made you want to start learning to code in the first place?
       answer: I've had an obsession with technology from a very young age. I loved computer games and later computers. My mum and step dad had both worked in software sales at one point or another which is how I started to see tech as a fun way to make money. During my time in the translation industry, I sold and implemented technologies for enterprise but none of the products that was on the market really turned me on. I wanted to gain the power to build my own stuff. Being able to code gives you the tools to turn your ideas in to a tangible thing that people can interact with. How cool is that?
-    - question: How did you come across Makers Academy and what made you decide to apply?
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I had previously met Evgeny at a couple of London startup events and he told me about Makers. I won't lie, I was sceptical as Maths and Physics were probably my weakest subjects at school. I also could not see a way to take three months out of my career to make it happen so I parked the idea. Since I was 'taking a break' from August 2014, I decided it was now or never and so I finally bit the bullet and sent in my application.
     - question: What did you find difficult during the course?
       answer: Everything! To some extent, my suspicions about my natural ability to code were confirmed when I struggled with some of the core concepts. I am extremely impatient and coding, especially debugging requires a huge amount of patience. Initially, I also found myself competing against my peers as I have a very competitive nature. It felt very unsettling to suddenly be in an environment where I was not top of the class. Although it got easier with time, I would say that I was deeply humbled by the whole experience.
