@@ -70,6 +70,18 @@ redirect "payments/new.html", to: "#{config.apply_form_url}/payments/new"
 redirect "apply.html", to: config.apply_form_url
 redirect "apply-for-ronin.html", to: "#{config.apply_form_url}/ronin/application"
 redirect "fellowship.html", to: "http://techcityfellowship.org/"
+redirect "life-at-makers.html", to: "about-us.html"
+redirect "talks.html", to: "employers.html"
+redirect "talks/apply.html", to: "employers.html"
+redirect "students.html", to: "graduates.html"
+redirect "student-blogs.html", to: "graduates.html"
+redirect "student-projects.html", to: "graduates.html"
+redirect "graduate-stories.html", to: "graduates.html"
+redirect "testimonials.html", to: "graduates.html"
+redirect "alumni.html", to: "graduates.html"
+redirect "network.html", to: "partners.html"
+redirect "payment-plans.html", to: "payment.html"
+
 
 configure :development do
   activate :livereload
