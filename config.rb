@@ -45,7 +45,7 @@ activate :search_engine_sitemap
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper, PossessiveHelper, SlugHelper, ImageHelper, GraduateHelper
+helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper, PossessiveHelper, SlugHelper, ImageHelper, GraduatesHelper
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do | grad |
