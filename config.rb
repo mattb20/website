@@ -81,6 +81,7 @@ redirect "testimonials.html", to: "graduates.html"
 redirect "alumni.html", to: "graduates.html"
 redirect "network.html", to: "partners.html"
 redirect "payment-plans.html", to: "payment.html"
+redirect "jobs.html", to: "join-the-team.html"
 
 
 configure :development do
