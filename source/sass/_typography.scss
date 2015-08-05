@@ -22,6 +22,10 @@ h6, {
   font-weight: 500;
   color: $brand-primary-color;
   margin: 0 0 $base-line-height;
+
+  @include media($mobile) {
+    word-spacing: $mobile;
+  }
 }
 
 h1 {

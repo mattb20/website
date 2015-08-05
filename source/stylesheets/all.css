@@ -736,6 +736,14 @@ h6 {
   font-weight: 500;
   color: #AA1925;
   margin: 0 0 1.5rem; }
+  @media screen and (max-width: 480px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      word-spacing: max-width 480px 12; } }
 
 h1 {
   font-size: 2.36859rem;
@@ -802,6 +810,8 @@ h4 {
     margin-top: -1rem; }
     h4.subheader + .subheader {
       margin-top: 0; }
+  h4.alt-color {
+    color: #AA1925; }
 
 p {
   margin: 0 0 1.5rem;
@@ -828,6 +838,9 @@ a {
 
 strong {
   font-weight: 500; }
+
+em {
+  font-style: italic; }
 
 blockquote {
   /* --- structure --- */
@@ -879,6 +892,22 @@ picture {
   .copy--right {
     text-align: right; } }
 
+.statistic {
+  font-size: 2.36859rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+  /*word-wrap: break-word;*/
+  /*-webkit-hyphens: auto;*/
+  /*-moz-hyphens: auto;*/
+  /*-ms-hyphens: auto;*/
+  /*hyphens: auto;*/
+  font-size: 1.9rem;
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 1024px) {
+    .statistic {
+      font-size: 3.15733rem;
+      line-height: 4.5rem; } }
+
 figure.with-caption {
   position: relative; }
   figure.with-caption figcaption {
@@ -918,6 +947,10 @@ figure.with-caption {
 .image--small {
   max-height: 3.15733rem;
   max-width: 3.15733rem; }
+
+.image--medium {
+  max-height: 9.96876rem;
+  max-width: 9.96876rem; }
 
 .image--brand {
   float: left;
@@ -1339,6 +1372,8 @@ hr {
     .two-width-row .column {
       display: table-cell;
       width: 50%; } }
+  .two-width-row .column {
+    padding: 0 1.77689rem; }
 
 .three-width-row {
   display: table;
@@ -1382,26 +1417,46 @@ hr {
       width: 25%; } }
   .four-width-row .column {
     padding: 2.36859rem; }
-  .four-width-row.row-with-borders .column {
-    position: relative; }
-    .four-width-row.row-with-borders .column:after {
-      content: "";
-      position: absolute;
-      left: 20%;
-      right: 20%;
-      bottom: 1px;
-      height: 1px;
-      background-color: rgba(255, 255, 255, 0.6); }
-    .four-width-row.row-with-borders .column:last-of-type:after {
-      display: none; }
+
+.five-width-row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 1.5rem; }
+  .five-width-row:last-child {
+    margin-bottom: -1px; }
+  .five-width-row > *:last-child {
+    margin-bottom: 0; }
   @media screen and (min-width: 1024px) {
-    .four-width-row.row-with-borders .column:after {
-      top: 20%;
-      bottom: 20%;
-      right: 1px;
-      left: auto;
-      width: 1px;
-      height: auto; } }
+    .five-width-row .column {
+      display: table-cell;
+      width: 20%; } }
+  .five-width-row .column {
+    padding: 0 1.333rem; }
+
+.row-with-borders .column {
+  position: relative; }
+  .row-with-borders .column:after {
+    content: "";
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    bottom: 1px;
+    height: 1px;
+    background-color: #ddd; }
+  .row-with-borders .column:last-of-type:after {
+    display: none; }
+@media screen and (min-width: 1024px) {
+  .row-with-borders .column:after {
+    top: 20%;
+    bottom: 20%;
+    right: 1px;
+    left: auto;
+    width: 1px;
+    height: auto; } }
+
+.backgrounded .row-with-borders .column:after, .hero .row-with-borders .column:after, .hero-splash .row-with-borders .column:after, .hero-small .row-with-borders .column:after, .hero--apply .row-with-borders .column:after {
+  background-color: rgba(255, 255, 255, 0.6); }
 
 .faq-row {
   display: inline-block;
@@ -1899,6 +1954,9 @@ footer {
 
 .no-padding-top {
   padding-top: 0 !important; }
+
+.small-padding-top {
+  padding-top: 1.5rem !important; }
 
 #doorbell-button {
   font-size: 18px;
