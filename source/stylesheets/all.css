@@ -542,11 +542,6 @@ legend span {
   font-size: 1.333rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
-  /*word-wrap: break-word;*/
-  /*-webkit-hyphens: auto;*/
-  /*-moz-hyphens: auto;*/
-  /*-ms-hyphens: auto;*/
-  /*hyphens: auto;*/
   color: #AA1925; }
   @media screen and (min-width: 1024px) {
     legend span {
@@ -749,11 +744,6 @@ h1 {
   font-size: 2.36859rem;
   line-height: 3rem;
   margin-bottom: 1.5rem;
-  /*word-wrap: break-word;*/
-  /*-webkit-hyphens: auto;*/
-  /*-moz-hyphens: auto;*/
-  /*-ms-hyphens: auto;*/
-  /*hyphens: auto;*/
   font-size: 1.9rem; }
   @media screen and (min-width: 1024px) {
     h1 {
@@ -763,12 +753,7 @@ h1 {
 h2 {
   font-size: 1.77689rem;
   line-height: 3rem;
-  margin-bottom: 1.5rem;
-  /*word-wrap: break-word;*/
-  /*-webkit-hyphens: auto;*/
-  /*-moz-hyphens: auto;*/
-  /*-ms-hyphens: auto;*/
-  /*hyphens: auto;*/ }
+  margin-bottom: 1.5rem; }
   @media screen and (min-width: 1024px) {
     h2 {
       font-size: 2.36859rem;
@@ -777,12 +762,7 @@ h2 {
 h3 {
   font-size: 1.333rem;
   line-height: 1.5rem;
-  margin-bottom: 1.5rem;
-  /*word-wrap: break-word;*/
-  /*-webkit-hyphens: auto;*/
-  /*-moz-hyphens: auto;*/
-  /*-ms-hyphens: auto;*/
-  /*hyphens: auto;*/ }
+  margin-bottom: 1.5rem; }
   @media screen and (min-width: 1024px) {
     h3 {
       font-size: 1.77689rem;
@@ -792,11 +772,6 @@ h4 {
   font-size: 0.75019rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
-  /*word-wrap: break-word;*/
-  /*-webkit-hyphens: auto;*/
-  /*-moz-hyphens: auto;*/
-  /*-ms-hyphens: auto;*/
-  /*hyphens: auto;*/
   color: #afafaf; }
   @media screen and (min-width: 1024px) {
     h4 {
@@ -896,11 +871,6 @@ picture {
   font-size: 2.36859rem;
   line-height: 3rem;
   margin-bottom: 1.5rem;
-  /*word-wrap: break-word;*/
-  /*-webkit-hyphens: auto;*/
-  /*-moz-hyphens: auto;*/
-  /*-ms-hyphens: auto;*/
-  /*hyphens: auto;*/
   font-size: 1.9rem;
   margin-bottom: 1rem; }
   @media screen and (min-width: 1024px) {
