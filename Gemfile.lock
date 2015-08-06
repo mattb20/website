@@ -175,6 +175,3 @@ DEPENDENCIES
   rspec
   sass
   timecop
-
-BUNDLED WITH
-   1.10.5
