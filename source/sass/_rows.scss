@@ -176,8 +176,7 @@
 .three-width-row {
   @include ma-columns(3);
   .column {
-    padding: 0 modular-scale(2);
-    margin-bottom: modular-scale(2);
+    padding: modular-scale(2);
     img {
       width: 70%;
       margin-bottom: modular-scale(1);
@@ -222,7 +221,7 @@
       position: absolute;
       left: 20%;
       right: 20%;
-      bottom: -1 * modular-scale(0);
+      bottom: 1px;
       height: 1px;
       background-color: $light-gray;
     }
@@ -249,7 +248,7 @@
       position: absolute;
       left: 20%;
       right: 20%;
-      top: -1 * modular-scale(0);
+      top: 1px;
       height: 1px;
       background-color: $light-gray;  
     }
