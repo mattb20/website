@@ -177,21 +177,23 @@
   @include ma-columns(3);
   .column {
     padding: 0 modular-scale(2);
+    margin-bottom: modular-scale(2);
     img {
       width: 70%;
       margin-bottom: modular-scale(1);
     }
-    &:nth-child(2) {
-      margin-bottom: modular-scale(2);
+    &:last-of-type {
+      margin-bottom: 0;
     }
   }
   @include media($desktop) {
     .column {
+      margin-bottom: 0;
       img {
         width: 100%;
         margin-bottom: 0;
       }
-      &:nth-child(2) {
+      &:last-of-type {
         margin-bottom: 0;
       }
     }
