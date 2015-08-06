@@ -222,7 +222,7 @@
       position: absolute;
       left: 20%;
       right: 20%;
-      bottom: 1px;
+      bottom: -1 * modular-scale(0);
       height: 1px;
       background-color: $light-gray;
     }
@@ -239,6 +239,23 @@
         left: auto;
         width: 1px;
         height: auto;
+      }
+    }
+  }
+  //corrections for repeated row-with-borders
+  & + .row-with-borders {
+    .column:first-of-type:before {
+      content: "";
+      position: absolute;
+      left: 20%;
+      right: 20%;
+      top: -1 * modular-scale(0);
+      height: 1px;
+      background-color: $light-gray;  
+    }
+    @include media($desktop) {
+      .column:first-of-type:before {
+        display: none;
       }
     }
   }
