@@ -3,8 +3,13 @@
   overflow: hidden;
   padding-bottom: 56.25%; // For ratio 16:9. 75% if ratio is 4:3
   margin: ma-spacing(2) 0;
+
   position: relative;
   @include clearfix;
+
+  @include media($desktop) {
+    margin: 0;
+  }
 
   embed,
   object,
