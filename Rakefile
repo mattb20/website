@@ -20,9 +20,9 @@ def publish_to_bower
   puts "Compiling Sass files into CSS"
   `sass  --update source/sass:source/stylesheets`
   puts "Committing files to Git"
+  `bower version #{new_version}`
   `git add .`
   `git commit -m "Compiles and updates stylesheets in preperation for new version"`
-  `bower version #{new_version}`
   puts "Pushing new tags to Github"
   `git push origin --tags`
   puts "Done!"
