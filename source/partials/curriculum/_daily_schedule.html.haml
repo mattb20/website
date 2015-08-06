@@ -1,13 +1,49 @@
-%section.article.article--centered
+%section.article.article--centered.no-min-height.no-padding-bottom
   %article
     %h4.leader Your
     %h3 Day
     %p
-      %span Learning is so much more than a curriculum and some educational materials.
-      We currently use a mixture of workshops, exercises, projects, classroom break-out sessions and end-of-week challenges to help our students understand programming. The immersive environment, having expert coaches on hand all day, and pairing with other students are all key to our educational process.
+      %span <intro about day>
 
-    %p Programming is a practical skill - reading books or listening to lectures alone will never make you a developer. We encourage our students to spend every waking second thinking about and writing code... And many of them end up dreaming about it too! This is the only way to become a job-ready junior developer in a few short months. We start every day with a lecture or a workshop, and outside of 'classwork', most of our students' time is spent pair programming on practical exercises in the presence of experts.
-
-    %p We don't want our students getting bored, so we encourage people to explore topics that interest them, and since no two students are alike, we use the interactive learning environment to tailor the experience for each cohort. In short - if you've never heard of the technologies we talk about, don't be put off, and if you already have some experience of coding, there's still a huge amount of value to be had enrolling on one of our courses. We also regularly invite industry experts to give talks to our students. It's a great opportunity to learn from practicing professionals and build your network. So far we have hosted speakers from Tesla, Intel, Stripe, Forward Parners, Moo, Shutl, Skimlinks and many many others.
-
-    %p We often get software development companies coming in to pair with our students too. We've been fortunate enough to have developers from Pivotal Labs, Skimlinks and other amazing companies coming to our offices and pairing with our students.
+%section.no-padding-top.no-padding-bottom
+  .container
+    .centered-row
+      %table.responsive-table
+        %thead
+          %tr
+            %th Time
+            %th Activity
+            %th Description
+        %tbody
+          %tr
+            %td{data:{header: "Time"}} 9am
+            %td{data:{header: "Activity"}} Standup
+            %td{data:{header: "Description"}} Relate what you did yesterday, what you’re planning on today, where you got stuck, and how you got unstuck. Lots of clapping and feel-goods.
+          %tr 
+            %td{data:{header: "Time"}} 9.30am
+            %td{data:{header: "Activity"}} Breakout
+            %td{data:{header: "Description"}} Depending on what got brought up at the standup, students might need to have a coach demo some stuff, or visualise things using a board.
+          %tr 
+            %td{data:{header: "Time"}} 10.30am
+            %td{data:{header: "Activity"}} Pair Programming
+            %td{data:{header: "Description"}} Students pair with coach and alumni helper support throughout the morning, building real stuff using tools and practices we’d expect from a professional junior developer.
+          %tr 
+            %td{data:{header: "Time"}} 1.00pm
+            %td{data:{header: "Activity"}} Lunch
+            %td{data:{header: "Description"}} Our cohorts tend to lunch together. Generally they like to go out in droves to one of Shoreditch’s fine local eateries.
+          %tr 
+            %td{data:{header: "Time"}} 2.00pm
+            %td{data:{header: "Activity"}} Meditation
+            %td{data:{header: "Description"}} Programming is extremely challenging. Meditation helps keep a lid on things, keeps you grounded, and keeps your brain sharp.
+          %tr 
+            %td{data:{header: "Time"}} 2.30pm
+            %td{data:{header: "Activity"}} Standup
+            %td{data:{header: "Description"}} Same as the morning. Keep the feel-goods flowing.
+          %tr
+            %td{data:{header: "Time"}} 3.00pm
+            %td{data:{header: "Activity"}} Breakout
+            %td{data:{header: "Description"}} Sometimes students don’t need this one. They’re usually pretty keen to get back to the project they were working on.
+          %tr
+            %td{data:{header: "Time"}} 8.30pm
+            %td{data:{header: "Activity"}} Socialising
+            %td{data:{header: "Description"}} A pecha kucha night, a trip to a software craftsmanship meetup at Yammer, a hosted event, or a film night...we love to organise stuff to keep your social bar topped up.
