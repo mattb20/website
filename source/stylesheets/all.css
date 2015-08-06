@@ -933,6 +933,25 @@ figure.with-caption {
   .image--brand:hover {
     opacity: 1; }
 
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  margin: 3rem 0;
+  position: relative; }
+  .video-wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .video-wrapper embed,
+  .video-wrapper object,
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; }
+
 .mobile-navigation {
   width: 100%;
   left: 100%;
