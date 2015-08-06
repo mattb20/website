@@ -23,6 +23,7 @@ def publish_to_bower
   `bower version #{new_version}`
   `git add .`
   `git commit -m "Compiles and updates stylesheets in preperation for new version"`
+  `git push`
   puts "Pushing new tags to Github"
   `git push origin --tags`
   puts "Done!"
