@@ -54,6 +54,6 @@ $(document).ready(function() {
     callback: mixpanelEmailCapture
   });
 
-  $('.faq-links').fixedScroll();
+  $('.definition-links').fixedScroll();
 
 });
