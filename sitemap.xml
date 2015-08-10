@@ -1,308 +1,372 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.makersacademy.com/terms/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/team/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/privacy/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/payment/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/partners/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/landing/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/join-the-team/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/graduates/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/employers/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/education-leaver/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/curriculum/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/career-changers/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <loc>http://www.makersacademy.com/404.html</loc>
+    <lastmod>2015-07-13T11:01:44+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/about-us/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-04T17:36:02+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.makersacademy.com/404.html</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <loc>http://www.makersacademy.com/career-changers/</loc>
+    <lastmod>2015-08-10T14:52:46+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/curriculum/</loc>
+    <lastmod>2015-08-10T14:52:46+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/education-leaver/</loc>
+    <lastmod>2015-08-10T14:52:46+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/employers/</loc>
+    <lastmod>2015-08-10T14:52:46+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/graduates/</loc>
+    <lastmod>2015-07-13T13:51:07+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/</loc>
+    <lastmod>2015-08-04T18:22:03+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/jobs/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/payment-plans/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/network/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/alumni/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/testimonials/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/graduate-stories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/student-projects/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/student-blogs/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/students/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/talks/apply/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/talks/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/join-the-team/</loc>
+    <lastmod>2015-08-04T17:36:02+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/landing/</loc>
+    <lastmod>2015-08-10T14:52:46+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/partners/</loc>
+    <lastmod>2015-07-13T14:23:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/payment/</loc>
+    <lastmod>2015-08-10T14:52:46+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/privacy/</loc>
+    <lastmod>2015-07-13T11:02:59+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/life-at-makers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/fellowship/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/team/</loc>
+    <lastmod>2015-07-13T14:23:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://www.makersacademy.com/terms/</loc>
+    <lastmod>2015-07-13T13:51:07+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/nicole-pellicena/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/ed-obrien/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/ruth-earle/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/bibiana-cristfol/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/andrea-armiliato/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/nick-dyer/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/alexandra-parkinson/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/fadie-hannona/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/mishal-islam/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/izzy-markwick/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/vanessa-virgitti/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/rachel-nolan/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/clare-trembath/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/andy-newman/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/matteo-manzo/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/alex-blease/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/craig-horsborough/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/nico-saueressig/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/sroop-sunar/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/stefania-cardenas/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/andrew-cumine/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/will-hall/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/nick-roberts/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/yvette-cook/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/simon-woolf/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/ethel-ng/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/mario-gintili/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/tim-scully/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/maya-driver/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/elena-garrone/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.makersacademy.com/case-studies/thomas-strothjohann/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <loc>http://www.makersacademy.com/apply-for-ronin/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/tom-coakes/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/sandrine-zhang-ferron/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/nic-yeeles/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/james-jenkins-yates/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.makersacademy.com/case-studies/karin-nielsen/</loc>
-    <lastmod>2015-08-07T16:50:47+00:00</lastmod>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -317,72 +381,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.makersacademy.com/apply-for-ronin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/fellowship/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/life-at-makers/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/talks/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/talks/apply/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/students/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/student-blogs/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/student-projects/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/graduate-stories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/testimonials/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/alumni/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/network/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/payment-plans/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.makersacademy.com/jobs/</loc>
+    <loc>http://www.makersacademy.com/case-studies/thomas-strothjohann/</loc>
+    <lastmod>2015-08-03T15:03:38+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
