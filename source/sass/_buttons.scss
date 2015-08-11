@@ -40,7 +40,6 @@
 }
 
 .button--vertical {
-  @extend button;
   color: $brand-primary-color;
   border-color: $brand-primary-color;
   &:hover {
@@ -50,7 +49,6 @@
 }
 
 .button--horizontal {
-  @extend button;
   color: $brand-secondary-color;
   border-color: $brand-secondary-color;
   &:hover {
@@ -60,7 +58,6 @@
 }
 
 .button--large {
-  @extend button;
   min-width: 11.1em / 2;
   font-size: modular-scale(2);
   line-height: $perfect-fourth * $golden;
