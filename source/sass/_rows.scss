@@ -176,22 +176,23 @@
 .three-width-row {
   @include ma-columns(3);
   .column {
-    padding: 0 modular-scale(2);
+    padding: modular-scale(2);
     img {
       width: 70%;
       margin-bottom: modular-scale(1);
     }
-    &:nth-child(2) {
-      margin-bottom: modular-scale(2);
+    &:last-of-type {
+      margin-bottom: 0;
     }
   }
   @include media($desktop) {
     .column {
+      margin-bottom: 0;
       img {
         width: 100%;
         margin-bottom: 0;
       }
-      &:nth-child(2) {
+      &:last-of-type {
         margin-bottom: 0;
       }
     }
@@ -240,101 +241,27 @@
       }
     }
   }
+  //corrections for repeated row-with-borders
+  & + .row-with-borders {
+    .column:first-of-type:before {
+      content: "";
+      position: absolute;
+      left: 20%;
+      right: 20%;
+      top: 1px;
+      height: 1px;
+      background-color: $light-gray;  
+    }
+    @include media($desktop) {
+      .column:first-of-type:before {
+        display: none;
+      }
+    }
+  }
 }
 
 .backgrounded .row-with-borders .column:after {
   background-color: rgba($white, 0.6);
-}
-
-.faq-row {
-  $faq-links-padding-top: modular-scale(4);
-
-  display: inline-block;
-  position: relative;
-
-  aside {
-    @include media($desktop) {
-      @include span-columns(4);
-    }
-
-    .faq-links {
-      @include media($desktop) {
-        padding-top: $faq-links-padding-top;
-        width: em(300);
-      }
-      a {
-        text-decoration: none;
-      }
-    }
-
-    .faq-link {
-      display: block;
-      outline: none;
-      padding: modular-scale(-3) 0;
-
-      &:last-child {
-        margin-bottom: $base-spacing;
-      }
-
-      @include media($desktop) {
-        text-align: right;
-        margin-right: $base-spacing;
-      }
-    }
-  }
-
-  .faq {
-    text-align: left;
-
-    &:last-child {
-      margin-bottom: modular-scale(3);
-    }
-  }
-
-  @include media($desktop) {
-
-    .fixed-top {
-      position: fixed;
-      top: $faq-links-padding-top;
-    }
-
-    .fixed-bottom {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-    }
-  }
-
-  article {
-    h4 {
-      margin: 0 0 0.5em 0;
-      text-align: left;
-    }
-
-    p {
-      color: $base-font-color;
-      line-height: $base-line-height;
-    }
-
-    .question {
-      p {
-        margin-bottom: 2em;
-        text-align: left;
-      }
-      ul {
-        @include ma-unordered-list;
-        margin-bottom: 2em;
-      }
-      &:last-of-type p {
-        margin-bottom: 0;
-      }
-    }
-
-    @include media($desktop) {
-      @include span-columns(8);
-      vertical-align: top;
-    }
-  }
 }
 
 .image-grid-row {

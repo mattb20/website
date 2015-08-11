@@ -67,6 +67,11 @@ h4 {
   }
 }
 
+.header-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 p {
   margin: 0 0 $base-spacing;
   font-size: $base-font-size;

@@ -1,10 +1,11 @@
 // Quick and simple plugin for fixing a navbar when you scroll down the page
-// Requires a class called fix-top which sets the element to have position: fixed
+// Requires a class called fixed-top and fixed-bottom which sets the element to have position: fixed
 (function($) {
 
   var fixedElementTop, $fixedElement, leftOffset;
   var $nav = $('header.navigation');
 
+  // usually called on $('.definition-links')
   function fixedScroll(element) {
     $fixedElement = $(element);
     calculateOffsets();
