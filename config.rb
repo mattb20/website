@@ -82,6 +82,7 @@ redirect "alumni.html", to: "graduates.html"
 redirect "network.html", to: "partners.html"
 redirect "payment-plans.html", to: "payment.html"
 redirect "jobs.html", to: "join-the-team.html"
+redirect "blog.html", to: "http://blog.makersacademy.com"
 
 
 configure :development do
