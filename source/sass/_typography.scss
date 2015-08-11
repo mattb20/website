@@ -186,3 +186,14 @@ picture {
   font-size: 1.9rem;
   margin-bottom: 1rem;
 }
+
+pre {
+  text-align: left !important;
+  max-width: em(580);
+  background: $brand-secondary-color;
+  padding: ma-spacing(1);
+  margin: 0 auto;
+  * {
+    color: white;
+  }
+}
