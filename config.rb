@@ -127,4 +127,25 @@ configure :build do
   ignore 'elements.html.haml'
   ignore 'typography.html.haml'
   ignore 'form-styles.html.haml'
+
+  #Filewatcher ignore list
+  set :file_watcher_ignore,[
+      /^bin(\/|$)/,
+      /^\.bundle(\/|$)/,
+  #   /^vendor(\/|$)/,
+      /^node_modules(\/|$)/,
+      /^\.sass-cache(\/|$)/,
+      /^\.cache(\/|$)/,
+      /^\.git(\/|$)/,
+      /^\.gitignore$/,
+      /\.DS_Store/,
+      /^\.rbenv-.*$/,
+      /^Gemfile$/,
+      /^Gemfile\.lock$/,
+      /~$/,
+      /(^|\/)\.?#/,
+      /^tmp\//
+    ]
 end
+
+
