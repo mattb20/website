@@ -15,6 +15,8 @@ gem 'neat', "~> 1.7.2"
 
 gem 'middleman-dotenv', '~> 1.0'
 
+gem 'puma', '~> 2.7'
+
 group :development, :test do
   gem 'pry'
   gem 'rspec'
