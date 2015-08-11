@@ -8,6 +8,7 @@
         %a.definition-link{href: "#definition-paragraphs"} Paragraphs
         %a.definition-link{href: "#definition-blockquotes"} Blockquotes
         %a.definition-link{href: "#definition-lists"} Lists
+        %a.definition-link{href: "#definition-article"} Articles (extended text)
     %article
       .category
         %h4 Headings
@@ -29,3 +30,12 @@
         %dl.definition{id: "definition-lists"}
           %dt Large, backgrounded content. Can be anywhere
           %dd= partial :"elements/typography/lists"
+      .category
+        %h4 Article
+        %dl.definition{id: "definition-article"}
+          %dt 
+            Extended text stuff. Overrides some styles specified in
+            %code _variables.scss
+            and
+            %code _typography.scss
+          %dd= partial :"elements/typography/article"
