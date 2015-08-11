@@ -14,9 +14,9 @@
       %h2 Components
       %hr
 
-%section
+%section.the-elements
   .centered-row
-    %ul.tabs
+    %ul.tabs.element-tabs
       %li.tab-header-and-content
         %a.tab-link.is-active{:href => "#"} Little
         .tab-content= partial :"elements/little"
@@ -26,6 +26,15 @@
       %li.tab-header-and-content
         %a.tab-link{:href => "#"} Biggest
         .tab-content= partial :"elements/biggest"
+      %li.tab-header-and-content
+        %a.tab-link{:href => "#"} Typography
+        .tab-content= partial :"elements/typography"
+      %li.tab-header-and-content
+        %a.tab-link{:href => "#"} Forms
+        .tab-content= partial :"elements/forms"
+      %li.tab-header-and-content
+        %a.tab-link{:href => "#"} Tables
+        .tab-content= partial :"elements/tables"
       %li.tab-header-and-content
         %a.tab-link{:href => "#"} Unsorted
         .tab-content
