@@ -26,6 +26,7 @@
 //= require jquery.fixedscroll
 //= require doorbell
 //= require vendor/baseliner
+//= require tabs
 
 $(document).ready(function() {
 
