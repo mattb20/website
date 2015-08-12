@@ -1,5 +1,4 @@
 <!-- BEGIN <%= partial_name %> -->
-
 <section class="element">
   <ul class="tabs">
     <li class="tab-header-and-content">
@@ -12,13 +11,12 @@
       <a href="#" class="tab-link tab-link--code">Code</a>
       <div class="tab-content tab-content--code">
         <pre>
-          <div>
-            <%= (raw "#{partial_name}.html.haml").strip %>
-          </div>
+          <code class="language-haml">
+            <%= raw "#{partial_name}.html.haml" %>
+          </code>
         </pre>
       </div>
     </li>
   </ul>
 </section>
-
 <!-- END <%= partial_name %> -->

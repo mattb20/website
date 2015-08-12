@@ -21,6 +21,7 @@
 //= require vendor/retina.min
 //= require vendor/slick.js
 //= require vendor/jquery.ajaxchimp
+//= require vendor/prism
 //= require mixpanel-email-capture
 //= require navigation
 //= require jquery.fixedscroll
