@@ -33,3 +33,13 @@
     }
   }
 }
+
+.tab-link--code.is-active {
+  background: $brand-secondary-color !important;
+  color: white !important;
+  border-bottom-color: transparent !important;
+}
+
+.tab-content--code {
+  padding: 0 !important;
+}

@@ -189,11 +189,11 @@ picture {
 
 pre {
   text-align: left !important;
-  max-width: em(580);
   background: $brand-secondary-color;
   padding: ma-spacing(1);
   margin: 0 auto;
   * {
+    max-width: em(580);
     color: white;
   }
 }
