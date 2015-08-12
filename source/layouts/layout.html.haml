@@ -1,7 +1,12 @@
 !!!
 %html
   %head
+    <!--[if gt IE 8]><!-->
     = stylesheet_link_tag "all"
+    <![endif]-->
+    <!--[if lte IE 8]><!-->
+    = stylesheet_link_tag "compatibility"
+    <![endif]-->
     = partial :"analytics_scripts"
     %script{src: "//use.typekit.net/fla8fba.js"}
     :javascript
@@ -20,8 +25,8 @@
   %body{class: page_classes}
     - # Tag manager must go in the body, the other analytics scripts go in the head
     = partial :"google_tag_manager"
+    = partial :"deprecated_browser_warning"
     = partial :"navigation"
-
     = partial :"facebook_sdk"
     
     = yield

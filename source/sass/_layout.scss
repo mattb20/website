@@ -26,7 +26,6 @@ section {
   }
 }
 
-
 hr {
   border-bottom: $base-border;
   border-left: none;
@@ -100,4 +99,8 @@ hr {
 
 .vertical-center {
   vertical-align: middle !important;
+}
+
+p.deprecated-browser-warning {
+  display: none;
 }
