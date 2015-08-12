@@ -42,4 +42,11 @@
 
 .tab-content--code {
   padding: 0 !important;
+  background: $brand-secondary-color;
+  pre {
+    max-width: em(580);
+    div {
+      text-indent: -200px;
+    }
+  }
 }
