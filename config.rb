@@ -83,7 +83,7 @@ redirect "network.html", to: "partners.html"
 redirect "payment-plans.html", to: "payment.html"
 redirect "jobs.html", to: "join-the-team.html"
 redirect "blog.html", to: "http://blog.makersacademy.com"
-
+redirect "payments.html", to: "payment.html"
 
 configure :development do
   activate :livereload
@@ -148,5 +148,3 @@ configure :build do
       /^tmp\//
     ]
 end
-
-
