@@ -46,8 +46,9 @@
   pre {
     max-width: em(580);
     margin: 0 auto;
+    overflow: scroll;
     code {
-      white-space: pre-line;
+      white-space: pre-wrap;
     }
   }
 }
