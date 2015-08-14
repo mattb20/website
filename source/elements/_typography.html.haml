@@ -14,22 +14,22 @@
         %h4 Headings
         %dl.definition{id: "definition-headings"}
           %dt Large, backgrounded content for page headers
-          %dd= partial :"elements/typography/headings"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_headings" }
       .category
         %h4 Paragraphs
         %dl.definition{id: "definition-paragraphs"}
           %dt Large, backgrounded content. Can be anywhere
-          %dd= partial :"elements/typography/paragraphs"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_paragraphs" }
       .category
         %h4 Blockquotes
         %dl.definition{id: "definition-blockquotes"}
           %dt Large, backgrounded content for page headers
-          %dd= partial :"elements/typography/blockquotes"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_blockquotes" }
       .category
         %h4 Lists
         %dl.definition{id: "definition-lists"}
           %dt Large, backgrounded content. Can be anywhere
-          %dd= partial :"elements/typography/lists"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_lists" }
       .category
         %h4 Article
         %dl.definition{id: "definition-article"}
