@@ -50,8 +50,7 @@ helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper, PossessiveHelper,
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do | grad |
   if grad[:case_study]
-    full_name = "#{grad[:first_name]} #{grad[:last_name]}"
-    url_slug = slug(full_name)
+    url_slug = graduate_slug(grad)
     proxy "/case-studies/#{url_slug}.html", "/case-studies/template.html", locals: { grad: grad }, ignore: true
   end
 end

@@ -27,6 +27,18 @@ describe GraduatesHelper do
     end
   end
 
+  describe 'finds the next graduate' do
+    it 'when passed the first in the set' do
+      expect(graduate_helper.next_graduate(grad1)).to eq grad2
+    end
+
+    context 'when given the last graduate' do
+      it 'finds the first graduate' do
+        expect(graduate_helper.next_graduate(grad2)).to eq grad1
+      end
+    end
+  end
+
   def stub_graduate_data
     allow(graduate_helper).to receive(:graduates).and_return([grad1, grad2])
   end
