@@ -1,14 +1,17 @@
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
-      %h1 Meet our hiring partners
-      %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to define themselves.
+      %h4.leader Meet
+      %h2 Our hiring partners
+      %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to bring their ideas to life.
     .three-width-row
       .column
-        = image_tag "hiring-partners/ctm-logo.png"
-        = image_tag "hiring-partners/deloitte-logo.png"
+        .image--centered
+          = image_tag "hiring-partners/Atos.png"
+        .image--centered
+          = image_tag "hiring-partners/compare-the-market.png"
       .column
-        %a.button--alt See more partners
+        = link_to "See our Partners", "/partners.html", class: "button button--horizontal"
       .column
-        = image_tag "hiring-partners/springer-logo.png"
-        = image_tag "hiring-partners/thoughtworks-logo.png"
+        = image_tag "hiring-partners/Deloitte-Digital.png"
+        = image_tag "hiring-partners/just-giving.png"
