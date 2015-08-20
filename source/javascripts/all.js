@@ -29,6 +29,7 @@
 //= require vendor/baseliner
 //= require tabs
 //= require vertical_tabs
+//= require elements
 
 $(document).ready(function() {
 
