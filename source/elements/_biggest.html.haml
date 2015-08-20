@@ -8,6 +8,7 @@
         %a.definition-link{href: "#definition-hero-splash"} Hero Splash
         %a.definition-link{href: "#definition-hero"} Hero
         %a.definition-link{href: "#definition-hero-with-options"} Hero with Options
+        %a.definition-link{href: "#definition-image-grid"} Image Grid
         %a.definition-link{href: "#definition-slider"} Slider
         %a.definition-link{href: "#definition-half-slider"} Half Slider
         %a.definition-link{href: "#definition-three-width-copy"} Three-width Copy
@@ -33,6 +34,11 @@
             Large, backgrounded content. Prioritise one route above others. 
             %strong Obey the outside-in UX rules: all roads lead to the main site.
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_hero_with_options" }
+      .category
+        %h4 Image Grid
+        %dl.definition{id: "definition-image-grid"}
+          %dt Images arranged in a grid. Images must be 600x180px, transparent PNGs.
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_image_grid" }
       .category
         %h4 Slider
         %dl.definition{id: "definition-slider"}
