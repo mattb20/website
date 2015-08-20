@@ -7,6 +7,7 @@
       %nav.definition-links
         %a.definition-link{href: "#definition-hero-splash"} Hero Splash
         %a.definition-link{href: "#definition-hero"} Hero
+        %a.definition-link{href: "#definition-hero-with-options"} Hero with Options
         %a.definition-link{href: "#definition-slider"} Slider
         %a.definition-link{href: "#definition-half-slider"} Half Slider
         %a.definition-link{href: "#definition-three-width-copy"} Three-width Copy
@@ -25,6 +26,13 @@
         %dl.definition{id: "definition-hero"}
           %dt Large, backgrounded content. Can be anywhere
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_hero" }
+      .category
+        %h4 Hero with Options
+        %dl.definition{id: "definition-hero-with-options"}
+          %dt 
+            Large, backgrounded content. Prioritise one route above others. 
+            %strong Obey the outside-in UX rules: all roads lead to the main site.
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_hero_with_options" }
       .category
         %h4 Slider
         %dl.definition{id: "definition-slider"}
