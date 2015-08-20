@@ -39,6 +39,9 @@
 
 .element > .tabs {
   margin-bottom: 0;
+  & > li > .tab-content {
+    padding: ma-spacing(1) 0;
+  }
 }
 
 .element-tabs {
