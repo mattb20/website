@@ -12,6 +12,7 @@
         %a.definition-link{href: "#definition-three-width-copy"} Three-width Copy
         %a.definition-link{href: "#definition-three-width-fixtures"} Three-width Fixtures
         %a.definition-link{href: "#definition-five-width-fixtures"} Five-width Fixtures
+        %a.definition-link{href: "#definition-table-with-intro"} Table with Intro
         %a.definition-link{href: "#definition-two-up-video"} Two-up Video
     %article
       .category
@@ -49,6 +50,11 @@
         %dl.definition{id: "definition-five-width-fixtures"}
           %dt Five-wide images, with optional CTA (no text)
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_five_width_fixtures" }
+      .category
+        %h4 Table with Intro
+        %dl.definition{id: "definition-table-with-intro"}
+          %dt 2-dimensional data, with an introduction explaining what it is.
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_table_with_intro" }
       .category
         %h4 Two-up Video
         %dl.definition{id: "definition-article"}

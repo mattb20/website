@@ -5,9 +5,15 @@
   .definition-row
     %aside#definition-top
       %nav.definition-links
+        %a.definition-link{href: "#definition-responsive-table"} Responsive Table
         %a.definition-link{href: "#definition-horizontal-tabs"} Horizontal Tabs
         %a.definition-link{href: "#definition-vertical-tabs"} Vertical Tabs
     %article
+      .category
+        %h4 Responsive Table
+        %dl.definition{id: "definition-responsive-table"}
+          %dt Tables with a totally excellent mobile experience
+          %dd= partial :"elements/element", locals: { partial_name: "elements/bigger/_responsive_table" }
       .category
         %h4 Horizontal Tabs
         %dl.definition{id: "definition-horizontal-tabs"}
