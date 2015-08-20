@@ -16,6 +16,15 @@
   }
 }
 
+.elements {
+  .category {
+    background-color: #fafafa;
+  }
+  .element .tab-content {
+    background-color: #fff;
+  }
+}
+
 .element-tabs {
   padding: 0;
   & > li > .tab-content {
@@ -34,10 +43,15 @@
   }
 }
 
-.tab-link--code.is-active {
-  background: $brand-secondary-color !important;
-  color: white !important;
-  border-bottom-color: transparent !important;
+.element .tabs .tab-link {
+  background-color: transparent;
+  &.is-active {
+    background-color: #fff;
+    &.tab-link--code {
+      background-color: #f5f2f0;
+      border-bottom-color: #f5f2f0;
+    }
+  }
 }
 
 .tab-content--code {
