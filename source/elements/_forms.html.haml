@@ -1,14 +1,14 @@
 %section
   .centered-row
     %h2 Forms
-    %h4.subheader Send data from the Client to the Server via the Internet. Magic, isn't it?
+    %h4.subheader Send data from the Client to the Server via the Internet.
   .definition-row
     %aside#definition-top
       %nav.definition-links
-        %a.definition-link{href: "#definition-form"} Forms
+        %a.definition-link{href: "#definition-inputs"} Inputs
     %article
       .category
-        %h4 Forms
-        %dl.definition{id: "definition-forms"}
-          %dt Look Mum, forms!
-          %dd= partial :"elements/forms/forms"
+        %h4 Inputs
+        %dl.definition{id: "definition-inputs"}
+          %dt Available inputs, with example labels and hints, etc.
+          %dd= partial :"elements/element", locals: { partial_name: "elements/forms/_inputs" }
