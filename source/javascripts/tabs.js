@@ -6,10 +6,10 @@ $(document).ready(function () {
     if (!$(this).hasClass('is-active')) {
       event.preventDefault();
       var accordionTabs = $(this).closest('.tabs');
-      accordionTabs.find('.is-open').removeClass('is-open').hide();
+      accordionTabs.children('.tab-header-and-content').children('.is-open').removeClass('is-open').hide();
 
       $(this).next().toggleClass('is-open').toggle();
-      accordionTabs.find('.is-active').removeClass('is-active');
+      accordionTabs.children('.tab-header-and-content').children('.is-active').removeClass('is-active');
       $(this).addClass('is-active');
     } else {
       event.preventDefault();

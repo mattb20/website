@@ -10,6 +10,6 @@ module RawHelper
   private
 
   def load_partial(partial)
-    File.open(File.join(config[:source], partial), "rb")
+    File.open(File.join(config[:source], partial), "r")
   end
 end
