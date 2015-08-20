@@ -1,11 +1,10 @@
 
+- @params = {}
 %section
   .container
     .form-row
       %form{method: "post", action: "/application", class: "apply"}
         %fieldset
-          %input{type: "hidden", name: "course_type", value: "Online"}
-          %input{type: "hidden", name: "to_join[]", value: @intake.start_date}
           .input-row
             %label{for: "first_name", class: "required"}
               First name
@@ -22,10 +21,6 @@
             %label{for: "telephone_number", class: "required"}
               Phone number
             %input{type: "tel", required: true, name: "telephone_number", id: "telephone_number", value: @params[:telephone_number]}
-          .input-row
-            %label
-              %input{type: "checkbox", required: true, name: "confirmation", id: "confirmation", checked: @params[:confirmation].present? }
-              I am aware that the next Ronin cohort starts on #{@intake.precourse_start_date}, lasts for 16 weeks and is full-time from #{@intake.start_date} to the #{@intake.end_date}
         %fieldset
           %legend
             %span Let's talk a little bit more about you
