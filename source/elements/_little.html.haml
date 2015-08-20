@@ -1,4 +1,4 @@
-%section
+%section.no-padding-bottom
   .centered-row
     %h2 Little
     %h4.subheader Smaller, individual components
@@ -11,4 +11,4 @@
         %h4 Buttons
         %dl.definition{id: "definition-buttons"}
           %dt Calls to Action
-          %dd= partial :"elements/little/buttons"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/little/_buttons" }

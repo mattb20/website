@@ -1,6 +1,7 @@
 // overrides for elements.html.haml
 
 .the-elements {
+  padding-bottom: 0 !important;
   aside#definition-top {
     @include media($desktop) {
       display: block;
@@ -19,13 +20,25 @@
 .elements {
   .category {
     background-color: #fafafa;
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
   }
   .element .tab-content {
     background-color: #fff;
   }
   .definition-row .definition:last-child {
-    margin-bottom: 0;
+    margin-bottom: 2px;
+    .category:after {
+      display: none;
+    }
   }
+}
+
+.element > .tabs {
+  margin-bottom: 0;
 }
 
 .element-tabs {
@@ -34,7 +47,7 @@
     padding: 0;
     .category {
       @include border-after;
-      padding: $base-spacing 0;
+      padding: $base-spacing 0 0 0;
       & > h4 {
         text-align: center;
         & + .definition > dt {

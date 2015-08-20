@@ -1,4 +1,4 @@
-%section
+%section.no-padding-bottom
   .centered-row
     %h2 Biggest
     %h4.subheader Whole sections
@@ -15,24 +15,24 @@
         %h4 Hero Splash
         %dl.definition{id: "definition-hero-splash"}
           %dt Large, backgrounded content for page headers
-          %dd= partial :"elements/biggest/hero_splash"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_hero_splash" }
       .category
         %h4 Hero
         %dl.definition{id: "definition-hero"}
           %dt Large, backgrounded content. Can be anywhere
-          %dd= partial :"elements/biggest/hero"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_hero" }
       .category
         %h4 Slider
         %dl.definition{id: "definition-slider"}
           %dt Repeated similar content
-          %dd= partial :"elements/biggest/slider"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_slider" }
       .category
         %h4 Half Slider
         %dl.definition{id: "definition-half-slider"}
           %dt ???
-          %dd= partial :"elements/biggest/half_slider"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_half_slider" }
       .category
         %h4 Two-up Video
         %dl.definition{id: "definition-article"}
           %dt Responsive Videos. Note the wrapper.
-          %dd= partial :"elements/biggest/two_up_video"
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_two_up_video" }
