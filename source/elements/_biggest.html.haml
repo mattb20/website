@@ -9,7 +9,9 @@
         %a.definition-link{href: "#definition-hero"} Hero
         %a.definition-link{href: "#definition-slider"} Slider
         %a.definition-link{href: "#definition-half-slider"} Half Slider
+        %a.definition-link{href: "#definition-three-width-copy"} Three-width Copy
         %a.definition-link{href: "#definition-three-width-fixtures"} Three-width Fixtures
+        %a.definition-link{href: "#definition-five-width-fixtures"} Five-width Fixtures
         %a.definition-link{href: "#definition-two-up-video"} Two-up Video
     %article
       .category
@@ -33,10 +35,20 @@
           %dt ???
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_half_slider" }
       .category
+        %h4 Three-width Copy
+        %dl.definition{id: "definition-three-width-copy"}
+          %dt Three-wide header & text
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_three_width_copy" }
+      .category
         %h4 Three-width Fixtures
         %dl.definition{id: "definition-three-width-fixtures"}
           %dt Three-wide image-and-text, with optional CTA
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_three_width_fixtures" }
+      .category
+        %h4 Five-width Fixtures
+        %dl.definition{id: "definition-five-width-fixtures"}
+          %dt Five-wide images, with optional CTA (no text)
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_five_width_fixtures" }
       .category
         %h4 Two-up Video
         %dl.definition{id: "definition-article"}
