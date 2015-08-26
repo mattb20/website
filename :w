@@ -1,8 +1,0 @@
-h3.deprecated-browser-warning {
-  background-color: red;
-  z-index: 1000;
-  text-align: center;
-  position: fixed;
-  color: white;
-  width: 100%;
-}
