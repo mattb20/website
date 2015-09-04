@@ -28,7 +28,9 @@
           = link_to "Payment Options", "/payment.html", class: "button button--horizontal"
           = link_to "Apply", config.apply_form_url, class: "button button--vertical button--large"
           = link_to "Hire Graduates", "/employers.html", class: "button button--horizontal"
-
+        %p
+          Can't join us on a course in London? You might be interested in our online course -
+          = link_to "Makers Academy Remote - code-named Ronin", "http://ronin.makersacademy.com", target: "_blank"
 - else
 
   %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
@@ -50,3 +52,6 @@
             = link_to "See Our Curriculum", "/curriculum.html", class: "button button--horizontal"
           - else
             = link_to "Learn More", "/about-us.html", class: "button button--horizontal"
+        %p
+          Can't join us on a course in London? You might be interested in our online course -
+          = link_to "Makers Academy Remote - code-named Ronin", "http://ronin.makersacademy.com", target: "_blank"
