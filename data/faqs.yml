@@ -49,29 +49,11 @@
   Having said that, if you do already have some coding experience, even if you only went through a few introductory tutorials, this will be to your advantage. We recommend the following resources to get started as a web developer, regardless of whether you want to join Makers Academy or not:
 
 
-    * <a href='http://learnrubythehardway.org/book/intro.html' target='_blank'>Interested in learning Ruby, or finding out if you'd enjoy coding? This is an excellent place to start</a>
+    * <a href='http://www.codecademy.com/tracks/ruby' target='_blank'>Never seen Ruby before? Try out Ruby on Codecademy</a>
 
-    * <a href='https://rubymonk.com/learning/books/1-ruby-primer/chapters/6-objects/lessons/35-introduction-to-objects' target='_blank'>Didn't enjoy the style of the last link? This is another brilliant site for learning the basics of Ruby</a>
+    * <a href='http://learnrubythehardway.org/book/intro.html' target='_blank'>Done Codecademy already? Push yourself a little further with this book</a>
 
-    * <a href='http://cli.learncodethehardway.org/book/' target='_blank'>Learn Command Line the Hard Way</a>
-
-    * <a href='http://www.ee.surrey.ac.uk/Teaching/Unix/' target='_blank'>Unix for beginners</a>
-
-    * <a href='http://www.codecademy.com/tracks/ruby' target='_blank'>Ruby on Codecademy</a>
-
-    * <a href='http://learn-rails.com/learn-ruby-on-rails.html' target='_blank'>Learn Ruby on Rails</a>
-
-    * <a href='http://www.rubyonrailstutor.com/' target='_blank'>Ruby on Rails tutor (remote pairing with an expert developer)</a>
-
-    * <a href='https://www.railstutorial.org/' target='_blank'>The famous Hartl's Ruby on Rails tutorial</a>
-
-    * <a href='http://guides.rubyonrails.org/getting_started.html' target='_blank'>Official Ruby on Rails documentation</a>
-
-    * <a href='http://gitimmersion.com/' target='_blank'>Git Immersion tutorial</a>
-
-    * <a href='http://git-scm.com/documentation' target='_blank'>Official Git documentation</a>
-
-    * <a href='https://www.codeschool.com/courses/try-git' target='_blank'>TryGit on CodeSchool</a>"
+    * <a href='https://rubymonk.com/learning/books/1-ruby-primer/chapters/6-objects/lessons/35-introduction-to-objects' target='_blank'>Didn't enjoy the style of the last link? This is another brilliant site for learning the basics of Ruby</a>"
 
     - question: What’s the best way to prepare for the interview?
       answer: "The interview is designed to test how you think, rather than what you know, but going through ‘Learn to Program’ by Chris Pine or the ‘Ruby Essentials’ course on <a href='http://www.lynda.com/' target='_blank'>lynda.com</a> will put you in a great position when it comes to the pair programming part of the interview."
