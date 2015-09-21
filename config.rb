@@ -78,11 +78,12 @@ redirect "student-projects.html", to: "graduates.html"
 redirect "graduate-stories.html", to: "graduates.html"
 redirect "testimonials.html", to: "graduates.html"
 redirect "alumni.html", to: "graduates.html"
-redirect "network.html", to: "partners.html"
+redirect "network.html", to: "employers.html"
 redirect "payment-plans.html", to: "payment.html"
 redirect "jobs.html", to: "join-the-team.html"
 redirect "blog.html", to: "http://blog.makersacademy.com"
 redirect "payments.html", to: "payment.html"
+redirect "partners.html", to: "employers.html"
 
 configure :development do
   activate :livereload
