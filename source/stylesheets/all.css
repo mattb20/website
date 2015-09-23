@@ -1024,6 +1024,20 @@ figure.with-caption {
     height: 100%;
     width: 100%; }
 
+p.deprecated-browser-warning {
+  background-color: #AA1925;
+  z-index: 1000;
+  position: fixed;
+  color: white;
+  height: 160px;
+  width: 100%;
+  margin-top: -10px;
+  padding: 120px 0 0 10px;
+  font-size: 24px; }
+
+p.deprecated-browser-warning a {
+  color: #003340; }
+
 .mobile-navigation {
   width: 100%;
   left: 100%;
@@ -1262,6 +1276,9 @@ hr {
 
 .vertical-center {
   vertical-align: middle !important; }
+
+p.deprecated-browser-warning {
+  display: none; }
 
 .centered-row, footer .footer-copyright {
   display: table;
@@ -1653,6 +1670,8 @@ footer {
       line-height: inherit; }
       footer .footer-links address span {
         font-size: 0.75019rem; }
+      footer .footer-links address .fn {
+        display: none; }
       footer .footer-links address .tel {
         font-size: 1rem; }
   footer .footer-logos {
