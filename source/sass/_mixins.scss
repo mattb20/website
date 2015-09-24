@@ -84,12 +84,18 @@
   }
 }
 
-@mixin ma-font-size($step) {
+@mixin ma-font-size($step, $lineheight: true) {
   $font-size: modular-scale($step);
   $lines: ceil(strip-units($font-size / $base-line-height));
 
   font-size: $font-size;
-  line-height: $lines * $base-line-height;
+  @if $lineheight {
+    line-height: $lines * $base-line-height;
+  }
+}
+
+@mixin ma-line-height($step) {
+  line-height: strip-units(modular-scale($step)) * $base-line-height;
 }
 
 @mixin border-after {
