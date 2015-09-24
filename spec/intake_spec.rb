@@ -35,6 +35,22 @@ describe Intake do
     expect(intake.precourse_start_date).to eq(precourse_start_date)
   end
 
+  context "when there is a custom pre course start date" do
+
+    let(:future_intake) do
+      {
+        "start_date" => "12th October 2015",
+        "end_date" => "15th January 2016",
+        "precourse_start_date" => "20th April 2015"
+      }
+    end
+
+    it "calculates the pre course start date" do
+      precourse_start_date = Date.parse(future_intake["precourse_start_date"])
+      expect(intake.precourse_start_date).to eq(precourse_start_date)
+    end
+  end
+
 
   describe "Finding intakes" do
 
