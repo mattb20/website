@@ -17,7 +17,7 @@
       answer: "Paul Graham, the tech startup visionary behind <a href='https://www.ycombinator.com/' target='_blank'>YCombinator</a> coined the term Maker for those individuals that truly produce. The Makers Academy mission is to give every student the skills to call themselves a Maker."
 
     - question: Where does Makers Academy take place?
-      answer: "Makers Academy officially runs 9am to 6pm, Monday to Friday at the Makers Academy studio in Shoreditch at 50-52 Commercial St – right at the centre of the tech startup community, a few minutes away from Shoreditch High Street station and Google Campus. We welcome anyone who wants to come visit and see how we operate."
+      answer: "Makers Academy officially runs 9am to 6pm, Monday to Friday at the Makers Academy studio in Shoreditch at 50-52 Commercial St – right at the centre of the tech startup community, a few minutes away from Shoreditch High Street station and Google Campus. We welcome anyone who wants to <a href='http://www.calendly.com/ollieporter/15min' target='_blank'>arrange a visit</a>to see how we operate."
 
     - question: Can I really learn to program in 12 weeks?
       answer: "Absolutely. Programming expertise takes years to master, but that's not the point of Makers Academy. We want to give you a foundation so that you can be a top candidate for an entry-level position at a world class startup or technology company. Whether you're looking to change careers or you want to start your own startup but can't find a technical co-founder, Makers Academy is for you. To learn more about the underlying research, see this essay on <a href='http://www.startuprob.com/learn-to-code/' target='_blank'>Why Learning to Code is So Hard</a>."
@@ -30,6 +30,9 @@
 
     - question: How long has the service been running?
       answer: "The company was formed in November 2012, and we ran our first course in February 2013."
+
+    - question: Can I come to see you?
+      answer: "Of course. Our doors are open for anyone to come and visit. Book an appointment with Ollie <a href='http://www.calendly.com/ollieporter/15min' target='_blank'>here</a>."
 
 - category_name: Applying to Makers
   faqs:
@@ -46,29 +49,11 @@
   Having said that, if you do already have some coding experience, even if you only went through a few introductory tutorials, this will be to your advantage. We recommend the following resources to get started as a web developer, regardless of whether you want to join Makers Academy or not:
 
 
-    * <a href='http://learnrubythehardway.org/book/intro.html' target='_blank'>Interested in learning Ruby, or finding out if you'd enjoy coding? This is an excellent place to start</a>
+    * <a href='http://www.codecademy.com/tracks/ruby' target='_blank'>Never seen Ruby before? Try out Ruby on Codecademy</a>
 
-    * <a href='https://rubymonk.com/learning/books/1-ruby-primer/chapters/6-objects/lessons/35-introduction-to-objects' target='_blank'>Didn't enjoy the style of the last link? This is another brilliant site for learning the basics of Ruby</a>
+    * <a href='http://learnrubythehardway.org/book/intro.html' target='_blank'>Done Codecademy already? Push yourself a little further with this book</a>
 
-    * <a href='http://cli.learncodethehardway.org/book/' target='_blank'>Learn Command Line the Hard Way</a>
-
-    * <a href='http://www.ee.surrey.ac.uk/Teaching/Unix/' target='_blank'>Unix for beginners</a>
-
-    * <a href='http://www.codecademy.com/tracks/ruby' target='_blank'>Ruby on Codecademy</a>
-
-    * <a href='http://learn-rails.com/learn-ruby-on-rails.html' target='_blank'>Learn Ruby on Rails</a>
-
-    * <a href='http://www.rubyonrailstutor.com/' target='_blank'>Ruby on Rails tutor (remote pairing with an expert developer)</a>
-
-    * <a href='https://www.railstutorial.org/' target='_blank'>The famous Hartl's Ruby on Rails tutorial</a>
-
-    * <a href='http://guides.rubyonrails.org/getting_started.html' target='_blank'>Official Ruby on Rails documentation</a>
-
-    * <a href='http://gitimmersion.com/' target='_blank'>Git Immersion tutorial</a>
-
-    * <a href='http://git-scm.com/documentation' target='_blank'>Official Git documentation</a>
-
-    * <a href='https://www.codeschool.com/courses/try-git' target='_blank'>TryGit on CodeSchool</a>"
+    * <a href='https://rubymonk.com/learning/books/1-ruby-primer/chapters/6-objects/lessons/35-introduction-to-objects' target='_blank'>Didn't enjoy the style of the last link? This is another brilliant site for learning the basics of Ruby</a>"
 
     - question: What’s the best way to prepare for the interview?
       answer: "The interview is designed to test how you think, rather than what you know, but going through ‘Learn to Program’ by Chris Pine or the ‘Ruby Essentials’ course on <a href='http://www.lynda.com/' target='_blank'>lynda.com</a> will put you in a great position when it comes to the pair programming part of the interview."
@@ -133,7 +118,7 @@
       answer: "We do touch on Agile working methodologies and even some Lean Startup principles, but this isn’t the main focus of the course, nor is design. You will learn some basic principles in all these areas, but this is primarily a course where you will learn to code."
 
     - question: How satisfied are students after completing the program?
-      answer: "Our Net Promoter Score (as decided by feedback from Graduating Students over the past year) is 9.3. The highest you can get is a 10, and anything above 5 is considered to be ‘Excellent’."
+      answer: "Our Net Promoter Score (as decided by feedback from Graduating Students over the past year) is 93. The highest you can get is a 100, and anything above 50 is considered to be ‘Excellent’."
 
     - question: What is the drop out rate/failure of the course?
       answer: "Out of around 350 students so far we have had around 25 drop out, for various reasons. We have an application/interview process at Makers Academy that is designed to only accept people who are serious about learning to code, but we can’t always get it right!"

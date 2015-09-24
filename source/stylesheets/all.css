@@ -622,6 +622,71 @@ dl {
   dl dd {
     margin: 0; }
 
+.definition-row {
+  display: inline-block;
+  position: relative; }
+  @media screen and (min-width: 1024px) {
+    .definition-row aside {
+      display: table-cell;
+      width: 33.33333%; } }
+  .definition-row aside .definition-links {
+    -webkit-transition: padding 0.2s ease-in-out;
+    -moz-transition: padding 0.2s ease-in-out;
+    transition: padding 0.2s ease-in-out; }
+    @media screen and (min-width: 1024px) {
+      .definition-row aside .definition-links {
+        padding-top: 0;
+        width: 16.66667em; } }
+    .definition-row aside .definition-links a {
+      text-decoration: none; }
+  .definition-row aside .definition-link {
+    display: block;
+    outline: none;
+    padding: 0.42219rem 0; }
+    .definition-row aside .definition-link:first-child {
+      padding-top: 0; }
+    .definition-row aside .definition-link:last-child {
+      margin-bottom: 1.5rem; }
+    @media screen and (min-width: 1024px) {
+      .definition-row aside .definition-link {
+        text-align: right;
+        margin-right: 1.5rem; } }
+  .definition-row .definition {
+    text-align: left; }
+    .definition-row .definition:last-child {
+      margin-bottom: 2.36859rem; }
+  @media screen and (min-width: 1024px) {
+    .definition-row .fixed-top {
+      position: fixed;
+      top: 3.15733rem;
+      padding-top: 3.15733rem !important; }
+    .definition-row .fixed-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0; } }
+  .definition-row article h4 {
+    margin: 0 0 0.5em 0;
+    text-align: left; }
+  .definition-row article p {
+    color: #444;
+    line-height: 1.5rem; }
+  .definition-row article .question p {
+    margin-bottom: 2em;
+    text-align: left; }
+  .definition-row article .question ul {
+    list-style-type: disc;
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    text-align: left;
+    margin-bottom: 2em; }
+  .definition-row article .question:last-of-type p {
+    margin-bottom: 0; }
+  @media screen and (min-width: 1024px) {
+    .definition-row article {
+      display: table-cell;
+      width: 66.66667%;
+      vertical-align: top; } }
+
 table {
   -webkit-font-feature-settings: "kern", "liga", "tnum";
   -moz-font-feature-settings: "kern", "liga", "tnum";
@@ -787,6 +852,10 @@ h4 {
       margin-top: 0; }
   h4.alt-color {
     color: #AA1925; }
+
+.header-container {
+  display: table-cell;
+  vertical-align: middle; }
 
 p {
   margin: 0 0 1.5rem;
@@ -954,6 +1023,20 @@ figure.with-caption {
     left: 0px;
     height: 100%;
     width: 100%; }
+
+p.deprecated-browser-warning {
+  background-color: #AA1925;
+  z-index: 1000;
+  position: fixed;
+  color: white;
+  height: 160px;
+  width: 100%;
+  margin-top: -10px;
+  padding: 120px 0 0 10px;
+  font-size: 24px; }
+
+p.deprecated-browser-warning a {
+  color: #003340; }
 
 .mobile-navigation {
   width: 100%;
@@ -1194,6 +1277,9 @@ hr {
 .vertical-center {
   vertical-align: middle !important; }
 
+p.deprecated-browser-warning {
+  display: none; }
+
 .centered-row, footer .footer-copyright {
   display: table;
   width: 100%;
@@ -1381,18 +1467,20 @@ hr {
       display: table-cell;
       width: 33.33333%; } }
   .three-width-row .column {
-    padding: 0 1.77689rem; }
+    padding: 1.77689rem; }
     .three-width-row .column img {
       width: 70%;
       margin-bottom: 1.333rem; }
-    .three-width-row .column:nth-child(2) {
-      margin-bottom: 1.77689rem; }
-  @media screen and (min-width: 1024px) {
-    .three-width-row .column img {
-      width: 100%;
+    .three-width-row .column:last-of-type {
       margin-bottom: 0; }
-    .three-width-row .column:nth-child(2) {
-      margin-bottom: 0; } }
+  @media screen and (min-width: 1024px) {
+    .three-width-row .column {
+      margin-bottom: 0; }
+      .three-width-row .column img {
+        width: 100%;
+        margin-bottom: 0; }
+      .three-width-row .column:last-of-type {
+        margin-bottom: 0; } }
 
 .four-width-row {
   display: table;
@@ -1446,67 +1534,20 @@ hr {
     left: auto;
     width: 1px;
     height: auto; } }
+.row-with-borders + .row-with-borders .column:first-of-type:before {
+  content: "";
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 1px;
+  height: 1px;
+  background-color: #ddd; }
+@media screen and (min-width: 1024px) {
+  .row-with-borders + .row-with-borders .column:first-of-type:before {
+    display: none; } }
 
 .backgrounded .row-with-borders .column:after, .hero .row-with-borders .column:after, .hero-splash .row-with-borders .column:after, .hero-small .row-with-borders .column:after, .hero--apply .row-with-borders .column:after {
   background-color: rgba(255, 255, 255, 0.6); }
-
-.faq-row {
-  display: inline-block;
-  position: relative; }
-  @media screen and (min-width: 1024px) {
-    .faq-row aside {
-      display: table-cell;
-      width: 33.33333%; } }
-  @media screen and (min-width: 1024px) {
-    .faq-row aside .faq-links {
-      padding-top: 3.15733rem;
-      width: 16.66667em; } }
-  .faq-row aside .faq-links a {
-    text-decoration: none; }
-  .faq-row aside .faq-link {
-    display: block;
-    outline: none;
-    padding: 0.42219rem 0; }
-    .faq-row aside .faq-link:last-child {
-      margin-bottom: 1.5rem; }
-    @media screen and (min-width: 1024px) {
-      .faq-row aside .faq-link {
-        text-align: right;
-        margin-right: 1.5rem; } }
-  .faq-row .faq {
-    text-align: left; }
-    .faq-row .faq:last-child {
-      margin-bottom: 2.36859rem; }
-  @media screen and (min-width: 1024px) {
-    .faq-row .fixed-top {
-      position: fixed;
-      top: 3.15733rem; }
-    .faq-row .fixed-bottom {
-      position: absolute;
-      bottom: 0;
-      left: 0; } }
-  .faq-row article h4 {
-    margin: 0 0 0.5em 0;
-    text-align: left; }
-  .faq-row article p {
-    color: #444;
-    line-height: 1.5rem; }
-  .faq-row article .question p {
-    margin-bottom: 2em;
-    text-align: left; }
-  .faq-row article .question ul {
-    list-style-type: disc;
-    margin-bottom: 1.5rem;
-    padding-left: 1.5rem;
-    text-align: left;
-    margin-bottom: 2em; }
-  .faq-row article .question:last-of-type p {
-    margin-bottom: 0; }
-  @media screen and (min-width: 1024px) {
-    .faq-row article {
-      display: table-cell;
-      width: 66.66667%;
-      vertical-align: top; } }
 
 .image-grid-row {
   display: block;
@@ -1629,6 +1670,8 @@ footer {
       line-height: inherit; }
       footer .footer-links address span {
         font-size: 0.75019rem; }
+      footer .footer-links address .fn {
+        display: none; }
       footer .footer-links address .tel {
         font-size: 1rem; }
   footer .footer-logos {
@@ -1862,7 +1905,7 @@ footer {
     .article article *:last-child, .article--left article *:last-child, .article--centered article *:last-child, .article--right article *:last-child {
       margin-bottom: 1.5rem;
       padding-bottom: 0; }
-    .article article h1, .article--left article h1, .article--centered article h1, .article--right article h1, .article article h2, .article--left article h2, .article--centered article h2, .article--right article h2, .article article h3, .article--left article h3, .article--centered article h3, .article--right article h3 {
+    .article article h1, .article--left article h1, .article--centered article h1, .article--right article h1, .article article h2, .article--left article h2, .article--centered article h2, .article--right article h2, .article article h3, .article--left article h3, .article--centered article h3, .article--right article h3, .article article h4, .article--left article h4, .article--centered article h4, .article--right article h4 {
       text-align: center; }
     .article article .subheader, .article--left article .subheader, .article--centered article .subheader, .article--right article .subheader {
       font-size: 1.333rem;
@@ -1949,6 +1992,9 @@ footer {
 
 .small-padding-top {
   padding-top: 1.5rem !important; }
+
+.no-margin-bottom {
+  margin-bottom: 0px !important; }
 
 #doorbell-button {
   font-size: 18px;

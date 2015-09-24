@@ -1,7 +1,7 @@
 activate :dotenv
 # This is the website version registered in Mixpanel
 # It should match the minor version (e.g. 2.1) of the website
-set :website_version, 2.2
+set :website_version, 2.3
 
 Dir["lib/*.rb"].each { |file| require file }
 
@@ -50,8 +50,7 @@ helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper, PossessiveHelper,
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do | grad |
   if grad[:case_study]
-    full_name = "#{grad[:first_name]} #{grad[:last_name]}"
-    url_slug = slug(full_name)
+    url_slug = graduate_slug(grad)
     proxy "/case-studies/#{url_slug}.html", "/case-studies/template.html", locals: { grad: grad }, ignore: true
   end
 end
@@ -79,10 +78,12 @@ redirect "student-projects.html", to: "graduates.html"
 redirect "graduate-stories.html", to: "graduates.html"
 redirect "testimonials.html", to: "graduates.html"
 redirect "alumni.html", to: "graduates.html"
-redirect "network.html", to: "partners.html"
+redirect "network.html", to: "employers.html"
 redirect "payment-plans.html", to: "payment.html"
 redirect "jobs.html", to: "join-the-team.html"
-
+redirect "blog.html", to: "http://blog.makersacademy.com"
+redirect "payments.html", to: "payment.html"
+redirect "partners.html", to: "employers.html"
 
 configure :development do
   activate :livereload
@@ -147,5 +148,3 @@ configure :build do
       /^tmp\//
     ]
 end
-
-

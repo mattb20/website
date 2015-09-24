@@ -1,6 +1,6 @@
 {
   "name": "makers_styles",
-  "version": "2.3.3",
+  "version": "2.3.6",
   "authors": [
     "Makers Engineering <dev@makersacademy.com>"
   ],
@@ -15,8 +15,7 @@
     "!source/sass/**",
     "!source/fonts/**",
     "!source/images/**",
-    "!source/javascripts/**",
-    "!data/**"
+    "!source/javascripts/**"
   ],
   "dependencies": {}
 }

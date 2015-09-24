@@ -2,41 +2,29 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %h1 Learn to code in 12 weeks
-      %p Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over 300 students into their dream jobs as junior developers.
+      %h1 Become your own cto
+      %h4.subheader learn to code in 12 weeks
+
+      %P Have you ever dreamed of starting your own business? Or maybe you're already a business owner and want to create your company's website yourself to ensure that your vision becomes a reality? Become involved in every aspect of your business and learn the most essential skill of the future: coding! We've helped many entrepreneurs take complete control over the technical aspects of their company and we can help do the same for you.
     = partial :"email-capture"
 
-%section.half-slider
-  .container
-    .half-slider-row
-      .column
-        .copy.copy--left
-          %h4.leader Meet
-          %h2 Our Grads
-          %p Our graduates come from all walks of life, and leave as trained software craftspeople. We're highly selective; a place at Makers Academy will greatly improve your chances of success in the rapidly-moving world of software engineering.
-          .button-row.shift-to-bottom
-            %p
-              = link_to "Read Grad Stories", "/graduates.html", class: "button button--horizontal"
-      .column
-        = partial :"preview_graduates"
+%section
+  .article--centered
+    %article
+      %h3 Why learn to code before launching your business?
+      %p You could have the greatest idea in your head but if you can’t execute it, it’s meaningless. Trying to find a technical co-founder to help build your idea is hard and outsourcing your development work is risky business.
+      %p In today's technology-driven world, knowing the ins and outs of web development could mean the difference between success and failure for companies. Save time, money and stress by learning how to build your own projects for your entrepreneurial ventures
+%hr
 
-%section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
-  .container
-    .centered-row
-      %h4.leader Meet
-      %h2 Our hiring partners
-      %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to bring their ideas to life.
-    .three-width-row
-      .column
-        .image--centered
-          = image_tag "hiring-partners/Atos.png"
-        .image--centered
-          = image_tag "hiring-partners/compare-the-market.png"
-      .column
-        = link_to "Learn about Partners", "/employers.html", class: "button button--horizontal"
-      .column
-        = image_tag "hiring-partners/Deloitte-Digital.png"
-        = image_tag "hiring-partners/just-giving.png"
+%section.no-padding-top.no-min-height
+  .article--centered
+    %article
+      %h3 This could be you
+      %p Our graduates have gone on to build successful businesses, been accepted into accelerators, and secured further funding. Read their stories below.
+
+= partial :"full_graduates", locals: { category: "entrepreneur" }
+%hr
+
 
 %section.half-slider.half-slider--reverse.with-padding
   .container
@@ -48,7 +36,7 @@
           %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a junior developer.
           .button-row.shift-to-bottom
             %p
-              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button--horizontal"
       .column
         .slider
           .slide
@@ -78,15 +66,12 @@
           %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.
           .button-row
             %p
-              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
-
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button--horizontal"
 %hr
-
 = partial :"benefits_table"
 
 = partial :"apply"
 
-/ Mixpanel event for visiting homepage
+/ Mixpanel event for landing page
 :javascript
-  mixpanel.track('Viewed homepage');
-  mixpanel.people.increment('Viewed homepage');
+  mixpanel.track('Viewed Entrepreneurs Landing Page');

@@ -11,6 +11,7 @@
 // bower_components/makers_styles/source/javascripts/vendor/slick.js
 // bower_components/makers_styles/source/javascripts/vendor/retina.min.js
 // bower_components/makers_styles/source/javascripts/vendor/jquery.ajaxchimp.js
+// bower_components/makers_styles/source/javascripts/vendor/baseliner.js
 // bower_components/makers_styles/source/javascripts/mixpanel-email-capture.js
 // bower_components/makers_styles/source/javascripts/navigation.js
 // bower_components/makers_styles/source/javascripts/jquery.fixedscroll.js

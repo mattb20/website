@@ -10,8 +10,9 @@
         %h1= "#{grad[:first_name]} #{grad[:last_name]}"
         %h4.subheader= grad[:summary]
         %blockquote= grad[:testimonial]
-      .image.hide-desktop.no-padding
-        = image_tag("graduates/#{grad[:image]}")
+        - next_grad = next_graduate(grad)
+        .image.hide-desktop.no-padding
+          = image_tag("graduates/#{grad[:image]}")
 %hr
 
 %section.no-padding-top
@@ -21,6 +22,8 @@
         - grad[:case_study].each do | qa |
           %dt= qa[:question]
           %dd= markdown qa[:answer]
+    .button-row
+      = link_to "Next Story", "/case-studies/#{graduate_slug(next_grad)}", class: "button--horizontal"
 
 = partial :"apply"
 

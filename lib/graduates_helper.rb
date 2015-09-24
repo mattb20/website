@@ -7,6 +7,11 @@ module GraduatesHelper
     end
   end
 
+  def next_graduate(current_graduate)
+    index = graduates.find_index { |graduate| graduate == current_graduate }
+    graduates[index.next % graduates.count]
+  end
+
   private
 
   def find_graduates_by(category)
@@ -18,4 +23,5 @@ module GraduatesHelper
   def graduates
     data.graduates
   end
+
 end
