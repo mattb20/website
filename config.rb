@@ -125,10 +125,6 @@ configure :build do
 
   set :show_baseline_grid, false
 
-  ignore 'elements.html.haml'
-  ignore 'typography.html.haml'
-  ignore 'form-styles.html.haml'
-
   #Filewatcher ignore list
   set :file_watcher_ignore,[
       /^bin(\/|$)/,
