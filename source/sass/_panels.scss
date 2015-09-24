@@ -31,7 +31,6 @@
 
 .panel--success {
   background-color: $success;
-  border-top: $base-spacing solid white;
   border-bottom: 3px solid darken($success, 20%);
   p {
     color: darken($success, 60%);
@@ -46,7 +45,6 @@
 
 .panel--alert {
   background-color: $warning;
-  border-top: $base-spacing solid white;
   border-bottom: 3px solid darken($warning, 20%);
   p {
     color: darken($warning, 60%);
