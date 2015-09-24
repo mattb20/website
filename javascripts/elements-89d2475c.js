@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=($(".element"),$(".tab-content--code code"));$.each(e,function(e,n){var c=n.innerHTML,t=c.match(/ {4,}/g)[1].length-2,a=new RegExp(" {"+t+"}","g"),o=c.replace(a,"");n.innerHTML=o})});

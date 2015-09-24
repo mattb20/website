@@ -48,7 +48,7 @@
     <link href='http://assets.makersacademy.com/images/favicons/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
     <script src="/javascripts/hooks-da39a3ee.js" type="text/javascript"></script>
   </head>
-  <body class='case-studies case-studies_george-mcgowan case-studies_george-mcgowan_index'>
+  <body class='test test_index'>
     <!-- Google Tag Manager -->
     <noscript>
       <iframe height='0' src='//www.googletagmanager.com/ns.html?id=GTM-NLC4HV' style='display:none;visibility:hidden' width='0'></iframe>
@@ -128,86 +128,34 @@
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
     </script>
-    <!-- Case Study Template -->
-    <section class='no-padding-bottom'>
-      <div class='container'>
-        <div class='profile-row'>
-          <div class='image show-desktop'>
-            <img src="http://assets.makersacademy.com/images/graduates/george.jpg" />
-          </div>
-          <div class='copy'>
-            <h4 class='leader'>Case Study</h4>
-            <h1>George McGowan</h1>
-            <h4 class='subheader'>Operations and Finance Intern to Junior Developer at Deloitte Digital</h4>
-            <blockquote>Makers Academy was exhausting but rewarding.</blockquote>
-            <div class='image hide-desktop no-padding'>
-              <img src="http://assets.makersacademy.com/images/graduates/george.jpg" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <hr>
-    <section class='no-padding-top'>
-      <div class='article--centered'>
-        <article>
-          <dl>
-            <dt>What were you doing before joining Makers Academy?</dt>
-            <dd><p>I was working in Operations and Finance as an intern for a charity in Oxford.</p></dd>
-            <dt>What made you want to start learning to code in the first place?</dt>
-            <dd><p>A lot of my friends are coders and they thought it would be something I'd be good at so I tried it out and it made me want to learn more.</p></dd>
-            <dt>How did you come across Makers Academy and what made you decide to apply to the programming course?</dt>
-            <dd><p>I looked at ways of learning to code and thought a bootcamp was for me and it seemed like Makers was the best one so I applied.</p></dd>
-            <dt>What did you find difficult during the course?</dt>
-            <dd><p>I found the pace of learning difficult and also the state of not knowing what to do most the time was also quite demotivating. It was just as hard as I expected it to be.</p></dd>
-            <dt>What happened during/after graduation and where are you job-wise?</dt>
-            <dd><p>I started applying to jobs straight away. Most the jobs I applied to were through Makers. I got one job offer fairly quickly but I rejected it. I had other rejections and I applied to Deloitte and although I got rejected first time around, I was given a second chance and got accepted.</p></dd>
-            <dt>How has your life changed since graduation?</dt>
-            <dd><p>I have a new job!</p></dd>
-            <dt>What advice would you give to people thinking of changing career?</dt>
-            <dd><p>Just think about it carefully and do some coding and see if you like it day to day.</p></dd>
-            <dt>What would you say to people who say £8,000 is very expensive?</dt>
-            <dd><p>It is expensive but it's a good investment. I don't think I would have been able to get my current job and salary for a while without doing this course.</p></dd>
-            <dt>What was your biggest worry before joining Makers Academy and how do you feel about it now?</dt>
-            <dd><p>Biggest worry was that I would not get a job but I got a job! I was also worried I would not like coding but I do!</p></dd>
-            <dt>Sum up your Makers Academy experience</dt>
-            <dd><p>Exhausting but rewarding.</p></dd>
-            <dt>What advice would you give to people interviewing for developer roles?</dt>
-            <dd><p>Spend a lot of time on your tech test and during interviews learn about the company and the space they are working in. Try to learn beyond Makers and just keep learning!</p></dd>
-          </dl>
-        </article>
-        <div class='button-row'>
-          <a class="button--horizontal" href="/case-studies/bibiana-cristfol">Next Story</a>
-        </div>
-      </div>
-    </section>
-    <section class='hero--apply' style='background-image: url(http://assets.makersacademy.com/images/backgrounds/postit-wall.jpg);'>
-      <div class='container'>
-        <div class='centered-row'>
-          <div class='column'>
-            <h2>Apply Now</h2>
-            <p>The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options.</p>
-          </div>
-        </div>
-        <div class='button-row'>
-          <p>
-            <a class="button button--horizontal" href="/payment/">Payment Options</a>
-            <a class="button button--vertical button--large" href="https://apply.makersacademy.com">Apply</a>
-            <a class="button button--horizontal" href="/about-us/">Learn More</a>
-          </p>
-        </div>
-        <div class='centered-row'>
-          <div class='column'>
-            <p>
-              Can't join us on a course in London? You might be interested in our online course - Makers Academy Remote: code-named Ronin.
-            </p>
-          </div>
-        </div>
-        <div class='button-row'>
-          <p><a target="_blank" class="button button--horizontal" href="http://ronin.makersacademy.com">Check out Ronin</a></p>
-        </div>
-      </div>
-    </section>
+    <pre>
+      <div>%section.article--centered
+      %article
+        %h4.leader Article Leader
+        %h2 Article Header
+        %h4.subheader Article Subheader
+        %p.author by Article Author
+        %p.date 30 Mar 2014
+        %p
+          %span A short all-caps start that
+          neatly segues into article content.
+          =lorem.sentences(5)
+          If this is an excerpt, you might have the followi...
+          %a.read-more{:href => "javascript:void(0)"}
+            Read More
+        %h3 
+          Subheadings are made of
+          %code h3
+          tags
+        %p
+          %span Over-use of caps makes you look
+          like you're trying to be more important than you actually are. 
+          Just the first line of the article is enough.
+          =lorem.sentences(4)
+        %hr/
+        %p.author Author Name
+        %hr/</div>
+    </pre>
     <footer role='contentinfo'>
       <div class='container'>
         <div class='footer-links'>

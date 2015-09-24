@@ -48,7 +48,7 @@
     <link href='http://assets.makersacademy.com/images/favicons/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
     <script src="/javascripts/hooks-da39a3ee.js" type="text/javascript"></script>
   </head>
-  <body class='case-studies case-studies_george-mcgowan case-studies_george-mcgowan_index'>
+  <body class='form-styles form-styles_index'>
     <!-- Google Tag Manager -->
     <noscript>
       <iframe height='0' src='//www.googletagmanager.com/ns.html?id=GTM-NLC4HV' style='display:none;visibility:hidden' width='0'></iframe>
@@ -128,83 +128,198 @@
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
     </script>
-    <!-- Case Study Template -->
-    <section class='no-padding-bottom'>
+    <section class='hero' style='background-image: url(http://assets.makersacademy.com/images/backgrounds/student-concentrating.jpg);'>
       <div class='container'>
-        <div class='profile-row'>
-          <div class='image show-desktop'>
-            <img src="http://assets.makersacademy.com/images/graduates/george.jpg" />
-          </div>
-          <div class='copy'>
-            <h4 class='leader'>Case Study</h4>
-            <h1>George McGowan</h1>
-            <h4 class='subheader'>Operations and Finance Intern to Junior Developer at Deloitte Digital</h4>
-            <blockquote>Makers Academy was exhausting but rewarding.</blockquote>
-            <div class='image hide-desktop no-padding'>
-              <img src="http://assets.makersacademy.com/images/graduates/george.jpg" />
-            </div>
-          </div>
+        <div class='centered-row'>
+          <h1>Apply to Makers Academy</h1>
+          <p>Come and join us at Makers Academy and before you know it you'll be a coder!</p>
         </div>
       </div>
     </section>
-    <hr>
-    <section class='no-padding-top'>
-      <div class='article--centered'>
-        <article>
-          <dl>
-            <dt>What were you doing before joining Makers Academy?</dt>
-            <dd><p>I was working in Operations and Finance as an intern for a charity in Oxford.</p></dd>
-            <dt>What made you want to start learning to code in the first place?</dt>
-            <dd><p>A lot of my friends are coders and they thought it would be something I'd be good at so I tried it out and it made me want to learn more.</p></dd>
-            <dt>How did you come across Makers Academy and what made you decide to apply to the programming course?</dt>
-            <dd><p>I looked at ways of learning to code and thought a bootcamp was for me and it seemed like Makers was the best one so I applied.</p></dd>
-            <dt>What did you find difficult during the course?</dt>
-            <dd><p>I found the pace of learning difficult and also the state of not knowing what to do most the time was also quite demotivating. It was just as hard as I expected it to be.</p></dd>
-            <dt>What happened during/after graduation and where are you job-wise?</dt>
-            <dd><p>I started applying to jobs straight away. Most the jobs I applied to were through Makers. I got one job offer fairly quickly but I rejected it. I had other rejections and I applied to Deloitte and although I got rejected first time around, I was given a second chance and got accepted.</p></dd>
-            <dt>How has your life changed since graduation?</dt>
-            <dd><p>I have a new job!</p></dd>
-            <dt>What advice would you give to people thinking of changing career?</dt>
-            <dd><p>Just think about it carefully and do some coding and see if you like it day to day.</p></dd>
-            <dt>What would you say to people who say £8,000 is very expensive?</dt>
-            <dd><p>It is expensive but it's a good investment. I don't think I would have been able to get my current job and salary for a while without doing this course.</p></dd>
-            <dt>What was your biggest worry before joining Makers Academy and how do you feel about it now?</dt>
-            <dd><p>Biggest worry was that I would not get a job but I got a job! I was also worried I would not like coding but I do!</p></dd>
-            <dt>Sum up your Makers Academy experience</dt>
-            <dd><p>Exhausting but rewarding.</p></dd>
-            <dt>What advice would you give to people interviewing for developer roles?</dt>
-            <dd><p>Spend a lot of time on your tech test and during interviews learn about the company and the space they are working in. Try to learn beyond Makers and just keep learning!</p></dd>
-          </dl>
-        </article>
-        <div class='button-row'>
-          <a class="button--horizontal" href="/case-studies/bibiana-cristfol">Next Story</a>
-        </div>
-      </div>
-    </section>
-    <section class='hero--apply' style='background-image: url(http://assets.makersacademy.com/images/backgrounds/postit-wall.jpg);'>
-      <div class='container'>
-        <div class='centered-row'>
-          <div class='column'>
-            <h2>Apply Now</h2>
-            <p>The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options.</p>
-          </div>
-        </div>
-        <div class='button-row'>
-          <p>
-            <a class="button button--horizontal" href="/payment/">Payment Options</a>
-            <a class="button button--vertical button--large" href="https://apply.makersacademy.com">Apply</a>
-            <a class="button button--horizontal" href="/about-us/">Learn More</a>
-          </p>
-        </div>
-        <div class='centered-row'>
-          <div class='column'>
-            <p>
-              Can't join us on a course in London? You might be interested in our online course - Makers Academy Remote: code-named Ronin.
-            </p>
-          </div>
-        </div>
-        <div class='button-row'>
-          <p><a target="_blank" class="button button--horizontal" href="http://ronin.makersacademy.com">Check out Ronin</a></p>
+    <section>
+      <div class='container container--narrow'>
+        <div class='form-row'>
+          <form method='post'>
+            <fieldset>
+              <input name='course_type' type='hidden' value='Offline'>
+              <div class='input-row'>
+                <label class='required' for='first_name'>
+                  First name
+                </label>
+                <input id='first_name' name='first_name' required type='text'>
+              </div>
+              <div class='input-row'>
+                <label class='required' for='last_name'>
+                  Last name
+                </label>
+                <input id='last_name' name='last_name' required type='text'>
+              </div>
+              <div class='input-row'>
+                <label class='required' for='email'>
+                  Email address
+                </label>
+                <input id='email' name='email' required type='email'>
+              </div>
+              <div class='input-row'>
+                <label class='required' for='phone_number'>
+                  Phone number
+                </label>
+                <input id='phone_number' name='phone_number' required type='tel'>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>
+                <span>If accepted, which class would you like to attend?</span>
+              </legend>
+              <div class='radio-table-row'>
+                <table class='radio-table'>
+                  <thead>
+                    <tr>
+                      <th>&nbsp;</th>
+                      <th>Pre-Course Start</th>
+                      <th>Course Start</th>
+                      <th>Course End</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                  <tr class=''>
+                    <td>
+                      <input id='to_join_2015-10-12' name='to_join[]' required type='radio' value='2015-10-12'>
+                    </td>
+                    <td>
+                      2015-09-14
+                    </td>
+                    <td>
+                      <label for='to_join_2015-10-12'>
+                        2015-10-12
+                      </label>
+                    </td>
+                    <td>
+                      2016-01-15
+                    </td>
+                  </tr>
+                  <tr class=''>
+                    <td>
+                      <input id='to_join_2015-11-23' name='to_join[]' required type='radio' value='2015-11-23'>
+                    </td>
+                    <td>
+                      2015-10-26
+                    </td>
+                    <td>
+                      <label for='to_join_2015-11-23'>
+                        2015-11-23
+                      </label>
+                    </td>
+                    <td>
+                      2016-02-26
+                    </td>
+                  </tr>
+                  <tr class=''>
+                    <td>
+                      <input id='to_join_2016-01-18' name='to_join[]' required type='radio' value='2016-01-18'>
+                    </td>
+                    <td>
+                      2015-12-07
+                    </td>
+                    <td>
+                      <label for='to_join_2016-01-18'>
+                        2016-01-18
+                      </label>
+                    </td>
+                    <td>
+                      2016-04-08
+                    </td>
+                  </tr>
+                  <tr class=''>
+                    <td>
+                      <input id='to_join_2016-02-29' name='to_join[]' required type='radio' value='2016-02-29'>
+                    </td>
+                    <td>
+                      2016-02-01
+                    </td>
+                    <td>
+                      <label for='to_join_2016-02-29'>
+                        2016-02-29
+                      </label>
+                    </td>
+                    <td>
+                      2016-05-20
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>
+                <span>
+                  Let's talk a little bit more about you
+                </span>
+              </legend>
+              <div class='input-row'>
+                <label class='required' for='why_attend'>
+                  Why do you want to attend Makers Academy?
+                </label>
+                <p class='input-hint'>
+                  Build the next Facebook? Change the world? Quit a boring job and start an exciting career? Make lots of money as a software developer? Just because you like coding?
+                  <span class='small'>(80 - 250 words)</span>
+                </p>
+                <textarea class='wordcount' id='why_attend' name='why_attend' required></textarea>
+                <p class='input-feedback'>
+                  <span class='input-warning'>You have 200 words</span>
+                </p>
+              </div>
+              <div class='input-row'>
+                <label class='required' for='computer_skills'>
+                  How have you learnt to code so far?
+                </label>
+                <p class='input-hint'>
+                  If you can't code, it won't count against you: all you need is passion and the ability to unlearn the word "quit."
+                  <span class='small'>(80 - 250 words)</span>
+                </p>
+                <textarea class='wordcount' id='computer_skills' name='computer_skills' required></textarea>
+                <p class='input-feedback'>
+                  <span class='input-success'>You have 200 words</span>
+                </p>
+              </div>
+              <div class='input-row'>
+                <label class='required' for='how_did_you_hear_about_us'>
+                  How did you hear about us?
+                </label>
+                <p class='input-hint'>
+                  Purely for marketing reasons. If you heard about us through multiple channels, choose the one that influenced your decision the most.
+                </p>
+                <select id='how_did_you_hear_about_us' name='how_did_you_hear_about_us' required>
+                  <option value=''>Select an option&hellip;</option>
+                  <option value='Google'>Google</option>
+                  <option value='Twitter'>Twitter</option>
+                  <option value='Facebook'>Facebook</option>
+                  <option value='Quora'>Quora</option>
+                  <option value='The Student Room'>The Student Room</option>
+                  <option value="Don't Panic">Don't Panic</option>
+                  <option value='Techendo'>Techendo</option>
+                  <option value='Switchup'>SwitchUp</option>
+                  <option value='Bootcamper.io'>Bootcamper.io</option>
+                  <option value='Guardian coverage'>Guardian coverage</option>
+                  <option value='Telegraph coverage'>Telegraph coverage</option>
+                  <option value='Independent coverage'>Independent coverage</option>
+                  <option value='Bbc coverage'>BBC coverage</option>
+                  <option value='Sky coverage'>Sky coverage</option>
+                  <option value='Codecourses.co.uk'>Codecourses.co.uk</option>
+                  <option value='One Month'>One Month</option>
+                  <option value='Reed'>Reed</option>
+                  <option value='Course Report'>Course Report</option>
+                  <option value='Other media coverage'>Other media coverage</option>
+                  <option value='Alumnus recommendation'>Alumnus recommendation</option>
+                  <option value="Someone else's recommendation">Someone else's recommendation</option>
+                </select>
+              </div>
+              <div class='button-row'>
+                <p>
+                  <input class='button button--vertical button--large' type='submit' value='Submit Application'>
+                </p>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </div>
     </section>
