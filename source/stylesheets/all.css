@@ -1327,7 +1327,6 @@ p.deprecated-browser-warning a {
 
 .panel--success {
   background-color: #EFF7F2;
-  border-top: 1.5rem solid white;
   border-bottom: 3px solid #abd5bb; }
   .panel--success p {
     color: #3c7852; }
@@ -1338,7 +1337,6 @@ p.deprecated-browser-warning a {
 
 .panel--alert {
   background-color: #faf2cb;
-  border-top: 1.5rem solid white;
   border-bottom: 3px solid #f1db6e; }
   .panel--alert p {
     color: #86710d; }
