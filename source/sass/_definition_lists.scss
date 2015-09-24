@@ -66,7 +66,7 @@
   }
 
   article {
-    h4 {
+    & > .category > h4 {
       margin: 0 0 0.5em 0;
       text-align: left;
     }

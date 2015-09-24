@@ -22,11 +22,15 @@
 //= require vendor/retina.min
 //= require vendor/slick.js
 //= require vendor/jquery.ajaxchimp
+//= require vendor/prism
 //= require mixpanel-email-capture
 //= require navigation
 //= require jquery.fixedscroll
 //= require doorbell
 //= require vendor/baseliner
+//= require tabs
+//= require vertical_tabs
+//= require elements
 
 $(document).ready(function() {
 

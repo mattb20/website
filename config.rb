@@ -45,7 +45,7 @@ activate :search_engine_sitemap
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
-helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper, PossessiveHelper, SlugHelper, ImageHelper, GraduatesHelper
+helpers CurrentPageHelper, PartnerLogosHelper, MarkdownHelper, PossessiveHelper, SlugHelper, ImageHelper, GraduatesHelper, RawHelper
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do | grad |
@@ -124,10 +124,6 @@ configure :build do
   set :mixpanel_token, 'b839b30fbe0796d650ae20e7eae6d0d1'
 
   set :show_baseline_grid, false
-
-  ignore 'elements.html.haml'
-  ignore 'typography.html.haml'
-  ignore 'form-styles.html.haml'
 
   #Filewatcher ignore list
   set :file_watcher_ignore,[
