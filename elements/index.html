@@ -2,7 +2,7 @@
 <html>
   <head>
     <!--[if gt IE 8]><!-->
-    <link href="/sass/all-2d85aae6.css" rel="stylesheet" type="text/css" />
+    <link href="/sass/all-14c8d88f.css" rel="stylesheet" type="text/css" />
     <![endif]-->
     <!--[if lte IE 8]><!-->
     <link href="/sass/compatibility-466a586b.css" rel="stylesheet" type="text/css" />
@@ -223,12 +223,121 @@
                 <div class='definition-row'>
                   <aside id='definition-top'>
                     <nav class='definition-links'>
+                      <a class='definition-link' href='#definition-panel'>Panels</a>
+                      <a class='definition-link' href='#definition-success-panel'>Success Panels</a>
+                      <a class='definition-link' href='#definition-alert-panel'>Alert Panels</a>
                       <a class='definition-link' href='#definition-responsive-table'>Responsive Table</a>
                       <a class='definition-link' href='#definition-horizontal-tabs'>Horizontal Tabs</a>
                       <a class='definition-link' href='#definition-vertical-tabs'>Vertical Tabs</a>
                     </nav>
                   </aside>
                   <article>
+                    <div class='category'>
+                      <h4>Panel</h4>
+                      <dl class='definition' id='definition-panel'>
+                        <dt>Big ol' panels. Sometimes dismissable, sometimes with error/success/notify messages</dt>
+                        <dd>
+                          <!-- BEGIN elements/bigger/_panel -->
+                          <section class="element no-padding-top no-padding-bottom">
+                            <ul class="tabs">
+                              <li class="tab-header-and-content">
+                                <a href="#" class="tab-link is-active">Live</a>
+                                <div class="tab-content">
+                                  <div class='panel'>
+                            <p>This is a message.</p>
+                          </div>
+                          
+                                </div>
+                              </li>
+                              <li class="tab-header-and-content">
+                                <a href="#" class="tab-link tab-link--code">Code</a>
+                                <div class="tab-content tab-content--code">
+                                  <pre>
+                                    <code class="language-haml">
+                                      %div.panel
+                            %p This is a message.
+                                    </code>
+                                  </pre>
+                                </div>
+                              </li>
+                            </ul>
+                          </section>
+                          <!-- END elements/bigger/_panel -->
+                        </dd>
+                      </dl>
+                    </div>
+                    <div class='category'>
+                      <h4>Panel - success (dismissable)</h4>
+                      <dl class='definition' id='definition-success-panel'>
+                        <dt>Dismissable success panel</dt>
+                        <dd>
+                          <!-- BEGIN elements/bigger/_success_panel -->
+                          <section class="element no-padding-top no-padding-bottom">
+                            <ul class="tabs">
+                              <li class="tab-header-and-content">
+                                <a href="#" class="tab-link is-active">Live</a>
+                                <div class="tab-content">
+                                  <div class='panel panel--success' data-alert>
+                            <p>Well done! You rock!</p>
+                            <a class='close' href='#'>×</a>
+                          </div>
+                          
+                                </div>
+                              </li>
+                              <li class="tab-header-and-content">
+                                <a href="#" class="tab-link tab-link--code">Code</a>
+                                <div class="tab-content tab-content--code">
+                                  <pre>
+                                    <code class="language-haml">
+                                      %div.panel(data-alert){class: 'panel--success'}
+                            %p Well done! You rock!
+                            %a.close(href="#") ×
+                                    </code>
+                                  </pre>
+                                </div>
+                              </li>
+                            </ul>
+                          </section>
+                          <!-- END elements/bigger/_success_panel -->
+                        </dd>
+                      </dl>
+                    </div>
+                    <div class='category'>
+                      <h4>Panel - alert (dismissable)</h4>
+                      <dl class='definition' id='definition-alert-panel'>
+                        <dt>Dismissable alert panel</dt>
+                        <dd>
+                          <!-- BEGIN elements/bigger/_alert_panel -->
+                          <section class="element no-padding-top no-padding-bottom">
+                            <ul class="tabs">
+                              <li class="tab-header-and-content">
+                                <a href="#" class="tab-link is-active">Live</a>
+                                <div class="tab-content">
+                                  <div class='panel panel--alert' data-alert>
+                            <p>Error: a thing! Fix it like this: etc.</p>
+                            <a class='close' href='#'>×</a>
+                          </div>
+                          
+                                </div>
+                              </li>
+                              <li class="tab-header-and-content">
+                                <a href="#" class="tab-link tab-link--code">Code</a>
+                                <div class="tab-content tab-content--code">
+                                  <pre>
+                                    <code class="language-haml">
+                                      %div.panel(data-alert){class: 'panel--alert'}
+                            %p Error: a thing! Fix it like this: etc.
+                            %a.close(href="#") ×
+                                    </code>
+                                  </pre>
+                                </div>
+                              </li>
+                            </ul>
+                          </section>
+                          <!-- END elements/bigger/_alert_panel -->
+                        </dd>
+                      </dl>
+                    </div>
                     <div class='category'>
                       <h4>Responsive Table</h4>
                       <dl class='definition' id='definition-responsive-table'>
@@ -325,25 +434,25 @@
                             <li class='tab-header-and-content'>
                               <a class='tab-link is-active' href='#'>Tab Item</a>
                               <div class='tab-content'>
-                                <p>Omnis doloribus dicta tempora facilis maxime et rerum quas quae magni. Dignissimos qui voluptatum dicta consequatur quidem voluptas rerum autem non unde commodi eum quo. Totam quidem dolor sequi distinctio culpa atque enim consequatur distinctio illo qui et occaecati assumenda. Rerum autem et harum et dolor tempora. Dolorem quaerat numquam velit et culpa rerum omnis soluta atque voluptatem voluptatem dolor</p>
+                                <p>Deserunt est consectetur veniam dolorum omnis delectus aspernatur reiciendis. Qui quae molestiae et ipsum quod porro voluptatibus ut officia quae rerum nihil ab molestias. Ab aut et repellendus distinctio fugiat et. Dolor sapiente veniam repudiandae consequatur eos quo non sed consequatur omnis necessitatibus sapiente. Dolor atque asperiores deleniti</p>
                               </div>
                             </li>
                             <li class='tab-header-and-content'>
                               <a class='tab-link' href='#'>Another Tab</a>
                               <div class='tab-content'>
-                                <p>Omnis vel reiciendis dolorem asperiores est recusandae velit quis. Voluptatum delectus est ut amet harum est dolorum quasi rerum laborum velit quidem iure nihil. Qui quaerat ratione eos voluptas unde recusandae dolorem assumenda sunt eius cumque. Quo veniam numquam corrupti quae et quod. Nihil vel nisi aperiam corrupti sit</p>
+                                <p>Praesentium est corporis praesentium et rerum culpa qui dignissimos optio rerum corrupti architecto ut. Praesentium est ullam ipsum libero maiores dolorem voluptatem expedita sequi et. Doloremque quisquam eum necessitatibus itaque sapiente molestiae fugit sunt et beatae cum itaque. Dolores sapiente sunt expedita harum rerum et dolor debitis voluptatibus autem nihil velit quia. Laborum sed iusto debitis ducimus voluptas sed commodi sequi est repudiandae</p>
                               </div>
                             </li>
                             <li class='tab-header-and-content'>
                               <a class='tab-link' href='#'>Third</a>
                               <div class='tab-content'>
-                                <p>Porro eos doloremque alias. Assumenda impedit quia in exercitationem ea tempore iure recusandae beatae est. Ea et illum sapiente natus sed sapiente animi iste eveniet. Officiis ad ut et blanditiis aut beatae quae accusantium perspiciatis facilis. Autem sed necessitatibus dolores non quis rerum nulla eos expedita nihil</p>
+                                <p>Est vel dolorum in laboriosam assumenda sed aperiam accusantium dolorum dolorem. Explicabo fuga voluptatem et. Omnis animi porro dolor. Iure consequatur velit odit dolores laudantium. Odit asperiores tenetur qui quibusdam laudantium perspiciatis eligendi quaerat</p>
                               </div>
                             </li>
                             <li class='tab-header-and-content'>
                               <a class='tab-link' href='#'>Last Item</a>
                               <div class='tab-content'>
-                                <p>Voluptatem hic accusamus nobis vitae. Cupiditate quod vitae in sit accusamus temporibus explicabo dolore</p>
+                                <p>Modi laudantium iste officiis architecto quas. Non earum voluptate ea eius occaecati quos quia modi et</p>
                               </div>
                             </li>
                           </ul>
@@ -403,19 +512,19 @@
                             <div class='vertical-tab-content-container'>
                               <a class='js-vertical-tab-accordion-heading vertical-tab-accordion-heading is-active' href='' rel='tab1'>Item 1</a>
                               <div class='js-vertical-tab-content vertical-tab-content' id='tab1'>
-                                <p>Non qui error consequuntur dolores ut aliquam quas a eos voluptatem dolore. Explicabo ab beatae eum hic veniam aut optio dicta aut magni. Ullam ex corporis quia. Quisquam et consequuntur eligendi non et dolores dolorem ut et cum nulla sit maiores impedit. Animi autem minima quia accusamus officia fugiat id</p>
+                                <p>Sed perspiciatis eos laboriosam aliquam iusto sit aperiam in possimus ratione iste quia voluptatibus quidem. Quae praesentium earum mollitia facere eaque architecto. Quia minima cupiditate ex nulla eaque atque praesentium ad voluptas non neque quos. Quidem et laudantium ducimus qui earum eum quas maxime dignissimos excepturi laboriosam temporibus labore. Facere ducimus commodi nihil natus quod sed quam laborum</p>
                               </div>
                               <a class='js-vertical-tab-accordion-heading vertical-tab-accordion-heading' href='' rel='tab2'>Item 2</a>
                               <div class='js-vertical-tab-content vertical-tab-content' id='tab2'>
-                                <p>Porro ea enim rem ut eos. Eveniet ad excepturi placeat dolores perspiciatis dolor voluptatem minima rerum adipisci fugit dolorem voluptas. Quisquam accusantium officiis vel autem natus nihil et voluptas nisi ut voluptatem dignissimos beatae. Laborum magni qui nisi iusto non soluta aut exercitationem quia consequuntur aliquid sint qui. Illo ad est sapiente</p>
+                                <p>Magni voluptate magni adipisci et placeat. Dignissimos facilis tempora quia dolor. Architecto debitis repellat autem vel non laborum animi dolorum. Ut rerum ea labore explicabo dolor et velit at odit et atque et vel. Delectus architecto autem voluptatem modi</p>
                               </div>
                               <a class='js-vertical-tab-accordion-heading vertical-tab-accordion-heading' href='' rel='tab3'>Item 3</a>
                               <div class='js-vertical-tab-content vertical-tab-content' id='tab3'>
-                                <p>Voluptatibus nostrum atque sunt totam magni animi atque maxime. Architecto dolores corporis qui numquam autem porro quos laborum id dolor velit at. Aliquid consequatur nihil quis maiores iste quo vero. Voluptas et ad ut voluptatem deserunt magni voluptates et architecto labore eius. Quibusdam illo natus porro</p>
+                                <p>Harum fugit quia voluptatum. Occaecati modi iusto non saepe officia rerum libero. Totam exercitationem id dicta quia molestiae nostrum occaecati corrupti eos ea dolor veniam. Non velit recusandae ipsum et et cumque ut tenetur. Voluptatibus rem laboriosam qui animi magnam</p>
                               </div>
                               <a class='js-vertical-tab-accordion-heading vertical-tab-accordion-heading' href='' rel='tab4'>Item 4</a>
                               <div class='js-vertical-tab-content vertical-tab-content' id='tab4'>
-                                <p>Dolores sequi et temporibus voluptas non nostrum fuga deleniti natus. Nihil nesciunt fuga excepturi quo labore odio accusantium. Nostrum laboriosam quod accusantium sapiente rerum voluptatem vitae voluptate sint nesciunt animi ipsa. Animi sequi consequatur rerum consequatur animi qui dolorem dolorem perspiciatis exercitationem quaerat. Nulla perferendis omnis ullam officia laborum eveniet dolorem reiciendis earum recusandae perspiciatis ipsam odio</p>
+                                <p>Qui sit nam quidem magni commodi amet quasi voluptatem. Dolor veniam nesciunt magni velit dicta maiores temporibus ut sed nobis molestiae hic. Excepturi alias aut ratione inventore beatae. Autem est quia eos et dolor animi molestiae cumque magni magnam optio. Aut et minima aut consectetur quis omnis saepe ex perferendis esse temporibus libero iure molestiae</p>
                               </div>
                             </div>
                           </div>
@@ -502,7 +611,7 @@
                               <div class='centered-row'>
                                 <img class="logo" src="http://assets.makersacademy.com/images/logo/ma-white.png" />
                                 <h1>Learn to code in 12 weeks</h1>
-                                <p>Blanditiis qui et voluptatum quibusdam quod et et labore cupiditate error ipsum. Nesciunt facilis accusamus id aperiam quaerat omnis autem cupiditate rerum. Consequatur sit voluptas est voluptatem sed quia praesentium neque esse. In vero commodi veniam. Ab nostrum soluta minus est illum odit autem aut</p>
+                                <p>Sunt voluptate enim soluta repellat tempora at ab. Tenetur ut ducimus quia nisi aut eum autem officia numquam quia. Quo amet sit veniam rerum sint pariatur in quaerat quaerat incidunt eum officiis aspernatur. Autem officia eius natus aut amet omnis. Cum perferendis reiciendis voluptatum provident</p>
                               </div>
                               <div class='email-capture-row'>
                                 <form action='http://makersacademy.us7.list-manage.com/subscribe/post?u=a722285ec7b8bdcbc37dbdc52&amp;id=d09e759a82' class='email-capture' method='post' name='mc-embedded-subscribe-form'>
@@ -858,7 +967,7 @@
                                   <div class='copy copy--left'>
                                     <h4 class='leader'>Leader</h4>
                                     <h2>Header</h2>
-                                    <p>Quis perspiciatis ut veniam et temporibus esse facilis consectetur consequuntur sit impedit consequuntur. Sit sunt blanditiis reprehenderit. Temporibus incidunt nisi autem mollitia ipsa reiciendis dolorem tempore nisi nisi aut quam eos debitis. Consectetur optio veniam voluptatum ea et mollitia</p>
+                                    <p>Odit eum asperiores optio voluptatibus assumenda sit ut. Voluptas veritatis omnis est qui autem iste pariatur libero. Voluptatem ipsam amet qui sapiente nulla quos commodi saepe repellat et blanditiis aut. Autem iste eveniet provident et veniam</p>
                                     <div class='button-row shift-to-bottom'>
                                       <p>
                                         <a class="button button--horizontal" href="#">Call to Action</a>
@@ -966,7 +1075,7 @@
                                   </div>
                                   <p>
                                     Required text. Keep it punchy!
-                                    autem quia omnis magni.
+                                    vero et recusandae eaque.
                                   </p>
                                 </div>
                                 <div class='column'>
@@ -975,7 +1084,7 @@
                                   </div>
                                   <p>
                                     Required text. Keep it punchy!
-                                    perspiciatis praesentium at odio.
+                                    officia culpa et molestiae.
                                   </p>
                                 </div>
                                 <div class='column'>
@@ -985,7 +1094,7 @@
                                   </div>
                                   <p>
                                     Required text. Keep it punchy!
-                                    perspiciatis assumenda vel laudantium.
+                                    porro iste fugit non.
                                   </p>
                                 </div>
                               </div>
@@ -996,7 +1105,7 @@
                                   </div>
                                   <p>
                                     Required text. Keep it punchy!
-                                    praesentium eius itaque nulla.
+                                    ipsum et aut assumenda.
                                   </p>
                                 </div>
                                 <div class='column'>
@@ -1006,7 +1115,7 @@
                                   </div>
                                   <p>
                                     Required text. Keep it punchy!
-                                    consequatur ipsum est omnis.
+                                    sit rerum aut tempore.
                                   </p>
                                 </div>
                                 <div class='column'>
@@ -1016,7 +1125,7 @@
                                   </div>
                                   <p>
                                     Required text. Keep it punchy!
-                                    enim asperiores iste illo.
+                                    vero velit aut sunt.
                                   </p>
                                 </div>
                               </div>
@@ -1104,7 +1213,7 @@
                                 <h4 class='subheader'>Optional Subheader</h4>
                                 <p>
                                   Optional Text. Images are also optional, and must be sized 600x600 pixels (@2x), and 300x300 pixels (regular).
-                                  Labore aut unde voluptatum et itaque. Rerum adipisci ipsam unde
+                                  Ipsum repellendus ut minima ullam corporis adipisci eos quae harum eos odit ea sed. Architecto est ad eum autem
                                 </p>
                               </div>
                               <div class='three-width-row'>
@@ -1205,7 +1314,7 @@
                                 <h4 class='subheader'>Optional Subheader</h4>
                                 <p>
                                   Optional Text. Images are also optional, and must be sized 600x600 pixels (@2x), and 300x300 pixels (regular).
-                                  Excepturi consequuntur vero nihil rem voluptatem neque natus sed. Dicta eum et id animi cumque error voluptatibus neque deleniti et
+                                  Sit in natus quis non similique perspiciatis recusandae quibusdam. Qui quisquam fuga eaque aliquam incidunt debitis sed nihil ex
                                 </p>
                               </div>
                               <div class='five-width-row'>
@@ -1320,7 +1429,7 @@
                                 <h4 class='subheader'>Optional Subheader</h4>
                                 <p>
                                   Optional Text.
-                                  Quia iste iusto omnis dolores blanditiis aperiam laborum atque pariatur tempora nobis deserunt. Quae exercitationem earum repudiandae nesciunt sint ut repudiandae aut ut est ipsum itaque porro. Vero nihil ut iure vel sequi vero laudantium vero
+                                  Aut ducimus praesentium quidem asperiores provident nihil maiores consequatur et maxime laudantium quia et sint. Sit velit est cupiditate qui numquam animi nemo quo voluptates quia quia. Quaerat eos animi est doloribus sit architecto est dolorum
                                 </p>
                               </div>
                               <div class='centered-row'>
@@ -1593,7 +1702,7 @@
                                 <div class="tab-content">
                                   <section>
                             <div class='container'>
-                              <blockquote>Inventore accusantium id excepturi consequuntur id porro debitis provident voluptatum. facilis odit est illo adipisci quae et sit vero et enim beatae minus dolorem. inventore non omnis ducimus quidem error cumque non modi vitae et molestiae. amet totam et enim deserunt ut nostrum consequatur qui accusamus dolores occaecati. ut assumenda similique autem nemo. qui accusamus est ut optio minima ut omnis at sint natus qui vitae odio qui</blockquote>
+                              <blockquote>Ad voluptatem enim eaque dolorum nemo et nesciunt dolores cumque suscipit vero. expedita est porro recusandae sit magni voluptas laborum voluptas qui. dolorem eos itaque dolor in perferendis. asperiores tempore est quis eligendi perferendis voluptatem. aliquid nemo qui voluptas. vel quia nihil odit expedita iusto impedit provident dolorem sed. dignissimos sunt aut provident vel non saepe</blockquote>
                             </div>
                           </section>
                           
@@ -1731,7 +1840,7 @@
                               <p>
                                 <span>A short all-caps start that</span>
                                 neatly segues into article content.
-                                Consequatur et voluptate nesciunt officia aut vero ab distinctio dolor maiores minus at corrupti laboriosam. Assumenda rerum quas sit. Atque deleniti maxime corrupti eligendi dolorem velit ut eveniet. Occaecati et voluptatem minima nihil quia. Inventore maiores eius quia qui aspernatur
+                                Non deleniti voluptas id saepe velit quia nulla maxime quas deserunt similique quia. Quos nostrum officia hic aut nobis labore reiciendis. Nostrum eum et beatae quo nihil maiores quae sequi in. In cupiditate aut est. Distinctio aliquid voluptatem quia et sapiente excepturi iste minima numquam ea ratione
                                 If this is an excerpt, you might have the followi...
                                 <a class='read-more' href='javascript:void(0)'>
                                   Read More
@@ -1746,7 +1855,7 @@
                                 <span>Over-use of caps makes you look</span>
                                 like you're trying to be more important than you actually are.
                                 Just the first line of the article is enough.
-                                Ipsa vel beatae omnis sit alias. Aut voluptatem tempora nostrum recusandae exercitationem sed ullam qui sint. Veritatis quia qui molestiae fugiat ipsam numquam optio iusto laboriosam. In quam voluptatem provident
+                                Sunt consequatur reprehenderit inventore eum. Ipsum corporis reprehenderit illum eum illo sunt omnis porro. Ab veritatis enim harum dolores qui. Alias et suscipit laborum nobis at tempora quasi
                               </p>
                               <hr>
                               <p class='author'>Author Name</p>
@@ -2281,7 +2390,7 @@
           <li class='tab-header-and-content'>
             <a class='tab-link' href='#'>Unsorted</a>
             <div class='tab-content'>
-              <p>Et laboriosam possimus sunt laudantium qui est commodi laborum repudiandae ut. Magni praesentium enim et nostrum dicta sapiente</p>
+              <p>Dignissimos qui dolores at laboriosam molestiae nemo sit ut quia ullam soluta quibusdam modi iusto. Possimus veritatis impedit dolorum qui mollitia debitis assumenda quasi et molestiae in a sed</p>
             </div>
           </li>
         </ul>
