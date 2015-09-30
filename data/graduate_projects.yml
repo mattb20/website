@@ -22,14 +22,6 @@
   live_link: http://pacific-tundra-1942.herokuapp.com/
   image: lendandtend.jpg
 
-- name: Ronin Giftbox
-  team: Iciar, Ilya, Mark, Rob
-  cohort: Ronin March 2015
-  blurb: Giftbox is a collaborative service to allow groups to collectively purchase gifts for an individual. A simple process allows the user to select a gift, add contributers, take payments, automatically make the purchase and ship after receiving the last contribution.
-  code_link: https://github.com/ilyafaybisovich/present_cobuy
-  live_link: http://www.ronin-giftbox.co.uk
-  image: giftbox.jpeg
-
 - name: Street Pacman
   team: Vanessa, Tommaso, Diego, Guido
   cohort: February 2015
@@ -78,14 +70,6 @@
   code_link: https://github.com/Callisto13/Oodls
   image: oodles.jpeg
 
-- name: Look Up
-  team: Shan, Pavel, Rich, Attila
-  cohort: October 2014
-  blurb: App to assess the solar capacity of roofs. Made for the 10:10 charity.
-  live_link: http://look-up-production.herokuapp.com
-  code_link: https://github.com/ralake/LookUp
-  image: lookup2.jpeg
-
 - name: Hipspot
   team: Mishal, Ed, Ming, Nick
   cohort: October 2014
@@ -114,7 +98,7 @@
   team: Bernard, Karin, Rachel, Ana, Elena, Dan
   cohort: September 2014
   blurb: Flicky Notes is a meeting app which allows you to write your own notes on a mobile device and then, with a simple swipe movement, send it to the board on your desktop.
-  live_link: http://flickynotes.meteor.com/
+  live_link: https://www.youtube.com/watch?v=qpGh8sWWuV0
   code_link: https://github.com/karinnielsen/Final-Project-POSTit
   image: flickynotes2.jpeg
 
@@ -165,11 +149,3 @@
   live_link: http://strides.herokuapp.com/
   code_link: https://github.com/juliatan/racefinder
   image: strides.jpeg
-
-- name: Angry Kitty
-  team: Nico, Sroop, Will, Dan, Scott, Robin, Apostolis
-  cohort: March 2014
-  blurb: Angry Kitty is an app designed to help organisers chase participants of an event for contributions.
-  live_link: http://www.angrykitty.co.uk/
-  code_link: https://github.com/willhall88/Angry-Kitty
-  image: angrykitty.jpeg
