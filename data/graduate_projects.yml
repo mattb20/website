@@ -6,6 +6,38 @@
   live_link: https://www.youtube.com/watch?v=v1GVvMg1-Js
   image: app.jpg
 
+- name: Selecta
+  team: Alex, Salman, Faisal and Michael
+  cohort: June 2015
+  blurb: A Music Discovery application
+  code_link: https://github.com/arnottmj/selecta-official
+  live_link: http://selecta-app.herokuapp.com
+  image: selecta.jpg
+
+- name: Stitch
+  team: Daniel, Alex, Chidu, Charlie and Chris
+  cohort: April 2015
+  blurb: Location based movie scene mapper
+  code_link: https://github.com/snapchidu/stitchvid
+  live_link: https://stitchvid.herokuapp.com/
+  image: stitch.jpg
+
+- name: Movie Snaps
+  team: Andy, Jennifer, Ashleigh, Stefan, Tim and Daryl
+  cohort: April 2015
+  blurb: Movie Snaps is a website app you can use to record visits you make to movie locations across the world. You can create new visits, adding a photo (with caption) of yourself re-enacting your chosen scene, which can then be liked and commented upon by other users.
+  code_link: https://github.com/andygout/Movie-Snaps
+  live_link: https://movie-snaps.herokuapp.com/
+  image: movie.jpg
+
+- name: Treemo
+  team: Dan, Fiona, Rodney and Tim
+  cohort: April 2015
+  blurb: Contribute to global reforestation, one check-in at a time
+  code_link: https://github.com/treemoapp
+  live_link: http://treemo-dev.herokuapp.com/
+  image: treemo.jpg
+
 - name: Ignite
   team: Andrea, George, Paul, Kanishk
   cohort: March 2015
