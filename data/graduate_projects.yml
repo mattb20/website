@@ -9,7 +9,7 @@
 - name: Selecta
   team: Alex, Salman, Faisal and Michael
   cohort: June 2015
-  blurb: A Music Discovery application.
+  blurb: A music discovery application.
   code_link: https://github.com/arnottmj/selecta-official
   live_link: http://selecta-app.herokuapp.com
   image: selecta.jpg
@@ -17,7 +17,7 @@
 - name: Stitch
   team: Daniel, Alex, Chidu, Charlie and Chris
   cohort: April 2015
-  blurb: Location based movie scene mapper.
+  blurb: Location-based movie scene mapper.
   code_link: https://github.com/snapchidu/stitchvid
   live_link: https://stitchvid.herokuapp.com/
   image: stitch.jpg
@@ -25,7 +25,7 @@
 - name: Movie Snaps
   team: Andy, Jennifer, Ashleigh, Stefan, Tim and Daryl
   cohort: April 2015
-  blurb: Movie Snaps is a website app you can use to record visits you make to movie locations across the world. You can create new visits, adding a photo (with caption) of yourself re-enacting your chosen scene, which can then be liked and commented upon by other users.
+  blurb: Movie Snaps is a website you can use to record visits you make to movie locations across the world. You can create new visits, adding a photo (with a caption) of yourself re-enacting your chosen scene, which can then be liked and commented upon by other users.
   code_link: https://github.com/andygout/Movie-Snaps
   live_link: https://movie-snaps.herokuapp.com/
   image: movie.jpg
