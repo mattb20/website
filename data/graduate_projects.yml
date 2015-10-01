@@ -4,7 +4,39 @@
   blurb: An iPhone app that helps visitors coming to Makers Academy, telling them where to go for their meeting, and notifying the relevant Makers staff member of their arrival.
   code_link: https://github.com/MakersApp/makers-app
   live_link: https://www.youtube.com/watch?v=v1GVvMg1-Js
-  image: app.jpg
+  image: appp.jpg
+
+- name: Selecta
+  team: Alex, Salman, Faisal and Michael
+  cohort: June 2015
+  blurb: A music discovery application.
+  code_link: https://github.com/arnottmj/selecta-official
+  live_link: http://selecta-app.herokuapp.com
+  image: selecta.jpg
+
+- name: Stitch
+  team: Daniel, Alex, Chidu, Charlie and Chris
+  cohort: April 2015
+  blurb: Location-based movie scene mapper.
+  code_link: https://github.com/snapchidu/stitchvid
+  live_link: https://stitchvid.herokuapp.com/
+  image: stitch.jpg
+
+- name: Movie Snaps
+  team: Andy, Jennifer, Ashleigh, Stefan, Tim and Daryl
+  cohort: April 2015
+  blurb: Movie Snaps is a website you can use to record visits you make to movie locations across the world. You can create new visits, adding a photo (with a caption) of yourself re-enacting your chosen scene, which can then be liked and commented upon by other users.
+  code_link: https://github.com/andygout/Movie-Snaps
+  live_link: https://movie-snaps.herokuapp.com/
+  image: movie.jpg
+
+- name: Treemo
+  team: Dan, Fiona, Rodney and Tim
+  cohort: April 2015
+  blurb: Contribute to global reforestation, one check-in at a time.
+  code_link: https://github.com/treemoapp
+  live_link: http://treemo-dev.herokuapp.com/
+  image: treemo.jpg
 
 - name: Ignite
   team: Andrea, George, Paul, Kanishk
@@ -21,14 +53,6 @@
   code_link: https://github.com/joejknowles/lend_and_tend
   live_link: http://pacific-tundra-1942.herokuapp.com/
   image: lendandtend.jpg
-
-- name: Ronin Giftbox
-  team: Iciar, Ilya, Mark, Rob
-  cohort: Ronin March 2015
-  blurb: Giftbox is a collaborative service to allow groups to collectively purchase gifts for an individual. A simple process allows the user to select a gift, add contributers, take payments, automatically make the purchase and ship after receiving the last contribution.
-  code_link: https://github.com/ilyafaybisovich/present_cobuy
-  live_link: http://www.ronin-giftbox.co.uk
-  image: giftbox.jpeg
 
 - name: Street Pacman
   team: Vanessa, Tommaso, Diego, Guido
@@ -78,14 +102,6 @@
   code_link: https://github.com/Callisto13/Oodls
   image: oodles.jpeg
 
-- name: Look Up
-  team: Shan, Pavel, Rich, Attila
-  cohort: October 2014
-  blurb: App to assess the solar capacity of roofs. Made for the 10:10 charity.
-  live_link: http://look-up-production.herokuapp.com
-  code_link: https://github.com/ralake/LookUp
-  image: lookup2.jpeg
-
 - name: Hipspot
   team: Mishal, Ed, Ming, Nick
   cohort: October 2014
@@ -114,7 +130,7 @@
   team: Bernard, Karin, Rachel, Ana, Elena, Dan
   cohort: September 2014
   blurb: Flicky Notes is a meeting app which allows you to write your own notes on a mobile device and then, with a simple swipe movement, send it to the board on your desktop.
-  live_link: http://flickynotes.meteor.com/
+  live_link: https://www.youtube.com/watch?v=qpGh8sWWuV0
   code_link: https://github.com/karinnielsen/Final-Project-POSTit
   image: flickynotes2.jpeg
 
@@ -165,11 +181,3 @@
   live_link: http://strides.herokuapp.com/
   code_link: https://github.com/juliatan/racefinder
   image: strides.jpeg
-
-- name: Angry Kitty
-  team: Nico, Sroop, Will, Dan, Scott, Robin, Apostolis
-  cohort: March 2014
-  blurb: Angry Kitty is an app designed to help organisers chase participants of an event for contributions.
-  live_link: http://www.angrykitty.co.uk/
-  code_link: https://github.com/willhall88/Angry-Kitty
-  image: angrykitty.jpeg

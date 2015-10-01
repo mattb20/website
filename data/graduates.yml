@@ -630,11 +630,11 @@
     - question: What were you doing before joining Makers Academy?
       answer: I had just completed my Masters in Financial Economics.
     - question: What made you want to start learning to code in the first place?
-      answer: It was the the urge to build things. Inspired during my MSc Dissertation at the affect that Facebook and Twitter have had on the world, especially on real-world issues like corruption perception. They started out as ideas in the minds of people who knew how to code and could bring them to life. That inspired me to learn the skills to build my ideas.
+      answer: It was the the urge to build things. I was also inspired during my MSc Dissertation by the affect that Facebook and Twitter have had on the world, especially on real-world issues like corruption perception. They started out as ideas in the minds of people who knew how to code and could bring them to life. That inspired me to learn the skills to build my ideas.
     - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
-      answer: I came through Makers Academy through Twitter. Having studied business/economics line from O-levels I thought that tech was out of the question for me. But I've always had a passion for tinkering with hardware and software. That promoted tweet got me thinking "maybe its not too late to get into tech".
+      answer: I came across Makers Academy through Twitter. Having studied business/economics line from O-levels I thought that tech was out of the question for me. But I've always had a passion for tinkering with hardware and software. That promoted tweet got me thinking "maybe its not too late to get into tech".
     - question: What did you find difficult during the course?
-      answer: The pace, getting comfortable with not knowing and just trying to understand everything hard.
+      answer: The pace, getting comfortable with not knowing and just trying very hard to understand everything.
     - question: What happened during/after graduation and where are you job-wise?
       answer: After graduation I took 2 months off from coding to get married. So I started coding again from March 2015. I practised the Makers material again, I read and practised other tutorials from around the web. I actively started job hunting from April 2015 and have now landed a job at Deloitte Digital!
     - question: How has your life changed since graduation?
@@ -782,7 +782,7 @@
 - first_name: Stefania
   last_name: Cardenas
   image: stefania.jpg
-  summary: ICT Recruiter to Junior Web Developer at BCSG
+  summary: ICT Recruiter to Junior Developer at Onfido
   testimonial: Makers Academy changed my life. It gave me the confidence to know that I can achieve whatever I want in life.
   cohort_month: June
   cohort_year: 2014
@@ -797,7 +797,7 @@
     - question: What did you find difficult during the course?
       answer: I found the pace of the course difficult as some people in my cohort knew already how to code and they were leading the pace of the lessons.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: I finished on 20th June. I took the summer off to travel with my family and clean my GitHub. I started looking for a job on 1st September. I did only one application through LinkedIn and I got the job. I was offered a paid three months internship. After two weeks working there they told me they were very happy with me, so after 6 weeks of internship I was made permanent. I'm very happy to work there.
+      answer: I finished on 20th June. I took the summer off to travel with my family and clean my GitHub. I started looking for a job on 1st September. I did only one application through LinkedIn and I got the job. I was offered a paid three months internship. After two weeks working there they told me they were very happy with me, so after 6 weeks of internship I was made permanent. I've now moved to my 2nd role at Onfido. 
     - question: How has your life changed since graduation?
       answer: Makers Academy changed my life. It gave me the confidence that I can achieve whatever I want in life.
     - question: What advice would you give to people thinking of changing career?
@@ -1152,7 +1152,7 @@
     - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
-      answer: I was working as a Marketing Executive at Just IT Training.
+      answer: I was working as a Marketing Executive at an ICT training company.
     - question: What made you want to start learning to code in the first place?
       answer: I loved tech and I was fascinated by coding, and wanted to work in the tech industry.
     - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
