@@ -4,12 +4,12 @@
   blurb: An iPhone app that helps visitors coming to Makers Academy, telling them where to go for their meeting, and notifying the relevant Makers staff member of their arrival.
   code_link: https://github.com/MakersApp/makers-app
   live_link: https://www.youtube.com/watch?v=v1GVvMg1-Js
-  image: app.jpg
+  image: app.jpeg
 
 - name: Selecta
   team: Alex, Salman, Faisal and Michael
   cohort: June 2015
-  blurb: A Music Discovery application
+  blurb: A Music Discovery application.
   code_link: https://github.com/arnottmj/selecta-official
   live_link: http://selecta-app.herokuapp.com
   image: selecta.jpg
@@ -17,7 +17,7 @@
 - name: Stitch
   team: Daniel, Alex, Chidu, Charlie and Chris
   cohort: April 2015
-  blurb: Location based movie scene mapper
+  blurb: Location based movie scene mapper.
   code_link: https://github.com/snapchidu/stitchvid
   live_link: https://stitchvid.herokuapp.com/
   image: stitch.jpg
@@ -33,7 +33,7 @@
 - name: Treemo
   team: Dan, Fiona, Rodney and Tim
   cohort: April 2015
-  blurb: Contribute to global reforestation, one check-in at a time
+  blurb: Contribute to global reforestation, one check-in at a time.
   code_link: https://github.com/treemoapp
   live_link: http://treemo-dev.herokuapp.com/
   image: treemo.jpg
