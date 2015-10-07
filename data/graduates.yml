@@ -65,69 +65,67 @@
     - question: What advice would you give to people interviewing for developer roles?
       answer: Be comfortable in people seeing your code. Test-drive your code and be yourself. One of my friends, Dave, from my cohort said, "Just relax and remember how much you love coding."
 
-  - first_name: Alex
-    last_name: Handy
-    image: AlexApril2.jpg
-    summary: Management Consultant to Junior Developer at Product Health
-    testimonial:  You now pay so much money to go to university so the relative cost of joing Makers Academy is minimal and you get the careers service support too.
-    cohort_month: April
-    cohort_year: 2015
-    categories:
-      - career changer
-    case_study:
-      - question: What were you doing before joining Makers Academy?
-        answer: I was a management consultant
-      - question: What made you want to start learning to code in the first place?
-        answer: I wanted to set up my own business and I wanted to be able to build my ideas and prototypes.
-      - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
-        answer: I found out through friends and people who did the course before and applied based on their recommendations.
-      - question: What did you find difficult during the course?
-        answer: What I found difficult is knowing what your level is when you finish the course and how you measure up against other junior developers from other backgrounds.
-      - question: What happened during/after graduation and where are you job-wise?
-        answer: After graduation I was applying for jobs whilst being an alumni helper and doing some freelance work, and then I got a junior developer role at Product health.
-      - question: How has your life changed since graduation?
-        answer: I've got a new job and I'm doing more stuff that I'll ultimately like.
-      - question: What advice would you give to people thinking of changing career?
-        answer: Have a very specific target in mind and by that I mean understand that you really know what you are getting into. Thinki it through and think about why you are doing it, not just because coding is fashionable. Also build and budget for more than 3 months!
-      - question: What would you say to people who say £8,000 is very expensive?
-        answer: It is expensive depending on what you want to do. If I wanted to start my own thing today it would cost me at least £10k and I wouldn't understand the technologies, and I'd also have to bring in a technical co-founder, but joining Makers Academy is cheaper for my startup and I'm more informed. You now pay so much money to go to university so the relative cost is minimal and you get the careers service support too.
-      - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-        answer: It was if you'd ever get to a credible level of coding that you would even be able to build apps and I now feel cautiously optimistic.
-      - question: Sum up your Makers Academy experience
-        answer: Positive but there have been points of frustrations and ups and downs but a personal level it's been great
+- first_name: Alex
+  last_name: Handy
+  image: AlexApril2.jpg
+  summary: Management Consultant to Junior Developer at Product Health
+  testimonial:  You now pay so much money to go to university so the relative cost of joing Makers Academy is minimal and you get the careers service support too.
+  cohort_month: April
+  cohort_year: 2015
+  categories:
+    - career changer
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was a management consultant
+    - question: What made you want to start learning to code in the first place?
+      answer: I wanted to set up my own business and I wanted to be able to build my ideas and prototypes.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: I found out through friends and people who did the course before and applied based on their recommendations.
+    - question: What did you find difficult during the course?
+      answer: What I found difficult is knowing what your level is when you finish the course and how you measure up against other junior developers from other backgrounds.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: After graduation I was applying for jobs whilst being an alumni helper and doing some freelance work, and then I got a junior developer role at Product health.
+    - question: How has your life changed since graduation?
+      answer: I've got a new job and I'm doing more stuff that I'll ultimately like.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Have a very specific target in mind and by that I mean understand that you really know what you are getting into. Thinki it through and think about why you are doing it, not just because coding is fashionable. Also build and budget for more than 3 months!
+    - question: What would you say to people who say £8,000 is very expensive?
+      answer: It is expensive depending on what you want to do. If I wanted to start my own thing today it would cost me at least £10k and I wouldn't understand the technologies, and I'd also have to bring in a technical co-founder, but joining Makers Academy is cheaper for my startup and I'm more informed. You now pay so much money to go to university so the relative cost is minimal and you get the careers service support too.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: It was if you'd ever get to a credible level of coding that you would even be able to build apps and I now feel cautiously optimistic.
+    - question: Sum up your Makers Academy experience
+      answer: Positive but there have been points of frustrations and ups and downs but a personal level it's been great
 
-  - first_name: Paul
-    last_name: Harker
-    image: Paul2.jpg
-    summary: Technical Writer to Junior Developer at CloudCredo
-    testimonial:
-    cohort_month: June
-    cohort_year: 2015
-    categories:
-      - career changer
-    case_study:
-      - question: What were you doing before joining Makers Academy?
-        answer: I was a technical writer.
-      - question: What made you want to start learning to code in the first place?
-        answer: I felt that I was writing a lot of documentation about code but it seemed like the fun was actually creating and the documentation was the boring part.
-      - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
-        answer: My girlfriend is a careers guidance counseller and saw that I was unhappy with what I was doing. She heard about MA through her work and told me to do it.
-      - question: What did you find difficult during the course?
-        answer: It was a very intense course. I was not expecting the we would be working every week day and have weekend challenges and I felt like there was no free time all.
-      - question: What happened during/after graduation and where are you job-wise?
-        answer: I received quite a lot of support from the careers team and they got me a job and after the careers fair I spoke to CloudCredo, had a tech test and a 2 hour pairing interview and then got the job!
-      - question: How has your life changed since graduation?
-        answer: I thought I would have to go back to technical writing before I could get a job as a Junior Developer but I got the job.
-      - question: What advice would you give to people thinking of changing career?
-        answer: Check if there are other ways to improve your technical abilities before you think code is right for you and if it is then it's a great thing to do.
-      - question: What would you say to people who say £8,000 is very expensive?
-        answer: It is. I have actually learnt to self-teach myself through Makers Academy even though I've been trying to learn to code for the last 8 years which gives you that push.
-      - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-        answer: I think I was terrified if I would be able to do it. I think Dana (our Chief Joy Officer) and the environment help with that feeling quite a lot.
-      - question: Sum up your Makers Academy experience
-        answer: It was a lot of work and a lot of fun!
-
------ October 1st -----
+- first_name: Paul
+  last_name: Harker
+  image: Paul2.jpg
+  summary: Technical Writer to Junior Developer at CloudCredo
+  testimonial:
+  cohort_month: June
+  cohort_year: 2015
+  categories:
+    - career changer
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was a technical writer.
+    - question: What made you want to start learning to code in the first place?
+      answer: I felt that I was writing a lot of documentation about code but it seemed like the fun was actually creating and the documentation was the boring part.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: My girlfriend is a careers guidance counseller and saw that I was unhappy with what I was doing. She heard about MA through her work and told me to do it.
+    - question: What did you find difficult during the course?
+      answer: It was a very intense course. I was not expecting the we would be working every week day and have weekend challenges and I felt like there was no free time all.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I received quite a lot of support from the careers team and they got me a job and after the careers fair I spoke to CloudCredo, had a tech test and a 2 hour pairing interview and then got the job!
+    - question: How has your life changed since graduation?
+      answer: I thought I would have to go back to technical writing before I could get a job as a Junior Developer but I got the job.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Check if there are other ways to improve your technical abilities before you think code is right for you and if it is then it's a great thing to do.
+    - question: What would you say to people who say £8,000 is very expensive?
+      answer: It is. I have actually learnt to self-teach myself through Makers Academy even though I've been trying to learn to code for the last 8 years which gives you that push.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I think I was terrified if I would be able to do it. I think Dana (our Chief Joy Officer) and the environment help with that feeling quite a lot.
+    - question: Sum up your Makers Academy experience
+      answer: It was a lot of work and a lot of fun!
 
 
 - first_name: Sammy
