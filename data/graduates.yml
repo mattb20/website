@@ -1,3 +1,35 @@
+- first_name: Zeina
+  last_name: Dajani
+  image: Zeina.jpg
+  summary: Student to Junior Developer at FNZ
+  testimonial: Makers Academy changes your life, how you look at it and what you want to do with it.
+  cohort_month: June
+  cohort_year: 2015
+  categories:
+    - student
+    - female
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I had just finished my masters in Middle East Studies at SOAS.
+    - question: What made you want to start learning to code in the first place?
+      answer: I really liked technology a lot and I didn't know you could do it without a university degree. It was something I thought about but never really perused. I kept getting ideas that I wish I could build and then when I heard about these bootcamps I thought maybe it would be possible and then I decided to go for it. I felt coding was a way to really have an impact on the world compared to academia where you tend to just observe the world.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: I Googled coding bootcamps and as I was doing my masters in London at the time and there was a lot of good reviews out there.
+    - question: What did you find difficult during the course?
+      answer: I found working with people with different personalities quite difficult.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I became an alumni helper and then I applied for 2 jobs and then got a job offer from FNZ 2 weeks after I graduated.
+    - question: How has your life changed since graduation?
+      answer: I finally understand what it means to love what you do.  I never loved a place as much as I loved here.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Do it.
+    - question: What would you say to people who say £8,000 is very expensive?
+      answer: Not if it changes your life and how you look at life and what you want to do with life.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: That I would not pick up coding. I think it's okay to worry and it is a whole world and you can be good at some parts of it and not at others.
+    - question: Sum up your Makers Academy experience
+      answer: Amazing. I got closer to people in a way that I've never have before. I've also met people who are passionate about code and really interesting.
+
 - first_name: Ruth
   last_name: Earle
   image: ruth.jpg
@@ -35,7 +67,7 @@
 
   - first_name: Alex
     last_name: Handy
-    image:
+    image: AlexApril2.jpg
     summary: Management Consultant to Junior Developer at Product Health
     testimonial:  You now pay so much money to go to university so the relative cost of joing Makers Academy is minimal and you get the careers service support too.
     cohort_month: April
@@ -66,7 +98,7 @@
 
   - first_name: Paul
     last_name: Harker
-    image:
+    image: Paul2.jpg
     summary: Technical Writer to Junior Developer at CloudCredo
     testimonial:
     cohort_month: June
