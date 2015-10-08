@@ -100,7 +100,7 @@
       answer: "Our agile approach means we improve our course and curriculum with each cohort, but you can get a flavour of the structure from our <a href='http://www.makersacademy.com/curriculum' target='_blank'>curriculum</a>."
 
     - question: Do students have to do a preliminary study before starting the course?
-      answer: "Yes. We have developed a part time Pre-Course that needs to be completed before starting the course. We focus on the foundations: command-line, version control and the basics of Ruby. The Pre-Course requires an average of 15-20 hours per week to complete successfully."
+      answer: "Yes. We have developed a part time PreCourse that needs to be completed before starting the course. We focus on the foundations: command-line, version control and the basics of Ruby. The PreCourse requires an average of 15-20 hours per week to complete successfully."
 
     - question: Is it really possible to learn to code in 12 weeks?
       answer: "The fact that we’ve had over 350 students graduate from Makers Academy, and our track record in getting students hired at companies like BSkyB, Pivotal Labs, New Bamboo and many other top tech companies mean that YES, it is possible to learn to code in 12 Weeks. Make no mistake - it will be tough. It will take hard work and dedication, but if you really want it, it’s there to be had."
