@@ -1,5 +1,5 @@
 (function(){
-  var $nav = $('header.navigation');
+  var $nav = $('header.navigation.auto-hide');
 
   //For showing and hiding navigation
   var hideNav = function() {
