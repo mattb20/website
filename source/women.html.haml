@@ -2,30 +2,18 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %h4.leader Switch careers
       %h1 Become a Junior Developer
-      %h4.subheader learn to code in 12 weeks
-      %P Come and learn the principles of software craftsmanship and soon you'll be starting your career as a web developer. Makers Academy is Europe's leading Developer bootcamp. Over the past couple of years, we've graduated over 400 students into their dream jobs as junior developers - there's no reason why our next success story can't be you.
+      %h4.subheader  Women make software too, in fact they invented it.
+      %P Join us to learn the principles of software craftsmanship and soon you'll be starting your career as a web developer. Makers Academy is Europe's leading developer bootcamp. Over the past couple of years, we've graduated more than 400 students into their dream jobs and over 35% of them have been women: three times higher than industry average. Sadly, however, academic research confirms that men are likely to over-estimate their talents and apply, while women under-estimate and delay. So, if you’re reading this and wondering whether to apply, the answer is yes.
     = partial :"email-capture"
-
-%section
-  .article--centered
-    %article
-      %h3 Why should you consider a career in web development?
-      %p Are you bored of a job that you accidently fell into? Are you in a creative rut? Do you yearn for a job without all the politics and backstabbing? Do you long to feel like you're actually doing something valuable, or making the world a better place, rather than just going through the motions and waiting for the weekend? It's not too late to transition to a career that makes you happy.
-      %p The technology sector has been growing rapidly for years, and has been totally unaffected by the recession. With demand for developers growing 20% year-on-year, and supply of developers (mainly graduates of computer science degrees) flatlining at 1%, the tech industry is crying out for talent. In short - the tech industry needs you!
-      %p Technology companies are well known for their fun offices and relaxed work environment. Our office at Makers Academy has everything from beanbags & table tennis to a hammock & board games! The culture in tech companies is friendly, egalitarian and truly meritocratic, so say goodbye to your stuffy suits - most people tend to wear casual clothes! You’ll also almost certainly have more freedom and flexibilty than your current role... And you get to build cool stuff as well!
-
-%hr
 
 %section.no-padding-bottom
   .article--centered
     %article
       %h3 This could be you
-      %p Our graduates come from all walks of life, everything from lawyers to teachers, accountants to estate agents to senior managers, and many, many more. They had the belief in themselves to escape an unfulfilling career, and now they get to apply their creative skills to work that they enjoy, not to mention having a better work life balance!
-      %p When was the last time you were so excited by your work that you jumped out of bed in the morning? Never?! Then quit now and make a change for the better - life’s too short not to be doing something you love.
+      %p Our graduates include amazing women from all walks of life, everything from mums to students to project managers. They had the belief in themselves to escape an unfulfilling career, and now they get to apply their creative skills to work that they enjoy. They have a better work life balance while changing the world because third sector organisations need developers too.
 
-= partial :"full_graduates", locals: { category: "career changer" }
+= partial :"full_graduates", locals: { category: "female" }
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
@@ -95,4 +83,4 @@
 
 / Mixpanel event for landing page
 :javascript
-  mixpanel.track('Viewed Career Changers Landing Page');
+  mixpanel.track('Viewed Womens Landing Page');
