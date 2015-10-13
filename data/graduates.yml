@@ -364,6 +364,7 @@
   cohort_year: 2015
   categories:
     - education leaver
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in retail.
@@ -781,6 +782,9 @@
   testimonial: I now have an interesting job that forces me to think and learn something new everyday and that’s not something I can say for the other jobs I’ve had.
   cohort: Graduated December 2014
   blog_link: http://www.deniseyu.com
+  categories:
+      - education leaver
+      - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Finishing my MSc in Social Policy at the LSE, trying to work in behavioural sciences and policy research.
@@ -1008,6 +1012,7 @@
   cohort_year: 2014
   categories:
     - career changer
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in project management in a small team at a social enterprise. It was interesting at first, but as time went on I didn't feel like I was developing any tangible skills.
@@ -1064,6 +1069,7 @@
   cohort_year: 2014
   categories:
     - education leaver
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a fresh graduate in Psychology considering my career options. I wanted to work in tech but was worried that I was being unrealistic given my background. I was having a hard time finding companies willing to train up a complete beginner, so I was considering doing something non-technical while teaching myself how to code.
@@ -1368,6 +1374,7 @@
   cohort_year: 2014
   categories:
     - entrepreneur
+    - female 
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Until July 2014, I was MD of a translation agency which I tried to acquire. The deal eventually fell through after 12 months and I left the business to ponder about what I should do with my career from there. Having fallen out of love with the industry, I knew that I would have to do something radically different that would retain my interest.
