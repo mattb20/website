@@ -3,7 +3,7 @@
   .container
     .centered-row
       %h1 Learn to code in 12 weeks
-      %p Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over 400 students into their dream jobs as junior developers.
+      %p Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over #{stats.number_of_graduates} students into their dream jobs as junior developers.
     = partial :"email-capture"
 
 %section.half-slider
@@ -25,7 +25,7 @@
     .centered-row
       %h4.leader Meet
       %h2 Our hiring partners
-      %p We’ve graduated over 300 beginners into their dream jobs as junior developers. Some were looking for a career change, others to bring their ideas to life.
+      %p We’ve graduated over #{stats.number_of_graduates} beginners into their dream jobs as junior developers. Some were looking for a career change, others to bring their ideas to life.
     .three-width-row
       .column
         .image--centered
