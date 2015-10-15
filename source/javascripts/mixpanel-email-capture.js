@@ -4,7 +4,7 @@ function mixpanelEmailCapture (response, email) {
   var stage = "Signed up for newsletter";
 
   if (response.result === "success") {
-    mixpanel.identify(email);
+    mixpanel.alias(email);
     mixpanel.track(stage);
     mixpanel.people.set({'$email': email, 'Current Stage': stage});
   }

@@ -93,4 +93,5 @@
 
 / Mixpanel event for landing page
 :javascript
-  mixpanel.track('Viewed Education Leavers Landing Page');
+  mixpanel.track('Viewed Landing Page', {'Landing Page': 'Education Leavers'});
+  mixpanel.people.set({'Category': 'Education Leaver'});

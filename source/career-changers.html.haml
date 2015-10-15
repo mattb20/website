@@ -95,4 +95,5 @@
 
 / Mixpanel event for landing page
 :javascript
-  mixpanel.track('Viewed Career Changers Landing Page');
+  mixpanel.track('Viewed Landing Page', {'Landing Page': 'Career Changers'});
+  mixpanel.people.set({'Category': 'Career Changer'});

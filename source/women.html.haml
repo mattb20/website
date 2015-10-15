@@ -83,4 +83,5 @@
 
 / Mixpanel event for landing page
 :javascript
-  mixpanel.track('Viewed Womens Landing Page');
+  mixpanel.track('Viewed Landing Page', {'Landing Page': 'Women'});
+  mixpanel.people.set({'Category': 'Women'});
