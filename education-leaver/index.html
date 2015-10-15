@@ -170,6 +170,30 @@
           <div class='container'>
             <div class='profile-row'>
               <div class='image show-desktop'>
+                <img src="http://assets.makersacademy.com/images/graduates/simon.jpg" />
+              </div>
+              <div class='copy'>
+                <h4 class='leader'>Graduated August 2015</h4>
+                <h2>Simon Legg</h2>
+                <h4 class='subheader'>Paint Salesman to Junior Developer at Financial Times</h4>
+                <blockquote>I can code and I'm starting a new job soon, which is exciting and I've doubled my salary!</blockquote>
+                <div class='button-row shift-to-bottom'>
+                  <p>
+                    <a class="button button--horizontal" href="/case-studies/simon-legg">Read Simon's story</a>
+                    <a class="button button--horizontal" target="_blank" href="https://medium.com/@_simon__says">Visit Simon's blog</a>
+                  </p>
+                </div>
+              </div>
+              <div class='image hide-desktop no-padding'>
+                <img src="http://assets.makersacademy.com/images/graduates/simon.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='slide'>
+          <div class='container'>
+            <div class='profile-row'>
+              <div class='image show-desktop'>
                 <img src="http://assets.makersacademy.com/images/graduates/george.jpg" />
               </div>
               <div class='copy'>
@@ -180,6 +204,7 @@
                 <div class='button-row shift-to-bottom'>
                   <p>
                     <a class="button button--horizontal" href="/case-studies/george-mcgowan">Read George's story</a>
+                    <a class="button button--horizontal" target="_blank" href="http://georgemcgowan.com/">Visit George's blog</a>
                   </p>
                 </div>
               </div>
@@ -265,7 +290,7 @@
                 <img src="http://assets.makersacademy.com/images/graduates/clare.jpg" />
               </div>
               <div class='copy'>
-                <h4 class='leader'>Graduated January 2014</h4>
+                <h4 class='leader'>Graduated January 2015</h4>
                 <h2>Clare Trembath</h2>
                 <h4 class='subheader'>Art Graduate to Freelance Developer</h4>
                 <blockquote>Makers is worth every penny! You won't regret it!</blockquote>
@@ -571,7 +596,8 @@
     </section>
     <!-- Mixpanel event for landing page -->
     <script>
-      mixpanel.track('Viewed Education Leavers Landing Page');
+      mixpanel.track('Viewed Landing Page', {'Landing Page': 'Education Leavers'});
+      mixpanel.people.set({'Category': 'Education Leaver'});
     </script>
     <footer role='contentinfo'>
       <div class='container'>
@@ -662,6 +688,6 @@
         </div>
       </div>
     </footer>
-    <script src="/javascripts/all-f84e094c.js" type="text/javascript"></script>
+    <script src="/javascripts/all-dd178491.js" type="text/javascript"></script>
   </body>
 </html>

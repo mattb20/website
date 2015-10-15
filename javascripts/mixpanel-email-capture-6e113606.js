@@ -1,0 +1,1 @@
+function mixpanelEmailCapture(e,a){var l="Signed up for newsletter";"success"===e.result&&(mixpanel.alias(a),mixpanel.track(l),mixpanel.people.set({$email:a,"Current Stage":l}))}

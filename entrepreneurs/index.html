@@ -380,7 +380,8 @@
     </section>
     <!-- Mixpanel event for landing page -->
     <script>
-      mixpanel.track('Viewed Entrepreneurs Landing Page');
+      mixpanel.track('Viewed Landing Page', {'Landing Page': 'Entrepreneurs'});
+      mixpanel.people.set({'Category': 'Entrepreneur'});
     </script>
     <footer role='contentinfo'>
       <div class='container'>
@@ -471,6 +472,6 @@
         </div>
       </div>
     </footer>
-    <script src="/javascripts/all-f84e094c.js" type="text/javascript"></script>
+    <script src="/javascripts/all-dd178491.js" type="text/javascript"></script>
   </body>
 </html>

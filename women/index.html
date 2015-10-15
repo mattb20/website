@@ -369,7 +369,7 @@
                 <img src="http://assets.makersacademy.com/images/graduates/clare.jpg" />
               </div>
               <div class='copy'>
-                <h4 class='leader'>Graduated January 2014</h4>
+                <h4 class='leader'>Graduated January 2015</h4>
                 <h2>Clare Trembath</h2>
                 <h4 class='subheader'>Art Graduate to Freelance Developer</h4>
                 <blockquote>Makers is worth every penny! You won't regret it!</blockquote>
@@ -743,7 +743,8 @@
     </section>
     <!-- Mixpanel event for landing page -->
     <script>
-      mixpanel.track('Viewed Womens Landing Page');
+      mixpanel.track('Viewed Landing Page', {'Landing Page': 'Women'});
+      mixpanel.people.set({'Category': 'Women'});
     </script>
     <footer role='contentinfo'>
       <div class='container'>
@@ -834,6 +835,6 @@
         </div>
       </div>
     </footer>
-    <script src="/javascripts/all-f84e094c.js" type="text/javascript"></script>
+    <script src="/javascripts/all-dd178491.js" type="text/javascript"></script>
   </body>
 </html>
