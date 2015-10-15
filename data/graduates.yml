@@ -30,6 +30,36 @@
     - question: Sum up your Makers Academy experience
       answer: Amazing. I got closer to people in a way that I've never have before. I've also met people who are passionate about code and really interesting.
 
+- first_name: Simon
+  last_name: Legg
+  image: simon.jpg
+  summary: Paint Salesman to Junior Developer at Financial Times
+  testimonial: I can code and I'm starting a new job soon, which is exciting and I've doubled my salary!
+  cohort_month: August
+  cohort_year: 2015
+  categories:
+    - education leaver
+  blog_link: https://medium.com/@_simon__says
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was selling paint.
+    - question: What made you want to start learning to code in the first place?
+      answer: I wanted to make cool things that people use daily and my brother is a programmer so that captured my interest too.
+    - question: What did you find difficult during the course?
+      answer: I found it to be a steep learning curve and the emphasis on the self-led learning was difficult.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: I came across Makers Academy through Facebook and I met up with a graduate of Makers Academy who worked with my brother.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I recovered from a hangover and then I started to apply to jobs and got a job offer about a month a later.
+    - question: How has your life changed since graduation?
+      answer: I can code and I'm starting a new job soon, which is exciting and I've doubled my salary!
+    - question: What advice would you give to people thinking of changing career?
+      answer: Do it!
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I was worried if I would be able to get a job afterwards or not but now I got a job so it's all good.
+    - question: Sum up your Makers Academy experience
+      answer: Booze, code and great friends.
+
 - first_name: Ruth
   last_name: Earle
   image: ruth.jpg
@@ -74,6 +104,7 @@
   cohort_year: 2015
   categories:
     - career changer
+  blog_link: http://www.alexhandy.me/
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a management consultant.
@@ -171,6 +202,7 @@
   categories:
     - career changer
     - education leaver
+  blog_link: http://georgemcgowan.com/
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in Operations and Finance as an intern for a charity in Oxford.
@@ -554,7 +586,7 @@
   summary: Art Graduate to Freelance Developer
   testimonial: Makers is worth every penny! You won't regret it!
   cohort_month: January
-  cohort_year: 2014
+  cohort_year: 2015
   categories:
     - education leaver
     - female
@@ -1374,7 +1406,7 @@
   cohort_year: 2014
   categories:
     - entrepreneur
-    - female 
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Until July 2014, I was MD of a translation agency which I tried to acquire. The deal eventually fell through after 12 months and I left the business to ponder about what I should do with my career from there. Having fallen out of love with the industry, I knew that I would have to do something radically different that would retain my interest.
