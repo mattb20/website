@@ -1,9 +1,71 @@
+- first_name: Nicola
+  last_name: Hughes
+  image: nicola.jpg
+  summary: Data Journalist to Junior Developer at ThoughtWorks
+  testimonial: I can code and I got a job and I'm now looking forward to working in the tech industry and not just media.
+  cohort_month: August
+  cohort_year: 2015
+  categories:
+    - career changer
+    - female
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working as a data journalist at the Sunday Times.
+    - question: What made you want to start learning to code in the first place?
+      answer: I had been doing some programming for work and I wanted to do it full time.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: I talked to some developers and they told me to do some research and pointed out Makers Academy.
+    - question: What did you find difficult during the course?
+      answer: I found the work-life balance difficult. Everything from eating, laundry, to sleeping properly!
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I was an alumni helper and I went to a meetup based at ThoughtWorks and the office manager sent my details to their graduate recruiter and it went from there.
+    - question: How has your life changed since graduation?
+      answer: I can code, I got a job and I'm now looking forward to working in the tech industry and not just in media.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Be brave and go for it. You will get a lot of support from everyone.
+    - question: What would you say to people who say £8,000 is very expensive?
+      answer: I'd say if you need to change your life then the time you wait to do that is more costly to your wellbeing.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: My biggest worry was not knowing what I wanted to do with the skills I gained and ThoughtWorks ticks every single box in terms of what I want right now so that worry is now gone.
+    - question: Sum up your Makers Academy experience
+      answer: Be brave and go for it. You will get a lot of support from everyone.
+
+- first_name: Kirsten
+  last_name: Jones
+  image: kirsten.jpg
+  summary: Lawyer to Junior Developer at Financial Times
+  testimonial: Makers Academy is an incredible environment to learn in. You don't just learn to code here but you also have lots of fun and meet great people and have an amazing support network of expert coders and wellbeing support.
+  cohort_month: August
+  cohort_year: 2015
+  categories:
+    - career changer
+    - female
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I used to be a lawyer and worked in project finance.
+    - question: What made you want to start learning to code in the first place?
+      answer: I had a feeling I might enjoy it so I started to play with it online and then I got to a point where I felt like I wouldn't progress more and not learn more so I looked online and found Makers Academy.
+    - question: What did you find difficult during the course?
+      answer: Sometimes it felt like there was a lot you had to learn and it was difficult to always keep on top of everything knowing there was something new coming new week. It was challenging getting used to that feeling of not finishing things and feeling okay to move onto the next thing.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: After graduation I chilled out for a week and took a bit of a break and then I started work on my CV and immediately after the job fair my CV started to get sent out. Very quickly after I graduated I was being enraged to apply.  I went on the trip to Brno to take part in a recruitment hackathon and then I had a crazy week of interviews. I then started to find out I had job offers and I took several days to decide which job to take and I then accepted my job at the Financial Times.
+    - question: How has your life changed since graduation?
+      answer: My life has had changed a lot because I am now in this world of coders and talking about and thinking about programming all the time. It's surprisingly active with so many meetups. There are communities around different languages. It's taken over my life in a good way. I've become fully absorbed in this world of code.
+    - question: What advice would you give to people thinking of changing career?
+      answer: For me Makers has been the best decision ever because it's so efficient. It took me from one career to another in a short space of time. If you are thinking of doing Makers be ready for it to take over your life and be prepared to give it all your energy.
+    - question: What would you say to people who say £8,000 is very expensive?
+      answer: When I was applying I did think it was expensive but these days a university costs that much per year but because it's short it's better value for money as you'll be working sooner and make the money back again.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: It felt like a huge risk because I was diving into something that I had no evidence if I would be good at it or not but I'm really glad I took the risk and I think Makers Academy is an incredible environment to learn in. You don't just learn to code here but you also have lots of fun and meet great people and have an amazing support network of expert coders and wellbeing support.
+    - question: Sum up your Makers Academy experience
+      answer: It's intense, challenging but amazing.
+
 - first_name: Zeina
   last_name: Dajani
   image: Zeina.jpg
   summary: Student to Junior Developer at FNZ
   testimonial: Makers Academy changes your life, how you look at it and what you want to do with it.
-  cohort_month: June
+  cohort_month: August
   cohort_year: 2015
   categories:
     - student
@@ -60,6 +122,62 @@
     - question: Sum up your Makers Academy experience
       answer: Coding and great friends.
 
+- first_name: Sara
+  last_name: O'Connor
+  image: sara.jpg
+  summary: Childrens Author to Junior Developer at Exceedra
+  testimonial: A total emotional rollercoaster with great people on the ride with me!
+  cohort_month: June
+  cohort_year: 2015
+  categories:
+    - women
+    - mum
+    - career changer
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working in children's book publishing and I'm an author.
+    - question: What made you want to start learning to code in the first place?
+      answer: I hand-coded HTML websites in high school, then left it behind for 10 years. Took two week-long courses and was addicted.
+    - question: What did you find difficult during the course?
+      answer: The emotional ups and downs and having confidence.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I spent 2 months trying to find jobs on my own. I made a lot of connections, but no one wanted a newbie. Then, I came to the Careers Fair and got a job at Exceedra, through Makers Academy.
+    - question: How has your life changed since graduation?
+      answer: I have so much more confidence in myself now. I really really can do anything I set my mind to.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Do it!
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I wasn't really worried before joining Makers. I thought I'd ace it. The worries came after the first week and I couldn't make my code work. But now I know I can just step through it, read a lot, ask good questions, and it will work eventually.
+    - question: Sum up your Makers Academy experience
+      answer: A total emotional rollercoaster with great people on the ride with me!
+
+- first_name: Retesh
+  last_name: Bajaj
+  image: retesh.jpg
+  summary: Cardiology Doctor who learnt to code
+  testimonial: It was memorable and life changing and my life won't be the same again.
+  cohort_month: September
+  cohort_year: 2015
+  categories:
+    - career changer
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was a cardiology doctor.
+    - question: What made you want to start learning to code in the first place?
+      answer: I feel that a lot of technologies are disrupting old industries (like black cabs) but I felt that medicine has not been disrupted by technology yet. I feel the disruption however coming and I wanted to be the forefront of it and guiding it. In my day-to-day work there is a lot of inefficiency that can be made better with technology and applications. I wanted to make my own applications to improve my workflow and deliver better patient care.
+    - question: What did you find difficult during the course?
+      answer: It was hard to learn how to learn again as I got used to being a senior in medicine.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I used my academic time to do this course. I'm now re-entering medicine as a registrar and I'm going to be communicating with the ICT departments of my hospital and some private medical tech companies to see if we can collaborative on solutions for problems I face day to day. I didn't expect to use the network opportunity I have here with the alumni network.  I can penetrate the bureaucracy a bit more easily in the NHS as I now understand medicine and tech.
+    - question: How has your life changed since graduation?
+      answer: I can code and it doesn't scare me anymore. I can think of anything new I wanted do and know eventually I know can build it.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Don't be afraid it of it and take the leap. You'll never feel more alive and gain so much and it's been such an incredible experience in my life. If you are not satisfied with your job, you'll never convince yourself to be satisfied and if you want to be fulfilled then take the leap and don't be afraid of the consequences.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: My biggest worry was due to have been out of education for over 6 years, I wondered if I would be able to pick up a new skill, let alone coding. When you learn something new it is hard but if you've been through university or a done scientific degree then you probably already have an aptitude for picking up programming and don’t underestimate your communication skills as being a people person is important due to pair programming and working in teams.
+    - question: Sum up your Makers Academy experience
+      answer: It was memorable and life changing and my life won't be the same again.
+
 - first_name: Ruth
   last_name: Earle
   image: ruth.jpg
@@ -100,7 +218,7 @@
   image: AlexApril2.jpg
   summary: Management Consultant to Junior Developer at Product Health
   testimonial:  You now pay so much money to go to university so the relative cost of joing Makers Academy is minimal and you get the careers service support too.
-  cohort_month: April
+  cohort_month: June
   cohort_year: 2015
   categories:
     - career changer
@@ -131,7 +249,7 @@
   last_name: Harker
   image: Paul2.jpg
   summary: Technical Writer to Junior Developer at CloudCredo
-  testimonial:
+  testimonial: It was a lot of work and a lot of fun!
   cohort_month: June
   cohort_year: 2015
   categories:
