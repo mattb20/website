@@ -7,12 +7,23 @@
       %P Get a free copy of our Learn Ruby In 15 Minutes e-book by signing up to our newsletter. It's perfect for anyone that is interested in taking the plunge by learning to code. It is a good start into the Ruby language if you've never had any experience before and we've made it as easy to understand as possible.
     = partial :"email-capture"
 
-%section
-  .article--centered
-    %article
-      %h3 What will you learn?
-      %p You will learn about installing ruby, method calls, variables,
-      %p A bit more detail about what is in the book?
+%section.full-slider
+  .slider
+    .slide
+      .container
+        %article
+          %h4.leader Learn Ruby in 15 Minutes
+          %h2 Installing Ruby
+          %p
+            %span How to install Ruby is the first step in the book. You'd need this to get going with the rest of the tutorials.
+    .slide
+      .container
+        %article
+          %h4.leader Learn Ruby in 15 Minutes
+          %h2 Methods and Variables
+          %p
+            %span Basic functions in Ruby are called methods and variables are holding some data for you to work with. We'll show you how to create both and get them on your screen.
+
 
 - description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
