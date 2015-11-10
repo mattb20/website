@@ -20,15 +20,17 @@
       var label = form.find('label[for=' + email.attr('id') + ']');
       var submitMsg = "Thank you for subscribing!";
 
-      form.on("submit", function(event) {
+      form.on("submit", submitEmail);
+
+      function submitEmail(event) {
         event.preventDefault();
 
-        analytics.identify(submitValues());
+        analytics.identify(analyticsProperties());
 
         label.html(submitMsg).show(2000);
-      });
+      }
 
-      function submitValues() {
+      function analyticsProperties() {
         var values = {
           email: email.val(),
           newsletter: true,
