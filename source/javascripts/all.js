@@ -23,7 +23,7 @@
 //= require vendor/slick.js
 //= require vendor/jquery.ajaxchimp
 //= require vendor/prism
-//= require mixpanel-email-capture
+//= require email_capture
 //= require navigation
 //= require jquery.fixedscroll
 //= require doorbell
