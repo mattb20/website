@@ -86,7 +86,6 @@
 
 = partial :"apply"
 
-/ Mixpanel event for visiting homepage
+/ Analytics event for visiting homepage
 :javascript
-  mixpanel.track('Viewed homepage');
-  mixpanel.people.increment('Viewed homepage');
+  analytics.track('Viewed homepage');

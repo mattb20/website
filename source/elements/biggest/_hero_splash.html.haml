@@ -4,4 +4,4 @@
       = image_tag "logo/ma-white.png", class: "logo"
       %h1 Learn to code in 12 weeks
       %p= lorem.sentences(5)
-    = partial :"email-capture"
+    = partial :"email-capture", locals: { button_text: "Custom Text", segments: "Entrepreneurs" }
