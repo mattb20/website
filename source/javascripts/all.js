@@ -24,6 +24,7 @@
 //= require vendor/jquery.ajaxchimp
 //= require vendor/prism
 //= require email_capture
+//= require mixpanel-email-capture
 //= require navigation
 //= require jquery.fixedscroll
 //= require doorbell
