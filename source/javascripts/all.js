@@ -30,6 +30,7 @@
 //= require vendor/baseliner
 //= require tabs
 //= require vertical_tabs
+//= require youtube-embed
 //= require elements
 
 $(document).ready(function() {
