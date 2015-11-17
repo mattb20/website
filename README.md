@@ -53,15 +53,6 @@ The latest SASS changes will be compiled into CSS and a new version of the style
 ## Versioning
 
 We use [semantic versioning](http://semver.org) when creating new releases using
-tags. This is used both for Bower (see above) and for tracking changes in
-Mixpanel so we can compare how different versions of the website perform.
+tags, this allows Bower to keep track of our code.
 
-A few things to bear in mind:
-
-- If you are only creating a release to update Bower with some style changes,
-  just release a PATCH version
-- If you have made a change that is important enough to be tracked in Mixpanel,
-  release a MINOR version or if it's a huge change a MAJOR
-- Make sure that when releasing a MAJOR or MINOR version (e.g. upgrading from 2.1.3 to 2.2.0) you:
-  1. change in `config.rb` the `website_version` number - this number is sent to Mixpanel, **please don't forget to do this!**
-  2. run `rake publish:bower` with the new version number to ensure that the **bower.json** file has the correct version
+Make sure that when releasing a new version of the site that you want bower to pick up you run `rake publish:bower` with the new version number to ensure that the **bower.json** file has the correct version

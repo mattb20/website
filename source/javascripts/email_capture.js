@@ -1,4 +1,5 @@
-/* Segment email capture takes email from a form input and sends it to Segment.com
+/* Segment email capture takes in an email address and submits it to Segment.com
+ jQuery Plugin
 
  Use:
  ===
@@ -24,7 +25,7 @@
 
       form.on("submit", signUpForNewsletter);
 
-      function signUpForNewsletter(event) {
+      function submitEmailToSegment(event) {
         event.preventDefault();
         sendToSegment();
         label.html(submitMsg).show(2000);
@@ -52,7 +53,7 @@
 
         if (segments) {
           segments.split(",").forEach(function(element) {
-            values[element] = true;
+            values[element.trim()] = true;
           });
         }
 

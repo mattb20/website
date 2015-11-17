@@ -81,7 +81,7 @@
 
 = partial :"apply"
 
-/ Mixpanel event for landing page
+/ Analytics for landing page
 :javascript
-  mixpanel.track('Viewed Landing Page', {'Landing Page': 'Women'});
-  mixpanel.people.set({'Category': 'Women'});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Women'});
+  analytics.identify({'Women': true});

@@ -1,7 +1,4 @@
 activate :dotenv
-# This is the website version registered in Mixpanel
-# It should match the minor version (e.g. 2.1) of the website
-set :website_version, 2.3
 
 Dir["lib/*.rb"].each { |file| require file }
 
@@ -95,7 +92,7 @@ redirect "partners.html", to: "employers.html"
 
 configure :development do
   activate :livereload
-  set :mixpanel_token, 'f3e503bb7803dd7089f5b4124baa03a4'
+  set :segment_key, 'fjB2Afsk8U7NNgugtKdte88HGNXk3yr7'
 
   # custom setting for switching off analytics in development
   set :run_analytics, false
@@ -129,7 +126,7 @@ configure :build do
 
   set :run_analytics, true
 
-  set :mixpanel_token, 'b839b30fbe0796d650ae20e7eae6d0d1'
+  set :segment_key, '8NGMT5SwWiR5BvuyrpTsirX9XY8CeZ4R'
 
   set :show_baseline_grid, false
 
