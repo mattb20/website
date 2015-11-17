@@ -1,0 +1,1 @@
+!function(t){"use strict";t.fn.emailCapture=function(i){return t(this).each(function(i,n){var e=t(n),r=e.find("input[type=email]");e.find("label[for="+r.attr("id")+"]");e.on("submit",signUpForNewsletter)})}}(jQuery);
