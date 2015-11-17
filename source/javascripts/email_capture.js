@@ -23,7 +23,7 @@
       var submitMsg = "Thank you for subscribing!";
       var stage = "Signed up for newsletter";
 
-      form.on("submit", signUpForNewsletter);
+      form.on("submit", submitEmailToSegment);
 
       function submitEmailToSegment(event) {
         event.preventDefault();
@@ -33,7 +33,7 @@
 
       function sendToSegment() {
         analytics.alias(email.val());
-        analytics.identify(analyticsProperties());
+        analytics.identify(email.val(), analyticsProperties());
         analytics.track(stage);
       }
 
