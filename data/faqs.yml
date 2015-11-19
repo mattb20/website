@@ -68,7 +68,7 @@
       answer: "Absolutely. We’ve had students from all over Europe, the USA, Singapore, Hong Kong, South Africa, Pakistan, Australia, New Zealand and even Venezuela!"
 
     - question: What's the deal for International Students?
-      answer: "We welcome International Students. We've had people join us from France, Germany, The USA, even South Africa! The cost is the same wherever you're from and you apply in the normal way. Three important things to bear in mind: Firstly, you aren't able to get a student visa for Makers Academy as we haven't yet received the required accreditation. Secondly, we have partnered with Migreat.com to provide you with assistance on getting the right visa easily sorted. Migreat.com is like Skyscanner for immigration. In a few clicks, their visa tool will give you an idea of the visa you are eligible for and a to-do list of documents for you to come on board. Migreat has online contacts for a great number of immigration lawyers, for all types of budget and visa. If you are confused by the application documents, you can ask their immigration experts for a little help. The platform is all free to use and you can ask them to refer you to an expert to do your visa application directly on the platform - though this will come with a fee. Thirdly, you'll only be allowed to take the up-front payment plan."
+      answer: "We welcome International Students. We've had people join us from France, Germany, The USA, even South Africa. The cost is the same wherever you're from and you apply in the normal way. Three important things to bear in mind: Firstly, you aren't able to get a student visa for Makers Academy as we haven't yet received the required accreditation. Secondly, we have partnered with Migreat.com to provide you with assistance on getting the right visa easily sorted. Migreat.com is like Skyscanner for immigration. In a few clicks, their visa tool will give you an idea of the visa you are eligible for and a to-do list of documents for you to come on board. Migreat has online contacts for a great number of immigration lawyers, for all types of budget and visa. If you are confused by the application documents, you can ask their immigration experts for a little help. The platform is all free to use and you can ask them to refer you to an expert to do your visa application directly on the platform - though this will come with a fee. Thirdly, you'll only be allowed to take the up-front payment plan."
 
     - question: How much maths do I need to know?
       answer: "It’s a bit of a cliche that coding is all about Maths (Computer Science is Maths heavy... Writing code, not so much!). In reality, anything above If/Else statements and simple AND/OR logic is done largely by the computer. It’s more important that you have the right sort of mentality, that you’re comfortable working in ‘the unknown’ and that you aren’t afraid to fail. So long as you have a rudimentary understanding of basic maths, you’ve got everything you need."
@@ -77,7 +77,7 @@
       answer: "There is a huge spectrum of learning difficulties, and we would never generalize to say that any learning difficulty would make our course unattainable. We've had a number of students with dyslexia do very well on the course, but please feel free to get in touch to discuss your personal requirements. While we're not experts in this field, we will do everything we can to support anyone who is serious about learning to code."
 
     - question: How many international students attend the program?
-      answer: "We don’t track the number specifically, but we’ve had students from all over Europe, the USA, Singapore, Hong Kong, South Africa, Australia, New Zealand and even Venezuela!"
+      answer: "We don’t track the number specifically, but we’ve had students from all over Europe, the USA, Singapore, Hong Kong, South Africa, Australia, New Zealand and even Venezuela"
 
 - category_name: More About The Course
   faqs:
@@ -161,7 +161,7 @@
       answer: "Once a student is accepted on to the course, their spot will be guaranteed until 28 days before the course start-date. In this time the seat will not be offered to anyone else. If the deposit is not paid within 28 days of the course start-date, the spot will be opened up to students on the waiting list. While this doesn't necessarily mean that you will lose your seat, so long as you have not paid your deposit you're liable to be moved to a later cohort at any time."
 
     - question: Do I need to buy books?
-      answer: "Books are kind of outdated in the fast pacing world of software development. You won't need any on the course but we can recommend some if you're really after some physical materials."
+      answer: "Books are kind of outdated in the fast-paced world of software development. You won't need any on the course but we can recommend some if you're really after some physical materials."
 
     - question: Can I pay in Bitcoin, if so how?
       answer: "Yes - we welcome payment in Bitcoin. If you want to do so, we can talk about how to do so when you come for an interview."
