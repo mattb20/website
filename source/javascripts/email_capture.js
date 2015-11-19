@@ -40,8 +40,7 @@
       function analyticsProperties() {
         var values = {
           email: email.val(),
-          Newsletter: true,
-          'Current Stage': stage
+          Newsletter: true
         };
 
         return addSegments(values);
