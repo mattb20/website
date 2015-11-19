@@ -29,6 +29,7 @@
 //= require vertical_tabs
 //= require youtube-embed
 //= require elements
+//= require link_tracking
 
 $(document).ready(function() {
 
