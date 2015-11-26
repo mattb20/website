@@ -215,7 +215,7 @@
 
 - first_name: Tatiana
   last_name: Soukiassian
-  image: tatiana.jpg
+  image: tat1.jpg
   summary: PR to Junior Developer at Government Digital Service
   testimonial: I went on several interviews and found a position as a Junior Developer for Government Digital Service. I'm very lucky to be in a team that is truly Agile and supports my learning through mentorship, a 20% project and more
   cohort_month: December
@@ -798,13 +798,14 @@
 - first_name: Sarah
   last_name: Young
   image: sarah.jpg
-  summary:
-  testimonial:
+  summary: Academic to Junior Developer at Deloitte Digital
+  testimonial: My time at Makers Academy was intellectually challenging, a roller coaster of joy, and one of the best decisions of my life.
   cohort_month: May
   cohort_year: 2014
   blog_link:
   categories:
     - career changer
+    - women
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I trained as a historian of gender, education and technology.
@@ -817,7 +818,7 @@
     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
       answer: I had days when I felt I didn’t have enough time to understand concepts and worries like I won’t be able to get a job, this was all put to bed as after graduation Makers helped me find a job. Since graduation I’m happier, more confident, and financially secure. I feel like I’ve found the path I’ve always been looking for
     - question: Sum up your Makers Academy experience
-      answer: My time at Makers Academy was intellectually challenging, a roller coaster of joy, and one of the best decisions of my life
+      answer: My time at Makers Academy was intellectually challenging, a roller coaster of joy, and one of the best decisions of my life.
 
 - first_name: Chris
   last_name: Ward
