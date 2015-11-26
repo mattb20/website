@@ -797,12 +797,12 @@
 
 - first_name: Sarah
   last_name: Young
-  image: sarah.jpg
+  image: sarah1.jpg
   summary: Academic to Junior Developer at Deloitte Digital
   testimonial: My time at Makers Academy was intellectually challenging, a roller coaster of joy, and one of the best decisions of my life.
   cohort_month: May
   cohort_year: 2014
-  blog_link:
+  blog_link: https://www.youtube.com/watch?v=qyAjiT3NWe0
   categories:
     - career changer
     - women
