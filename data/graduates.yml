@@ -130,7 +130,7 @@
   cohort_month: June
   cohort_year: 2015
   categories:
-    - women
+    - female 
     - mum
     - career changer
   case_study:
@@ -805,7 +805,7 @@
   blog_link: https://www.youtube.com/watch?v=qyAjiT3NWe0
   categories:
     - career changer
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I trained as a historian of gender, education and technology.
