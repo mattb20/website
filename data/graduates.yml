@@ -215,9 +215,9 @@
 
 - first_name: Tatiana
   last_name: Soukiassian
-  image: tat1.jpg
+  image: tat2.jpg
   summary: PR to Junior Developer at Government Digital Service
-  testimonial: I went on several interviews and found a position as a Junior Developer for Government Digital Service. I'm very lucky to be in a team that is truly Agile and supports my learning through mentorship, a 20% project and more
+  testimonial: I went on several interviews and found a position as a Junior Developer for Government Digital Service. I'm very lucky to be in a team that is truly Agile and supports my learning through mentorship, a 20% project and more.
   cohort_month: December
   cohort_year: 2014
   categories:
@@ -225,13 +225,13 @@
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
-      answer: I was working as a International Public Relations Manager
+      answer: I was working as a International Public Relations Manager.
     - question: What made you want to start learning to code in the first place?
       answer: I realised I really enjoyed  using formulas in Excel sheets, and more generally I missed breaking down problems through logical thinking, which I had to do as a student when doing Maths.
     - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
       answer: I found out about MA through a simple Google ad, and followed up with ample online research. I decided to apply because the idea of reaching an employable level after 12 weeks meant becoming a developer was no longer an unreachable dream, but could become a very tangible project.
     - question: What did you find difficult during the course?
-      answer: Realising that I didn't only need to learn about coding but also about efficiently  researching what I needed to solve a problem, and about becoming very  resilient.
+      answer: Realising that I didn't only need to learn about coding but also about efficiently  researching what I needed to solve a problem and I had to become very resilent.
     - question: What happened during/after graduation and where are you job-wise?
       answer: After graduation, I went on several interviews and found a position as a Junior Developer for Government Digital Service. I'm very lucky to be in a team that is truly Agile and supports my learning through mentorship, a 20% project and more
     - question: How has your life changed since graduation?
@@ -634,35 +634,35 @@
     - question: What advice would you give to people interviewing for developer roles?
       answer: Prepare as much as possible and try and relax. In hindsight I would have started to apply for jobs earlier.
 
-- first_name: Izzy
-  last_name: Markwick
-  image: izzy.jpg
-  summary: Business Developer at a Fashion Tech Startup to Freelance Developer
-  testimonial: Makers is amazing, intense and quite life-changing.
-  cohort_month: January
-  cohort_year: 2015
-  categories:
-    - career changer
-    - female
-  case_study:
-    - question: What were you doing before joining Makers Academy?
-      answer: Before Makers Academy I was working in a Fashion Tech Startup doing a bit of everything, but my job title was business development. I went there straight from uni where I studied International Politics at Kings College.
-    - question: What made you want to start learning to code in the first place?
-      answer: I had interest in it when I was studying politics and when I was working with the developers in the startup I got rather envious seeing what they can do.
-    - question: What did you find difficult during the course?
-      answer: I lacked confidence in my coding capabilities.
-    - question: What happened during/after graduation and where are you job-wise?
-      answer: After graduation I started to build on my personal projects and ideas and rebuilt my final project as we wanted to re-launch it. Then started to meet clients and started to pick up freelance work, which kept me coding everyday.
-    - question: How has your life changed since graduation?
-      answer: I work in a completely new industry. I didn't necessarily feel like a developer at graduation, but now I do even though it's only been a few months. I found the career path I want to pursue.
-    - question: What advice would you give to people thinking of changing career?
-      answer: If you want to you should. If you are not happy where you are then seek to do something that makes you happier. No fear.
-    - question: What would you say to people who say £8,000 is very expensive?
-      answer: It's a reasonable amount of money for the value of the skill you gain while you are here and it doesn't take long to pay off.
-    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-      answer: That I would be terrible at coding. I don't think I'm ever going to say I'm great at it, but I see myself as a developer.
-    - question: Sum up your Makers Academy experience
-      answer: Amazing. Intense. Quite life changing.
+# - first_name: Izzy
+#   last_name: Markwick
+#   image: izzy.jpg
+#   summary: Business Developer at a Fashion Tech Startup to Freelance Developer
+#   testimonial: Makers is amazing, intense and quite life-changing.
+#   cohort_month: January
+#   cohort_year: 2015
+#   categories:
+#     - career changer
+#     - female
+#   case_study:
+#     - question: What were you doing before joining Makers Academy?
+#       answer: Before Makers Academy I was working in a Fashion Tech Startup doing a bit of everything, but my job title was business development. I went there straight from uni where I studied International Politics at Kings College.
+#     - question: What made you want to start learning to code in the first place?
+#       answer: I had interest in it when I was studying politics and when I was working with the developers in the startup I got rather envious seeing what they can do.
+#     - question: What did you find difficult during the course?
+#       answer: I lacked confidence in my coding capabilities.
+#     - question: What happened during/after graduation and where are you job-wise?
+#       answer: After graduation I started to build on my personal projects and ideas and rebuilt my final project as we wanted to re-launch it. Then started to meet clients and started to pick up freelance work, which kept me coding everyday.
+#     - question: How has your life changed since graduation?
+#       answer: I work in a completely new industry. I didn't necessarily feel like a developer at graduation, but now I do even though it's only been a few months. I found the career path I want to pursue.
+#     - question: What advice would you give to people thinking of changing career?
+#       answer: If you want to you should. If you are not happy where you are then seek to do something that makes you happier. No fear.
+#     - question: What would you say to people who say £8,000 is very expensive?
+#       answer: It's a reasonable amount of money for the value of the skill you gain while you are here and it doesn't take long to pay off.
+#     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+#       answer: That I would be terrible at coding. I don't think I'm ever going to say I'm great at it, but I see myself as a developer.
+#     - question: Sum up your Makers Academy experience
+#       answer: Amazing. Intense. Quite life changing.
 
 - first_name: Vanessa
   last_name: Virgitti
@@ -730,36 +730,36 @@
     - question: What advice would you give to people interviewing for developer roles?
       answer: You've got to prepare as much as possible, but relax and be confident in the interview and show yourself in the best possible light. There were things I didn't know in my interviews but I simply explained what I did know or just asked the interviewer.
 
-- first_name: Clare
-  last_name: Trembath
-  image: clare.jpg
-  summary: Art Graduate to Freelance Developer
-  testimonial: Makers is worth every penny! You won't regret it!
-  cohort_month: January
-  cohort_year: 2015
-  categories:
-    - education leaver
-    - female
-    - creative
-  case_study:
-    - question: What were you doing before joining Makers Academy?
-      answer: I had just finished my art degree.
-    - question: What made you want to start learning to code in the first place?
-      answer: I was interested in internet art and wanted to make my own internet art so wanted to learn to code.
-    - question: What did you find difficult during the course?
-      answer: I found the quantity of content difficult.
-    - question: What happened during/after graduation and where are you job-wise?
-      answer: After graduation I started working with <a href='http://www.makersacademy.com/case-studies/izzy-markwick/' target='_blank'>Izzy</a> working on a music app and from then we started to build stuff and now we are freelancing together.
-    - question: How has your life changed since graduation?
-      answer: I feel a lot more independent as I have a skill that can't be taken away from me and I can keep working on developing this skill.
-    - question: What advice would you give to people thinking of changing career?
-      answer: You definitely won't regret doing it. Coding allows us to have an understanding of all the devices around us.
-    - question: What would you say to people who say £8,000 is very expensive?
-      answer: It is very expensive but worth every penny if it's what you want to do.
-    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-      answer: That I would not be any good and I still have that worry every day but I'm making stuff.
-    - question: Sum up your Makers Academy experience
-      answer: Hectic
+# - first_name: Clare
+#   last_name: Trembath
+#   image: clare.jpg
+#   summary: Art Graduate to Freelance Developer
+#   testimonial: Makers is worth every penny! You won't regret it!
+#   cohort_month: January
+#   cohort_year: 2015
+#   categories:
+#     - education leaver
+#     - female
+#     - creative
+#   case_study:
+#     - question: What were you doing before joining Makers Academy?
+#       answer: I had just finished my art degree.
+#     - question: What made you want to start learning to code in the first place?
+#       answer: I was interested in internet art and wanted to make my own internet art so wanted to learn to code.
+#     - question: What did you find difficult during the course?
+#       answer: I found the quantity of content difficult.
+#     - question: What happened during/after graduation and where are you job-wise?
+#       answer: After graduation I started working with <a href='http://www.makersacademy.com/case-studies/izzy-markwick/' target='_blank'>Izzy</a> working on a music app and from then we started to build stuff and now we are freelancing together.
+#     - question: How has your life changed since graduation?
+#       answer: I feel a lot more independent as I have a skill that can't be taken away from me and I can keep working on developing this skill.
+#     - question: What advice would you give to people thinking of changing career?
+#       answer: You definitely won't regret doing it. Coding allows us to have an understanding of all the devices around us.
+#     - question: What would you say to people who say £8,000 is very expensive?
+#       answer: It is very expensive but worth every penny if it's what you want to do.
+#     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+#       answer: That I would not be any good and I still have that worry every day but I'm making stuff.
+#     - question: Sum up your Makers Academy experience
+#       answer: Hectic
 
 - first_name: Andy
   last_name: Newman
