@@ -1,3 +1,43 @@
+- name: DrWow
+  team: Usman, Catherine, Philip and Alex
+  cohort: September 2015
+  blurb: DrWow is a web based application which allows patients to connect with doctors via the web. This will allow them to get consultations without having to wait days or weeks before their GP appointment
+  code_link: https://github.com/MakersApp/makers-app
+  live_link: drwhoteam.herokuapp.com
+  image: drwow.jpg
+
+- name: Leftovers
+  team: David, Moe, Ana and Lucy
+  cohort: September 2015
+  blurb: An app that gives you recipes based on what's you have in your home.
+  code_link: https://github.com/davidbebb/leftovers
+  live_link: https://www.youtube.com/watch?v=ppVjjxgK4lg&feature=youtu.be
+  image: leftovers.jpg
+
+- name: TeemApp
+  team: Owen, Retesh, Sarah, Katya-yani and Fadi Hakim
+  cohort: July 2015
+  blurb: A community sourced activity finder and organizer application.
+  code_link: https://github.com/Kyvyas/final_project
+  live_link: http://teemapp.herokuapp.com
+  image: teemapp.jpg
+
+- name: VaryPixel
+  team: Rebecca, Giuseppe, Ken, Benjamina and Brando
+  cohort: July 2015
+  blurb: A collaborative pixel art drawing application
+  code_link: https://github.com/giusepped/vary-pixel
+  live_link: http://varypixel.herokuapp.com/
+  image: pixel.jpg
+
+- name: Live-Voting
+  team: Rebecca, Giuseppe, Ken, Benjamina and Brando
+  cohort: July 2015
+  blurb: Live-voting is a realtime polling/voting tool that can be used in situations which have one person speaking in front of an audience.
+  code_link: https://github.com/zlahham/live-voting
+  live_link: http://live-voting.herokuapp.com/
+  image: vote.jpg
+
 - name: Makers Visitors App
   team: Sarah, Richard, James, Milena
   cohort: March 2015
