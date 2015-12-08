@@ -3,7 +3,7 @@
   cohort: September 2015
   blurb: DrWow is a web based application which allows patients to connect with doctors via the web. This will allow them to get consultations without having to wait days or weeks before their GP appointment
   code_link: https://github.com/MakersApp/makers-app
-  live_link: drwhoteam.herokuapp.com
+  live_link: http://drwhoteam.herokuapp.com
   image: drwow.jpg
 
 - name: Leftovers
