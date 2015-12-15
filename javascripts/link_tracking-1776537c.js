@@ -1,0 +1,1 @@
+!function(t){t(document).ready(function(){t(".employers-button").click(function(n){n.preventDefault();var e=t(this).attr("href");analytics.track("Viewed Employers Enquiry Form",function(){document.location=e})})})}(jQuery);
