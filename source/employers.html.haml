@@ -8,7 +8,7 @@
       %p 30 new candidates every 6 weeks
     .button-row
       %p
-        = link_to "Hire Developers", "https://makersacademy.typeform.com/to/sz8vTw", class: "button button--vertical", target: "_blank"
+        = link_to "Hire Developers", "https://makersacademy.typeform.com/to/sz8vTw", class: "employers-button button button--vertical", target: "_blank"
 
 %section
   .container
@@ -162,3 +162,6 @@
         = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
 
 = partial :"apply", locals: { page: :employers }
+:javascript
+  analytics.track('Viewed Employers Page');
+
