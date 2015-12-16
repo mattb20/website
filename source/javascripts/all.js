@@ -54,4 +54,5 @@ $(document).ready(function() {
 
   $('.definition-links').fixedScroll();
 
+  analytics.trackLink(document.getElementsByClassName('apply-button'), 'Clicked Apply Page Button');
 });
