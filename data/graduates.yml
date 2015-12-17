@@ -48,19 +48,17 @@
     - question: What happened during/after graduation and where are you job-wise?
       answer: After graduation we won a hackathon and went to lots of meetups and did lots of tech tests. I then secured a job at Vzaar as a Junior Developer.
     - question: How has your life changed since graduation?
-      answer: Life is much calmer since graduation and it's quite fun working with other graduates as we not have free time and can learn new languages and work on new projects.
+      answer: Life is much calmer since graduation and it's quite fun working with other graduates as we now have free time and can learn new languages and work on new projects.
     - question: What advice would you give to people thinking of changing career?
       answer: It's 100% worth it and incredibly intense but you definitely need to be in the right mindset and make sure you do lots of research!
     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
       answer: I was worried about not having a job and not knowing when the next pay cheque will be coming in but I've now got a job that pays more than my previous job so it's all good.
     - question: Sum up your Makers Academy experience
       answer: Makers Academy is like nothing I've ever done before and it's changed my life for the better.
-    - question: What advice would you give to people thinking of changing careers?
-      answer: It's 100% worth it and incredibly intense but you defiantly need to be in the right mindset and make sure you do lots of research!
 
 - first_name: Gerard
   last_name: Morera
-  image: gerard.jpg
+  image: gerad.jpg
   summary: From Physics to Junior Developer at Betvictor
   testimonial: Best educational experience of my life.
   cohort_month: September
@@ -75,9 +73,9 @@
     - question: What did you find difficult during the course?
       answer: I found everything difficult during the course.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: After graduation I applied for a lot of jobs and got a job as a Junior Developer at Betvictor located in Gibraltar
+      answer: After graduation I applied for lots of jobs and got a job as a Junior Developer at Betvictor located in Gibraltar
     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-      answer: I wasn't sure if Makers Academy was worth the money but I think it's fine and pays off.
+      answer: I wasn't sure if Makers Academy was worth the money but I think it's fine and it's a worthwhile investment at the end of the day.
     - question: Sum up your Makers Academy experience
       answer: Best educational experience of my life.
     - question: What advice would you give to people thinking of changing careers?
@@ -87,7 +85,7 @@
   last_name: Sayer
   image: jonathan.jpg
   summary: Finance to Junior Developer at Rawnet
-  testimonial:
+  testimonial: Hardest experience of my life but most worthwhile and fun!
   cohort_month: August
   cohort_year: 2015
   categories:
@@ -100,7 +98,7 @@
     - question: What did you find difficult during the course?
       answer: I found it all pretty difficult especially the pace of the course and forcing yourself to think in a very different way.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: After graduation I applied for jobs with a couple of Makers Academy hiring partner jobs and had an interviews fairly quickly. I carried on applying to jobs and had a few tech tests and then got a job at Rawnet.
+      answer: After graduation I applied for jobs with a couple of Makers Academy hiring partners and had interviews fairly quickly. I carried on applying to jobs and had a few tech tests and then got a job at Rawnet.
     - question: How has your life changed since graduation?
       answer: I can code now to a professional level and I'm about to go into a job that I'm excited to get into.  When I was looking for a job in finance I wasn't comfortable with it but with this job I'm really excited to start.
     - question: What advice would you give to people thinking of changing career?
@@ -109,10 +107,7 @@
       answer: My biggest fear was that I would not be able to keep up and that I would not know as much but now I still get that feeling but I think everyone does and you got to learn to embrace it.
     - question: Sum up your Makers Academy experience
       answer: Hardest experience of my life but most worthwhile and fun!
-    - question: What advice would you give to people thinking of changing careers?
-      answer: Do it. If you are bored with your career and looking for a career that is exciting and learning something new everyday then do it.
-
-
+    
 - first_name: Nicola
   last_name: Hughes
   image: nicola.jpg
