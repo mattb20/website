@@ -51,7 +51,7 @@
 - name: Ben
   image: ben.jpg
   job_title: Coachineer
-  about: Ben has been developing software for over 15 years and has designed and built production systems for large businesses using C#, Java and Ruby. Ben is an expert in object oriented design and is passionate about clean code.
+  about: Ben has been developing software for over 15 years and has designed and built production systems for large businesses using C#, Java and Ruby. Ben is an expert in object-oriented design and is passionate about clean code.
 
 - name: Leo
   image: leo.jpg
