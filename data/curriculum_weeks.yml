@@ -1,7 +1,7 @@
 - title: Precourse
   summary: Everything you need to get ready for the main course
   image: precourse.png
-  blurb: "In the four weeks preceding the full-time course, all students are required to complete (a very important!) part-time PreCourse, which ensures that all of our students get to the required basic level of competence when they enroll at Makers Academy. In the first week, we focus on the foundations: first, the command-line, which is key to navigating around your computer; second, you'll tackle version control using Git and Github. This is followed by learning Ruby syntax through challenges. The PreCourse requires a minimum of 20 hours per week to complete successfully, but the more time you can spend on the PreCourse, the better. Each Friday during the PreCourse, we send out a challenge to help solidify and focus students' learning and check in on their progress."
+  blurb: "In the four weeks preceding the full-time course, all students are required to complete (a very important!) part-time PreCourse, which ensures that all of our students get to the required basic level of competence when they enrol at Makers Academy. In the first week, we focus on the foundations: first, the command-line, which is key to navigating around your computer; second, you'll tackle version control using Git and Github. This is followed by learning Ruby syntax through challenges. The PreCourse requires a minimum of 20 hours per week to complete successfully, but the more time you can spend on the PreCourse, the better. Each Friday during the PreCourse, we send out a challenge to help solidify and focus students' learning and check in on their progress."
 
 - title: Week 1
   image: tdd.png
