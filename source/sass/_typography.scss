@@ -78,9 +78,16 @@ p {
   &:last-child {
     margin-bottom: 0;
   }
+
   @include media($desktop) {
     font-size: $base-font-size;
+
+    &.leader {
+      font-size: modular-scale(1);
+      line-height: 1.25 * $base-line-height;
+    }
   }
+
 }
 .small {
   font-size: $base-font-size / $modular-scale-ratio;

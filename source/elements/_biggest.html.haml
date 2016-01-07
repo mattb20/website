@@ -16,6 +16,7 @@
         %a.definition-link{href: "#definition-five-width-fixtures"} Five-width Fixtures
         %a.definition-link{href: "#definition-table-with-intro"} Table with Intro
         %a.definition-link{href: "#definition-two-up-video"} Two-up Video
+        %a.definition-link{href: "#definition-video-slider"} Video Slider
     %article
       .category
         %h4 Hero Splash
@@ -71,6 +72,11 @@
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_table_with_intro" }
       .category
         %h4 Two-up Video
-        %dl.definition{id: "definition-article"}
+        %dl.definition{id: "definition-two-up-video"}
           %dt Responsive Videos. Note the wrapper.
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_two_up_video" }
+      .category
+        %h4 Video Slider
+        %dl.definition{id: "definition-video-slider"}
+          %dt Multiple videos, with a slider
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_video_slider" }

@@ -27,28 +27,11 @@
 //= require vendor/baseliner
 //= require tabs
 //= require vertical_tabs
-//= require youtube-embed
 //= require elements
+//= require sliders
+//= require videos
 
 $(document).ready(function() {
-
-  $('.slider').on('init', function(){
-    var $sliderRows = $('.slider-row, .half-slider-row');
-    $sliderRows.css("opacity", 1);
-    $sliderRows.css("min-height", 0);
-  });
-
-  $('.slider:not(.lazy-slider)').slick({
-    prevArrow: "<a class='slick-prev'></a>",
-    nextArrow: "<a class='slick-next'></a>",
-    adaptiveHeight: true
-  });
-
-  $('.lazy-slider').slick({
-    prevArrow: "<a class='slick-prev'></a>",
-    nextArrow: "<a class='slick-next'></a>",
-    lazyload: 'progressive'
-  });
 
   $('.email-capture').emailCapture();
 

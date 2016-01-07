@@ -25,6 +25,12 @@
   }
 }
 
+.video-row {
+  max-width: $column * 11;
+  @include ma-row(table);
+  margin: 0 auto;
+}
+
 .button-row {
   @include ma-row;
   #{$all-button-inputs}, .button, .button--horizontal, .button--vertical {

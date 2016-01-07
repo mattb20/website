@@ -98,13 +98,41 @@
 .slider-row, .half-slider-row {
   opacity: 0;
   min-height: 800px;
-  // TODO abstract to variable
   @include transition(opacity 0.2s ease-in-out);
 }
 
-.slide {
+.slider {
+  width: 100%;
   position: relative;
-  padding: $section-spacing modular-scale(2) 0;
+
+  .slide {
+    position: relative;
+    width: 100%;
+    padding: $section-spacing modular-scale(2) 0;
+  }
+}
+
+.slider--video {
+
+  .slide {
+    position: relative;
+    padding-top: modular-scale(2);
+  }
+
+  .slick-list {
+    overflow-x: auto;
+  }
+
+  .video-wrapper {
+    margin-bottom: ma-spacing(1);
+  }
+
+  .slick-prev {
+    left: -1 * modular-scale(1);
+  }
+  .slick-next {
+    right: -1 * modular-scale(1);
+  }
 }
 
 // Style slick buttons
@@ -155,3 +183,4 @@
     @include ma-arrow-icon($right-arrow);
   }
 }
+
