@@ -2,7 +2,7 @@
   last_name: Kendall
   image: aaron.jpg
   summary: History Graduate to Junior Developer at AppyParking
-  testimonial: ""
+  testimonial: "Makers Academy was an absolute joy of an experience."
   cohort_month: November
   cohort_year: 2015
   categories:
@@ -28,6 +28,37 @@
       answer: My biggest fear and worry was am I really going to be in a position where I'll get a job straight away? By week 10/11 I was pretty confident that I could get a job and add value to a company.
     - question: Sum up your Makers Academy experience
       answer: Absolute joy of an experience.
+
+- first_name: Giuseppe
+  last_name: De Santis
+  image: giuseppe.jpg
+  summary: Technical Support to Junior Developer at AppyParking
+  testimonial: "My life has changed for the better! I can code and I have a new job."
+  cohort_month: October
+  cohort_year: 2015
+  categories:
+    - career changer
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working in technical support for a voice recognition company.
+    - question: What made you want to start learning to code in the first place?
+      answer: I wanted to solve problems and be creative.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: I saw an advert and looked at the alumni case studies and it looked like a good opportunity that would not take a long time to switch careers.
+    - question: What did you find difficult during the course?
+      answer: The course was very intense and that was very difficult.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: After graduation, I continued coming here and I started to apply to jobs and polished my github and CV and started practicing technical tests.
+    - question: How has your life changed since graduation?
+      answer: For the better! I can code and I have a new job.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Research it and make sure you enjoy it and just do it!
+    - question: What you say to people who say £8000 is expensive??
+      answer: It's just as expensive as a master but it takes less time and the network you gain after Makers Academy is worth it.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: My biggest fear and worry was not being able to find a job after I finish but now I have a job.
+    - question: Sum up your Makers Academy experience
+      answer: Intense and awesome coaches.
 
 - first_name: Lucy
   last_name: Fang
