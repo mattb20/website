@@ -1,8 +1,3 @@
-- name: Sam
-  image: tansaku.jpg
-  job_title: Head of Education
-  about:  Sam holds degrees in Astrophysics, Cognitive Science and Computer Science and speaks Japanese. He is also co-founder of the non-profit project incubator Agile Ventures, and he runs the Funniest Computer Ever (FCE) competition as part of his research on creating humorous chatbots.
-
 - name: Jordan
   image: jordan.jpg
   job_title: Sales and Marketing Director
@@ -73,11 +68,6 @@
   job_title: Coachineer
   about: Stefan joined us to bolster the coachineering team. He's a senior developer with half a decade of experience working mainly in Ruby on Rails.
 
-- name: Stephen
-  image: stephen.jpg
-  job_title: Coachineer
-  about: Stephen is a coach with nearly a decade of commercial coding experience. When he's not coding you'll find him cycling obscene distances or drinking coffee in one of London's many coffee shops.
-
 - name: Dana
   image: DanaCutout.jpg
   job_title: Chief Joy Officer
@@ -86,4 +76,4 @@
 - name: Ana
   image: ana.jpg
   job_title: Coachineer
-  about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she was responsible for keeping Makers HQ running! She has now jumped ship across to the coaching team after doing the course herself. 
+  about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she was responsible for keeping Makers HQ running! She has now jumped ship across to the coaching team after doing the course herself.
