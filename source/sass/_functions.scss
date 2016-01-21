@@ -1,3 +1,6 @@
+// To help with vertical rhythm this ensures all margins etc. have the same base
+// spacing, so if you want to add a space of two lines just do
+// ma-spacing(2);
 @function ma-spacing($lines) {
   @return $lines * $base-spacing;
 }

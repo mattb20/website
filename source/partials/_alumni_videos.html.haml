@@ -1,0 +1,17 @@
+%section.backgrounded{style: "background-image: url(#{image_path("backgrounds/alumni-patchwork.jpg")});"}
+  .container.container--narrow
+    .centered-row
+      %h4.leader Makers Academy Graduates
+      %h2 One Year On 
+      %p Since we started, we've graduated over 400 students, and these junior developers go on and do some truly fantastic things. Here's a collection of short video interviews that we've produced with top Makers Academy graduates after a year or so in the industry.
+
+    .slider.slider--video{:'data-description-container' => "alumni-video-description"}
+      - data.alumni_videos.each do |alumni|
+        .slide{:'data-header' => alumni[:name], :'data-subheader' => alumni[:occupation]}
+          .video-wrapper
+            %iframe.video{src: alumni[:video_url], frameborder: 0, allowfullscreen: true}
+
+    .video-description#alumni-video-description
+      - first_alumni = data.alumni_videos.first 
+      %h2.header= first_alumni[:name] 
+      %h4.subheader= first_alumni[:occupation] 

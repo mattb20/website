@@ -1,0 +1,11 @@
+%section
+  .container.container--narrow
+    .slider.slider--video{:'data-description-container' => "video-description-box"}
+      - ["m3G_urnBfO4", "DrSJAX2jurQ"].each do | video_id |
+        .slide{:'data-header' => lorem.word, :'data-subheader' => lorem.sentence}
+          .video-wrapper
+            %iframe{src: "http://www.youtube.com/embed/#{video_id}", frameborder: 0, allowfullscreen: true}
+
+    .video-description#video-description-box
+      %h2.header Header
+      %h4.subheader Subheader

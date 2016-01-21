@@ -2,8 +2,8 @@ section {
   position: relative;
   text-align: center;
   padding: ma-spacing(2) 0;
-  min-height: $base-spacing * 15;
   @include media($desktop) {
+    min-height: $base-spacing * 15;
     padding: $section-spacing 0;
   }
 
