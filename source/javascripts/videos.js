@@ -22,6 +22,12 @@ function Video(iframe) {
   this.$iframe.data('video', this);
 }
 
+Video.prototype.stop = function() {
+  if (this._isPlaying()) {
+    this.player.pauseVideo();
+  }
+};
+
 // The src attribute of the iframe needs to have enablejsapi=1
 // for us to be able to use the YouTube Iframe API
 Video.prototype._enableJSAPI = function() {
@@ -44,8 +50,6 @@ Video.prototype._addOverlay = function() {
   });
 };
 
-Video.prototype.stop = function() {
-  this.player.stopVideo();
-  this._addOverlay();
+Video.prototype._isPlaying = function() {
+  return this.player.getPlayerState() === YT.PlayerState.PLAYING;
 };
-
