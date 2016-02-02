@@ -30,7 +30,7 @@
       answer: I truly don't think I can!
     - question: What advice would you give to people interviewing for developer roles?
       anwer: Fake it until you make it, pretend you already have an offer on the table!
-      
+
 - first_name: Tim
   last_name: Hyson
   image: TimH.jpg
@@ -833,36 +833,36 @@
     - question: What advice would you give to people interviewing for developer roles?
       answer: Just be yourself and be honest, feel confident with what you are saying.
 
-- first_name: Fadie
-  last_name: Hannona
-  image: fadie.jpg
-  summary: Marketing Manager to Junior Developer at Deloitte Digital
-  testimonial: You can either stay in a career that doesn't fulfil you, or you can take action until you reach your desired goal.
-  cohort_month: December
-  cohort_year: 2014
-  categories:
-    - career changer
-  case_study:
-    - question: What were you doing before joining Makers Academy?
-      answer: I was working at Makers Academy as a Marketing Manager. So you could say I was a victim of my own marketing.
-    - question: What made you want to start learning to code in the first place?
-      answer: Working in start-ups was one thing. I've always enjoyed creating tangible things and getting involved with creative pursuits. Combined with my interest in technology, it was only natural that I would start getting my hands dirty with some code.
-    - question: What did you find difficult during the course?
-      answer: The workload for sure. It isn't called intensive for no reason. I've never worked so hard at something in my life. But do not be put off, you will learn to deal with it and you will become better for it.
-    - question: What happened during/after graduation and where are you job-wise?
-      answer: Afterwards, I got involved with some freelance work and then landed a job at Deloitte Digital.
-    - question: How has your life changed since graduation?
-      answer: For the better. I feel happier. I have a skill which is as close to magic as it gets.
-    - question: What advice would you give to people thinking of changing career?
-      answer: There are two options. You either stay in a career that doesn't fulfil you, or you take action until you reach your desired goal.
-    - question: What would you say to people who say £8,000 is very expensive?
-      answer: It is an investment that will pay off in the long-term, provided you use the skills you learn afterwards. That could be as a career programmer or chasing an entrepreneurial dream.
-    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
-      answer: That I wouldn't end up liking it after all that commitment, but that was put to bed on day 1.
-    - question: Sum up your Makers Academy experience
-      answer: Brilliant.
-    - question: What advice would you give to people interviewing for developer roles?
-      answer: Confidence is key.
+# - first_name: Fadie
+#   last_name: Hannona
+#   image: fadie.jpg
+#   summary: Marketing Manager to Junior Developer at Deloitte Digital
+#   testimonial: You can either stay in a career that doesn't fulfil you, or you can take action until you reach your desired goal.
+#   cohort_month: December
+#   cohort_year: 2014
+#   categories:
+#     - career changer
+#   case_study:
+#     - question: What were you doing before joining Makers Academy?
+#       answer: I was working at Makers Academy as a Marketing Manager. So you could say I was a victim of my own marketing.
+#     - question: What made you want to start learning to code in the first place?
+#       answer: Working in start-ups was one thing. I've always enjoyed creating tangible things and getting involved with creative pursuits. Combined with my interest in technology, it was only natural that I would start getting my hands dirty with some code.
+#     - question: What did you find difficult during the course?
+#       answer: The workload for sure. It isn't called intensive for no reason. I've never worked so hard at something in my life. But do not be put off, you will learn to deal with it and you will become better for it.
+#     - question: What happened during/after graduation and where are you job-wise?
+#       answer: Afterwards, I got involved with some freelance work and then landed a job at Deloitte Digital.
+#     - question: How has your life changed since graduation?
+#       answer: For the better. I feel happier. I have a skill which is as close to magic as it gets.
+#     - question: What advice would you give to people thinking of changing career?
+#       answer: There are two options. You either stay in a career that doesn't fulfil you, or you take action until you reach your desired goal.
+#     - question: What would you say to people who say £8,000 is very expensive?
+#       answer: It is an investment that will pay off in the long-term, provided you use the skills you learn afterwards. That could be as a career programmer or chasing an entrepreneurial dream.
+#     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+#       answer: That I wouldn't end up liking it after all that commitment, but that was put to bed on day 1.
+#     - question: Sum up your Makers Academy experience
+#       answer: Brilliant.
+#     - question: What advice would you give to people interviewing for developer roles?
+#       answer: Confidence is key.
 
 - first_name: Mishal
   last_name: Islam
