@@ -1,0 +1,69 @@
+- description "Hire London's top Junior Developers throuhg Makers Academy"
+- title "Employers"
+- @hide_from_google = true
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Hungry, Agile & Dedicated
+      %h2 Build the team you want with Junior Developers
+      %p.leader Invest in a talented colleague
+
+%section
+  .article--centered
+    %article
+      %h4.leader Why hire a
+      %h3 junior developer?
+      %p When you hire a Makers Academy developer you’re not just hiring another team member. You’re investing in a talented, loyal, and dedicated colleague with previous successful careers in other industries. Our developers have put their heart and soul into learning to code in our intensive bootcamp. By investing in the enthusiasm and agility of a junior developer, you'll build a dedicated team from the ground up.
+    = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+
+%section.backgrounded
+  .container
+    %article
+      %h4.leader We make hiring
+      %h3 Brilliant Engineers Simple
+      %p 1) Book a tour of our bootcamp, discuss your needs & engineers requirements
+      %p 2) We curate a shortlist of high-calibre engineers for you to interview
+      %p 3) Once you decide who is the best fit, your new junior software engineer joins your team
+
+= partial :"employer_testimonials"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/post-it-notes.jpg")});"}
+  .container
+    %h4.leader Learning to be a developer at Makers Academy
+    %h2 isn't just about what you know.
+    %h3.subheader It's also about how you do it.
+
+%section
+  .container
+    %article
+    %p
+      We focus on the quality, consistency and integrity of our developers. To make sure we work with only the most determined and passionate people, we accept just 10% of applicants onto our course.
+    %p
+      Intensive training means our developers are advocates of TDD, pair programming, and SOLID and Agile principles. They write quality Ruby and JavaScript code that's a pleasure to read. They learn how to solve problems for themselves by finding their own answers to real-life situations.
+    %p
+      We firmly believe in quality over quantity, and after 800+ hours of intensive training at Makers Academy, we know our developers inside-out. We'll work with you to help you invest in a junior developer who will make a real difference to your organisation.
+    %p
+      Put simply - better developers, brought to you.
+    = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h1 300+ companies
+      %h4.subheader have hired junior developers from Makers Academy
+    .image-grid-row
+      = image_tag "hiring-partners/MS-labs.png"
+      = image_tag "hiring-partners/compare-the-market.png"
+      = image_tag "hiring-partners/FT.png"
+      = image_tag "hiring-partners/Deloitte-Digital.png"
+      = image_tag "hiring-partners/Sky.png"
+      = image_tag "hiring-partners/Shutl.png"
+      = image_tag "hiring-partners/just-giving.png"
+      = image_tag "hiring-partners/zopa.png"
+      = image_tag "hiring-partners/Springer.png"
+      = image_tag "hiring-partners/pivotal-labs.png"
+      = image_tag "hiring-partners/ThoughtWorks.png"
+      = image_tag "hiring-partners/TechStars.png"
+    .centered-row.small-padding-top
+      = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"

@@ -1,0 +1,166 @@
+- description "Hire London's top junior developers from Makers Academy."
+- title "Employers"
+- @hide_from_google = true
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Hire London's
+      %h1 top junior developers
+      %p 30 new candidates every 6 weeks
+    .button-row
+      %p
+        = link_to "Hire Developers", "/employers/contact.html", class: "button button--horizontal"
+
+%section
+  .container
+    .centered-row
+      %h2 Work-ready junior developers
+    .three-width-row
+      .column
+        = image_tag "icons/icon-heart.png", class: "image--medium"
+        %h3 Passion
+        %p Driven, curious and engaged: our graduates are incredibly enthusiastic about code. They are determined and dedicated in the face of problems and committed to constantly discovering more.
+      .column
+        = image_tag "icons/icon-craft.png", class: "image--medium"
+        %h3 Craft
+        %p Clean, maintainable and extendable: their code is a pleasure to read. Our graduates are advocates of TDD, pair programming, and SOLID and Agile principles - they write quality code.
+      .column
+        = image_tag "icons/icon-briefcase.png", class: "image--medium"
+        %h3 Experience
+        %p Personable, knowledgable and capable: our graduates add value beyond the code - most have built successful careers in other industries: experience they will bring to your company.
+
+%section.backgrounded
+  .article--centered
+    %article
+      %h3 What they learn
+      %p
+        %span
+          Learning to be a developer at Makers Academy is less about
+          %em what you know
+          and more about
+          %em how you do it.
+      %p
+        %em Attitude -
+        Students learn how to solve problems for themselves, to find their own answers.
+      %p
+        %em Behaviour -
+        They're pair-programming 80% of the time, working in scrum teams on projects and writing clean, maintainable code.
+      %p
+        %em Technology -
+        Our curriculum is mainly Ruby and Javascript, but students often teach themselves all manner of other technologies.
+  .container
+    .button-row
+      =link_to "Discover our Curriculum", "/curriculum.html", class: "button button--horizontal"
+
+= partial :"employer_testimonials"
+
+%section.backgrounded
+  .container
+    .four-width-row.row-with-borders
+      .column
+        %h2.statistic £32k
+        %h4.subheader Average Salary
+      .column
+        %h2.statistic 28
+        %h4.subheader Average Age
+      .column
+        %h2.statistic 35.18%
+        %h4.subheader Female Students
+      .column
+        %h2.statistic 85%+
+        %h4.subheader Employed within 3 months
+
+%section.half-slider
+  .container
+    .half-slider-row
+      .column
+        .copy.copy--left
+          %h3 Who they are
+          %p Makers Academy graduates are passionate, driven, curious and engaging.
+          %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
+          %p The majority of our graduates have been successful in another industry, including law, marketing, banking, design, and many more: that's experience they'll bring to your company.
+      .column
+        = partial :"preview_graduates"
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h2 Working with us
+    .centered-row
+      %table
+        %thead
+          %tr
+            %th Activity
+            %th Time
+            %th Frequency
+        %tbody
+          %tr
+            %td Give a Lunchtime Talk
+            %td 1 hour
+            %td Per cohort
+          %tr
+            %td Host a Code Day
+            %td 1 day
+            %td Per cohort
+          %tr
+            %td Attend a Graduation Showcase
+            %td 2 hours
+            %td Every 6 weeks
+          %tr
+            %td Pitch at a Careers Fair
+            %td 2 hours
+            %td Every 6 weeks
+          %tr
+            %td Meet our Jobhunters
+            %td 40 minutes
+            %td Every Wednesday
+          %tr
+            %td Publish your Jobs
+            %td None
+            %td No limit
+
+%section
+  .container
+    .two-width-row
+      .column.vertical-center
+        %h4.leader Success Fee
+        %h2.statistic 20%
+        %h4.subheader of starting salary
+        .button-row
+          =link_to "Request a callback", "http://bit.ly/meetWB", class: "button button--horizontal"
+      .column
+        .copy.copy--left
+          %h4.alt-color you get all of the above, unlimited, for free
+          %h4.subheader You only pay when you find someone you like
+          %p Unlike other coding bootcamps, we charge a fee for recruitment - which means we're incentivised at every point of our process to produce phenomenally employable people.
+          %p You don't pay a penny for engaging with our graduates, whether you're attending our careers fair, or simply posting a job - you only pay when you find someone you like.
+          %p Our fee is also greater than some other sources of recruitment, because working with Makers Academy is much more than simply getting a list of keyword-matched CVs. We know our candidates inside-out, we're technologists and educators, not salespeople - and we care about creating the next generation of exceptional software developers.
+
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h2 Our Hiring Partners
+      %table
+        %tbody
+          %tr
+            %td Commitment to Learning
+            %td Tech team bigger than 10 people
+          %tr
+            %td Mentoring or Buddying
+            %td Fans of Software Craftsmanship
+          %tr
+            %td TDD / BDD
+            %td Pair Programming
+          %tr
+            %td Agile
+            %td Diverse
+
+%section.backgrounded
+  .container
+    .image-grid-row
+      - fetch_logos.shuffle.each do | logo |
+        = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
+
+= partial :"apply", locals: { page: :employers }

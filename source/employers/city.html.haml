@@ -1,36 +1,24 @@
 - description "Hire the top junior developers from Makers Academy."
 - title "Employers"
+- @hide_from_google = true
 
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
       %h4.leader Hire brilliant
       %h1 junior developers
-      %p Sick of hearing about the talent shortage?
-      .button-row.small-padding-top
-        = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
-      .five-width-row.small-padding-top
+      %p 30 candidates every 6 weeks
+      .three-width-row
         .column
-          = image_tag "hiring-partners/MS-labs.png", class:"image--medium"
+          .image--centered
+            = image_tag "hiring-partners/MS-labs.png"
+          .image--centered
+            = image_tag "hiring-partners/compare-the-market.png"
         .column
-          = image_tag "hiring-partners/compare-the-market.png", class:"image--medium"
+          = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
         .column
-          = image_tag "hiring-partners/FT.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Deloitte-Digital.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Sky.png", class:"image--medium"
-      .five-width-row.small-padding-top
-        .column
-          = image_tag "hiring-partners/ThoughtWorks.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/pivotal-labs.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Shutl.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/just-giving.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/TechStars.png", class:"image--medium"
+          = image_tag "hiring-partners/Deloitte-Digital.png"
+          = image_tag "hiring-partners/Sky.png"
 
 %section
   .container
@@ -39,29 +27,28 @@
       %h4.subheader we do the work for you
     .three-width-row
       .column
-        %h5 We Select
+        %h3 We Select
         %p You have to be amazing to study at Makers Academy. We have a tough selection process, that tests for determination and technical aptitude, and accepts less than 10% of applicants. We find exceptional people for you, and then train them.
       .column
-        %h5 We Train
+        %h3 We Train
         %p Our students spend 10-14 hours a day, 5-7 days a week, learning to be developers. Their code is clean, maintainable and extendable. They're advocates of TDD, pair programming, SOLID and Agile principles. They've learned to build software in teams.
       .column
-        %h5 We Match
+        %h3 We Match
         %p You get a shortlist of candidates matched (by our engineers) to your needs, based on the in-depth knowledge we have about their commercial background, technical ability, motivations and characteristics - we've spent three months with them.
 
 %section.backgrounded
   .container
     .centered-row
-      %h4.subheader How will it
-      %h2 Work for you?
+      %h2 How will it work for you?
     .three-width-row
       .column
-        %h4 1. Post a Job
+        %h3 1. Post a Job
         %p Complete our job description, which is tailored to the specific needs of the Makers Academy talent pool. We'll use it to create your shortlist.
       .column
-        %h4 2. Meet
+        %h3 2. Meet
         %p Once we've done our matching, you can follow your usual process, whether that's a tech test, a pairing interivew or drinks at your place.
       .column
-        %h4 3. Hire
+        %h3 3. Hire
         %p Most of our candidates get multiple offers and are hired within a few weeks of graduating. Make an attractive offer and secure the top talent.
 
 %section.half-slider
@@ -96,35 +83,23 @@
 = partial :"employer_testimonials"
 
 
-%section.hero-splash
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
-      %h1 300+ companies
-      %h4.subheader have hired our developers
-      .button-row.small-padding-top
-        = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
-      .five-width-row
+      %h2 300+ companies have hired our developers
+      .three-width-row
         .column
-          = image_tag "hiring-partners/new-bamboo.png", class:"image--medium"
+          .image--centered
+            = image_tag "hiring-partners/ThoughtWorks.png"
+          .image--centered
+            = image_tag "hiring-partners/pivotal-labs.png"
+            = image_tag "hiring-partners/TechStars.png"
         .column
-          = image_tag "hiring-partners/Workshare.png", class:"image--medium"
+          = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
         .column
-          = image_tag "hiring-partners/Qubit.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/legal-and-general.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/zopa.png", class:"image--medium"
-      .five-width-row.small-padding-top
-        .column
-          = image_tag "hiring-partners/Lyst.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Springer.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/cloud-credo.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/8th-light.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Factory.png", class:"image--medium"
+          = image_tag "hiring-partners/Shutl.png"
+          = image_tag "hiring-partners/just-giving.png"
+          = image_tag "hiring-partners/Qubit.png"
 
 %section
   .container

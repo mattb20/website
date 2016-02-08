@@ -12,9 +12,8 @@
       .button-row
         %p
           = link_to "Have hiring questions?", "http://bit.ly/meetWB", class: "button button--horizontal"
-          = link_to "Hire Developers", "https://makersacademy.typeform.com/to/sz8vTw", class: "employers-button button button--vertical button--large", target: "_blank", data: {track: "Viewed Employers Enquiry Form"}
+          = link_to "Hire Developers", "employers/contact.html", class: "employers-button button button--vertical button--large", target: "_blank"
           = link_to "Apply to Study", config.apply_form_url, class: "button button--horizontal"
-          
 - else
 
   %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
@@ -40,6 +39,5 @@
         .column
           %p
             Can't join us on a course in London? You might be interested in our online course - Makers Academy Remote: code-named Ronin.
-            
       .button-row
         %p= link_to "Check out Ronin", "http://ronin.makersacademy.com", target: "_blank", class: "button button--horizontal"
