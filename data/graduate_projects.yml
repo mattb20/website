@@ -1,7 +1,7 @@
 - name: Changr
   team: Hamza Sheikh, Mahmud Hussain,Fergus Lemon, Samuel Overloop and Radu Asandei.
   cohort: October 2015
-  blurb:  Changr is an app to help the less advantaged in society to receive donations on the fly using Bluetooth Beacons.
+  blurb:  Changr is an app to help the less advantaged in society receive donations
   code_link: https://github.com/samover/changr
   live_link: https://www.youtube.com/watch?v=r0fKhXaRQPc
   image: changr.jpg
@@ -41,7 +41,7 @@
 - name: Leftovers
   team: David, Moe, Ana and Lucy
   cohort: September 2015
-  blurb: An app that gives you recipes based on what's you have in your home.
+  blurb: An app that gives you recipes based on what you have in your home.
   code_link: https://github.com/davidbebb/leftovers
   live_link: https://www.youtube.com/watch?v=ppVjjxgK4lg&feature=youtu.be
   image: leftovers.jpg
