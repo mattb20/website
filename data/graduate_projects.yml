@@ -1,3 +1,35 @@
+- name: Changr
+  team: Hamza Sheikh, Mahmud Hussain,Fergus Lemon, Samuel Overloop and Radu Asandei.
+  cohort: October 2015
+  blurb:  Changr is an app to help the less advantaged in society receive donations
+  code_link: https://github.com/samover/changr
+  live_link: https://www.youtube.com/watch?v=r0fKhXaRQPc
+  image: changr.jpg
+
+- name: Just Ballz
+  team: Amy Yang, Andrew Werner, Dovile Sandaite, Edward Withers, Rebecca Collins
+  cohort: October 2015
+  blurb: Robotic sphero ball control with hand gestures via Leap Motion
+  code_link: https://github.com/ALRW/just_ballz
+  live_link: https://www.youtube.com/watch?v=sXGyOqHvx-M
+  image: justballz2.jpg
+
+- name: HouseMates
+  team: Mattia Assogna, Julien Doconink, Alaan Rahim, Errol Elliott
+  cohort: October 2015
+  blurb: Find your best housemates
+  code_link: https://github.com/Mattia46/HouseMates-Web
+  live_link: http://housematey.herokuapp.com/
+  image: housemates.jpg
+
+- name: BandsNearU
+  team: Andrew Dowell, Pablo Dominguez, Rob Youngman, Tom Barnes
+  cohort: October 2015
+  blurb: A Location based music discovery app
+  code_link: https://github.com/youngmanr/original_sound_track
+  live_link: https://bandsnearu.herokuapp.com/
+  image: bandsnearu.jpg
+
 - name: DrWow
   team: Usman, Catherine, Philip and Alex
   cohort: September 2015
@@ -9,7 +41,7 @@
 - name: Leftovers
   team: David, Moe, Ana and Lucy
   cohort: September 2015
-  blurb: An app that gives you recipes based on what's you have in your home.
+  blurb: An app that gives you recipes based on what you have in your home.
   code_link: https://github.com/davidbebb/leftovers
   live_link: https://www.youtube.com/watch?v=ppVjjxgK4lg&feature=youtu.be
   image: leftovers.jpg
@@ -61,14 +93,6 @@
   code_link: https://github.com/snapchidu/stitchvid
   live_link: https://stitchvid.herokuapp.com/
   image: stitch.jpg
-
-- name: Movie Snaps
-  team: Andy, Jennifer, Ashleigh, Stefan, Tim and Daryl
-  cohort: April 2015
-  blurb: Movie Snaps is a website you can use to record visits you make to movie locations across the world. You can create new visits, adding a photo (with a caption) of yourself re-enacting your chosen scene, which can then be liked and commented upon by other users.
-  code_link: https://github.com/andygout/Movie-Snaps
-  live_link: https://movie-snaps.herokuapp.com/
-  image: movie.jpg
 
 - name: Treemo
   team: Dan, Fiona, Rodney and Tim
@@ -134,22 +158,6 @@
   live_link: https://i-am-me.herokuapp.com
   image: iamme.jpeg
 
-- name: Oodles
-  team: Claudia, Alan, Izzy, Ben H
-  cohort: October 2014
-  blurb: Connecting those with surplus food with charities that can use that food.
-  live_link: http://www.oodls.io/
-  code_link: https://github.com/Callisto13/Oodls
-  image: oodles.jpeg
-
-- name: Hipspot
-  team: Mishal, Ed, Ming, Nick
-  cohort: October 2014
-  blurb: Providing local hipster spots of interest on mobile.
-  live_link: http://hipspot.uk/
-  code_link: https://github.com/ejbyne/hipspot
-  image: hipspot.jpeg
-
 - name: Charity Stop Aids
   team: John, Chris H, Giorgia, Clare, Dale
   cohort: October 2014
@@ -189,14 +197,6 @@
   live_link: http://tweetmapp.herokuapp.com/
   code_link: https://github.com/spike01/mapp
   image: tweetmapp.jpeg
-
-- name: Fhellow
-  team: Maya, Ruth, Michelle, Jerome
-  cohort: August 2015
-  blurb: Fhellow is a community of Freelancers, Entrepreneurs, Digital Nomads and others who spend a lot of time working independently. Our mission is to connect us all so we too can enjoy the benefits of having a work commmunity.
-  live_link: http://fhellow.herokuapp.com/
-  code_link: https://github.com/michballard/fhellow
-  image: fhellow.jpeg
 
 - name: Bunch
   team: Charlotte, David, Jenny, Jeremy, Peter
