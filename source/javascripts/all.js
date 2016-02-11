@@ -37,5 +37,33 @@ $(document).ready(function() {
 
   $('.definition-links').fixedScroll();
 
-  analytics.trackLink(document.getElementsByClassName('apply-button'), 'Clicked Apply Page Button');
+  var trackEvents = {
+    ".graduates-slider .slick-prev": "Clicked Grads Slider",
+    ".graduates-slider .slick-next": "Clicked Grads Slider",
+    ".curriculum-slider .slick-prev": "Clicked Curriculum Slider",
+    ".curriculum-slider .slick-next": "Clicked Curriculum Slider",
+    ".graduates-video": "Watched Alumni Video",
+    "[data-track]": null,
+  }
+
+  function isAnchor(el) {
+    el.nodeName == "A";
+  }
+
+  for (var el in trackEvents) {
+    var properties = {"Course Type": "Offline"};
+    
+    $(el).each(function(){
+      var $this = $(this);
+      var eventType = ($this.data("track") || trackEvents[el]);
+
+      if (isAnchor(this)) {
+        analytics.trackLink($this, eventType, properties)
+      } else {
+        $this.click(function(){
+          analytics.track(eventType, properties);
+        });
+      }
+    })
+  }
 });

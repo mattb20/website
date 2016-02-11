@@ -8,7 +8,7 @@
     .slider.slider--video{:'data-description-container' => "alumni-video-description"}
       - data.alumni_videos.each do |alumni|
         .slide{:'data-header' => alumni[:name], :'data-subheader' => alumni[:occupation]}
-          .video-wrapper
+          .video-wrapper.graduates-video
             %iframe.video{src: alumni[:video_url], frameborder: 0, allowfullscreen: true}
 
     .video-description#alumni-video-description
