@@ -56,3 +56,7 @@ We use [semantic versioning](http://semver.org) when creating new releases using
 tags, this allows Bower to keep track of our code.
 
 Make sure that when releasing a new version of the site that you want bower to pick up you run `rake publish:bower` with the new version number to ensure that the **bower.json** file has the correct version
+
+# Segment.io tracking
+
+Look at [`tracking.js`](source/javascripts/tracking.js) to see how to enable Segment.io tracking for websites that use `makers_styles` bower package.

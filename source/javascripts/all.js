@@ -31,31 +31,15 @@
 //= require sliders
 //= require videos
 
-$(document).ready(function() {
+function isAnchor(el) {
+  el.nodeName == "A";
+}
 
-  $('.email-capture').emailCapture();
-
-  $('.definition-links').fixedScroll();
-
-  var trackEvents = {
-    ".graduates-slider .slick-prev": "Clicked Grads Slider",
-    ".graduates-slider .slick-next": "Clicked Grads Slider",
-    ".curriculum-slider .slick-prev": "Clicked Curriculum Slider",
-    ".curriculum-slider .slick-next": "Clicked Curriculum Slider",
-    ".graduates-video": "Watched Alumni Video",
-    "[data-track]": null,
-  }
-
-  function isAnchor(el) {
-    el.nodeName == "A";
-  }
-
-  for (var el in trackEvents) {
-    var properties = {"Course Type": "Offline"};
-    
+function trackClickEvents(targets, properties) {
+  for (var el in targets) {
     $(el).each(function(){
       var $this = $(this);
-      var eventType = ($this.data("track") || trackEvents[el]);
+      var eventType = ($this.data("track") || targets[el]);
 
       if (isAnchor(this)) {
         analytics.trackLink($this, eventType, properties)
@@ -64,6 +48,13 @@ $(document).ready(function() {
           analytics.track(eventType, properties);
         });
       }
-    })
+    });
   }
+}
+
+$(document).ready(function() {
+
+  $('.email-capture').emailCapture();
+
+  $('.definition-links').fixedScroll();
 });
