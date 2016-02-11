@@ -17,6 +17,7 @@
         %a.definition-link{href: "#definition-table-with-intro"} Table with Intro
         %a.definition-link{href: "#definition-two-up-video"} Two-up Video
         %a.definition-link{href: "#definition-video-slider"} Video Slider
+        %a.definition-link{href: "#definition-embedded-typeform"} Embedded Typeform
     %article
       .category
         %h4 Hero Splash
@@ -80,3 +81,8 @@
         %dl.definition{id: "definition-video-slider"}
           %dt Multiple videos, with a slider
           %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_video_slider" }
+      .category
+        %h4 Embedded Typeform
+        %dl.definition{id: "definition-embedded-typeform"}
+          %dt Embedded Typeform
+          %dd= partial :"elements/element", locals: { partial_name: "elements/biggest/_embedded_typeform" }
