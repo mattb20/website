@@ -615,9 +615,10 @@
         </div>
       </div>
     </section>
-    <!-- Analytics event for visiting homepage -->
+    <!-- Analytics event for landing page -->
     <script>
-      analytics.track('Viewed homepage');
+      analytics.track('Viewed Landing Page', {'Landing Page': 'Podcast'});
+      analytics.identify({'Podcast': true});
     </script>
     <footer role='contentinfo'>
       <div class='container'>
