@@ -14,6 +14,8 @@
     %meta{charset: "utf-8"}/
     %meta{content: "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{content: "width=device-width, initial-scale=1", name: "viewport"}/
+    - if @preferred_url
+      %link{rel: 'canonical', href: config.url_root + @preferred_url}
     - if @hide_from_google
       %meta{content: "noindex, nofollow", name: "robots"}/
 
