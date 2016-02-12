@@ -77,6 +77,7 @@
 
 = partial :"apply"
 
-/ Analytics event for visiting homepage
+/ Analytics event for landing page
 :javascript
-  analytics.track('Viewed homepage');
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Podcast'});
+  analytics.identify({'Podcast': true});
