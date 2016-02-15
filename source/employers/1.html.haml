@@ -165,3 +165,5 @@
         = image_tag logo, { alt: alt_text_from_filename(logo), title: alt_text_from_filename(logo) }
 
 = partial :"apply", locals: { page: :employers }
+:javascript
+  analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Original Main'});
