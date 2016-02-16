@@ -14,6 +14,6 @@ var targets = {
 var properties = {"Course Type": "Offline"};
 
 $(document).ready(function(){
-  trackClickEvents(targets, properties);
+  Tracking.trackClicks(targets, properties);
 });
 
