@@ -1,3 +1,9 @@
+- name: Ruth Earle
+  occupation: Junior Developer at <a href="http://www.mergermarket.com/">Mergermarket</a>
+  video_url: https://www.youtube.com/embed/AQeLSUpDbDc
+- name: Bernard Mordan
+  occupation: Junior Developer at <a href="https://tableflip.io/">TableFlip</a>
+  video_url: https://www.youtube.com/embed/A7kbq9TZzv0
 - name: Sarah Young
   occupation: Junior Developer at <a href="https://eu.deloittedigital.com/en/home">Deloitte Digital</a>
   video_url: https://www.youtube.com/embed/F4AN4T-G2cs
