@@ -1,17 +1,25 @@
-var targets = {
-  ".employers-testimonials-slider .slick-prev": "Clicked Employers Testimonials Slider",
-  ".employers-testimonials-slider .slick-next": "Clicked Employers Testimonials Slider",
-  ".graduates-slider .slick-prev": "Clicked Grads Slider",
-  ".graduates-slider .slick-next": "Clicked Grads Slider",
-  ".curriculum-slider .slick-prev": "Clicked Curriculum Slider",
-  ".curriculum-slider .slick-next": "Clicked Curriculum Slider",
-  ".graduates-video": "Watched Alumni Video",
-  "[data-track]": null,
-};
+var Tracking = (function() {
+  function isAnchor(el) {
+    el.nodeName == "A";
+  }
 
-var properties = {"Course Type": "Offline"};
+  function trackClicks(targets, properties) {
+    for (var el in targets) {
+      $(el).each(function(){
+        var $this = $(this);
+        var eventType = ($this.data("track") || targets[el]);
 
-$(document).ready(function(){
-  trackClickEvents(targets, properties);
-});
-
+        if (isAnchor(this)) {
+          analytics.trackLink($this, eventType, properties)
+        } else {
+          $this.click(function(){
+            analytics.track(eventType, properties);
+          });
+        }
+      });
+    }
+  }
+  return {
+    trackClicks: trackClicks
+  }
+})();
