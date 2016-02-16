@@ -2325,6 +2325,13 @@ footer {
     .article--right article h1, .article--right article h2, .article--right article h3, .article--right article p {
       text-align: right; } }
 
+.typeform {
+  padding: 0px; }
+
+.typeform-widget {
+  width: 100%;
+  height: 700px; }
+
 .the-elements {
   padding-bottom: 0 !important; }
   @media screen and (min-width: 1024px) {
