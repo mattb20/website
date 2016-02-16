@@ -15,7 +15,8 @@
     "!source/sass/**",
     "!source/fonts/**",
     "!source/images/**",
-    "!source/javascripts/**"
+    "!source/javascripts/**",
+    "source/javascripts/website.js"
   ],
   "dependencies": {}
 }
