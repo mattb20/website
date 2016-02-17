@@ -22,6 +22,11 @@ function Video(iframe) {
   this.$iframe.data('video', this);
 }
 
+Video.prototype.play = function() {
+  this._removeOverlay();
+  this.player.playVideo(); 
+};
+
 Video.prototype.stop = function() {
   if (this._isPlaying()) {
     this.player.pauseVideo();
@@ -37,17 +42,21 @@ Video.prototype._enableJSAPI = function() {
 };
 
 Video.prototype._addOverlay = function() {
-  var player = this.player;
+  var self = this;
   var overlay = $('<div/>', {
     class: 'video-overlay',
-    width: this.$iframe.width(),
-    height: this.$iframe.height()
-  }).appendTo(this.$iframe.parent());
+    width: self.$iframe.width(),
+    height: self.$iframe.height()
+  }).appendTo(self.$iframe.parent());
 
   overlay.on('click', function() {
-    player.playVideo();
-    $(this).remove();
+    self.play();
   });
+};
+
+Video.prototype._removeOverlay = function() {
+  var overlay = this.$iframe.parent().find('.video-overlay');
+  overlay.remove();
 };
 
 Video.prototype._isPlaying = function() {
