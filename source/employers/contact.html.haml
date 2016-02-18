@@ -1,6 +1,4 @@
-:javascript
-  analytics.track("Viewed Employers Enquiry Form");
-
+- @hide_nav = true # Hide nav so HTML5 errors don't get hidden by it
 - @title = "Hire Developers"
 
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-overhead-discussion.jpg")});"}
@@ -10,7 +8,36 @@
         %a{href: "http://www.makersacademy.com"}
           %img{src: image_path("logo/ma-white.png"), class: "logo"}
       %h1 Hire Developers
-%section.typeform
-  .typeform-widget{"data-text" => "Hire Graduates", "data-url" => "https://makersacademy.typeform.com/to/sz8vTw"}
+
+%section
+  .container
+    .form-row
+      %form#employers-form{method: "post", action: config.employers_form_endpoint}
+        %fieldset
+          %input{type: "hidden", name: "utf8", value: "✓"}
+          .input-row
+            %label{for: "numberRoles", class: "required"}
+              How many junior developer positions do you need to fill?
+            %input{type: "number", required: true, name: "numberRoles", id: "numberRoles"}
+          .input-row
+            %label{for: "teamSize", class: "required"}
+              How many people do you have on the tech team now?
+            %input{type: "number", min: 1, required: true, name: "teamSize", id: "teamSize"}
+          .input-row
+            %label{for: "companyName", class: "required"}
+              Your company's name
+            %input{type: "text", required: true, name: "companyName", id: "companyName"}
+          .input-row
+            %label{for: "name", class: "required"}
+              Your name
+            %input{type: "text", required: true, name: "name", id: "name"}
+          .input-row
+            %label{for: "email", class: "required"}
+              Email address
+            %input{type: "email", required: true, name: "email", id: "email"}
+          .button-row
+            %p
+              %input{type: "submit", value: "Start Hiring"}
+
 :javascript
-  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})();
+  analytics.track("Viewed Employers Enquiry Form");

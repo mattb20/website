@@ -1,10 +1,10 @@
 // Inject the YouTube Iframe API into the page
-(function addYouTubeJS() {
+(function addYouTubeJS(document) {
   var tag = document.createElement('script');
   tag.src = "https://www.youtube.com/iframe_api";
   var firstScriptTag = document.getElementsByTagName('script')[0];
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-})();
+})(document);
 
 // This function is called by the YouTube IFrame API when it has loaded
 // This adds an overlay to video and enables control of the video object.
@@ -24,7 +24,7 @@ function Video(iframe) {
 
 Video.prototype.play = function() {
   this._removeOverlay();
-  this.player.playVideo(); 
+  this.player.playVideo();
 };
 
 Video.prototype.stop = function() {

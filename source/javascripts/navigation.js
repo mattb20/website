@@ -1,4 +1,4 @@
-(function(){
+(function($, window, document){
   var $nav = $('header.navigation.auto-hide');
 
   //For showing and hiding navigation
@@ -33,4 +33,4 @@
       lastScrollTop = scrollTop;
     });
   });
-}());
+}(jQuery, window, document));
