@@ -1,1 +1,0 @@
-!function(){var n=$("header.navigation.auto-hide"),o=function(){n.addClass("hidden-nav")};$(document).ready(function(){var e=window.setTimeout(o,5e3);n.hover(function(){clearTimeout(e)},function(){e=window.setTimeout(o,5e3)});var i=0;$(window).scroll(function(o){var e=$(this).scrollTop();e>0&&e>i?n.addClass("hidden-nav"):n.removeClass("hidden-nav"),i=e})})}();
