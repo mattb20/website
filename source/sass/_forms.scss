@@ -69,9 +69,7 @@ input[type="radio"] {
   margin-right: ma-spacing(1) / 2;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"] {
+#{$all-text-inputs} {
   line-height: $base-line-height * 2.5;
   height: $base-line-height * 3;
 }

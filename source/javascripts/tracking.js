@@ -1,4 +1,4 @@
-var Tracking = (function() {
+var tracking = (function(analytics) {
   function isAnchor(el) {
     el.nodeName == "A";
   }
@@ -22,4 +22,4 @@ var Tracking = (function() {
   return {
     trackClicks: trackClicks
   }
-})();
+})(analytics);

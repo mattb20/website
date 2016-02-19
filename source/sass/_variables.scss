@@ -15,14 +15,6 @@ $base-spacing: $base-line-height;
 $base-button-width: 10em;
 $mobile-nav-width: em(300);
 
-@mixin ma-header($step) {
-  $header-font-size: modular-scale($step);
-  $single_line: $base-line-height / $header-font-size;
-  $lines: ceil($base-font-size / $base-line-height);
-  font-size: $header-font-size;
-  line-height: $lines * $single_line;
-  margin-bottom: $single_line;
-}
 // Colors
 // palette from http://bit.ly/1dwLGKe
 // note all alt-colors are designed to show on a blue background

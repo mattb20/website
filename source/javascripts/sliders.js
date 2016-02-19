@@ -34,6 +34,6 @@ $(document).ready(function() {
     });
 
     var video = $currentSlide.find('.video').data('video');
-    video.stop(); 
+    video.stop();
   });
 });
