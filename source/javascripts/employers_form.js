@@ -19,22 +19,14 @@
 
         if (email.val() !== "") {
           event.preventDefault();
-          sendToAnalytics();
+          storePropertiesForAnalytics();
+          submitForm();
         }
       }
 
-      function sendToAnalytics() {
-        var properties = analyticsProperties();
-
-        analytics.alias(email.val());
-        analytics.identify(email.val(), properties);
-        analytics.track('Submitted Employers Enquiry Form', properties);
-
-        // Add a 300 millisecond timeout before submitting
-        // This allows the analytics tracking to go through and is the same
-        // timeout as Segment provide in their analytics library
-        // but Segment's doesn't always seem to work
-        window.setTimeout(submitForm, 300);
+      function storePropertiesForAnalytics() {
+        var properties = JSON.stringify(analyticsProperties());
+        window.localStorage.setItem("employerAnalyticsProperties", properties);
       }
 
       function submitForm() {
