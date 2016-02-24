@@ -1,5 +1,15 @@
 - @hide_from_google = true
 
+:javascript
+  var properties = JSON.parse(window.localStorage.getItem("employerAnalyticsProperties"));
+
+  if (properties) {
+    analytics.alias(properties.email);
+    analytics.identify(properties.email, properties);
+    analytics.track('Submitted Employers Enquiry Form');
+    window.localStorage.removeItem("employerAnalyticsProperties");
+  }
+
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/riz-and-tom.jpg")});"}
   .container
     .centered-row
