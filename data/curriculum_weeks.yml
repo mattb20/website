@@ -34,19 +34,20 @@
   blurb: "This is a less structured week to allow students to consolidate their learning. Students may choose to revisit topics from the previous weeks, catch up on missed work or explore new projects."
 
 - title: Week 7
-  image: advanced-js.png
-  summary: Node.js
-  blurb: "Students expand their knowledge of JavaScript by learning Angular (a popular front-end framework) and Node (JavaScript for the server), combining them to build powerful full-stack applications. The Friday challenge is based on refreshing your Ruby knowledge."
-
-- title: Week 8
   image: rails.png
   summary: Ruby on Rails Basics
-  blurb: "In week 8 we start working with Ruby on Rails. By now students have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand as it merely automates what they can do without it. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
+  blurb: "In week 7 we start working with Ruby on Rails. By now students have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand as it merely automates what they can do without it. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture. The Friday challenge focuses on the basics of Ruby on Rails."
+
+- title: Week 8
+  image: advanced-js.png
+  summary: Further JavaScript
+  blurb: "Students expand their knowledge of JavaScript by learning a front-end JavaScript framework."
+
 
 - title: Week 9
   image: advanced-rails.png
-  summary: Advanced Ruby on Rails Topics
-  blurb: "This week we talk about more advanced topics: Websockets, HTML5 APIs, using Bootstrap or Foundation, connecting to various APIs: Stripe, Twilio, etc. The challenge for this week focuses on these topics."
+  summary: Project Week
+  blurb: "This week we consolidate our learning by building a full-stack project using everything we've learnt from the previous weeks. Agile, Git workflow, User Stories, and teamwork are topics we look at this week."
 
 - title: Week 10
   image: final-projects.png
