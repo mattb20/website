@@ -28,6 +28,11 @@
   job_title: Head of Careers
   about: Will is one of those odd people who likes recruitment. Couple that with a passion for education and tech, mix in a history of starting and growing education startups, and he's found the perfect place to work. He also volunteers for a number of organisations including EdTech UK, Tech London Advocates, Learning Futures and The Tech Partnership.
 
+- name: Irina
+  image: irina.png
+  job_title: Coachineer
+  about: Irina has been coding since her early teens. She moved to the UK from Moscow after finishing a computer science degree to help startups build web apps in Ruby on Rails. After being on the cutting edge of the industry for more than 5 years, she joined Makers team as a coach / engineer to bring our students war stories, best practices and passion for solving problems.
+
 - name: Dan
   image: dan.jpg
   job_title: Coachineer
@@ -72,3 +77,8 @@
   image: ana.jpg
   job_title: Coachineer
   about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she was responsible for keeping Makers HQ running! She has now jumped ship across to the coaching team after doing the course herself.
+
+- name: Cata
+  image: cata2.jpg
+  job_title: Operations Manager
+  about: Cata’s always been highly organized and brilliant at making things happen. She’s worked for the Chamber of Commerce as Head of Marketing & Communications, as well as managing the Operations for a top Venture Capital firm, later becoming an Associate. After working in finance and investment, she discovered her love of startups, and now works at Makers Academy as Operations Manager - she’s the glue that holds everything together.
