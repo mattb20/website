@@ -1,3 +1,30 @@
+- first_name: Chuka
+  last_name: Ebi
+  image: chuka1.jpg
+  summary: University graduate to Creative Technologist at Fjord
+  testimonial: "My Makers Academy experience was sensational!"
+  cohort_month: January
+  cohort_year: 2016
+  categories:
+    - education leaver
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I graduated with a degree in electrical and computer engineering.
+    - question: What made you want to start learning to code in the first place?
+      answer: I wanted to learn to code due to curiosity and boredom.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: I came across Makers Academy through Google search and then also spoke to someone who did the course.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: After graduation I started to apply to jobs and landed my dream role at Fjord.
+    - question: How has your life changed since graduation?
+      answer: Fjord as Creative Technologist intern
+    - question: What advice would you give to people thinking of changing career?
+      answer: Make the jump if you feel the need. If you hesitate and don't do it then it will haunt you for the rest of your life.
+    - question: What do you say to people who say £8000 is expensive?
+      answer: It is expensive but a worthy investment. Get a loan if you have too like most things it takes time for it to pay off
+    - question: Sum up your Makers Academy experience
+      answer: Sensational
+
 - first_name: Emily
   last_name: Worrall
   image: emilyw.jpg
@@ -111,33 +138,6 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
-
-- first_name: Chuka
-  last_name: Ebi
-  image: chuka1.jpg
-  summary: University graduate to Creative Technologist at Fjord
-  testimonial: "My Makers Academy experience was sensational!"
-  cohort_month: January
-  cohort_year: 2016
-  categories:
-    - education leaver
-  case_study:
-    - question: What were you doing before joining Makers Academy?
-      answer: I graduated with a degree in electrical and computer engineering.
-    - question: What made you want to start learning to code in the first place?
-      answer: I wanted to learn to code due to curiosity and boredom.
-    - question: How did you come across Makers Academy and what made you decide to apply?
-      answer: I came across Makers Academy through Google search and then also spoke to someone who did the course.
-    - question: What happened during/after graduation and where are you job-wise?
-      answer: After graduation I started to apply to jobs and landed my dream role at Fjord.
-    - question: How has your life changed since graduation?
-      answer: Fjord as Creative Technologist intern
-    - question: What advice would you give to people thinking of changing career?
-      answer: Make the jump if you feel the need. If you hesitate and don't do it then it will haunt you for the rest of your life.
-    - question: What do you say to people who say £8000 is expensive?
-      answer: It is expensive but a worthy investment. Get a loan if you have too like most things it takes time for it to pay off
-    - question: Sum up your Makers Academy experience
-      answer: Sensational
 
 - first_name: Adrian
   last_name: Booth
