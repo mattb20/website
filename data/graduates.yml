@@ -1,6 +1,6 @@
 - first_name: Emily
   last_name: Worrall
-  image: emily.jpg
+  image: emilyw.jpg
   summary: Maths graduate to Junior Developer Festicket
   testimonial: "My Makers Academy experience was incredible"
   cohort_month: November
@@ -12,7 +12,7 @@
     - question: What were you doing before joining Makers Academy?
       answer: I graduated from university of East Anglia in Maths.
     - question: What made you want to start learning to code in the first place?
-      answer: I wanted to be creative in what I did in my career but I didn't want to follow in the same path and go into accounting etc and I also wanted to use my problem solving skills too.
+      answer: I wanted to be creative in what I did in my career but I didn't want to follow the same path nearly every other maths graduate does and go into accounting etc. I also wanted to use my problem solving skills too.
     - question: How did you come across Makers Academy and what made you decide to apply?
       answer: I heard through a friend who was applying to a bootcamp and came across Makers Academy.
     - question: What happened during/after graduation and where are you job-wise?
@@ -40,8 +40,8 @@
       answer: I was a journalist and editor for 20+ years working on a variety of publications, covering politics and finance among other topics.
     - question: What made you want to start learning to code in the first place?
       answer: Journalism is being transformed by web technologies and I found myself increasingly interested in the technical side of things rather than providing content. Also after 20 years in the trade I felt it was time for a new challenge.
-    - question: How did you come across MA and what made you decide to apply?
-      answer: I heard about MA through a friend of mine who was involved in the Shoreditch tech industry a few years ago. It seemed ideal in terms of the curriculum and geared towards people with unusual backgrounds looking to change career.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: I heard about Makers Academy through a friend of mine who was involved in the Shoreditch tech industry a few years ago. It seemed ideal in terms of the curriculum and geared towards people with unusual backgrounds looking to change career.
     - question: What did you find difficult during the course?
       answer: The second half was the hardest, grappling with frameworks like Rails and Angular. That part of the course was a bit hectic I thought, and I often felt a bit at sea. I think I'm instinctively more of a pure coder than a framework user, if that distinction makes sense. I'm sure it was the other way round for many others on the course though!
     - question: What happened during/after graduation and where are you job-wise?
@@ -68,10 +68,10 @@
     - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
-      answer: I have been working as a Country Manager in online marketing for mobile telecom and online betting companies.
+      answer: I had been working as a Country Manager in online marketing for mobile telecom and online betting companies.
     - question: What made you want to start learning to code in the first place?
-      answer: I have been doing short courses in the past, but that was never enough to get into a proper coding job. I wanted something more creative - building prototypes, less business meetings, actionable approaches to actually building stuff from scratch
-    - question: How did you come across MA and what made you decide to apply?
+      answer: I had been doing short courses in the past, but that was never enough to get into a proper coding job. I wanted something more creative - building prototypes, less business meetings, actionable approaches to actually building stuff from scratch
+    - question: How did you come across Makers Academy and what made you decide to apply?
       answer: I came across Makers Academy through Google and I have been to a couple of graduation days to get the sense of the experience students were going through.
     - question: What happened during/after graduation and where are you job-wise?
       answer: After graduation I decided to spend two months reviewing material and focusing more on front-end and JavaScript. I applied for jobs and the first  one I got was as a Web Analyst. It proved not to be exactly what I expected, so kept searching until I landed a job as Junior UI Developer for Immediate Media, a big online publishing company.
@@ -80,7 +80,7 @@
     - question: What advice would you give to people thinking of changing career?
       answer: Trust your gut feeling, play with Codecademy's simple tutorials to see if writing code gives you actual buzz.
     - question: What do you say to people who say £8000 is expensive?
-      answer: It is expensive but this is less than what you would pay for a year of studies which won’t get you a job. This is an investment, a way to get into an exciting and booming industry where your skills will be hugely in demand, and not only in the UK. As a mental exercise, you can divide the sum by the months, number of weeks and days you will be sitting for 8 hours coding with fellow Makers: do your maths and you will see that the hourly price is actually a bargain.
+      answer: It is expensive but this is less than what you would pay for a year of studies which won’t get you a job. This is an investment, a way to get into an exciting and booming industry where your skills will be hugely in demand, and not only in the UK. As a mental exercise, you can divide the sum by the months, number of weeks and days you will be sitting for 8 hours coding with fellow Makers, if you do your maths you will see that the hourly price is actually a bargain.
     - question: Sum up your Makers Academy experience
       answer: Very hard work but life changing experience. Some of us were miserable, but kept going and pushing ourselves. Keep positive and never feel bad about not knowing something, try to explore as much as you can. Experiment and persevere, you will find your feet soon.
 
