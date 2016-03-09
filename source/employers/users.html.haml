@@ -1,4 +1,4 @@
-- description "Hire London's top Junior Developers throuhg Makers Academy"
+- description "Hire London's top Junior Developers through Makers Academy"
 - title "Employers"
 - @hide_from_google = true
 
@@ -7,66 +7,142 @@
     .centered-row
       %h4.leader Hungry, Agile & Dedicated
       %h2 Build the team you want with Junior Developers
-      %p.leader Invest in a talented colleague
+      %p Invest in a talented colleague
+      .button-row.small-padding-top
+        = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+      .five-width-row.small-padding-top
+        .column
+          = image_tag "hiring-partners/MS-labs.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/compare-the-market.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/FT.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Deloitte-Digital.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Sky.png", class:"image--medium"
+      .five-width-row.small-padding-top
+        .column
+          = image_tag "hiring-partners/ThoughtWorks.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/pivotal-labs.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Shutl.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/just-giving.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/TechStars.png", class:"image--medium"
 
 %section
-  .article--centered
-    %article
-      %h4.leader Why hire a
-      %h3 junior developer?
-      %p When you hire a Makers Academy developer you’re not just hiring another team member. You’re investing in a talented, loyal, and dedicated colleague with previous successful careers in other industries. Our developers have put their heart and soul into learning to code in our intensive bootcamp. By investing in the enthusiasm and agility of a junior developer, you'll build a dedicated team from the ground up.
-    = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
-
-%section.backgrounded
   .container
-    %article
-      %h4.leader We make hiring
-      %h3 Brilliant Engineers Simple
-      %p 1) Book a tour of our bootcamp, discuss your needs & engineers requirements
-      %p 2) We curate a shortlist of high-calibre engineers for you to interview
-      %p 3) Once you decide who is the best fit, your new junior software engineer joins your team
-
-= partial :"employer_testimonials"
-
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/post-it-notes.jpg")});"}
-  .container
-    %h4.leader Learning to be a developer at Makers Academy
-    %h2 isn't just about what you know.
-    %h3.subheader It's also about how you do it.
-
-%section
-  .container
-    %article
-    %p
-      We focus on the quality, consistency and integrity of our developers. To make sure we work with only the most determined and passionate people, we accept just 10% of applicants onto our course.
-    %p
-      Intensive training means our developers are advocates of TDD, pair programming, and SOLID and Agile principles. They write quality Ruby and JavaScript code that's a pleasure to read. They learn how to solve problems for themselves by finding their own answers to real-life situations.
-    %p
-      We firmly believe in quality over quantity, and after 800+ hours of intensive training at Makers Academy, we know our developers inside-out. We'll work with you to help you invest in a junior developer who will make a real difference to your organisation.
-    %p
-      Put simply - better developers, brought to you.
-    = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+    .centered-row
+      %h2 Recruitment is hard
+      %h4.subheader we do the work for you
+    .three-width-row
+      .column
+        %h5 We Select
+        %p You have to be amazing to study at Makers Academy. We have a tough selection process, that tests for determination and technical aptitude, and accepts less than 10% of applicants. We find exceptional people for you, and then train them.
+      .column
+        %h5 We Train
+        %p Our students spend 10-14 hours a day, 5-7 days a week, learning to be developers. Their code is clean, maintainable and extendable. They're advocates of TDD, pair programming, SOLID and Agile principles. They've learned to build software in teams.
+      .column
+        %h5 We Match
+        %p You get a shortlist of candidates matched (by our engineers) to your needs, based on the in-depth knowledge we have about their commercial background, technical ability, motivations and characteristics - we've spent three months with them.
 
 %section.backgrounded
   .container
     .centered-row
-      %h1 300+ companies
-      %h4.subheader have hired junior developers from Makers Academy
-    .image-grid-row
-      = image_tag "hiring-partners/MS-labs.png"
-      = image_tag "hiring-partners/compare-the-market.png"
-      = image_tag "hiring-partners/FT.png"
-      = image_tag "hiring-partners/Deloitte-Digital.png"
-      = image_tag "hiring-partners/Sky.png"
-      = image_tag "hiring-partners/Shutl.png"
-      = image_tag "hiring-partners/just-giving.png"
-      = image_tag "hiring-partners/zopa.png"
-      = image_tag "hiring-partners/Springer.png"
-      = image_tag "hiring-partners/pivotal-labs.png"
-      = image_tag "hiring-partners/ThoughtWorks.png"
-      = image_tag "hiring-partners/TechStars.png"
-    .centered-row.small-padding-top
-      = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+      %h4.subheader How will it
+      %h2 Work for you?
+    .three-width-row
+      .column
+        %h4 1. Post a Job
+        %p Complete our job description, which is tailored to the specific needs of the Makers Academy talent pool. We'll use it to create your shortlist.
+      .column
+        %h4 2. Meet
+        %p Once we've done our matching, you can follow your usual process, whether that's a tech test, a pairing interview or drinks at your place.
+      .column
+        %h4 3. Hire
+        %p Most of our candidates get multiple offers and are hired within a few weeks of graduating. Make an attractive offer and secure the top talent.
 
+%section.half-slider
+  .container
+    .half-slider-row
+      .column
+        .copy.copy--left
+          %h3 Who they are
+          %p Makers Academy developers are passionate, driven, curious and engaging.
+          %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
+          %p The majority of our graduates have been successful in another industry, including law, marketing, banking, design, and many more: that's experience they'll bring to your company.
+      .column
+        = partial :"preview_graduates"
+
+%section.backgrounded
+  .container
+    .four-width-row.row-with-borders
+      .column
+        %h2.statistic 30
+        %h4.subheader Developers every 6 week
+      .column
+        %h2.statistic 28
+        %h4.subheader Average Age
+      .column
+        %h2.statistic 35%
+        %h4.subheader Female Engineers
+      .column
+        %h2.statistic 800+
+        %h4.subheader hours of coding
+
+
+= partial :"employer_testimonials"
+
+
+%section.hero-splash
+  .container
+    .centered-row
+      %h1 300+ companies
+      %h4.subheader have hired our developers
+      .five-width-row
+        .column
+          = image_tag "hiring-partners/new-bamboo.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Workshare.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Qubit.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/legal-and-general.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/zopa.png", class:"image--medium"
+      .five-width-row.small-padding-top
+        .column
+          = image_tag "hiring-partners/Lyst.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Springer.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/cloud-credo.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/8th-light.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Factory.png", class:"image--medium"
+      .button-row.small-padding-top
+        = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+
+%section
+  .container
+    .three-width-row
+      .column
+        %h4 How much will it cost me to hire?
+        %p Your first pair of junior software engineers is free, if you hire a pair. After that there's a success fee, at 20% of starting salary.
+      .column
+        %h4 What training are they going through?
+        %p
+        Check our
+        = link_to "curriculum", "/curriculum.html"
+        to see what our students learn. You can also find lots of
+        = link_to "case studies of graduates", "/graduates.hml"
+        who now are working as software engineers at leading tech firms all over the world.
+      .column
+        %h4 Where are your software developers located?
+        %p The majority of our software developers are in London, with many in other UK cities and parts of Europe and USA. We’re growing fast and we might have people where you are, but if you tell us what you need, we can use that information to attract and train amazing people in your area.
 :javascript
   analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Users'});
