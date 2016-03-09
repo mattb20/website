@@ -28,7 +28,7 @@
 
 - first_name: Anindya
   last_name: Bhattacharyya
-  image: Anindya.jpg
+  image: anindya.jpg
   summary: "Do it! You won't regret it. Coding is a lot easier than people think it is and it's a profession with a future where your skills will always be in demand"
   testimonial: Journalist to Junior Developer at PensionBee
   cohort_month: November
@@ -59,7 +59,7 @@
 
 - first_name: Maciej
   last_name: Kurek
-  image: Maciej.jpg
+  image: maciej.jpg
   summary: Country Manager to Junior Developer at Immediate Media
   testimonial: "The Makers Academy experience gave me a lot of confidence that I can learn quickly and changed the way I learn into a healthy dose of experimenting and breaking things."
   cohort_month: May
@@ -234,7 +234,7 @@
 - first_name: Aaron
   last_name: Kendall
   image: aaron.jpg
-  summary: History Graduate to Junior Developer at AppyParking
+  summary: History Graduate to Junior Developer at Moo.com
   testimonial: "Makers Academy was an absolute joy of an experience."
   cohort_month: November
   cohort_year: 2015
@@ -250,7 +250,7 @@
     - question: What did you find difficult during the course?
       answer: What I found difficult during the course was staying positive through out it. I was at Makers Academy from 9am to about 7pm every day and I was knackered by the end of it. I also found riding the highs and lows difficult.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: Directly after graduating I relaxed for a week and then I started to apply for lots of jobs. I got my first interview through Makers Academy and got a job offer before Christmas.
+      answer: Directly after graduating I relaxed for a week and then I started to apply for lots of jobs. I got my first interview through Makers Academy and got a job offer.
     - question: How has your life changed since graduation?
       answer: I've got a sweet job and I'm doing something that I love!
     - question: What advice would you give to people thinking of changing career?

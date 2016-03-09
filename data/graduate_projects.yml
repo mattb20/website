@@ -63,7 +63,7 @@
   image: pixel.jpg
 
 - name: Live-Voting
-  team: Rebecca, Giuseppe, Ken, Benjamina and Brando
+  team: Ben, Andy, Lewis, and Chris
   cohort: July 2015
   blurb: Live-voting is a realtime polling/voting tool that can be used in situations which have one person speaking in front of an audience.
   code_link: https://github.com/zlahham/live-voting
