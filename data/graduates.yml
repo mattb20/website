@@ -1,3 +1,32 @@
+
+# TEMPLATE FOR FUTURE USE < DO NOT DELETE > 
+# - first_name:
+#   last_name:
+#   image: chuka1.jpg
+#   summary:
+#   testimonial: =
+#   cohort_month:
+#   cohort_year:
+#   categories:
+#   case_study:
+#     - question: What were you doing before joining Makers Academy?
+#       answer:
+#     - question: What made you want to start learning to code in the first place?
+#       answer:
+#     - question: How did you come across Makers Academy and what made you decide to apply?
+#       answer:
+#     - question: What happened during/after graduation and where are you job-wise?
+#       answer:
+#     - question: How has your life changed since graduation?
+#       answer:
+#     - question: What advice would you give to people thinking of changing career?
+#       answer:
+#     - question: What do you say to people who say £8000 is expensive?
+#       answer:
+#     - question: Sum up your Makers Academy experience
+#       answer:
+
+
 - first_name: Chuka
   last_name: Ebi
   image: chuka1.jpg
@@ -110,34 +139,6 @@
       answer: It is expensive but this is less than what you would pay for a year of studies which won’t get you a job. This is an investment, a way to get into an exciting and booming industry where your skills will be hugely in demand, and not only in the UK. As a mental exercise, you can divide the sum by the months, number of weeks and days you will be sitting for 8 hours coding with fellow Makers, if you do your maths you will see that the hourly price is actually a bargain.
     - question: Sum up your Makers Academy experience
       answer: Very hard work but life changing experience. Some of us were miserable, but kept going and pushing ourselves. Keep positive and never feel bad about not knowing something, try to explore as much as you can. Experiment and persevere, you will find your feet soon.
-
-
-
-# - first_name:
-#   last_name:
-#   image: chuka1.jpg
-#   summary:
-#   testimonial: =
-#   cohort_month:
-#   cohort_year:
-#   categories:
-#   case_study:
-#     - question: What were you doing before joining Makers Academy?
-#       answer:
-#     - question: What made you want to start learning to code in the first place?
-#       answer:
-#     - question: How did you come across Makers Academy and what made you decide to apply?
-#       answer:
-#     - question: What happened during/after graduation and where are you job-wise?
-#       answer:
-#     - question: How has your life changed since graduation?
-#       answer:
-#     - question: What advice would you give to people thinking of changing career?
-#       answer:
-#     - question: What do you say to people who say £8000 is expensive?
-#       answer:
-#     - question: Sum up your Makers Academy experience
-#       answer:
 
 - first_name: Adrian
   last_name: Booth
