@@ -1,11 +1,15 @@
 - description "Hire the top junior developers from Makers Academy."
 - title "Employers"
 
+
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container
     .centered-row
-      %h2 Hire brilliant junior developers
-      %h4.leader in Manchester
+      %h3.leader Hire brilliant junior developers
+      %h2
+        in
+        %span.campaign-city-name Manchester
+
       .button-row.small-padding-top
         = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
       .five-width-row.small-padding-top
@@ -134,7 +138,7 @@
       .column
         %h4 What training are they going through?
         %p
-        Check our
+          Check our
         = link_to "curriculum", "/curriculum.html"
         to see what our students learn. You can also find lots of
         = link_to "case studies of graduates", "/graduates.hml"
@@ -142,5 +146,7 @@
       .column
         %h4 Where are your software developers located?
         %p The majority of our software developers are in London, with many in other UK cities and parts of Europe and USA. We’re growing fast and we might have people where you are, but if you tell us what you need, we can use that information to attract and train amazing people in your area.
+
+= javascript_include_tag  "geolocate_employers"
 :javascript
   analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Main 2.0 (Hired.com style)'});
