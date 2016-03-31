@@ -32,7 +32,7 @@
   last_name: Beynon
   image: emmab.jpg
   summary: Digital Marketing to Junior Developer at Government Digital Service
-  testimonial: "My Makers Academy experience was Intense, stressful, fulfilling and fun!"
+  testimonial: "My Makers Academy experience was intense, stressful, fulfilling and fun!"
   cohort_month: February
   cohort_year: 2016
   categories:
@@ -72,16 +72,13 @@
     - question: What did you find difficult during the course?
       answer: I found balancing my desire to know everything immediately with my mental sanity difficult.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: I spend 6 weeks as an alumni helper and then really focused on a job hunt and got a job as a junior software developer at surfdome.
+      answer: I spend 6 weeks as an alumni helper and then really focused on the job hunt and got a job as a junior software developer at Surfdome.
     - question: What advice would you give to people thinking of changing career?
       answer: Do a lot of research and figure out the expectation of how long it will take to get a new job and make sure you have enough money to last. Changing careers has been the best thing to happen to me. It takes work but is incredible rewarding.
     - question: What do you say to people who say £8000 is expensive?
       answer: Judge for yourself if it's worth it. You normally get a staring salary of around £32k for a junior developer. Equivalent masters courses are about the same price and this is a higher selective course so for me it made sense and coming out of the course I found the content to be worth it.
     - question: What as your biggest worry before joining Makers Academy and how do you feel about it now?
       answer: That I would not be able to get a job and I now have one!
-    - question: What advice would you give to people thinking of changing careers?
-      answer: Do a lot of research and figure out the expectation of how long it will take to get a new job and make sure you have enough money to last. Changing careers has been the best thing to happen to me. It takes work but is incredible rewarding.
-    - question: Sum up your Makers Academy experience
       answer: It's cliché but life changing!
 
 - first_name: Chuka
