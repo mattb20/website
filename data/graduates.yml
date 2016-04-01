@@ -36,8 +36,8 @@
   cohort_month: February
   cohort_year: 2016
   categories:
-  - female 
-  - career changer 
+    - female 
+    - career changer 
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in Digital Marketing.
