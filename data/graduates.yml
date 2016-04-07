@@ -36,8 +36,8 @@
   cohort_month: February
   cohort_year: 2016
   categories:
-    - female 
-    - career changer 
+    - female
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in Digital Marketing.
@@ -68,9 +68,9 @@
     - question: What were you doing before joining Makers Academy?
       answer: I was an English and Maths tutor.
     - question: What made you want to start learning to code in the first place?
-      answer: Two things: I wanted a more intellectually challenging and rewarding career and my best friend who is a front-end developer had told me for years I should try programming. I eventually listened!
+      answer: Two things, I wanted a more intellectually challenging and rewarding career and my best friend who is a front-end developer had told me for years I should try programming. I eventually listened!
     - question: How did you come across Makers Academy and what made you decide to apply?
-      answer: I felt I had two options: a CS Masters degree for career-changers or a development bootcamp. After I researched and saw a lot of recommendations on switchup.org, student blogs, and on the Makers website, I went with Makers. For me it was clearly the most intense and the most thorough.
+      answer: I felt I had two options, a CS Masters degree for career-changers or a development bootcamp. After I researched and saw a lot of recommendations on switchup.org, student blogs, and on the Makers website, I went with Makers. For me it was clearly the most intense and the most thorough.
     - question: What did you find difficult during the course?
       answer: I found it difficult to balance my desire to know everything immediately with my sanity! There is so much to learn!
     - question: What happened during/after graduation and where are you job-wise?
