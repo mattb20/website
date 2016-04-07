@@ -11,7 +11,7 @@
 - title: Week 2
   image: tdd.png
   summary: Further TDD and OOP
-  blurb: "This week we build a game using test-driven development and object-oriented programming to make sure students understand these important concepts well. We also cover more advanced Ruby and programming topics: lambdas vs procs, composition vs inheritance, iterators and recursion. The Friday challenge involves reimplementing some of the more advanced methods from the Ruby core library."
+  blurb: "This week we delve into more complex test-driven development and object-oriented programming to make sure students understand these important concepts well. We also cover more advanced Ruby and programming topics: lambdas vs procs, composition vs inheritance, iterators and recursion. The Friday challenge involves reimplementing some of the more advanced methods from the Ruby core library."
 
 - title: Week 3
   image: http.png
