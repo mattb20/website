@@ -4,9 +4,6 @@
     .centered-row
       %h1 Learn to code in 12 weeks
       %p Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over #{stats.number_of_graduates} students into their dream jobs as junior developers.
-      %p Sign up to the newsletter to get your free e-book: Learn Ruby in 15 minutes
-
-    = partial :"email-capture"
 
 %section.half-slider.graduates-slider
   .container
@@ -87,6 +84,8 @@
 = partial :"benefits_table"
 
 = partial :"apply"
+
+= partial :"email-capture"
 
 / Analytics event for visiting homepage
 :javascript

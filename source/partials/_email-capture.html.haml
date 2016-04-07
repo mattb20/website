@@ -1,5 +1,11 @@
-.email-capture-row
-  %form.email-capture
-    %label{for: "newsletter-email"}
-    %input{type: "email", id: "newsletter-email", placeholder: "Your Email Address", required: true, 'data-segments': locals.fetch(:segments, "General") }
-    %input{type: "submit", value: locals.fetch(:button_text, "Send my e-book") }
+%section.backgrounded
+  .container
+    .centered-row
+      %h4.leader Keep 
+      %h2 up-to-date
+      %p.lead Sign up for our newsletter and get your free eBook: Learn Ruby in 15 minutes.
+    .email-capture-row
+      %form.email-capture
+        %label{for: "newsletter-email"}
+        %input{type: "email", id: "newsletter-email", placeholder: "Your Email Address", required: true, 'data-segments': locals.fetch(:segments, "General") }
+        %input.button.button--horizontal{type: "submit", value: locals.fetch(:button_text, "Send my e-book") }
