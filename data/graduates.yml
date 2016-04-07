@@ -1,5 +1,5 @@
 
-# TEMPLATE FOR FUTURE USE < DO NOT DELETE > 
+# TEMPLATE FOR FUTURE USE < DO NOT DELETE >
 # - first_name:
 #   last_name:
 #   image: chuka1.jpg
@@ -23,9 +23,65 @@
 #       answer:
 #     - question: What do you say to people who say £8000 is expensive?
 #       answer:
+#     - question: What as your biggest worry before joining Makers Academy and how do you feel about it now?
+#       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
 
+- first_name: Emma
+  last_name: Beynon
+  image: emmab.jpg
+  summary: Digital Marketing to Junior Developer at Government Digital Service
+  testimonial: "My Makers Academy experience was intense, stressful, fulfilling and fun!"
+  cohort_month: February
+  cohort_year: 2016
+  categories:
+    - female 
+    - career changer 
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working in Digital Marketing.
+    - question: What made you want to start learning to code in the first place?
+      answer: I felt I reached a point in my last career where I wasn't learning much. I happened to be working with some great developers who guided me into coding. I really enjoyed the idea of making things from scratch.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: I was aware of Makers Academy for a while and when I stared to think of it as a career. I researched and looked into bootcamps.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I started looking for jobs straight away. I got a few interviews through Makers Academy and after a few weeks I had two offers.
+    - question: What advice would you give to people thinking of changing career?
+      answer: It's just not worth spending the rest of your life not doing something you enjoy.
+    - question: What do you say to people who say £8000 is expensive?
+      answer: It is a lot of money but if you end up getting a career change out of it and feeling happier then it is worth the money.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I was mostly worried about when I was going to eat and how I'd have to do all the meal prep in advance however I made it work and managed to eat!
+    - question: Sum up your Makers Academy experience
+      answer: Intense, stressful, fulfilling and fun!
+
+- first_name: Edward
+  last_name: Withers
+  image: edwardw.jpg
+  summary: English and Maths Tutor to Junior Developer at Surfdome
+  testimonial: "Makers Academy was life-changing"
+  cohort_month: October
+  cohort_year: 2015
+  categories: career changer
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was an English and Maths tutor.
+    - question: What made you want to start learning to code in the first place?
+      answer: Two things: I wanted a more intellectually challenging and rewarding career and my best friend who's a front-end developer had told me for years I should try programming. I eventually listened!
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: I felt I had two options: a CS Masters degree for career-changers or a development bootcamp. After I researched and saw a lot of recommendations on switchup.org, student blogs, and on the Makers website, I went with Makers. For me it was clearly the most intense and the most thorough.
+    - question: What did you find difficult during the course?
+      answer: I found it difficult to balance my desire to know everything immediately with my sanity! There is so much to learn!
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I spent the first 6 weeks after I graduated as an alumni helper and then really focused on the job hunt. I applied and applied and accepted a job as a junior software developer at Surfdome.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Do a lot of research and figure out the expectation of how long it will take to get a new job and make sure you have enough money to last. Changing careers has been the best thing to happen to me. It takes work but is incredibly rewarding.
+    - question: What do you say to people who say £8000 is expensive?
+      answer: Judge for yourself if it's worth it. You normally get a starting salary of around £32k for a Junior Developer. Equivalent masters courses are about the same price and this is a highly selective course so for me it made sense and coming out of the course I found the syllabus content and methodoligies to be worth it 100%.
+    - question: What as your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: That I would not be able to get a job and I now have one!
+      answer: This expression is a little over-used, but Makers Academy can be life-changing!
 
 - first_name: Chuka
   last_name: Ebi
