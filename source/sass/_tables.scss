@@ -116,3 +116,13 @@ table.responsive-table {
   }
 }
 
+.table-header-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 90% auto;
+  @include media($desktop) {
+    background-size: 50% auto;
+  }
+}
+

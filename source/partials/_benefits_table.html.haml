@@ -1,17 +1,19 @@
 %section
   .container
     .centered-row
-      %h2 Remote or Onsite?
+      %h2.margin-bottom Onsite or Remote?
     .centered-row
       %table
         %thead
           %tr
-            %td Ronin
-            %td Makers Academy
+            %td.table-header-image{ style: "background-image: url(#{image_path("logo/ma-wordmark-red.png")});"}
+            %td.table-header-image{ style: "background-image: url(#{image_path("logo/ronin-wordmark-red.png")});"}
         %tbody
           %tr
-            %td £#{stats.remote_cost}
-            %td £#{stats.onsite_cost}
+            %td 
+              %h3.no-margin-bottom £#{stats.onsite_cost}
+            %td 
+              %h3.no-margin-bottom £#{stats.remote_cost}
           %tr
             %td Learning cutting edge coding techniques such as agile &amp; TDD
             %td Learning cutting edge coding techniques such as agile &amp; TDD
