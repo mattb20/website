@@ -30,6 +30,34 @@
 #     - question: Sum up your Makers Academy experience
 #       answer:
 
+- first_name: Andrew
+  last_name: Dowell
+  image: andrewd.jpg
+  summary: Analyst to Junior Developer at
+  testimonial: =
+  cohort_month: January
+  cohort_year: 2016
+  categories:
+    - career changer
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: Before Makers Academy I was an analyst for a bank.
+    - question: What made you want to start learning to code in the first place?
+      answer: Someone came into my work and they automated a lot of stuff using VBA and it blew my mind so at that point I thought my job was under threat if someone came along and can do that then it wouldn't take long until it was expected to have that skill. I was worried that I was going to be out skilled from that job.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: It came up on Facebook and at the time I was learning VBA as I knew I needed to learn all of this stuff. I was learning it on my own and I had no one to give me guidance and I knew the code I was writing was a bit sloppy so I thought I'd want more formal training but not to the extent of going to university. From what I've read about computer science at university it doesn't prepare you as well for getting an actual job.
+    - question: What did you find difficult during the course?
+      answer: I found pairing everyday tricky. It's stressful. I think one of the most difficult things is to figure out that you are not going to learning everything and learn to be patient that you will eventually understand.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: After graduation I went travelling for 2 weeks and then i came back and I was furiously job searching and then I got an interview at Springer and I put all my energy into preparing for the interview as I knew it was a good company and it paid off as I got a job there.
+    - question: How has your life changed since graduation?
+      answer: I now know I have a huge interest in coding because I am still doing it in my free time even without someone telling me to do it.
+    - question: What advice would you give to people thinking of changing career?
+      answer: You have to commit to it! You have to be patient with the fact that it's not going to pay off straight away and you might not get a job straight away so make sure you have some savings to keep you going.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: Would I be completely be able to change career within four months of doing a course? It's paid off and it comes down to putting all the effort in.
+    - question: Sum up your Makers Academy experience
+      answer: It has changed the direction of my career and everyone at Makers has been really helpful and especially the Ronin side of things it's defo been good value for money.
 
 - first_name: Amy
   last_name: Yang
