@@ -30,6 +30,96 @@
 #     - question: Sum up your Makers Academy experience
 #       answer:
 
+- first_name: Viola
+  last_name: Crellin
+  image: viola.jpg
+  summary: Advertising to Software Developer at Trayport
+  testimonial: Makers made me realise that what I like to do is learn stuff so I just keep on learning. I don't see anything as scary anymore and I see it as an opportunity to learn.
+  cohort_month: April
+  cohort_year: 2016
+  categories:
+    - careeer changer
+    - women
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working in advertising and telly with Charlie Brooker!
+    - question: What made you want to start learning to code in the first place?
+      answer: I wanted to do something more objective and I felt I had not been challenged since university.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I got an interview at Trayport and I had two other interviews and Trayport came back with the best offer which I took!
+    - question: How has your life changed since graduation?
+      answer: Makers made me realise that what I like to do is learn stuff so I just keep on learning. I don't see anything as scary anymore and I see it as an opportunity to learn.
+    - question: What advice would you give to people thinking of changing career?
+      answer: It may seem like you are about to jump of a cliff but that is the whole point. Sometimes you need to shake everything up in your life.
+    - question: What do you say to people who say £8000 is expensive?
+      answer: In your head you might be like I can do this on my own in my bedroom as there are so many free resources but coding is hard and you need the accountability and be pushed and there is nothing more motivating then paying £8k on something. It's an investment.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I remember my dad going that I'll never get a job doing that. It didn't bother me because my dad doesn't know anything about technology but at the same time it did play on my mind that will this all be for nothing but it was a stupid fear as I did get a job in the end. Also Makers is so focussed on getting people jobs as well.
+    - question: Sum up your Makers Academy experience
+      answer: How am I meant to do that?!
+
+- first_name: Heather
+  last_name: Campbell
+  image: heather.jpg
+  summary: Product Owner to Software Developer at Trayport
+  testimonial: After graduation I went to the careers fair. Went to an interview with a hiring partner through that and got a job! It all happened very quickly
+  cohort_month: April
+  cohort_year: 2016
+  categories:
+    - career changers
+    - women
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working as a product owner at a mobile agency.
+    - question: What made you want to start learning to code in the first place?
+      answer: I was frustrated of not being able to build the products myself.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: Just by googling and I saw some blogs posts of people who had done the course and that made me decide to apply.
+    - question: What did you find difficult during the course?
+      answer: I found information overload very difficult!
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: It all happened very quickly. Went to the careers fair. Went to an interview with a hiring partner through that and got a job!
+    - question: What advice would you give to people thinking of changing career?
+      answer: What is the worst that could happen?
+    - question: What do you say to people who say £8000 is expensive?
+      answer: It is an insane amount of money but for changing your career in 3 months I felt like it was worth it.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: That I just would not be able to do it or be a good coder and I still worry about that but I know it is just a matter of time rather than it being unachievable.
+    - question: Sum up your Makers Academy experience
+      answer: It was a huge blur!
+
+- first_name: Marcus
+  last_name: Bullock
+  image: marcusb.jpg
+  summary: Business Consultant to Software Developer at Trayport
+  testimonial: My Makers Academy experience was fantastic and exhilarating and it's great to be young again!
+  cohort_month: April
+  cohort_year: 2016
+  categories:
+    - career changers
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working as a business consultant.
+    - question: What made you want to start learning to code in the first place?
+      answer: There was a cross over in cyber security and potential to learn at a programming job at the company.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: Internet searches the reviews were very encouraging and the success rate in getting people jobs.
+    - question: What did you find difficult during the course?
+      answer: I found Angular very difficult and the idea of test driven development.
+    - question: What happened during/after graduation and where are you job-wise?
+      answer: I was hired after speaking to a company at the careers fair and the enthusiasm I showed that showed them I really wanted the job.
+    - question: How has your life changed since graduation?
+      answer: I feel very happy and proud of myself of completing this rigorous course and I look forward to a new career in a new and exciting sector.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Do it. It was the best choice I ever made. Once you get over the fear, you will realise what great idea it was.
+    - question: What do you say to people who say £8000 is expensive?
+      answer: There is never too much money to invest in yourself and your future.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I was worried I won't get a job or be a great coder but now I have a job and I'm a great coder.
+    - question: Sum up your Makers Academy experience
+      answer: Fantastic! Exhilarating and it's great to be young again!
+
+
 - first_name: Andrew
   last_name: Dowell
   image: andrewd.jpg
@@ -92,7 +182,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-    - career changer 
+    - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked as a business analyst at Eastjet.
