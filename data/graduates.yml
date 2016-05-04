@@ -78,11 +78,11 @@
     - question: What did you find difficult during the course?
       answer: I found information overload very difficult!
     - question: What happened during/after graduation and where are you job-wise?
-      answer: It all happened very quickly. Went to the careers fair. Went to an interview with a hiring partner and through that and got a job!
+      answer: It all happened very quickly. Went to the careers fair, went to an interview with a hiring partner and through that got a job!
     - question: What advice would you give to people thinking of changing career?
-      answer: What is the worst that could happen?
+      answer: What's the worst that could happen?
     - question: What do you say to people who say £8000 is expensive?
-      answer: It is an insane amount of money but for changing your career in 3 months I felt like it was worth it.
+      answer: It's an insane amount of money but for changing your career in 3 months I felt like it was worth it.
     - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
       answer: That I just would not be able to do it or be a good coder and I still worry about that but I know it is just a matter of time rather than it being unachievable.
     - question: Sum up your Makers Academy experience
@@ -105,9 +105,9 @@
     - question: How did you come across Makers Academy and what made you decide to apply?
       answer: Internet searches. The reviews were very encouraging and the success rate in getting people jobs.
     - question: What did you find difficult during the course?
-      answer: I found Angular very difficult and the idea of test driven development.
+      answer: I found AngularJS very difficult and the idea of test driven development.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: I was hired after speaking to a company at the careers fair. It was the enthusiasm that I showed that showed them I really wanted the job.
+      answer: I was hired after speaking to a company at the careers fair. It was the enthusiasm that I displayed which showed them I really wanted the job.
     - question: How has your life changed since graduation?
       answer: I feel very happy and proud of myself of completing this rigorous course and I look forward to a new career in an exciting sector.
     - question: What advice would you give to people thinking of changing career?
@@ -119,11 +119,10 @@
     - question: Sum up your Makers Academy experience
       answer: Fantastic! Exhilarating and it's great to be young again!
 
-
 - first_name: Andrew
   last_name: Dowell
   image: andrewd.jpg
-  summary: Analyst to Junior Developer at
+  summary: Analyst to Junior Developer at Springer
   testimonial: "Everyone at Makers has been really helpful and especially on the Ronin side of things it's defo been good value for money."
   cohort_month: January
   cohort_year: 2016
@@ -160,13 +159,13 @@
     - career changer
   case_study:
     - question: What were you doing before joining Makers Academy?
-      answer: I was a working as a Financial analyst at Amazon.
+      answer: I was a working as a financial analyst at Amazon.
     - question: What made you want to start learning to code in the first place?
-      answer: There were two things that made me want to learn to code. The opportunity because there was a lot of demand for developers. The other was that when I was at Amazon. I got to see developers get to do very cool stuff and I wanted to be part of it.
+      answer: There were two things that made me want to learn to code. The opportunity because there was a lot of demand for developers. The other was that when I was at Amazon, I got to see developers get to do very cool stuff and I wanted to be part of it.
     - question: How did you come across Makers Academy and what made you decide to apply?
       answer: First time I heard about Makers Academy was through the Financial Times. Then the second thing was a friend of a friends sister did Makers Academy and she gave it a good review. The personal endorsement helped in making a decision.
     - question: What happened during/after graduation and where are you job-wise?
-      answer: I took 6 weeks off to go and code on my own and learn clojure and went to lots of meetups and got to know the developer community. I was also an Alumni helper too. I then started to apply to jobs and within 2 weeks I had 3 offers!
+      answer: I took 6 weeks off to go and code on my own and learn Clojure and went to lots of meetups and got to know the developer community. I was also an Alumni helper too. I then started to apply to jobs and within 2 weeks I had 3 offers!
     - question: What advice would you give to people thinking of changing career?
       answer: Have a stab at trying to learn to code yourself and if you really enjoy it then take the plunge.
     - question: What do you say to people who say £8000 is expensive?
