@@ -1,0 +1,11 @@
+- benefit: Does a thing
+  onsite: true
+  remote: false
+
+- benefit: Does another thing
+  onsite: Words words words
+  remote: Different words words words
+
+- benefit: Has thing?
+  onsite: false
+  remote: true

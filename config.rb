@@ -50,7 +50,8 @@ helpers CurrentPageHelper,
         ImageHelper,
         GraduatesHelper,
         RawHelper,
-        StatsHelper
+        StatsHelper,
+        BooleanHelper
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do | grad |
