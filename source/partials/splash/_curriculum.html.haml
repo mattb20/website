@@ -1,0 +1,28 @@
+%section.half-slider.half-slider--reverse.with-padding.curriculum-slider
+  .container
+    .half-slider-row
+      .hide-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a junior developer.
+          .button-row.shift-to-bottom
+            %p
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
+      .column
+        .slider
+          - data.curriculum.each do |topic|
+            .slide
+              .image--centered
+                = image_tag topic.image, height: 150
+              %h3= topic.title
+              %p= topic.description
+          
+      .column.show-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.
+          .button-row
+            %p
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
