@@ -9,3 +9,7 @@
 - benefit: Has thing?
   onsite: false
   remote: true
+
+- benefit: Your own Macbook Pro
+  onsite: true
+  remote: false

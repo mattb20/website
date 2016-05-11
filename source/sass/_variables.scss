@@ -62,6 +62,7 @@ $medium-screen: 640px;
 $large-screen: 1024px;
 
 $mobile: new-breakpoint(max-width $small-screen);
+$tablet-down: new-breakpoint(max-width $large-screen);
 $tablet: new-breakpoint(min-width $medium-screen, max-width $large-screen);
 $desktop: new-breakpoint(min-width $large-screen);
 
