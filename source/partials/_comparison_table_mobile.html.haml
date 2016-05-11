@@ -18,4 +18,5 @@
       %td
         %h2.statistic.comparison-footer__statistic £#{stats.onsite_cost}
       %td
-        %h2.statistic.comparison-footer__statistic.statistic--alt-color £#{stats.remote_cost}
+        %h2.statistic.comparison-footer__statistic.statistic--alt-color
+          = link_to("£#{stats.remote_cost}", 'http://blog.makersacademy.com/changingourprices/', target: "_blank")
