@@ -3,24 +3,24 @@
   remote: Full Time, Remote, Global
 
 - benefit: Curriculum
-  onsite: Challenged Based, by Makers Academy
-  remote: Challenged Based, by Makers Academy
+  onsite: Challenge-Based, by Makers Academy
+  remote: Challenge-Based, by Makers Academy
 
 - benefit: Pair Programming
-  onsite: Face to Face
+  onsite: Face-to-Face
   remote: Remote via VOIP
 
 - benefit: Coach-led Workshops
   onsite: Live, in Person
   remote: Live, Online
 
-- benefit: Talks from Industry Leaders
+- benefit: Talks by Industry Leaders
   onsite: Live, in Person
   remote: Some Streamed (Speaker Dependant)
 
 - benefit: Meditation, Yoga, 'Joy' activities
   onsite: Certified Yoga Instructor On Site
-  remote: Your Own Practise, at Home
+  remote: Your Own Practice, at Home
 
 - benefit: Careers Fair @MA HQ, London
   onsite: true
