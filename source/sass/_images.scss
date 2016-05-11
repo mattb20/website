@@ -16,6 +16,18 @@
   max-width: modular-scale(4);
 }
 
+.image--almost-medium {
+  max-height: modular-scale(7);
+  max-width: modular-scale(7);
+}
+
+.image--small-mobile {
+  @include media($mobile) {
+    max-height: modular-scale(4);
+    max-width: modular-scale(4);
+  }
+}
+
 .image--medium {
   max-height: modular-scale(8);
   max-width: modular-scale(8);
