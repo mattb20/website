@@ -43,10 +43,21 @@
       answer: "After submitting your online application, we'll invite you for an interview. In the interview we'll ask a few questions and do a bit of simple pair programming. You have no need to be afraid - we're not testing to see if you can already code. We're testing to see how you handle stressful situations where you're navigating the unknown. It'll be fun - we promise!"
 
     - question: What can I do to improve my chances of getting a place on one of your courses?
-      answer: "In truth, there isn't a huge amount you can do to improve your chances at the interview stage - other than following the instructions we give you and studying the materials that we recommend. It's designed to find people who have natural reasoning skills, bags of drive and clear passion for learning to code. We're not testing whether you've memorised syntax - we're testing whether you can follow instructions and have the passion to learn some basic code without our support.
+      answer: "In truth, there isn't a huge amount you can do to improve your chances at the interview stage - other than following the instructions we give you and studying the materials that we recommend. It's designed to find people who have natural reasoning skills, bags of drive and clear passion for learning to code. We're not testing whether you've memorised syntax - we're testing whether you can follow instructions and have the passion to learn some basic code without our support. The following articles will help you develop the sorts of behaviours and skills we look for in a candidate:
 
 
-  Having said that, if you do already have some coding experience, even if you only went through a few introductory tutorials, this will be to your advantage. We recommend the following resources to get started as a web developer, regardless of whether you want to join Makers Academy or not:
+    * <a href='http://blog.makersacademy.com/coding-101-pair-programming/' target='_blank'>Thinking Like a Programmer</a>
+
+    * <a href='http://blog.makersacademy.com/how-we-find-the-best/' target='_blank'>Tips on How to Pass the Interview</a>
+
+    * <a href='http://blog.makersacademy.com/teacher-time/' target='_blank'>Understand our Educational Philosophy</a>
+
+    * <a href='http://blog.makersacademy.com/how-does-pairing-work/' target='_blank'>Learn about Pairing</a>
+
+    * <a href='http://blog.makersacademy.com/playing-in-irb/' target='_blank'>Learn how to Play in IRB</a>
+
+
+    Having said that, if you do already have some coding experience, even if you only went through a few introductory tutorials, this will be to your advantage. We recommend the following resources to get started as a web developer, regardless of whether you want to join Makers Academy or not:
 
 
     * <a href='http://www.codecademy.com/tracks/ruby' target='_blank'>Never seen Ruby before? Try out Ruby on Codecademy</a>
