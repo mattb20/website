@@ -1,0 +1,103 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/women.jpg")});"}
+  .container
+    .centered-row
+      %h4.subheader  Makers Academy & ThoughtWorks Presents:
+      %h1 Women in Technology Scholarship
+      %h4.subheader  Learn to code in 12 weeks
+      %P  Makers Academy is Europe's leading Web Developer bootcamp. ThoughtsWorks is a community of passionate individuals whose purpose is to revolutionize software design, creation and delivery, while advocating for positive social change. Together we are offering 6 free spaces to the course for women!
+
+    = partial :"email-capture"
+
+%section.no-padding-bottom
+  .article--centered
+    %article
+      %h3 The Partnership
+      %p At the heart of ThoughtWorks is the mission to be a proactive agent for progressive change in the world. This is the reason that Thoughtworks have partnered with Makers Academy, to impact society through technology.
+      %p The aim is to help women who are interested in a career in technology but unsure if they have the skills and ability to realise their dreams and ambition.  Together, ThoughtWorks and Makers Academy will putting 6 women through a tailored programme to learn the skills you need to be successful in a career in technology with the potential of a position at ThoughtWorks at the end of the programme.
+      %p It will be intense, exhilarating, fun and challenging where you will learn from people who are leaders in their fields.
+%hr
+  .article--centered
+    %article
+      %h3 The Offer
+      %p There will be 6 places given away in total. Applicants will need to to commit 3 months full time to the course from either 15th August 2016 or  26th September 2016.
+%hr
+  .article--centered
+    %article
+      %h3 How to apply?
+      %p Scholars will be picked from the regular application pool so fill in the application form. There will however be further stages. Applicants will need to pass the technical interview with Makers Academy staff as usual and then they will then meet the Thoughtworks team who will decide on who gets a funded place.
+%hr
+
+
+%section.no-padding-bottom
+  .article--centered
+    %article
+      %h3 This could be you
+      %p Our graduates include amazing women from all walks of life: everything from mums and students to project managers. They believed they could escape their unfulfilling careers, and now they get to apply their creative skills to work that they enjoy. They have a better work-life balance and work with amazing organisations: big business, and the third sector. You can change the world through code.
+
+= partial :"full_graduates", locals: { category: "thoughtworks" }
+
+
+%section.half-slider.half-slider--reverse.with-padding
+  .container
+    .half-slider-row
+      .hide-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a junior developer.
+          .button-row.shift-to-bottom
+            %p
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
+      .column
+        .slider
+          .slide
+            .image--centered
+              = image_tag "technologies/ruby-logo.png", height: 150
+            %h3 Ruby
+            %p Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.
+          .slide
+            .image--centered
+              = image_tag "technologies/html5-logo.png", height: 150
+            %h3 HTML
+            %p HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both on the server and client-side.
+          .slide
+            .image--centered
+              = image_tag "technologies/javascript-logo.png", height: 150
+            %h3 JavaScript
+            %p JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.
+          .slide
+            .image--centered
+              = image_tag "technologies/git-logo.png", height: 150
+            %h3 git
+            %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits our focus on Pair Programming - and our Hiring Partners.
+      .column.show-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.
+          .button-row
+            %p
+              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
+
+%hr
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/pointingscreen.jpg")});"}
+  .container
+    .centered-row
+      %h2 Get a job at Thoughtworks
+      %p  After completing the Makers Academy Course. Scholors will potentially be offered a postion at Thoughtworks. A core part of your experience as an entry-level consultant in any of our global offices is spending five weeks at ThoughtWorks University in India, with ThoughtWorkers from all over the world, discovering the values, practices and principles that have made ThoughtWorks successful. TWU is an intensive, hands-on experience, where you’ll learn how to build working software from week one. By the end of the program, you'll have real experience and a global community of support.
+
+    .three-width-row
+      .column
+        .image--centered
+          = image_tag "hiring-partners/ThoughtWorks.png"
+
+= partial :"benefits_table"
+
+= partial :"apply"
+
+/ Analytics for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Women'});
+  analytics.identify({'Women': true});
