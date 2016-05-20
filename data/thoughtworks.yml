@@ -9,3 +9,17 @@
 
 - title: How to apply?
   blurb: "Scholars will be picked from the regular application process, so <a href='https://apply.makersacademy.com' target='_blank'>apply now</a>, and just mention in your application that you'd like to be considered for the Thoughtworks Scholarship. All applicants will need to pass a technical interview with Makers Academy and then meet the ThoughtWorks team to help decide who will win a funded place on the course."
+
+- title: FAQs
+  faqs:
+      - question: What cohorts can I apply for?
+        answer: The scholarship is open for the August and September cohorts at Makers Academy.
+
+      - question: Can I do this remotely?
+        answer: Yes we can offer a place on either our Onsite or Remote course (Ronin September 2016)
+
+      - question: Do I have to be in London?
+        answer: To take the full time course, yes you need to be in London. For Ronin you can be anywhere in a +/- 2 hour timezone. However in all circumstances, you will need to have the right to live and work in the UK to gain employment from ThoughtWorks.
+
+      - question: Can I take this part time?
+        answer: Unfortunately not. One of the keys to our course is being immersed into a full time coding. We don't offer a part time course at the moment. 
