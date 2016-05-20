@@ -6,12 +6,12 @@
     .definition-row
       %aside#definition-top
         %nav.definition-links
-          - data.faqs.each_with_index do |category, index|
-            %a.definition-link{href: "#definition-#{index}"}= category[:category_name]
+          - data.faqs.each do |category|
+            %a.definition-link{href: "#definition-#{slug(category[:category_name])}"}= category[:category_name]
       %article
-        - data.faqs.each_with_index do |category, index|
+        - data.faqs.each do |category|
           .category
-            %h4{id: "definition-#{index}"}= category[:category_name]
+            %h4{id: "definition-#{slug(category[:category_name])}"}= category[:category_name]
             - category[:faqs].each do |faq|
               %dl.definition{id: slug(faq[:question])}
                 %dt= faq[:question]

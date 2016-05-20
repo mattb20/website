@@ -1,7 +1,7 @@
 - name: Jordan
   image: jordan.jpg
   job_title: Sales and Marketing Director
-  about: Jordan is our Sales and Marketing Director at Makers Academy, and he's also heading up our latest secret project, codenamed 'Ronin'. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
+  about: Jordan is our Sales and Marketing Director at Makers Academy. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
 
 - name: Roi
   image: roi.jpg
@@ -60,8 +60,8 @@
 
 - name: Sam
   image: samm.jpg
-  job_title: Ronin Coordinator and Coachineer
-  about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship. He has nearly a decade of experience building complex web applications in a variety of roles, and leads Makers' Ronin online cohorts.
+  job_title: Education Lead
+  about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship. He has nearly a decade of experience building complex web applications in a variety of roles.
 
 - name: Dana
   image: DanaCutout.jpg
