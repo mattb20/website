@@ -5,13 +5,19 @@
     .definition-row
       %aside#definition-top
         %nav.definition-links
-          - data.thoughtworks.each_with_index do |week, index|
-            %a.definition-link{href: "#definition-#{index}"}= week[:title]
+          - data.thoughtworks.each_with_index do |section, index|
+            %a.definition-link{href: "#definition-#{index}"}= section[:title]
       %article
-        - data.thoughtworks.each_with_index do |week, index|
+        - data.thoughtworks.each_with_index do |section, index|
           .category
-            %h4{id: "definition-#{index}"}= week[:title]
-            %dl.definition{id: slug(week[:title])}
-              %dt= week[:summary]
-              %dd
-                %p= week[:blurb]
+            %h4{id: "definition-#{index}"}= section[:title]
+            %dl.definition{id: slug(section[:title])}
+              - if section[:faqs]
+                - section[:faqs].each do |faq|
+                  %dt= faq[:question]
+                  %dd
+                    %p= faq[:answer]
+              - else
+                %dt= section[:summary]
+                %dd
+                  %p= section[:blurb]
