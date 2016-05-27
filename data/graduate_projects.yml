@@ -1,3 +1,11 @@
+- name: RoadTripper
+  team: Godfrey, Frazer, Barry
+  cohort: Ronin January 2016
+  blurb:  Plan a Roadtrip, and share those special moments - location-aware blogging and mapping for roadtrips.
+  code_link: https://github.com/frazerWatson/road_tripper
+  live_link: https://youtu.be/zijj6UAG0aA?t=2m37s
+  image: roadtripper.jpg
+
 - name: Gnarly
   team: Sara, Heather, Michael, Harry
   cohort: January 2016
@@ -6,13 +14,29 @@
   live_link: https://mighty-sands-50291.herokuapp.com/#/map
   image: gnarly.jpg
 
-- name: Does it suck?
-  team: Rufus, Eirik, Jonny, Scott
+- name: fairMuse
+  team: Yan-Yi, Marco, Mark, Russell and David
+  cohort: Ronin January 2016
+  blurb:  A SPA Music streaming service that aims to distribute revenue fairly among artists. FairMuse tracks the stream count of each listener and divides their monthly subscription proportionately amongst the artists they've listened to that month.
+  code_link: https://github.com/MarcoCode/fairMuse
+  live_link: https://youtu.be/zijj6UAG0aA?t=11m34s
+  image: fairmuse.jpg
+
+- name: Moments
+  team: Bjoern, Tom, Douglas, Reiss, Alain
+  cohort: Ronin January 2016
+  blurb: Share your successes with Moments: let the world know how you're feeling in real-time through this truly international map-based native iOS application. Join the tide of success!
+  code_link: www.github.com/bjoernwagner/moments
+  live_link: https://youtu.be/zijj6UAG0aA?t=47m58s
+  image: moments.jpg
+
+- name: SOS Fixit
+  team: Sean, Hannah, Zeshan, Joe
   cohort: January 2016
-  blurb:  Crowdsourcing other people's opinions on anything
-  code_link: https://github.com/rufusraghunath/crowdsource-due-diligence
-  live_link: https://does-it-suck.herokuapp.com/#/
-  image: suck.jpg
+  blurb:  Find people in community to help fix your simple problems
+  code_link: https://github.com/HannSO/sos-fixit-angular
+  live_link: https://youtu.be/m5uixjr55oo
+  image: sos.jpg
 
 - name: SOS Fixit
   team: Sean, Hannah, Zeshan, Joe
@@ -29,6 +53,14 @@
   code_link: https://github.com/arnoldmanzano/local-knowledge
   live_link: http://local-host.herokuapp.com/
   image: local.jpg
+
+- name: Markpad
+  team: Mic, Constantin, Jeremy, Chris, Matt
+  cohort: January 2016
+  blurb:  Web-based note-taking with markdown
+  code_link: https://github.com/mic-css/markpad
+  live_link: https://vimeo.com/166188235
+  image: markpad.jpg
 
 - name: Changr
   team: Hamza Sheikh, Mahmud Hussain,Fergus Lemon, Samuel Overloop and Radu Asandei.
