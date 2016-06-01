@@ -4,7 +4,7 @@ offline:
   deposit_percentage: 0.1
   early_payment_discount_percentage: 0.1
 online:
-  cost: 2499
+  cost: 4000
   gender_discount: 0
-  deposit_percentage: 0.2
+  deposit_percentage: 0.125
   early_payment_discount_percentage: 0
