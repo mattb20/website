@@ -29,8 +29,8 @@
       %li{ class: current_if_current_page(current_page, "/about-us/") }
         = link_to "About Us", "/about-us.html"
       - if current_page.url.include?("/employers")
-        %li{ class: current_if_current_page(current_page, "/apply/") }
+        %li
           = link_to "Hire", "/employers/contact.html", class: "button button--vertical employers-button", data: {track: "Viewed Employers Enquiry Form"}
       - else
-        %li{ class: current_if_current_page(current_page, "/apply/") }
+        %li
           = link_to "Apply", config.apply_url, class: "button button--vertical apply-button", data: {track: "Clicked Apply Page Button"}
