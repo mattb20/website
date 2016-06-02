@@ -2,7 +2,7 @@
 <html>
   <head>
     <!--[if gt IE 8]><!-->
-    <link href="/sass/all-42caa7ef.css" rel="stylesheet" type="text/css" />
+    <link href="/sass/all-4bc6e916.css" rel="stylesheet" type="text/css" />
     <![endif]-->
     <!--[if lte IE 8]><!-->
     <link href="/sass/compatibility-466a586b.css" rel="stylesheet" type="text/css" />
@@ -94,8 +94,8 @@
           <li class=''>
             <a href="/about-us/">About Us</a>
           </li>
-          <li class=''>
-            <a class="button button--vertical apply-button" data-track="Clicked Apply Page Button" href="https://apply.makersacademy.com">Apply</a>
+          <li>
+            <a class="button button--vertical apply-button" data-track="Clicked Apply Page Button" href="/apply">Apply</a>
           </li>
         </ul>
       </nav>
@@ -111,7 +111,7 @@
             <h4 class='leader'>Case Study</h4>
             <h1>Edward Withers</h1>
             <h4 class='subheader'>English and Maths Tutor to Junior Developer at Surfdome</h4>
-            <blockquote>Makers Academy was life-changing</blockquote>
+            <blockquote>Makers Academy was life-changing.</blockquote>
             <div class='image hide-desktop no-padding'>
               <img src="http://assets.makersacademy.com/images/graduates/edwardw.jpg" />
             </div>
@@ -147,33 +147,26 @@
         </div>
       </div>
     </section>
-    <section class='hero--apply' style='background-image: url(http://assets.makersacademy.com/images/backgrounds/postit-wall.jpg);'>
-      <div class='container'>
+    <section class='hero-splash' style='background-image: url(http://assets.makersacademy.com/images/backgrounds/B11.jpg);'>
+      <div class='container margin-bottom'>
         <div class='centered-row'>
-          <div class='column'>
-            <h2>Apply Now</h2>
-            <p>The full 16-week programme costs £8,000. We run cohorts every 6 weeks, and applications are highly competitive. We offer numerous payment options.</p>
-          </div>
+          <h4 class='leader'>Apply to</h4>
+          <h1>Makers Academy</h1>
         </div>
         <div class='button-row'>
-          <p>
-            <a class="button button--horizontal" href="/payment/">Payment Options</a>
-            <a class="button button--vertical button--large apply-button" data-track="Clicked Apply Page Button" href="https://apply.makersacademy.com">Apply</a>
-            <a class="button button--horizontal" href="/about-us/">Learn More</a>
+          <a class="button button--vertical apply-button" data-track="Clicked Onsite Apply Form Button" href="http://apply.makersacademy.com">Apply Onsite</a>
+          <a class="button button--horizontal apply-button" data-track="Clicked Remote Apply Form Button" href="http://apply.makersacademy.com/remote/application">Apply Remote</a>
+        </div>
+        <div class='centered-row'>
+          <p class='lead'>
+            <a data-track="Clicked 'What is Remote?' from onsite/remote apply page" href="/about-us#definition-more-about-makers-academy-remote">What is Remote?</a>
           </p>
-        </div>
-        <div class='centered-row'>
-          <div class='column'>
-            <p>
-              Our prices for Makers Academy and Ronin are changing.
-            </p>
-          </div>
-        </div>
-        <div class='button-row'>
-          <p><a target="_blank" class="button button--horizontal" href="http://blog.makersacademy.com/changingourprices/">Read about Price Changes</a></p>
         </div>
       </div>
     </section>
+    <script>
+      analytics.track('Viewed onsite/remote apply page');
+    </script>
     <footer role='contentinfo'>
       <div class='container'>
         <div class='footer-links'>
@@ -246,7 +239,10 @@
               <a href="/code-of-conduct/">Code of Conduct</a>
             </li>
             <li>
-              <a href="/terms/">Terms and Conditions</a>
+              <a href="/terms/">Onsite Terms and Conditions</a>
+            </li>
+            <li>
+              <a href="/remote-terms/">Remote Terms and Conditions</a>
             </li>
             <li>
               <a href="/privacy/">Privacy Policy</a>
