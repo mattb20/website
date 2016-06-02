@@ -1,0 +1,39 @@
+- benefit: Delivery
+  onsite: Full Time, Offline, in London
+  remote: Full Time, Remote, Global
+
+- benefit: Curriculum
+  onsite: Challenge-Based, by Makers Academy
+  remote: Challenge-Based, by Makers Academy
+
+- benefit: Pair Programming
+  onsite: Face-to-Face
+  remote: Remote via VoIP
+
+- benefit: Coach-led Workshops
+  onsite: Live, in Person
+  remote: Live, Online
+
+- benefit: Talks by Industry Leaders
+  onsite: Live, in Person
+  remote: Some Streamed (Speaker-Dependent)
+
+- benefit: Meditation, Yoga, 'Joy' activities
+  onsite: Certified Yoga Instructor On Site
+  remote: Your Own Practice, at Home
+
+- benefit: Careers Fair @MA HQ, London
+  onsite: true
+  remote: false
+
+- benefit: Hiring Support
+  onsite: Hiring Week + Intro to Hiring Partners
+  remote: In Major Tech Hubs Only
+
+- benefit: Meetups & Social Events
+  onsite: true
+  remote: false
+
+- benefit: Deposit
+  onsite: £800
+  remote: £500

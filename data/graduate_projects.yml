@@ -112,7 +112,7 @@
 
 - name: Lend and Tend
   team: Dan, Joe, Gus, Jade
-  cohort: Ronin March 2015
+  cohort: Remote March 2015
   blurb: Fewer people can afford their own gardens these days, and people with gardens often have to work such long hours that they don't have time to do any gardening. Enter Lend and Tend. We match people with unused gardens they could lend, to people wanting to borrow a garden so they can tend.
   code_link: https://github.com/joejknowles/lend_and_tend
   live_link: http://pacific-tundra-1942.herokuapp.com/

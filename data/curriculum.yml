@@ -1,0 +1,23 @@
+- title: Ruby
+  image: 'technologies/ruby-logo.png'
+  description: Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.
+
+- title: JavaScript
+  image: technologies/javascript-logo.png
+  description: "JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi."
+
+- title: Test-Driven Development
+  image: technologies/tdd-logo.png
+  description: "Test-Driven Development is an engineering methodology that helps to produce stable, tested code. TDD is core to everything you do at Makers Academy: we'll show you how to master it to create beautifully-articulated programs."
+
+- title: HTML
+  image: technologies/html5-logo.png
+  description: HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both on the server and client-side.
+
+- title: git
+  image: technologies/git-logo.png
+  description: git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits our focus on Pair Programming - and our Hiring Partners.
+
+- title: Software Craftsmanship
+  image: technologies/sc-logo.png
+  description: Software Craftsmanship is a movement to improve the quality of developers and the software they write. We train you to really care about your code, and how to develop the professional skills required of a modern engineer.

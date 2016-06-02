@@ -19,6 +19,14 @@
   margin-bottom: 0px !important;
 }
 
+.margin-bottom {
+  margin-bottom: ma-spacing(1) !important;
+}
+
+.vertical-center {
+  vertical-align: middle !important;
+}
+
 // Doorbell.io
 
 #doorbell-button {

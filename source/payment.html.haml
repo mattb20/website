@@ -3,48 +3,9 @@
   .container
     .centered-row
       %h1 Payment Options
-      %p We offer a variety of payment options, and discounts for representatives of minority groups. Price should never be a barrier to a student joining Makers Academy.
-%section
-  .container
-    .centered-row
-      %h2 What's included?
-    .three-width-row
-      .column
-        Learn cutting edge skills
-      .column
-        Talks &amp; Meetups
-      .column
-        Team dedicated to Career Support
-    .three-width-row
-      .column
-        12 weeks FT, 4 weeks PT
-      .column
-        A Macbook Pro Retina & 24'' Monitor
-      .column
-        Coffee, Breakfast and Snacks
-    .three-width-row
-      .column
-        Yoga & Meditation Classes
-      .column
-        Mentorship from Alumni & Large Community
-      .column
-        Highly-selected peers to learn with
-%section.backgrounded
-  .container
-    .centered-row
-      %h4.leader Makers Academy
-      %h2 Course cost
-      %h2.statistic £8,000
-    .three-width-row
-      .column
-        %h3 Deposit: £800
-        %p Due to high demand for spaces, we ask that, once accepted, students pay an £800 deposit to lock-down their spot on the course.
-      .column
-        %h3 Discount: 10%
-        %p We offer you a 10% discount if you pay the full tuition fees at least 1 month prior to the start of the full-time course.
-      .column
-        %h3 Women's Scholarship: £500
-        %p We offer a £500 discount if you are a woman as you are highly underrepresented in the tech community.
+      %p We offer a variety of payment options for all demographics, and we offer a discount for women at our in person course. Price should never be a barrier to a student joining Makers Academy.
+= partial :"benefits_table"
+
 %section
   .container
     .centered-row
@@ -98,4 +59,4 @@
       .column
         = image_tag "payment-options/gocardless.jpg", class: "image--medium"
         %h4 GoCardless
-= partial :"apply", locals: {page: :payment}
+= partial :"primary_call_to_action", locals: {page: :payment}

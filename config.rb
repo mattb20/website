@@ -50,7 +50,8 @@ helpers CurrentPageHelper,
         ImageHelper,
         GraduatesHelper,
         RawHelper,
-        StatsHelper
+        StatsHelper,
+        BooleanHelper
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do | grad |
@@ -67,12 +68,13 @@ set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
 
-set :apply_form_url, "https://apply.makersacademy.com"
+set :apply_url, "/apply"
+set :onsite_application_form_url, "http://apply.makersacademy.com"
+set :remote_application_form_url, "http://apply.makersacademy.com/remote/application"
 
 # Redirects from old site urls
-redirect "payments/new.html", to: "#{config.apply_form_url}/payments/new"
-redirect "apply.html", to: config.apply_form_url
-redirect "apply-for-ronin.html", to: "#{config.apply_form_url}/ronin/application"
+redirect "payments/new.html", to: "#{config.onsite_application_form_url}/payments/new"
+redirect "apply-for-ronin.html", to: config.remote_application_form_url
 redirect "fellowship.html", to: "http://techcityfellowship.org/"
 redirect "life-at-makers.html", to: "about-us.html"
 redirect "talks.html", to: "employers.html"
