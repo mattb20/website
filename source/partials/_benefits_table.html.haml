@@ -1,8 +1,9 @@
+- comparisons ||= :comparisons
 %section
   .container.margin-bottom
     .centered-row
       %h2.margin-bottom Onsite or Remote?
 
-  = partial :"comparison_table_mobile"
+  = partial :"comparison_table_mobile", locals: { comparisons: comparisons }
   .container
-    = partial :"comparison_table"
+    = partial :"comparison_table", locals: { comparisons: comparisons }
