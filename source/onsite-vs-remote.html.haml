@@ -9,6 +9,8 @@
 
 = partial :"benefits_table", locals: { comparisons: :full_comparisons }
 
+= partial :"primary_call_to_action"
+
 / Analytics event for visiting homepage
 :javascript
-  analytics.track('Viewed homepage');
+  analytics.track('Full Comparison');
