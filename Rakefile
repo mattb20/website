@@ -12,6 +12,10 @@ namespace :publish do
   task :bower do
     publish_to_bower
   end
+
+  task :staging do
+    push_to_staging
+  end
 end
 
 def publish_to_bower
@@ -29,6 +33,11 @@ def publish_to_bower
   puts "Pushing new tags to Github"
   `git push origin --tags`
   puts "Done!"
+end
+
+def push_to_staging
+  current_branch = `git rev-parse --abbrev-ref HEAD`
+  `git push --force staging master:#{current_branch.strip}`
 end
 
 def bower
