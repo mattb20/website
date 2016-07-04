@@ -130,7 +130,7 @@ configure :build do
 
   set :run_analytics, true
 
-  set :segment_key, '8NGMT5SwWiR5BvuyrpTsirX9XY8CeZ4R'
+  set :segment_key, ENV.fetch('SEGMENT_KEY', '8NGMT5SwWiR5BvuyrpTsirX9XY8CeZ4R')
 
   set :employers_form_endpoint, 'https://formkeep.com/f/1ae1f30c4bcf'
 
