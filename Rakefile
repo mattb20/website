@@ -36,8 +36,9 @@ def publish_to_bower
 end
 
 def push_to_staging
+  `git remote add staging https://github.com/makersacademy/main-site-staging.git 2>/dev/null`
   current_branch = `git rev-parse --abbrev-ref HEAD`
-  `git push --force staging master:#{current_branch.strip}`
+  `git push --force staging #{current_branch.strip}:master`
 end
 
 def bower
