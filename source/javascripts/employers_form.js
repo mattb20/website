@@ -7,30 +7,20 @@
       var form = $(element);
       var email = form.find('input[type=email]');
 
-      form.on("submit", submitToAnalytics);
+      form.on("submit", saveForAnalytics);
+      analytics.trackForm(form, 'Submitted Employers Enquiry Form');
 
-      function submitToAnalytics(event, options) {
-
-        // Check for option to stop an infinite loop of form submissions
-        // when we trigger the form event manually below
-        if (options && options.submittedAnalytics) {
-          return;
-        }
-
+      // Save identity/alias analytics data for after when the form has
+      // submitted
+      function saveForAnalytics(event, options) {
         if (email.val() !== "") {
-          event.preventDefault();
           storePropertiesForAnalytics();
-          submitForm();
         }
       }
 
       function storePropertiesForAnalytics() {
         var properties = JSON.stringify(analyticsProperties());
         window.localStorage.setItem("employerAnalyticsProperties", properties);
-      }
-
-      function submitForm() {
-        form.trigger('submit', {submittedAnalytics: true});
       }
 
       function analyticsProperties() {

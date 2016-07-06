@@ -1,12 +1,14 @@
 - @hide_from_google = true
 
 :javascript
+  // Take the values stored by employers_forms.js from localStorage
+  // We have to store them before submitting the form
+  // as otherwise we don't always get time to submit the analytics data before the form submits
   var properties = JSON.parse(window.localStorage.getItem("employerAnalyticsProperties"));
 
   if (properties) {
     analytics.alias(properties.email);
     analytics.identify(properties.email, properties);
-    analytics.track('Submitted Employers Enquiry Form');
     window.localStorage.removeItem("employerAnalyticsProperties");
   }
 
