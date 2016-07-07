@@ -2588,12 +2588,12 @@ footer {
 .vertical-center {
   vertical-align: middle !important; }
 
-#doorbell-button {
+/*#doorbell-button {
   font-size: 18px;
   border: 2px solid rgba(255, 255, 255, 0.6);
   border-bottom: 0; }
   @media screen and (max-width: 480px) {
     #doorbell-button {
-      display: none; } }
+      display: none; } }*/
 
 /*# sourceMappingURL=all.css.map */
