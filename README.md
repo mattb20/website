@@ -21,6 +21,8 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 ## Deploying
 
 * Make sure you have submitted a pull request and had it approved following our [contributing guidelines](https://github.com/makersacademy/site-mvp/blob/master/CONTRIBUTING.md)
+* Check how it looks on the [staging site](http://staging.makersacademy.com) -
+  you can deploy to staging using the command `rake publish:staging`
 * Merge the pull request into master
 * Once our [CI server](https://codeship.com/projects/87550) has passed the tests, it will automatically deploy to Github Pages by using the `rake publish` command provided by the [Middleman GitHub pages extension](https://github.com/neo/middleman-gh-pages). This builds a Middleman site and pushes the built repo onto a gh-pages branch.
 

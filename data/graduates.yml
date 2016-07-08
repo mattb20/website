@@ -449,7 +449,7 @@
 
 - first_name: Emma
   last_name: Beynon
-  image: emmab.jpg
+  image: emmabenyon.jpg
   summary: Digital marketer to Junior Developer at Government Digital Service
   testimonial: "My Makers Academy experience was intense, stressful, fulfilling and fun!"
   cohort_month: February
@@ -864,7 +864,7 @@
   image: gerad.jpg
   summary: Physics Student to Junior Developer at Betvictor
   testimonial: Best educational experience of my life.
-  cohort_month: September
+  cohort_month: August
   cohort_year: 2015
   categories:
     - career changer
@@ -1204,7 +1204,7 @@
   image: Paul2.jpg
   summary: Technical Writer to Junior Developer at CloudCredo
   testimonial: It was a lot of work and a lot of fun!
-  cohort_month: June
+  cohort_month: August
   cohort_year: 2015
   categories:
     - career changer
@@ -1627,7 +1627,7 @@
 
 - first_name: Rachel
   last_name: Nolan
-  image: rachel.jpg
+  image: rachelnolan.jpg
   summary: Subscription Cheese Box Startup to Junior Developer at Atos
   testimonial: Makers was great fun! The best thing I’ve done in terms of education!
   cohort_month: January

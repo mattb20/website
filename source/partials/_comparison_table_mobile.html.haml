@@ -1,3 +1,4 @@
+- comparisons ||= :comparisons
 %table.comparison-table.comparison-table--mobile
   %thead
     %tr
@@ -6,7 +7,7 @@
       %th.comparison-header.comparison-header--remote
         .comparison-header__image{ style: "background-image: url(#{image_path("logo/ronin-wordmark-white.png")});"}
   %tbody.comparison-main
-    - data.comparisons.each do |comparison|
+    - data.send(comparisons).each do |comparison|
       %tr
         %th.comparison-key{ colspan: "3" }
           = comparison["benefit"]
