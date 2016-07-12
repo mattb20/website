@@ -43,7 +43,6 @@ activate :search_engine_sitemap
 
 # Methods defined in the helpers block are available in templates
 helpers CurrentPageHelper,
-        PartnerLogosHelper,
         MarkdownHelper,
         PossessiveHelper,
         SlugHelper,
