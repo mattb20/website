@@ -90,6 +90,12 @@ redirect "jobs.html", to: "join-the-team.html"
 redirect "blog.html", to: "http://blog.makersacademy.com"
 redirect "payments.html", to: "payment.html"
 redirect "partners.html", to: "employers.html"
+redirect "learn-to-code-1.html", to: "entrepreneurs.html"
+redirect "learn-to-code-2.html", to: "index.html"
+redirect "learn-to-code-3.html", to: "education-leaver.html"
+redirect "learn-to-code-4.html", to: "index.html"
+redirect "learn-to-code-5.html", to: "index.html"
+redirect "faq.html", to: "about-us.html"
 
 configure :development do
   activate :livereload
