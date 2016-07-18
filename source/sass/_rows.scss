@@ -179,6 +179,13 @@
   }
 }
 
+.two-width-row--always {
+  .column {
+    @include span-columns($grid-columns / 2);
+    padding: 0 modular-scale(0);
+  }
+}
+
 .three-width-row {
   @include ma-columns(3);
   .column {

@@ -1,0 +1,87 @@
+- benefit: Delivery
+  onsite: Full Time, Offline, in London
+  remote: Full Time, Remote, Global
+
+- benefit: Curriculum
+  onsite: Challenge-Based, by Makers Academy
+  remote: Challenge-Based, by Makers Academy
+
+- benefit: Pair Programming
+  onsite: Face-to-Face
+  remote: Remote via VoIP
+
+- benefit: Coach-led Workshops
+  onsite: Live, in Person
+  remote: Live, Online
+
+- benefit: Talks by Industry Leaders
+  onsite: Live, in Person
+  remote: Some Streamed (Speaker-Dependent)
+
+- benefit: Meditation, Yoga, 'Joy' activities
+  onsite: Certified Yoga Instructor On Site
+  remote: Your Own Practice, at Home
+
+- benefit: Hiring Support
+  onsite: Hiring Week + Intro to Hiring Partners
+  remote: In Major Tech Hubs Only
+
+- benefit: Deposit
+  onsite: £800
+  remote: £500
+
+- benefit: Graduation
+  onsite: Live, at Makers Academy HQ
+  remote: Live, streamed online
+
+- benefit: Financing
+  onsite: PCDL, Future Finance, EdAid
+  remote: PCDL, Future Finance, EdAid
+
+- benefit: Length
+  onsite: 12 weeks
+  remote: 12 weeks
+
+- benefit: Workshops
+  onsite: Coach Led
+  remote: Coach Led
+
+- benefit: New Course starts
+  onsite: Every 6 weeks
+  remote: Every 12 weeks
+
+- benefit: Food & drink
+  onsite: Breakfast & snacks + Friday beers
+  remote: Your own kitchen
+
+- benefit: Access to entire Makers Academy team
+  onsite: Yes - we share the building
+  remote: Your coach and the Careers team
+
+- benefit: Access to alumni events at Makers Academy
+  onsite: true
+  remote: true
+
+- benefit: Access to craftathons at Makers Academy
+  onsite: true
+  remote: true
+
+- benefit: Women's Discount
+  onsite: £500
+  remote: false
+
+- benefit: Access to Makers Academy social events
+  onsite: true
+  remote: false
+
+- benefit: Visa needed for Non-EU citizens
+  onsite: true
+  remote: false
+
+- benefit: Loan Laptop
+  onsite: true
+  remote: false
+
+- benefit: Careers Fair @MA HQ, London
+  onsite: true
+  remote: false

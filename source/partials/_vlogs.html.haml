@@ -1,0 +1,16 @@
+%section.backgrounded{style: "background: #062533;"}
+  .container.container--narrow
+    .centered-row
+      %h4.leader Makers Academy Remote
+      %h2 Follow Rebecca and Godfrey's Coding Journey
+
+    .slider.slider--video{:'data-description-container' => "alumni-video-description"}
+      - data.vlogs.each do |ronin_student|
+        .slide{:'data-header' => ronin_student[:name], :'data-subheader' => ronin_student[:description]}
+          .video-wrapper.graduates-video
+            %iframe.video{src: ronin_student[:video_url], frameborder: 0, allowfullscreen: true}
+
+    .video-description#alumni-video-description
+      - first_ronin_student = data.vlogs.first
+      %h2.header= first_ronin_student[:name]
+      %h4.subheader= first_ronin_student[:description]

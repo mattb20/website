@@ -1,7 +1,7 @@
 - name: Jordan
   image: jordan.jpg
   job_title: Sales and Marketing Director
-  about: Jordan is our Sales and Marketing Director at Makers Academy, and he's also heading up our latest secret project, codenamed 'Ronin'. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
+  about: Jordan is our Sales and Marketing Director at Makers Academy. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
 
 - name: Roi
   image: roi.jpg
@@ -43,11 +43,6 @@
   job_title: Gatekeeper
   about: Nikesh is the self proclaimed gatekeeper for Makers Academy. After completing the course in June 2014, he refused to leave so we gave him a job. He now spends time selecting the best students for each cohort, facilitates the PreCourse and works with engineering to automate operations at Makers Academy. He also part of the Escape the City Founding Members and runs a charity in his “down” time.
 
-- name: Ben
-  image: bennew.jpg
-  job_title: Coachineer
-  about: Ben has been developing software for over 15 years and has designed and built production systems for large businesses using C#, Java and Ruby. Ben is an expert in object-oriented design and is passionate about clean code.
-
 - name: Leo
   image: leo.jpg
   job_title: Coachineer
@@ -60,8 +55,8 @@
 
 - name: Sam
   image: samm.jpg
-  job_title: Ronin Coordinator and Coachineer
-  about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship. He has nearly a decade of experience building complex web applications in a variety of roles, and leads Makers' Ronin online cohorts.
+  job_title: Education Lead
+  about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship. He has nearly a decade of experience building complex web applications in a variety of roles.
 
 - name: Dana
   image: DanaCutout.jpg

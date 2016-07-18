@@ -7,10 +7,15 @@ namespace :assets do
   end
 end
 
-desc "Publishes latest changes to bower"
 namespace :publish do
+  desc "Publishes latest changes to bower"
   task :bower do
     publish_to_bower
+  end
+
+  desc "Publishes to staging.makersacademy.com"
+  task :staging do
+    push_to_staging
   end
 end
 
@@ -29,6 +34,13 @@ def publish_to_bower
   puts "Pushing new tags to Github"
   `git push origin --tags`
   puts "Done!"
+end
+
+def push_to_staging
+  `git remote add staging https://github.com/makersacademy/main-site-staging.git 2>/dev/null`
+  current_branch = `git rev-parse --abbrev-ref HEAD`
+  `git push --force staging #{current_branch.strip}:master`
+  puts "Wait for codeship to build and deploy, watch #engineering-notify for updates"
 end
 
 def bower

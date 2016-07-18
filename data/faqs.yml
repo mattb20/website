@@ -43,10 +43,21 @@
       answer: "After submitting your online application, we'll invite you for an interview. In the interview we'll ask a few questions and do a bit of simple pair programming. You have no need to be afraid - we're not testing to see if you can already code. We're testing to see how you handle stressful situations where you're navigating the unknown. It'll be fun - we promise!"
 
     - question: What can I do to improve my chances of getting a place on one of your courses?
-      answer: "In truth, there isn't a huge amount you can do to improve your chances at the interview stage - other than following the instructions we give you and studying the materials that we recommend. It's designed to find people who have natural reasoning skills, bags of drive and clear passion for learning to code. We're not testing whether you've memorised syntax - we're testing whether you can follow instructions and have the passion to learn some basic code without our support.
+      answer: "In truth, there isn't a huge amount you can do to improve your chances at the interview stage - other than following the instructions we give you and studying the materials that we recommend. It's designed to find people who have natural reasoning skills, bags of drive and clear passion for learning to code. We're not testing whether you've memorised syntax - we're testing whether you can follow instructions and have the passion to learn some basic code without our support. The following articles will help you develop the sorts of behaviours and skills we look for in a candidate:
 
 
-  Having said that, if you do already have some coding experience, even if you only went through a few introductory tutorials, this will be to your advantage. We recommend the following resources to get started as a web developer, regardless of whether you want to join Makers Academy or not:
+    * <a href='http://blog.makersacademy.com/coding-101-pair-programming/' target='_blank'>Thinking Like a Programmer</a>
+
+    * <a href='http://blog.makersacademy.com/how-we-find-the-best/' target='_blank'>Tips on How to Pass the Interview</a>
+
+    * <a href='http://blog.makersacademy.com/teacher-time/' target='_blank'>Understand our Educational Philosophy</a>
+
+    * <a href='http://blog.makersacademy.com/how-does-pairing-work/' target='_blank'>Learn about Pairing</a>
+
+    * <a href='http://blog.makersacademy.com/playing-in-irb/' target='_blank'>Learn how to Play in IRB</a>
+
+
+    Having said that, if you do already have some coding experience, even if you only went through a few introductory tutorials, this will be to your advantage. We recommend the following resources to get started as a web developer, regardless of whether you want to join Makers Academy or not:
 
 
     * <a href='http://www.codecademy.com/tracks/ruby' target='_blank'>Never seen Ruby before? Try out Ruby on Codecademy</a>
@@ -79,7 +90,7 @@
     - question: How many international students attend the program?
       answer: "We don’t track the number specifically, but we’ve had students from all over Europe, the USA, Singapore, Hong Kong, South Africa, Australia, New Zealand and even Venezuela"
 
-- category_name: More About The Course
+- category_name: More About The Onsite Course
   faqs:
     - question: Who are the instructors?
       answer: "Makers Academy is taught by a cadre of world-class technologists and entrepreneurs. They have founded various technology startups and have decades of educational experience between them. In addition, Makers Academy brings in world class speakers from top London technology companies."
@@ -91,7 +102,7 @@
       answer: "No. Makers Academy will provide all of the equipment needed. That being said, feel free to bring your own laptop if you'd like as long as it's a Mac or a Linux (the software you'll be using is really hard to use on a PC)."
 
     - question: Do you have to commit to being in London full-time for 12 weeks?
-      answer: "By far the best way to learn to code in such a short amount of time is to live and breathe it. You would need to attend Makers Academy from 9am-6pm, Monday-Friday, for the 12 weeks that you're studying. Bear in mind that this is a minimum requirement - the more time you give to the course the better the results will be! If you absolutely cannot make it to London, we have a new full-time online program that mirrors our off-line course. <a href='http://ronin.makersacademy.com/' target='_blank'>Find out more about Ronin</a>."
+      answer: "By far the best way to learn to code in such a short amount of time is to live and breathe it. You would need to attend Makers Academy from 9am-6pm, Monday-Friday, for the 12 weeks that you're studying. Bear in mind that this is a minimum requirement - the more time you give to the course the better the results will be! If you absolutely cannot make it to London, we have a new full-time online program that mirrors our off-line course."
 
     - question: What's the schedule and the learning atmosphere?
       answer: "Students will be at Makers Academy from 9am until 6pm (although many stay well into the evening), Monday through Friday for the duration of the 12 week course. We use a combination of self-study, class-based instruction, hands-on exercises and pair programming to give you a well-rounded overview of how to apply each new concept."
@@ -122,6 +133,56 @@
 
     - question: What is the drop out rate/failure of the course?
       answer: "Out of around 400 students so far we have had around 25 drop out, for various reasons. We have an application/interview process at Makers Academy that is designed to only accept people who are serious about learning to code, but we can’t always get it right!"
+
+- category_name: More about Makers Academy Remote
+  faqs:
+    - question: Am I too old, with not enough coding experience to join Makers Academy Remote?
+      answer: There’s no such thing as too old! Our students are incredibly diverse - people of all ages, backgrounds, sectors and experiences - so we don’t have an age limit. The one thing that has been constant with all of our applicants is a passion for coding, and a burning determination to succeed.
+
+    - question: Can I join Makers Academy Remote while also doing my normal job?
+      answer:  No. Remote students are expected to commit to 9am to 6pm, Monday to Friday (at a minimum, but most work well into the evening to finish their work). We also set weekend project work to keep you engaged, so if you really want to get to a professional standard in just a few months, you really have to commit to it.
+
+    - question: Is the course full time?
+      answer: Yes. The value of a full-time course is huge in comparison to a part-time course. We don’t offer a part-time option because it wouldn’t produce world class developers.
+
+    - question: Do Remote graduates receive any kind of qualification?
+      answer: You don’t get a qualification when graduating Makers Academy Remote, you get a job. To be an official educational institution and to offer qualifications, we would need to submit our curriculum to the government, which would then get locked down without the possibility of any changes. Accreditation guidelines say that you have to teach the same thing for a minimum of 1 year before you can apply for an official qualification. Well - a year in software development is a lifetime in other industries. We update our course materials every 6 weeks to fit the needs of the market and the needs of our hiring partners, so we do not and will never offer official accreditation. We don't care for fancy pieces of paper - we want you to leave the course with the ability to build real projects. That's our 'qualification'.
+
+    - question: Any entry requirements?
+      answer: We don’t have any requirements other than a passion for coding and a commitment to learning. You don’t need any academic qualifications or work experience - just demonstrate to us that you’re keen and capable.
+
+    - question: When does your next course start?
+      answer: We run a new course every 12 weeks, and you can take a look at all of our upcoming cohorts at the bottom of this page.
+
+    - question: How is the interview done?
+      answer: The interviews for Makers Academy Remote are done remotely, to mimic the learning environment you’ll be in. We’ll also send you across some learning materials to prepare for the interview, so remember to complete all of the content to give yourself the best chance of progressing to the next stage.
+
+    - question: Is the PreCourse done at home?
+      answer: The PreCourse is part time and is completed remotely. You need around 20 hours per week (including weekends) to complete the required work. Weekly progress is compulsory on the PreCourse, to make your way onto the full-time course.
+
+    - question: I don’t have a coding background, is it for me?
+      answer: Definitely! Our course is designed to turn any coding beginner into a junior developer in 12 weeks, and then get you a job in a world-class tech company after you graduate. Sound too good to be true? It isn’t, we do it over and over again every 12 weeks. If you fancy a read, you can take a look at our graduate stories <a href="http://www.makersacademy.com/graduates/" target="_blank">here</a>
+
+    - question: Can you help finding me a job overseas?
+      answer: The majority of our hiring partners are in London, but we’ve helped graduates get jobs all over the world. As we get more Remote students, we’ll be hand-picking the top tech employers across Europe to work with us.
+
+    - question: How much does it cost?
+      answer: Makers Academy Remote is currently reduced to £2499 until 30 May 2016. After this the price goes up to £4000. Read more about it in our blog. We've partnered with Finance my Future to offer financial support. Ask about this during your interview. Hint, you need to apply first!
+
+    - question: Do we offer scholarships?
+      answer: We offer scholarships from time to time, usually in partnership with another company. By far the best way to hear about these things is by signing up to our newsletter and keeping an eye out for any new opportunities.
+
+    - question: Do you accept international students?
+      answer: Whilst we do have some international students join Makers Academy Remote, because of time differences do bear in mind that we don’t recommend joining the course if you are located somewhere that is more than +/-4 hours GMT. Feel free to drop us an <a href="mailto:ronin@makersacademy.com">email</a> if you want to have a chat about this in greater detail.
+
+    - question: What languages do you cover?
+      answer: "We cover a range of content that includes languages, libraries, processes and frameworks, such as -  \n
+          Front end - HTML CSS, JavaScript\n
+          Back end - Ruby, Ruby on Rails, NodeJS  \n
+          Databases - (DataMapper, SQL) and user management  \n
+          Object Oriented Programming  \n
+          Test Driven Development & Pair Programming  \n
+          Agile, and lots more!  \n"
 
 - category_name: Getting a Job
   faqs:

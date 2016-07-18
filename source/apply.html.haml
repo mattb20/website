@@ -1,0 +1,13 @@
+%section.hero-splash{ style: "background-image: url(#{image_path("backgrounds/B11.jpg")});" }
+  .container.margin-bottom
+    .centered-row
+      %h4.leader Apply to
+      %h1 Makers Academy
+    .button-row
+      = link_to "Apply Onsite", config.onsite_application_form_url, class: "button button--vertical apply-button", data: {track: "Clicked Onsite Apply Form Button"}
+      = link_to "Apply Remote", config.remote_application_form_url, class: "button button--horizontal apply-button", data: {track: "Clicked Remote Apply Form Button"}
+
+= partial :"benefits_table"
+
+:javascript
+  analytics.track('Viewed onsite/remote apply page');

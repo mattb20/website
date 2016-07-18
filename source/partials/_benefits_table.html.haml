@@ -1,19 +1,9 @@
+- comparisons ||= :comparisons
 %section
+  .container.margin-bottom
+    .centered-row
+      %h2.margin-bottom Onsite or Remote?
+
+  = partial :"comparison_table_mobile", locals: { comparisons: comparisons }
   .container
-    .centered-row
-      %h2 Why Makers Academy?
-    .centered-row
-      %table
-        %tbody
-          %tr
-            %td Learning cutting edge coding techniques such as agile &amp; TDD
-            %td Located at the heart of Silicon Roundabout with a big work space
-          %tr
-            %td Job support &ndash; our service isn't complete until you're hired
-            %td Community of learners &ndash; because it's easier when you aren't alone
-          %tr
-            %td Macbook Pro with Retina Display &amp; 24" display for the duration of the course
-            %td Our space is open from 8.30am &ndash; 9.00pm, Mon &ndash; Fri
-          %tr
-            %td Access to speakers, events and meetups in the office
-            %td Breakfast, coffee and snacks
+    = partial :"comparison_table", locals: { comparisons: comparisons }

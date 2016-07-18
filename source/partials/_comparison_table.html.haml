@@ -1,0 +1,30 @@
+- comparisons ||= :comparisons
+.comparison-table
+  .column.comparison-table__column.comparison-table__column
+    .comparison-wrap.comparison-wrap--keys
+      .comparison-header.comparison-header--keys
+      .comparison-main
+        - data.send(comparisons).each do |comparison|
+          %p.comparison-key= comparison["benefit"]
+      .comparison-footer
+
+  .column.comparison-table__column.comparison-table__column
+    .comparison-wrap.comparison-wrap--values
+      .comparison-header.comparison-header--onsite
+        .comparison-header__image{ style: "background-image: url(#{image_path("logo/ma-wordmark-white.png")});"}
+      .comparison-main
+        - data.send(comparisons).each do |comparison|
+          %p.comparison-key= parse_boolean(comparison["onsite"], image_tag("icons/icon-check.png"), image_tag("icons/icon-cross-red.png"))
+      .comparison-footer
+        %h2.statistic.comparison-footer__statistic £#{stats.onsite_cost}
+
+  .column.comparison-table__column
+    .comparison-wrap.comparison-wrap--values
+      .comparison-header.comparison-header--remote
+        .comparison-header__image{ style: "background-image: url(#{image_path("logo/ronin-wordmark-white.png")});"}
+      .comparison-main
+        - data.send(comparisons).each do |comparison|
+          %p.comparison-key= parse_boolean(comparison["remote"], image_tag("icons/icon-check.png"), image_tag("icons/icon-cross-red.png"))
+      .comparison-footer
+        %h2.statistic.comparison-footer__statistic.statistic--alt-color
+          = link_to("£#{stats.remote_cost}", 'http://blog.makersacademy.com/changingourprices/', target: "_blank")

@@ -43,14 +43,14 @@ activate :search_engine_sitemap
 
 # Methods defined in the helpers block are available in templates
 helpers CurrentPageHelper,
-        PartnerLogosHelper,
         MarkdownHelper,
         PossessiveHelper,
         SlugHelper,
         ImageHelper,
         GraduatesHelper,
         RawHelper,
-        StatsHelper
+        StatsHelper,
+        BooleanHelper
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 data.graduates.each do | grad |
@@ -67,12 +67,13 @@ set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
 
-set :apply_form_url, "https://apply.makersacademy.com"
+set :apply_url, "/apply"
+set :onsite_application_form_url, "http://apply.makersacademy.com"
+set :remote_application_form_url, "http://apply.makersacademy.com/remote/application"
 
 # Redirects from old site urls
-redirect "payments/new.html", to: "#{config.apply_form_url}/payments/new"
-redirect "apply.html", to: config.apply_form_url
-redirect "apply-for-ronin.html", to: "#{config.apply_form_url}/ronin/application"
+redirect "payments/new.html", to: "#{config.onsite_application_form_url}/payments/new"
+redirect "apply-for-ronin.html", to: config.remote_application_form_url
 redirect "fellowship.html", to: "http://techcityfellowship.org/"
 redirect "life-at-makers.html", to: "about-us.html"
 redirect "talks.html", to: "employers.html"
@@ -89,6 +90,12 @@ redirect "jobs.html", to: "join-the-team.html"
 redirect "blog.html", to: "http://blog.makersacademy.com"
 redirect "payments.html", to: "payment.html"
 redirect "partners.html", to: "employers.html"
+redirect "learn-to-code-1.html", to: "entrepreneurs.html"
+redirect "learn-to-code-2.html", to: "index.html"
+redirect "learn-to-code-3.html", to: "education-leaver.html"
+redirect "learn-to-code-4.html", to: "index.html"
+redirect "learn-to-code-5.html", to: "index.html"
+redirect "faq.html", to: "about-us.html"
 
 configure :development do
   activate :livereload
@@ -128,7 +135,7 @@ configure :build do
 
   set :run_analytics, true
 
-  set :segment_key, '8NGMT5SwWiR5BvuyrpTsirX9XY8CeZ4R'
+  set :segment_key, ENV.fetch('SEGMENT_KEY', '8NGMT5SwWiR5BvuyrpTsirX9XY8CeZ4R')
 
   set :employers_form_endpoint, 'https://formkeep.com/f/1ae1f30c4bcf'
 
