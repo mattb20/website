@@ -30,10 +30,10 @@
   onsite: Hiring Week + Intro to Hiring Partners
   remote: In Major Tech Hubs Only
 
-- benefit: Meetups & Social Events
-  onsite: true
-  remote: false
-
 - benefit: Deposit
   onsite: £800
   remote: £500
+  
+- benefit: Womens Discount
+  onsite: £500
+  remote: false
