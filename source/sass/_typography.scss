@@ -99,6 +99,10 @@ a {
   text-decoration: underline;
   transition: color 0.1s linear;
 
+  &.telephone {
+    text-decoration: none;
+  }
+
   &:active,
   &:focus,
   &:hover {
