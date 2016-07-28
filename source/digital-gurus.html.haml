@@ -1,0 +1,39 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h2  Makers Academy + Digital Gurus
+      %p  Makers Academy is Europe's leading Web Developer bootcamp. Digital Gurus is the leading digital recruitment agency and together we have partnered up to deliver this free 8 week coder starter toolkit.
+      %P Opt in now and receive your free learn ruby in 15 e-book!
+
+%section
+  .container
+    .form-row
+      %form
+        %fieldset
+          .input-row
+            %label{for: "firstname", class: "required"}
+              First Name
+            %input{type: "text", required: true, name: "firstname", id: "firstname"}
+          .input-row
+            %label{for: "surname", class: "required"}
+              Surname
+            %input{type: "text", required: true, name: "surname", id: "surname"}
+          .input-row
+            %label{for: "email", class: "required"}
+              Email address
+            %input{type: "email", required: true, name: "email", id: "email"}
+          .input-row
+            %label{for: "Career", class: "required"}
+              What is your current profession?
+            %input{type: "text", required: true, name: "profession", id: "profession"}
+          .input-row
+          .button-row
+            %p
+              %input{type: "submit", value: "Start Coding Now"}
+
+%hr
+
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'digitalgurus'});
+  analytics.identify({'digitalgurus': true});
