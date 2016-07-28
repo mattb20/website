@@ -70,6 +70,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - remote
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was an analyst for a bank.
@@ -129,6 +130,7 @@
   cohort_year: 2015
   categories:
     - Entrepreneur
+    - remote
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I had been running a geomatics consultancy I setup a couple of years previous and I was looking to integrate more web / cloud / IoT techniques and deliverables in our portfolio and into our processes in general.
@@ -191,6 +193,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - remote
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a photographer.
