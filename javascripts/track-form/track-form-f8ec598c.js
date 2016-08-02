@@ -1,0 +1,1 @@
+!function(t){function r(t,r){var e=t.reduce(n,{});if(""!==e.email){var a=JSON.stringify(e);r.setItem(i,a)}}function e(t,r){var e=a(t);e&&(r(JSON.parse(e)),t.removeItem(i))}function a(t){return t.getItem(i)}function n(t,r){return t[r.name]=r.value,t}var i="trackFormData";t.trackForm={DATA_KEY:i,saveForLater:r,popData:e}}(this);
