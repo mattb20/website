@@ -20,9 +20,9 @@
 //= require vendor/retina.min
 //= require vendor/slick.js
 //= require vendor/prism
-//= require email_capture
 //= require navigation
 //= require jquery.fixedscroll
+//= require email_capture
 //= require intercom
 //= require vendor/baseliner
 //= require tabs
@@ -34,8 +34,5 @@
 
 
 $(document).ready(function() {
-
-  $('.email-capture').emailCapture();
-
   $('.definition-links').fixedScroll();
 });

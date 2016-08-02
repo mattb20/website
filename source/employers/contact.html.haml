@@ -12,7 +12,7 @@
 %section
   .container
     .form-row
-      %form#employers-form{method: "post", action: config.employers_form_endpoint}
+      %form#employers-form.trackable-form{method: "post", action: config.employers_form_endpoint}
         %fieldset
           %input{type: "hidden", name: "utf8", value: "✓"}
           .input-row
@@ -42,6 +42,8 @@
           .button-row
             %p
               %input{type: "submit", value: "Start Hiring"}
+
+=javascript_include_tag "track-form/save-for-later-submit"
 
 :javascript
   analytics.track("Viewed Employers Enquiry Form");

@@ -14,7 +14,7 @@
 (function ($, analytics) {
   'use strict';
 
-  $.fn.emailCapture = function (options) {
+  $.fn.emailCapture = function () {
 
     return $(this).each(function(index, element) {
       var form = $(element);
