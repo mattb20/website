@@ -31,7 +31,7 @@
 #       answer:
 - first_name: Misa
   last_name: Ogura
-  image: 
+  image:
   summary: Cancer Biologist to Full Stack Developer at Big Health
   testimonial: The best thing I've ever done.
   cohort_month: February
@@ -163,7 +163,7 @@
   cohort_month: Remote October
   cohort_year: 2015
   categories:
-    - Remote
+    - remote
   case_study:
    - question: What were you doing before joining Makers Academy?
      answer: Software Engineer
@@ -226,6 +226,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - remote
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was an analyst for a bank.
@@ -285,6 +286,7 @@
   cohort_year: 2015
   categories:
     - Entrepreneur
+    - remote
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I had been running a geomatics consultancy I setup a couple of years previous and I was looking to integrate more web / cloud / IoT techniques and deliverables in our portfolio and into our processes in general.
@@ -347,6 +349,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - remote 
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a photographer.
@@ -588,13 +591,12 @@
 # - first_name: Jamie
 #   last_name: Rose
 #   image: chuka1.jpg
-#   summary: Job Seekers to Digital Marketing and Web Developer
+#   summary: Job Seeker to Digital Marketing and Web Developer
 #   testimonial: Mind blowing. Best thing I have ever done with no regrets.
-#   cohort_month: January
+#   cohort_month: Remote January
 #   cohort_year: 2016
 #   categories:
-#     - career changer
-#     - women
+#     - remote
 #   case_study:
 #     - question: What were you doing before joining Makers Academy?
 #       answer: Job seekers
