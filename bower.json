@@ -18,5 +18,7 @@
     "!source/javascripts/**",
     "source/javascripts/website.js"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+  }
 }

@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "[ ![Codeship Status for makersacademy/website](https://codeship.com/projects/6c2574a0-2e49-0133-57fc-4ab88c866e91/status?branch=master)](https://codeship.com/projects/99059)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/jasmine-node/bin/jasmine-node spec/javascript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makersacademy/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makersacademy/website/issues"
+  },
+  "homepage": "https://github.com/makersacademy/website#readme",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}

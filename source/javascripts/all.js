@@ -13,17 +13,17 @@
 // bower_components/makers_styles/source/javascripts/vendor/baseliner.js
 // bower_components/makers_styles/source/javascripts/navigation.js
 // bower_components/makers_styles/source/javascripts/jquery.fixedscroll.js
-// bower_components/makers_styles/source/javascripts/doorbell.js
+// bower_components/makers_styles/source/javascripts/intercom.js
 
 
 //= require vendor/jquery
 //= require vendor/retina.min
 //= require vendor/slick.js
 //= require vendor/prism
-//= require email_capture
 //= require navigation
 //= require jquery.fixedscroll
-//= require doorbell
+//= require email_capture
+//= require intercom
 //= require vendor/baseliner
 //= require tabs
 //= require vertical_tabs
@@ -34,11 +34,5 @@
 
 
 $(document).ready(function() {
-
-  $('.email-capture').emailCapture();
-
   $('.definition-links').fixedScroll();
 });
-
-
-
