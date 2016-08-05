@@ -1,6 +1,5 @@
 - backgrounded ||= true
 - page ||= :default
-
 - if page == :employers
 
   %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
@@ -29,7 +28,10 @@
           - else
             = link_to "Payment Options", "/payment.html", class: "button button--horizontal"
 
-          = link_to "Apply", config.apply_url, class: "button button--vertical button--large apply-button", data: {track: "Clicked Apply Page Button"}
+          - if page == :remote
+            = link_to "Remote", config.remote_application_form_url, class: "button button--vertical button--large apply-button", data: {track: "Clicked Remote Apply Button"}
+          - else
+            = link_to "Apply", config.apply_url, class: "button button--vertical button--large apply-button", data: {track: "Clicked Apply Page Button"}
 
           - if page == :about_us
             = link_to "See our Curriculum", "/curriculum.html", class: "button button--horizontal"
