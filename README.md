@@ -66,3 +66,36 @@ Make sure that when releasing a new version of the site that you want bower to p
 # Segment.io tracking
 
 Look at [`tracking.js`](source/javascripts/tracking.js) to see how to enable Segment.io tracking for websites that use `makers_styles` bower package.
+
+## How to create a form
+
+1. Use [Fridge raiders example](source/fridge-raiders.html.haml) as a form that works and copy over and adapt. Put this code on top of a form.
+
+```haml
+%form.trackable-form{action: "/"name of your page"/success.html.haml”}
+```
+
+2. Include Javascript tag at the bottom:
+
+```haml
+= javascript_include_tag "track-form/save-for-later-submit"
+```
+
+3. Create submit page `source/"name of your page"/success.html.haml”`
+
+
+4. On success page put your copy and include this code, editing the details inside of the submitFormDataToAnalytics function
+
+```haml
+=javascript_include_tag "track-form/submit-to-analytics"
+:javascript
+  function submitFormDataToAnalytics (formData) {
+    analytics.alias(formData.email);
+    analytics.identify(formData.email, formData)
+    analytics.track("Submitted "Name of form" form")
+  }
+```
+
+# Segment.io tracking
+
+Look at [`tracking.js`](source/javascripts/tracking.js) to see how to enable Segment.io tracking for websites that use `makers_styles` bower package.
