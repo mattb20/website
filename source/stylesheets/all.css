@@ -999,6 +999,8 @@ a {
   color: #003340;
   text-decoration: underline;
   transition: color 0.1s linear; }
+  a.telephone {
+    text-decoration: none; }
   a:active, a:focus, a:hover {
     color: black; }
   a:active, a:focus {
