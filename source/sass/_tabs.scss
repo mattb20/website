@@ -1,12 +1,12 @@
 // All tabs, from Refills
 
 .tabs {
-  $base-border-color: gainsboro;
-  $base-background-color: white;
-  $base-spacing: 1.5em;
-  $action-color: #477DCA;
-  $dark-gray: #333;
-  $medium-screen: em(640);
+  $base-border-color: gainsboro !global !default;
+  $base-background-color: white !global !default;
+  $base-spacing: 1.5em !global !default;
+  $action-color: #477DCA !global !default;
+  $dark-gray: #333 !global !default;
+  $medium-screen: em(640) !global !default;
   $tab-link-color: $dark-gray;
   $tab-border: 1px solid $base-border-color;
   $tab-active-background: $base-background-color;
