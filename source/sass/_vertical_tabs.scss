@@ -1,15 +1,6 @@
 // All Vertical tabs
 
 .vertical-tabs-container {
-  $base-border-color: gainsboro !global !default;
-  $base-border-radius: 3px !global !default;
-  $base-background-color: white !global !default;
-  $base-line-height: 1.5em !global !default;
-  $base-spacing: 1.5em !global !default;
-  $action-color: #477DCA !global !default;
-  $dark-gray: #333 !global !default;
-  $medium-screen: em(640) !global !default;
-  $base-font-color: $dark-gray !global !default;
   $tab-border-color: $base-border-color;
   $tab-border: 1px solid $tab-border-color;
   $tab-border-radius: $base-border-radius;
