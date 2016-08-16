@@ -1,15 +1,24 @@
-- start_date: 04 July 2016
-  end_date: 23 September 2016
-
-- start_date: 15 August 2016
-  end_date: 04 November 2016
-
-- start_date: 26 September 2016
-  end_date: 16 December 2016
-
 - start_date: 07 November 2016
   end_date: 10 February 2017
 
 - precourse_start_date: 21 November 2016
   start_date: 03 January 2017
   end_date: 24 March 2017
+
+- start_date: 14 February 2017
+  end_date: 05 May 2017
+
+- start_date: 27 March 2017
+  end_date: 16 June 2017
+
+- start_date: 08 May 2017
+  end_date: 28 July 2017
+
+- start_date: 19 June 2017
+  end_date: 08 September 2017
+
+- start_date: 31 July 2017
+  end_date: 20 October 2017
+
+- start_date: 11 September 2017
+  end_date: 01 December 2017
