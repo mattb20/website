@@ -1,0 +1,151 @@
+- description "Hire the top junior developers from Makers Academy."
+- title "Employers"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/pointingscreen.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Startup-ready
+      %h1 junior developers
+      %p We're committed to help the entire community!
+      .five-width-row.small-padding-top
+        .column
+          = image_tag "hiring-partners/crowdcube.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/maker-lab.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/TechStars.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Shutl.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/festicket.png", class:"image--medium"
+      .five-width-row
+        .column
+          = image_tag "hiring-partners/Pusher.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/createk.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Lyst.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/TechStars.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/natoora.png", class:"image--medium"
+
+      .centered-row.small-padding-top
+        %a#readMore{href: '#readMore'}
+          .hint.hint--title Read more
+        %p.lead
+          %span.icon--down
+          = image_tag "icons/icon-chevron-down.png", class:"image--small"
+
+%section
+  .container
+    .centered-row
+      %h2 Advertise your role
+      %h4.subheader A self-serve platform for small employers only!*
+      %p We have been helping large companies hire our developers for many years. Whilst they can afford our entire suite of services, we have created this new platform as a means to help smaller employers like you access our developers.
+      %p This means you're not going to receive the same level of service, but you won't also be paying the same price. What matters is you get to access the same developers we train every 6 weeks!
+    .three-width-row
+      .column
+        %h5 Only the best
+        %p You have to be amazing to study at Makers Academy. We have a tough selection process, that tests for determination and technical aptitude, and accepts less than 10% of applicants. We find exceptional people for you, and then train them.
+      .column
+        %h5 Startup-ready
+        %p Our students spend 10-14 hours a day, 5-7 days a week, learning to be developers. They're mostly career changers and know what working hard is; the kind of developers a startup or growing company needs.
+      .column
+        %h5 Looking for work
+        %p You will advertise your role(s) to a closed group of minimum 45 developers who have completed our course. There's no hit and miss; these people are going to apply because they want to start working as developers as soon as possible.
+    .centered-row
+      %p * Only available for companies with less than 50 employees
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h2 How does it work?
+    .three-width-row
+      .column
+        %h4 1. Post a Job
+        %p Complete our job description, which is tailored to the specific needs of the Makers Academy talent pool.
+      .column
+        %h4 2. We Advertise
+        %p We'll check your role manually. If we're happy with it, we'll advertise it with our developers for 6 weeks
+      .column
+        %h4 3. Your Hire
+        %p You'll receive their Github / CVs and we'll leave it up to you to find the right candidates for your company
+
+%section.half-slider.half-slider--reverse.with-padding
+  .container
+    .half-slider-row
+      .hide-desktop
+        .copy.copy--right
+          %h4.leader A platform to let you
+          %h2 Advertise your role!
+          %p We're allowing you to put your company in front of the best junior developers looking for work right now!
+      .column
+        .slider
+          .slide
+            .image--centered
+              = image_tag "placeholders/job-platform.png"
+      .column.show-desktop
+        .copy.copy--right
+        %h4.leader The best
+        %h2 Job board
+        %p We're allowing you to put your company in front of the best junior developers looking for work right now!
+        %p It's a closed private platform accessible only by the developers who have completed the course and are actively job hunting. They have spent a lot of money and time learning to code. They're therefore extremely eager to start working as soon as possible. So no hit and miss like other job platforms - you know you'll only receive applications from the kind of developers we train
+
+
+%section.half-slider
+  .container
+    .half-slider-row
+      .column
+        .copy.copy--left
+          %h3 Who they are
+          %p Makers Academy developers are passionate, driven, curious and engaging.
+          %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
+          %p The majority of our graduates have been successful in another industry, including law, marketing, banking, design, and many more: that's experience they'll bring to your company.
+      .column
+        = partial :"preview_graduates"
+
+%section.backgrounded
+  .container
+    .four-width-row.row-with-borders
+      .column
+        %h2.statistic 45
+        %h4.subheader Developers every 6 weeks
+      .column
+        %h2.statistic 28
+        %h4.subheader Average Age
+      .column
+        %h2.statistic 35%
+        %h4.subheader Female Engineers
+      .column
+        %h2.statistic 800+
+        %h4.subheader hours of coding
+
+
+= partial :"employer_testimonials"
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h4.leader It'll only cost you
+      %h1 £1,800*
+      %h4.subheader incl. VAT
+      %p.lead * This is our introductory price for the Beta platform!
+  .button-row.small-padding-top
+    = link_to "Start Advertising Your Roles!", "/employers/contact.html", class: "button button--horizontal"
+
+%section
+  .container
+    .three-width-row
+      .column
+        %h4 Who will apply?
+        %p You'll have access to the same people as any other company via the platform.
+        %p The main difference being that larger companies benefit from us doing a lot of upfront work for them and ensuring they get the right candidates
+      .column
+        %h4 What's the training?
+        %p Makers Academy students learn how to be professional software developers and work in Java, C#, iOS, Scala, Elixir, Ruby, Python and obviously Javascript. The important stuff they learn are behaviours, attitudes and methodologies.
+      .column
+        %h4 Where are they based?
+        %p Our software developers are mostly in London and Manchester, with many in other UK cities and parts of Europe and USA. However, we’re growing fast and would love to chat about your location.
+:javascript
+  analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Main 2.0 (Hired.com style)'});
