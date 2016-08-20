@@ -99,7 +99,7 @@
       answer: "Currently we only offer our full-time course because we don't believe we could deliver a world-class result on a part-time basis - yet. One of the main problems people have in teaching themselves to code is the inconsistency in learning. The 12-week program provides full immersion to overcome this barrier and we're not yet certain how we could deliver that with a part-time regiment...but we're working on it. Stay tuned!"
 
     - question: Do I need to bring my own laptop?
-      answer: "No. Makers Academy will provide all of the equipment needed. That being said, feel free to bring your own laptop if you'd like as long as it's a Mac or a Linux (the software you'll be using is really hard to use on a PC)."
+      answer: "No. Makers Academy will provide all of the equipment needed. That being said, feel free to bring your own laptop if you'd like as long as it's a Mac or a Linux (the software you'll be using is really hard to use on Microsoft Windows)."
 
     - question: Do you have to commit to being in London full-time for 12 weeks?
       answer: "By far the best way to learn to code in such a short amount of time is to live and breathe it. You would need to attend Makers Academy from 9am-6pm, Monday-Friday, for the 12 weeks that you're studying. Bear in mind that this is a minimum requirement - the more time you give to the course the better the results will be! If you absolutely cannot make it to London, we have a new full-time online program that mirrors our off-line course."
@@ -114,13 +114,13 @@
       answer: "Yes. We have developed a part time PreCourse that needs to be completed before starting the course. We focus on the foundations: command-line, version control and the basics of Ruby. The PreCourse requires an average of 15-20 hours per week to complete successfully."
 
     - question: Is it really possible to learn to code in 12 weeks?
-      answer: "The fact that we’ve had over 400 students graduate from Makers Academy, and our track record in getting students hired at companies like BSkyB, Pivotal Labs, New Bamboo and many other top tech companies mean that YES, it is possible to learn to code in 12 Weeks. Make no mistake - it will be tough. It will take hard work and dedication, but if you really want it, it’s there to be had."
+      answer: "The fact that we’ve had over 600 students graduate from Makers Academy, and our track record in getting students hired at companies like BSkyB, Pivotal Labs, ThoughtWorks and many other top tech companies mean that YES, it is possible to learn to code in 12 Weeks. Make no mistake - it will be tough. It will take hard work and dedication, but if you really want it, it’s there to be had."
 
     - question: Why does the course focus on Ruby on Rails?
       answer: "The course doesn’t just focus on Ruby on Rails. You'll learn a number of languages such as Ruby, HTML, CSS, JavaScript, jQuery and more, but you're right in saying that you will leave Makers Academy with Ruby as your strongest language. However, we focus much of our efforts on teaching you the skills to think like a Developer (note the capital D!), and our graduates have gone on to work in a number of programming languages after leaving Makers Academy."
 
     - question: How much help is given when choosing a project?
-      answer: "In the final 2 weeks of the course, students work in teams on a project. In recent cohorts, we have even invited in charities to pitch their project ideas and this gives our students experience with real clients and time limits."
+      answer: "Towards the end of the course, students work in teams on a project. In recent cohorts, we have even invited in charities to pitch their project ideas and this gives our students experience with real clients and time limits."
 
     - question: Does the course look at any other programming languages such as Python or C#?
       answer: "While you’ll get a taste of many languages while studying, we offer one course and one course only, and Ruby forms its backbone. If you’re sure that you want to learn a language like Python or C# then the course may not be for you."
@@ -129,15 +129,15 @@
       answer: "We do touch on Agile working methodologies and even some Lean Startup principles, but this isn’t the main focus of the course, nor is design. You will learn some basic principles in all these areas, but this is primarily a course where you will learn to code."
 
     - question: How satisfied are students after completing the program?
-      answer: "Our Net Promoter Score (as decided by feedback from Graduating Students over the past year) is 93. The highest you can get is a 100, and anything above 50 is considered to be ‘Excellent’."
+      answer: "Our Net Promoter Score (as decided by feedback from all students over the past year) is 93. The highest you can get is a 100, and anything above 50 is considered to be ‘Excellent’."
 
     - question: What is the drop out rate/failure of the course?
-      answer: "Out of around 400 students so far we have had around 25 drop out, for various reasons. We have an application/interview process at Makers Academy that is designed to only accept people who are serious about learning to code, but we can’t always get it right!"
+      answer: "Out of around 600 students so far we have had around 25 drop out, for various reasons. We have an application/interview process at Makers Academy that is designed to only accept people who are serious about learning to code, but we can’t always get it right!"
 
 - category_name: More about Makers Academy Remote
   faqs:
     - question: Am I too old, with not enough coding experience to join Makers Academy Remote?
-      answer: There’s no such thing as too old! Our students are incredibly diverse - people of all ages, backgrounds, sectors and experiences - so we don’t have an age limit. The one thing that has been constant with all of our applicants is a passion for coding, and a burning determination to succeed.
+      answer: There’s no such thing as too old! Our students are incredibly diverse - people of all ages, backgrounds, sectors and experiences - so we don’t have a maximum age limit. The one thing that has been constant with all of our applicants is a passion for coding, and a burning determination to succeed.
 
     - question: Can I join Makers Academy Remote while also doing my normal job?
       answer:  No. Remote students are expected to commit to 9am to 6pm, Monday to Friday (at a minimum, but most work well into the evening to finish their work). We also set weekend project work to keep you engaged, so if you really want to get to a professional standard in just a few months, you really have to commit to it.
@@ -167,13 +167,13 @@
       answer: The majority of our hiring partners are in London, but we’ve helped graduates get jobs all over the world. As we get more Remote students, we’ll be hand-picking the top tech employers across Europe to work with us.
 
     - question: How much does it cost?
-      answer: Makers Academy Remote is currently reduced to £2499 until 30 May 2016. After this the price goes up to £4000. Read more about it in our blog. We've partnered with Finance my Future to offer financial support. Ask about this during your interview. Hint, you need to apply first!
+      answer: Makers Academy Remote costs £4000. We've partnered with Finance my Future, PCDL and EdAid to offer financial support. Ask about this during your interview. Hint, you need to apply first!
 
     - question: Do we offer scholarships?
       answer: We offer scholarships from time to time, usually in partnership with another company. By far the best way to hear about these things is by signing up to our newsletter and keeping an eye out for any new opportunities.
 
     - question: Do you accept international students?
-      answer: Whilst we do have some international students join Makers Academy Remote, because of time differences do bear in mind that we don’t recommend joining the course if you are located somewhere that is more than +/-4 hours GMT. Feel free to drop us an <a href="mailto:ronin@makersacademy.com">email</a> if you want to have a chat about this in greater detail.
+      answer: Whilst we do have some international students join Makers Academy Remote, because of time differences do bear in mind that we don’t recommend joining the course if you are located somewhere that is more than +/-4 hours GMT. Feel free to drop us an <a href="mailto:remote@makersacademy.com">email</a> if you want to have a chat about this in greater detail.
 
     - question: What languages do you cover?
       answer: "We cover a range of content that includes languages, libraries, processes and frameworks, such as -  \n
@@ -210,7 +210,7 @@
 - category_name: Paying For The Course
   faqs:
     - question: I can't afford to do the course... What should I do?
-      answer: "There are a number of ways you can raise funds. Check our <a href='http://www.makersacademy.com/payment-plans' target='_blank'>payments page</a> to see how previous students have done this."
+      answer: "There are a number of ways you can raise funds. Check our <a href='http://www.makersacademy.com/payments' target='_blank'>payments page</a> to see how previous students have done this."
 
     - question: Is food and lodging included in the price of tuition?
       answer: "Unfortunately not. We will however assist with making arrangements in any way that we can – feel free to email us with any questions or requests that you may have."
@@ -219,7 +219,7 @@
       answer: "Due to high demand for spaces, we ask that, once accepted, students pay a non-refundable £800 deposit to lock-down their spot on the course. This is to ensure that every place is taken by someone who actually intends to study at Makers Academy. Many courses end up with a waiting list and it isn't fair on waiting students for people to reserve a spot and not show up."
 
     - question: What if I don't have the deposit?
-      answer: "Once a student is accepted on to the course, their spot will be guaranteed until 28 days before the course start-date. In this time the seat will not be offered to anyone else. If the deposit is not paid within 28 days of the course start-date, the spot will be opened up to students on the waiting list. While this doesn't necessarily mean that you will lose your seat, so long as you have not paid your deposit you're liable to be moved to a later cohort at any time."
+      answer: "Once a student is accepted on to the course, their spot is held for 28 days. In this time the seat will not be offered to anyone else. If the deposit is not paid within 28 days their application will be automatically archived. As the course is very selective and highly popular it will most likely mean the seat will be offered to someone else."
 
     - question: Do I need to buy books?
       answer: "Books are kind of outdated in the fast-paced world of software development. You won't need any on the course but we can recommend some if you're really after some physical materials."
