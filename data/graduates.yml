@@ -413,6 +413,7 @@
   cohort_year: 2016
   categories:
       - career changer
+      - startup
   case_study:
       - question: What were you doing before joining Makers Academy?
         answer: I was working in digital marketing mainly for tech startups.
@@ -507,6 +508,7 @@
   cohort_year: 2016
   categories:
     - Student
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I went to Loughbourgh university and was studying mechanical engineering but it wasn't really for me. I did a bit of travelling inbetween trying to figure out what I wanted to do and then applied to Makers.
@@ -569,6 +571,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an electronics engineer.
@@ -811,6 +814,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a working as a financial analyst at Amazon.
@@ -961,6 +965,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in finance.
@@ -1054,6 +1059,7 @@
   cohort_year: 2016
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: My main career was that I was a sound engineer.
@@ -1193,6 +1199,7 @@
   categories:
     - education leaver
     - women
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I graduated from university of East Anglia in Maths.
@@ -1220,6 +1227,7 @@
   cohort_year: 2015
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a journalist and editor for 20+ years working on a variety of publications, covering politics and finance among other topics.
@@ -1279,6 +1287,7 @@
   blog_link: http://ontheroadtocode.blogspot.co.uk/?view=magazine
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working for a bank!
@@ -1401,6 +1410,7 @@
   cohort_year: 2015
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in technical support for a voice recognition company.
@@ -1432,6 +1442,7 @@
   cohort_year: 2015
   categories:
     - career changer
+    - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I'd worked in the sports betting industry for a number of years, most recently as an integrity analyst.
