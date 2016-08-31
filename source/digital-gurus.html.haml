@@ -3,9 +3,8 @@
   .container
     .centered-row
       %h2  Makers Academy + Digital Gurus
-      %p  Makers Academy is Europe's leading Web Developer bootcamp. Digital Gurus is the leading digital recruitment agency and together we have partnered up to deliver this free 8 week coder starter toolkit.
-      %p Opt-in now and receive your free learn ruby in 15 minutes e-book!
-
+      %p  Makers Academy is Europe's leading Web Developer bootcamp. Digital Gurus is the leading digital recruitment agency and together we have partnered up to deliver this free 8 week coding starter kit.
+      %p Sign up now and receive your free learn Ruby in 15 minutes ebook!
 %section
   .container
     .form-row
@@ -27,12 +26,10 @@
             %label{for: "profession", class: "required"}
               What is your current profession?
             %input{type: "text", required: true, name: "profession", id: "profession"}
-          .input-row
           .button-row
             %p
               %input{type: "submit", value: "Start Coding Now"}
 
-%hr
 = javascript_include_tag "track-form/save-for-later-submit"
 :javascript
   analytics.track('Viewed Landing Page', {'Landing Page': 'digitalgurus'});

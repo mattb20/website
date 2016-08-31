@@ -2,8 +2,8 @@
 :javascript
   function submitFormDataToAnalytics (formData) {
     analytics.alias(formData.email);
-    analytics.identify(formData.email, formData)
-    analytics.track("Submitted Digital Gurus form")
+    analytics.identify(formData.email, formData);
+    analytics.track("Submitted Digital Gurus form");
   }
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/riz-and-tom.jpg")});"}
   .container
@@ -12,4 +12,4 @@
         %a{href: "http://www.makersacademy.com"}
           %img{src: image_path("logo/ma-white.png"), class: "logo"}
       %h1 Thank you!
-      %p Check your email for the e-book! If you haven't received anything then email arfah@makersacademy.com
+      %p Check your email for the ebook! If you haven't received anything then email <a href="mailto:arfah@makersacademy.com">arfah@makersacademy.com</a>
