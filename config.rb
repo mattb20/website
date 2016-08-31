@@ -96,6 +96,7 @@ redirect "learn-to-code-3.html", to: "education-leaver.html"
 redirect "learn-to-code-4.html", to: "index.html"
 redirect "learn-to-code-5.html", to: "index.html"
 redirect "faq.html", to: "about-us.html"
+redirect "employers-startups.html", to: "startups.html"
 
 configure :development do
   activate :livereload

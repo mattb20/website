@@ -2,13 +2,14 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %h2  Makers Academy + Digital Gurus
-      %p  Makers Academy is Europe's leading Web Developer bootcamp. Digital Gurus is the leading digital recruitment agency and together we have partnered up to deliver this free 8 week coding starter kit.
-      %p Sign up now and receive your free learn Ruby in 15 minutes ebook!
+      %h2 Win a place on the Makers Academy Remote course
+      %h4.subheader Sponsored by Mattessons Fridge Raiders (powering you up to the next level)
+      %p  Makers Academy is Europe's leading Web Developer bootcamp. Enter now to be in with a chance to change your life by learning to code in 12 weeks! 
+
 %section
   .container
     .form-row
-      %form.trackable-form{action: "/digital-gurus/success"}
+      %form.trackable-form{action: "/fridge-raiders/success"}
         %fieldset
           .input-row
             %label{for: "firstname", class: "required"}
@@ -23,14 +24,24 @@
               Email address
             %input{type: "email", required: true, name: "email", id: "email"}
           .input-row
-            %label{for: "profession", class: "required"}
-              What is your current profession?
-            %input{type: "text", required: true, name: "profession", id: "profession"}
+            %label{for: "phone", class: "required"}
+              Phone number
+            %input{type: "tel", required: true, name: "phone", id: "phone"}
+          .input-row
+            %label{for: "age", class: "required"}
+              How old are you?
+            %input{type: "number", min: 18, required: true, name: "age", id: "age"}
           .button-row
             %p
               %input{type: "submit", value: "Start Coding Now"}
 
+%hr
+
+
+= partial :"fridge_raiders_info"
+
 = javascript_include_tag "track-form/save-for-later-submit"
+
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'digitalgurus'});
-  analytics.identify({'digitalgurus': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Fridgeraiders'});
+  analytics.identify({'Fridgeraiders': true});

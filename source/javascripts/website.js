@@ -1,5 +1,4 @@
 //= require all
-//= require employers_form
 
 (function($, tracking) {
   var targets = {
@@ -17,7 +16,6 @@
 
   $(document).ready(function(){
     tracking.trackClicks(targets, properties);
-
-    $('#employers-form').employersForm();
+    $(".email-capture").emailCapture();
   });
 })(jQuery, tracking);

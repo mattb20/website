@@ -31,6 +31,9 @@
       - if current_page.url.include?("/employers")
         %li
           = link_to "Hire", "/employers/contact.html", class: "button button--vertical employers-button", data: {track: "Viewed Employers Enquiry Form"}
+      - elsif current_page.url.include?("/startups")
+        %li
+          = link_to "Start Advertising", "https://makersacademy.typeform.com/to/kS7a6e", class: "button button--vertical employers-button", data: {track: "Viewed Employers Enquiry Form"}
       - else
         %li
           = link_to "Apply", config.apply_url, class: "button button--vertical apply-button", data: {track: "Clicked Apply Page Button"}

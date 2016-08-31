@@ -12,11 +12,15 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 
 * Clone the repo
 * Run `bundle` to install gems
+* Run `npm install` to install node packages
 * Create a **.env** file - you can copy the [.env.example file](https://github.com/makersacademy/site-mvp/blob/master/.env.example) provided as an example to get you started
 * Start the server with `middleman s`
 * Go to __http://localhost:4567__ to view the site in your browser
 
-> You'll need to run tests using `bundle exec rspec` rather than just `rspec`
+## Running tests
+
+* You'll need to run Ruby tests using `bundle exec rspec` rather than just `rspec`
+* JS is tested using jasmine_node - run `npm test` to run them
 
 ## Deploying
 
@@ -58,6 +62,39 @@ We use [semantic versioning](http://semver.org) when creating new releases using
 tags, this allows Bower to keep track of our code.
 
 Make sure that when releasing a new version of the site that you want bower to pick up you run `rake publish:bower` with the new version number to ensure that the **bower.json** file has the correct version
+
+# Segment.io tracking
+
+Look at [`tracking.js`](source/javascripts/tracking.js) to see how to enable Segment.io tracking for websites that use `makers_styles` bower package.
+
+## How to create a form
+
+1. Use [Fridge raiders example](source/fridge-raiders.html.haml) as a form that works and copy over and adapt. Put this code on top of a form.
+
+```haml
+%form.trackable-form{action: "/"name of your page"/success.html.haml”}
+```
+
+2. Include Javascript tag at the bottom:
+
+```haml
+= javascript_include_tag "track-form/save-for-later-submit"
+```
+
+3. Create submit page `source/"name of your page"/success.html.haml”`
+
+
+4. On success page put your copy and include this code, editing the details inside of the submitFormDataToAnalytics function
+
+```haml
+=javascript_include_tag "track-form/submit-to-analytics"
+:javascript
+  function submitFormDataToAnalytics (formData) {
+    analytics.alias(formData.email);
+    analytics.identify(formData.email, formData)
+    analytics.track("Submitted "Name of form" form")
+  }
+```
 
 # Segment.io tracking
 

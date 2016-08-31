@@ -7,9 +7,8 @@
       %h4.leader Hire brilliant
       %h1 junior developers
       %p Sick of hearing about the talent shortage?
-      %h4.leader Call us on:
-      %h2.small-padding-top
-        %a.telephone{ href: "tel:+442038178872" } 020 3817 8872
+      .button-row
+        = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
       .five-width-row.small-padding-top
         .column
           = image_tag "hiring-partners/ThoughtWorks.png", class:"image--medium"
@@ -20,13 +19,24 @@
         .column
           = image_tag "hiring-partners/Deloitte-Digital.png", class:"image--medium"
         .column
+          = image_tag "hiring-partners/Sky.png", class:"image--medium"
+      .five-width-row
+        .column
+          = image_tag "hiring-partners/pivotal-labs.png", class:"image--medium"
+        .column
           = image_tag "hiring-partners/Shutl.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/just-giving.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/TechStars.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/MS-labs.png", class:"image--medium"
 
 %section
   .container
     .centered-row
       %h2 Recruitment is hard
-      %h4.subheader we do the work for you
+      %h4.subheader we do all the work for you
     .three-width-row
       .column
         %h5 We Select
@@ -41,8 +51,7 @@
 %section.backgrounded
   .container
     .centered-row
-      %h4.subheader How will it
-      %h2 Work for you?
+      %h2 How does it work?
     .three-width-row
       .column
         %h4 1. Post a Job
@@ -52,7 +61,7 @@
         %p Once we've done our matching, you can follow your usual process, whether that's a tech test, a pairing interview or drinks at your place.
       .column
         %h4 3. Hire
-        %p Most of our candidates get multiple offers and are hired within a few weeks of graduating. Make an attractive offer and secure the top talent.
+        %p Most of our candidates get multiple offers and are hired within weeks of graduating. Make an attractive offer and secure the top talent.
 
 %section.half-slider
   .container
@@ -70,7 +79,7 @@
   .container
     .four-width-row.row-with-borders
       .column
-        %h2.statistic 30
+        %h2.statistic 45
         %h4.subheader Developers every 6 weeks
       .column
         %h2.statistic 28
@@ -120,18 +129,22 @@
   .container
     .three-width-row
       .column
-        %h4 How much will it cost me to hire?
-        %p 20% of base starting salary. We charge more than recruitment agencies because we deliver more.
+        %h4 How much does it cost?
+        %p Everything you've read above, we do for free: understanding your needs, matching you with our candidates, building your employer brand and helping arrange interviews and tech tests.
+        %p You'll only pay a fee if you find someone you like - and then it's £5,000.
       .column
-        %h4 What training are they going through?
+        %h4 What's the training?
+        %p Makers Academy students learn how to be professional software developers - we use Ruby and JavaScript as training languages, but the important stuff they learn are behaviours, attitudes and methodologies.
         %p
-        Check our
+        Read our
         = link_to "curriculum", "/curriculum.html"
-        to see what our students learn. You can also find lots of
-        = link_to "case studies of graduates", "/graduates.html"
-        who now are working as software engineers at leading tech firms all over the world.
+        in detail.
       .column
-        %h4 Where are your software developers located?
-        %p The majority of our software developers are in London, with many in other UK cities and parts of Europe and USA. We’re growing fast and we might have people where you are, but if you tell us what you need, we can use that information to attract and train amazing people in your area.
+        %h4 Where are you based? 
+        %p Our software developers are mostly in London and Manchester, with many in other UK cities and parts of Europe and USA. However, we’re growing fast and would love to chat about your location.
+        %p
+        Read about our 
+        = link_to "graduates", "/graduates.html"
+        working as software engineers at leading tech firms all over the world.
 :javascript
   analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Main 2.0 (Hired.com style)'});
