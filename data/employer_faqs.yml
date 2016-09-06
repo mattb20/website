@@ -1,0 +1,58 @@
+- category_name: ''
+  faqs:
+    - question: What can someone do after just 12 weeks?
+      answer: "Our developers work primarily with Ruby and JavaScript during the course, but the aim of our [curriculum](/curriculum/) is not to create Ruby experts - rather independent, language-agnostic problem-solvers. We believe that you’re not a good developer unless you can pick up new languages at the drop of a hat, you write clean code which is object-oriented and test-driven, and the confidence and perseverance to solve complex bugs is part of your DNA. After 12 weeks, our developers are experienced in refactoring and writing understandable, object-oriented code, testing, and pair-programming. They can tackle any problem and build an incredibly good MVP."
+
+    - question: How do I know they'll be any good?
+      answer: "First, we have a [rigorous selection process](#whats-your-selection-process-like): fewer than 10% of applicants make it onto the course. Second, we have more than 600 alumni successfully working in more than 300 companies. You can read some of the nice things our hiring partners have said about us in the slider at the bottom of the page."
+
+    - question: You don't teach the technologies we use, does that matter? 
+      answer: "It doesn’t matter at all. Our developers start with Ruby because it’s a straightforward language for a beginner to grasp, and it’s quick and easy to test, but by the time they complete the course they are fully-fledged, language-agnostic problem solvers. In the final two weeks, when teams of students create their own projects independently, many choose to teach themselves entirely new languages. The majority of the jobs our developers get are non-Ruby - for example: Java at ThoughtWorks; C# at comparethemarket.com; Node.js at Atos Consulting; Swift at Deloitte Digital; and many, many more."
+      
+    - question: Will they be able to 'hit the ground running'?
+      answer: "Our developers are super-smart, super-fast-learners - they wouldn’t have made it through the course otherwise. In that respect they’ll be able to pick up new technologies really quickly, and problem-solve independently. One of our hiring partners can get a Makers Academy developer billable in just two weeks! At the same time, they've only been coding for a few months, so will usually need some support from a more senior developer initially, to get to know the domain. We'll work with you to ensure you get the best out of your new hires as quickly as possible."
+
+    - question: Do you have any female developers?
+      answer: "We are heavily invested in overcoming gender bias in the industry - our cohorts are typically 35% women, which is practically unheard of in the industry - and we are working to increase this further. Our coaching team is a 50/50 split of male and female coaches."
+
+    - question: How do you find the best people?
+      answer: "We have a whole team dedicated to finding the best people to join Makers Academy. We market through various online channels, and have a very supportive alumni network of 600+ developers who refer potential students to us. We get a huge number of applications, but accept fewer than 10% of them."
+
+    - question: What's your selection process like?
+      answer: "Our course is highly competitive with a rigorous selection process: fewer than 10% of applicants are offered a place. Prospective students are required to learn the basics of Ruby themselves, solving problems we give them on their own before being shortlisted for interview. We select for passion, logical reasoning skills, communication, and the right attitude to learning, as well as proficiency in basic Ruby. Those successful at interview are invited to complete the four week PreCourse, which is part-time and remote. Only candidates who show the right behaviours and whose code is up to standard are offered a place to join the full 12 week course."
+
+    - question: If we wanted to hire someone from you, how would that work?
+      answer: "You can either give us a call on 020 3817 8872, or complete [this short form](/employers/contact/). We’ll have a chat about whether our developers are the right fit for your opportunity, and vice versa - ideally we’d like you to visit our academy near Liverpool Street to get a proper understanding of our culture and techniques. We have a simple job description questionnaire for you to complete, and will work with you to help build your brand with our developers. This might just be through an internal advert, or we can organise events, talks or trips to the pub, so you can get to know them, and they you. If you need, we can create a tech test in a language of your choice. We do all of this bespoke to your hiring needs, communicating with you throughout to ensure that the shortlist we provide is right. This service is free and unlimited: you only pay if you successfully hire - it's a flat fee of £5,000."
+
+    - question: We're outside London, can you help?
+      answer: "Absolutely! People travel from all over the country to our on-site course in London, and we also run a remote course for aspiring developers all over the world. Outside of London, we’ve been hiring for the Co-op in Manchester, Deloitte Digital and ThoughtWorks in Germany, and for [FNZ in the Czech Republic](https://blog.makersacademy.com/how-to-hire-from-coding-bootcamps-1868245733dc#.ga456wfhk/), to name a few."
+
+    - question: How do they compare to BSc Computer Science graduates?
+      answer: "While our developers won’t have as much knowledge of the theoretical and algorithmic side of development, they have between 800 and 1,000 hours of actual practical software development experience i.e. writing code. They have no bad habits - they write clean, test-driven code, which is open to future change. They have learnt how to learn - they can pick up a new language extremely quickly and teach themselves; in their final project week they often decide to pick up a language that they’ve never used before, and while they mainly learn Ruby and JavaScript on the course, the vast majority are hired into more traditional languages like Java and C#. They’re commercially experienced - the average age of our developers is 28 - and they're used to working in an agile environment. We’ve even had Computer Science undergraduates come to Makers Academy during their university holidays and had professional software engineers retrain with us."
+
+    - question: How do you teach them?
+      answer: "We don't 'teach' at Makers Academy. Instead of teachers, we have coaches, who allow the students to become self-led, independent learners. They have a hands-off approach and only intervene as a last resort: students are encouraged to pick up most concepts themselves. The course is intense - 10-12 hour days, 5-6 days per week - which means our developers are no stranger to hard work, and the focus is on encouraging best practices and good behaviours, which allow students to solve problems on their own. One of our alumni, Cambridge grad Viola, summed it up nicely in her blog: *[Unlearning how to learn](https://illogicode.wordpress.com/2016/03/14/unlearning-how-to-learn/)*."
+
+    - question: How much support will they need?
+      answer: "Our developers have outstanding problem-solving skills and are independent learners. As such, they don’t need handholding and will deliver value to your company immediately. However, like anyone at the beginning of a new career, a set progression path to support them to become mid-level developers will help them flourish - and help you get the most value from them. Our developers often reach mid-level positions in half the time of juniors from other sources. The kind of support they’ll need is along the lines of code reviews, and less time pressure at the beginning so that they can work things out themselves, but you should expect that they will accelerate very quickly once they are familiar with the domain. We can work with you to consult on your onboarding process and help you to get the best out of them as soon as possible."
+
+    - question: How much should I pay them?
+      answer: "The mean and median first salary of our developers in 2015 was £30,000, but salaries have varied historically between £18,000 and £65,000. [There's a detailed breakdown on Quora.](https://www.quora.com/What-is-the-starting-salary-of-a-Makers-Academy-graduate/answer/Will-Bentinck-2/)"
+
+    - question: What are your developers like?
+      answer: "There’s no typical Makers Academy developer - they’re an incredibly diverse bunch. They do have some traits in common, however: being incredibly self-motivated, heavily invested in their own personal development, and with serious grit to stick out the 12 weeks. They are passionate, not just about code but about XP values, they're great communicators, fiercely self-led, and they revel in being challenged and solving their own problems. We actively select for these qualities when interviewing, and accept fewer than 10% of applicants onto the course."
+
+    - question: What were your developers doing before Makers?
+      answer: "All sorts! The average age of our developers is 28, and past student have been lawyers, gardeners, tour guides, project managers, marketeers, accountants, musicians, and everything in between - we haven't yet had a vet, though. Some of our developers have previous technical experience - but many have never written a line of code in their professional lives before getting in touch with us. [Read about many of our developers.](/graduates/)"
+
+    - question: What happens if a Makers developer applies directly to my company?
+      answer: "We would never charge a fee for you to hire a developer that we didn’t introduce you to. Please let us know if you hire a Makers Academy developer though, because we can still tell you what we know about them, and help you with their onboarding process, so that you get the most out of them as quickly as possible."
+
+    - question: Do you have events?
+      answer: "We have a large space at our academy on Commercial Street and regularly host events here. These have included lunchtime talks, LNUG and LSCC evening meet-ups, 'craftathons' and of course our [careers fairs](https://storify.com/isoworg/makers-academy-careers-fairs/) where our hiring partners pitch their roles and network with developers on the day they complete the course."
+
+    - question: May I visit?
+      answer: "Of course! We’d love you to. Popping in is the best way for you to get a real feel for how we do things here and the passion of the developers we train - at any one time we have around 60 students based at the office full-time. We often have employers come into the office to run events and meetups, pitch their company to our grads, pair-program with our current students, or just have a coffee and a chat."
+
+    - question: Who are your other Hiring Partners?
+      answer: "Over 300 companies have hired Makers developers, from small start-ups to multinational corporations, in both the public and private sectors. See our testimonials slider below."
