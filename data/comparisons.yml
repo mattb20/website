@@ -14,17 +14,9 @@
   onsite: Live, in Person
   remote: Live, Online
 
-- benefit: Talks by Industry Leaders
-  onsite: Live, in Person
-  remote: Some Streamed (Speaker-Dependent)
-
 - benefit: Meditation, Yoga, 'Joy' activities
   onsite: Certified Yoga Instructor On Site
   remote: Your Own Practice, at Home
-
-- benefit: Careers Fair @MA HQ, London
-  onsite: true
-  remote: false
 
 - benefit: Hiring Support
   onsite: Hiring Week + Intro to Hiring Partners
@@ -33,7 +25,15 @@
 - benefit: Deposit
   onsite: £800
   remote: £500
-  
+
 - benefit: Womens Discount
   onsite: £500
+  remote: false
+
+- benefit: Careers Fair @MA HQ, London
+  onsite: true
+  remote: false
+  
+- benefit: Talks by Industry Leaders
+  onsite: Live, in Person
   remote: false
