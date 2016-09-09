@@ -52,11 +52,17 @@ textarea {
   }
 }
 
+#{$all-text-inputs} {
+  line-height: $base-line-height * 2.5;
+  height: $base-line-height * 3;
+}
+
 textarea {
-  resize: vertical;
-  height: ma-spacing(9);
+  resize: none;
+  height: ma-spacing(8);
   padding-top: $base-line-height;
-  padding-bottom: $base-line-height;
+  overflow-y: scroll;
+  line-height: $base-line-height;
 }
 
 input[type="search"] {
@@ -67,11 +73,6 @@ input[type="checkbox"],
 input[type="radio"] {
   display: inline;
   margin-right: ma-spacing(1) / 2;
-}
-
-#{$all-text-inputs} {
-  line-height: $base-line-height * 2.5;
-  height: $base-line-height * 3;
 }
 
 legend {
