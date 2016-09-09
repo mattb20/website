@@ -262,14 +262,6 @@
   code_link: https://github.com/thejennywang/bunch
   image: bunch.jpeg
 
-- name: Challenge Me
-  team: Nicola, Toan, Jamie, Chloe, Nikesh, Joe
-  cohort: June 2014
-  blurb: An app to make raising money for charity through physical challenges easy.
-  live_link: http://challenge--me.herokuapp.com/
-  code_link: https://github.com/yoshdog/challenge-me
-  image: cm.jpeg
-
 - name: Strides
   team: Julia, Nic, Margherita
   cohort: May 2014
