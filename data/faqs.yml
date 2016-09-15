@@ -11,6 +11,14 @@
 #
 # * Another bullet - note an extra spacing between each bullet too
 #
+- category_name: Closing for Christmas
+  faqs:
+    - question: Are you closed over Xmas?
+      answer: "Yes. Our last day in the office is 16 December 2016. After resting, feeding and being watered; our team will be back in action from 03 January 2017"
+    - question: Are you doing interviews over the holidays?
+      answer: "No. We're closed for interviews so if you need to get a place on the next course, please remember to book this in before we close."
+    - question: Will you be running the PreCourse over the holidays?
+      answer: "We've accommodated extra time for the Janury cohorts to do the PreCourse. It's the holidays so you'll want to spend time with your family, etc. However please do try to keep coding so we can make sure you're ready to go on Day 1"
 - category_name: More About Makers
   faqs:
     - question: Why is it called Makers Academy?
@@ -34,7 +42,7 @@
     - question: Can I come to see you?
       answer: "Of course. Our doors are open for anyone to come and visit. Book an appointment with one of our team <a href='https://talktomakers.youcanbook.me/index.jsp' target='_blank'>here</a>."
 
-- category_name: Applying to Makers
+- category_name: Applying to join
   faqs:
     - question: What percentage of applicants do you accept?
       answer: "While we don't set specific limits on how many students we accept, typically about 10% of applicants end up studying at Makers Academy. We have a rigorous selection process, designed to find the most capable, driven and passionate people, and we aren't afraid to turn people away if we don't think they have what it takes to succeed at Makers Academy. It's not called \"Oxbridge meets the Marines, but for Developers\" for nothing!"
@@ -90,7 +98,7 @@
     - question: How many international students attend the program?
       answer: "We don’t track the number specifically, but we’ve had students from all over Europe, the USA, Singapore, Hong Kong, South Africa, Australia, New Zealand and even Venezuela"
 
-- category_name: More About The Onsite Course
+- category_name: More about Makers Academy Onsite
   faqs:
     - question: Who are the instructors?
       answer: "Makers Academy is taught by a cadre of world-class technologists and entrepreneurs. They have founded various technology startups and have decades of educational experience between them. In addition, Makers Academy brings in world class speakers from top London technology companies."
@@ -109,9 +117,6 @@
 
     - question: Do you have a more detailed breakdown of what I'll learn?
       answer: "Our agile approach means we improve our course and curriculum with each cohort, but you can get a flavour of the structure from our <a href='http://www.makersacademy.com/curriculum' target='_blank'>curriculum</a>."
-
-    - question: Do students have to do a preliminary study before starting the course?
-      answer: "Yes. We have developed a part time PreCourse that needs to be completed before starting the course. We focus on the foundations: command-line, version control and the basics of Ruby. The PreCourse requires an average of 15-20 hours per week to complete successfully."
 
     - question: Is it really possible to learn to code in 12 weeks?
       answer: "The fact that we’ve had over 600 students graduate from Makers Academy, and our track record in getting students hired at companies like BSkyB, Pivotal Labs, ThoughtWorks and many other top tech companies mean that YES, it is possible to learn to code in 12 Weeks. Make no mistake - it will be tough. It will take hard work and dedication, but if you really want it, it’s there to be had."
@@ -157,9 +162,6 @@
     - question: How is the interview done?
       answer: The interviews for Makers Academy Remote are done remotely, to mimic the learning environment you’ll be in. We’ll also send you across some learning materials to prepare for the interview, so remember to complete all of the content to give yourself the best chance of progressing to the next stage.
 
-    - question: Is the PreCourse done at home?
-      answer: The PreCourse is part time and is completed remotely. You need around 20 hours per week (including weekends) to complete the required work. Weekly progress is compulsory on the PreCourse, to make your way onto the full-time course.
-
     - question: I don’t have a coding background, is it for me?
       answer: Definitely! Our course is designed to turn any coding beginner into a junior developer in 12 weeks, and then get you a job in a world-class tech company after you graduate. Sound too good to be true? It isn’t, we do it over and over again every 12 weeks. If you fancy a read, you can take a look at our graduate stories <a href="http://www.makersacademy.com/graduates/" target="_blank">here</a>
 
@@ -167,9 +169,9 @@
       answer: The majority of our hiring partners are in London, but we’ve helped graduates get jobs all over the world. As we get more Remote students, we’ll be hand-picking the top tech employers across Europe to work with us.
 
     - question: How much does it cost?
-      answer: Makers Academy Remote costs £4000. We've partnered with Finance my Future, PCDL and EdAid to offer financial support. Ask about this during your interview. Hint, you need to apply first!
+      answer: Makers Academy Remote costs £4000. We've partnered with Future Finance, PCDL and EdAid to offer financial support. Ask about this during your interview. Hint, you need to apply first!
 
-    - question: Do we offer scholarships?
+    - question: Do you offer scholarships?
       answer: We offer scholarships from time to time, usually in partnership with another company. By far the best way to hear about these things is by signing up to our newsletter and keeping an eye out for any new opportunities.
 
     - question: Do you accept international students?
@@ -207,10 +209,10 @@
     - question: Does the Academy provide any support to students who wish to establish their own startup?
       answer: "We don’t offer any formal support but most of the team have extensive experience in startups and we're happy to talk to the students about their ideas."
 
-- category_name: Paying For The Course
+- category_name: Paying For the course
   faqs:
-    - question: I can't afford to do the course... What should I do?
-      answer: "There are a number of ways you can raise funds. Check our <a href='http://www.makersacademy.com/payments' target='_blank'>payments page</a> to see how previous students have done this."
+    - question: I can't afford to do the course. What should I do?
+      answer: "We're partnered up with quite a few finance companies. Check our <a href='http://www.makersacademy.com/payment' target='_blank'>payments page</a> to see how previous students have done this."
 
     - question: Is food and lodging included in the price of tuition?
       answer: "Unfortunately not. We will however assist with making arrangements in any way that we can – feel free to email us with any questions or requests that you may have."
@@ -222,10 +224,36 @@
       answer: "Once a student is accepted on to the course, their spot is held for 28 days. In this time the seat will not be offered to anyone else. If the deposit is not paid within 28 days their application will be automatically archived. As the course is very selective and highly popular it will most likely mean the seat will be offered to someone else."
 
     - question: Do I need to buy books?
-      answer: "Books are kind of outdated in the fast-paced world of software development. You won't need any on the course but we can recommend some if you're really after some physical materials."
+      answer: "While books are kind of outdated in the fast-paced world of software development, there are a certain few that we hold dear to our heart."
 
     - question: Can I pay in Bitcoin, if so how?
       answer: "Yes - we welcome payment in Bitcoin. If you want to do so, we can talk about how to do so when you come for an interview."
 
     - question: Is there any chance to get any type of scholarship?
       answer: "We offer scholarships from time to time, usually in partnership with another company. By far the best way to hear about these things is by signing up to our newsletter and keeping an eye out for any new opportunities."
+
+    - question: Can I finance my deposit?
+      answer: "No. You will need to pay for your course deposit before being able to secure finance with any of our partners. We have preferential finance options in place for students of Makers Academy, so you will need to have a secured place on the course by paying your deposit before we can confirm your registration to PCDL and Future Finance. "
+
+- category_name: Makers Academy PreCourse
+  faqs:
+    - question: How long is the PreCourse
+      answer: "The PreCourse runs for 4 weeks prior to the start of the full time course."
+
+    - question: Do students have to do any preliminary study before starting the course?
+      answer: "Yes. We have developed a part time PreCourse that needs to be completed before starting the course. We focus on the foundations: command-line, version control and the basics of Ruby. The PreCourse requires a minimum of 20 hours per week to complete successfully."
+
+    - question: Is the PreCourse done at home?
+      answer: "The PreCourse is part time and is completed remotely. You need at least 20 hours per week (including weekends) to complete the required work. Weekly progress is compulsory on the PreCourse, to make your way onto the full-time course."
+
+    - question: What do you learn on the PreCourse?
+      answer: "You'll cover the basics of Command Line and Git for a week and that will be followed by 3 challenges in Ruby. This will allow us to dive straight into code on your first day on the full time course."
+
+    - question: Do we have to be online for the PreCourse?
+      answer: "The materials will be online and you will have full access to them from the start date of the PreCourse. As you will be learning with your cohort some online learning will be required to get the help you need to complete it."
+
+    - question: Can I start the PreCourse early?
+      answer: "We run the PreCourse currently with everyone starting at the same time. This allows everyone to learn together and work through problems as a team. We have found that this works best for each cohort."
+
+    - question: What's the best way to prepare for the PreCourse?
+      answer: "After passing your interview - don't stop coding. It's the best advice we could give you. Keep doing small challenges everyday. Anything from Well Grounded Rubyist to getting your typing speed to 70 wpm - everything helps!"
