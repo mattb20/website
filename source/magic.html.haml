@@ -12,16 +12,19 @@
   .container
     .three-width-row
       .column
-        %h3 Draft (WNM)
-        %p We have weekly booster drafts, on Wednesday evening. Friendly atmosphere, casual play.
+        %h3 Drafts
+        %p We have weekly booster drafts, on Wednesday evening. Please bring wine.
       .column
         %h3 Pre-releases
-        %p Partnered with Leisure Games, we host a pre-release tournament for every new set, for about 50 people.
+        %p 
+        Partnered with 
+        = link_to "Leisure Games", 'http://www.leisuregames.com/'
+        , we host a pre-release tournament for every new set, for about 50 people.
       .column
         %h3 Constructed
         %p We occasionally run small Sunday Constructed tournaments: Standard, Modern and Pauper.
     .button-row
-      = link_to "Play Magic", '/magic#events', class: "button button--horizontal"
+      = link_to "Join the Community", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal"
 
 %section.backgrounded
   .container
@@ -37,8 +40,18 @@
 %section{id: "events"}
   .container
     %h3 next events
-    %iframe{src: "https://calendar.google.com/calendar/embed?src=makersacademy.com_c4c7mjul347bn3pbe6jks569o4%40group.calendar.google.com&ctz=Europe/London", width: 600, height: 500}
-
+    %table.responsive-table
+      %thead
+        %tr
+          %th Date
+          %th Event
+      %tbody
+        - data.magic_events.each do |event|
+          %tr
+            %td= event[:date]
+            %td= event[:event]
+  .button-row.small-padding-top
+    = link_to "Request an Invitation", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal" 
 
 
 
