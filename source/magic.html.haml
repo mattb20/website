@@ -1,0 +1,68 @@
+- description "Play Magic: the Gathering in Shoreditch"
+- title "Magic at Makers Academy"
+
+%section.hero-splash{style: "background-image: url(#{image_path("placeholders/playing-magic.jpg")}"}
+  .container
+    .centered-row
+      %h4.leader play
+      %h1 magic: <br>the gathering
+      %h4 in shoreditch
+
+%section
+  .container
+    .three-width-row
+      .column
+        %h3 Drafts
+        %p We have weekly booster drafts, on Wednesday evening. Please bring wine.
+      .column
+        %h3 Pre-releases
+        %p 
+        Partnered with 
+        = link_to "Leisure Games", 'http://www.leisuregames.com/'
+        , we host a pre-release tournament for every new set, for about 50 people.
+      .column
+        %h3 Constructed
+        %p We occasionally run small Sunday Constructed tournaments: Standard, Modern and Pauper.
+    .button-row
+      = link_to "Join the Community", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal"
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h4.leader what is
+      %h2 makers academy?
+      %p Makers Academy is Europe's leading coding bootcamp, <br>where super-smart, super-driven people learn to code in just 12 weeks.
+    .button-row
+      = link_to "Learn to Code", '/', class: "button button--horizontal"
+    .centered-row
+      %p We also really love Magic.
+
+%section{id: "events"}
+  .container
+    %h3 next events
+    %table.responsive-table
+      %thead
+        %tr
+          %th Date
+          %th Event
+      %tbody
+        - data.magic_events.each do |event|
+          %tr
+            %td= event[:date]
+            %td= event[:event]
+  .button-row.small-padding-top
+    = link_to "Request an Invitation", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
