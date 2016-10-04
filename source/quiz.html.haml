@@ -1,33 +1,12 @@
 - description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
-  .container
-    .centered-row
-      %h1 Learn to Code in 12 Weeks
-      %h4.subheader Take the quiz to see if you can
-      %P Makers Academy is Europe's leading Web Developer bootcamp. Get a free copy of our Learn Ruby In 15 Minutes e-book by signing up to our newsletter.
-    = partial :"email-capture"
 
-<div class="quizz-container" data-width="100%" data-height="auto" data-quiz="271715"></div>
+<div class="quizz-container" data-width="100%" data-height="auto" data-quiz="271715" style="padding-top: 100px; background-color: #0B2638"></div>
 <script src="//dcc4iyjchzom0.cloudfront.net/widget/loader.js" async></script>
 
-%section.half-slider.graduates-slider
-  .container
-    .half-slider-row
-      .column
-        .copy.copy--left
-          %h4.leader Meet
-          %h2 Our Grads
-          %p Our graduates come from all walks of life, and leave as trained software craftspeople. The diversity of our students show one thing that it's possible for anyone to learn to code and get a job as a junior developer.
-          .button-row.shift-to-bottom
-            %p
-              = link_to "Read Grad Stories", "/graduates.html", class: "button button--horizontal"
-      .column
-        = partial :"preview_graduates"
-
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %P Get a free copy of our Learn Ruby In 15 Minutes e-book by signing up to our newsletter.
+      %P Makers Academy is Europe's leading Web Developer bootcamp. Get a free copy of our Learn Ruby In 15 Minutes e-book by signing up to our newsletter.
     = partial :"email-capture"
 
 / Analytics event for landing pages
