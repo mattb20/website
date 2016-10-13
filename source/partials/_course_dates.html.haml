@@ -10,7 +10,7 @@
             %th Course Start
             %th Hiring Begins
         %tbody
-          - Intake.future_dates.each do |intake|
+          - Intake.future_dates.take(8).each do |intake|
             %tr
               %td{data:{header: "Pre-course Start"}}= intake.precourse_start_date.strftime("%-d %B %Y")
               %td{data:{header: "Course Start"}}= intake.start_date.strftime("%-d %B %Y")
