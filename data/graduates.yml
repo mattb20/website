@@ -29,6 +29,67 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
+
+- first_name: Maria
+  last_name: Romero
+  image: remote.jpg
+  summary: Food trader to Junior Developer at News UK
+  testimonial: Makers Academy has been a life changing experience.
+  cohort_month: Remote July
+  cohort_year: 2016
+  categories:
+    - remote
+    - women
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer:  I had my own business as a street food trader in Brighton.
+    - question: How did you find learning remotely?
+      answer: It wasn't difficult because with all the available technologies there wasn't any inconvenience.
+    - question: How has your life changed since learning to code?
+      answer: I never studied anything like this before or had a job that required me to think so much so the change has been huge. Makers Academy has been a life changing experience.
+    - question: Where are you now working?
+      answer: News UK
+    - question: What advice would you give to people thinking of changing career?
+      answer: As long as you can support your self without working for 4 to 5 months go for it. It's a short term sacrifice but you come out at the end with a job and an awesome salary that will only go up quickly.
+    - question: What do you say to people who say £4000 is expensive?
+      answer: As long as you are in a tech hub or willing to move to one you will get this money back within less than 2 months on your new salary. It's a no brainer!
+    - question: What was your biggest worry before joining Makers Academy Remote and how do you feel about it now?
+      answer: I never thought I could code, it looked too difficult for me, I thought it was for smart people only, and don't get me wrong it is not easy and I don't know everything I should know to do my job but I can continue learning whilst getting paid!
+    - question: Sum up your Makers Academy Remote experience?
+      answer: It was like many people say intense! There was little time left to spend with my family and do other things apart from coding, so its hard to adjust but it will definitely pay off 3 months later.
+
+- first_name: Sergio
+  last_name: Enrech Trillo
+  image: sergio.jpg
+  summary: Telecoms Engineering	to Junior Developer at Kwiboo
+  testimonial: Fantastic experience overall, I have really enjoyed it, I was even sad that it finished. Makers Academy really does what it says on the tin,
+  cohort_month: Remote July
+  cohort_year: 2016
+  categories:
+    - career-changer
+    - remote
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer:  I was doing lots of things, I worked as a consultant, worked for BT and then setup a start-up about competitive intelligence which eventually liquidated. I finally decided that the world was missing a software developer so decided to learn to code.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: I thoroughly researched the market, (as I worked in competitive intelligence it helped to research all different competitors). I wanted to focus to the .NET but no courses/bootcamps provided that. I finally decided to do Makers because the concepts are the same and I thought I could transition later on after doing the course.
+    - question: How did you find learning remotely?
+      answer: Great! The cohort was very supportive, and I personally was having lots of fun. Also there was a routine and lots of pair programming so that helped to keep up motivation.
+    - question: What was your final project?
+      answer: We did "Phlash!" A curated copy of snapchat, take a picture, and get it automatically shared with your list of "Phollowers". Bad pose? Double chin on show? No worries, the picture is automatically erased in two seconds. 11 days of intense group work where we used Agile methodology. We built it in Swift, a new language to me!
+    - question: How has your life changed since learning to code?
+      answer: Before I was ugly, overweight, and depressed. Now that I "know" how to code, I am tall, handsome and exude happiness all around! Oh well, perhaps not so much, but the fact that I can go to work everyday and fix a number of problems is simply fantastic! And the learning never ends, I simply love it! I even managed to lose weight during the course, I swear!
+    - question: Where are you now working?
+      answer: I work for Kwiboo, a small development house that is literally 5 mins from my home. The team is fantastic and very helpful, and I have started developing web sites with ASP.NET and using MVC that we learnt on the course. They are a Microsoft Gold Partner and have the bleeding edge tools. I am very happy being there!
+    - question: What advice would you give to people thinking of changing career?
+      answer: To act, asap! Of course coding is not for everyone, but you can easily check if you are the coder type, and [book some pair programming](https://makersacademy.sharetribe.com/) sessions with former graduates or gatekeepers and see if you feel the excitement. If so, don't think a single second. GO FOR IT!
+    - question: What do you say to people who say £4000 is expensive?
+      answer: Think about it in these terms; if you want to be a graduate in London, you need to spend 3 years in University studying hard and you'll end up spending around GBP35K-40k - don't take my word for it, check [this link](http://university.which.co.uk/advice/student-finance/how-much-debt-will-i-actually-get-into-by-going-to-university) and then if you are lucky you will get a job of around £20k to start with and get out of debt slowly. Now think about the Makers Academy route, £4k and 4 months of intense work. Yes 4 months, because the first month of the PreCourse is very important and even if they say it is part time you should put as much effort as possible. The good thing is that on those 4 months you don't have a lot of time to spend money so running costs can be very low. You have a great time with your cohort studying and absorbing the concepts. Finally, if you apply to London or other main UK cities you should get around £30k for your first Junior Developer role. You'll get out of debt in a few months. So which option do you prefer? Even for other countries I know they are opportunities particularly in main cities to get coding jobs, so the cost:reward ratio is extremely attractive
+    - question: What was your biggest worry before joining Makers Academy Remote and how do you feel about it now?
+      answer: I was not particularly afraid of the technical aspect, as I was already familiar with technology, (although not with coding in particular). But I have seen people who had not written a single line of code in their lives to do extremely on the course. My main fear was if was able to find a job after the course, particularly in my area in Suffolk where there are not a lot of coding companies around. But the market is hot and coding is one of those industries where growth is predicted for decades to come. Again I researched the companies which use software developers, (.NET and JavaScript) in my town and I found 3. I applied to 2 of them, and one of them hired me even though they were not even looking for junior developers. So my fears were completely removed. They are jobs to be found for passionate people that make the effort, and that can be done in just a few months!
+    - question: Sum up your Makers Academy Remote experiences
+      answer: Fantastic experience overall, I have really enjoyed it, I was even sad that it finished. Makers Academy really does what it says on the tin, "Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over 600 students into their dream jobs as junior developers." I am one of those.
+
 - first_name: Misa
   last_name: Ogura
   image: misa.jpg
