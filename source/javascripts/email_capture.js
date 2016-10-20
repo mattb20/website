@@ -11,7 +11,7 @@
    e.g. <input type="email" data-segments="women,entrepeneurs">
  */
 
-(function ($, analytics) {
+(function ($) {
   'use strict';
 
   $.fn.emailCapture = function () {
