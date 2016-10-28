@@ -70,6 +70,7 @@ sprockets.append_path File.join root, 'bower_components'
 set :apply_url, "/apply"
 set :onsite_application_form_url, "http://apply.makersacademy.com"
 set :remote_application_form_url, "http://apply.makersacademy.com/remote/application"
+set :precourse_beta_application_form_url, "http://apply.makersacademy.com/precourse-beta/application"
 
 # Redirects from old site urls
 redirect "payments/new.html", to: "#{config.onsite_application_form_url}/payments/new"
