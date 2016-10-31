@@ -18,6 +18,8 @@
     "!source/javascripts/**",
     "source/javascripts/website.js"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "intl-tel-input": "9.2.3"
+  },
   "devDependencies": {}
 }
