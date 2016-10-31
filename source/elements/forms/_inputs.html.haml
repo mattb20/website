@@ -21,12 +21,16 @@
       %input{type: "tel"}
 
     .input-row
+      %label Telephone number with code
+      %input{type: "tel", class: "intl-tel-input"}
+
+    .input-row
       %label Checkbox
       %input{type: "checkbox"}
 
     .input-row
       %label Textarea (with hint and wordcount)
-      %p.input-hint 
+      %p.input-hint
         This is a hint about how to fill out the input.
         %span.small You can use small text for extra hierarchy
       %textarea

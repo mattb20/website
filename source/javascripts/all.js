@@ -31,7 +31,8 @@
 //= require sliders
 //= require videos
 //= require tracking
-//= require intl-tel-input/build/js/intlTelInput
+//= require vendor/intlTelInput/utils
+//= require vendor/intlTelInput/intlTelInput.min
 
 
 $(document).ready(function() {

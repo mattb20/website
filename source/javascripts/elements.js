@@ -10,4 +10,6 @@ $(document).ready(function() {
     var fixedCode = innerCode.replace(replacements, '');
     el.innerHTML = fixedCode;
   });
+
+  $(".intl-tel-input").intlTelInput();
 });
