@@ -20,6 +20,7 @@
 @import "vertical_tabs";
 @import "deprecated_browser_warning";
 @import "panels";
+@import "vendor/intlTelInput";
 
 // Layouts
 @import "navigation";
@@ -33,3 +34,4 @@
 @import "components/article";
 @import "components/embedded_typeform";
 @import "components/comparison_table";
+@import "components/intl_tel_input";
