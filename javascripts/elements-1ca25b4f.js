@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=($(".element"),$(".tab-content--code code"));$.each(e,function(e,n){var t=n.innerHTML,c=t.match(/ {4,}/g)[1].length-2,a=new RegExp(" {"+c+"}","g"),i=t.replace(a,"");n.innerHTML=i}),$(".intl-tel-input").intlTelInput()});
