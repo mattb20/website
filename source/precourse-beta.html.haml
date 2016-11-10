@@ -1,0 +1,68 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+- @hide_from_google = true
+- @hide_nav = true
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h1 Jump the Queue & Join Makers Academy
+      %p Makers Academy is Europe's leading Web Developer bootcamp. We’re trialling a new way for you to secure a place at Makers Academy - by giving away free access to our PreCourse! Complete the materials, pass all the challenges along the way, and you’ll be offered a coveted spot on one of our 2017 courses.
+      %p The information below will tell you what's involved in our PreCourse Beta.
+
+%section
+  .container
+    .centered-row
+      %h2 Become a Beta Tester
+      %h4.subheader Get 8 Weeks of Free, Self-Led Learning
+    .three-width-row
+      .column
+        %h5 Why we're doing this?
+        %p We know our interview process is strict. We'd like to spend more time getting to know you and your code before you join the full time course. Ideally you'll be aiming to join Makers Academy as a full time student in February or March 2017
+      .column
+        %h5 What you'll do
+        %p You'll have free & full access to all of our PreCourse curriculum materials and work at your own pace with 20 other learners. Over 8 weeks, you'll cover the basics of Github, Command Line and Ruby - all in preparation to start coding with us full time in 2017.
+      .column
+        %h5 What we'll do
+        %p Each week, we'll provide you with a series of instructional emails for you to follow. You'll then go through the learning resources, pair program with other beta testers, solve complex problems and seriously improve your skills as a Junior Developer
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h2 How does it work?
+    .three-width-row
+      .column
+        %h5 Apply & Call
+        %p Complete our application form to register your interest. You'll be directed to book a call with one of our team over the next week to secure your space.
+      .column
+        %h5 Join
+        %p Following your phone call, if you're suited to the next start date, you'll be invited to join the first ever PreCourse Beta from Makers Academy. We're limiting the spaces to ensure you get the best experience.
+      .column
+        %h5 Code
+        %p Once launched, you'll be expected to keep up with fortnightly targets on coding challenges. You'll need around 10 - 15 hours per week to complete this course successfully.
+      .column
+        %h5 Equipment
+        %p You'll need your own laptop, a good internet connection and a decent set of headphones with a mic. You can do this course on a Mac, Linux or Windows machine.
+
+%section
+  .container
+    .four-width-row.row-with-borders
+      .column
+        %h2.statistic 100+
+        %h4.subheader Hours of coding experience
+      .column
+        %h2.statistic 20
+        %h4.subheader Developers working with you
+      .column
+        %h2.statistic 8
+        %h4.subheader Weeks of coding
+      .column
+        %h2.statistic £0
+        %h4.subheader No cost for the beta testers!
+
+%section.hero-splash
+  .container
+    .centered-row
+      %h1 Ready to change your future?
+      %h4.subheader Become a beta tester, and get access to our PreCourse!
+      .button-row.small-padding-top
+        = link_to "Join Now", config.precourse_beta_application_form_url, class: "button button--horizontal"
