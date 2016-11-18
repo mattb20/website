@@ -18,9 +18,13 @@
     %p
       At Makers Academy, we’ve helped everybody from stay-at-home parents and recruiters to scientists and lawyers make their first step towards a career they’re passionate about, in jobs with huge growth opportunities.
     %p
-      The technology sector has been growing rapidly for years, and has been largely unaffected by the recession. With demand for developers growing 20% year-on- year, and supply of developers (mainly graduates of computer science degrees) flat lining at 1%, the demand for developers is growing rapidly. In short - the tech industry needs you!
+      The technology sector has been growing rapidly for years, and has been largely unaffected by the recession. With demand for developers growing 20% year-on-year, and supply of developers (mainly graduates of Computer Science degrees), flat lining at 1%, the demand for developers is growing rapidly.
     %p
-      According to Tech Nation, Manchester is the largest tech cluster outside London –with 51,901 employees in the sector. There are 10 tech jobs for every 100 residents, which is pretty awesome when you realise that London has only four jobs for every 100 residents. In short there’s a bigger skills gap up north so it’s the perfect time to learn to code and start your career as a developer.   In short - the tech industry in the north needs you!
+      According to Tech Nation, Manchester is the largest tech cluster outside London – with nearly 52,000 employees in the sector. There are
+      =link_to "10 tech jobs for every 100 residents,", "http://www.bbc.co.uk/news/technology-37380696", target: "_blank"
+      which is pretty awesome when you compare London that has only four jobs for every 100. In short there’s a bigger skills gap in the north so it’s the perfect time to learn to code and start your career as a developer. The tech industry in the north needs you!
+
+%hr
 
 = partial :"full_graduates", locals: { category: "north" }
 
@@ -35,12 +39,14 @@
         .image--centered
           = image_tag "hiring-partners/Sky.png"
         .image--centered
-          = image_tag "hiring-partners/createk.png"
+          = image_tag "hiring-partners/bbc.png"
       .column
         = link_to "Learn about Partners", "/employers.html", class: "button button--horizontal"
       .column
-        = image_tag "hiring-partners/farm.png", class:"image--medium"
-        = image_tag "hiring-partners/opia.png", class:"image--medium"
+        .image--centered
+          = image_tag "hiring-partners/farm.png"
+        .image--centered
+          = image_tag "hiring-partners/opia.png"
 
 = partial :"vlogs"
 
