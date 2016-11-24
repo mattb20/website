@@ -1,4 +1,4 @@
-
+1 1
 # TEMPLATE FOR FUTURE USE < DO NOT DELETE >
 # - first_name:
 #   last_name:
@@ -29,6 +29,66 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
+
+- first_name: Mic
+  last_name: Cassano
+  image: Mic.jpg
+  summary: IT Consultant to Developer at Pi-Top
+  testimonial: "Crazy Nerdy Rollercoaster!"
+  cohort_month: April
+  cohort_year: 2016
+  categories:
+   - career-changer
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: I was an IT consultant at a magic circle firm in the city.
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: I was looking for a coding course in London and I got a position at General Assembly. A friend of mine had done Makers and I was following his blog closely. The attention to best practice is why I chose Makers Academy.
+   - question: What did you find difficult on the course?
+     answer: The hardest thing was coding in pairs as it was a new skill in itself. Once you get used to it, it's one of the most enjoyable parts of the experience.
+   - question: What was your end of cohort project?
+     answer: It was MarkPad - a Markdown text editor made from the ground up by our team.
+   - question: How has your life changed since learning to code?
+     answer: I do something that I love for living and can improve it everyday. Furthermore, I have infinite opportunities for the future which is a very significant change.
+   - question: What advice would you give to people thinking of changing career?
+     answer: Do your research and make sure to budget for it. If it's something you want to do then take a leap and you won't look back.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: It's not even comparable to paying for a full Masters where you have to support yourself for at least a year.
+   - question: What was your biggest fear before joining MA and how do you feel about it now?
+     answer: I wasn't sure it would live up to my expectations or if I'd be a job ready Junior Developer. All I can say now that I enjoyed every minute of it and I'm still surprised by how much I learnt in a short while.
+   - question: Sum up your Makers Academy experience
+     answer: Crazy, nerdy rollercoaster!
+
+- first_name: Elia
+  last_name: Bardashevich
+  image: Elia.jpg
+  summary: Airline Manager to Developer
+  testimonial: "Tough. Frustrating. Challenging and very rewarding."
+  cohort_month: July
+  cohort_year: 2016
+  categories:
+   - women
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: I was managing an airline.
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: Facebook! I was researching courses like this for a while and I tried learning myself but it's really hard to try figure out and what to study afterwards.
+   - question: What did you find difficult on the course?
+     answer: I found working with people with different communication styles from my own slightly tricky.
+   - question: What was your end of cohort project?
+     answer: It was the Werewolves game we played as a cohort, in digital format.
+   - question: Where are you now working?
+     answer: Venntro Media Group
+   - question: How has your life changed since learning to code?
+     answer: I got a job!
+   - question: What advice would you give to people thinking of changing career?
+     answer: Save up money to make sure you can job hunt in peace after so you don't panic.
+   - question: What do you say to people who say £8000 is expensive for an online course?
+     answer: For a quick career change it's not that expensive. It's also around the same price as a masters and you change your career quicker.
+   - question: What was your biggest fear before joining MA and how do you feel about it now?
+     answer: My biggest fear was that I would not get a job. I got a job!
+   - question: Sum up your Makers Academy experience
+     answer: Makers Academy has given me a lot of confidence.
 
 
 - first_name: Anna
