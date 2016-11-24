@@ -204,13 +204,6 @@ picture {
 .statistic a {
   text-decoration: none;
   position: relative;
-  &:after {
-    content: "*";
-    position: absolute;
-    font-size: modular-scale(2);
-    right: -1 * ma-spacing(0.7);
-    top: -1 * ma-spacing(0.7);
-  }
 }
 
 pre {
