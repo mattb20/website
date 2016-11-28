@@ -3,11 +3,10 @@
 #   job_title:
 #   about:
 
-# - name: Zara
-#   image:
-#   job_title: Careers Coach
-#   about: Zara is our careers coach supporting students in the transition from student to getting their first job as a junior developer. Previously she worked at Working Chance, a recruitment charity supporting women with criminal convictions back into work and the New Entrepreneurs Foundation, an educational charity for young entrepreneurs. On the side she sells Camphill pottery, plays Gauntlet PS4 and is training to be a psychotherapist.
-
+- name: Zara
+  image: zara.jpg
+  job_title: Careers Coach
+  about: Zara is our careers coach supporting students in the transition from student to getting their first job as a Junior Developer. Previously she worked at Working Chance, supporting women with criminal convictions back into work. On the side she sells Camphill pottery, plays Gauntlet on the Makers Academy PS4 and is training to be a psychotherapist.
 
 - name: Emily
   image: emily.jpg
