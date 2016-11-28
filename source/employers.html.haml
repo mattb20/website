@@ -94,36 +94,7 @@
 
 = partial :"employer_testimonials"
 
-
-%section.hero-splash
-  .container
-    .centered-row
-      %h1 300+ companies
-      %h4.subheader have hired our developers
-      .five-width-row
-        .column
-          = image_tag "hiring-partners/new-bamboo.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Workshare.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Qubit.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/legal-and-general.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/zopa.png", class:"image--medium"
-      .five-width-row.small-padding-top
-        .column
-          = image_tag "hiring-partners/Lyst.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Springer.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/cloud-credo.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/8th-light.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Factory.png", class:"image--medium"
-      .button-row.small-padding-top
-        = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+= partial :"hiring_partner_hero"
 
 %section
   .container
@@ -140,10 +111,10 @@
         = link_to "curriculum", "/curriculum.html"
         in detail.
       .column
-        %h4 Where are you based? 
+        %h4 Where are you based?
         %p Our software developers are mostly in London and Manchester, with many in other UK cities and parts of Europe and USA. However, we’re growing fast and would love to chat about your location.
         %p
-        Read about our 
+        Read about our
         = link_to "graduates", "/graduates.html"
         working as software engineers at leading tech firms all over the world.
 :javascript

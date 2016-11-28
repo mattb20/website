@@ -1,0 +1,50 @@
+%section.hero-splash{style: "background-image: url(#{image_path("backgroundsphoto-wall.jpg")});"}
+  .container
+    .centered-row
+      = image_tag "logo/ma-white.png", class: "logo"
+      %h1 hire brilliant, diverse software engineers
+      %p We accept 1 in 10 applicants, and 35% of our developers are women!
+      .button-row
+        = link_to "Let's talk", "/employers/contact.html", class: "button button--horizontal"
+
+%section
+  .container
+    .three-width-row.row-with-borders
+      .column
+        .header-container
+          %h3 We offer
+          %p A £500 discount to every woman on our course, equating to over £100,000 invested towards women in tech.
+      .column
+        .header-container
+          %h3 We sponsor
+          %p Places for women from disadvantaged backgrounds on our course by partnering with IBM, Skimlinks and Thoughtworks.
+      .column
+        .header-container
+          %h3 We believe
+          %p That diverse teams create better business outcomes. Overcoming the gender imbalance is the first step.
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/women.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader
+      %h2
+      %p “Makers Academy gives us a different type of software engineer: people who are work-ready, who bring a breadth of life experience and innovative ways of thinking.”
+      %h4.leader JADE DAUBNEY, RECRUITMENT CHANGE LEAD
+    .centered-row
+      .image--centered
+        = image_tag "hiring-partners/ThoughtWorks.png", class: "image--medium"
+
+%section
+  .container
+    .video-row
+      .video-wrapper
+        %iframe{src: "https://www.youtube.com/embed/Wa-IE3MzxGc", frameborder: 0, allowfullscreen: true}
+
+%hr
+
+= partial :"full_graduates", locals: { category: "female" }
+= partial :"hiring_partner_hero"
+
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'diversity-careers'});
+  analytics.identify({'diversity-careers': true});

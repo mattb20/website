@@ -99,7 +99,7 @@
   cohort_month: August
   cohort_year: 2016
   categories:
-    - women
+    - female
     - north
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -286,7 +286,7 @@
   cohort_month: August
   cohort_year: 2016
   categories:
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a front end developer at a startup called Tibit.
@@ -315,7 +315,7 @@
   cohort_month: July
   cohort_year: 2016
   categories:
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a tech recruiter.
@@ -342,7 +342,7 @@
   cohort_month: March
   cohort_year: 2015
   categories:
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I did a lot of things, I was an archeologist, a 3D designer but didn't like the company where I was working.
@@ -374,7 +374,7 @@
   cohort_year: 2016
   categories:
     - remote
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer:  I had my own business as a street food trader in Brighton.
@@ -434,7 +434,7 @@
   cohort_year: 2016
   categories:
     - career-changers
-    - women
+    - female
   case_study:
    - question: What were you doing before joining Makers Academy?
      answer: I was a cancer biologist - doing research for Cancer Research UK
@@ -529,7 +529,7 @@
   cohort_year: 2016
   categories:
     - career-changers
-    - women
+    - female
   case_study:
    - question: What were you doing before joining Makers Academy?
      answer: I was working in education as an administrator
@@ -623,7 +623,7 @@
   cohort_year: 2016
   categories:
     - career changer
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Worked as a German customer support representative.
@@ -719,7 +719,7 @@
   cohort_year: 2016
   categories:
     - career changer
-    - women
+    - female
     - ThoughtWorks
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -874,7 +874,7 @@
   cohort_year: 2016
   categories:
     - career changer
-    - women
+    - female
     - ThoughtWorks
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -937,7 +937,7 @@
   cohort_year: 2016
   categories:
     - career changer
-    - women
+    - female
     - ThoughtWorks
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1124,7 +1124,7 @@
   cohort_year: 2016
   categories:
     - careeer changer
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in advertising and telly with Charlie Brooker!
@@ -1152,7 +1152,7 @@
   cohort_year: 2016
   categories:
     - career changers
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a product owner at a mobile agency.
@@ -1271,7 +1271,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-  - women
+  - female
   - career changers
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1597,7 +1597,7 @@
   cohort_year: 2015
   categories:
     - education leaver
-    - women
+    - female
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1719,7 +1719,7 @@
   blog_link: http://harrietc52.github.io/
   categories:
     - education leaver
-    - women
+    - female
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was a professional dancer.
