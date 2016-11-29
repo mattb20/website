@@ -67,7 +67,7 @@
   cohort_month: July
   cohort_year: 2016
   categories:
-   - women
+   - female
   case_study:
    - question: What were you doing before joining Makers Academy?
      answer: I was managing an airline.
@@ -315,6 +315,7 @@
   cohort_month: July
   cohort_year: 2016
   categories:
+    - financial times
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -720,7 +721,7 @@
   categories:
     - career changer
     - female
-    - ThoughtWorks
+    - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: My most recent job was being an IT helpdesk coordinator.
@@ -750,7 +751,7 @@
   cohort_year: 2016
   categories:
     - career changer
-    - ThoughtWorks
+    - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I studied psychology, and then I was working on science research.
@@ -844,7 +845,7 @@
   cohort_year: 2016
   categories:
     - career changer
-    - ThoughtWorks
+    - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as bartender in London.
@@ -874,8 +875,8 @@
   cohort_year: 2016
   categories:
     - career changer
+    - thoughtworks
     - female
-    - ThoughtWorks
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a project and programme manager in the commercial department of the Open University.
@@ -938,7 +939,7 @@
   categories:
     - career changer
     - female
-    - ThoughtWorks
+    - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a campaign manager at a startup creating bespoke emails.
@@ -1030,7 +1031,7 @@
   cohort_year: 2016
   categories:
     - career changer
-    - ThoughtWorks
+    - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in corporate finance.
@@ -2019,6 +2020,7 @@
     - career changer
     - female
     - acast
+    - financial times
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I used to be a lawyer and worked in project finance.
@@ -2082,6 +2084,7 @@
   categories:
     - education leaver
     - acast
+    - financial times
   blog_link: https://medium.com/@_simon__says
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2173,6 +2176,7 @@
     - mum
     - female
     - acast
+    - mergermarket
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a full time Mum for 7 years and before that I had my own franchise business.
@@ -2341,6 +2345,7 @@
     - career changer
     - education leaver
     - acast
+    - deloitte digital
   blog_link: http://georgemcgowan.com/
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2410,6 +2415,7 @@
     - career changer
     - female
     - acast
+    - deloitte digital
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was managing the marketing functions for a legal recruitment company.
@@ -2604,6 +2610,7 @@
   categories:
     - education leaver
     - female
+    - deloitte digital
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was at the University of York where I studied Environmental Geography.
@@ -2666,6 +2673,7 @@
   categories:
     - career changer
     - female
+    - mergermarket
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an Online Marketing Manager for multi-million dollar businesses.
@@ -2763,6 +2771,7 @@
   blog_link: http://initialdigital.com/
   categories:
     - career changer
+    - financial times
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was working in Commercial Management in the airline industry.
@@ -2798,6 +2807,7 @@
   categories:
     - career changer
     - female
+    - deloitte digital
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I trained as a historian of gender, education and technology.
@@ -2855,6 +2865,7 @@
   blog_link: https://matteomanzo.github.io/
   categories:
     - career changer
+    - compare the market
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in hotels around the world as Bartender.
@@ -2915,12 +2926,13 @@
 - first_name: Zeeshan
   last_name: Rasool
   image: zeeshan1.jpg
-  summary: Masters in Financial Economics to Junior Developer at Delloite Digital
+  summary: Masters in Financial Economics to Junior Developer at Deloitte Digital
   testimonial: Intense, awesome, totally worth it!
   cohort_month: December
   cohort_year: 2014
   categories:
     - education leaver
+    - deloitte digital
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I had just completed my Masters in Financial Economics.
@@ -2984,6 +2996,7 @@
   categories:
       - education leaver
       - female
+      - mergermarket
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Finishing my MSc in Social Policy at the LSE, trying to work in behavioural sciences and policy research.
@@ -3450,6 +3463,7 @@
   cohort_year: 2015
   categories:
     - career changer
+    - mergermarket
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Marketing Executive at an ICT training company.

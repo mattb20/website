@@ -1,17 +1,16 @@
-- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
-- @hide_from_google = true
-
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn how to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %h1 Learn to code in 12 weeks
-      %p Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job as a developer.
-      %p Can’t wait to get started? Sign up to our newsletter and get a free e-book: Learn Ruby in 15 minutes.
+      %h4.leader Have you always wanted to learn how to code?
+      %h1
+      %h1 Come and join our onsite coding course
+      %h1
+      %P Our 12 week coding course in the heart of London will teach you the principles of software craftsmanship and with the help of our careers team, you'll soon be starting your career as developer.
+      %p Sign up to receive your free e-book and learn more!
     = partial :"email-capture"
 
-
-= partial :"full_graduates", locals: { category: "acast" }
-
+= partial :"full_graduates"
 
 = partial :"meet_our_graduates"
 
@@ -22,10 +21,10 @@
         .copy.copy--right
           %h4.leader A World-Leading
           %h2 Curriculum
-          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a junior developer.
+          %p We're passionate about education and software development. Our onsite course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace and to equip you with the skills you need to quickly find a job as a junior developer.
           .button-row.shift-to-bottom
             %p
-              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
+              = link_to "Our Curriculum", "/curriculum.html", class: "button button--horizontal"
       .column
         .slider
           .slide
@@ -52,18 +51,14 @@
         .copy.copy--right
           %h4.leader A World-Leading
           %h2 Curriculum
-          %p We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.
+          %p We're passionate about education and software development. Our online course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.
           .button-row
             %p
-              = link_to "Our Education Philosophy", "/curriculum.html", class: "button button--horizontal"
-
-%hr
-
-= partial :"benefits_table"
+              = link_to "Our Curriculum", "/curriculum.html", class: "button button--horizontal"
 
 = partial :"primary_call_to_action"
 
 / Analytics event for landing page
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'Podcast'});
-  analytics.identify({'Podcast': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Onsite'});
+  analytics.identify({'Onsite': true});

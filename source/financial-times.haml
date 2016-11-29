@@ -1,0 +1,21 @@
+- description "Makers Academy graduates come from all sorts of backgrounds. The diversity of our students has proved one thing - no matter your background, you can learn to code in 12 weeks and make a career change if you really want it."
+- title "Graduates"
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")})"}
+  .container
+    .centered-row
+      = link_to(image_tag("hiring-partners/FT.png", class: "show-for-mobile"), "https://www.ft.com/?edition=uk", class: "image image--centered small-padding-top")
+    .centered-row
+      %p "The ratio of good candidates is 10x better with Makers Academy, versus recruitment agencies."
+      %p
+        Matt Chadburn, Principal Engineer,
+        %em Financial Times
+
+= partial :"full_graduates", locals: {category: "financial times" }
+
+= partial :"primary_call_to_action"
+
+/ Analytics event for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Financial Times'});
+  analytics.identify({'Financial Times': true});
