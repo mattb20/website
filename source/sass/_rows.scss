@@ -17,8 +17,9 @@
   }
 
   p {
+    @include body-text(center);
     margin: 0 auto ma-spacing(1);
-    max-width: em(580);
+    max-width: $paragraph-max-width;
     &:last-child {
       margin-bottom: 0;
     }
@@ -33,6 +34,9 @@
 
 .button-row {
   @include ma-row;
+  p {
+    text-align: center;
+  }
   #{$all-button-inputs}, .button, .button--horizontal, .button--vertical {
     display: block;
     margin: 0 auto;

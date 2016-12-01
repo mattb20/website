@@ -110,3 +110,24 @@
     background-color: $light-gray;
   }
 }
+
+@mixin body-text($alignment: left) {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  letter-spacing: normal;
+  text-align: $alignment;
+  font-weight: $base-font-weight;
+  text-transform: none;
+}
+
+@mixin tiny-header($alignment: center) {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: $small-font-size;
+  text-align: $alignment;
+  font-weight: $base-font-weight;
+
+  @include media($mobile) {
+    font-size: (3 * $small-font-size) / 4;
+  }
+}
