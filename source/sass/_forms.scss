@@ -101,7 +101,8 @@ input[type="submit"] {
 }
 
 select {
-  margin-bottom: ma-spacing(1);
+  display: block;
+  margin: 0 auto ma-spacing(1);
   max-width: 100%;
   width: auto;
 }
@@ -159,6 +160,21 @@ form.alt {
       text-align: center;
     }
   }
+}
+
+.radio-row {
+  @extend .input-row;
+
+  &--centered {
+    @extend .input-row--centered;
+  }
+}
+
+// last-of-type isn't selecting radio-rows
+// so we must apply some padding when they
+// sit directly next to submit button rows
+.radio-row + .button-row {
+  padding-top: ma-spacing(1);
 }
 
 form {
