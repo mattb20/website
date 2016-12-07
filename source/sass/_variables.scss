@@ -3,6 +3,9 @@ $futura: "futura-pt", Futura, $helvetica;
 $base-font-family: $futura;
 $heading-font-family: $base-font-family;
 $base-font-size: 18px;
+$small-font-size: $base-font-size / $modular-scale-ratio;
+$paragraph-max-width: rem(580);
+$base-font-weight: 400;
 
 // Vertical rhythm set-up
 $em-base: $base-font-size;

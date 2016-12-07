@@ -3,6 +3,10 @@
   @include media($tablet-down) {
     display: none;
   }
+
+  * {
+    text-align: center;
+  }
 }
 
 .comparison-table--mobile {
@@ -11,6 +15,10 @@
     display: table;
     border-collapse: collapse;
     margin-bottom: -1 * ma-spacing(2);
+  }
+
+  .comparison-key {
+    @include tiny-header;
   }
 }
 
@@ -25,6 +33,9 @@
 
 .comparison-wrap--keys {
   box-shadow: none;
+  .comparison-key {
+    @include tiny-header;
+  }
 }
 
 .comparison-wrap--values {

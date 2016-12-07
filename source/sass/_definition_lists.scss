@@ -45,6 +45,10 @@
   .definition {
     text-align: left;
 
+    p {
+      text-align: left;
+    }
+
     &:last-child {
       margin-bottom: modular-scale(3);
     }

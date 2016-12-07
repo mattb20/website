@@ -32,10 +32,10 @@
     }
     p.date {
       color: transparentize($base-font-color, 0.6);
-      font-size: modular-scale(-1);
+      @include tiny-header;
     }
     p {
-      max-width: em(580);
+      max-width: $paragraph-max-width;
       font-weight: 400;
       letter-spacing: 1;
       span {
@@ -55,7 +55,7 @@
       width: 3em;
     }
     p.author {
-      font-style: italic;
+      @include tiny-header;
     }
   }
   & + .container > .button-row {
