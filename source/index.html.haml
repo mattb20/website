@@ -40,4 +40,6 @@
 
 / Analytics event for visiting homepage
 :javascript
-  analytics.track('Viewed homepage');
+  analytics.track('Viewed homepage', {
+  nonInteraction: 1
+});
