@@ -99,13 +99,15 @@ redirect "learn-to-code-5.html", to: "index.html"
 redirect "faq.html", to: "about-us.html"
 redirect "employers-startups.html", to: "startups.html"
 redirect "diversity.html", to: "employers/diversity.html"
-redirect "employers.html", to: "http://employers.makersacademy.com"
-redirect "employers/cities.html", to: "http://employers.makersacademy.com"
-redirect "employers/diversity.html", to: "http://employers.makersacademy.com"
-redirect "employers/sponsors.html", to: "http://employers.makersacademy.com"
-redirect "employers/thank-you.html", to: "http://employers.makersacademy.com/request-a-call/success"
-redirect "employers/users.html", to: "http://employers.makersacademy.com"
-redirect "employers/contact.html", to: "http://employers.makersacademy.com/request-a-call"
+
+# Uncomment to redirect all /employers routes to employers. subdomain
+# redirect "employers.html", to: "http://employers.makersacademy.com"
+# redirect "employers/cities.html", to: "http://employers.makersacademy.com"
+# redirect "employers/diversity.html", to: "http://employers.makersacademy.com"
+# redirect "employers/sponsors.html", to: "http://employers.makersacademy.com"
+# redirect "employers/thank-you.html", to: "http://employers.makersacademy.com/request-a-call/success"
+# redirect "employers/users.html", to: "http://employers.makersacademy.com"
+# redirect "employers/contact.html", to: "http://employers.makersacademy.com/request-a-call"
 
 configure :development do
   activate :livereload
