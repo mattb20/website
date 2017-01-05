@@ -4,11 +4,10 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/pointingscreen.jpg")});"}
   .container
     .centered-row
-      %h4.leader Hire brilliant
-      %h1 junior developers
-      %p Sick of hearing about the talent shortage?
+      %h4.leader Work with our awesome
+      %h1 hiring partners
       .button-row
-        = link_to "Start Hiring", "/employers/contact.html", class: "button button--horizontal"
+        = link_to "Apply now", "/apply/", class: "button button--horizontal"
       .five-width-row.small-padding-top
         .column
           = image_tag "hiring-partners/ThoughtWorks.png", class:"image--medium"
@@ -20,48 +19,23 @@
           = image_tag "hiring-partners/Deloitte-Digital.png", class:"image--medium"
         .column
           = image_tag "hiring-partners/Sky.png", class:"image--medium"
-      .five-width-row
-        .column
-          = image_tag "hiring-partners/pivotal-labs.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Shutl.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/just-giving.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/TechStars.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/MS-labs.png", class:"image--medium"
 
 %section
   .container
     .centered-row
-      %h2 Recruitment is hard
-      %h4.subheader we do all the work for you
+      %h2 We'll help you get the job you love
     .three-width-row
       .column
-        %h5 We Select
-        %p You have to be amazing to study at Makers Academy. We have a tough selection process, that tests for determination and technical aptitude, and accepts less than 10% of applicants. We find exceptional people for you, and then train them.
+        %h3 £30-35k
+        %p The average salary for a Makers Academy graduate is £30-35k. Compare that to the starting salary for a UK University graduate, which ranges between £18-£24k. Not only that, you’ll have great growth prospects and could be working at one of our hiring partners.
       .column
-        %h5 We Train
-        %p Our students spend 10-14 hours a day, 5-7 days a week, learning to be developers. Their code is clean, maintainable and extendable. They're advocates of TDD, pair programming, SOLID and Agile principles. They've learned to build software in teams.
+        %h3 40 days
+        %p Once you've graduated, we want to help in any way that we can - be that helping a student find their first (or second or third) position or just merely providing advice. We're committed to fully supporting you until you're happy in your new job as a developer.
       .column
-        %h5 We Match
-        %p You get a shortlist of candidates matched (by our engineers) to your needs, based on the in-depth knowledge we have about their commercial background, technical ability, motivations and characteristics - we've spent three months with them.
+        %h3 300+
+        %p We work with over 300 companies, allowing you to find your perfect job. Our careers team will look after all post course arrangements and ensure you get the perfect job. We offer interview help, CV reviews and intro's to our hiring partners.
 
-%section.backgrounded
-  .container
-    .centered-row
-      %h2 How does it work?
-    .three-width-row
-      .column
-        %h4 1. Post a Job
-        %p Complete our job description, which is tailored to the specific needs of the Makers Academy talent pool. We'll use it to create your shortlist.
-      .column
-        %h4 2. Meet
-        %p Once we've done our matching, you can follow your usual process, whether that's a tech test, a pairing interview or drinks at your place.
-      .column
-        %h4 3. Hire
-        %p Most of our candidates get multiple offers and are hired within weeks of graduating. Make an attractive offer and secure the top talent.
+= partial :"developer_hero"
 
 %section.half-slider
   .container
@@ -75,47 +49,15 @@
       .column
         = partial :"preview_graduates"
 
-%section.backgrounded
-  .container
-    .four-width-row.row-with-borders
-      .column
-        %h2.statistic 45
-        %h4.subheader Developers every 4 weeks
-      .column
-        %h2.statistic 28
-        %h4.subheader Average Age
-      .column
-        %h2.statistic 35%
-        %h4.subheader Female Engineers
-      .column
-        %h2.statistic 800+
-        %h4.subheader hours of coding
-
-
-= partial :"employer_testimonials"
-
-= partial :"hiring_partner_hero"
+= partial :"alumni_videos"
 
 %section
   .container
-    .three-width-row
-      .column
-        %h4 How much does it cost?
-        %p Everything you've read above, we do for free: understanding your needs, matching you with our candidates, building your employer brand and helping arrange interviews and tech tests.
-        %p You'll only pay a fee if you find someone you like - and then it's £5,000.
-      .column
-        %h4 What's the training?
-        %p Makers Academy students learn how to be professional software developers - we use Ruby and JavaScript as training languages, but the important stuff they learn are behaviours, attitudes and methodologies.
-        %p
-        Read our
-        = link_to "curriculum", "/curriculum.html"
-        in detail.
-      .column
-        %h4 Where are you based?
-        %p Our software developers are mostly in London and Manchester, with many in other UK cities and parts of Europe and USA. However, we’re growing fast and would love to chat about your location.
-        %p
-        Read about our
-        = link_to "graduates", "/graduates.html"
-        working as software engineers at leading tech firms all over the world.
+    .centered-row
+      %h3 Are you a company
+      %p Looking to hire our awesome developers?
+      .button-row
+        = link_to "Find out more", "http://employers.makersacademy.com/", class: "button button--horizontal"
+
 :javascript
   analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Main 2.0 (Hired.com style)'});
