@@ -11,14 +11,6 @@
 #
 # * Another bullet - note an extra spacing between each bullet too
 #
-- category_name: Closing for Christmas
-  faqs:
-    - question: Are you closed over Xmas?
-      answer: "Yes. Our last day in the office is 16 December 2016. After resting, feeding and being watered; our team will be back in action from 03 January 2017"
-    - question: Are you doing interviews over the holidays?
-      answer: "No. We're closed for interviews so if you need to get a place on the next course, please remember to book this in before we close."
-    - question: Will you be running the PreCourse over the holidays?
-      answer: "We've accommodated extra time for the Janury cohorts to do the PreCourse. It's the holidays so you'll want to spend time with your family, etc. However please do try to keep coding so we can make sure you're ready to go on Day 1"
 - category_name: More About Makers
   faqs:
     - question: Why is it called Makers Academy?
@@ -48,7 +40,7 @@
       answer: "While we don't set specific limits on how many students we accept, typically about 10% of applicants end up studying at Makers Academy. We have a rigorous selection process, designed to find the most capable, driven and passionate people, and we aren't afraid to turn people away if we don't think they have what it takes to succeed at Makers Academy. It's not called \"Oxbridge meets the Marines, but for Developers\" for nothing!"
 
     - question: What does the application process look like?
-      answer: "After submitting your online application, we'll invite you for an interview. In the interview we'll ask a few questions and do a bit of simple pair programming. You have no need to be afraid - we're not testing to see if you can already code. We're testing to see how you handle stressful situations where you're navigating the unknown. It'll be fun - we promise!"
+      answer: "After submitting your online application, you'll be asked to book a call with us. Following this if we think you're at the stage to come in we'll ask you to come in for a technical interview. In the interview we'll ask a few questions and do a bit of pair programming. You have no need to be afraid - we're not testing to see if you can already code. We're testing to see how you handle situations where you're navigating the unknown. It'll be fun - we promise!"
 
     - question: What can I do to improve my chances of getting a place on one of your courses?
       answer: "In truth, there isn't a huge amount you can do to improve your chances at the interview stage - other than following the instructions we give you and studying the materials that we recommend. It's designed to find people who have natural reasoning skills, bags of drive and clear passion for learning to code. We're not testing whether you've memorised syntax - we're testing whether you can follow instructions and have the passion to learn some basic code without our support. The following articles will help you develop the sorts of behaviours and skills we look for in a candidate:
@@ -78,19 +70,16 @@
       answer: "The interview is designed to test how you think, rather than what you know, but going through ‘Learn to Program’ by Chris Pine or the ‘Ruby Essentials’ course on <a href='http://www.lynda.com/' target='_blank'>lynda.com</a> will put you in a great position when it comes to the pair programming part of the interview."
 
     - question: Do I need to know how to program already?
-      answer: "No. All you need is passion and the ability to unlearn the word 'quit'."
+      answer: "No. All you need is good problem solving skills and the desire to want to change your career."
 
     - question: If I already know how to program a little, is Makers Academy for me?
       answer: "Absolutely. Makers Academy is more than just learning how to program — it's learning how to be a developer. It's learning how to build your own prototypes. It's learning where to go to find answers. It's learning about what the atmosphere of working in a startup is really like. It's learning to be a Maker from some of the best Makers in the world."
 
     - question: Do you consider applications from outside the EU?
-      answer: "Absolutely. We’ve had students from all over Europe, the USA, Singapore, Hong Kong, South Africa, Pakistan, Australia, New Zealand and even Venezuela."
-
-    - question: What's the deal for International Students?
-      answer: "We welcome International Students. We've had people join us from France, Germany, The USA, even South Africa. The course cost is the same wherever you're from and you apply in the normal way. We are not legally able to assist or advise on visa related issues, so we would advise you to obtain the services of a professional visa organisation."
+      answer: "Absolutely. We’ve had students from all over Europe, the USA, Singapore, Hong Kong, South Africa, Pakistan, Australia, New Zealand and even Venezuela. The course cost is the same wherever you're from and you apply in the normal way. We are not legally able to assist or advise on visa related issues, so we would advise you to obtain the services of a professional visa organisation."
 
     - question: How much maths do I need to know?
-      answer: "It’s a bit of a cliche that coding is all about Maths (Computer Science is Maths heavy... Writing code, not so much!). In reality, anything above If/Else statements and simple AND/OR logic is done largely by the computer. It’s more important that you have the right sort of mentality, that you’re comfortable working in ‘the unknown’ and that you aren’t afraid to fail. So long as you have a rudimentary understanding of basic maths, you’ve got everything you need."
+      answer: "It’s a bit of a cliche that coding is all about Maths (Computer Science is maths heavy... writing code, not so much!). In reality, anything above If/Else statements and simple AND/OR logic is done largely by the computer. It’s more important that you have the right sort of mentality, that you’re comfortable working in ‘the unknown’ and that you aren’t afraid to fail. So long as you have a rudimentary understanding of basic maths, you’ve got everything you need."
 
     - question: What if I have learning difficulties?
       answer: "There is a huge spectrum of learning difficulties, and we would never generalize to say that any learning difficulty would make our course unattainable. We've had a number of students with dyslexia do very well on the course, but please feel free to get in touch to discuss your personal requirements. While we're not experts in this field, we will do everything we can to support anyone who is serious about learning to code."
@@ -107,10 +96,10 @@
       answer: "Currently we only offer our full-time course because we don't believe we could deliver a world-class result on a part-time basis - yet. One of the main problems people have in teaching themselves to code is the inconsistency in learning. The 12-week program provides full immersion to overcome this barrier and we're not yet certain how we could deliver that with a part-time regiment...but we're working on it. Stay tuned!"
 
     - question: Do I need to bring my own laptop?
-      answer: "No. Makers Academy will provide all of the equipment needed. That being said, feel free to bring your own laptop if you'd like as long as it's a Mac or a Linux (the software you'll be using is really hard to use on Microsoft Windows)."
+      answer: "You can borrow a laptop from Makers Academy for the duration of the course. That being said, feel free to bring your own laptop if you'd like as long as it's a Mac or running Linux (the software you'll be using is really hard to use on Microsoft Windows)."
 
     - question: Do you have to commit to being in London full-time for 12 weeks?
-      answer: "By far the best way to learn to code in such a short amount of time is to live and breathe it. You would need to attend Makers Academy from 9am-6pm, Monday-Friday, for the 12 weeks that you're studying. Bear in mind that this is a minimum requirement - the more time you give to the course the better the results will be! If you absolutely cannot make it to London, we have a new full-time online program that mirrors our off-line course."
+      answer: "By far the best way to learn to code in such a short amount of time is to live and breathe it. You would need to attend Makers Academy atleast from 9am-6pm, Monday-Friday, for the 12 weeks that you're studying. Bear in mind that this is a minimum requirement - the more time you give to the course the better the results will be! If you absolutely cannot make it to London, we have a new <a href='http://www.makersacademy.com/remote' target='_blank' >full-time online program</a> that mirrors our off-line course."
 
     - question: What's the schedule and the learning atmosphere?
       answer: "Students will be at Makers Academy from 9am until 6pm (although many stay well into the evening), Monday through Friday for the duration of the 12 week course. We use a combination of self-study, class-based instruction, hands-on exercises and pair programming to give you a well-rounded overview of how to apply each new concept."
@@ -119,7 +108,7 @@
       answer: "Our agile approach means we improve our course and curriculum with each cohort, but you can get a flavour of the structure from our <a href='http://www.makersacademy.com/curriculum' target='_blank'>curriculum</a>."
 
     - question: Is it really possible to learn to code in 12 weeks?
-      answer: "The fact that we’ve had over 600 students graduate from Makers Academy, and our track record in getting students hired at companies like BSkyB, Pivotal Labs, ThoughtWorks and many other top tech companies mean that YES, it is possible to learn to code in 12 Weeks. Make no mistake - it will be tough. It will take hard work and dedication, but if you really want it, it’s there to be had."
+      answer: "The fact that we’ve had over 700 students graduate from Makers Academy, and our track record in getting students hired at companies like BSkyB, Pivotal Labs, ThoughtWorks and many other top tech companies mean that YES, it is possible to learn to code in 12 Weeks. Make no mistake - it will be tough. It will take hard work and dedication, but if you really want it, it’s there to be had."
 
     - question: Why does the course focus on Ruby on Rails?
       answer: "The course doesn’t just focus on Ruby on Rails. You'll learn a number of languages such as Ruby, HTML, CSS, JavaScript, jQuery and more, but you're right in saying that you will leave Makers Academy with Ruby as your strongest language. However, we focus much of our efforts on teaching you the skills to think like a Developer (note the capital D!), and our graduates have gone on to work in a number of programming languages after leaving Makers Academy."
@@ -137,7 +126,7 @@
       answer: "Our Net Promoter Score (as decided by feedback from all students over the past year) is 93. The highest you can get is a 100, and anything above 50 is considered to be ‘Excellent’."
 
     - question: What is the drop out rate/failure of the course?
-      answer: "Out of around 600 students so far we have had around 25 drop out, for various reasons. We have an application/interview process at Makers Academy that is designed to only accept people who are serious about learning to code, but we can’t always get it right!"
+      answer: "Out of around 700 students so far we have had around 25 drop out, for various reasons. We have an application/interview process at Makers Academy that is designed to only accept people who are serious about learning to code, but we can’t always get it right!"
 
 - category_name: More about Makers Academy Remote
   faqs:
@@ -233,7 +222,7 @@
       answer: "We offer scholarships from time to time, usually in partnership with another company. By far the best way to hear about these things is by signing up to our newsletter and keeping an eye out for any new opportunities."
 
     - question: Can I finance my deposit?
-      answer: "No. You will need to pay for your course deposit before being able to secure finance with any of our partners. We have preferential finance options in place for students of Makers Academy, so you will need to have a secured place on the course by paying your deposit before we can confirm your registration to PCDL and Future Finance. "
+      answer: "No. You will need to pay for your course deposit before being able to secure finance with any of our partners. We have preferential finance options in place for students of Makers Academy, so you will need to have a secured place on the course by paying your deposit before we can confirm your registration to PCDL and Future Finance."
 
 - category_name: Makers Academy PreCourse
   faqs:
