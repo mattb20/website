@@ -13,7 +13,7 @@
   blurb: Save for a house with your friends - and get rewarded with points to spend on a virtual house
   code_link: https://github.com/LawrenceHunt/saveanation
   live_link: https://saveanation.herokuapp.com/feed
-  image: saveanation.jpg
+  image: savenation.jpg
 
 - name: ChoreMatick
   team: Dagmara Szkurlat, Kath Pobee-Norris, Chris Lawrence, Michelle Epstein
@@ -28,7 +28,7 @@
   cohort: September 2016
   blurb: iOS app where you draw a given object which is sent to other users for them to guess what it is.
   code_link: http://github.com/rgollancz/drawApp
-  live_link: ttps://www.youtube.com/watch?v=LcoMpC1xh1c
+  live_link: https://www.youtube.com/watch?v=LcoMpC1xh1c
   image: drawsome.jpg
 
 - name: TriviaSmack
