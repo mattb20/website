@@ -30,6 +30,37 @@
 #     - question: Sum up your Makers Academy experience
 #       answer:
 
+- first_name: Merve
+  last_name: Taner
+  image: Merve.jpg
+  summary: Pharmaceutical account manager to Junior Developer at Spabreaks
+  testimonial: Makers Academy was fun, full of friendships and learning while pushing myself beyond my limits.
+  cohort_month: August
+  cohort_year: 2016
+  blog_link: https://medium.com/@merve.taner
+  categories:
+    - female
+    - career-changer
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: I was working as an account manager in the Pharmaceutical industry
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: It was recommended to me by friends because I wanted to start my own company. I wanted the skills to do more and really enjoyed coding so I decided to become developer.
+   - question: What did you find difficult on the course?
+     answer: I found avoiding the imposter syndrome difficult. I always found I compare myself to other people who are brilliant on the course. Once you get over that and stop comparing yourself you become a better coder.
+   - question: What was your end of cohort project?
+     answer: We created a search engine using Elixir.
+   - question: How has your life changed since learning to code?
+     answer: My life changed for the better. I'm more active and I enjoy learning and reading more about code. I enjoy what I do. I have a more positive outlook to life.
+   - question: What advice would you give to people thinking of changing career?
+     answer: If you are not happy with your current position then you should take the risk and go for it because it's definitely worth it.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: It's actually not that not compared to what you get back. It's an investment. Makers Academy changes your life in just 4 months, giving you a lifelong skill and brand new career. If you look at it from that point of view - £8000 is a drop in the ocean.
+   - question: What was your biggest fear before joining MA and how do you feel about it now?
+     answer: Not knowing if I would enjoy coding or be good at it. Or if I would be able to get a job. The fear of not being able to get a job was there and I ended up getting a job within a week after graduation.
+   - question: Sum up your Makers Academy experience
+     answer: Fun. Friendships and full of learning and pushing myself beyond my limits.
+
 - first_name: Van
   last_name: Le
   image: Van-Le.jpg
@@ -367,7 +398,7 @@
   last_name: Carney
   image: Hannahc.jpg
   summary: 3D Designer to Junior Developer at Play Consulting
-  testimonial:
+  testimonial: "I've finally found a job I love"
   cohort_month: March
   cohort_year: 2015
   categories:
