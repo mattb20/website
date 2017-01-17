@@ -29,6 +29,34 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
+- first_name: Daniel
+  last_name: Ortiz
+  image: daniel-oritz.jpg
+  summary: Banker to Junior Developer at ThoughtWorks Spain
+  testimonial: I'm now part of a community where there is no upper limit in terms of growth
+  cohort_month: July
+  cohort_year: 2016
+  categories:
+    - career changer
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: I was working in a large national bank in Spain.
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: I learnt about coding bootcamps through Reddit, at first I thought it was a thing only in America, but as I started to research more I found out about other options in Europe. Among all the choices in Europe, the reviews about Makers Academy were much more positive than the rest, both online and from graduates, so the choice became obvious.
+   - question: What did you find difficult on the course?
+     answer: I think the most difficult part of the course is the emotional journey you go on. Some people are naturally ahead but people do struggle through it. Keeping your sense of self-worth stable for a long time is quite tricky as there are other aspects that can make or break your experience at MA, such as the support you get from your social circle.
+   - question: What was your end of cohort project?
+     answer: It was a super fun learning platform to master Regular Expressions. It has a fun theme where you teach Edward Snowden how to hack the NSA through the power of you code.
+   - question: How has your life changed since learning to code?
+     answer: First of all, I'm now in a career where there is a clear progression, and I can trust it to go only upwards.  Also, for the first time in my life I have the certainty that my work actually matters. I feel that I'm now part of a community where there is no upper limit in terms of growth, and that is an incredible humble feeling.
+   - question: What advice would you give to people thinking of changing career?
+     answer: To set aside any prejudice about starting a career in programming. For a long time I thought coding wasn't for me for the mere fact that it didn't fit with my identity as a psychologist. Some people think that you need certain traits to be a good developer, I'm ashamed to say that once upon a time I was among that group, and it's absolute rubbish. There may be aspects about coding that you may not like, but at the end of the day what you're doing is solving a problem, and I believe human beings are problem-solvers by nature, that is an aspect that resonates with every single person.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: For the return of investment I find the amount to be a pittance. Especially in terms of prices in London, there are programs out there with similar prices but have don't have the same results.
+   - question: What was your biggest fear before joining MA and how do you feel about it now?
+     answer: I didn't have much support when I decided to join Makers, so for me my biggest fear was not being able to land a job after the program. I wanted to prove that I could do it.
+   - question: Sum up your Makers Academy experience
+     answer: A rollercoaster, it may have ups and downs, but in retrospect it is a very interesting experience to have. I believe a good frame of mind is great towards your learning experience.
 
 - first_name: Merve
   last_name: Taner
