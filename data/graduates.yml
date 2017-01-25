@@ -29,6 +29,37 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
+
+- first_name: Sophie
+  last_name: Gill
+  image: sophieg.jpg
+  summary: Project Manager to Junior Developer at ANDigital
+  testimonial: Makers Academy was intense and lifechanging
+  cohort_month: September
+  cohort_year: 2016
+  categories:
+    - female
+    - career-changer
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: I was working as an IT project manager.
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: Someone mentioned the name and I decided to apply because Makers Academy teaches TDD and I liked their offices.
+   - question: What did you find difficult on the course?
+     answer: I found grasping the overarching concepts quite hard like software design principles.
+   - question: What was your end of cohort project?
+     answer: QuizBuzz - A multi-player quiz game. We coded the front end in ReactJS and back end Elixir, both languages that we didn't learn on the course.
+   - question: How has your life changed since learning to code?
+     answer: I feel like I have more freedom. I can do projects I've wanted to for years and I can go work anywhere in the world.
+   - question: What advice would you give to people thinking of changing career?
+     answer: It's really hard work so be sure you really want to do it! Be prepared to take the paycut. I was always earning quite well but I was never happy so I was leaving jobs often. A big part of the change has been about having a more stable career path.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: Compared to prices of other professional training courses it's cheap. You are not just paying for education but you're paying for space and community. It's not just 12 weeks, it goes way beyond that.
+   - question: What was your biggest fear before joining MA and how do you feel about it now?
+     answer: I was really afraid that I would be the oldest woman. I would feel a disconnect with my cohort, I was the oldest woman but the cohort had a broader age range and it didn't matter.
+   - question: Sum up your Makers Academy experience
+     answer: Intense and life changing.
+
 - first_name: Daniel
   last_name: Ortiz
   image: daniel-oritz.jpg
