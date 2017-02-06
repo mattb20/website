@@ -32,7 +32,7 @@
 
 - first_name: Amaal
   last_name: Ali
-  image: amaalali.jpg
+  image: amaalal.jpg 
   summary: Assistant Lecturer to Junior Developer at Sage UK
   testimonial: An amazing transformative experience that has taught me how to be a developer
   cohort_month: Remote November
@@ -246,7 +246,7 @@
   categories:
     - female
     - north
-    - podcast 
+    - podcast
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in criminal law for one of the largest criminal defence firms in the country.
