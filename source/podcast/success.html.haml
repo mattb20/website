@@ -1,0 +1,15 @@
+=javascript_include_tag "track-form/submit-to-analytics"
+:javascript
+  function submitFormDataToAnalytics (formData) {
+    analytics.alias(formData.email);
+    analytics.identify(formData.email, formData);
+    analytics.track("Submitted podcast form");
+  }
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/riz-and-tom.jpg")});"}
+  .container
+    .centered-row
+      .logo
+        %a{href: "http://www.makersacademy.com"}
+          %img{src: image_path("logo/ma-white.png"), class: "logo"}
+      %h1 Thank you!
+      %p Check your email for the ebook! If you haven't received anything then email <a href="mailto:marketing@makersacademy.com">marketing@makersacademy.com</a>
