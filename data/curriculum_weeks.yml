@@ -36,7 +36,7 @@
 - title: Week 7
   image: advanced-js.png
   summary: Further JavaScript
-  blurb: "You'll come back to JavaScript this week by building a single page application - no fancy frameworks allowed! Students will demystify the inner workings of JavaScript frameworks as they build everything from the testing platform to the front end architecture of their application in pure JavaScript. Your careers session this week will around how to start your job hunt and talking to employers."
+  blurb: "You'll come back to JavaScript this week by building a JavaScript testing framework - no fancy frameworks allowed! Students will demystify the inner workings of JavaScript frameworks as they build everything from the testing platform to the front end architecture of their application in pure JavaScript. Your careers session this week will around how to start your job hunt and talking to employers."
 
 - title: Week 8
   image: rails.png
