@@ -191,14 +191,6 @@
   live_link: http://housematey.herokuapp.com/
   image: housemates.jpg
 
-- name: BandsNearU
-  team: Andrew Dowell, Pablo Dominguez, Rob Youngman, Tom Barnes
-  cohort: October 2015
-  blurb: A Location based music discovery app
-  code_link: https://github.com/youngmanr/original_sound_track
-  live_link: https://bandsnearu.herokuapp.com/
-  image: bandsnearu.jpg
-
 - name: DrWow
   team: Usman, Catherine, Philip and Alex
   cohort: September 2015
