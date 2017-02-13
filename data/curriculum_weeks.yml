@@ -1,7 +1,7 @@
 - title: Precourse
   summary: Everything you need to get ready for the main course
   image: precourse.png
-  blurb: "In the four weeks preceding the full-time course, you are required to complete a mandatory, part-time PreCourse from home. This will ensure that you get to the required level of coding knowledge before starting full time. In the first week, you focus on the foundations: first, the command-line, which is key to navigating around your computer; second, you'll tackle version control using Git and Github. This is followed by learning Ruby syntax through challenges over 3 weeks, culminating with your CV being built for the start of your coding journey. The PreCourse requires at least 20 hours per week to complete successfully, but the more time you can spend on the PreCourse, the better."
+  blurb: "In the four weeks preceding the full-time course, you are required to complete a mandatory, part-time PreCourse from home. This will ensure that you get to the required level of coding knowledge before starting full time. In the first week, you focus on the foundations: first, the command-line, which is key to navigating around your computer; second, you'll tackle version control using Git and Github. This is followed by learning Ruby syntax through challenges over 3 weeks, culminating in building your Github CV for the start of your coding journey. The PreCourse requires at least 20 hours per week to complete successfully, but the more time you can spend on the PreCourse, the better."
 
 - title: Week 1
   image: tdd.png
@@ -31,12 +31,12 @@
 - title: Week 6
   image: lab.png
   summary: Project week 1
-  blurb: "This week is all about teamwork as you're introduced to some techniques and practices common in an Agile or XP workplace. Working on a set project in small groups, you'll learn to master Git workflow, QA, Standups/Scrums, Kanban and pair programming in a team environment. This is also a great opportunity to practice and consolidate the skills and concepts learned in previous weeks. This week you'll also start working with the careers team to plan your job hunting strategy."
+  blurb: "This week is all about teamwork as you're introduced to some techniques and practices common in an Agile or XP workplace. Working on a set project in small groups, you'll learn to master Git workflow, QA, Standups/Scrums, Kanban and pair programming in a team environment. This is also a great opportunity to practice and consolidate the skills and concepts learned in previous weeks. This week you'll also start working with the careers team so you can start planning your job hunting strategy."
 
 - title: Week 7
   image: advanced-js.png
   summary: Further JavaScript
-  blurb: "You'll come back to JavaScript this week by building a JavaScript testing framework - no fancy frameworks allowed! Students will demystify the inner workings of JavaScript frameworks as they build everything from the testing platform to the front end architecture of their application in pure JavaScript. Your careers session this week will around how to start your job hunt and talking to employers."
+  blurb: "You'll come back to JavaScript this week by building a JavaScript testing framework - no fancy frameworks allowed! Students will demystify the inner workings of JavaScript frameworks as they build everything from the testing platform to the front end architecture of their application in pure JavaScript. Your careers session this week will be around how to sell your experience to potential employers."
 
 - title: Week 8
   image: rails.png
@@ -50,12 +50,12 @@
 
 - title: Week 10
   summary: Individual Technical Challenges
-  blurb: "This week you get back to pure object oriented design with a series of individual challenges designed to stretch your understanding of techniques for OOD. This week will reinforce behaviours like testing first, using enough design upfront and using the XP values to guide your behaviour as a developer. The challenges this week will be undertaken individually, and are designed to mimic technical tests commonly used by employers as part of the recruitment process. You'll also start practicing technical interviews and networking best practices."
+  blurb: "This week you get back to pure object oriented design with a series of individual challenges designed to stretch your understanding of techniques for OOD. This week will reinforce behaviours like testing first, using enough design upfront and using the XP values to guide your behaviour as a developer. The challenges this week will be undertaken individually, and are designed to mimic technical tests commonly used by employers as part of the recruitment process. You'll also start practicing technical interviews and networking."
 
 - title: Week 11
   image: final-projects.png
   summary: The Final Project
-  blurb: "By now you are confident Junior Developer. To put your skills to the test, you'll build a final project that shows how far you've come since you started. This week a fewer new topics are introduced and instead you focus on building the first version of you final project."
+  blurb: "By now you are confident Junior Developer. To put your skills to the test, you'll build a final project that shows how far you've come since you started. This week a fewer new topics are introduced and instead you focus on building the first version of your final project."
 
 - title: Week 12
   image: graduation.png
