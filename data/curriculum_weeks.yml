@@ -1,63 +1,63 @@
 - title: Precourse
   summary: Everything you need to get ready for the main course
   image: precourse.png
-  blurb: "In the four weeks preceding the full-time course, all students are required to complete a (very important!) part-time PreCourse, which ensures that all of our students get to the required basic level of competence when they enrol at Makers Academy. In the first week, we focus on the foundations: first, the command-line, which is key to navigating around your computer; second, you'll tackle version control using Git and Github. This is followed by learning Ruby syntax through challenges. The PreCourse requires at least 20 hours per week to complete successfully, but the more time you can spend on the PreCourse, the better."
+  blurb: "In the four weeks preceding the full-time course, you are required to complete a mandatory, part-time PreCourse from home. This will ensure that you get to the required level of coding knowledge before starting full time. In the first week, you focus on the foundations: first, the command-line, which is key to navigating around your computer; second, you'll tackle version control using Git and Github. This is followed by learning Ruby syntax through challenges over 3 weeks, culminating in building your Github CV for the start of your coding journey. The PreCourse requires at least 20 hours per week to complete successfully, but the more time you can spend on the PreCourse, the better."
 
 - title: Week 1
   image: tdd.png
   summary: Test-Driven Development and Object-Oriented Programming
-  blurb: "The main topics of week 1 are test-driven development and object-oriented programming. By now, students have some experience writing pure Ruby code and are familiar with the functionality of core Ruby classes. This week we start creating our own classes in a test-driven way. The aim of this week is to understand how to structure code using objects. This weekend, students will attempt their first weekend challenge. Weekend challenges are completed each week to reflect and consolidate the learning from the previous week."
+  blurb: "The main topics of week 1 are test driven development and object oriented programming. By now, you'll have some experience writing pure Ruby code and are familiar with the functionality of core Ruby classes. This week you start creating your own classes in a test driven way. The aim of this week is to understand how to structure code using objects. You'll also meet the careers team who will be helping you get jobs at the end of the course. Weekend challenges are completed each week to reflect and consolidate the learning from the previous week."
 
 - title: Week 2
   image: tdd.png
   summary: Further TDD and OOP
-  blurb: "This week we delve into more complex test-driven development and object-oriented programming to make sure students understand these important concepts well." 
+  blurb: "This week, you'll work to reinforce and deepen your understanding of test driven development and object oriented programming. You will learn techniques for designing, programming and refactoring object oriented code. These techniques help you write code that is easy to read, change and maintain."
 
 - title: Week 3
   image: http.png
   summary: Introduction to Web Development
-  blurb: "By now, students are comfortable using Ruby and writing object-oriented code in a test-driven way. In week 3 we focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, HTML & CSS. We also learn how to deploy our code to Heroku and use the development tools in Chrome. Finally, students also learn how to use Capybara to test-drive web applications. This week is a favourites amongst students, as they are finally able to deploy a working application to the web."
+  blurb: "By now, you should be comfortable using Ruby and writing object oriented code in a test driven way. In week 3 you'll focus on the fundamentals of the web: HTTP protocols, the Sinatra framework, HTML & CSS. You also learn how to deploy our code to Heroku and use the development tools in Google Chrome. Finally, you'll also learn how to use Capybara to test drive web applications. This week is usually a popular one, as you're finally able to deploy a working application to the web."
 
 - title: Week 4
   image: db.png
   summary: Databases and User Management
-  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week we talk about relational databases, key-value stores and SQL. We also spend a lot of time discussing proper management of user accounts: hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. Students write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. This is an important milestone as students now have a full picture of web development."
+  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week you look at relational databases, key-value stores and SQL. You'll also spend a lot of time discussing proper management of user accounts along with hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. You'll write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. This is an important milestone as you'll now have a full picture of web development."
 
 - title: Week 5
   image: js.png
   summary: Front-End Technologies
-  blurb: "Now that students can build test-driven, secure, database-backed web applications, it's time to start talking about front-end technologies: JavaScript, jQuery, AJAX and responsive design. Students begin learning their second language: JavaScript, also known as the language of the web."
+  blurb: "Now that you can build test-driven, secure, database-backed web applications, it's time to start talking about front-end technologies: JavaScript, jQuery, AJAX and responsive design. Now you start to explore language: JavaScript, also known as the language of the web."
 
 - title: Week 6
   image: lab.png
   summary: Project week 1
-  blurb: "This week is all about teamwork as students are introduced to some techniques and practices common in an Agile or XP workplace. Working on a set project in small groups, students will learn Git workflow, QA, Standups/Scrums, Kanban and Pair Programming in a team environment. This is also a great opportunity to practice and consolidate the skills and concepts learned in previous weeks."
+  blurb: "This week is all about teamwork as you're introduced to some techniques and practices common in an Agile or XP workplace. Working on a set project in small groups, you'll learn to master Git workflow, QA, Standups/Scrums, Kanban and pair programming in a team environment. This is also a great opportunity to practice and consolidate the skills and concepts learned in previous weeks. This week you'll also start working with the careers team so you can start planning your job hunting strategy."
 
 - title: Week 7
   image: advanced-js.png
   summary: Further JavaScript
-  blurb: "Students expand their knowledge of JavaScript by building a single page application in pure JavaScript - no frameworks allowed! Students will demystify the inner workings of JS frameworks as they build everything from the testing platform to the front end architecture of their application in pure JavaScript."
+  blurb: "You'll come back to JavaScript this week by building a JavaScript testing framework - no fancy frameworks allowed! Students will demystify the inner workings of JavaScript frameworks as they build everything from the testing platform to the front end architecture of their application in pure JavaScript. Your careers session this week will be around how to sell your experience to potential employers."
 
 - title: Week 8
   image: rails.png
   summary: Ruby on Rails Basics
-  blurb: "In week 8 we start working with Ruby on Rails. By now students have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and have experience using databases. Armed with all this knowledge, they find Rails easy to understand as it merely automates what they can do without it. This week we talk about ActiveRecord, the asset pipeline, routing and Rails architecture."
+  blurb: "In week 8 you'll start working with Ruby on Rails. By you have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and experience using databases. Armed with all this knowledge, you'll find Ruby on Rails easy to understand as it merely automates what you can do without it. This week ActiveRecord is part of your learning, the asset pipeline, routing and Rails architecture. Our Careers team will run you through challenging your preconceptions about what kind of company you want to work for."
 
 - title: Week 9
   image: advanced-rails.png
   summary: Project Week 2
-  blurb: "This week we consolidate our learning by building a full-stack project using everything we've learnt from the previous weeks. Agile, Git workflow, User Stories, and teamwork are revisited in another team based project."
+  blurb: "This week you consolidate your learning by building a full-stack project using everything you've learnt from the previous weeks. Agile, Git workflow, User Stories, and teamwork are revisited in another team based project. Part of your learning this week will also include some advanced job hunter techniques."
 
 - title: Week 10
   summary: Individual Technical Challenges
-  blurb: "This week we get back to pure Object Oriented Design with a series of individual challenges designed to stretch students' understanding of OOD principles such as SOLID. This week will reinforce behaviours like testing first, using enough design upfront and applying XP values to your code. The challenges this week will be undertaken individually, and are designed to mimic technical tests commonly used by employers as part of the recruitment process."
-  
+  blurb: "This week you get back to pure object oriented design with a series of individual challenges designed to stretch your understanding of techniques for OOD. This week will reinforce behaviours like testing first, using enough design upfront and using the XP values to guide your behaviour as a developer. The challenges this week will be undertaken individually, and are designed to mimic technical tests commonly used by employers as part of the recruitment process. You'll also start practicing technical interviews and networking."
+
 - title: Week 11
   image: final-projects.png
   summary: The Final Project
-  blurb: "By now students are confident Junior Developers. To put their skills to the test, they build a final project that shows how far they've come since they started. This week we introduce fewer new topics and instead focus on helping students to build the first version of their final project."
+  blurb: "By now you are confident Junior Developer. To put your skills to the test, you'll build a final project that shows how far you've come since you started. This week a fewer new topics are introduced and instead you focus on building the first version of your final project."
 
 - title: Week 12
   image: graduation.png
   summary: Graduation
-  blurb: "Early in the week we declare a feature freeze to make sure the final projects are as polished as possible. This is the most intensive week at Makers Academy, when all teams stay late trying to outperform each other to write the most impressive code. There is no Friday challenge. Instead, we have a graduation ceremony, followed by a party attended by friends, families, hiring partners, recruiters, ex-students and prospective students of Makers Academy."
+  blurb: "Early in the week is a feature freeze to make sure the final projects are as polished as possible. This is the most intensive week at Makers Academy, when all teams stay late trying to outperform each other to write the most impressive, test driven and clean code. Friday our careers team will put on a job hunting fair in the morning where our hiring partners will be showcasing their job vacancies followed by you giving your final project demo's. The evening will be a party attended by friends, families, hiring partners, recruiters, ex-students and prospective students of Makers Academy."

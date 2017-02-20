@@ -10,26 +10,6 @@
 
 %section
   .container
-    .centered-row
-      %h3 Aether Revolt Pre-release
-      %p 
-      We'll be hosting a pre-release event on at 12:00 on Saturday 14 January, <br>in partnership with 
-      = link_to "Leisure Games", 'http://www.leisuregames.com/'
-      , but we're sold out now, sorry!
-
-%section.backgrounded
-  .container
-    .centered-row
-      %h4.leader what is
-      %h2 makers academy?
-      %p Makers Academy is Europe's leading coding bootcamp, <br>where super-smart, super-driven people learn to code in just 12 weeks.
-    .button-row
-      = link_to "Learn to Code", '/', class: "button button--horizontal"
-    .centered-row
-      %p We also really love Magic.
-
-%section
-  .container
     .three-width-row
       .column
         %h3 Drafts
@@ -43,6 +23,23 @@
       .column
         %h3 Constructed
         %p We occasionally run small Sunday Constructed tournaments: Standard, Modern and Pauper.
+    .centered-row
+      %p To find out more about our events and to sign up for them, join our Slack community for free by clicking below:
+    .button-row.small-padding-top
+      = link_to "I want to play Magic", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal" 
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h4.leader what is
+      %h2 makers academy?
+      %p Makers Academy is Europe's leading coding bootcamp, <br>where super-smart, super-driven people learn to code in just 12 weeks.
+    .button-row
+      = link_to "Learn to Code", '/', class: "button button--horizontal"
+    .centered-row
+      %p We also really love Magic.
+
+%section
   .container
     %table.responsive-table
       %thead
