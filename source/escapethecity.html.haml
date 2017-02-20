@@ -1,4 +1,4 @@
-- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+- description "Makers Academy and Escape the City are proud to announce The Alternatice Career Festival. Come and see us to win a place on a coding bootcamp to become a developer in 2017"
 - title "Escape The City"
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
@@ -29,11 +29,6 @@
       .column
         %h3 Progressive Companies
         %p Meet our Progressive Culture Companies, who are determined to do things differently, inside and out.
-  .container
-    .centered-row
-      .button-row
-        %p
-        = link_to "Sign up now!", "http://www.escapethecity.org/alternative-career-festival/", class: "button button--horizontal"
 %section.hero
   .container
     .centered-row
@@ -42,10 +37,9 @@
     .centered-row
       .button-row
         %p
-        = link_to "Sign up now!", "http://www.escapethecity.org/alternative-career-festival/", class: "button button--horizontal"
+        = link_to "Sign up now!", "http://www.escapethecity.org/alternative-career-festival/?utm_source=Partner&utm_medium=affiliate&utm_campaign=WW_PAR_ACF17_0001&utm_content=ACF", class: "button button--horizontal"
 
 
 / Mixpanel event for landing pages
 :javascript
-  mixpanel.track('Viewed Landing Page', {'Landing Page': 'codingdays'});
-  mixpanel.people.set({'Category': 'codingdays'});
+  mixpanel.track('Viewed Landing Page', {'Landing Page': 'alternative-career-festival'});
