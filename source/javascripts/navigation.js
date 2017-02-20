@@ -10,11 +10,11 @@
   $(document).ready(function() {
     // only affect desktop navigation
     // hide after 5 seconds
-    var timeOut = window.setTimeout(hideNav, 5000);
+    var timeOut = window.setTimeout(hideNav, 8000);
 
     $nav.hover(
     function() { clearTimeout(timeOut); },
-    function() { timeOut = window.setTimeout(hideNav, 5000); }
+    function() { timeOut = window.setTimeout(hideNav, 8000); }
     );
 
     var lastScrollTop = 0;
