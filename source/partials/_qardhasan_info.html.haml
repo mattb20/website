@@ -5,10 +5,10 @@
     .definition-row
       %aside#definition-top
         %nav.definition-links
-          - data.qardhassan.each_with_index do |section, index|
+          - data.qardhasan.each_with_index do |section, index|
             %a.definition-link{href: "#definition-#{index}"}= section[:title]
       %article
-        - data.qardhassan.each_with_index do |section, index|
+        - data.qardhasan.each_with_index do |section, index|
           .category
             %h4{id: "definition-#{index}"}= section[:title]
             %dl.definition{id: slug(section[:title])}
