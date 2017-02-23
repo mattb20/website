@@ -30,6 +30,32 @@
 #     - question: Sum up your Makers Academy experience
 #       answer:
 
+- first_name: James
+  last_name: Steel
+  image: jamessteel.jpg
+  summary: Sous Chef to Junior Developer
+  testimonial:  I have a new job, more confidence and made some new friends.
+  cohort_month: September
+  cohort_year: 2016
+  categories:
+    - career-changer
+    - remote
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working as a sous chef.
+    - question: How did you find learning remotely?
+      answer: It wasn't easy but it was extremely fun. It took me a while to get used to it and staying motivated was tough at times but overall a fantastic experience.
+    - question: How has your life changed since learning to code?
+      answer:  I have a new job, more confidence and made some new friends. Nothing but positives.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Do it. If you have the chance to do Makers it's so worth it. Becoming a web developer was never something I thought I'd become but Makers made it a reality.
+    - question: What would you say to people who say £4000 is expensive for an online course?
+      answer: It is. Very. But worth it, and it's less than university. You'll get all the skills needed to actually get a job.
+    - question: What was your biggest worry before joining Makers Academy and how do you feel about it now?
+      answer: I'd never get a job. I knew they helped but I didn't think 12 weeks would be enough time to learn enough in order to get a job. Well, I got a job and I feel more confident than ever.
+    - question: Sum up your Makers Academy experience
+      answer: Difficult but rewarding.
+
 - first_name: Caitlin
   last_name: Gulliford
   image: caitlin.jpg
