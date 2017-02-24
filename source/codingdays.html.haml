@@ -30,16 +30,12 @@
       .column
         %h5 Deploying a website
         %p The weekend will culminate in you pushing your website live for the world to see
-  .container
-    .centered-row
-      .button-row
-        %p
-        = link_to "Sign up now!", "https://www.meetup.com/Coding-Days-Learn-to-code/events/235955515/?eventId=235955515", class: "button button--horizontal"
+
 %section.hero
   .container
     .centered-row
       %p Coding Days has been created by a Makers Academy alum. Passionate about coding with a sharing mindset, they launched the intensive, weekend bootcamp in France in order to acculturate people to the web development world. They are now coming to UK in partnership with Makers Academy!
-      %p The weekend is £500 per person and lunch is provided on both days
+      %p Take advantage of a special introductory offer price of just £300.00 for the weekend.
   .container
     .centered-row
       .button-row
@@ -49,5 +45,4 @@
 
 / Mixpanel event for landing pages
 :javascript
-  mixpanel.track('Viewed Landing Page', {'Landing Page': 'codingdays'});
-  mixpanel.people.set({'Category': 'codingdays'});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'codingdays'}, {'nonInteraction': 1});
