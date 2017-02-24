@@ -65,5 +65,4 @@
 
 / Analytics event for landing page
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'Podcast'});
-  analytics.identify({'Podcast': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Podcast'}, {'nonInteraction': 1});

@@ -34,5 +34,4 @@
 
 = javascript_include_tag "track-form/save-for-later-submit"
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'gradquiz'});
-  analytics.identify({'gradquiz': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'gradquiz'}, {'nonInteraction': 1}));
