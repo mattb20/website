@@ -30,6 +30,34 @@
 #     - question: Sum up your Makers Academy experience
 #       answer:
 
+- first_name: Alex
+  last_name: Saunders
+  image: alex-saunders.jpg
+  summary: Global Mobility at EY to Junior Developer at Existent Ltd
+  testimonial: "So so valuable and I think it's only now that I'm working that I've realised just how much I've learnt."
+  cohort_month: Remote September
+  cohort_year: 2016
+  categories:
+    - career-changer
+    - remote
+  case_study:
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: My friend sent me a link to (what was then called) Ronin after I had decided to hand my notice in and study part time by doing online tutorials. A day after seeing the advert I was watching an old episode of X-files and the first thing I saw was Ronin in large letters so I took that as the universes way of saying go for it!
+    - question: How did you find learning remotely?
+      answer: I had worked remotely for the past two years so the concept wasn't new to me. I did have to learn to really force myself to get into a good routine of not losing concentration or being distracted by other things going on. Makers was great with giving us the tools to do this through different techniques such as pomodoros and pair programming.
+    - question: What was your final project?
+      answer: A meal planner built in Ruby on Rails that allows users to create recipes and add them to a weekly plan.
+    - question: How has your life changed since graduation?
+      answer: I find myself approaching new situations and problems differently and not just in relation to coding. Having proven to myself that I can learn new skills in a relatively short period of time has changed my life. And I'm now working in a junior full stack developer role which I would never have imagined was possible a year ago.
+    - question: What advice would you give to people thinking of changing career?
+      answer: If it's something you are passionate about then it's worth the doubt and fear involved. To get paid for doing something you enjoy is priceless so jump in with both feet!
+    - question: What would you say to people who say £4000 is expensive for an online course?
+      answer: In the grand scheme of things this is a small price to pay for something which is going to literally change your life and put you on the path to having a career that you will love. And I'm sure there are many studies out there that show the extra salary you can make by getting into the tech industry.
+    - question: What as your biggest fear before joining Makers and how do you feel about it now?
+      answer: Not being able to keep up or be as knowledgeable as other students. This took a while to fade but somewhere around the half way mark it clicked that this really wasn't about other people and I just concentrated on ensuring I was always moving forward with what I was learning. Our coach Roi would always say if you end the day knowing more than when you started and were still enjoying it then you were doing the right thing.
+    - question: Sum up your Makers Academy experience
+      answer: So so valuable and I think it's only now that I'm working that I've realised just how much I've learnt. Some people in my team where I work have been coding for years and are trying to learn some of the skills I've ingrained in such as TDD which is a great feeling. The self sufficiency I have now can be applied to all areas of my life and its a wonderful feeling knowing that nothing is impossible.
+
 - first_name: James
   last_name: Steel
   image: jamessteel.jpg
