@@ -4,7 +4,7 @@
     .centered-row
       %h1 Learn to code in 12 weeks
       %p.margin-bottom Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over #{stats.number_of_graduates} students into their dream jobs as junior developers.
-  = partial :"onsite_vs_remote_header"
+
 
 %section.half-slider.graduates-slider
   .container
@@ -20,13 +20,9 @@
       .column
         = partial :"preview_graduates"
 
-= partial :"meet_our_graduates"
+= partial :"meet_our_partners"
 
 = partial :"splash/curriculum"
-
-%hr
-
-= partial :"benefits_table"
 
 = partial :"primary_call_to_action"
 
@@ -36,9 +32,9 @@
       %h4.leader Start Coding
       %h2 right now!
       %p.lead Sign up for our newsletter and get your free eBook: Learn Ruby in 15 minutes.
-    = partial :"email-capture"
+
+    = partial :"email-capture", locals: { segments: "website-homepage-lr15" }
 
 / Analytics event for visiting homepage
 :javascript
-  analytics.track('Viewed homepage', {
-  nonInteraction: 1});
+  analytics.track('Viewed homepage', {nonInteraction: 1});
