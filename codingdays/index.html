@@ -144,20 +144,12 @@
           </div>
         </div>
       </div>
-      <div class='container'>
-        <div class='centered-row'>
-          <div class='button-row'>
-            <p></p>
-            <a class="button button--horizontal" href="https://www.meetup.com/Coding-Days-Learn-to-code/events/235955515/?eventId=235955515">Sign up now!</a>
-          </div>
-        </div>
-      </div>
     </section>
     <section class='hero'>
       <div class='container'>
         <div class='centered-row'>
           <p>Coding Days has been created by a Makers Academy alum. Passionate about coding with a sharing mindset, they launched the intensive, weekend bootcamp in France in order to acculturate people to the web development world. They are now coming to UK in partnership with Makers Academy!</p>
-          <p>The weekend is £500 per person and lunch is provided on both days</p>
+          <p>Take advantage of a special introductory offer price of just £300.00 for the weekend.</p>
         </div>
       </div>
       <div class='container'>
@@ -171,8 +163,7 @@
     </section>
     <!-- Mixpanel event for landing pages -->
     <script>
-      mixpanel.track('Viewed Landing Page', {'Landing Page': 'codingdays'});
-      mixpanel.people.set({'Category': 'codingdays'});
+      analytics.track('Viewed Landing Page', {'Landing Page': 'codingdays'}, {'nonInteraction': 1});
     </script>
     <footer role='contentinfo'>
       <div class='container'>
