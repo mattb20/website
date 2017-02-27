@@ -255,8 +255,7 @@
     </section>
     <!-- Analytics event for landing page -->
     <script>
-      analytics.track('Viewed Landing Page', {'Landing Page': 'Deloitte'});
-      analytics.identify({'Deloitte': true});
+      analytics.track('Viewed Landing Page', {'Landing Page': 'Deloitte'}, {'nonInteraction': 1}));
     </script>
     <footer role='contentinfo'>
       <div class='container'>
