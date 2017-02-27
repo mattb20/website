@@ -17,5 +17,4 @@
 
 / Analytics event for landing page
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'Deloitte'});
-  analytics.identify({'Deloitte': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Deloitte'}, {'nonInteraction': 1}));
