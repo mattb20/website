@@ -1,0 +1,45 @@
+- description "Makers Academy and Escape the City are proud to announce The Alternatice Career Festival. Come and see us to win a place on a coding bootcamp to become a developer in 2017"
+- title "Escape The City"
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Escape The City in partnership with Makers Academy presents...
+      %h1 The Alternative Career Festival
+      %p Come and join us on the 13th April 2017 and surround yourself with like-minded, ambitious professionals and build relationships with progressive organisations, founders, and influencers in London.
+%section
+  .container
+    .three-width-row
+      .column
+        %h3 Learn
+        %p You’ll experience workshops and seminars from industry experts.
+      .column
+        %h3 Ask
+        %p You’ll ask questions and receive guidance at the advice bar.
+      .column
+        %h3 Connect
+        %p You'll make connections and build relationships in the immersive game arena.
+  .container
+    .three-width-row
+      .column
+        %h3 Social Enterprises
+        %p Meet with non-profits large and small and discover where an impact career can take you.
+      .column
+        %h3 Startups and SME's
+        %p Mingle with young companies as well as more established but small-scale organisations on unqiue missions.
+      .column
+        %h3 Progressive Companies
+        %p Meet our Progressive Culture Companies, who are determined to do things differently, inside and out.
+%section.hero
+  .container
+    .centered-row
+      %p Escape is a global career change community of people who believe life is too short to do work that doesn’t matter. We’re helping the world wake up to what work should look like, by offering exciting job opportunities at progressive companies and running community programmes that help people turn ideas into reality.
+  .container
+    .centered-row
+      .button-row
+        %p
+        = link_to "Sign up now!", "http://www.escapethecity.org/alternative-career-festival/?utm_source=Partner&utm_medium=affiliate&utm_campaign=WW_PAR_ACF17_0001&utm_content=ACF", class: "button button--horizontal"
+
+
+/ Mixpanel event for landing pages
+:javascript
+  mixpanel.track('Viewed Landing Page', {'Landing Page': 'alternative-career-festival'});

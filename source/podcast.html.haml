@@ -41,5 +41,4 @@
 
 = javascript_include_tag "track-form/save-for-later-submit"
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'podcast'});
-  analytics.identify({'podcast': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'podcast'}, {'nonInteraction:' 1});
