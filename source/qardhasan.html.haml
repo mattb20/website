@@ -1,0 +1,22 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+- title "Makers Academy launches interest free loans with QardHasan by EdAid"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h2 QardHasan Fellowship
+      %h4.subheader Learn to code in 12 weeks from home
+      %p Makers Academy is Europe's leading bootcamp. We've teamed up with Qardhasan to deliver a limited amount of interest free loans for our remote course for anyone from a black, asian, ethnic background.
+
+= partial :"_qardhasan_info"
+
+= partial :"vlogs"
+
+%section.typeform
+  .typeform-widget{"data-text" => "Qardhasan Fellowship", "data-url" => "https://makersacademy.typeform.com/to/eMb5ws"}
+
+:javascript
+  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})();
+
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'qardhasan', 'nonInteraction': 1});
