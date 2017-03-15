@@ -1,0 +1,35 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses. Makers Academy teams up with amazon to launch new Alexa training for Ruby Developers. Sign up now!"
+- title "Makers Academy partners with Amazon to launch Ruby Skills training on Alexa"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/topdownrow.jpg")});"}
+  .container
+    .centered-row
+      %h3 Makers Academy and Amazon collaborate to train Alexa Developers
+      %p Sign up now to get notified when the Alexa Skills Kit training for Ruby developers is released.
+      %p
+  = partial :"amazon_alexa"
+  %p
+  = partial :"email-capture", locals: { button_text: "Sign Up", segments: "website-amazon" }
+%section
+  .article--centered
+    %article
+    %p
+      Budding Ruby developers, listen up - We’ll be showing you how to set up Alexa web interactions using Ruby. You’ll learn how to create custom skills for Alexa, and implement complex features using session storage and persistence. Any day now we’ll be launching 6 free training modules which will teach you how to build new skills for Alexa.
+    %p
+      “We believe that voice represents the next major disruption in computing,” said Rob Pulciani, Director, Alexa. “It’s a great time for developers to take advantage of this new form of interaction and to learn to build voice-first experiences. We’re excited to be working with Makers Academy to offer even more resources for our developer community.”
+    %p
+      At Makers Academy, we pride ourselves on keeping pace with the tech industry, coaching our students in the latest technologies and methodologies. Working with Amazon to keep our ever-evolving curriculum up to date is a fantastic opportunity to equip our developers with the skills they need for the future, and we’re delighted that the wider developer community will get to enjoy these materials too!
+
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/topdownrow.jpg")});"}
+  .container
+    .centered-row
+      %p Sign up now to get notified when the Alexa Skills Kit training for Ruby developers is released.
+      %p
+  = partial :"amazon_alexa"
+  %p
+  = partial :"email-capture", locals: { button_text: "Sign Up", segments: "website-amazon" }
+
+
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'amazon', 'nonInteration': 1});
