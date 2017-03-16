@@ -6,8 +6,8 @@
     .centered-row
       %h4.leader Take your first step as a developer with our
       %h1 Career Support
-      .button-row
-        = link_to "Apply now", "/apply/", class: "button button--horizontal"
+      -# .button-row
+      -#   = link_to "Apply now", "/apply/", class: "button button--horizontal"
       .five-width-row.small-padding-top
         .column
           = image_tag "hiring-partners/ThoughtWorks.png", class:"image--medium"
@@ -23,6 +23,15 @@
 %section
   .container
     .centered-row
+      %h4 Are you
+      %h2 Hiring Developers?
+      %p Meet Europe’s most talented junior software developers all year round. Visit our dedicated employers site today.
+      .button-row
+        = link_to "Take me there", "http://employers.makersacademy.com/", target: "_blank", class: "button button--horizontal"
+
+%section.backgrounded
+  .container
+    .centered-row
       %h2 We'll help you get the job you love
     .three-width-row
       .column
@@ -34,8 +43,6 @@
       .column
         %h5 300+
         %p We work with over 300 companies, allowing you to find the perfect job. Our careers team will look after all post course arrangements, we offer interview help, job hunting advice and intros to our hiring partners.
-
-= partial :"developer_hero"
 
 %section.half-slider
   .container
@@ -49,15 +56,7 @@
       .column
         = partial :"preview_graduates"
 
-= partial :"alumni_videos"
+= partial :"developer_hero"
 
-%section
-  .container
-    .centered-row
-      %h4 Are you
-      %h2 Hiring Developers?
-      %p Meet Europe’s most talented junior software developers all year round. Visit our dedicated employers site today.
-      .button-row
-        = link_to "Take me there", "http://employers.makersacademy.com/", target: "_blank", class: "button button--horizontal"
 :javascript
   analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Main 2.0 (Hired.com style)'});
