@@ -1,0 +1,64 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn how to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Have you always wanted to learn how to code?
+      %h1
+      %h1 Come and join our onsite coding course
+      %h1
+      %P Our 12 week coding course in the heart of London will teach you the principles of software craftsmanship and with the help of our careers team, you'll soon be starting your career as developer.
+      %p Sign up to receive your free e-book and learn more!
+    = partial :"email-capture"
+
+= partial :"full_graduates"
+
+= partial :"meet_our_partners"
+
+%section.half-slider.half-slider--reverse.with-padding
+  .container
+    .half-slider-row
+      .hide-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our onsite course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace and to equip you with the skills you need to quickly find a job as a junior developer.
+          .button-row.shift-to-bottom
+            %p
+              = link_to "Our Curriculum", "/curriculum.html", class: "button button--horizontal"
+      .column
+        .slider
+          .slide
+            .image--centered
+              = image_tag "technologies/ruby-logo.png", height: 150
+            %h3 Ruby
+            %p Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.
+          .slide
+            .image--centered
+              = image_tag "technologies/html5-logo.png", height: 150
+            %h3 HTML
+            %p HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both on the server and client-side.
+          .slide
+            .image--centered
+              = image_tag "technologies/javascript-logo.png", height: 150
+            %h3 JavaScript
+            %p JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.
+          .slide
+            .image--centered
+              = image_tag "technologies/git-logo.png", height: 150
+            %h3 git
+            %p git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits our focus on Pair Programming - and our Hiring Partners.
+      .column.show-desktop
+        .copy.copy--right
+          %h4.leader A World-Leading
+          %h2 Curriculum
+          %p We're passionate about education and software development. Our online course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.
+          .button-row
+            %p
+              = link_to "Our Curriculum", "/curriculum.html", class: "button button--horizontal"
+
+= partial :"primary_call_to_action"
+
+/ Analytics event for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Onsite'});
+  analytics.identify({'Onsite': true});

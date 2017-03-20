@@ -7,19 +7,18 @@ fieldset {
   }
 }
 
+legend {
+  margin: 0 auto;
+}
+
 input,
 label,
-textarea,
-select {
+textarea {
   display: block;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
 }
 
 label {
-  font-weight: 600;
-  margin-bottom: $base-line-height * 0.4;
+  @include tiny-header(left);
   abbr {
     display: none;
   }
@@ -33,15 +32,19 @@ td {
 
 #{$all-text-inputs},
 select[multiple=multiple],
+select,
 textarea {
   border: $base-border;
-  border-radius: 8px;
+  border-radius: $base-border-radius * 4;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
   margin-bottom: ma-spacing(1);
-  padding: 0 $base-line-height;
+  padding: 0 ($base-line-height / 2);
   transition: border-color;
   width: 100%;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+
   &:hover {
     border-color: darken($base-border-color, 10%);
   }
@@ -53,8 +56,8 @@ textarea {
 }
 
 #{$all-text-inputs} {
-  line-height: $base-line-height * 2.5;
-  height: $base-line-height * 3;
+  line-height: $base-line-height;
+  height: $base-line-height * 2;
 }
 
 textarea {
@@ -93,8 +96,13 @@ input[type="file"] {
   width: 100%;
 }
 
+input[type="submit"] {
+  border-color: $brand-primary-color;
+}
+
 select {
-  margin-bottom: ma-spacing(1);
+  display: block;
+  margin: 0 auto ma-spacing(1);
   max-width: 100%;
   width: auto;
 }
@@ -128,21 +136,65 @@ form.alt {
   }
 }
 .input-hint {
+  text-align: left;
   .small {
     display: block;
     margin-bottom: -1 * $base-line-height / 2;
   }
 }
+
 .input-row {
-  select {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: $base-line-height;
+  max-width: $paragraph-max-width + (2 * $base-spacing);
+  padding-right: $base-spacing;
+  padding-left: $base-spacing;
+  margin: 0 auto;
+
+  .input-hint {
+    margin: 0 0 $base-spacing;
   }
+
+  &--centered {
+    text-align: center;
+
+    label {
+      text-align: center;
+    }
+  }
+}
+
+.radio-row {
+  @extend .input-row;
+
+  &--centered {
+    @extend .input-row--centered;
+  }
+}
+
+// last-of-type isn't selecting radio-rows
+// so we must apply some padding when they
+// sit directly next to submit button rows
+.radio-row + .button-row {
+  padding-top: ma-spacing(1);
 }
 
 form {
   .button-row p {
-    text-align: center;
+    text-align: center !important;
+  }
+}
+
+.intl-tel-input {
+  margin-bottom: ma-spacing(1);
+  .selected-flag:focus {
+    outline: none;
+  }
+
+  .country-list {
+    border-radius: $base-border-radius * 4;
+    border-width: 2px;
+    margin: -1px 0 0 -1px;
+    border-top-right-radius: 0;
+    border-color: $light-gray;
+    box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.2);
   }
 }

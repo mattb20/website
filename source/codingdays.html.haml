@@ -1,0 +1,48 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Makers Academy presents...
+      %h1 Coding Days
+      %h3 Europe's brand new web design bootcamp
+      %p Learn to code in one weekend. By the end of the course you'll have your own website, hosted for one year!
+%section
+  .container
+    .three-width-row
+      .column
+        %h5 Learn to code in HTML, CSS & JavaScript
+        %p Learn to code in the most widely used languages on the web
+      .column
+        %h5 basic functioning of a server
+        %p What is a server? How does it work? Have you ever heard about a DNS? It will be way clearer at the end of the weekend
+      .column
+        %h5 Learn about responsive web design
+        %p Optimize your website for tablet, smartphone, TV and even printers!
+  .container
+    .three-width-row
+      .column
+        %h5 SEO tips and tricks
+        %p Learn how to get your site ranking highly on Google and Bing
+      .column
+        %h5 Frameworks and libraries
+        %p We will learn how to make the difference and how to use both Bootstrap and jQuery
+      .column
+        %h5 Deploying a website
+        %p The weekend will culminate in you pushing your website live for the world to see
+
+%section.hero
+  .container
+    .centered-row
+      %p Coding Days has been created by a Makers Academy alum. Passionate about coding with a sharing mindset, they launched the intensive, weekend bootcamp in France in order to acculturate people to the web development world. They are now coming to UK in partnership with Makers Academy!
+      %p Take advantage of a special introductory offer price of just £300.00 for the weekend.
+  .container
+    .centered-row
+      .button-row
+        %p
+        = link_to "Sign up now!", "https://www.meetup.com/Coding-Days-Learn-to-code/events/235955515/?eventId=235955515", class: "button button--horizontal"
+
+
+/ Mixpanel event for landing pages
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'codingdays'}, {'nonInteraction': 1});

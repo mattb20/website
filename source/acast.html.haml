@@ -1,7 +1,7 @@
 - description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
 - @hide_from_google = true
 
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/topdownrow.jpg")});"}
   .container
     .centered-row
       %h1 Learn to code in 12 weeks
@@ -13,23 +13,7 @@
 = partial :"full_graduates", locals: { category: "acast" }
 
 
-%section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
-  .container
-    .centered-row
-      %h4.leader Meet
-      %h2 Our hiring partners
-      %p We’ve graduated over #{stats.number_of_graduates} beginners into their dream jobs as junior developers. Some were looking for a career change, others to bring their ideas to life.
-    .three-width-row
-      .column
-        .image--centered
-          = image_tag "hiring-partners/Atos.png"
-        .image--centered
-          = image_tag "hiring-partners/compare-the-market.png"
-      .column
-        = link_to "Learn about Partners", "/employers.html", class: "button button--horizontal"
-      .column
-        = image_tag "hiring-partners/Deloitte-Digital.png"
-        = image_tag "hiring-partners/just-giving.png"
+= partial :"meet_our_partners"
 
 %section.half-slider.half-slider--reverse.with-padding
   .container
@@ -81,5 +65,4 @@
 
 / Analytics event for landing page
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'Podcast'});
-  analytics.identify({'Podcast': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Podcast'}, {'nonInteraction': 1});

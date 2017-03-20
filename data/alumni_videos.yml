@@ -1,24 +1,33 @@
+- name: Karin Neilsen
+  occupation: Founder at Fluently
+  video_url: https://www.youtube.com/embed/jhxYVArKUUw
+- name: Yvette Cook
+  occupation: Developer at MyGravity
+  video_url: https://www.youtube.com/embed/WIDn-EWvnPU
+- name: Giorgia Amici
+  occupation: Developer at MyVoucherCodes
+  video_url: https://www.youtube.com/embed/7PgEr7Xrigg
 - name: Maya Driver
-  occupation: Junior Developer at <a href="https://eu.deloittedigital.com/en/home" target="_blank">Deloitte Digital</a>
+  occupation: Junior Developer at Deloitte Digital
   video_url: https://www.youtube.com/embed/_ICBGCxtomo
 - name: Ruth Earle
-  occupation: Junior Developer at <a href="http://www.mergermarket.com/" target="_blank">Mergermarket</a>
+  occupation: Junior Developer at Mergermarket
   video_url: https://www.youtube.com/embed/AQeLSUpDbDc
 - name: Bernard Mordan
-  occupation: Junior Developer at <a href="https://tableflip.io/" target="_blank">TableFlip</a>
+  occupation: Junior Developer at TableFlip
   video_url: https://www.youtube.com/embed/A7kbq9TZzv0
 - name: Sarah Young
-  occupation: Junior Developer at <a href="https://eu.deloittedigital.com/en/home" target="_blank">Deloitte Digital</a>
+  occupation: Junior Developer at Deloitte Digital
   video_url: https://www.youtube.com/embed/F4AN4T-G2cs
 - name: Izzy & Clare
-  occupation: Founders of <a href="http://www.no-mayo.digital" target="_blank">No Mayo Digital</a>
+  occupation: Founders of No Mayo Digital
   video_url: https://www.youtube.com/embed/XZNDaH8iX4s
 - name: Mario Gentili
-  occupation: Software Engineer at <a href="https://zapnito.com" target="_blank">Zapnito</a>
+  occupation: Software Engineer at Zapnito
   video_url: https://www.youtube.com/embed/m3G_urnBfO4
 - name: Nic Yeeles
-  occupation: Founder and CEO of <a href="https://peg.co" target="_blank">Peg</a>
+  occupation: Founder and CEO of Peg
   video_url: https://www.youtube.com/embed/DrSJAX2jurQ
 - name: Nadia Odunayo
-  occupation: Director at <a href="http://ignition.works/" target="_blank">Ignition Works</a>
+  occupation: Director at Ignition Works
   video_url: https://www.youtube.com/embed/0cpuYky_j2o

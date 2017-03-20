@@ -72,16 +72,14 @@ h4 {
 }
 
 p {
+  @include body-text(center);
+
   margin: 0 0 $base-spacing;
-  font-size: $base-font-size;
-  font-weight: 400;
   &:last-child {
     margin-bottom: 0;
   }
 
   @include media($desktop) {
-    font-size: $base-font-size;
-
     &.leader {
       font-size: modular-scale(1);
       line-height: 1.25 * $base-line-height;
@@ -89,8 +87,9 @@ p {
   }
 
 }
+
 .small {
-  font-size: $base-font-size / $modular-scale-ratio;
+  font-size: $small-font-size;
   color: lighten($dark-gray, 15%);
 }
 
@@ -173,13 +172,18 @@ picture {
 // General-purpose copy, including titles
 .copy {
   text-align: center;
+  p {
+    text-align: center !important;
+  }
 }
 
 .copy--left {
   @extend .copy;
-
   @include media($desktop) {
     text-align: left;
+    p {
+      text-align: left !important;
+    }
   }
 }
 
@@ -187,6 +191,9 @@ picture {
   @extend .copy;
   @include media($desktop) {
     text-align: right;
+    p {
+      text-align: right !important;
+    }
   }
 }
 
@@ -204,13 +211,6 @@ picture {
 .statistic a {
   text-decoration: none;
   position: relative;
-  &:after {
-    content: "*";
-    position: absolute;
-    font-size: modular-scale(2);
-    right: -1 * ma-spacing(0.7);
-    top: -1 * ma-spacing(0.7);
-  }
 }
 
 pre {

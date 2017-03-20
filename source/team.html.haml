@@ -1,5 +1,5 @@
 - description "Members of our team."
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/team.jpg")})"}
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/team1.jpg")})"}
   .container
     .centered-row
       %h1 Our Team
@@ -35,7 +35,7 @@
               %p= team_member[:about]
               .button-row.shift-to-bottom
                 %p
-                  = link_to "Join the Team", "/join-the-team.html", class: "button button--horizontal"
+                  = link_to "Join the Team", "http://makers-academy.breezy.hr/", class: "button button--horizontal"
             .image.hide-desktop.no-padding
               = image_tag "team/#{team_member[:image]}"
 

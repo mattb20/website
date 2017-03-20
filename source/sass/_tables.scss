@@ -14,7 +14,7 @@ th {
 
 thead {
   th {
-    text-align: center;
+    @include tiny-header;
   }
 }
 
@@ -108,11 +108,18 @@ table.responsive-table {
 }
 
 .radio-table {
+  thead th {
+    @include tiny-header;
+  }
+
   tbody tr {
     &:hover {
       background-color: lighten($light-gray, 8%);
       cursor: pointer;
     }
+  }
+  td, label {
+    @include body-text(center);
   }
 }
 

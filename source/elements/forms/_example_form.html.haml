@@ -46,34 +46,44 @@
             %p.input-feedback
               %span
 
-          .input-row
+          .input-row.input-row--centered
             %label{for: "how_did_you_hear_about_us", class: "required"}
               How did you hear about us?
-            %p.input-hint
-              Purely for marketing reasons. If you heard about us through multiple channels, choose the one that influenced your decision the most.
-            %select{required: true, name: "how_did_you_hear_about_us", id: "how_did_you_hear_about_us"}
-              %option{value: ''} Select an option&hellip;
-              %option{value: "Google", selected: @params[:how_did_you_hear_about_us] == "Google"} Google
-              %option{value: "Twitter", selected: @params[:how_did_you_hear_about_us] == "Twitter"} Twitter
-              %option{value: "Facebook", selected: @params[:how_did_you_hear_about_us] == "facebook"} Facebook
-              %option{value: "Quora", selected: @params[:how_did_you_hear_about_us] == "Quora"} Quora
-              %option{value: "The Student Room", selected: @params[:how_did_you_hear_about_us] == "The Student Room"} The Student Room
-              %option{value: "Don't Panic", selected: @params[:how_did_you_hear_about_us] == "Don't Panic"} Don't Panic
-              %option{value: "Techendo", selected: @params[:how_did_you_hear_about_us] == "Techendo"} Techendo
-              %option{value: "Switchup", selected: @params[:how_did_you_hear_about_us] == "Switchup"} SwitchUp
-              %option{value: "Bootcamper.io", selected: @params[:how_did_you_hear_about_us] == "Bootcamper.io"} Bootcamper.io
-              %option{value: "Guardian coverage", selected: @params[:how_did_you_hear_about_us] == "Guardian coverage"} Guardian coverage
-              %option{value: "Telegraph coverage", selected: @params[:how_did_you_hear_about_us] == "Telegraph coverage"} Telegraph coverage
-              %option{value: "Independent coverage", selected: @params[:how_did_you_hear_about_us] == "Independent coverage"} Independent coverage
-              %option{value: "Bbc coverage", selected: @params[:how_did_you_hear_about_us] == "BBC coverage"} BBC coverage
-              %option{value: "Sky coverage", selected: @params[:how_did_you_hear_about_us] == "Sky coverage"} Sky coverage
-              %option{value: "Codecourses.co.uk", selected: @params[:how_did_you_hear_about_us] == "Codecourses.co.uk"} Codecourses.co.uk
-              %option{value: "One Month", selected: @params[:how_did_you_hear_about_us] == "One Month"} One Month
-              %option{value: "Reed", selected: @params[:how_did_you_hear_about_us] == "Reed"} Reed
-              %option{value: "Course Report", selected: @params[:how_did_you_hear_about_us] == "Course Report"} Course Report
-              %option{value: "Other media coverage", selected: @params[:how_did_you_hear_about_us] == "Other media coverage"} Other media coverage
-              %option{value: "Alumnus recommendation", selected: @params[:how_did_you_hear_about_us] == "Alumnus recommendation"} Alumnus recommendation
-              %option{value: "Someone else's recommendation", selected: @params[:how_did_you_hear_about_us] == "Someone else's recommendation"} Someone else's recommendation
+              %p.input-hint
+                Purely for marketing reasons. If you heard about us through multiple channels, choose the one that influenced your decision the most.
+              %select{required: true, name: "how_did_you_hear_about_us", id: "how_did_you_hear_about_us"}
+                %option{value: ''} Select an option&hellip;
+                %option{value: "Google", selected: @params[:how_did_you_hear_about_us] == "Google"} Google
+                %option{value: "Twitter", selected: @params[:how_did_you_hear_about_us] == "Twitter"} Twitter
+                %option{value: "Facebook", selected: @params[:how_did_you_hear_about_us] == "facebook"} Facebook
+                %option{value: "Quora", selected: @params[:how_did_you_hear_about_us] == "Quora"} Quora
+                %option{value: "The Student Room", selected: @params[:how_did_you_hear_about_us] == "The Student Room"} The Student Room
+                %option{value: "Don't Panic", selected: @params[:how_did_you_hear_about_us] == "Don't Panic"} Don't Panic
+                %option{value: "Techendo", selected: @params[:how_did_you_hear_about_us] == "Techendo"} Techendo
+                %option{value: "Switchup", selected: @params[:how_did_you_hear_about_us] == "Switchup"} SwitchUp
+                %option{value: "Bootcamper.io", selected: @params[:how_did_you_hear_about_us] == "Bootcamper.io"} Bootcamper.io
+                %option{value: "Guardian coverage", selected: @params[:how_did_you_hear_about_us] == "Guardian coverage"} Guardian coverage
+                %option{value: "Telegraph coverage", selected: @params[:how_did_you_hear_about_us] == "Telegraph coverage"} Telegraph coverage
+                %option{value: "Independent coverage", selected: @params[:how_did_you_hear_about_us] == "Independent coverage"} Independent coverage
+                %option{value: "Bbc coverage", selected: @params[:how_did_you_hear_about_us] == "BBC coverage"} BBC coverage
+                %option{value: "Sky coverage", selected: @params[:how_did_you_hear_about_us] == "Sky coverage"} Sky coverage
+                %option{value: "Codecourses.co.uk", selected: @params[:how_did_you_hear_about_us] == "Codecourses.co.uk"} Codecourses.co.uk
+                %option{value: "One Month", selected: @params[:how_did_you_hear_about_us] == "One Month"} One Month
+                %option{value: "Reed", selected: @params[:how_did_you_hear_about_us] == "Reed"} Reed
+                %option{value: "Course Report", selected: @params[:how_did_you_hear_about_us] == "Course Report"} Course Report
+                %option{value: "Other media coverage", selected: @params[:how_did_you_hear_about_us] == "Other media coverage"} Other media coverage
+                %option{value: "Alumnus recommendation", selected: @params[:how_did_you_hear_about_us] == "Alumnus recommendation"} Alumnus recommendation
+                %option{value: "Someone else's recommendation", selected: @params[:how_did_you_hear_about_us] == "Someone else's recommendation"} Someone else's recommendation
+          
+          .radio-row.radio-row--centered
+            %label
+              I have paid my deposit
+              %input{id: 'deposit-paid', type: 'radio', name: 'deposit-paid', value: "yes"}
+          .radio-row.radio-row--centered
+            %label
+              I haven't paid my deposit
+              %input{id: 'deposit-paid', type: 'radio', name: 'deposit-paid', value: "no"}
+
           .button-row
             %p
               %input{type: "submit", value: "Apply"}

@@ -1,0 +1,20 @@
+- description "Makers Academy graduates come from all sorts of backgrounds. The diversity of our students has proved one thing - no matter your background, you can learn to code in 12 weeks and make a career change if you really want it."
+- title "Graduates"
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+  .container
+    .centered-row
+      = link_to(image_tag("hiring-partners/Deloitte-Digital.png", class: 'show-for-mobile'), "https://eu.deloittedigital.com/en/home", class: "image image--centered small-padding-top")
+    .centered-row
+      %p "Makers Academy is a Conveyor Belt of Awesome. There's no other souce of recruitment I'd put this much energy into."
+      %p
+        Martin Aspeli, Head of Engineering,
+        %em Deloitte Digital
+
+= partial :"full_graduates", locals: {category: "deloitte digital" }
+
+= partial :"primary_call_to_action"
+
+/ Analytics event for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Deloitte'}, {'nonInteraction': 1}));

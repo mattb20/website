@@ -1,10 +1,10 @@
 - description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/topdownrow.jpg")});"}
   .container
     .centered-row
       %h1 Learn to code in 12 weeks
       %p.margin-bottom Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job. We've graduated over #{stats.number_of_graduates} students into their dream jobs as junior developers.
-  = partial :"onsite_vs_remote_header"
+
 
 %section.half-slider.graduates-slider
   .container
@@ -20,29 +20,9 @@
       .column
         = partial :"preview_graduates"
 
-%section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
-  .container
-    .centered-row
-      %h4.leader Meet
-      %h2 Our hiring partners
-      %p We’ve graduated over #{stats.number_of_graduates} beginners into their dream jobs as junior developers. Some were looking for a career change, others to bring their ideas to life.
-    .three-width-row
-      .column
-        .image--centered
-          = image_tag "hiring-partners/Atos.png"
-        .image--centered
-          = image_tag "hiring-partners/compare-the-market.png"
-      .column
-        = link_to "Learn about Partners", "/employers.html", class: "button button--horizontal"
-      .column
-        = image_tag "hiring-partners/Deloitte-Digital.png"
-        = image_tag "hiring-partners/just-giving.png"
+= partial :"meet_our_partners"
 
 = partial :"splash/curriculum"
-
-%hr
-
-= partial :"benefits_table"
 
 = partial :"primary_call_to_action"
 
@@ -52,8 +32,9 @@
       %h4.leader Start Coding
       %h2 right now!
       %p.lead Sign up for our newsletter and get your free eBook: Learn Ruby in 15 minutes.
-    = partial :"email-capture"
+
+    = partial :"email-capture", locals: { segments: "website-homepage-lr15" }
 
 / Analytics event for visiting homepage
 :javascript
-  analytics.track('Viewed homepage');
+  analytics.track('Viewed homepage', {nonInteraction: 1});

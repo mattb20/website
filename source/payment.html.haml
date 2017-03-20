@@ -4,7 +4,23 @@
     .centered-row
       %h1 Payment Options
       %p We offer a variety of payment options for all demographics, and we offer a discount for women at our in person course. Price should never be a barrier to a student joining Makers Academy.
-= partial :"benefits_table"
+
+%section
+  .container
+    .centered-row
+      %h2 You can pay by
+    .three-width-row
+      .column
+        = image_tag "icons/icon-cash.jpg", class: "image--medium"
+        %h4 Bank Transfer
+      .column
+        = image_tag "payment-options/transferwise.jpg", class: "image--medium"
+        %h4 TransferWise
+      .column
+        = image_tag "payment-options/gocardless.jpg", class: "image--medium"
+        %h4 GoCardless
+
+%hr
 
 %section
   .container
@@ -44,19 +60,7 @@
         or contact the National Careers Service on 0800 100 900. Our learning provider registration number is: 21204.
 
 %hr
-%section
-  .container
-    .centered-row
-      %h2 Payment Options
-      %p We accept the following modes of payment:
-    .three-width-row
-      .column
-        = image_tag "icons/icon-cash.jpg", class: "image--medium"
-        %h4 Bank Transfer
-      .column
-        = image_tag "payment-options/transferwise.jpg", class: "image--medium"
-        %h4 TransferWise
-      .column
-        = image_tag "payment-options/gocardless.jpg", class: "image--medium"
-        %h4 GoCardless
+
+= partial :"benefits_table"
+
 = partial :"primary_call_to_action", locals: {page: :payment}

@@ -1,25 +1,16 @@
-- description "Makers Academy is a fully immersive, full-time computer programming bootcamp, designed to turn people with no knowledge of web-development into job-ready junior developers in just 12 weeks. We’re Europe’s #1 Developer Bootcamp, running new classes of 25-35 students every 6 weeks"
+- description "Makers Academy is a fully immersive, full-time computer programming bootcamp, designed to turn people with no knowledge of web-development into job-ready junior developers in just 12 weeks. We’re Europe’s #1 Developer Bootcamp, running new classes of 25-35 students every 4 weeks"
 - title "About Us"
 
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dana-yoga-salutation.jpg")});"}
-  .container
-    .centered-row
-      %h1 About Us
-      %p Makers Academy is a fully immersive, full-time computer programming course in London, designed to turn people with no knowledge of web development into job-ready junior developers in just 12 weeks. We’re Europe’s #1 Developer Bootcamp, running new classes of 30 students every 6 weeks in the heart of London's Tech City & every 12 weeks from the comfort of your own home.
-%section.article--centered
-  %article
-    %h3 Life as part of the Makers Academy Community
-    %p Being a student at Makers Academy is a very emotional journey. Eating, sleeping and breathing code becomes a huge part of your life, but looking after your wellbeing is also critical to becoming a great developer. On site we have Dana, our Chief Joy Officer - a certified yoga instructor who runs daily yoga and meditation classes and is here to look after your well being but don't worry if you're a remote student, Dana can also provide remote check ins too and send resources on how to develop your own meditation practise.
-    %p It’s also important to unwind and bond socially with your cohort. We're surrounded by some of London's quirkiest cafes, yummiest street food and busiest pubs. We host regular events such as Petcha Kutcha lightning talks, games nights, karaoke nights, as well as organising group activities like climbing, go-karting and going to the theatre. Remote students are encouraged to start engaging wih their local tech community and if another Remote student is near you, we encourage you to meet up and bond!
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/team1.jpg")});"}
 
-%section.hero{style: "background-image: url(#{image_path("backgrounds/team.jpg")});"}
   .container
     .centered-row
       %h2 Our Team
       %p Our mission is to teach as many people as possible to create amazing products using beautiful code. Since we started in early 2013, we’ve grown from two people to a team of twenty. We are not just colleagues: we’re a family. The Makers Academy team is a diverse bunch who work hard and play hard.
       .button-row
         =link_to "Meet the Team", "/team.html", class: "button button--horizontal"
-        =link_to "Join Us", "/join-the-team.html", class: "button button--horizontal"
+        =link_to "Join Us", "https://makers-academy.breezy.hr", class: "button button--horizontal"
+
 %section.article--centered
   %article
     %h3 Our Story
@@ -27,10 +18,17 @@
       %span Makers Academy was founded by Evgeny Shadchnev and Rob Johnson when they met at Forward labs.
       Evgeny was a classically trained software developer and as he was trying to build out his team he discovered a lack of qualified developers on the market. At the same time, Rob had been teaching himself to program through a book on Objective C and it took him 9 months and 30 hours a week to get through it. A conversation between the two made them realise that while computer science programs were good at drilling students with theory, they were training people to become computer science professors instead of programmers, and something had to be done.
     %p About 4 months after that conversation they started their first cohort ‐ in February 2013 - creating Makers Academy - an alternative to university and a vocational route into a job as a web developer, allowing people to switch careers and learn to code in 3 hyper-intensive months in London. Before we knew it, forcing people to move to London in order to learn to code felt far too limiting, so in February 2015 we launched Makers Academy Remote, codenamed 'Ronin': a course that leverages everything we've learned at Makers Academy to help people all over the world learn to code - from the comfort of their own home.
-    %p Makers Academy has now been going for over 3 years and has graduated over #{stats.number_of_graduates} students.
-%hr
-= partial :"faqs"
-%hr
+    %p
+      Makers Academy has now been going for over 3 years and has graduated over #{stats.number_of_graduates} students. Learn more on our
+      =link_to "blog", "https://blog.makersacademy.com", target: "_blank"
+      about how the company has grown.
 
-= partial :"benefits_table"
+
+%section.backgrounded
+  %article
+    %h3 Looking for our FAQs?
+    %p They've moved!
+    .button-row.centered
+      =link_to "Help Centre", "http://help.makersacademy.com", class: "button button--horizontal"
+
 = partial :"primary_call_to_action", locals: {about_us: true}

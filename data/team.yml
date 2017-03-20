@@ -1,3 +1,43 @@
+# - name:
+#   image:
+#   job_title:
+#   about:
+
+- name: Zara
+  image: zara.jpg
+  job_title: Careers Coach
+  about: Zara is our careers coach supporting students in the transition from student to getting their first job as a Junior Developer. Previously she worked at Working Chance, supporting women with criminal convictions back into work. On the side she sells Camphill pottery, plays Gauntlet on the Makers Academy PS4 and is training to be a psychotherapist.
+
+- name: Emily
+  image: emily.jpg
+  job_title: Careers Team
+  about: Emily is on our careers team, tracking down employers who meet our high standards and helping them to hire the developers we train. She’s new to tech - before Makers Academy, she worked in the charity sector, supporting women with criminal convictions into employment. Her main hobby is going to restaurants by herself, so she can concentrate on the food without any distractions.
+
+# - name: Ross
+#   image:
+#   job_title: Relationship Manager
+#   about: Ross came to Makers Academy with a varied past. Never having been a fan of traditional education or the typical sales approach he fell in love with Makers Academy from the beginning. Now he is managing relationships with our hiring partners being driven by his love of people and what motivates them, as well as knowing that the company he represents stands for a change in education.
+
+- name:  Alex B
+  image: alexb.jpg
+  job_title:
+  about: Alex is responsible for raising our profile amongst tech employers, and using the power of marketing to get awesome companies to hire our talented engineers. She’s built her career in three different continents and is passionate about startup culture.
+
+- name: Mary
+  image: mary.jpg
+  job_title: Coach
+  about: Mary loves helping people learn, and has spent the last few years coaching programmers. She also loves making things. She has released two video games, an implementation of Git in JavaScript, and a programming language designed for beginners.
+
+# - name: Alex
+#   image: alex.jpg
+#   job_title: Marketing team
+#   about:
+
+- name: Max
+  image: max.jpg
+  job_title: Careers team
+  about: Max is passionate about improving diversity in tech. Before Makers Academy he spent two years at Apps for Good, inspiring young people from all walks of life to build their digital skills. Now he is working with hiring partners to improve their recruitment processes and attract the best software talent from any background.
+
 - name: Jordan
   image: jordan.jpg
   job_title: Sales and Marketing Director
@@ -15,8 +55,8 @@
 
 - name: Ollie
   image: ollienew.jpg
-  job_title: Junior Gatekeeper
-  about: Ollie has never been one to follow convention, so he left school at 17 to become an entrepreneur. He has previously worked in Apple Retail and in the growth department of an on-demand taxi company called Gett. He is currently 1 of 30 selected out of 500 top entrepreneurs in the UK for the year long entrepreneurs course called the New Entrepreneurs Foundation and first point of contact for Makers Academy, so if you're thinking of applying, you'll probably end up speaking to him at some point.
+  job_title: Gatekeeper
+  about: Ollie has never been one to follow convention, so he left school at 17 to become an entrepreneur. He’s previously worked in Apple Retail and in the growth department of a tech startup called Gett. Passionate about technology and education, Ollie’s an alumnus of the highly selective entrepreneurs course the New Entrepreneurs Foundation and one of the Gatekeepers here at Makers Academy. Ollie spends his time selecting the very best students for every cohort.
 
 - name: Ruben
   image: ruben.jpg
@@ -27,11 +67,6 @@
   image: will.jpg
   job_title: Head of Careers
   about: Will is one of those odd people who likes recruitment. Couple that with a passion for education and tech, mix in a history of starting and growing education startups, and he's found the perfect place to work. He also volunteers for a number of organisations including EdTech UK, Tech London Advocates, Learning Futures and The Tech Partnership.
-
-- name: Irina
-  image: irina.jpg
-  job_title: Coachineer
-  about: Irina has been coding since her early teens. She moved to the UK from Moscow after finishing a computer science degree to help startups build web apps in Ruby on Rails. After being on the cutting edge of the industry for more than 5 years, she joined Makers team as a coach / engineer to bring our students war stories, best practices and passion for solving problems.
 
 - name: Dan
   image: dan.jpg

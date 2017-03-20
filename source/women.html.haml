@@ -6,7 +6,8 @@
       %h4.subheader  Women make software too, in fact we invented it.
       %P  Join us to learn how to build elegant, craftspersonlike software, and soon you'll be starting your career as a web developer. Makers Academy is Europe's leading developer bootcamp. Over the past couple of years, we've graduated more than #{stats.number_of_graduates} students into their dream jobs and over #{stats.percentage_of_female_graduates} of them have been women: two times higher than industry average.
       %P  Sadly, however, academic research confirms that men are likely to over-estimate their talents and apply, while women under-estimate and delay. So, if you’re reading this and wondering whether to apply, the answer is yes.
-    = partial :"email-capture"
+
+    = partial :"email-capture", locals: { segments: "website-email-women" }
 
 %section.no-padding-bottom
   .article--centered
@@ -16,7 +17,7 @@
 
 = partial :"full_graduates", locals: { category: "female" }
 
-%section.hero{style: "background-image: url(#{image_path("backgrounds/pointingscreen.jpg")});"}
+%section.hero{style: "background-image: url(#{image_path("backgrounds/row-of-girls.jpg")});"}
   .container
     .centered-row
       %h4.leader Meet

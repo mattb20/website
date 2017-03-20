@@ -1,0 +1,21 @@
+- description "Makers Academy graduates come from all sorts of backgrounds. The diversity of our students has proved one thing - no matter your background, you can learn to code in 12 weeks and make a career change if you really want it."
+- title "Graduates"
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
+  .container
+    .centered-row
+      = link_to(image_tag("hiring-partners/merger-market.png", class: "show-for-mobile"), "http://www.mergermarket.com/info/", class: "image image--centered small-padding-top")
+    .centered-row
+      %p "The fees are in line with what we pay a recruitment agency, but we got a lot more contact with each candidate and a proper understanding of what they'd been through before and during the course."
+      %p
+        Ross Heritage, CTO,
+        %em Mergermarket
+
+= partial :"full_graduates", locals: {category: "mergermarket" }
+
+= partial :"primary_call_to_action"
+
+/ Analytics event for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Mergermarket'});
+  analytics.identify({'Compare the Market': true});

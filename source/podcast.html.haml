@@ -1,0 +1,44 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+  .container
+    .centered-row
+      %h1 Learn Ruby in 15 Minutes
+      %h4.subheader Download the guide
+      %p  Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job as a developer.
+      %p Sign up now and receive your free learn Ruby in 15 minutes ebook!
+
+%section
+  .container
+    .form-row
+      %form.trackable-form{action: "/podcast/success"}
+        %fieldset
+          .input-row
+            %label{for: "firstname", class: "required"}
+              First Name
+            %input{type: "text", required: true, name: "firstname", id: "firstname"}
+          .input-row
+            %label{for: "surname", class: "required"}
+              Surname
+            %input{type: "text", required: true, name: "surname", id: "surname"}
+          .input-row
+            %label{for: "email", class: "required"}
+              Email address
+            %input{type: "email", required: true, name: "email", id: "email"}
+          .input-row
+            %label{for: "profession", class: "required"}
+              What is your current profession?
+            %input{type: "text", required: true, name: "profession", id: "profession"}
+          .button-row
+            %p
+              %input{type: "submit", value: "Start Coding Now"}
+
+%hr
+
+
+= partial :"full_graduates", locals: { category: "podcast" }
+
+
+
+= javascript_include_tag "track-form/save-for-later-submit"
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'podcast'}, {'nonInteraction:' 1});

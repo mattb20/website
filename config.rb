@@ -96,8 +96,18 @@ redirect "learn-to-code-2.html", to: "index.html"
 redirect "learn-to-code-3.html", to: "education-leaver.html"
 redirect "learn-to-code-4.html", to: "index.html"
 redirect "learn-to-code-5.html", to: "index.html"
-redirect "faq.html", to: "about-us.html"
+redirect "faq.html", to: "http://help.makersacademy.com"
 redirect "employers-startups.html", to: "startups.html"
+redirect "diversity.html", to: "employers/diversity.html"
+
+# Uncomment to redirect all /employers routes to employers. subdomain
+redirect "employers.html", to: "http://employers.makersacademy.com"
+redirect "employers/cities.html", to: "http://employers.makersacademy.com"
+redirect "employers/diversity.html", to: "http://employers.makersacademy.com"
+redirect "employers/sponsors.html", to: "http://employers.makersacademy.com"
+redirect "employers/thank-you.html", to: "http://employers.makersacademy.com/request-a-call/success"
+redirect "employers/users.html", to: "http://employers.makersacademy.com"
+redirect "employers/contact.html", to: "http://employers.makersacademy.com/request-a-call"
 
 configure :development do
   activate :livereload

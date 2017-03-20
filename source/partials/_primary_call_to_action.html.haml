@@ -2,7 +2,7 @@
 - page ||= :default
 - if page == :employers
 
-  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/fortune.jpg")});": ""}
     .container
       .centered-row
         .column
@@ -15,12 +15,12 @@
           = link_to "Apply to Study", config.apply_url, class: "button button--horizontal"
 - else
 
-  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/postit-wall.jpg")});": ""}
+  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/fortune.jpg")});": ""}
     .container
       .centered-row
         .column
           %h2 Apply Now
-          %p We run cohorts every 6 weeks onsite and every 12 weeks remotely, and applications are highly competitive. We offer numerous payment options.
+          %p We run cohorts every 4 weeks onsite and every 12 weeks remotely, and applications are highly competitive. We offer numerous payment options.
       .button-row
         %p
           - if page == :payment

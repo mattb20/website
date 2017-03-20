@@ -26,3 +26,9 @@
 .vertical-center {
   vertical-align: middle !important;
 }
+
+.show-for-mobile {
+  @include media($mobile) {
+    display: block !important;
+  }
+}

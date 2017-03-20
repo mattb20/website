@@ -42,6 +42,10 @@ footer {
       font-style: normal;
       line-height: inherit;
 
+      p {
+        text-align: center;
+      }
+
       span {
         font-size: modular-scale(-1);
       }

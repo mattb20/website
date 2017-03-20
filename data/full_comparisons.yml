@@ -43,7 +43,7 @@
   remote: Coach Led
 
 - benefit: New Course starts
-  onsite: Every 6 weeks
+  onsite: Every 4 weeks
   remote: Every 12 weeks
 
 - benefit: Food & drink
@@ -64,7 +64,7 @@
 
 - benefit: Talks by Industry Leaders
   onsite: Live, in Person
-  remote: false 
+  remote: false
 
 - benefit: Women's Discount
   onsite: £500

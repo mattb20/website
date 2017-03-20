@@ -26,5 +26,4 @@
         - data.send(comparisons).each do |comparison|
           %p.comparison-key= parse_boolean(comparison["remote"], image_tag("icons/icon-check.png"), image_tag("icons/icon-cross-red.png"))
       .comparison-footer
-        %h2.statistic.comparison-footer__statistic.statistic--alt-color
-          = link_to("£#{stats.remote_cost}", 'http://blog.makersacademy.com/changingourprices/', target: "_blank")
+        %h2.statistic.comparison-footer__statistic.statistic--alt-color £#{stats.remote_cost}
