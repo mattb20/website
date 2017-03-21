@@ -1,23 +1,44 @@
-- date: Saturday 11 February
-  event: Casual Duelling
-
-- date: Wednesday 15 February
-  event: Draft - AER/KLD or Cube
-
-- date: Wednesday 1 March
-  event: Draft - AER/KLD or Cube
-
-- date: Wednesday 22 March
-  event: Casual Duelling
-
 - date: Wednesday 29 March
-  event: Draft - AER/KLD or Cube
+  event: Draft - Modern Masters 2017
 
 - date: Wednesday 5 April
   event: Draft - AER/KLD or Cube
 
-- date: <b>Sunday 23 April</b>
-  event: Pre-release - Amonkhet
+- date: Wednesday 12 April
+  event: Draft - AER/KLD or Cube
+
+- date: Sunday 23 April
+  event: <b>Pre-release - Amonkhet (AKH)</b>
+
+- date: Wednesday 26 April
+  event: Casual Duelling
+
+- date: Wednesday 3 May
+  event: Draft - AKH or Cube
+
+- date: Sunday 7 May
+  event: Standard Showdown
+
+- date: Wednesday 10 May
+  event: Draft - AKH or Cube
+
+- date: Wednesday 17 May
+  event: Draft - AKH or Cube
+
+- date: Wednesday 24 May
+  event: Casual Duelling
+
+- date: Wednesday 31 May
+  event: Draft - AKH or Cube
+
+- date: Wednesday 7 June
+  event: Draft - AKH or Cube
+
+- date: Sunday 11 June
+  event: Standard Showdown
+
+- date: Sunday 25 June
+  event: Standard Showdown
 
 - date: 8/9 July
   event: CANCELLED <strike>Pre-release - Hour of Devastation</strike>
