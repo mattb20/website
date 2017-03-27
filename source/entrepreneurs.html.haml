@@ -6,7 +6,7 @@
       %h4.subheader learn to code in 12 weeks
 
       %P Have you ever dreamed of starting your own business? Become involved in every aspect of your business and learn the most essential skill of the future: coding!
-    = partial :"email-capture", locals: { segments: "Entrepreneur" }
+    = partial :"email-capture", locals: { segments: "website-entrepreneurs" }
 
 %section
   .article--centered
@@ -22,9 +22,9 @@
       %h3 This could be you
       %p Our graduates have gone on to build successful businesses, been accepted into accelerators, and secured further funding. Read their stories below.
 
-= partial :"full_graduates", locals: { category: "entrepreneur" }
-%hr
+  = partial :"full_graduates", locals: { category: "entrepreneur" }
 
+%hr
 
 %section.half-slider.half-slider--reverse.with-padding
   .container
