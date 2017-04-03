@@ -1,5 +1,7 @@
 / Case Study Template
-- description "#{grad[:summary]}. Read about Makers Academy developer #{grad[:first_name]} #{grad[:last_name]}"
+- set_meta_tags site: ""
+- title "How #{grad[:first_name]} #{grad[:last_name]} became a developer in 12 weeks with Makers Academy"
+- description (grad[:summary] ? "#{grad[:summary]}. " : "") << "Read about Makers Academy developer #{grad[:first_name]} #{grad[:last_name]}"
 
 %section.no-padding-bottom
   .container
