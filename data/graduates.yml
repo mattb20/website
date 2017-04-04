@@ -29,6 +29,34 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
+- first_name: Fergus
+  last_name: Orbach
+  image: fergus-o.jpg
+  summary: Pricing analyst to Junior Developer at ThoughtWorks
+  testimonial: Great people and I learnt more than I thought was possible in 3 months
+  cohort_month: June
+  cohort_year: 2016
+  categories:
+    -career-changer
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: I was working as a pricing analyst for an electricity company. It was my job to make the models which would predict the cost of various different products and provide the information the management needed to set prices.
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: I was making spreadsheets day in and day out at my old work. I became obsessed with improving them, from user experience to optimising speed, adding features and automation. I was doing everything possible to try and perfect the art of spreadsheets. It was at this point that I realised I was far more interested in making well-crafted spreadsheets that their actual contents. I soon was coming up against the limitations of Excel and realised I had to expand my toolset. A friend of mine had been to Makers a year or so before and was super happy with his decision. I decided it was time to follow in his footsteps and take the leap of faith.
+   - question: What did you find difficult on the course?
+     answer: Pairing every day is really intensive. Its really important that you maintain focus whilst pairing with someone (not doing so is just rude!) and this can be very draining. However I'm very glad that Makers does this, as it is an invaluable skill and I will be pairing daily at my new job.
+   - question: What was your end of cohort project?
+     answer: We went a bit left-field. We made a game to help people learn Regular Expressions - a very powerful but quite esoteric corner of programming. The game was themed around Edward Snowden's first few days at the NSA. If you would like to play the first few levels they can be found <a href='https://snowden-files.herokuapp.com' target='_blank'>here.</a>
+   - question: How has your life changed since learning to code?
+     answer: I guess one thing I have noticed is it is a lot harder to get bored these days. There's so much to learn out there and it is all genuinely interesting. If I ever have a spare couple of hours I'lll just start researching something. Generally I will go off on some tangent but it usually comes in handy at some point or other.
+   - question: What advice would you give to people thinking of changing career?
+     answer: Go for it - never too late to try something new.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: It is a lot of money. For me I was looking to retrain and it would have cost me a lot whichever way I went about it - sometimes things cost money,
+   - question: What was your biggest fear before joining MA and how do you feel about it now?
+     answer: I was terrified of baked beans, still am, but at least now I can write code.
+   - question: Sum up your Makers Academy experience
+     answer: Great people, learnt more than I thought was possible in 3 months (they also do this weird kind of stealth learning where you don't even realising you learning half the time), played a lot of table tennis.
 
 - first_name: Marco
   last_name: Araujo
