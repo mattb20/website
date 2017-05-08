@@ -40,24 +40,24 @@
   blog_link: https://tamborineblog.wordpress.com/
   categories:
     - education-leaver
-    - Thoughtworks
+    - ThoughtWorks
   case_study:
    - question: What were you doing before joining Makers Academy?
-     answer: I was a student and massage therapist
+     answer: I was a student and massage therapist.
    - question: How did you come across Makers Academy and what made you decide to apply?
-     answer: I came across it on the internet and was selected a one of the <a href='https://youtu.be/Bn9hHUwG6oM?list=PLc4BYny7PXeQmo4inKuhZ_rbl5aFWEWGt' target='_blank'>Thoughtworks Scholars</a>
+     answer: I came across it on the internet and was selected as one of the <a href='https://youtu.be/Bn9hHUwG6oM?list=PLc4BYny7PXeQmo4inKuhZ_rbl5aFWEWGt' target='_blank'>ThoughtWorks Scholars</a>
    - question: What did you find difficult on the course?
-     answer: My first group work experience was difficult as we all had different communication styles I am very direct and expect everyone to be as well.
+     answer: My first group work experience was difficult as we all had different communication styles. I am very direct and expect everyone to be as well.
    - question: What was your end of cohort project?
-     answer: <a href='https://github.com/lawrencedawson/turfy' target='_blank'>Turfy.</a> Location based notifications for yourself and others. We made an iOS app written in Swift using Firebase - both technologies that Makers Academy don't cover on the course.
+     answer: <a href='https://github.com/lawrencedawson/turfy' target='_blank'>Turfy:</a> A location based notification app for yourself and others. We made an iOS app written in Swift using Firebase - both technologies that Makers Academy don't cover on the course.
    - question: How has your life changed since learning to code?
-     answer: Totally changed. Before I had ideas that I couldn't approach because I wanted to do everything and didn't know where to start. Many things I could do but couldn't decide what was best. Like most young people, overwhelmed with career choices. Now I have started to learn what it is exactly that I don't know, I have learnt enough to start exploring more confidently on my own. Mostly I've learnt that I can learn things if I want to I just have to start small and build up, like we did at Makers.
+     answer: It's totally changed. Before I had ideas that I couldn't approach because I wanted to do everything and didn't know where to start. I could do many things but I didn't know what was best. Like most young people I was overwhelmed with career choices and now I have started to learn what it is exactly that I don't know, I have learnt enough to start exploring more confidently on my own and mostly I've learnt that I can learn things if I want to. I just have to start small and build up, like we did at Makers.
    - question: What advice would you give to people thinking of changing career?
-     answer: What's wrong with your current career? How did you get into it? What work would allow you to become who you want to be? What are the most important things to you, your non-negotiables? What unique qualities and value do bring? What do you value most in the world and in others? I think if you have clear answers to the above it will be easier.My version is, I have no idea I got into it because I was broke and needed an income. I want to be learning always exciting things, must be logical and creative. Must be treated as a human, must be indirectly alleviating not perpetuating suffering. Value transparency highest.
+     answer: Firstly ask yourself - what's wrong with your current career & how did you get into it? What work would allow you to become who you want to be? What are the most important things to you, your non-negotiables? What unique qualities and value do bring? What do you value most in the world and in others? I think if you have clear answers to the above it will be easier. My version is, I have no idea how I got into massage therapy but I was broke and needed an income. I wanted to learn exciting things, be logical and creative. I wanted to be treated as a human, be indirectly alleviated not perpetuated to suffering. I value transparency highly.
    - question: What was your biggest fear before joining Makers and how do you feel about it now?
-     answer: That I might fail the technical test or not keep up with the pace or that I liked the idea of coding more than the experience. Now I feel like those fears were legitimate at the time, but a little reading and working goes a long way! Don't compare yourself, as my coach said, ask yourself if you're a better coder today than yesterday each day and only worry if a few days go by with 'no'.
+     answer: That I might fail the technical test or not keep up with the pace, or that I liked the idea of coding more than the experience. Now I feel like those fears were legitimate at the time, but a little reading and working goes a long way! Don't compare yourself, as my coach said, ask yourself if you're a better coder today than yesterday each day and only worry if a few days go by with 'no'.
    - question: Sum up your Makers Academy experience
-     answer: Life changing.
+     answer: Life-changing.
 
 - first_name: Fergus
   last_name: Orbach
