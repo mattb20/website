@@ -26,12 +26,12 @@
 - title: Week 5
   image: js.png
   summary: Front-End Technologies
-  blurb: "Now that you can build test-driven, secure, database-backed web applications, it's time to start talking about front-end technologies: JavaScript, jQuery, AJAX and responsive design. Now you start to explore language: JavaScript, also known as the language of the web."
+  blurb: "Now that you can build test-driven, secure, database-backed web applications, it's time to start talking about front-end technologies: JavaScript, jQuery, AJAX and responsive design. Now you start to explore a new language: JavaScript, also known as the language of the web."
 
 - title: Week 6
   image: lab.png
   summary: Project week 1
-  blurb: "This week is all about teamwork as you're introduced to some techniques and practices common in an Agile or XP workplace. Working on a set project in small groups, you'll learn to master Git workflow, QA, Standups/Scrums, Kanban and pair programming in a team environment. This is also a great opportunity to practice and consolidate the skills and concepts learned in previous weeks. This week you'll also start working with the careers team so you can start planning your job hunting strategy."
+  blurb: "This week is all about teamwork as you're introduced to some techniques and practices common in an Agile or XP workplace. Working on a set project in small groups, you'll learn to master Git workflow, QA, Standups/Scrums, Kanban and pair programming in a team environment. This is also a great opportunity to practise and consolidate the skills and concepts learned in previous weeks. This week you'll also start working with the careers team so you can start planning your job hunting strategy."
 
 - title: Week 7
   image: advanced-js.png
@@ -41,7 +41,7 @@
 - title: Week 8
   image: rails.png
   summary: Ruby on Rails Basics
-  blurb: "In week 8 you'll start working with Ruby on Rails. By you have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and experience using databases. Armed with all this knowledge, you'll find Ruby on Rails easy to understand as it merely automates what you can do without it. This week ActiveRecord is part of your learning, the asset pipeline, routing and Rails architecture. Our Careers team will run you through challenging your preconceptions about what kind of company you want to work for."
+  blurb: "In week 8 you'll start working with Ruby on Rails. By now you have a solid understanding of Ruby, the web (HTTP, HTML, JavaScript, etc) and experience using databases. Armed with all this knowledge, you'll find Ruby on Rails easy to understand as it merely automates what you can do without it. This week ActiveRecord is part of your learning, the asset pipeline, routing and Rails architecture. Our Careers team will run you through challenging your preconceptions about what kind of company you want to work for."
 
 - title: Week 9
   image: advanced-rails.png
