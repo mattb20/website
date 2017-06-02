@@ -89,7 +89,7 @@
   }
 }
 
-.email-capture-row {
+.email-capture-row, .quiz-row {
   @include ma-row;
   form {
     @extend form.alt;
@@ -101,7 +101,7 @@
       margin: 0 auto;
     }
 
-    input[type="email"] {
+    input[type="email"], input[type="text"] {
       border-radius: $button-border-radius;
       margin-bottom: ma-spacing(1);
       line-height: $base-line-height;
@@ -267,7 +267,7 @@
       right: 20%;
       top: 1px;
       height: 1px;
-      background-color: $light-gray;  
+      background-color: $light-gray;
     }
     @include media($desktop) {
       .column:first-of-type:before {
