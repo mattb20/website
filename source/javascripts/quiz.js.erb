@@ -16,6 +16,64 @@
   'use strict'
 
   $.fn.quiz = function() {
-    
+    return $(this).each(function(index, element) {
+      $("div.email-capture-row").hide();
+
+      var form = $(element).find("form");
+      var quizResult = $(element).find("[id=quiz-result]");
+      var questionArea = $(element).find("[id=quiz-question]");
+
+      <% size = data.quiz_inputs.size %>
+      <% rand = Random.rand(size + 1) %>
+      <% question_elem = data.quiz_inputs[rand] %>
+      var question = " <%= question_elem['question'] %>";
+      var answer = <%= question_elem['answer'] %>;
+      var explanation = "<%= question_elem['explanation'] %>";
+
+      questionArea.html(question).show();
+
+      form.on("submit", submitAnswer);
+
+      function submitAnswer(event) {
+        event.preventDefault();
+        var userAnswer = form.find("input[type=text]").val();
+        updateView();
+        showResult(evaluateAnswer(userAnswer));
+      }
+
+      function updateView() {
+        $(".email-capture-row").show();
+        $(".quiz-answer").hide();
+      }
+
+      function evaluateAnswer(userAnswer) {
+        if(userAnswer.toLowerCase() === answer.toString().toLowerCase()) {
+          return {"userAnswer": userAnswer, "result": true, "className": "quiz-result-correct"};
+        } else {
+          return {"userAnswer": userAnswer, "result": false, "className": "quiz-result-wrong"};
+        }
+      }
+
+      function showResult(input) {
+        updateClass(input.className);
+        showResultContent(createFeedback(input));
+      }
+
+      function updateClass(className) {
+        quizResult.attr("class", className);
+      }
+
+      function createFeedback(input) {
+        if(input.result) {
+          return "Your answer is: " + input.userAnswer + ". Correct!<br>" + explanation;
+        } else {
+          return "Your answer is: " + input.userAnswer + ". Not correct. The answer is: " + answer + "<br>" + explanation;
+        }
+      }
+
+      function showResultContent(message) {
+        quizResult.html(message).show();
+      }
+    });
   };
 })(jQuery);
