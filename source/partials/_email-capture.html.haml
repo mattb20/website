@@ -1,3 +1,10 @@
+.quiz-row
+  .quiz-question{id: "quiz-question"}
+  %form.quiz-answer
+    %input{type: "text", id: "quiz-answer-input", placeholder: "Your answer", required: true}
+    %input.button.button--horizontal{type: "submit", value: "Submit your answer", id: "quiz-submit" }
+  .quiz-result{id: "quiz-result"}
+
 .email-capture-row
   %form.email-capture
     %label{for: "newsletter-email"}
