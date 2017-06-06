@@ -1,4 +1,4 @@
-/* Quiz randomly shows a quiz question to the user and after evaluating the user response
+/* Quiz shows a quiz question to the user and after evaluating the user response
   email_capture field is shown.
 
   Use:
@@ -22,23 +22,37 @@
       var form = $(element).find("form");
       var quizResult = $(element).find("[id=quiz-result]");
       var questionArea = $(element).find("[id=quiz-question]");
+      var answer1LabelElem = form.find('label[for=quiz-answer-input-1]');
+      var answer2LabelElem = form.find('label[for=quiz-answer-input-2]');
 
-      <% size = data.quiz_inputs.size %>
-      <% rand = Random.rand(size + 1) %>
-      <% question_elem = data.quiz_inputs[rand] %>
-      var question = " <%= question_elem['question'] %>";
-      var answer = <%= question_elem['answer'] %>;
-      var explanation = "<%= question_elem['explanation'] %>";
+      var question = "If you enter this series of commands into a computer, what " +
+                     "would you expect the output to be.<br>a = 10<br>b = 20<br>a = b";
+      var answer1Label = "a = ";
+      var answer1 = 20;
+      var answer2Label = "b = ";
+      var answer2 = 20;
+      var explanation = "Think of this in the same way a computer would. Or even " +
+                        "better, try it out in <a href='http://bit.ly/playingwithcode'>IRB</a>";
 
-      questionArea.html(question).show();
-
+      setUpView();
       form.on("submit", submitAnswer);
+
+      function setUpView() {
+        questionArea.html(question).show();
+        answer1LabelElem.html(answer1Label).show();
+        answer2LabelElem.html(answer1Label).show();
+      }
 
       function submitAnswer(event) {
         event.preventDefault();
-        var userAnswer = form.find("input[type=text]").val();
         updateView();
-        showResult(evaluateAnswer(userAnswer));
+        var result1 = evaluateAnswer(getAnswer(1), answer1, answer1Label);
+        var result2 = evaluateAnswer(getAnswer(2), answer2, answer2Label);
+        showResult(result1, result2);
+      }
+
+      function getAnswer(input) {
+        return form.find("[id=quiz-answer-input-"+ input +"]").val().trim();
       }
 
       function updateView() {
@@ -46,28 +60,31 @@
         $(".quiz-answer").hide();
       }
 
-      function evaluateAnswer(userAnswer) {
+      function evaluateAnswer(userAnswer, answer, answerLabel) {
         if(userAnswer.toLowerCase() === answer.toString().toLowerCase()) {
-          return {"userAnswer": userAnswer, "result": true, "className": "quiz-result-correct"};
+          return {"answer": answer, "answerLabel": answerLabel, "userAnswer": userAnswer, "result": true, "className": "quiz-result-correct"};
         } else {
-          return {"userAnswer": userAnswer, "result": false, "className": "quiz-result-wrong"};
+          return {"answer": answer, "answerLabel": answerLabel, "userAnswer": userAnswer, "result": false, "className": "quiz-result-wrong"};
         }
       }
 
-      function showResult(input) {
-        updateClass(input.className);
-        showResultContent(createFeedback(input));
+      function showResult(input1, input2) {
+        showResultContent(createFeedback(input1, input2));
+        // updateClass(input.className);
       }
 
       function updateClass(className) {
         quizResult.attr("class", className);
       }
 
-      function createFeedback(input) {
-        if(input.result) {
-          return "Your answer is: " + input.userAnswer + ". Correct!<br>" + explanation;
+      function createFeedback(input1, input2) {
+        if(input1.result && input2.result) {
+          return "Your answer is correct!";
         } else {
-          return "Your answer is: " + input.userAnswer + ". Not correct. The answer is: " + answer + "<br>" + explanation;
+          return "Your answer: " + input1.answerLabel + input1.userAnswer + ", " +
+                 input2.answerLabel + input2.userAnswer + "<br>" +
+                 "The correct answer is: " + input1.answerLabel + input1.answer +
+                 ", " + input2.answerLabel + input2.answer + "<br>" + explanation;
         }
       }
 
