@@ -1,12 +1,7 @@
-- question: What is the value of x?<br>x = 7<br>x = x + 1
-  answer: 8
-  explanation: test explanation
-- question: Test question 1 (answer= 53)
-  answer: 53
-  explanation: Test question 1 - explanation
-- question: Test question 2 (answer= true)
-  answer: true
-  explanation: Test question 2 - explanation
-- question: Test question 3 (answer= 14)
-  answer: 14
-  explanation: Test question 3 - explanation
+- question: If you enter this series of commands into a computer, what would you expect the output to be.<br>a = 10<br>b = 20<br>a = b
+  answers:
+    - answer: 20
+      answer_tag: 'a = '
+    - answer: 20
+      answer_tag: 'b = '
+  explanation: Think of this in the same way a computer would. Or even better, try it out in <a href='http://bit.ly/playingwithcode'>IRB</a>
