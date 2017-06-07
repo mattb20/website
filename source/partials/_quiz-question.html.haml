@@ -1,9 +1,13 @@
 .quiz-row
   .quiz-question{id: "quiz-question"}
   %form.quiz-answer
-    %label{for: "quiz-answer-input-1"}
-    %input{type: "text", id: "quiz-answer-input-1", placeholder: "Your answer", required: true}
-    %label{for: "quiz-answer-input-2"}
-    %input{type: "text", id: "quiz-answer-input-2", placeholder: "Your answer", required: true}
-    %input.button.button--horizontal{type: "submit", id: "quiz-submit", value: locals.fetch(:button_text, "Submit your answer") }
+    .two-width-row
+      .column
+        %label{for: "quiz-answer-input-1"}
+        %input{type: "text", id: "quiz-answer-input-1", placeholder: "Your answer", required: true}
+      .column
+        %label{for: "quiz-answer-input-2"}
+        %input{type: "text", id: "quiz-answer-input-2", placeholder: "Your answer", required: true}
+    .button-row
+      %input.button.button--horizontal{type: "submit", id: "quiz-submit", value: locals.fetch(:button_text, "Submit your answer") }
   .quiz-result{id: "quiz-result"}
