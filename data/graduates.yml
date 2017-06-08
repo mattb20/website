@@ -30,6 +30,36 @@
 #     - question: Sum up your Makers Academy experience
 #       answer:
 
+- first_name: Jonathan
+  last_name: Passe
+  image: jonothon-passe.jpg
+  summary: Youth Hostel deputy manager to Junior Developer at ThoughtWorks Germany
+  testimonial:  Given the quality of what you receive it's really good value compared to most universities.
+  cohort_month: August
+  cohort_year: 2016
+  categories:
+    - career-changer
+    - ThoughtWorks
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: I was working as a deputy manager at a youth hostel.
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: I thought about becoming developer and did some research online. I liked the curriculum so applied to join Makers Academy.
+   - question: What did you find difficult on the course?
+     answer: At the beginning I was overworking. I kept going over what I did in the day in the evening but it wasn't very productive.
+   - question: What was your end of cohort project?
+     answer: We created a game which follows the user to play an adventure and to make decisions about the adventure.
+   - question: How has your life changed since learning to code?
+     answer: My plan was to learn to code then find a company where I would fit in culturally. I wanted to move to Germany as well. I managed to do all of those things.
+   - question: What advice would you give to people thinking of changing career?
+     answer: Weigh out all your options. I made a list of what I wanted and then pursue whatever comes out of your research.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: It might seem expensive when you are spending it but in the long term, I'm making that money back quickly. Given the quality of what you receive it's really good value compared to most universities.
+   - question: What was your biggest fear before joining MA and how do you feel about it now?
+     answer: My biggest fear was running out of money before I could find a job. As I started to look for a job, that fear went down as it's important to find a job that suits you. That's why it's important to budget before hand.
+   - question: Sum up your Makers Academy experience
+     answer: I learned to learn by myself!
+
 - first_name: Rebecca
   last_name: Piper
   image: rebecca.jpg
