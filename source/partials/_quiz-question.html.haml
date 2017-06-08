@@ -3,10 +3,10 @@
   %form.quiz-answer
     .two-width-row
       .column
-        %label{for: "quiz-answer-input-1"}
+        %label{for: "quiz-answer-input-1", id: "quiz-answer-label-1"}
         %input{type: "text", id: "quiz-answer-input-1", placeholder: "Your answer", required: true}
       .column
-        %label{for: "quiz-answer-input-2"}
+        %label{for: "quiz-answer-input-2", id: "quiz-answer-label-2"}
         %input{type: "text", id: "quiz-answer-input-2", placeholder: "Your answer", required: true}
     .button-row
       %input.button.button--horizontal{type: "submit", id: "quiz-submit", value: locals.fetch(:button_text, "Submit your answer") }

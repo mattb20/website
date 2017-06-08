@@ -23,4 +23,6 @@ group :development, :test do
   gem 'sass'
   gem 'timecop'
   gem 'capybara'
+  gem 'capybara-webkit'
+  gem 'selenium-webdriver'
 end

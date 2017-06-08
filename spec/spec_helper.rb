@@ -18,6 +18,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 require 'capybara/rspec'
+require 'capybara-webkit'
 require 'middleman'
 require 'middleman-meta-tags'
 require 'middleman-dotenv'
@@ -28,6 +29,9 @@ Capybara.app = Middleman::Application.server.inst do
   set :environment, :development
   set :show_exceptions, false
 end
+
+Capybara.javascript_driver = :webkit
+Capybara.current_driver = Capybara.javascript_driver
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
