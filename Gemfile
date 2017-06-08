@@ -22,4 +22,5 @@ group :development, :test do
   gem 'rspec'
   gem 'sass'
   gem 'timecop'
+  gem 'capybara'
 end
