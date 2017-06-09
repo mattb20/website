@@ -152,6 +152,7 @@
       text-transform: none;
       margin-right:15px;
       margin-left:15px;
+      font-size: 80%;
       float: none;
       display: inline-block;
       vertical-align: middle;
@@ -185,13 +186,13 @@
       input[type="text"] {
         margin-bottom: ma-spacing(1);
       }
+      label {
+        font-size: 150%;
+      }
       .two-width-row {
         margin: 0 auto;
         width: 70%;
       }
-      // input[type="submit"] {
-      //   @include border-left-radius(0);
-      // }
     }
   }
 }
