@@ -5,8 +5,10 @@
       %h1 Learn Ruby In 15 Minutes
       %h4.subheader{id: "ebook-subheader"} Download the guide
       %P{id: "ebook-intro"} Get a free copy of our Learn Ruby In 15 Minutes e-book by signing up to our newsletter. It's perfect for anyone that is interested in taking the plunge by learning to code. It is a good start into the Ruby language if you've never had any experience before and we've made it as easy to understand as possible.
-    = partial :"quiz-question"
     = partial :"email-capture", locals: { segments: "website-ebook-lr15" }
+  .container.white-backgrounded
+    .centered-row
+    = partial :"quiz-question"
 
 %section.full-slider
   .slider

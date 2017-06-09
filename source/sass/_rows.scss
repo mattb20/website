@@ -138,6 +138,7 @@
 
 .quiz-row {
   @include ma-row;
+
   form {
     @extend form.alt;
     @include clearfix;
@@ -161,6 +162,7 @@
     input[type="text"] {
       width: auto;
       border-radius: $button-border-radius;
+      border-color: $brand-secondary-color !important;
       margin-top: ma-spacing(0.5);
       margin-bottom: ma-spacing(0.5);
       line-height: $base-line-height;
@@ -174,6 +176,7 @@
 
     input[type="submit"] {
       width: $base-button-width;
+      border-color: $brand-primary-color !important;
     }
 
     @include media($desktop) {
@@ -183,8 +186,8 @@
         display: block;
         float: none;
       }
-      input[type="text"] {
-        margin-bottom: ma-spacing(1);
+      input[type="text"], input[type="submit"] {
+        margin-bottom: ma-spacing(1) !important;
       }
       label {
         font-size: 150%;
