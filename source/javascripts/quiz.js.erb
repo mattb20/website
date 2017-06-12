@@ -20,7 +20,7 @@
       $("div.email-capture-row").hide();
 
       var form = $(element).find("form");
-      var quizResult = $(element).find("[id=quiz-result]");
+      var quizResultText = $(element).find("[id=quiz-result-text]");
       var questionArea = $(element).find("[id=quiz-question]");
       var answer1LabelElem = form.find('label[for=quiz-answer-input-1]');
       var answer2LabelElem = form.find('label[for=quiz-answer-input-2]');
@@ -64,22 +64,22 @@
         if(userAnswer.toLowerCase() === answer.toString().toLowerCase()) {
           return {"answer": answer, "answerLabel": answerLabel, "userAnswer": userAnswer, "result": true, "className": "quiz-result-correct"};
         } else {
-          return {"answer": answer, "answerLabel": answerLabel, "userAnswer": userAnswer, "result": false, "className": "quiz-result-wrong"};
+          return {"answer": answer, "answerLabel": answerLabel, "userAnswer": userAnswer, "result": false, "className": ""};
         }
       }
 
       function showResult(input1, input2) {
         showResultContent(createFeedback(input1, input2));
-        // updateClass(input.className);
       }
 
       function updateClass(className) {
-        quizResult.attr("class", className);
+        quizResultText.attr("class", className);
       }
 
       function createFeedback(input1, input2) {
         if(input1.result && input2.result) {
-          return "Your answer is correct!";
+          updateClass(input1.className);
+          return "You are correct!";
         } else {
           return "Your answer: " + input1.answerLabel + input1.userAnswer + ", " +
                  input2.answerLabel + input2.userAnswer + "<br>" +
@@ -89,7 +89,7 @@
       }
 
       function showResultContent(message) {
-        quizResult.html(message).show();
+        quizResultText.html(message).show();
       }
     });
   };

@@ -40,33 +40,45 @@ describe("quiz", function() {
   })
 
   describe("evaluation", function() {
-    it("returns the proper respond if correct values are submitted", function() {
+    it("returns the proper response if correct values are submitted", function() {
       $("#quiz-answer-input-1").val(20);
       $("#quiz-answer-input-2").val(20);
       $("#quiz-submit").trigger("click");
-      var renderedRespond = $("#quiz-result").text();
-      var respond = "Your answer is correct!";
-      expect(renderedRespond).toEqual(respond);
+      var renderedResponse = $("#quiz-result-text").text();
+      var response = "You are correct!";
+      expect(renderedResponse).toEqual(response);
     })
 
-    it("returns the proper respond if incorrect values are submitted", function() {
+    it("returns the proper response if incorrect values are submitted", function() {
       $("#quiz-answer-input-1").val(18);
       $("#quiz-answer-input-2").val(20);
       $("#quiz-submit").trigger("click");
-      var renderedRespond = $("#quiz-result").text();
-      var respond = "Your answer: a = 18, b = 20The correct answer is: a = 20, " +
+      var renderedResponse = $("#quiz-result-text").text();
+      var response = "Your answer: a = 18, b = 20The correct answer is: a = 20, " +
                     "b = 20Think of this in the same way a computer would. Or even" +
                     " better, try it out in IRB";
-      expect(renderedRespond).toEqual(respond);
+      var responseClass = $("#quiz-result-text").attr("class");
+      expect(renderedResponse).toEqual(response);
     })
 
     it("removes whitespace from both ends of the input values", function() {
       $("#quiz-answer-input-1").val("      20  ");
       $("#quiz-answer-input-2").val("  20       ");
       $("#quiz-submit").trigger("click");
-      var renderedRespond = $("#quiz-result").text();
-      var respond = "Your answer is correct!";
-      expect(renderedRespond).toEqual(respond);
+      var renderedResponse = $("#quiz-result-text").text();
+      var response = "You are correct!";
+      expect(renderedResponse).toEqual(response);
     })
+
+    it("changes the background color of response msg if correct values submitted", function() {
+      $("#quiz-answer-input-1").val(20);
+      $("#quiz-answer-input-2").val(20);
+      $("#quiz-submit").trigger("click");
+      var responseClass = $("#quiz-result-text").attr("class");
+      var classValue = "quiz-result-correct";
+      expect(responseClass).toEqual(classValue);
+    })
+
+
   })
 })

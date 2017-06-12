@@ -139,6 +139,10 @@
 .quiz-row {
   @include ma-row;
 
+  .quiz-result-correct {
+    background-color: $lime;
+  }
+
   form {
     @extend form.alt;
     @include clearfix;
