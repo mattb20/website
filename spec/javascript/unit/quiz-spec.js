@@ -45,7 +45,7 @@ describe("quiz", function() {
       $("#quiz-answer-input-2").val(20);
       $("#quiz-submit").trigger("click");
       var renderedResponse = $("#quiz-result-text").text();
-      var response = "You are correct!";
+      var response = "You're correct!";
       expect(renderedResponse).toEqual(response);
     })
 
@@ -66,7 +66,7 @@ describe("quiz", function() {
       $("#quiz-answer-input-2").val("  20       ");
       $("#quiz-submit").trigger("click");
       var renderedResponse = $("#quiz-result-text").text();
-      var response = "You are correct!";
+      var response = "You're correct!";
       expect(renderedResponse).toEqual(response);
     })
 
