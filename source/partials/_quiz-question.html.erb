@@ -1,0 +1,19 @@
+<div class="quiz-row">
+  <div class="quiz-question" id="quiz-question"></div>
+  <form class="quiz-answer">
+    <div class="two-width-row">
+      <div class="column">
+        <label for="quiz-answer-input-1" id="quiz-answer-label-1"></label>
+        <input id="quiz-answer-input-1" placeholder="Your answer" required="<%= true %>" type="text"></input>
+      </div>
+      <div class="column">
+        <label for="quiz-answer-input-2" id="quiz-answer-label-2"></label>
+        <input id="quiz-answer-input-2" placeholder="Your answer" required="<%= true %>" type="text"></input>
+      </div>
+    </div>
+    <div class="button-row">
+      <input class="button button--horizontal" id="quiz-submit" type="submit" value="<%= locals.fetch(:button_text, "Submit your answer") %>"></input>
+    </div>
+  </form>
+  <div class="quiz-result" id="quiz-result"></div>
+</div>
