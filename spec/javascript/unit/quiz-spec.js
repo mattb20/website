@@ -8,9 +8,8 @@ const { window } = new JSDOM(
   htmlSource +
   '<div class="email-capture-row"></div>'
 );
-const { document } = window.window;
+global.document = window.window;
 global.window = window;
-global.document = document;
 global.$ = global.jQuery = require("../../../source/javascripts/vendor/jquery");
 
 require("../../../source/javascripts/quiz.js.erb");
@@ -22,19 +21,19 @@ describe("quiz", function() {
   });
 
   it("renders the question properly", function() {
-    var renderedQuestion = document.querySelector("#quiz-question").textContent;
+    var renderedQuestion = $("#quiz-question").text();
     var question = "If you enter this series of commands into a computer, what " +
                    "would you expect the output to be.a = 10b = 20a = b";
     expect(renderedQuestion).toEqual(question);
   })
 
   it("renders the first label properly", function() {
-    var label1 = document.querySelector("#quiz-answer-label-1").textContent;
+    var label1 = $("#quiz-answer-label-1").text();
     expect(label1).toEqual("a = ");
   })
 
   it("renders the second label properly", function() {
-    var label2 = document.querySelector("#quiz-answer-label-2").textContent;
+    var label2 = $("#quiz-answer-label-2").text();
     expect(label2).toEqual("b = ");
   })
 
@@ -42,7 +41,7 @@ describe("quiz", function() {
     $("#quiz-answer-input-1").val(20);
     $("#quiz-answer-input-2").val(20);
     $("#quiz-submit").trigger("click");
-    var renderedRespond = document.querySelector("#quiz-result").textContent;
+    var renderedRespond = $("#quiz-result").text();
     var respond = "Your answer is correct!";
     expect(renderedRespond).toEqual(respond);
   })
@@ -51,7 +50,7 @@ describe("quiz", function() {
     $("#quiz-answer-input-1").val(18);
     $("#quiz-answer-input-2").val(20);
     $("#quiz-submit").trigger("click");
-    var renderedRespond = document.querySelector("#quiz-result").textContent;
+    var renderedRespond = $("#quiz-result").text();
     var respond = "Your answer: a = 18, b = 20The correct answer is: a = 20, " +
                   "b = 20Think of this in the same way a computer would. Or even" +
                   " better, try it out in IRB";
@@ -62,7 +61,7 @@ describe("quiz", function() {
     $("#quiz-answer-input-1").val("      20  ");
     $("#quiz-answer-input-2").val("  20       ");
     $("#quiz-submit").trigger("click");
-    var renderedRespond = document.querySelector("#quiz-result").textContent;
+    var renderedRespond = $("#quiz-result").text();
     var respond = "Your answer is correct!";
     expect(renderedRespond).toEqual(respond);
   })
