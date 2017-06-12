@@ -30,12 +30,41 @@ describe("quiz", function() {
 
   it("renders the first label properly", function() {
     var label1 = document.querySelector("#quiz-answer-label-1").textContent;
-    expect(label1).toEqual("a =  ");
+    expect(label1).toEqual("a = ");
   })
 
   it("renders the second label properly", function() {
     var label2 = document.querySelector("#quiz-answer-label-2").textContent;
     expect(label2).toEqual("b = ");
+  })
+
+  it("returns the proper respond if correct values are submitted", function() {
+    $("#quiz-answer-input-1").val(20);
+    $("#quiz-answer-input-2").val(20);
+    $("#quiz-submit").trigger("click");
+    var renderedRespond = document.querySelector("#quiz-result").textContent;
+    var respond = "Your answer is correct!";
+    expect(renderedRespond).toEqual(respond);
+  })
+
+  it("returns the proper respond if incorrect values are submitted", function() {
+    $("#quiz-answer-input-1").val(18);
+    $("#quiz-answer-input-2").val(20);
+    $("#quiz-submit").trigger("click");
+    var renderedRespond = document.querySelector("#quiz-result").textContent;
+    var respond = "Your answer: a = 18, b = 20The correct answer is: a = 20, " +
+                  "b = 20Think of this in the same way a computer would. Or even" +
+                  " better, try it out in IRB";
+    expect(renderedRespond).toEqual(respond);
+  })
+
+  it("removes whitespace from both ends of the input values", function() {
+    $("#quiz-answer-input-1").val("      20  ");
+    $("#quiz-answer-input-2").val("  20       ");
+    $("#quiz-submit").trigger("click");
+    var renderedRespond = document.querySelector("#quiz-result").textContent;
+    var respond = "Your answer is correct!";
+    expect(renderedRespond).toEqual(respond);
   })
 
 })
