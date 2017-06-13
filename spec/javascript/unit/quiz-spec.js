@@ -79,6 +79,13 @@ describe("quiz", function() {
       expect(responseClass).toEqual(classValue);
     })
 
+    it("does not change the background color of response msg if incorrect values submitted", function() {
+      $("#quiz-answer-input-1").val(19);
+      $("#quiz-answer-input-2").val("aaaa");
+      $("#quiz-submit").trigger("click");
+      var responseClass = $("#quiz-result-text").attr("class");
+      expect(responseClass).toBeUndefined();
+    })
 
   })
 })
