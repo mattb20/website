@@ -2,16 +2,12 @@
 
 var fs = require('fs');
 const { JSDOM } = require('jsdom');
-
 var htmlSource = fs.readFileSync("./source/partials/_quiz-question.html.erb", "utf8");
-const { window } = new JSDOM(
-  htmlSource +
-  '<div class="email-capture-row"></div>'
-);
+const { window } = new JSDOM(htmlSource + '<div class="email-capture-row"></div>');
+
 global.document = window.window;
 global.window = window;
 global.$ = global.jQuery = require("../../../source/javascripts/vendor/jquery");
-
 require("../../../source/javascripts/quiz.js.erb");
 
 describe("quiz", function() {
