@@ -139,8 +139,13 @@
 .quiz-row {
   @include ma-row;
 
+  .quiz-result {
+    margin-bottom: ma-spacing(1);
+  }
+
   .quiz-result-correct {
     background-color: #00FF00;
+    font-size: 130%;
   }
 
   form {
@@ -186,6 +191,7 @@
     @include media($desktop) {
       text-align: center;
       display: inline-block;
+
       input {
         display: block;
         float: none;
