@@ -22,7 +22,4 @@ group :development, :test do
   gem 'rspec'
   gem 'sass'
   gem 'timecop'
-  gem 'capybara'
-  gem 'capybara-webkit'
-  gem 'selenium-webdriver'
 end
