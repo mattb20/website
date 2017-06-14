@@ -13,7 +13,7 @@
 // bower_components/makers_styles/source/javascripts/vendor/baseliner.js
 // bower_components/makers_styles/source/javascripts/navigation.js
 // bower_components/makers_styles/source/javascripts/jquery.fixedscroll.js
-// bower_components/makers_styles/source/javascripts/intercom.js
+
 
 
 //= require vendor/jquery
@@ -23,7 +23,6 @@
 //= require navigation
 //= require jquery.fixedscroll
 //= require email_capture
-//= require intercom
 //= require vendor/baseliner
 //= require tabs
 //= require vertical_tabs
