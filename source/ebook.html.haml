@@ -6,10 +6,6 @@
       %h1 Learn Ruby In 15 Minutes
       %h4.subheader{id: "ebook-subheader"} Download the guide
       %P{id: "ebook-intro"} Cover the basics of learning to code and start your developer journey.
-    = partial :"email-capture", locals: { segments: "website-ebook-lr15" }
-  .container.white-backgrounded
-    .centered-row
-    = partial :"quiz-question"
 
 %section.full-slider
   .slider
@@ -51,6 +47,14 @@
           %h2 Bonus Challenges
           %p
             %span As with learning a language or riding a bike, you don’t really start learning to code until you actually start writing code - ideally to solve real-world problems. As a bonus, we've devised some fun but informative challenges for you to test and hone your new Ruby skills. Keep your eyes on our Newsletter for a solutions manual - coming soon...!
+
+%section.backgrounded.ebook
+  .container
+    .centered-row
+    = partial :"quiz-question"
+  .container
+    .centered-row
+    = partial :"email-capture", locals: { segments: "website-ebook-lr15" }
 
 / Analytics event for landing pages
 :javascript

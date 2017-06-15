@@ -136,6 +136,13 @@
   }
 }
 
+.ebook {
+  padding: ma-spacing(0);
+  @include media($desktop) {
+    min-height: $base-spacing * 10;
+  }
+}
+
 .quiz-row {
   @include ma-row;
 
@@ -171,7 +178,7 @@
     input[type="text"] {
       width: auto;
       border-radius: $button-border-radius;
-      border-color: $brand-secondary-color !important;
+      // border-color: $brand-secondary-color !important;
       margin-top: ma-spacing(0.5);
       margin-bottom: ma-spacing(0.5);
       line-height: $base-line-height;

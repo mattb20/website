@@ -11,9 +11,7 @@
         <input id="quiz-answer-input-2" placeholder="Your answer" required="<%= true %>" type="text"></input>
       </div>
     </div>
-    <div class="button-row">
-      <input class="button button--horizontal" id="quiz-submit" type="submit" value="<%= locals.fetch(:button_text, "Submit your answer") %>"></input>
-    </div>
+    <input class="button button--horizontal" id="quiz-submit" type="submit" value="<%= locals.fetch(:button_text, "Submit your answer") %>"></input>
   </form>
   <div class="quiz-result" id="quiz-result">
     <span id="quiz-result-text"></span>
