@@ -3,66 +3,6 @@
 #   job_title:
 #   about:
 
-- name: Zara
-  image: zara.jpg
-  job_title: Careers Coach
-  about: Zara is our careers coach supporting students in the transition from student to getting their first job as a Junior Developer. Previously she worked at Working Chance, supporting women with criminal convictions back into work. On the side she sells Camphill pottery, plays Gauntlet on the Makers Academy PS4 and is training to be a psychotherapist.
-
-- name: Emily
-  image: emily.jpg
-  job_title: Careers Team
-  about: Emily is on our careers team, tracking down employers who meet our high standards and helping them to hire the developers we train. She’s new to tech - before Makers Academy, she worked in the charity sector, supporting women with criminal convictions into employment. Her main hobby is going to restaurants by herself, so she can concentrate on the food without any distractions.
-
-# - name: Ross
-#   image:
-#   job_title: Relationship Manager
-#   about: Ross came to Makers Academy with a varied past. Never having been a fan of traditional education or the typical sales approach he fell in love with Makers Academy from the beginning. Now he is managing relationships with our hiring partners being driven by his love of people and what motivates them, as well as knowing that the company he represents stands for a change in education.
-
-- name:  Alex B
-  image: alexb.jpg
-  job_title:
-  about: Alex is responsible for raising our profile amongst tech employers, and using the power of marketing to get awesome companies to hire our talented engineers. She’s built her career in three different continents and is passionate about startup culture.
-
-- name: Mary
-  image: mary.jpg
-  job_title: Coach
-  about: Mary loves helping people learn, and has spent the last few years coaching programmers. She also loves making things. She has released two video games, an implementation of Git in JavaScript, and a programming language designed for beginners.
-
-# - name: Alex
-#   image: alex.jpg
-#   job_title: Marketing team
-#   about:
-
-- name: Max
-  image: max.jpg
-  job_title: Careers team
-  about: Max is passionate about improving diversity in tech. Before Makers Academy he spent two years at Apps for Good, inspiring young people from all walks of life to build their digital skills. Now he is working with hiring partners to improve their recruitment processes and attract the best software talent from any background.
-
-- name: Jordan
-  image: jordan.jpg
-  job_title: Sales and Marketing Director
-  about: Jordan is our Sales and Marketing Director at Makers Academy. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
-
-- name: Roi
-  image: roi.jpg
-  job_title: Coachineer
-  about: Roi is an MA graduate and has over 10 years of experience in print and web design with clients including Philips, Toshiba, Emirates Bank, and West End shows. Roi loves problem solving in any form, especially coding.
-
-- name: Arfah
-  image: arfah.jpg
-  job_title: Head of Marketing
-  about: Arfah leads on the various marketing campaigns to get you excited about Makers Academy! There is a good chance that her work was, either directly or indirectly, responsible for bringing you to this page. She is always involved in various things from being Youth Trustee of charity Spark+Mettle to co-founding a skills development site for young people called Discoverables.
-
-- name: Ollie
-  image: ollienew.jpg
-  job_title: Gatekeeper
-  about: Ollie has never been one to follow convention, so he left school at 17 to become an entrepreneur. He’s previously worked in Apple Retail and in the growth department of a tech startup called Gett. Passionate about technology and education, Ollie’s an alumnus of the highly selective entrepreneurs course the New Entrepreneurs Foundation and one of the Gatekeepers here at Makers Academy. Ollie spends his time selecting the very best students for every cohort.
-
-- name: Ruben
-  image: ruben.jpg
-  job_title: Chief Operating Officer
-  about: Ruben is part of the founding team at Makers, having himself taken the second course and built the career side of the business. Today, his focus is on the organisational structure and culture, the team and our strategic growth. Ruben is passionate about new [un]management styles, education and food.
-
 - name: Will
   image: will.jpg
   job_title: Head of Careers
@@ -88,15 +28,60 @@
   job_title: Education Lead
   about: Sam trained at Apple, taught, and ran a small software development company. He’s passionate about the psychology of education, and software craftsmanship. He has nearly a decade of experience building complex web applications in a variety of roles.
 
+- name: Zara
+  image: zara.jpg
+  job_title: Careers Coach
+  about: Zara is our careers coach supporting students in the transition from student to getting their first job as a Junior Developer. Previously she worked at Working Chance, supporting women with criminal convictions back into work. On the side she sells Camphill pottery, plays Gauntlet on the Makers Academy PS4 and is training to be a psychotherapist.
+
+- name: Emily
+  image: emily.jpg
+  job_title: Careers Team
+  about: Emily is on our careers team, tracking down employers who meet our high standards and helping them to hire the developers we train. She’s new to tech - before Makers Academy, she worked in the charity sector, supporting women with criminal convictions into employment. Her main hobby is going to restaurants by herself, so she can concentrate on the food without any distractions.
+
+# - name: Ross
+#   image:
+#   job_title: Relationship Manager
+#   about: Ross came to Makers Academy with a varied past. Never having been a fan of traditional education or the typical sales approach he fell in love with Makers Academy from the beginning. Now he is managing relationships with our hiring partners being driven by his love of people and what motivates them, as well as knowing that the company he represents stands for a change in education.
+
+- name:  Alex B
+  image: alexb.jpg
+  job_title:
+  about: Alex is responsible for raising our profile amongst tech employers, and using the power of marketing to get awesome companies to hire our talented engineers. She’s built her career in three different continents and is passionate about startup culture.
+
+- name: Mary
+  image: mary.jpg
+  job_title: Coach
+  about: Mary loves helping people learn, and has spent the last few years coaching programmers. She also loves making things. She has released two video games, an implementation of Git in JavaScript, and a programming language designed for beginners.
+
+- name: Max
+  image: max.jpg
+  job_title: Careers team
+  about: Max is passionate about improving diversity in tech. Before Makers Academy he spent two years at Apps for Good, inspiring young people from all walks of life to build their digital skills. Now he is working with hiring partners to improve their recruitment processes and attract the best software talent from any background.
+
+- name: Jordan
+  image: jordan.jpg
+  job_title: Sales and Marketing Director
+  about: Jordan is our Sales and Marketing Director at Makers Academy. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
+
+- name: Roi
+  image: roi.jpg
+  job_title: Coachineer
+  about: Roi is an MA graduate and has over 10 years of experience in print and web design with clients including Philips, Toshiba, Emirates Bank, and West End shows. Roi loves problem solving in any form, especially coding.
+
+- name: Ollie
+  image: ollienew.jpg
+  job_title: Gatekeeper
+  about: Ollie has never been one to follow convention, so he left school at 17 to become an entrepreneur. He’s previously worked in Apple Retail and in the growth department of a tech startup called Gett. Passionate about technology and education, Ollie’s an alumnus of the highly selective entrepreneurs course the New Entrepreneurs Foundation and one of the Gatekeepers here at Makers Academy. Ollie spends his time selecting the very best students for every cohort.
+
+- name: Ruben
+  image: ruben.jpg
+  job_title: Chief Operating Officer
+  about: Ruben is part of the founding team at Makers, having himself taken the second course and built the career side of the business. Today, his focus is on the organisational structure and culture, the team and our strategic growth. Ruben is passionate about new [un]management styles, education and food.
+
 - name: Dana
   image: DanaCutout.jpg
   job_title: Chief Joy Officer
   about: Dana is our Chief Joy Officer. She facilitates the well being of the students and staff. Everything from personal/group chats and advice to daily meditation. She is also our in-house Yoga teacher (RYT). Dana loves music and fun!
-
-- name: Ana
-  image: ana.jpg
-  job_title: Coachineer
-  about: Ana has been with us since the very beginning. From onboarding students to tracking down receipts, she was responsible for keeping Makers HQ running! She has now jumped ship across to the coaching team after doing the course herself.
 
 - name: Cata
   image: cata.jpg
