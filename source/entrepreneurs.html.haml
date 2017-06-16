@@ -1,12 +1,12 @@
 - description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/topdownrow.jpg")});"}
   .container
     .centered-row
       %h1 Build the skills to start your own business
       %h4.subheader learn to code in 12 weeks
 
       %P Have you ever dreamed of starting your own business? Become involved in every aspect of your business and learn the most essential skill of the future: coding!
-    = partial :"email-capture", locals: { segments: "Entrepreneur" }
+    = partial :"email-capture", locals: { segments: "website-entrepreneurs" }
 
 %section
   .article--centered
@@ -22,9 +22,9 @@
       %h3 This could be you
       %p Our graduates have gone on to build successful businesses, been accepted into accelerators, and secured further funding. Read their stories below.
 
-= partial :"full_graduates", locals: { category: "entrepreneur" }
-%hr
+  = partial :"full_graduates", locals: { category: "entrepreneur" }
 
+%hr
 
 %section.half-slider.half-slider--reverse.with-padding
   .container
@@ -71,8 +71,3 @@
 = partial :"benefits_table"
 
 = partial :"primary_call_to_action"
-
-/ Analytics event for landing page
-:javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'Entrepreneur'});
-  analytics.identify({'Entrepreneur': true});

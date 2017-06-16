@@ -2,44 +2,12 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
   .container
     .centered-row
-      %h2 Win a place on the Makers Academy Remote coding course
-      %h4.subheader Sponsored by Mattessons Fridge Raiders (powering you up to the next level)
-      %p  Makers Academy is Europe’s leading Web Developer bootcamp. If you’re 18 years or over, enter now to be in with a chance to change your life by learning to code in 12 weeks! If you’re not 18, you’re still free to enter and if you win we will hold your place for you, you’ll just have to wait until your 18 to actually start the course.
-%section
-  .container
-    .form-row
-      %form.trackable-form{action: "/fridge-raiders/success"}
-        %fieldset
-          .input-row
-            %label{for: "firstname", class: "required"}
-              First Name
-            %input{type: "text", required: true, name: "firstname", id: "firstname"}
-          .input-row
-            %label{for: "surname", class: "required"}
-              Surname
-            %input{type: "text", required: true, name: "surname", id: "surname"}
-          .input-row
-            %label{for: "email", class: "required"}
-              Email address
-            %input{type: "email", required: true, name: "email", id: "email"}
-          .input-row
-            %label{for: "phone", class: "required"}
-              Phone number
-            %input{type: "tel", required: true, name: "phone", id: "phone"}
-          .input-row
-            %label{for: "age", class: "required"}
-              How old are you?
-            %input{type: "number", min: 18, required: true, name: "age", id: "age"}
-          .button-row
-            %p
-              %input{type: "submit", value: "Start Coding Now"}
+      %h2 Learn to code in 12 weeks
+      %h4.subheader Competition is now closed
+      %p  Makers Academy is Europe’s leading Web Developer bootcamp. Mattessons Fridge Raiders sponsored one lucky person to do the course for free! Unfortunately the competition is now closed.
+      %p If you are still interested in becoming a developer, feel free to submit an application and explore the website! Sign up to newsletter to receive a free Learn Ruby in 15 minutes e-book.
+    = partial :"email-capture", locals: { button_text: "Send my e-book", segments: "website-fridge-lr15" }
 
-%hr
-
-
-= partial :"fridge_raiders_info"
-
-= javascript_include_tag "track-form/save-for-later-submit"
 
 :javascript
   analytics.track('Viewed Landing Page', {'Landing Page': 'Fridgeraiders'});

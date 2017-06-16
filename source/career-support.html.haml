@@ -1,0 +1,60 @@
+- description "Hire the top junior developers from Makers Academy."
+- title "Employers"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/circle.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Take your first step as a developer with our
+      %h1 Career Support
+      .five-width-row.small-padding-top
+        .column
+          = image_tag "hiring-partners/ThoughtWorks.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/compare-the-market.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/FT.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Deloitte-Digital.png", class:"image--medium"
+        .column
+          = image_tag "hiring-partners/Sky.png", class:"image--medium"
+
+%section
+  .container
+    .centered-row
+      %h4 Are you
+      %h2 Hiring Developers?
+      %p Meet Europe’s most talented junior software developers all year round. Visit our dedicated employers site today.
+      .button-row
+        = link_to "Take me there", "http://employers.makersacademy.com/", target: "_blank", class: "button button--horizontal"
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h2 We'll help you get the job you love
+    .three-width-row
+      .column
+        %h5 £30-35k
+        %p The average salary for a Makers Academy graduate is £30-35k. Compare that to the starting salary for a UK University graduate, which ranges between £18-£24k.
+      .column
+        %h5 ~40 days
+        %p The average time that our students take to get a job is 40 days. Once you've graduated, we want to help in any way that we can. We're committed to fully supporting you until you're happy in your new job as a developer.
+      .column
+        %h5 300+
+        %p We work with over 300 companies, allowing you to find the perfect job. Our careers team will look after all post course arrangements, we offer interview help, job hunting advice and intros to our hiring partners.
+
+%section.half-slider
+  .container
+    .half-slider-row
+      .column
+        .copy.copy--left
+          %h3 Who they are
+          %p Makers Academy developers are passionate, driven, curious and engaging.
+          %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
+          %p The majority of our graduates have been successful in another industry, including law, marketing, banking, design, and many more: that's experience they'll bring to your company.
+      .column
+        = partial :"preview_graduates"
+
+= partial :"developer_hero"
+
+:javascript
+  analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Main 2.0 (Hired.com style)'});

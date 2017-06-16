@@ -19,12 +19,14 @@
         %p 
         Partnered with 
         = link_to "Leisure Games", 'http://www.leisuregames.com/'
-        , we host a pre-release tournament for every new set, for about 50 people.
+        we host a pre-release tournament for every new set, for about 25 people.
       .column
         %h3 Constructed
         %p We occasionally run small Sunday Constructed tournaments: Standard, Modern and Pauper.
-    .button-row
-      = link_to "Join the Community", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal"
+    .centered-row
+      %p To find out more about our events and to sign up for them, join our Slack community for free by clicking below:
+    .button-row.small-padding-top
+      = link_to "I want to play Magic", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal" 
 
 %section.backgrounded
   .container
@@ -37,9 +39,8 @@
     .centered-row
       %p We also really love Magic.
 
-%section{id: "events"}
+%section
   .container
-    %h3 next events
     %table.responsive-table
       %thead
         %tr
@@ -51,18 +52,5 @@
             %td{data:{header: "Date"}}= event[:date]
             %td{data:{header: "Event"}}= event[:event]
   .button-row.small-padding-top
-    = link_to "Request an Invitation", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal" 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    = link_to "Join the Community", 'https://makersacademy.typeform.com/to/HjbyFl', class: "button button--horizontal" 
 

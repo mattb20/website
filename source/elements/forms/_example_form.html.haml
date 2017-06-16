@@ -74,6 +74,16 @@
                 %option{value: "Other media coverage", selected: @params[:how_did_you_hear_about_us] == "Other media coverage"} Other media coverage
                 %option{value: "Alumnus recommendation", selected: @params[:how_did_you_hear_about_us] == "Alumnus recommendation"} Alumnus recommendation
                 %option{value: "Someone else's recommendation", selected: @params[:how_did_you_hear_about_us] == "Someone else's recommendation"} Someone else's recommendation
+          
+          .radio-row.radio-row--centered
+            %label
+              I have paid my deposit
+              %input{id: 'deposit-paid', type: 'radio', name: 'deposit-paid', value: "yes"}
+          .radio-row.radio-row--centered
+            %label
+              I haven't paid my deposit
+              %input{id: 'deposit-paid', type: 'radio', name: 'deposit-paid', value: "no"}
+
           .button-row
             %p
               %input{type: "submit", value: "Apply"}

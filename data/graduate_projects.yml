@@ -1,7 +1,120 @@
+
+- name: Floating Point
+  team: Michael Calvey, Eun-Ken Low, Royston Henson, Rachael Mahon, Kyaw Tun Sein, James Gardiner
+  cohort: September 2016
+  blurb: Floating Point is a virtual reality city building game.
+  code_link: https://github.com/calveym/makersvr
+  live_link: https://www.youtube.com/watch?v=XFBpKRfyup4
+  image: floatingpoint.jpg
+
+- name: Save a Nation
+  team: Frances Maxwell, Stevie Winston-Gore, Jen Hanratty, Michael Barry, Andy Jenkins
+  cohort: Remote September 2016
+  blurb: Save for a property with your friends and get rewarded with points to spend in a virtual world.
+  code_link: https://github.com/LawrenceHunt/saveanation
+  live_link: https://saveanation.herokuapp.com/feed
+  image: savenation.jpg
+
+- name: ChoreMatick
+  team: Dagmara Szkurlat, Kath Pobee-Norris, Chris Lawrence, Michelle Epstein
+  cohort: September 2016
+  blurb: An Amazon Echo app that helps parents motivate their children to do chores.
+  code_link: https://github.com/ChoreMatick/ChoreMatick
+  live_link: https://www.youtube.com/watch?v=jK6xQBi9nB4
+  image: chorematic.jpg
+
+- name: Drawsome
+  team:  Elizabeth Wicks, Rosie Gollancz, Anna Lucking and Katy McCann
+  cohort: September 2016
+  blurb: iOS app where you draw a given object which is then sent to your friends to decipher.
+  code_link: http://github.com/rgollancz/drawApp
+  live_link: https://www.youtube.com/watch?v=LcoMpC1xh1c
+  image: drawsome.jpg
+
+- name: TriviaSmack
+  team: Nicole Shasha, Asif Hafeez, Stuart Cooper, Anna Beddow
+  cohort: September 2016
+  blurb: An Amazon Echo app that creates an interactive pub quiz game.
+  code_link: http://github.com/nicoleshasha/AlexaPubQuiz/
+  live_link: http://www.youtube.com/watch?v=D_Amv9XqiiE
+  image: triviasmack.jpg
+
+- name: Ensemble
+  team: Felix Harrison, Frankie Bell, Laurent Bouhnik, Li Beh and Tom Page
+  cohort: September 2016
+  blurb: Ensemble is a music collaboration platform where like minded musicians can discover unfinished but promising projects that they can contribute to.
+  code_link: http://github.com/ensemble-team/ensemble
+  live_link: https://youtu.be/GYj7-HdJvNk
+  image: ensemble.jpg
+
+- name: Turfy
+  team: Lawrence Dawson, James Hamann, James Stonehill, Joseph Huang, Tam Borine, Johnny Dworzynski
+  cohort: August 2016
+  blurb: An iOS, location based notication and messaging app.
+  code_link: https://github.com/lawrencedawson/turfy
+  live_link: https://youtu.be/16ccXqqh5W8
+  image: turfy.jpg
+
+- name: UX Buddy
+  team: Matthew Perkins, Laura Wilson, Tim Change, Abigail Mcphillips, Rosie Allott, Murtaza Abidi
+  cohort: August 2016
+  blurb: UX Buddy makes testing UX on websites easy.
+  code_link: https://github.com/uxbuddy/uxbuddy
+  live_link: http://uxbuddy.herokuapp.com
+  image: uxbuddy.jpg
+
+- name: plyr2
+  team: Peter Miklos, Summer Brines, Stephan Gaud, Ben Ross, Erce Kalabalikoglu, Alfie Bullmore
+  cohort: August 2016
+  blurb: Plyr2 is a mobile friendly web app that connects like-minded, sport enthusiasts.
+  code_link: http://github.com/peter-miklos/plyr2
+  live_link: http://plyr2.herokuapp.com
+  image: plyr2.jpg
+
+- name: Attendr
+  team: Ewan Sheldon, Jonathan Shad, Matt Vickers, Tom Stuart, Andrea Wildsmith, Thao Vo
+  cohort: August 2016
+  blurb: An event and people discovery app
+  code_link: https://github.com/ewansheldon/attendr
+  live_link: https://www.youtube.com/watch?v=a6o0Nbv4VA8
+  image: attendr.jpg
+
+- name: Snake on a screen
+  team: Royston, Elizabeth W, Mike, Ken
+  cohort: September 2016
+  blurb: The classic snake game from Nokia phones on your screen!
+  code_link: https://github.com/calveym/snake
+  live_link: http://snakesonascreen.herokuapp.com
+  image: snake.jpg
+
+- name: CockTales
+  team: Joe Sweeny, Ogulcan Girginc, Samed Yalniz and Bart Judge
+  cohort: Remote July 2016
+  blurb: Create a potion, share the tale!
+  code_link: https://github.com/Cocktales/cocktales
+  live_link: https://www.youtube.com/watch?v=ctKEx68N7DU
+  image: cocktales.jpg
+
+- name: Make It Stop
+  team: Richard Bates, Sam Broughton, Luke Cartledge, Prashant Mathias
+  cohort: Remote July 2016
+  blurb: Cross-platform mobile alarm app that wakes you up with a series of games, tasks and challenges.
+  code_link: https://github.com/MakeItStop/task-based-alarm
+  live_link: https://www.youtube.com/watch?v=WGuyOzGttv0
+  image: makeitstop.jpg
+
+- name: Cinefile
+  team: Adam Browner, Harry Jaggs, Julie Leverington, Jonny Moore
+  cohort: Remote July 2016
+  blurb: Cinefile makes sure you catch your favourite films on the big screen, so you don't have to.
+  code_link: http://github.com/jonnymoore12/cinefile
+  live_link: http://www.youtube.com/watch?v=YOBl2oVqOA0&feature=youtu.be
+  image: cinefile.jpg
+
 - name: RoadTripper
   team: Godfrey, Frazer, Barry
   cohort: Remote January 2016
-  blurb:  Plan a Roadtrip, and share those special moments - location-aware blogging and mapping for roadtrips.
+  blurb: Plan a Roadtrip, and share those special moments - location-aware blogging and mapping for roadtrips.
   code_link: https://github.com/frazerWatson/road_tripper
   live_link: https://youtu.be/zijj6UAG0aA?t=2m37s
   image: roadtripper.jpg
@@ -9,7 +122,7 @@
 - name: Gnarly
   team: Sara, Heather, Michael, Harry
   cohort: January 2016
-  blurb:  Find surfer locations near me
+  blurb: Find surfer locations near me
   code_link: https://github.com/hwgordon247/The-app-of-GNAR
   live_link: https://mighty-sands-50291.herokuapp.com/#/map
   image: gnarly.jpg
@@ -77,14 +190,6 @@
   code_link: https://github.com/Mattia46/HouseMates-Web
   live_link: http://housematey.herokuapp.com/
   image: housemates.jpg
-
-- name: BandsNearU
-  team: Andrew Dowell, Pablo Dominguez, Rob Youngman, Tom Barnes
-  cohort: October 2015
-  blurb: A Location based music discovery app
-  code_link: https://github.com/youngmanr/original_sound_track
-  live_link: https://bandsnearu.herokuapp.com/
-  image: bandsnearu.jpg
 
 - name: DrWow
   team: Usman, Catherine, Philip and Alex

@@ -1,5 +1,5 @@
 - description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
-%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/dan-and-students-overhead-70.jpg")});"}
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/codingonscreen.jpg")});"}
   .container
     .centered-row
       %h4.leader Start your career
@@ -8,7 +8,7 @@
 
       %p Have you just finished university and not sure what to do or where to go with life? Or maybe you're thinking of skipping university altogether? Get ahead of the game and learn the most essential skill of the modern age: Coding! Makers Academy has graduated over #{stats.number_of_graduates} students into their dream jobs as junior developers.
       %p Sign up to the newsletter to get your free e-book: Computer Science vs Coding Bootcamps
-    = partial :"email-capture", locals: { segments: "Education Leaver" }
+    = partial :"email-capture", locals: { segments: "website-education-leaver-cs" }
 
 %section
   .article--centered
@@ -25,7 +25,7 @@
     %article
       %h3 This could be you
       %p Before coming to Makers Academy, our graduates have done degrees in various subjects. Everything from from politics to philosophy, history and even art. No matter what your background it is possible to learn to code and get a job as a junior developer!
-= partial :"full_graduates", locals: { category: "education leaver" }
+    = partial :"email-capture", locals: { segments: "website-education-leaver-cs" }
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/students-in-lecture.jpg")});"}
   .container

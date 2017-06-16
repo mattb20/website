@@ -5,7 +5,7 @@
       %h1 Learn Ruby In 15 Minutes
       %h4.subheader Download the guide
       %P Get a free copy of our Learn Ruby In 15 Minutes e-book by signing up to our newsletter. It's perfect for anyone that is interested in taking the plunge by learning to code. It is a good start into the Ruby language if you've never had any experience before and we've made it as easy to understand as possible.
-    = partial :"email-capture", locals: {segments: "Technical"}
+    = partial :"email-capture", locals: { segments: "website-lr15" }
 
 %section.full-slider
   .slider
@@ -54,10 +54,9 @@
     .centered-row
       %h1 Learn Ruby In 15 Minutes
       %h4.subheader Download the guide
-    = partial :"email-capture"
+    = partial :"email-capture", locals: { segments: "website-lr15" }
 
 
 / Analytics event for landing pages
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'Learn Ruby In 15'});
-  analytics.identify({'Technical': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Learn Ruby In 15'}, {'nonInteraction:' 1});
