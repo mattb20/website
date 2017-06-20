@@ -15,6 +15,7 @@
     display: table;
     border-collapse: collapse;
     margin-bottom: -1 * ma-spacing(2);
+    text-align: center;
   }
 
   .comparison-key {
@@ -105,6 +106,8 @@
   line-height: ma-spacing(2);
   margin-bottom: 0;
   border-bottom: 1px solid $light-gray !important;
+  text-align: center;
+
 
   img {
     margin-top: (ma-spacing(2) - ma-spacing(1))/2;
@@ -128,7 +131,7 @@
 
 .comparison-header, .comparison-key, .comparison-value {
   @include media($tablet-down) {
-    width: 50%;
+    width: 100%;
     vertical-align: middle;
     height: auto;
     line-height: ma-spacing(1);
