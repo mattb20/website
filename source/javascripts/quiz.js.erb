@@ -1,0 +1,108 @@
+/* Quiz shows a quiz question to the user and after evaluating the user response
+  email_capture field is shown.
+
+  Use:
+  ===
+  $('.quiz-row').quiz();
+
+  - Quiz-row should have 3 parts: quiz-question area, quiz-answer form and quiz-result
+  - Quiz-question should have quiz-question id
+  - Quiz-answer form should have one <input> element with attribute 'type=text'
+  - Quiz-result should have quiz-result id
+
+*/
+
+(function ($) {
+  'use strict'
+
+  var $elem, $quizResultText;
+  var currentQuiz = {};
+
+  function quiz(element) {
+    $elem = $(element);
+    $quizResultText = $elem.find("[id=quiz-result-text]");
+    setQuizContent();
+    setView();
+    $elem.find("form").on("submit", submitAnswer);
+  }
+
+  function setQuizContent() {
+    currentQuiz.question = "If you enter this series of commands into a computer, " +
+                           "what would you expect the output to be.<br>a = 10<br>" +
+                           "b = 20<br>a = b";
+    currentQuiz.answer1Label = "a = ";
+    currentQuiz.answer2Label = "b = ";
+    currentQuiz.answer1 = 20;
+    currentQuiz.answer2 = 20;
+    currentQuiz.explanation = "Think of this in the same way a computer would. Or " +
+                              "even better, try it out in " +
+                              "<a href='http://bit.ly/playingwithcode'>IRB</a>";
+  }
+
+  function setView() {
+    $("div.email-capture-row").hide();
+    $elem.find("[id=quiz-question]").html(currentQuiz.question);
+    $elem.find('[id=quiz-answer-label-1]').html(currentQuiz.answer1Label);
+    $elem.find('[id=quiz-answer-label-2]').html(currentQuiz.answer2Label);
+    $quizResultText.empty();
+    $quizResultText.removeAttr("class");
+  }
+
+  function submitAnswer(event) {
+    event.preventDefault();
+    updateView();
+    var result1 = evaluateAnswer(getAnswer(1), currentQuiz.answer1, currentQuiz.answer1Label);
+    var result2 = evaluateAnswer(getAnswer(2), currentQuiz.answer2, currentQuiz.answer2Label);
+    showResult(result1, result2);
+  }
+
+  function getAnswer(input) {
+    return $elem.find("[id=quiz-answer-input-"+ input +"]").val().trim();
+  }
+
+  function updateView() {
+    $(".email-capture-row").show();
+    $(".quiz-question").hide();
+    $(".quiz-answer").hide();
+  }
+
+  function evaluateAnswer(userAnswer, answer, answerLabel) {
+    if(userAnswer.toLowerCase() === answer.toString().toLowerCase()) {
+      return {"answer": answer, "answerLabel": answerLabel, "userAnswer": userAnswer,
+              "result": true, "className": "quiz-result-correct"};
+    } else {
+      return {"answer": answer, "answerLabel": answerLabel, "userAnswer": userAnswer,
+              "result": false, "className": ""};
+    }
+  }
+
+  function showResult(input1, input2) {
+    showResultContent(createFeedback(input1, input2));
+  }
+
+  function updateClass(className) {
+    $quizResultText.attr("class", className);
+  }
+
+  function createFeedback(input1, input2) {
+    if(input1.result && input2.result) {
+      updateClass(input1.className);
+      return "You're correct!";
+    } else {
+      return "Your answer: " + input1.answerLabel + input1.userAnswer + ", " +
+             input2.answerLabel + input2.userAnswer + "<br>" +
+             "The correct answer is: " + input1.answerLabel + input1.answer +
+             ", " + input2.answerLabel + input2.answer + "<br>" + currentQuiz.explanation;
+    }
+  }
+
+  function showResultContent(message) {
+    $quizResultText.html(message);
+  }
+
+  $.fn.quiz = function() {
+    return this.each(function() {
+      quiz(this);
+    });
+  };
+})(jQuery);
