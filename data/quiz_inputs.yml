@@ -1,0 +1,9 @@
+- question: If you enter this series of commands into a computer, what would you expect
+    the output to be.<br>a = 10<br>b = 20<br>a = b
+  answers:
+  - answer: 20
+    answer_label: 'a = '
+  - answer: 20
+    answer_label: 'b = '
+  explanation: Think of this in the same way a computer would. Or even better, try
+    it out in <a href='http://bit.ly/playingwithcode'>IRB</a>

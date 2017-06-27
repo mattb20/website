@@ -16,6 +16,7 @@
 
   $(document).ready(function(){
     tracking.trackClicks(targets, properties);
+    $(".quiz-row").quiz();
     $(".email-capture").emailCapture();
   });
 })(jQuery, tracking);
