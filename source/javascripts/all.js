@@ -23,6 +23,7 @@
 //= require navigation
 //= require jquery.fixedscroll
 //= require email_capture
+//= require quiz
 //= require vendor/baseliner
 //= require tabs
 //= require vertical_tabs

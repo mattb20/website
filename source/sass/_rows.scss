@@ -136,6 +136,87 @@
   }
 }
 
+.ebook {
+  padding: ma-spacing(0);
+  @include media($desktop) {
+    min-height: $base-spacing * 10;
+  }
+}
+
+.quiz-row {
+  @include ma-row;
+
+  .quiz-result {
+    margin-bottom: ma-spacing(1);
+  }
+
+  .quiz-result-correct {
+    background-color: #00FF00;
+    font-size: 130%;
+  }
+
+  form {
+    @extend form.alt;
+    @include clearfix;
+
+    input {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    label {
+      text-transform: none;
+      margin-right:15px;
+      margin-left:15px;
+      font-size: 80%;
+      float: none;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    input[type="text"] {
+      width: auto;
+      border-radius: $button-border-radius;
+      // border-color: $brand-secondary-color !important;
+      margin-top: ma-spacing(0.5);
+      margin-bottom: ma-spacing(0.5);
+      line-height: $base-line-height;
+      padding: ma-spacing(0.5);
+      // Magic number for the benefit of IE (die)
+      height: 3.22rem;
+      float: none;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    input[type="submit"] {
+      width: $base-button-width;
+      border-color: $brand-primary-color !important;
+    }
+
+    @include media($desktop) {
+      text-align: center;
+      display: inline-block;
+
+      input {
+        display: block;
+        float: none;
+      }
+      input[type="text"], input[type="submit"] {
+        margin-bottom: ma-spacing(1) !important;
+      }
+      label {
+        font-size: 130%;
+      }
+      .two-width-row {
+        margin: 0 auto;
+        width: 70%;
+      }
+    }
+  }
+}
+
 .profile-row {
   @include ma-row(table);
   margin-bottom: 0;
@@ -267,7 +348,7 @@
       right: 20%;
       top: 1px;
       height: 1px;
-      background-color: $light-gray;  
+      background-color: $light-gray;
     }
     @include media($desktop) {
       .column:first-of-type:before {

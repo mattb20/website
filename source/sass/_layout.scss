@@ -26,6 +26,18 @@ section {
   }
 }
 
+.white-backgrounded {
+  background-color: $base-background-color;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  background-blend-mode: multiply;
+  *, .slick-prev:before, .slick-next:before {
+    color: $base-font-color !important;
+  }
+}
+
 hr {
   border-bottom: $base-border;
   border-left: none;

@@ -20,7 +20,7 @@
       .centered-row
         .column
           %h2 Apply Now
-          %p We run cohorts every 4 weeks onsite and every 12 weeks remotely, and applications are highly competitive. We offer numerous payment options.
+          %p We run cohorts every 4 weeks and applications are highly competitive. Apply early to avoid disappointment.
       .button-row
         %p
           - if page == :payment
@@ -28,10 +28,7 @@
           - else
             = link_to "Payment Options", "/payment.html", class: "button button--horizontal"
 
-          - if page == :remote
-            = link_to "Remote", config.remote_application_form_url, class: "button button--vertical button--large apply-button", data: {track: "Clicked Remote Apply Button"}
-          - else
-            = link_to "Apply", config.apply_url, class: "button button--vertical button--large apply-button", data: {track: "Clicked Apply Page Button"}
+          = link_to "Apply", onsite_application_form_url, class: "button button--vertical button--large apply-button", data: {track: "Clicked Apply Page Button"}
 
           - if page == :about_us
             = link_to "See our Curriculum", "/curriculum.html", class: "button button--horizontal"
