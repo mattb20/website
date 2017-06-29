@@ -8,21 +8,13 @@
       %P Have you ever dreamed of starting your own business? Become involved in every aspect of your business and learn the most essential skill of the future: coding!
     = partial :"email-capture", locals: { segments: "website-entrepreneurs" }
 
-%section
-  .article--centered
-    %article
-      %h3 Why learn to code before launching your business?
-      %p You could have the greatest idea in your head but if you can’t execute it, it’s meaningless. Trying to find a technical co-founder to help build your idea is hard and outsourcing your development work is risky business.
-      %p In today's technology-driven world, knowing the ins and outs of web development could mean the difference between success and failure for companies. Save time, money and stress by learning how to build your own projects for your entrepreneurial ventures
-%hr
+= partial :"full_graduates", locals: { category: "entrepreneur" }
 
-%section.no-padding-top.no-min-height
-  .article--centered
-    %article
-      %h3 This could be you
-      %p Our graduates have gone on to build successful businesses, been accepted into accelerators, and secured further funding. Read their stories below.
-
-  = partial :"full_graduates", locals: { category: "entrepreneur" }
+%section.backgrounded
+  .article
+    %h2 Why learn to code before launching your business?
+    %p You could have the greatest idea in your head but if you can’t execute it, it’s meaningless. Trying to find a technical co-founder to help build your idea is hard and outsourcing your development work is risky business.
+    %p In today's technology-driven world, knowing the ins and outs of web development could mean the difference between success and failure for companies. Save time, money and stress by learning how to build your own projects for your entrepreneurial ventures
 
 %hr
 
@@ -67,7 +59,5 @@
           .button-row
             %p
               = link_to "Our Education Philosophy", "/curriculum.html", class: "button--horizontal"
-%hr
-= partial :"benefits_table"
 
 = partial :"primary_call_to_action"

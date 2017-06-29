@@ -3790,36 +3790,6 @@
     - question: Sum up your Makers Academy experience
       answer: A rollercoaster ride that can make you feel empowered and then inadequate from one day to the next - but the end goal is totally worth it.
 
-- first_name: Sandrine
-  last_name: Zhang Ferron
-  image: sandrine.jpg
-  summary: Investment analyst to Tech Business Founder
-  testimonial: Without Makers Academy, I don't think I would have been able to build a website myself.
-  cohort_month: December
-  cohort_year: 2014
-  categories:
-    - entrepreneur
-    - female
-  case_study:
-    - question: What were you doing before joining Makers Academy?
-      answer: I was working as an Investment analyst.
-    - question: What did you learn to code?
-      answer: To be able to build my MVP for my startup and understand how things work.
-    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
-      answer: A friend of mine recommended Makers Academy among other names. I liked the programme, and the dates suited me.
-    - question: What did you find difficult during the course?
-      answer: Being tired all the time.
-    - question: What did you choose to learn to code rather than find a technical co-founder?
-      answer: Since my website is the main product of my startup, it's important to me to understand how it's built and how it works. I don't want to have to rely entirely on someone else for the tech part of the business. I will eventually partner with a tech co-founder in the long-run, I think it's essential to have some tech knowledge in order to be able to communicate and work efficiently with my CTO/tech team.
-    - question: Tell us more about your businesss?
-      answer: <a href='http://vinterior.co' target='_blank'>Vinterior</a> is an online marketplace for second-hand high-end furniture.
-    - question: How do you think Makers Academy helped in setting up your tech business?
-      answer: Without Makers Academy, I don't think I would have been able to build a website myself. Through Makers, I also met awesome people who helped me build the site and gave me great advice and ideas.
-    - question: Are you still coding/involved in the technical side of your business?
-      answer: I am finishing up building my MVP at the moment, so yes!
-    - question: What advice would you give to entrepreneurs who might be considering to join Makers Academy?
-      answer: If you are interested in coding and have sufficient time, money and drive to do it, you should definitely do it. But to make the most of the experience, you should be ready to put in a lot of time and effort. It would be a plus for entrepreneurs to have an idea of the technologies they would use, so that they can focus their learning on these languages. Another advantage of Makers is access to the tech industry and a growing network of alumni.
-
 - first_name: Nic
   last_name: Yeeles
   image: nic.jpg
@@ -3850,6 +3820,36 @@
       answer: A bit. I still build prototypes for new features/product ideas but generally don't touch much production code.
     - question: What advice would you give to entrepreneurs who might be considering to join Makers Academy?
       answer: Do it. I believe that understanding how to code is as important now (if not more so) than learning Maths and Science at school. Tech entirely surrounds us in the world we live in. Why would you not want to have an understanding of that? And if you're planning on building a tech company it's an absolute no-brainer.
+
+- first_name: Sandrine
+  last_name: Zhang Ferron
+  image: sandrine.jpg
+  summary: Investment analyst to Tech Business Founder
+  testimonial: Without Makers Academy, I don't think I would have been able to build a website myself.
+  cohort_month: December
+  cohort_year: 2014
+  categories:
+    - entrepreneur
+    - female
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I was working as an Investment analyst.
+    - question: What did you learn to code?
+      answer: To be able to build my MVP for my startup and understand how things work.
+    - question: How did you come across Makers Academy and what made you decide to apply to the programming course?
+      answer: A friend of mine recommended Makers Academy among other names. I liked the programme, and the dates suited me.
+    - question: What did you find difficult during the course?
+      answer: Being tired all the time.
+    - question: What did you choose to learn to code rather than find a technical co-founder?
+      answer: Since my website is the main product of my startup, it's important to me to understand how it's built and how it works. I don't want to have to rely entirely on someone else for the tech part of the business. I will eventually partner with a tech co-founder in the long-run, I think it's essential to have some tech knowledge in order to be able to communicate and work efficiently with my CTO/tech team.
+    - question: Tell us more about your businesss?
+      answer: <a href='http://vinterior.co' target='_blank'>Vinterior</a> is an online marketplace for second-hand high-end furniture.
+    - question: How do you think Makers Academy helped in setting up your tech business?
+      answer: Without Makers Academy, I don't think I would have been able to build a website myself. Through Makers, I also met awesome people who helped me build the site and gave me great advice and ideas.
+    - question: Are you still coding/involved in the technical side of your business?
+      answer: I am finishing up building my MVP at the moment, so yes!
+    - question: What advice would you give to entrepreneurs who might be considering to join Makers Academy?
+      answer: If you are interested in coding and have sufficient time, money and drive to do it, you should definitely do it. But to make the most of the experience, you should be ready to put in a lot of time and effort. It would be a plus for entrepreneurs to have an idea of the technologies they would use, so that they can focus their learning on these languages. Another advantage of Makers is access to the tech industry and a growing network of alumni.
 
 - first_name: James
   last_name: Jenkins-Yates
