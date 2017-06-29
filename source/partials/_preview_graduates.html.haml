@@ -3,7 +3,7 @@
     .slider-content
       %figure.with-caption
         .image--centered
-          %img{'data-lazy' => image_path("graduates/#{grad[:image]}")}
+          %img{'data-lazy' => image_path("graduates/#{grad[:image]}"), alt: "#{grad[:first_name]} learned to code at Makers Academy", title: "#{grad[:first_name]}, a Makers Academy developer"}
         %figcaption
           %p= "#{grad[:first_name]} #{grad[:last_name]}"
           %p= grad[:summary]
