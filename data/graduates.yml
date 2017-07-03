@@ -436,7 +436,7 @@
   cohort_month: July
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
   case_study:
    - question: What were you doing before joining Makers Academy?
      answer: I was working in a large national bank in Spain.
@@ -923,7 +923,7 @@
   cohort_month: May
   cohort_year: 2016
   categories:
-    - career-changers
+    - career-changer
     - female
   case_study:
    - question: What were you doing before joining Makers Academy?
@@ -987,7 +987,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-    - career-changers
+    - career-changer
     - female
   case_study:
    - question: What were you doing before joining Makers Academy?
@@ -1019,7 +1019,7 @@
   cohort_month: May
   cohort_year: 2016
   categories:
-    - career-changers
+    - career-changer
     - north
   case_study:
    - question: What were you doing before joining Makers Academy?
@@ -1051,7 +1051,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - remote
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1081,7 +1081,7 @@
   cohort_month: May
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1113,7 +1113,7 @@
   cohort_month: Remote April
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - remote
     - north
   case_study:
@@ -1146,7 +1146,7 @@
   cohort_month: February
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a PR analyst.
@@ -1177,7 +1177,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - female
     - thoughtworks
   case_study:
@@ -1208,7 +1208,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1270,7 +1270,7 @@
   cohort_month: February
   cohort_year: 2016
   categories:
-      - career changer
+      - career-changer
       - startup
   case_study:
       - question: What were you doing before joining Makers Academy?
@@ -1302,7 +1302,7 @@
   cohort_month: February
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1332,7 +1332,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - thoughtworks
     - female
   case_study:
@@ -1395,7 +1395,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - female
     - thoughtworks
   case_study:
@@ -1428,7 +1428,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1488,7 +1488,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - thoughtworks
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1548,7 +1548,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changers
+    - career-changer
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1578,7 +1578,7 @@
   cohort_month: April
   cohort_year: 2016
   categories:
-    - career changers
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a business consultant.
@@ -1609,7 +1609,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1635,7 +1635,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked as a business analyst at Eastjet.
@@ -1669,7 +1669,7 @@
   cohort_year: 2016
   categories:
   - female
-  - career changers
+  - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was an architect.
@@ -1700,7 +1700,7 @@
   cohort_month: Febuary
   cohort_year: 2016
   categories:
-   - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a bar manager.
@@ -1729,7 +1729,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-    - career changers
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked in online advertising.
@@ -1760,7 +1760,7 @@
   cohort_month: January
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1792,7 +1792,7 @@
   cohort_month: Febuary
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a Super Yacht crew member.
@@ -1823,7 +1823,7 @@
   cohort_month: November
   cohort_year: 2015
   categories:
-  - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an account executive at a medical communication agency.
@@ -1854,7 +1854,7 @@
   cohort_month: Febuary
   cohort_year: 2016
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -1883,7 +1883,7 @@
   cohort_month: Febuary
   cohort_year: 2016
   categories:
-   - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a technical recruiter.
@@ -1912,7 +1912,7 @@
   cohort_year: 2016
   categories:
     - female
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working in digital marketing.
@@ -1938,14 +1938,15 @@
   testimonial: "Makers Academy was life-changing."
   cohort_month: October
   cohort_year: 2015
-  categories: career changer
+  categories:
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was an English and Maths tutor.
     - question: What made you want to start learning to code in the first place?
       answer: Two things, I wanted a more intellectually challenging and rewarding career and my best friend who is a front-end developer had told me for years I should try programming. I eventually listened!
     - question: How did you come across Makers Academy and what made you decide to apply?
-      answer: I felt I had two options, a CS Masters degree for career-changers or a development bootcamp. After I researched and saw a lot of recommendations on switchup.org, student blogs, and on the Makers website, I went with Makers. For me it was clearly the most intense and the most thorough.
+      answer: I felt I had two options, a CS Masters degree or a development bootcamp. After I researched and saw a lot of recommendations on switchup.org, student blogs, and on the Makers website, I went with Makers. For me it was clearly the most intense and the most thorough.
     - question: What did you find difficult during the course?
       answer: I found it difficult to balance my desire to know everything immediately with my sanity! There is so much to learn!
     - question: What happened during/after graduation and where are you job-wise?
@@ -2022,7 +2023,7 @@
   cohort_month: November
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2054,7 +2055,7 @@
   cohort_month: May
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I had been working as a Country Manager in online marketing for mobile telecom and online betting companies.
@@ -2082,7 +2083,7 @@
   cohort_year: 2015
   blog_link: http://ontheroadtocode.blogspot.co.uk/?view=magazine
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2149,7 +2150,7 @@
   cohort_month: November
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I worked in the film industry as a Camera Technician.
@@ -2205,7 +2206,7 @@
   cohort_month: October
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2237,7 +2238,7 @@
   cohort_month: July
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - startup
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2269,7 +2270,7 @@
   cohort_month: November
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - female
     - thoughtworks
   case_study:
@@ -2298,7 +2299,7 @@
   cohort_month: October
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2328,7 +2329,7 @@
   cohort_month: August
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: Before Makers Academy I was travelling and before that I studied Physics in Barcelona but never finished.
@@ -2353,7 +2354,7 @@
   cohort_month: August
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I graduated from university having completed a degree in experimental physics. I was searching for a job in finance and through that I taught myself C++ and found an interest in coding and decided I wanted to learn more so applied to Makers Academy!
@@ -2380,7 +2381,7 @@
   cohort_month: August
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - female
     - thoughtworks
   case_study:
@@ -2413,7 +2414,7 @@
   cohort_month: August
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - female
     - acast
     - financial times
@@ -2512,7 +2513,7 @@
   categories:
     - female
     - mum
-    - career changer
+    - career-changer
     - acast
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2540,7 +2541,7 @@
   cohort_month: September
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - acast
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2568,7 +2569,7 @@
   cohort_month: October
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - mum
     - female
     - acast
@@ -2605,7 +2606,7 @@
   cohort_month: December
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - female
     - acast
   case_study:
@@ -2638,7 +2639,7 @@
   cohort_month: June
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - acast
   blog_link: http://www.alexhandy.me/
   case_study:
@@ -2671,7 +2672,7 @@
   cohort_month: August
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - acast
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2704,7 +2705,7 @@
   cohort_month: June
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - acast
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2738,7 +2739,7 @@
   cohort_month: June
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - education leaver
     - acast
     - deloitte digital
@@ -2775,7 +2776,7 @@
   cohort_month: March
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - female
     - acast
   case_study:
@@ -2808,7 +2809,7 @@
   cohort_month: December
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - female
     - acast
     - deloitte digital
@@ -2844,7 +2845,7 @@
   cohort_month: May
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - acast
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -2906,7 +2907,7 @@
   cohort_month: January
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a project manager for a company that did home automation.
@@ -3006,7 +3007,7 @@
   cohort_month: May
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - female
     - mergermarket
   case_study:
@@ -3039,7 +3040,7 @@
   cohort_month: January
   cohort_year: 2015
   categories:
-      - career changer
+      - career-changer
       - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3074,7 +3075,7 @@
   cohort_year: 2015
   blog_link: http://initialdigital.com/
   categories:
-    - career changer
+    - career-changer
     - financial times
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3109,7 +3110,7 @@
   cohort_year: 2014
   blog_link: https://www.youtube.com/watch?v=qyAjiT3NWe0
   categories:
-    - career changer
+    - career-changer
     - female
     - deloitte digital
   case_study:
@@ -3134,7 +3135,7 @@
   cohort_month: April
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Senior Project Manager for a telephone betting company I help found 10 years previously.
@@ -3168,7 +3169,7 @@
   cohort_year: 2015
   blog_link: https://matteomanzo.github.io/
   categories:
-    - career changer
+    - career-changer
     - compare the market
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3202,7 +3203,7 @@
   cohort_month: January
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working part time for a medical services company.
@@ -3269,7 +3270,7 @@
   cohort_month: December
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Recruitment Consultant.
@@ -3332,7 +3333,7 @@
   cohort_year: 2014
   blog_link: http://nicolearnscoding.blogspot.de/
   categories:
-    - career changer
+    - career-changer
     - creative
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3367,7 +3368,7 @@
   cohort_year: 2014
   blog_link: http://handmadecode.tumblr.com
   categories:
-    - career changer
+    - career-changer
     - creative
     - female
   case_study:
@@ -3402,7 +3403,7 @@
   cohort_month: June
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3432,7 +3433,7 @@
   cohort_month: May
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - education leaver
   blog_link: https://sevenhoursbehind.wordpress.com/
   case_study:
@@ -3463,7 +3464,7 @@
   cohort_month: June
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a Research & Development Scientist at Linpac Packaging.
@@ -3494,7 +3495,7 @@
   cohort_month: October
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a Business Development Manager for a B2B Media Company.
@@ -3527,7 +3528,7 @@
   cohort_month: December
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3642,7 +3643,7 @@
   cohort_month: December
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working at Tesco.
@@ -3669,7 +3670,7 @@
   cohort_month: October
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3703,7 +3704,7 @@
   cohort_month: December
   cohort_year: 2014
   categories:
-    - career changer
+    - career-changer
     - female
   case_study:
     - question: What were you doing before joining Makers Academy?
@@ -3735,7 +3736,7 @@
   cohort_month: April
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as an editor for the local newspaper "Oberhessische Presse" in Marburg, Germany.
@@ -3766,7 +3767,7 @@
   cohort_month: April
   cohort_year: 2015
   categories:
-    - career changer
+    - career-changer
     - mergermarket
   case_study:
     - question: What were you doing before joining Makers Academy?
