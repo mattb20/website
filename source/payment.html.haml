@@ -4,8 +4,13 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/students-overhead-discussion.jpg")});"}
   .container
     .centered-row
-      %h1 Payment Options
-      %p We offer a variety of payment options for all demographics, and we offer a discount for women joining our Onsite course. Price should never be a barrier to a student joining Makers Academy.
+      %h1 Payment Information
+      %p We offer a variety of payment options for all demographics, and we offer a discount for women joining our course too. Price should never be a barrier to a student joining Makers Academy.
+
+%section
+  = partial :"comparison_table"
+
+%hr
 
 %section
   .container
@@ -20,6 +25,8 @@
         %h4.leader TransferWise
         = image_tag "payment-options/transferwise.jpg", class: "image--medium"
         %h6 If you're based outside the UK
+
+%hr
 
 %section
   .container
