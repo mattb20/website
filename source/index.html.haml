@@ -26,16 +26,9 @@
 
 = partial :"course_dates"
 
+= partial :"benefits_table"
+
 = partial :"primary_call_to_action"
-
-%section.backgrounded
-  .container
-    .centered-row
-      %h4.leader Start Coding
-      %h2 right now!
-      %p.lead Sign up for our newsletter and get your free eBook: Learn Ruby in 15 minutes.
-
-    = partial :"email-capture", locals: { segments: "website-homepage-lr15" }
 
 / Analytics event for visiting homepage
 :javascript
