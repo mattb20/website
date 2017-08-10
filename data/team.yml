@@ -3,6 +3,11 @@
 #   job_title:
 #   about:
 
+- name: Rachel
+  image: Rachel.jpg
+  job_title: Lead Engineer
+  about: Rachel is our Lead Engineer. She'll be working on enhancing the software that underpins our business. She's been in the industry for 30 years and is author of Agile Coaching. She's also a regular member of the LSO community Gamelan group and enjoys playing loud jangly Balinese percussion - she's awesome in our drum circles!
+
 - name: Will
   image: will.jpg
   job_title: Head of Careers
@@ -37,11 +42,6 @@
   image: emily.jpg
   job_title: Careers Team
   about: Emily is on our careers team, tracking down employers who meet our high standards and helping them to hire the developers we train. She’s new to tech - before Makers Academy, she worked in the charity sector, supporting women with criminal convictions into employment. Her main hobby is going to restaurants by herself, so she can concentrate on the food without any distractions.
-
-# - name: Ross
-#   image:
-#   job_title: Relationship Manager
-#   about: Ross came to Makers Academy with a varied past. Never having been a fan of traditional education or the typical sales approach he fell in love with Makers Academy from the beginning. Now he is managing relationships with our hiring partners being driven by his love of people and what motivates them, as well as knowing that the company he represents stands for a change in education.
 
 - name:  Alex B
   image: alexb.jpg
