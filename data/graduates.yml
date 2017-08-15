@@ -29,6 +29,33 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
+- first_name: Charlotte
+  last_name: Fereday
+  image: Charlotte Fereday (3).jpg
+  summary: Programmes Manager to Junior Developer at ThoughtWorks
+  testimonial: Life changing. Completing Makers Academy accelerated my learning with an amazing group of like minded individuals. Not only did it provide me with fundamentals of programming, it also enabled me to learn how to continue learning in an industry that is constantly changing. The meditation & yoga have also helped me to better deal with situations I find challenging.
+  cohort_month: May
+  cohort_year: 2017
+  categories:
+    - career-changer
+    - women
+    - ThoughtWorks
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: Programmes Manager at Code First Girls
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: I came across Makers Academy through recommendations from volunteer developers in the Code First Girls Community. I had wanted to apply for 3 years, but was able to apply thanks to the Women in Tech scholarship with ThoughtWorks & Makers Academy.
+   - question: How has your life changed since learning to code?
+     answer: Since learning to code I have attained a job as a Graduate Software Engineer at ThoughtWorks, just one week after finishing the course. This was something I didn't believe I could achieve prior to Makers Academy. Aside from the job, one of the most valuable skills I've learnt is learning how to learn. I have also learnt how to not be overwhelmed at this prospect, by fostering a growth mindset, and applying the emotional intelligence techniques learnt in meditation to help me better deal with anything life throws at me.
+   - question: What advice would you give to people thinking of changing career?
+     answer: Do it. It's a brilliant time to get into technology, there are so many opportunities and passionate people who are willing to give their time to help you to learn. I waited 3 years because I didn't have the confidence to apply. Don't doubt yourself, if you're seriously considering it- drop yourself in the deep end! The worst that can happen is you decide to not be a programmer, and even then doing Makers would give you so many other career opportunities in tech.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: £8000 is a lot of money, but when compared to University studies or other short courses it is a small price to pay to change careers so quickly. I would look at it as an investment in yourself, that will be paid back within months of you starting your new Software Engineer job that you got as a result of doing MA.
+   - question: What was your biggest fear before joining Makers Academy and how do you feel about it now?
+     answer: That I wouldn't be good enough to complete the course and get a job. I still feel imposter syndrome, but I now have more tools under my belt to combat those feelings. I have now learnt to embrace rather than fear the challenge.
+   - question: Sum up your Makers Academy experience
+     answer: Life changing. Completing Makers Academy accelerated my learning with an amazing group of like minded individuals. Not only did it provide me with fundamentals of programming, it also enabled me to learn how to continue learning in an industry that is constantly changing. The meditation & yoga have also helped me to better deal with situations I find challenging.
+
 
 - first_name: Jack
   last_name: Oddy
