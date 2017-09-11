@@ -75,7 +75,7 @@ set :precourse_beta_application_form_url, "http://apply.makersacademy.com/precou
 # Redirects from old site urls
 redirect "payments/new.html", to: "#{config.onsite_application_form_url}/payments/new"
 redirect "apply-for-ronin.html", to: config.onsite_application_form_url
-redirect "fellowship.html", to: "http://techcityfellowship.org/"
+# redirect "fellowship.html", to: "http://techcityfellowship.org/"
 redirect "life-at-makers.html", to: "about-us.html"
 redirect "talks.html", to: "employers.html"
 redirect "talks/apply.html", to: "employers.html"

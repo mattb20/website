@@ -1,0 +1,34 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp."
+- title "Makers Academy Fellowship"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/women.jpg")});"}
+  .container
+    .centered-row
+      %h4.subheader  Makers Academy is proud to announce:
+      %h2 Fellowship
+      %h4.subheader  Insert super subheader here.
+      %p Need boiler text here
+
+= partial :"fellowship_info"
+
+%section.hero{style: "background-image: url(#{image_path("backgrounds/pointingscreen.jpg")});"}
+  .container
+    .centered-row
+      %h2 Get a job at ThoughtWorks
+      %p After completing the Makers Academy course, scholars will potentially be offered a position at ThoughtWorks. A core part of your experience as an entry-level consultant in any of our global offices is spending five weeks at ThoughtWorks University in India, with ThoughtWorkers from all over the world, discovering the values, practices and principles that have made ThoughtWorks successful. TWU is an intensive, hands-on experience, where you’ll learn how to build working software from week one. By the end of the program, you'll have real experience and a global community of support.
+
+    .three-width-row
+      .column
+      .column
+        .image--centered
+          = image_tag "hiring-partners/twwhite.png"
+      .column
+
+= partial :"full_graduates"
+
+= partial :"apply_fellowship"
+
+/ Analytics for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'fellowship'});
+  analytics.identify({'fellowship': true});
