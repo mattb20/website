@@ -1,5 +1,5 @@
 - description "Makers Academy is London's leading Web Developer Bootcamp."
-- title "Makers Academy Fellowship"
+- title "Makers Academy Fellowship December 2017"
 
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/women.jpg")});"}
   .container
@@ -60,19 +60,26 @@
 %section.hero{style: "background-image: url(#{image_path("backgrounds/pointingscreen.jpg")});"}
   .container
     .centered-row
-      %h2 Get a job at ThoughtWorks
-      %p After completing the Makers Academy course, scholars will potentially be offered a position at ThoughtWorks. A core part of your experience as an entry-level consultant in any of our global offices is spending five weeks at ThoughtWorks University in India, with ThoughtWorkers from all over the world, discovering the values, practices and principles that have made ThoughtWorks successful. TWU is an intensive, hands-on experience, where you’ll learn how to build working software from week one. By the end of the program, you'll have real experience and a global community of support.
+      %h2 Working at Makers Academy
+      %p
 
-    .three-width-row
-      .column
-      .column
-        .image--centered
-          = image_tag "hiring-partners/twwhite.png"
-      .column
+%section
+  %h3 Previous Scholarships
+  %p A short intro on how our previous scholars joined the course.
+  .container
+    .video-row
+      .video-wrapper
+        %iframe{src: "https://www.youtube.com/embed/Wa-IE3MzxGc", frameborder: 0, allowfullscreen: true}
 
-= partial :"full_graduates"
+%hr
 
-= partial :"apply_fellowship"
+%section.typeform
+  %h2 Makers Academy Fellowship Application Form
+
+  .typeform-widget{"data-text" => "Hire Graduates", "data-url" => "https://makersacademy.typeform.com/to/JndawG"}
+
+:javascript
+  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})();
 
 / Analytics for landing page
 :javascript
