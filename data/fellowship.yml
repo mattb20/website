@@ -1,15 +1,3 @@
-- title: The Fellowship
-  blurb: "What are we doing?"
-
-- title: The Aim
-  blurb: "What do we want to do?"
-
-- title: The offer
-  blurb: "What you get? "
-
-- title: Another bit of info
-  blurb: "Insert Answer"
-
 - title: FAQs
   faqs:
       - question: What cohorts can I apply for?
