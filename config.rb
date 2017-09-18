@@ -99,6 +99,7 @@ redirect "learn-to-code-5.html", to: "index.html"
 redirect "faq.html", to: "http://help.makersacademy.com"
 redirect "employers-startups.html", to: "startups.html"
 redirect "diversity.html", to: "employers/diversity.html"
+redirect "fellowships.html", to: "fellowship.html"
 
 # Uncomment to redirect all /employers routes to employers. subdomain
 redirect "employers.html", to: "http://employers.makersacademy.com"
