@@ -29,6 +29,32 @@
 #       answer:
 #     - question: Sum up your Makers Academy experience
 #       answer:
+- first_name: Jini
+  last_name: Coroneo
+  image: Jini Coroneo.jpg
+  summary: Project Manager to Junior Developer at Acrotrend
+  testimonial: Similar to a rollercoaster, with lows and high. I would do it again in a heartbeat.
+  cohort_month: June
+  cohort_year: 2017
+  categories:
+    - career-changer
+    - women
+  case_study:
+   - question: What were you doing before joining Makers Academy?
+     answer: Project Manager in a Market Research agency
+   - question: How did you come across Makers Academy and what made you decide to apply?
+     answer: I did extensive research on bootcamps in London and in the end had shortlisted General Assembly and Makers Academy. After the interview at Makers, I was sold.
+   - question: How has your life changed since learning to code?
+     answer: I found something I'm really passionate about and once I start working it's difficult to stop. I'm also really excited about the diverse range of tech out there, next I'll focus on learning the tech I'll use in my job, but then plan on learning other languages that grab my interest.
+   - question: What advice would you give to people thinking of changing career?
+     answer: Think properly about it, it's not going to be easy. Maybe try learning on your own before, to see if programming is for you. But once you've made up your mind, prepare for a very intense and fun ride.
+   - question: What do you say to people who say £8000 is expensive?
+     answer: It is a lot of money but in return you get the chance to do something you enjoy and find intellectually stimulating for a job.
+   - question: What was your biggest fear before joining Makers Academy and how do you feel about it now?
+     answer: I was afraid that what I'll learn wouldn't be enough to get me a job. If you put a lot of effort during the course, by the end you will be prepared for a junior developer role.
+   - question: Sum up your Makers Academy experience
+     answer: Similar to a roller coaster, with lows and high. I would do it again in a heartbeat.
+
 - first_name: Charlotte
   last_name: Fereday
   image: Charlotte Fereday (3).jpg
