@@ -1,7 +1,7 @@
 activate :dotenv
 
 Dir["lib/*.rb"].each { |file| require file }
-
+Haml::TempleEngine.disable_option_validator!
 ###
 # Compass
 ###
@@ -9,7 +9,7 @@ Dir["lib/*.rb"].each { |file| require file }
 activate :directory_indexes
 activate :meta_tags
 
-set :url_root, 'http://www.makersacademy.com'
+config[:url_root] = 'http://www.makersacademy.com'
 activate :search_engine_sitemap
 
 # Change Compass configuration
@@ -42,6 +42,26 @@ activate :search_engine_sitemap
 # activate :automatic_image_sizes
 
 # Methods defined in the helpers block are available in templates
+require "lib/current_page_helper"
+include CurrentPageHelper
+require "lib/markdown_helper"
+include MarkdownHelper
+require "lib/possessive_helper"
+include PossessiveHelper
+require "lib/slug_helper"
+include SlugHelper
+require "lib/image_helper"
+include ImageHelper
+require "lib/graduates_helper"
+include GraduatesHelper
+require "lib/raw_helper"
+include RawHelper
+require "lib/stats_helper"
+include StatsHelper
+require "lib/boolean_helper"
+include BooleanHelper
+require "lib/intake"
+
 helpers CurrentPageHelper,
         MarkdownHelper,
         PossessiveHelper,
@@ -60,17 +80,18 @@ data.graduates.each do | grad |
   end
 end
 
-set :css_dir, 'sass'
-set :js_dir, 'javascripts'
-set :partials_dir, 'partials'
-set :images_dir, 'images'
+config[:js_dir] = 'javascripts'
+config[:images_dir] = 'images'
 
+activate :sprockets do |c|
+  c.expose_middleman_helpers = true
+end
 sprockets.append_path File.join root, 'bower_components'
 
-set :apply_url, "/apply"
-set :onsite_application_form_url, "http://apply.makersacademy.com"
-set :remote_application_form_url, "http://apply.makersacademy.com/remote/application"
-set :precourse_beta_application_form_url, "http://apply.makersacademy.com/precourse-beta/application"
+config[:apply_url] = "/apply"
+config[:onsite_application_form_url] = "http://apply.makersacademy.com"
+config[:remote_application_form_url] = "http://apply.makersacademy.com/remote/application"
+config[:precourse_beta_application_form_url] = "http://apply.makersacademy.com/precourse-beta/application"
 
 # Redirects from old site urls
 redirect "payments/new.html", to: "#{config.onsite_application_form_url}/payments/new"
@@ -111,15 +132,15 @@ redirect "employers/contact.html", to: "http://employers.makersacademy.com/reque
 
 configure :development do
   activate :livereload
-  set :segment_key, 'fjB2Afsk8U7NNgugtKdte88HGNXk3yr7'
+  config[:segment_key] = 'fjB2Afsk8U7NNgugtKdte88HGNXk3yr7'
 
   # custom setting for switching off analytics in development
-  set :run_analytics, false
+  config[:run_analytics] = false
 
-  set :employers_form_endpoint, 'https://formkeep.com/f/b95fcb2be128'
+  config[:employers_form_endpoint] = 'https://formkeep.com/f/b95fcb2be128'
 
   # turn on to view a baseline grid for setting vertical rhythm
-  set :show_baseline_grid, false
+  config[:show_baseline_grid] = false
 end
 
 # Build-specific configuration
@@ -145,13 +166,13 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 
-  set :run_analytics, true
+  config[:run_analytics] = true
 
-  set :segment_key, ENV.fetch('SEGMENT_KEY', '8NGMT5SwWiR5BvuyrpTsirX9XY8CeZ4R')
+  config[:segment_key] = ENV.fetch('SEGMENT_KEY', '8NGMT5SwWiR5BvuyrpTsirX9XY8CeZ4R')
 
-  set :employers_form_endpoint, 'https://formkeep.com/f/1ae1f30c4bcf'
+  config[:employers_form_endpoint] = 'https://formkeep.com/f/1ae1f30c4bcf'
 
-  set :show_baseline_grid, false
+  config[:show_baseline_grid] = false
 
   #Filewatcher ignore list
   set :file_watcher_ignore,[

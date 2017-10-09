@@ -4,6 +4,6 @@
     .centered-row
       %h2.margin-bottom About the course
 
-  = partial :"comparison_table_mobile", locals: { comparisons: comparisons }
+  = partial :"partials/comparison_table_mobile", locals: { comparisons: comparisons }
   .container
-    = partial :"comparison_table", locals: { comparisons: comparisons }
+    = partial :"partials/comparison_table", locals: { comparisons: comparisons }

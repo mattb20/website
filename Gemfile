@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 ruby '2.2.3'
 
-gem "middleman", "~>3.3.12"
+gem "middleman", "~>4.0"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -13,7 +13,8 @@ gem 'middleman-meta-tags'
 gem 'middleman-search_engine_sitemap'
 gem 'neat', "~> 1.7.2"
 
-gem 'middleman-dotenv', '~> 1.0'
+gem 'middleman-dotenv', '~> 2.0'
+gem "middleman-sprockets", "~> 4.0.0.rc"
 
 gem 'puma', '~> 2.7'
 

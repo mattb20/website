@@ -8,7 +8,7 @@
       %h4.subheader learn to code in 12 weeks from home
       %P Come and learn the principles of software craftsmanship and soon you'll be starting your career as a web developer. Makers Academy is Europe's leading Developer bootcamp. Over the past couple of years, we've graduated over #{stats.number_of_graduates} students into their dream jobs as Junior Developers - there's no reason why our next success story can't be you.
 
-    = partial :"email-capture", locals: { segments: "north" }
+    = partial :"partials/email-capture", locals: { segments: "north" }
 
 %section
   .article--centered
@@ -27,7 +27,7 @@
 
 %hr
 
-= partial :"full_graduates", locals: { category: "north" }
+= partial :"partials/full_graduates", locals: { category: "north" }
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/row-of-girls.jpg")});"}
   .container
@@ -49,7 +49,7 @@
         .image--centered
           = image_tag "hiring-partners/opia.png"
 
-= partial :"vlogs"
+= partial :"partials/vlogs"
 
 
 %section.half-slider.half-slider--reverse.with-padding
@@ -96,9 +96,9 @@
 
 %hr
 
-= partial :"benefits_table"
+= partial :"partials/benefits_table"
 
-= partial :"primary_call_to_action"
+= partial :"partials/primary_call_to_action"
 
 / Analytics event for landing page
 :javascript
