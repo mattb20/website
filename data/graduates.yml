@@ -647,6 +647,7 @@
   categories:
     - career-changer
     - north
+    - tech-recruiter
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a recruiter till last August.
@@ -833,6 +834,7 @@
   categories:
     - financial times
     - female
+    - tech-recruiter
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a tech recruiter.
@@ -1879,6 +1881,7 @@
   cohort_year: 2016
   categories:
     - career-changer
+    - tech-recruiter
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a technical recruiter.
@@ -3400,6 +3403,7 @@
   categories:
     - career-changer
     - female
+    - tech-recruiter
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a recruiter in the IT sector.
