@@ -1,0 +1,34 @@
+- description ""
+- title ""
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/women.jpg")});"}
+  .container
+    .centered-row
+      %h3 Tired of recruitment?
+      %h1 Retrain to be a developer
+      %p At Makers Academy we've retrained thousands of people who've wanted to change careers. As a tech recruiter you know there's unprecedented demand for software engineers today - why not invest in your career to make it happen.
+
+%section
+  %article
+    %h3 This could be you
+    %p Insert text
+
+= partial :"full_graduates", locals: { category: "tech-recruiter" }
+
+%section.backgrounded
+  .container
+    %h3 5 Part Guide
+    %p Make sure you get the right information you need to prep for the course
+    = partial :"email-capture", locals: { segments: "website-email-recruiters", button_text: "Get the guide" }
+
+= partial :"benefits_table"
+
+-# Insert curriculum
+
+= partial :"primary_call_to_action"
+
+-# Create & insert finance partial
+
+/ Analytics event for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Tech Recruiter'}, {'nonInteraction': 1}));
