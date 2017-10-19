@@ -1,0 +1,97 @@
+- description "Makers Academy is London's leading Web Developer Bootcamp."
+- title "Makers Academy Fellowship December 2017"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/women.jpg")});"}
+  .container
+    .centered-row
+      %h4.subheader Start a career as a software developer by Spring 2018
+      %h1 Makers Academy Fellowship
+      %p Makers Academy are offering you the chance to learn to code, for free, and - for the first time ever -  guaranteeing you a job as a junior software developer.
+
+%section
+  .container
+    .centered-row
+    .three-width-row.row-with-borders
+      .column
+        %h3 4 Spaces
+        %p We'll be funding up to 4 Fellows on the December 2017 cohort and they'll start working in our agency in March 2018.
+      .column
+        %h3 No Fees
+        %p We’re so confident in you, we’re offering our Fellows a spot on our £8,000 course for nothing.
+      .column
+        %h3 Job Guarantee
+        %p We’re so confident in what we do, we can make you a promise - we’ll hire you as soon as you’re finished with our training.
+
+%section.backgrounded
+  .article--centered
+    %article
+      %h3 What can you expect?
+      %p Once you’ve applied, we’ll send you some coding materials by email. You’ll have 48 hours to prepare, and to complete a remote coding test.
+      %p Successful candidates will then be invited to a final stage ‘pairing interview’ where we’ll write some more code and assess your cultural fit to join the Makers Academy Agency. The whole process shouldn’t take more than a couple of weeks.
+
+%section
+  %h3 What you need to know
+  %ul.tabs
+    %li.tab-header-and-content
+      %a.tab-link.is-active{:href => "#"} Apply
+      .tab-content
+        .centered-row
+          %p While you're studying at Makers Academy and working as a developer, you'll be challenged to solve coding problems alone or in pairs. Our technical work is designed to look for key 'problem-solving' skills that we've identified through training over a thousand developers in the last 4 years. We aren't worried about what you can memorize or what you already know, we want to see how you handle challenges that are new to you.
+    %li.tab-header-and-content
+      %a.tab-link{:href => "#"} Code
+      .tab-content
+        .centered-row
+          %p If you haven't coded before, now's the time to roll your sleeves up and try some Ruby. We've made a short but succinct ebook called Learn Ruby in 15 minutes that can help you start with some of the basics. If you have tried some JavaScript / Java / Python / etc in the past - this is great. It means you're familiar with the concepts of code. All you need to do now is apply what you've learnt to new syntax.
+    %li.tab-header-and-content
+      %a.tab-link{:href => "#"} Video
+      .tab-content
+        %p You'll then need to submit a video interview to us. We'll share details on the content of the video closer to the time.
+    %li.tab-header-and-content
+      %a.tab-link{:href => "#"} Interview
+      .tab-content
+        .centered-row
+          %p We'll be coding in a live setting, side by side to replicate your experience on the course and to demonstrate what to expect if/when you get to use your skills pairing in industry. Being able to communicate efficiently is just as important as being able to write some code. In the video interview, we'll see if you're comfortable being able to work with your pair (in this case one of our team)
+
+%section.backgrounded
+  .article--centered
+    %article
+      %h3 Why do this?
+      %p As we approach our 5th birthday, and circle our 1500th student, it’s time to start putting our money where our collective mouth is. We’re big believers in doing our bit to improve the diversity of the tech community, but that can sometimes feel a little bit hollow when the course is only accessible to those with £8,000 to spare.
+      %p In reality, there are lots of smart people out there who don’t have £8,000 lying around. To all of those people we say - APPLY NOW, we believe in you! You have greatness within you... Money should never be a barrier to achieving your dreams.
+
+%section
+  %h3 Previous Fellowships
+  .container
+    .video-row
+      .video-wrapper
+        %iframe{src: "https://www.youtube.com/embed/Wa-IE3MzxGc", frameborder: 0, allowfullscreen: true}
+
+
+%section.backgrounded{style: "background-image: url(#{image_path("backgrounds/pointingscreen.jpg")});"}
+  .article--centered
+    %article
+      %h3 Working at Makers
+      %p
+        Makers is a company that believes in pushing the limits of
+        = link_to "self-management", "http://blog.makersacademy.com/the-evolution-of-management-what-we-mean-when-we-say-teal-8b134a17ba72#.vo4s8d3px"
+        experimenting with which company structure is best for the information age and beyond.
+      %p
+        Working here, you'll be able to do
+        = link_to "yoga twice a week", "http://blog.makersacademy.com/coding-and-yoga-unite-part-1-9e9546cc3c1a#.jd5rvzxsn"
+        and guided meditation every day; be playing all sorts of board games, card games, video games, table tennis and Nerf wars while being surrounded by a diverse group of incredibly smart, motivated people, who all really care about doing the very best they can for our students, for our hiring partners and for each other.
+
+
+%hr
+
+%section.typeform
+  %h2 Apply Here
+  %h4 Applications close xx October 2017
+  .typeform-widget{"data-text" => "Hire Graduates", "data-url" => "https://makersacademy.typeform.com/to/JndawG"}
+
+:javascript
+  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})();
+
+/ Analytics for landing page
+:javascript
+  analytics.track('Viewed Landing Page', {'Landing Page': 'fellowship'});
+  analytics.identify({'fellowship': true});
