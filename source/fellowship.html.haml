@@ -89,5 +89,4 @@
 
 / Analytics for landing page
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'fellowship'});
-  analytics.identify({'fellowship': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'fellowship'}), {'nonInteraction': 1})
