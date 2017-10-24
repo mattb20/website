@@ -14,22 +14,22 @@
         %h4 Headings
         %dl.definition{id: "definition-headings"}
           %dt Large, backgrounded content for page headers
-          %dd= partial :"partials/elements/element", locals: { partial_name: "elements/typography/_headings" }
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_headings" }
       .category
         %h4 Paragraphs
         %dl.definition{id: "definition-paragraphs"}
           %dt Extended blocks of written text
-          %dd= partial :"partials/elements/element", locals: { partial_name: "elements/typography/_paragraphs" }
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_paragraphs" }
       .category
         %h4 Blockquotes
         %dl.definition{id: "definition-blockquotes"}
           %dt Quotes and testimonials
-          %dd= partial :"partials/elements/element", locals: { partial_name: "elements/typography/_blockquotes" }
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_blockquotes" }
       .category
         %h4 Lists
         %dl.definition{id: "definition-lists"}
           %dt Repeated textual content of a similar type
-          %dd= partial :"partials/elements/element", locals: { partial_name: "elements/typography/_lists" }
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_lists" }
       .category
         %h4 Article
         %dl.definition{id: "definition-article"}
@@ -38,4 +38,4 @@
             %code _variables.scss
             and
             %code _typography.scss
-          %dd= partial :"partials/elements/element", locals: { partial_name: "elements/typography/_article" }
+          %dd= partial :"elements/element", locals: { partial_name: "elements/typography/_article" }
