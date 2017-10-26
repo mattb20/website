@@ -39,4 +39,4 @@
           = link_to "Apply", "https://makersacademy.typeform.com/to/JndawG", class: "button button--vertical apply-button", data: {track: "Clicked Fellowship Apply"}
       - else
         %li
-          = link_to "Apply", onsite_application_form_url, class: "button button--vertical apply-button", data: {track: "Clicked Apply Page Button"}
+          = link_to "Apply", config[:onsite_application_form_url], class: "button button--vertical apply-button", data: {track: "Clicked Apply Page Button"}
