@@ -96,7 +96,7 @@ config[:precourse_beta_application_form_url] = "http://apply.makersacademy.com/p
 # Redirects from old site urls
 redirect "payments/new.html", to: "#{config.onsite_application_form_url}/payments/new"
 redirect "apply-for-ronin.html", to: config.onsite_application_form_url
-redirect "fellowship.html", to: "http://techcityfellowship.org/"
+# redirect "fellowship.html", to: "http://techcityfellowship.org/"
 redirect "life-at-makers.html", to: "about-us.html"
 redirect "talks.html", to: "employers.html"
 redirect "talks/apply.html", to: "employers.html"
@@ -120,6 +120,7 @@ redirect "learn-to-code-5.html", to: "index.html"
 redirect "faq.html", to: "http://help.makersacademy.com"
 redirect "employers-startups.html", to: "startups.html"
 redirect "diversity.html", to: "employers/diversity.html"
+redirect "fellowships.html", to: "fellowship.html"
 
 # Uncomment to redirect all /employers routes to employers. subdomain
 redirect "employers.html", to: "http://employers.makersacademy.com"

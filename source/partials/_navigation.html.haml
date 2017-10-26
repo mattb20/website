@@ -34,6 +34,9 @@
       - elsif current_page.url.include?("/startups")
         %li
           = link_to "Start Advertising", "https://makersacademy.typeform.com/to/kS7a6e", class: "button button--vertical employers-button", data: {track: "Viewed Employers Enquiry Form"}
+      - elsif current_page.url.include?("/fellowship")
+        %li
+          = link_to "Apply", "https://makersacademy.typeform.com/to/JndawG", class: "button button--vertical apply-button", data: {track: "Clicked Fellowship Apply"}
       - else
         %li
           = link_to "Apply", config[:onsite_application_form_url], class: "button button--vertical apply-button", data: {track: "Clicked Apply Page Button"}
