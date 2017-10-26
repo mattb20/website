@@ -1,0 +1,136 @@
+<section class='hero' style='background-image: url(http://assets.makersacademy.com/images/backgrounds/students-in-lecture.jpg)'>
+<div class='container'>
+<div class='centered-row'>
+<a href="https://www.ft.com/?edition=uk" class="image image--centered small-padding-top"><img src="http://assets.makersacademy.com/images/hiring-partners/FT.png" class="show-for-mobile" alt="Ft" /></a>
+</div>
+<div class='centered-row'>
+<p>"The ratio of good candidates is 10x better with Makers Academy, versus recruitment agencies."</p>
+<p>
+Matt Chadburn, Principal Engineer,
+<em>Financial Times</em>
+</p>
+</div>
+</div>
+</section>
+<section class='full-slider no-padding'>
+<div class='slider'>
+<div class='slide'>
+<div class='container'>
+<div class='profile-row'>
+<div class='image show-desktop'>
+<img src="http://assets.makersacademy.com/images/graduates/mara.jpg" alt="Mara" />
+</div>
+<div class='copy'>
+<h4 class='leader'>Graduated July 2016</h4>
+<h2>Mara Wanot</h2>
+<h4 class='subheader'>Tech Recruiter to Junior Developer at The Financial Times</h4>
+<blockquote>Makers Academy is a life investment that will free you out of a boring job</blockquote>
+<div class='button-row shift-to-bottom'>
+<p>
+<a href="/case-studies/mara-wanot" class="button button--horizontal">Read Mara's story</a>
+</p>
+</div>
+</div>
+<div class='image hide-desktop no-padding'>
+<img src="http://assets.makersacademy.com/images/graduates/mara.jpg" alt="Mara" />
+</div>
+</div>
+</div>
+</div>
+<div class='slide'>
+<div class='container'>
+<div class='profile-row'>
+<div class='image show-desktop'>
+<img src="http://assets.makersacademy.com/images/graduates/kirsten.jpg" alt="Kirsten" />
+</div>
+<div class='copy'>
+<h4 class='leader'>Graduated August 2015</h4>
+<h2>Kirsten Jones</h2>
+<h4 class='subheader'>Lawyer to Junior Developer at Financial Times</h4>
+<blockquote>Makers Academy is an incredible environment to learn in. You don't just learn to code here but you also have lots of fun and meet great people and have an amazing support network of expert coders and wellbeing support.</blockquote>
+<div class='button-row shift-to-bottom'>
+<p>
+<a href="/case-studies/kirsten-jones" class="button button--horizontal">Read Kirsten's story</a>
+</p>
+</div>
+</div>
+<div class='image hide-desktop no-padding'>
+<img src="http://assets.makersacademy.com/images/graduates/kirsten.jpg" alt="Kirsten" />
+</div>
+</div>
+</div>
+</div>
+<div class='slide'>
+<div class='container'>
+<div class='profile-row'>
+<div class='image show-desktop'>
+<img src="http://assets.makersacademy.com/images/graduates/simon.jpg" alt="Simon" />
+</div>
+<div class='copy'>
+<h4 class='leader'>Graduated August 2015</h4>
+<h2>Simon Legg</h2>
+<h4 class='subheader'>Paint Salesman to Junior Developer at Financial Times</h4>
+<blockquote>I can code and I'm starting a new job soon, which is exciting and I've doubled my salary!</blockquote>
+<div class='button-row shift-to-bottom'>
+<p>
+<a href="/case-studies/simon-legg" class="button button--horizontal">Read Simon's story</a>
+<a href="https://medium.com/@_simon__says" class="button button--horizontal" target="_blank">Visit Simon's blog</a>
+</p>
+</div>
+</div>
+<div class='image hide-desktop no-padding'>
+<img src="http://assets.makersacademy.com/images/graduates/simon.jpg" alt="Simon" />
+</div>
+</div>
+</div>
+</div>
+<div class='slide'>
+<div class='container'>
+<div class='profile-row'>
+<div class='image show-desktop'>
+<img src="http://assets.makersacademy.com/images/graduates/andyn.jpg" alt="Andyn" />
+</div>
+<div class='copy'>
+<h4 class='leader'>Graduated March 2015</h4>
+<h2>Andy Newman</h2>
+<h4 class='subheader'>Commercial Management to Junior Developer at Financial Times Labs</h4>
+<blockquote>It's difficult to remember life before Makers, but I'm really looking forward to starting my new career!</blockquote>
+<div class='button-row shift-to-bottom'>
+<p>
+<a href="/case-studies/andy-newman" class="button button--horizontal">Read Andy's story</a>
+<a href="http://initialdigital.com/" class="button button--horizontal" target="_blank">Visit Andy's blog</a>
+</p>
+</div>
+</div>
+<div class='image hide-desktop no-padding'>
+<img src="http://assets.makersacademy.com/images/graduates/andyn.jpg" alt="Andyn" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class='hero--apply' style='background-image: url(http://assets.makersacademy.com/images/backgrounds/newpairing.jpg);'>
+<div class='container'>
+<div class='centered-row'>
+<div class='column'>
+<h2>Apply Now</h2>
+<p>We run cohorts every 4 weeks and applications are highly competitive. Apply early to avoid disappointment.</p>
+</div>
+</div>
+<div class='button-row'>
+<p>
+<a href="/payment/" class="button button--horizontal">Payment Options</a>
+<a href="http://apply.makersacademy.com" class="button button--vertical button--large apply-button" data-track="Clicked Apply Page Button">Apply</a>
+<a href="/about-us/" class="button button--horizontal">Learn More</a>
+</p>
+</div>
+</div>
+</section>
+
+<!-- Analytics event for landing page -->
+<script>
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Financial Times'});
+  analytics.identify({'Financial Times': true});
+</script>
