@@ -10,7 +10,7 @@
       %h3 Applications for the fellowship are now closed
       %p If you're still interested in learning to code, please enter your email address to receive our free Learn Ruby in 15 Minutes ebook
 
-    = partial :"email-capture", locals: { segments: "website-qh-lr15" }
+    = partial :"partials/email-capture", locals: { segments: "website-qh-lr15" }
 
 :javascript
   analytics.track('Viewed Landing Page', {'Landing Page': 'qardhasan', 'nonInteraction': 1});
