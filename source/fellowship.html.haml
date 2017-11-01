@@ -6,7 +6,9 @@
     .centered-row
       %h4.subheader Start a career as a software developer by Spring 2018
       %h1 Makers Academy Fellowship
-      %p Makers Academy are offering you the chance to learn to code, for free, and - for the first time ever -  guaranteeing you a job as a junior software developer.
+      %p Applications are now closed for the scholarship. If you're still interested in joining our course, hit the button below.
+      = link_to "Apply", config[:onsite_application_form_url], class: "button button--vertical apply-button", data: {track: "Clicked Apply Page Button"}
+
 
 %section
   .container
@@ -70,16 +72,6 @@
       %p When the Fellows become Makers Developers, we will aim to place them with some of our amazing clients throughout the country, providing them with an immense opportunity to build software. We shall be contracting them out with our partners to be working as software engineers.
       %p These could be short projects (1-4 weeks) or more likely longer term projects (3-12 months). We expect work to be in and around London, but Developers should be prepared to travel for assignments around the UK. The roles will likely be in the home counties.
 
-
-%hr
-
-%section.typeform
-  %h2 Apply Here
-  %h4 Applications close 01 November 2017
-  .typeform-widget{"data-text" => "Apply for our Fellowship", "data-url" => "https://makersacademy.typeform.com/to/JndawG"}
-
-:javascript
-  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})();
 
 / Analytics for landing page
 :javascript
