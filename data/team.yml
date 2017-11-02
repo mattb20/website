@@ -3,6 +3,11 @@
 #   job_title:
 #   about:
 
+- name: Dana
+  image: DanaCutout.jpg
+  job_title: Chief Joy Officer
+  about: Dana is our Chief Joy Officer. She facilitates the well being of the students and staff. Everything from personal/group chats and advice to daily meditation. She is also our in-house Yoga teacher (RYT). Dana loves music and fun!
+
 - name: Max
   image: max.jpg
   job_title: Careers team
@@ -15,23 +20,13 @@
 
 - name: Roi
   image: roi.jpg
-  job_title: Coachineer
+  job_title: Engineer
   about: Roi is an MA graduate and has over 10 years of experience in print and web design with clients including Philips, Toshiba, Emirates Bank, and West End shows. Roi loves problem solving in any form, especially coding.
 
 - name: Ruben
   image: ruben.jpg
   job_title: Chief Operating Officer
   about: Ruben is part of the founding team at Makers, having himself taken the second course and built the career side of the business. Today, his focus is on the organisational structure and culture, the team and our strategic growth. Ruben is passionate about new [un]management styles, education and food.
-
-- name: Dana
-  image: DanaCutout.jpg
-  job_title: Chief Joy Officer
-  about: Dana is our Chief Joy Officer. She facilitates the well being of the students and staff. Everything from personal/group chats and advice to daily meditation. She is also our in-house Yoga teacher (RYT). Dana loves music and fun!
-
-- name: Cata
-  image: cata.jpg
-  job_title: Operations Manager
-  about: Cata’s always been highly organized and brilliant at making things happen. She’s worked for the Chamber of Commerce as Head of Marketing & Communications, as well as managing the Operations for a top Venture Capital firm, later becoming an Associate. After working in finance and investment, she discovered her love of startups, and now works at Makers Academy as Operations Manager - she’s the glue that holds everything together.
 
 - name: Rachel
   image: Rachel.jpg
@@ -50,17 +45,12 @@
 
 - name: Will
   image: will.jpg
-  job_title: Head of Careers
+  job_title: People Person
   about: Will is one of those odd people who likes recruitment. Couple that with a passion for education and tech, mix in a history of starting and growing education startups, and he's found the perfect place to work. He also volunteers for a number of organisations including EdTech UK, Tech London Advocates, Learning Futures and The Tech Partnership.
-
-- name: Dan
-  image: dan.jpg
-  job_title: Coachineer
-  about: Dan graduated from Makers Academy and is now a Junior Developer/Coach. He primarily works on the the software applications used by Makers Academy staff and students, but also loves to pair with students to give them experience of 'real-world' development.
 
 - name: Nikesh
   image: nikesh.jpg
-  job_title: Gatekeeper
+  job_title: Onboarding Team
   about: Nikesh is the self proclaimed gatekeeper for Makers Academy. After completing the course in June 2014, he refused to leave so we gave him a job. He now spends time selecting the best students for each cohort, facilitates the PreCourse and works with engineering to automate operations at Makers Academy. He also part of the Escape the City Founding Members and runs a charity in his “down” time.
 
 - name: Evgeny
@@ -85,7 +75,7 @@
 
 - name:  Alex B
   image: alexb.jpg
-  job_title:
+  job_title: Marketing Team
   about: Alex is responsible for raising our profile amongst tech employers, and using the power of marketing to get awesome companies to hire our talented engineers. She’s built her career in three different continents and is passionate about startup culture.
 
 - name: Mary
