@@ -7,6 +7,7 @@ Haml::TempleEngine.disable_option_validator!
 ###
 
 activate :directory_indexes
+set :trailing_slash, true
 activate :meta_tags
 
 config[:url_root] = 'http://www.makersacademy.com'
@@ -126,9 +127,6 @@ redirect "employers/sponsors.html", to: "http://employers.makersacademy.com"
 redirect "employers/thank-you.html", to: "http://employers.makersacademy.com/request-a-call/success"
 redirect "employers/users.html", to: "http://employers.makersacademy.com"
 redirect "employers/contact.html", to: "http://employers.makersacademy.com/request-a-call"
-
-# trailing slashes gem configuration
-activate :trailing_slashes
 
 configure :development do
   activate :livereload

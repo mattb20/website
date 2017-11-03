@@ -8,9 +8,7 @@ gem "middleman", "~>4.0"
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 gem 'middleman-gh-pages'
-gem 'middleman-trailing_slashes'
 gem "middleman-imageoptim", :git => "https://github.com/plasticine/middleman-imageoptim", :branch => "master"
-
 gem 'middleman-meta-tags'
 gem 'middleman-search_engine_sitemap'
 gem 'neat', "~> 1.7.2"
