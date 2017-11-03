@@ -1,1 +1,0 @@
-!function(n){function t(n){var t=document.querySelectorAll(".campaign-city-name");Array.prototype.forEach.call(t,function(t){t.textContent=n})}var a=/utm_campaign=Careers(\w+)/,c=n.match(a);if(null!==c){t(c[1])}}(window.location.search,document);

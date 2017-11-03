@@ -1,1 +1,0 @@
-var tracking=function(n){function c(n){n.nodeName}function t(t,a){for(var i in t)$(i).each(function(){var r=$(this),k=r.data("track")||t[i];c(this)?n.trackLink(r,k,a):r.click(function(){n.track(k,a)})})}return{trackClicks:t}}(analytics);

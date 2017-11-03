@@ -3,10 +3,10 @@
 <head>
 <!-- Built using Middleman 4 -->
 <!--[if gt IE 8]><!-->
-<link href="/stylesheets/all-7dc65355.css" rel="stylesheet" />
+<link href="/sass/all-c5e86046.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 <!--[if lte IE 8]><!-->
-<link href="/stylesheets/compatibility-e89bc989.css" rel="stylesheet" />
+<link href="/sass/compatibility-466a586b.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 <!-- Optimizely must come first so it works with Mixpanel -->
 <script src='//cdn.optimizely.com/js/302764373.js'>
@@ -61,7 +61,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <input class='nav-trigger' id='nav_trigger' type='checkbox'>
 <nav role='navigation'>
 <div class='image--centered image--small'>
-<img src="http://assets.makersacademy.com/images/logo/ma-white.png" alt="Ma white" />
+<img src="http://assets.makersacademy.com/images/logo/ma-white.png" />
 </div>
 <ul class='navigation-menu'>
 <li class=''>
@@ -84,7 +84,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 </header>
 <header class='navigation auto-hide' role='banner'>
 <nav role='navigation'>
-<a href="/" class="image--brand"><img src="http://assets.makersacademy.com/images/logo/ma-wordmark-red.png" alt="Ma wordmark red" /></a>
+<a class="image--brand" href="/"><img src="http://assets.makersacademy.com/images/logo/ma-wordmark-red.png" /></a>
 <ul class='navigation-menu'>
 <li class=''>
 <a href="/graduates/">Graduates</a>
@@ -99,7 +99,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <a href="/about-us/">About Us</a>
 </li>
 <li>
-<a href="http://apply.makersacademy.com" class="button button--vertical apply-button" data-track="Clicked Apply Page Button">Apply</a>
+<a class="button button--vertical apply-button" data-track="Clicked Apply Page Button" href="http://apply.makersacademy.com">Apply</a>
 </li>
 </ul>
 </nav>
@@ -112,7 +112,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <h1>Makers Academy</h1>
 </div>
 <div class='button-row'>
-<a href="http://apply.makersacademy.com" class="button button--vertical apply-button" data-track="Clicked Onsite Apply Form Button">Apply Onsite</a>
+<a class="button button--vertical apply-button" data-track="Clicked Onsite Apply Form Button" href="http://apply.makersacademy.com">Apply Onsite</a>
 </div>
 </div>
 </section>
@@ -201,7 +201,7 @@ Careers Fair @MA HQ, London
 </th>
 </tr>
 <tr>
-<td class='comparison-value'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" alt="Icon check" /></td>
+<td class='comparison-value'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" /></td>
 </tr>
 <tr>
 <th class='comparison-key' colspan='2'>
@@ -251,7 +251,7 @@ Talks by Industry Leaders
 <p class='comparison-key'>Hiring Week + Intro to Hiring Partners</p>
 <p class='comparison-key'>£800</p>
 <p class='comparison-key'>£500</p>
-<p class='comparison-key'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" alt="Icon check" /></p>
+<p class='comparison-key'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" /></p>
 <p class='comparison-key'>Live, in Person</p>
 </div>
 <div class='comparison-footer'>
@@ -276,19 +276,19 @@ Talks by Industry Leaders
 <h3>Follow Us</h3>
 </li>
 <li>
-<a href="http://www.github.com/makersacademy" target="_blank">GitHub</a>
+<a target="_blank" href="http://www.github.com/makersacademy">GitHub</a>
 </li>
 <li>
-<a href="http://www.facebook.com/MakersAcademy" target="_blank">Facebook</a>
+<a target="_blank" href="http://www.facebook.com/MakersAcademy">Facebook</a>
 </li>
 <li>
-<a href="http://twitter.com/makersacademy" target="_blank">Twitter</a>
+<a target="_blank" href="http://twitter.com/makersacademy">Twitter</a>
 </li>
 <li>
-<a href="https://www.youtube.com/user/makersacademy" target="_blank">YouTube</a>
+<a target="_blank" href="https://www.youtube.com/user/makersacademy">YouTube</a>
 </li>
 <li>
-<a href="http://blog.makersacademy.com/" target="_blank">Blog</a>
+<a target="_blank" href="http://blog.makersacademy.com/">Blog</a>
 </li>
 </ul>
 <ul class='column'>
@@ -296,13 +296,13 @@ Talks by Industry Leaders
 <h3>Reviews</h3>
 </li>
 <li>
-<a href="https://www.switchup.org/bootcamps/makers-academy" target="_blank">Switchup</a>
+<a target="_blank" href="https://www.switchup.org/bootcamps/makers-academy">Switchup</a>
 </li>
 <li>
-<a href="https://www.quora.com/makers-academy" target="_blank">Quora</a>
+<a target="_blank" href="https://www.quora.com/makers-academy">Quora</a>
 </li>
 <li>
-<a href="https://www.coursereport.com/schools/makers-academy#/reviews" target="_blank">Course Report</a>
+<a target="_blank" href="https://www.coursereport.com/schools/makers-academy#/reviews">Course Report</a>
 </li>
 </ul>
 <ul class='column'>
@@ -364,7 +364,7 @@ Talks by Industry Leaders
 </div>
 </div>
 <div class='footer-copyright'>
-<img src="http://assets.makersacademy.com/images/logo/ma-white.png" class="logo" alt="Ma white" />
+<img class="logo" src="http://assets.makersacademy.com/images/logo/ma-white.png" />
 <p>
 &copy; Makers Academy 2017
 </p>
@@ -372,6 +372,6 @@ Talks by Industry Leaders
 </div>
 </footer>
 
-<script src="/javascripts/website-69c8cc20.js"></script>
+<script src="/javascripts/website-d4a8888a.js" type="text/javascript"></script>
 </body>
 </html>

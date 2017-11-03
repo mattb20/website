@@ -3,10 +3,10 @@
 <head>
 <!-- Built using Middleman 4 -->
 <!--[if gt IE 8]><!-->
-<link href="/stylesheets/all-7dc65355.css" rel="stylesheet" />
+<link href="/sass/all-c5e86046.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 <!--[if lte IE 8]><!-->
-<link href="/stylesheets/compatibility-e89bc989.css" rel="stylesheet" />
+<link href="/sass/compatibility-466a586b.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 <!-- Optimizely must come first so it works with Mixpanel -->
 <script src='//cdn.optimizely.com/js/302764373.js'>
@@ -62,7 +62,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <input class='nav-trigger' id='nav_trigger' type='checkbox'>
 <nav role='navigation'>
 <div class='image--centered image--small'>
-<img src="http://assets.makersacademy.com/images/logo/ma-white.png" alt="Ma white" />
+<img src="http://assets.makersacademy.com/images/logo/ma-white.png" />
 </div>
 <ul class='navigation-menu'>
 <li class=''>
@@ -85,7 +85,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 </header>
 <header class='navigation auto-hide' role='banner'>
 <nav role='navigation'>
-<a href="/" class="image--brand"><img src="http://assets.makersacademy.com/images/logo/ma-wordmark-red.png" alt="Ma wordmark red" /></a>
+<a class="image--brand" href="/"><img src="http://assets.makersacademy.com/images/logo/ma-wordmark-red.png" /></a>
 <ul class='navigation-menu'>
 <li class=''>
 <a href="/graduates/">Graduates</a>
@@ -100,7 +100,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <a href="/about-us/">About Us</a>
 </li>
 <li>
-<a href="http://apply.makersacademy.com" class="button button--vertical apply-button" data-track="Clicked Apply Page Button">Apply</a>
+<a class="button button--vertical apply-button" data-track="Clicked Apply Page Button" href="http://apply.makersacademy.com">Apply</a>
 </li>
 </ul>
 </nav>
@@ -138,7 +138,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/rebecca.jpg" alt="Rebecca" />
+<img src="http://assets.makersacademy.com/images/graduates/rebecca.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated April 2016</h4>
@@ -147,13 +147,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Completing the course made me feel more prepared for working in industry and I have a great understanding which has benefitted me throughout my time in my current role.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/rebecca-piper" class="button button--horizontal">Read Rebecca's story</a>
-<a href="https://www.youtube.com/playlist?list=PLc4BYny7PXeQLLdl_meucEyKl8K9sI0SV" class="button button--horizontal" target="_blank">Visit Rebecca's blog</a>
+<a class="button button--horizontal" href="/case-studies/rebecca-piper">Read Rebecca's story</a>
+<a class="button button--horizontal" target="_blank" href="https://www.youtube.com/playlist?list=PLc4BYny7PXeQLLdl_meucEyKl8K9sI0SV">Visit Rebecca's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/rebecca.jpg" alt="Rebecca" />
+<img src="http://assets.makersacademy.com/images/graduates/rebecca.jpg" />
 </div>
 </div>
 </div>
@@ -162,7 +162,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/caitlin.jpg" alt="Caitlin" />
+<img src="http://assets.makersacademy.com/images/graduates/caitlin.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated December 2016</h4>
@@ -171,13 +171,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I have my dream job and I feel like I am unstoppable.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/caitlin-gulliford" class="button button--horizontal">Read Caitlin's story</a>
-<a href="https://medium.com/code-crazy" class="button button--horizontal" target="_blank">Visit Caitlin's blog</a>
+<a class="button button--horizontal" href="/case-studies/caitlin-gulliford">Read Caitlin's story</a>
+<a class="button button--horizontal" target="_blank" href="https://medium.com/code-crazy">Visit Caitlin's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/caitlin.jpg" alt="Caitlin" />
+<img src="http://assets.makersacademy.com/images/graduates/caitlin.jpg" />
 </div>
 </div>
 </div>
@@ -186,7 +186,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/sophieg.jpg" alt="Sophieg" />
+<img src="http://assets.makersacademy.com/images/graduates/sophieg.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated September 2016</h4>
@@ -195,12 +195,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy was intense and lifechanging</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/sophie-gill" class="button button--horizontal">Read Sophie's story</a>
+<a class="button button--horizontal" href="/case-studies/sophie-gill">Read Sophie's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/sophieg.jpg" alt="Sophieg" />
+<img src="http://assets.makersacademy.com/images/graduates/sophieg.jpg" />
 </div>
 </div>
 </div>
@@ -209,7 +209,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/Merve.jpg" alt="Merve" />
+<img src="http://assets.makersacademy.com/images/graduates/Merve.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated August 2016</h4>
@@ -218,13 +218,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy was fun, full of friendships and learning while pushing myself beyond my limits.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/merve-taner" class="button button--horizontal">Read Merve's story</a>
-<a href="https://medium.com/@merve.taner" class="button button--horizontal" target="_blank">Visit Merve's blog</a>
+<a class="button button--horizontal" href="/case-studies/merve-taner">Read Merve's story</a>
+<a class="button button--horizontal" target="_blank" href="https://medium.com/@merve.taner">Visit Merve's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/Merve.jpg" alt="Merve" />
+<img src="http://assets.makersacademy.com/images/graduates/Merve.jpg" />
 </div>
 </div>
 </div>
@@ -233,7 +233,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/Van-Le.jpg" alt="Van le" />
+<img src="http://assets.makersacademy.com/images/graduates/Van-Le.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated August 2016</h4>
@@ -242,13 +242,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I feel like I've made a big career improvement and a career jump.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/van-le" class="button button--horizontal">Read Van's story</a>
-<a href="http://vann.io/posts/makers" class="button button--horizontal" target="_blank">Visit Van's blog</a>
+<a class="button button--horizontal" href="/case-studies/van-le">Read Van's story</a>
+<a class="button button--horizontal" target="_blank" href="http://vann.io/posts/makers">Visit Van's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/Van-Le.jpg" alt="Van le" />
+<img src="http://assets.makersacademy.com/images/graduates/Van-Le.jpg" />
 </div>
 </div>
 </div>
@@ -257,7 +257,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/Elia.jpg" alt="Elia" />
+<img src="http://assets.makersacademy.com/images/graduates/Elia.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated July 2016</h4>
@@ -266,12 +266,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Tough. Frustrating. Challenging and very rewarding.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/elia-bardashevich" class="button button--horizontal">Read Elia's story</a>
+<a class="button button--horizontal" href="/case-studies/elia-bardashevich">Read Elia's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/Elia.jpg" alt="Elia" />
+<img src="http://assets.makersacademy.com/images/graduates/Elia.jpg" />
 </div>
 </div>
 </div>
@@ -280,7 +280,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/annahs.jpg" alt="Annahs" />
+<img src="http://assets.makersacademy.com/images/graduates/annahs.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated August 2016</h4>
@@ -289,12 +289,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>The Makers experience was unlike any other. I have learnt to code and carved out a new career for myself alongside some of the most diverse and inspiring people I have ever met.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/anna-smith" class="button button--horizontal">Read Anna's story</a>
+<a class="button button--horizontal" href="/case-studies/anna-smith">Read Anna's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/annahs.jpg" alt="Annahs" />
+<img src="http://assets.makersacademy.com/images/graduates/annahs.jpg" />
 </div>
 </div>
 </div>
@@ -303,7 +303,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" alt="Elena" />
+<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated August 2016</h4>
@@ -312,12 +312,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>It's been good. I've met a lot of different people.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/elena-vilimaite" class="button button--horizontal">Read Elena's story</a>
+<a class="button button--horizontal" href="/case-studies/elena-vilimaite">Read Elena's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" alt="Elena" />
+<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" />
 </div>
 </div>
 </div>
@@ -326,7 +326,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/mara.jpg" alt="Mara" />
+<img src="http://assets.makersacademy.com/images/graduates/mara.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated July 2016</h4>
@@ -335,12 +335,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy is a life investment that will free you out of a boring job</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/mara-wanot" class="button button--horizontal">Read Mara's story</a>
+<a class="button button--horizontal" href="/case-studies/mara-wanot">Read Mara's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/mara.jpg" alt="Mara" />
+<img src="http://assets.makersacademy.com/images/graduates/mara.jpg" />
 </div>
 </div>
 </div>
@@ -349,7 +349,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/Hannahc.jpg" alt="Hannahc" />
+<img src="http://assets.makersacademy.com/images/graduates/Hannahc.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated March 2015</h4>
@@ -358,12 +358,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I've finally found a job I love</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/hannah-carney" class="button button--horizontal">Read Hannah's story</a>
+<a class="button button--horizontal" href="/case-studies/hannah-carney">Read Hannah's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/Hannahc.jpg" alt="Hannahc" />
+<img src="http://assets.makersacademy.com/images/graduates/Hannahc.jpg" />
 </div>
 </div>
 </div>
@@ -372,7 +372,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/remote.jpg" alt="Remote" />
+<img src="http://assets.makersacademy.com/images/graduates/remote.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated Remote July 2016</h4>
@@ -381,12 +381,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy has been a life changing experience.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/maria-romero" class="button button--horizontal">Read Maria's story</a>
+<a class="button button--horizontal" href="/case-studies/maria-romero">Read Maria's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/remote.jpg" alt="Remote" />
+<img src="http://assets.makersacademy.com/images/graduates/remote.jpg" />
 </div>
 </div>
 </div>
@@ -395,7 +395,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/misa.jpg" alt="Misa" />
+<img src="http://assets.makersacademy.com/images/graduates/misa.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated May 2016</h4>
@@ -404,12 +404,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>The best thing I've ever done.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/misa-ogura" class="button button--horizontal">Read Misa's story</a>
+<a class="button button--horizontal" href="/case-studies/misa-ogura">Read Misa's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/misa.jpg" alt="Misa" />
+<img src="http://assets.makersacademy.com/images/graduates/misa.jpg" />
 </div>
 </div>
 </div>
@@ -418,7 +418,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/vicky.jpg" alt="Vicky" />
+<img src="http://assets.makersacademy.com/images/graduates/vicky.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated January 2016</h4>
@@ -427,12 +427,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Amazing, fun & not for the faint hearted.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/vicky-gray" class="button button--horizontal">Read Vicky's story</a>
+<a class="button button--horizontal" href="/case-studies/vicky-gray">Read Vicky's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/vicky.jpg" alt="Vicky" />
+<img src="http://assets.makersacademy.com/images/graduates/vicky.jpg" />
 </div>
 </div>
 </div>
@@ -441,7 +441,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/annemarie.jpg" alt="Annemarie" />
+<img src="http://assets.makersacademy.com/images/graduates/annemarie.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated May 2016</h4>
@@ -450,12 +450,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>It's less time and money than a university degree and you learn everything you need to start a career really quickly!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/annemarie-kohler" class="button button--horizontal">Read Annemarie's story</a>
+<a class="button button--horizontal" href="/case-studies/annemarie-kohler">Read Annemarie's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/annemarie.jpg" alt="Annemarie" />
+<img src="http://assets.makersacademy.com/images/graduates/annemarie.jpg" />
 </div>
 </div>
 </div>
@@ -464,7 +464,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/rachel.jpg" alt="Rachel" />
+<img src="http://assets.makersacademy.com/images/graduates/rachel.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated April 2016</h4>
@@ -473,12 +473,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>It's definitely the best thing I've ever done. If anything, I wish I hadn't waited.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/rachel-smith" class="button button--horizontal">Read Rachel's story</a>
+<a class="button button--horizontal" href="/case-studies/rachel-smith">Read Rachel's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/rachel.jpg" alt="Rachel" />
+<img src="http://assets.makersacademy.com/images/graduates/rachel.jpg" />
 </div>
 </div>
 </div>
@@ -487,7 +487,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/emmab.jpg" alt="Emmab" />
+<img src="http://assets.makersacademy.com/images/graduates/emmab.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated April 2016</h4>
@@ -496,12 +496,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I feel like I can make a change in peoples lives now</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/emma-baddeley" class="button button--horizontal">Read Emma's story</a>
+<a class="button button--horizontal" href="/case-studies/emma-baddeley">Read Emma's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/emmab.jpg" alt="Emmab" />
+<img src="http://assets.makersacademy.com/images/graduates/emmab.jpg" />
 </div>
 </div>
 </div>
@@ -510,7 +510,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/ina.jpg" alt="Ina" />
+<img src="http://assets.makersacademy.com/images/graduates/ina.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated April 2016</h4>
@@ -519,12 +519,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I found a really nice community and I've met really cool people.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/ina-tsetsova" class="button button--horizontal">Read Ina's story</a>
+<a class="button button--horizontal" href="/case-studies/ina-tsetsova">Read Ina's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/ina.jpg" alt="Ina" />
+<img src="http://assets.makersacademy.com/images/graduates/ina.jpg" />
 </div>
 </div>
 </div>
@@ -533,7 +533,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/viola.jpg" alt="Viola" />
+<img src="http://assets.makersacademy.com/images/graduates/viola.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated April 2016</h4>
@@ -542,12 +542,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy made me realise that what I like to do is learn stuff so I just keep on learning. I don't see anything as scary anymore and I see it as an opportunity to learn.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/viola-crellin" class="button button--horizontal">Read Viola's story</a>
+<a class="button button--horizontal" href="/case-studies/viola-crellin">Read Viola's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/viola.jpg" alt="Viola" />
+<img src="http://assets.makersacademy.com/images/graduates/viola.jpg" />
 </div>
 </div>
 </div>
@@ -556,7 +556,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/heather.jpg" alt="Heather" />
+<img src="http://assets.makersacademy.com/images/graduates/heather.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated April 2016</h4>
@@ -565,12 +565,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>After graduation I went to the careers fair. Went to an interview with a hiring partner through that and got a job! It all happened very quickly</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/heather-campbell" class="button button--horizontal">Read Heather's story</a>
+<a class="button button--horizontal" href="/case-studies/heather-campbell">Read Heather's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/heather.jpg" alt="Heather" />
+<img src="http://assets.makersacademy.com/images/graduates/heather.jpg" />
 </div>
 </div>
 </div>
@@ -579,7 +579,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/amyy.jpg" alt="Amyy" />
+<img src="http://assets.makersacademy.com/images/graduates/amyy.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated January 2016</h4>
@@ -588,12 +588,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy is playground where you work extremely hard, make life long friends, experiment with new ideas and technologies everyday, learn and discover a part of yourself that you never thought you knew</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/amy-yang" class="button button--horizontal">Read Amy's story</a>
+<a class="button button--horizontal" href="/case-studies/amy-yang">Read Amy's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/amyy.jpg" alt="Amyy" />
+<img src="http://assets.makersacademy.com/images/graduates/amyy.jpg" />
 </div>
 </div>
 </div>
@@ -602,7 +602,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/emmabenyon.jpg" alt="Emmabenyon" />
+<img src="http://assets.makersacademy.com/images/graduates/emmabenyon.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated February 2016</h4>
@@ -611,12 +611,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>My Makers Academy experience was intense, stressful, fulfilling and fun!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/emma-beynon" class="button button--horizontal">Read Emma's story</a>
+<a class="button button--horizontal" href="/case-studies/emma-beynon">Read Emma's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/emmabenyon.jpg" alt="Emmabenyon" />
+<img src="http://assets.makersacademy.com/images/graduates/emmabenyon.jpg" />
 </div>
 </div>
 </div>
@@ -625,7 +625,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/emilyw.jpg" alt="Emilyw" />
+<img src="http://assets.makersacademy.com/images/graduates/emilyw.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated November 2015</h4>
@@ -634,12 +634,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>My Makers Academy experience was incredible.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/emily-worrall" class="button button--horizontal">Read Emily's story</a>
+<a class="button button--horizontal" href="/case-studies/emily-worrall">Read Emily's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/emilyw.jpg" alt="Emilyw" />
+<img src="http://assets.makersacademy.com/images/graduates/emilyw.jpg" />
 </div>
 </div>
 </div>
@@ -648,7 +648,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/harriet.jpg" alt="Harriet" />
+<img src="http://assets.makersacademy.com/images/graduates/harriet.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated November 2015</h4>
@@ -657,13 +657,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I'm just so much happier and I'm excited about the future.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/harriet-craven" class="button button--horizontal">Read Harriet's story</a>
-<a href="http://harrietc52.github.io/" class="button button--horizontal" target="_blank">Visit Harriet's blog</a>
+<a class="button button--horizontal" href="/case-studies/harriet-craven">Read Harriet's story</a>
+<a class="button button--horizontal" target="_blank" href="http://harrietc52.github.io/">Visit Harriet's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/harriet.jpg" alt="Harriet" />
+<img src="http://assets.makersacademy.com/images/graduates/harriet.jpg" />
 </div>
 </div>
 </div>
@@ -672,7 +672,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/lucy.jpg" alt="Lucy" />
+<img src="http://assets.makersacademy.com/images/graduates/lucy.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated November 2015</h4>
@@ -681,12 +681,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>One of the best learning experiences of my life.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/lucy-fang" class="button button--horizontal">Read Lucy's story</a>
+<a class="button button--horizontal" href="/case-studies/lucy-fang">Read Lucy's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/lucy.jpg" alt="Lucy" />
+<img src="http://assets.makersacademy.com/images/graduates/lucy.jpg" />
 </div>
 </div>
 </div>
@@ -695,7 +695,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/emily.jpg" alt="Emily" />
+<img src="http://assets.makersacademy.com/images/graduates/emily.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated October 2015</h4>
@@ -704,12 +704,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy is like nothing I've ever done before and it's changed my life for the better.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/emily-carson" class="button button--horizontal">Read Emily's story</a>
+<a class="button button--horizontal" href="/case-studies/emily-carson">Read Emily's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/emily.jpg" alt="Emily" />
+<img src="http://assets.makersacademy.com/images/graduates/emily.jpg" />
 </div>
 </div>
 </div>
@@ -718,7 +718,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/nicola.jpg" alt="Nicola" />
+<img src="http://assets.makersacademy.com/images/graduates/nicola.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated August 2015</h4>
@@ -727,12 +727,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I can code and I got a job and I'm now looking forward to working in the tech industry and not just media.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/nicola-hughes" class="button button--horizontal">Read Nicola's story</a>
+<a class="button button--horizontal" href="/case-studies/nicola-hughes">Read Nicola's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/nicola.jpg" alt="Nicola" />
+<img src="http://assets.makersacademy.com/images/graduates/nicola.jpg" />
 </div>
 </div>
 </div>
@@ -741,7 +741,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/kirsten.jpg" alt="Kirsten" />
+<img src="http://assets.makersacademy.com/images/graduates/kirsten.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated August 2015</h4>
@@ -750,12 +750,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy is an incredible environment to learn in. You don't just learn to code here but you also have lots of fun and meet great people and have an amazing support network of expert coders and wellbeing support.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/kirsten-jones" class="button button--horizontal">Read Kirsten's story</a>
+<a class="button button--horizontal" href="/case-studies/kirsten-jones">Read Kirsten's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/kirsten.jpg" alt="Kirsten" />
+<img src="http://assets.makersacademy.com/images/graduates/kirsten.jpg" />
 </div>
 </div>
 </div>
@@ -764,7 +764,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/Zeina.jpg" alt="Zeina" />
+<img src="http://assets.makersacademy.com/images/graduates/Zeina.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated August 2015</h4>
@@ -773,12 +773,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy changes your life, how you look at it and what you want to do with it.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/zeina-dajani" class="button button--horizontal">Read Zeina's story</a>
+<a class="button button--horizontal" href="/case-studies/zeina-dajani">Read Zeina's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/Zeina.jpg" alt="Zeina" />
+<img src="http://assets.makersacademy.com/images/graduates/Zeina.jpg" />
 </div>
 </div>
 </div>
@@ -787,7 +787,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/sara.jpg" alt="Sara" />
+<img src="http://assets.makersacademy.com/images/graduates/sara.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated June 2015</h4>
@@ -796,12 +796,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>A total emotional rollercoaster with great people on the ride with me!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/sara-oconnor" class="button button--horizontal">Read Sara's story</a>
+<a class="button button--horizontal" href="/case-studies/sara-oconnor">Read Sara's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/sara.jpg" alt="Sara" />
+<img src="http://assets.makersacademy.com/images/graduates/sara.jpg" />
 </div>
 </div>
 </div>
@@ -810,7 +810,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/ruth.jpg" alt="Ruth" />
+<img src="http://assets.makersacademy.com/images/graduates/ruth.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated October 2014</h4>
@@ -819,12 +819,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy is an investment in yourself and to be honest, it’s quite cheap in the long run. It’s about you as a person and you are gaining skills that will be extremely useful for many, many years and when you look at it that way, it's actually a steal.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/ruth-earle" class="button button--horizontal">Read Ruth's story</a>
+<a class="button button--horizontal" href="/case-studies/ruth-earle">Read Ruth's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/ruth.jpg" alt="Ruth" />
+<img src="http://assets.makersacademy.com/images/graduates/ruth.jpg" />
 </div>
 </div>
 </div>
@@ -833,7 +833,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/tat2.jpg" alt="Tat2" />
+<img src="http://assets.makersacademy.com/images/graduates/tat2.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated December 2014</h4>
@@ -842,12 +842,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I went on several interviews and found a position as a Junior Developer for Government Digital Service. I'm very lucky to be in a team that is truly Agile and supports my learning through mentorship, a 20% project and more.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/tatiana-soukiassian" class="button button--horizontal">Read Tatiana's story</a>
+<a class="button button--horizontal" href="/case-studies/tatiana-soukiassian">Read Tatiana's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/tat2.jpg" alt="Tat2" />
+<img src="http://assets.makersacademy.com/images/graduates/tat2.jpg" />
 </div>
 </div>
 </div>
@@ -856,7 +856,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/bibiana.jpg" alt="Bibiana" />
+<img src="http://assets.makersacademy.com/images/graduates/bibiana.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated March 2015</h4>
@@ -865,12 +865,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Intense but worth it.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/bibiana-cristfol" class="button button--horizontal">Read Bibiana's story</a>
+<a class="button button--horizontal" href="/case-studies/bibiana-cristfol">Read Bibiana's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/bibiana.jpg" alt="Bibiana" />
+<img src="http://assets.makersacademy.com/images/graduates/bibiana.jpg" />
 </div>
 </div>
 </div>
@@ -879,7 +879,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/nicole.jpg" alt="Nicole" />
+<img src="http://assets.makersacademy.com/images/graduates/nicole.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated December 2014</h4>
@@ -888,12 +888,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>The three words to describe Makers Academy are crazy, intense and awesome.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/nicole-pellicena" class="button button--horizontal">Read Nicole's story</a>
+<a class="button button--horizontal" href="/case-studies/nicole-pellicena">Read Nicole's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/nicole.jpg" alt="Nicole" />
+<img src="http://assets.makersacademy.com/images/graduates/nicole.jpg" />
 </div>
 </div>
 </div>
@@ -902,7 +902,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/alexandra.jpg" alt="Alexandra" />
+<img src="http://assets.makersacademy.com/images/graduates/alexandra.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated May 2015</h4>
@@ -911,12 +911,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers was really fun, exciting and my first experience in education that I actually enjoyed!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/alexandra-parkinson" class="button button--horizontal">Read Alexandra's story</a>
+<a class="button button--horizontal" href="/case-studies/alexandra-parkinson">Read Alexandra's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/alexandra.jpg" alt="Alexandra" />
+<img src="http://assets.makersacademy.com/images/graduates/alexandra.jpg" />
 </div>
 </div>
 </div>
@@ -925,7 +925,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/mishal.jpg" alt="Mishal" />
+<img src="http://assets.makersacademy.com/images/graduates/mishal.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated January 2015</h4>
@@ -934,12 +934,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy was the best investment I ever made!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/mishal-islam" class="button button--horizontal">Read Mishal's story</a>
+<a class="button button--horizontal" href="/case-studies/mishal-islam">Read Mishal's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/mishal.jpg" alt="Mishal" />
+<img src="http://assets.makersacademy.com/images/graduates/mishal.jpg" />
 </div>
 </div>
 </div>
@@ -948,7 +948,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/vanessa.jpg" alt="Vanessa" />
+<img src="http://assets.makersacademy.com/images/graduates/vanessa.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated May 2015</h4>
@@ -957,12 +957,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy is challenging and intense, but full of rewards!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/vanessa-virgitti" class="button button--horizontal">Read Vanessa's story</a>
+<a class="button button--horizontal" href="/case-studies/vanessa-virgitti">Read Vanessa's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/vanessa.jpg" alt="Vanessa" />
+<img src="http://assets.makersacademy.com/images/graduates/vanessa.jpg" />
 </div>
 </div>
 </div>
@@ -971,7 +971,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/rachelnolan.jpg" alt="Rachelnolan" />
+<img src="http://assets.makersacademy.com/images/graduates/rachelnolan.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated January 2015</h4>
@@ -980,12 +980,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers was great fun! The best thing I’ve done in terms of education!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/rachel-nolan" class="button button--horizontal">Read Rachel's story</a>
+<a class="button button--horizontal" href="/case-studies/rachel-nolan">Read Rachel's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/rachelnolan.jpg" alt="Rachelnolan" />
+<img src="http://assets.makersacademy.com/images/graduates/rachelnolan.jpg" />
 </div>
 </div>
 </div>
@@ -994,7 +994,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/sarah1.jpg" alt="Sarah1" />
+<img src="http://assets.makersacademy.com/images/graduates/sarah1.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated May 2014</h4>
@@ -1003,13 +1003,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>My time at Makers Academy was intellectually challenging, a roller coaster of joy, and one of the best decisions of my life.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/sarah-young" class="button button--horizontal">Read Sarah's story</a>
-<a href="https://www.youtube.com/watch?v=qyAjiT3NWe0" class="button button--horizontal" target="_blank">Visit Sarah's blog</a>
+<a class="button button--horizontal" href="/case-studies/sarah-young">Read Sarah's story</a>
+<a class="button button--horizontal" target="_blank" href="https://www.youtube.com/watch?v=qyAjiT3NWe0">Visit Sarah's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/sarah1.jpg" alt="Sarah1" />
+<img src="http://assets.makersacademy.com/images/graduates/sarah1.jpg" />
 </div>
 </div>
 </div>
@@ -1018,7 +1018,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/denise.jpg" alt="Denise" />
+<img src="http://assets.makersacademy.com/images/graduates/denise.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated  </h4>
@@ -1027,13 +1027,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I now have an interesting job that forces me to think and learn something new everyday and that’s not something I can say for the other jobs I’ve had.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/denise-yu" class="button button--horizontal">Read Denise's story</a>
-<a href="http://www.deniseyu.com" class="button button--horizontal" target="_blank">Visit Denise's blog</a>
+<a class="button button--horizontal" href="/case-studies/denise-yu">Read Denise's story</a>
+<a class="button button--horizontal" target="_blank" href="http://www.deniseyu.com">Visit Denise's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/denise.jpg" alt="Denise" />
+<img src="http://assets.makersacademy.com/images/graduates/denise.jpg" />
 </div>
 </div>
 </div>
@@ -1042,7 +1042,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/sroop.jpg" alt="Sroop" />
+<img src="http://assets.makersacademy.com/images/graduates/sroop.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated June 2014</h4>
@@ -1051,13 +1051,13 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Students from Makers Academy are not the same kind of species as normal developers out there and it’s your background and experiences that don’t necessarily relate to coding that will give you an edge.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/sroop-sunar" class="button button--horizontal">Read Sroop's story</a>
-<a href="http://handmadecode.tumblr.com" class="button button--horizontal" target="_blank">Visit Sroop's blog</a>
+<a class="button button--horizontal" href="/case-studies/sroop-sunar">Read Sroop's story</a>
+<a class="button button--horizontal" target="_blank" href="http://handmadecode.tumblr.com">Visit Sroop's blog</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/sroop.jpg" alt="Sroop" />
+<img src="http://assets.makersacademy.com/images/graduates/sroop.jpg" />
 </div>
 </div>
 </div>
@@ -1066,7 +1066,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/stefania.jpg" alt="Stefania" />
+<img src="http://assets.makersacademy.com/images/graduates/stefania.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated June 2014</h4>
@@ -1075,12 +1075,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy changed my life. It gave me the confidence to know that I can achieve whatever I want in life.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/stefania-cardenas" class="button button--horizontal">Read Stefania's story</a>
+<a class="button button--horizontal" href="/case-studies/stefania-cardenas">Read Stefania's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/stefania.jpg" alt="Stefania" />
+<img src="http://assets.makersacademy.com/images/graduates/stefania.jpg" />
 </div>
 </div>
 </div>
@@ -1089,7 +1089,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/yvette.jpg" alt="Yvette" />
+<img src="http://assets.makersacademy.com/images/graduates/yvette.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated December 2014</h4>
@@ -1098,12 +1098,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers was probably the best experience of my life! It was life-changing and like any big change, it wasn’t always easy but I now feel that my future is very bright.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/yvette-cook" class="button button--horizontal">Read Yvette's story</a>
+<a class="button button--horizontal" href="/case-studies/yvette-cook">Read Yvette's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/yvette.jpg" alt="Yvette" />
+<img src="http://assets.makersacademy.com/images/graduates/yvette.jpg" />
 </div>
 </div>
 </div>
@@ -1112,7 +1112,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/ethel.jpg" alt="Ethel" />
+<img src="http://assets.makersacademy.com/images/graduates/ethel.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated October 2014</h4>
@@ -1121,12 +1121,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>I received a job offer on the Monday after graduation.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/ethel-ng" class="button button--horizontal">Read Ethel's story</a>
+<a class="button button--horizontal" href="/case-studies/ethel-ng">Read Ethel's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/ethel.jpg" alt="Ethel" />
+<img src="http://assets.makersacademy.com/images/graduates/ethel.jpg" />
 </div>
 </div>
 </div>
@@ -1135,7 +1135,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/maya.jpg" alt="Maya" />
+<img src="http://assets.makersacademy.com/images/graduates/maya.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated October 2014</h4>
@@ -1144,12 +1144,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>It was the hardest thing I've ever done and the best thing I've ever done.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/maya-driver" class="button button--horizontal">Read Maya's story</a>
+<a class="button button--horizontal" href="/case-studies/maya-driver">Read Maya's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/maya.jpg" alt="Maya" />
+<img src="http://assets.makersacademy.com/images/graduates/maya.jpg" />
 </div>
 </div>
 </div>
@@ -1158,7 +1158,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" alt="Elena" />
+<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated December 2014</h4>
@@ -1167,12 +1167,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Makers Academy will stay with me forever!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/elena-garrone" class="button button--horizontal">Read Elena's story</a>
+<a class="button button--horizontal" href="/case-studies/elena-garrone">Read Elena's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" alt="Elena" />
+<img src="http://assets.makersacademy.com/images/graduates/elena.jpg" />
 </div>
 </div>
 </div>
@@ -1181,7 +1181,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/sandrine.jpg" alt="Sandrine" />
+<img src="http://assets.makersacademy.com/images/graduates/sandrine.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated December 2014</h4>
@@ -1190,12 +1190,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote>Without Makers Academy, I don't think I would have been able to build a website myself.</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/sandrine-zhang-ferron" class="button button--horizontal">Read Sandrine's story</a>
+<a class="button button--horizontal" href="/case-studies/sandrine-zhang-ferron">Read Sandrine's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/sandrine.jpg" alt="Sandrine" />
+<img src="http://assets.makersacademy.com/images/graduates/sandrine.jpg" />
 </div>
 </div>
 </div>
@@ -1204,7 +1204,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='container'>
 <div class='profile-row'>
 <div class='image show-desktop'>
-<img src="http://assets.makersacademy.com/images/graduates/karin.jpg" alt="Karin" />
+<img src="http://assets.makersacademy.com/images/graduates/karin.jpg" />
 </div>
 <div class='copy'>
 <h4 class='leader'>Graduated December 2014</h4>
@@ -1213,12 +1213,12 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <blockquote> Makers Academy was the twelve most intense, insanely challenging and rewarding weeks of my life!</blockquote>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/case-studies/karin-nielsen" class="button button--horizontal">Read Karin's story</a>
+<a class="button button--horizontal" href="/case-studies/karin-nielsen">Read Karin's story</a>
 </p>
 </div>
 </div>
 <div class='image hide-desktop no-padding'>
-<img src="http://assets.makersacademy.com/images/graduates/karin.jpg" alt="Karin" />
+<img src="http://assets.makersacademy.com/images/graduates/karin.jpg" />
 </div>
 </div>
 </div>
@@ -1236,18 +1236,18 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='three-width-row'>
 <div class='column'>
 <div class='image--centered'>
-<img src="http://assets.makersacademy.com/images/hiring-partners/Atos.png" alt="Atos" />
+<img src="http://assets.makersacademy.com/images/hiring-partners/Atos.png" />
 </div>
 <div class='image--centered'>
-<img src="http://assets.makersacademy.com/images/hiring-partners/compare-the-market.png" alt="Compare the market" />
+<img src="http://assets.makersacademy.com/images/hiring-partners/compare-the-market.png" />
 </div>
 </div>
 <div class='column'>
-<a href="/employers/" class="button button--horizontal">Learn about Partners</a>
+<a class="button button--horizontal" href="/employers/">Learn about Partners</a>
 </div>
 <div class='column'>
-<img src="http://assets.makersacademy.com/images/hiring-partners/Deloitte-Digital.png" alt="Deloitte digital" />
-<img src="http://assets.makersacademy.com/images/hiring-partners/just-giving.png" alt="Just giving" />
+<img src="http://assets.makersacademy.com/images/hiring-partners/Deloitte-Digital.png" />
+<img src="http://assets.makersacademy.com/images/hiring-partners/just-giving.png" />
 </div>
 </div>
 </div>
@@ -1262,7 +1262,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <p>We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most-used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a junior developer.</p>
 <div class='button-row shift-to-bottom'>
 <p>
-<a href="/curriculum/" class="button button--horizontal">Our Education Philosophy</a>
+<a class="button button--horizontal" href="/curriculum/">Our Education Philosophy</a>
 </p>
 </div>
 </div>
@@ -1271,28 +1271,28 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <div class='slider'>
 <div class='slide'>
 <div class='image--centered'>
-<img src="http://assets.makersacademy.com/images/technologies/ruby-logo.png" height="150" alt="Ruby logo" />
+<img height="150" src="http://assets.makersacademy.com/images/technologies/ruby-logo.png" />
 </div>
 <h3>Ruby</h3>
 <p>Ruby is a general-purpose programming language. The brainchild of many other brilliant languages, it's an intuitive route into programming. Ruby is used in web applications through frameworks like Rails and Sinatra.</p>
 </div>
 <div class='slide'>
 <div class='image--centered'>
-<img src="http://assets.makersacademy.com/images/technologies/html5-logo.png" height="150" alt="Html5 logo" />
+<img height="150" src="http://assets.makersacademy.com/images/technologies/html5-logo.png" />
 </div>
 <h3>HTML</h3>
 <p>HTML is the building material of the web. We'll guide you towards building beautiful, structured webpages and altering content dynamically, both on the server and client-side.</p>
 </div>
 <div class='slide'>
 <div class='image--centered'>
-<img src="http://assets.makersacademy.com/images/technologies/javascript-logo.png" height="150" alt="Javascript logo" />
+<img height="150" src="http://assets.makersacademy.com/images/technologies/javascript-logo.png" />
 </div>
 <h3>JavaScript</h3>
 <p>JavaScript is rapidly becoming the biggest programming language in the world. You can use it anywhere: to animate text on a page, to run a high-throughput server, and to enable your coffee machine to work over WiFi.</p>
 </div>
 <div class='slide'>
 <div class='image--centered'>
-<img src="http://assets.makersacademy.com/images/technologies/git-logo.png" height="150" alt="Git logo" />
+<img height="150" src="http://assets.makersacademy.com/images/technologies/git-logo.png" />
 </div>
 <h3>git</h3>
 <p>git is the world's most popular way to manage, share, and distribute code. We embed best GitHub practices from the get-go, which perfectly suits our focus on Pair Programming - and our Hiring Partners.</p>
@@ -1306,7 +1306,7 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <p>We're passionate about education and software development. Our course has been designed by industry experts to introduce you to the most used technologies in today's marketplace, and to equip you with the skills you need to quickly find a job as a Junior Developer.</p>
 <div class='button-row'>
 <p>
-<a href="/curriculum/" class="button button--horizontal">Our Education Philosophy</a>
+<a class="button button--horizontal" href="/curriculum/">Our Education Philosophy</a>
 </p>
 </div>
 </div>
@@ -1400,7 +1400,7 @@ Careers Fair @MA HQ, London
 </th>
 </tr>
 <tr>
-<td class='comparison-value'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" alt="Icon check" /></td>
+<td class='comparison-value'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" /></td>
 </tr>
 <tr>
 <th class='comparison-key' colspan='2'>
@@ -1450,7 +1450,7 @@ Talks by Industry Leaders
 <p class='comparison-key'>Hiring Week + Intro to Hiring Partners</p>
 <p class='comparison-key'>£800</p>
 <p class='comparison-key'>£500</p>
-<p class='comparison-key'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" alt="Icon check" /></p>
+<p class='comparison-key'><img src="http://assets.makersacademy.com/images/icons/icon-check.png" /></p>
 <p class='comparison-key'>Live, in Person</p>
 </div>
 <div class='comparison-footer'>
@@ -1473,9 +1473,9 @@ Talks by Industry Leaders
 </div>
 <div class='button-row'>
 <p>
-<a href="/payment/" class="button button--horizontal">Payment Options</a>
-<a href="http://apply.makersacademy.com" class="button button--vertical button--large apply-button" data-track="Clicked Apply Page Button">Apply</a>
-<a href="/about-us/" class="button button--horizontal">Learn More</a>
+<a class="button button--horizontal" href="/payment/">Payment Options</a>
+<a class="button button--vertical button--large apply-button" data-track="Clicked Apply Page Button" href="http://apply.makersacademy.com">Apply</a>
+<a class="button button--horizontal" href="/about-us/">Learn More</a>
 </p>
 </div>
 </div>
@@ -1495,19 +1495,19 @@ Talks by Industry Leaders
 <h3>Follow Us</h3>
 </li>
 <li>
-<a href="http://www.github.com/makersacademy" target="_blank">GitHub</a>
+<a target="_blank" href="http://www.github.com/makersacademy">GitHub</a>
 </li>
 <li>
-<a href="http://www.facebook.com/MakersAcademy" target="_blank">Facebook</a>
+<a target="_blank" href="http://www.facebook.com/MakersAcademy">Facebook</a>
 </li>
 <li>
-<a href="http://twitter.com/makersacademy" target="_blank">Twitter</a>
+<a target="_blank" href="http://twitter.com/makersacademy">Twitter</a>
 </li>
 <li>
-<a href="https://www.youtube.com/user/makersacademy" target="_blank">YouTube</a>
+<a target="_blank" href="https://www.youtube.com/user/makersacademy">YouTube</a>
 </li>
 <li>
-<a href="http://blog.makersacademy.com/" target="_blank">Blog</a>
+<a target="_blank" href="http://blog.makersacademy.com/">Blog</a>
 </li>
 </ul>
 <ul class='column'>
@@ -1515,13 +1515,13 @@ Talks by Industry Leaders
 <h3>Reviews</h3>
 </li>
 <li>
-<a href="https://www.switchup.org/bootcamps/makers-academy" target="_blank">Switchup</a>
+<a target="_blank" href="https://www.switchup.org/bootcamps/makers-academy">Switchup</a>
 </li>
 <li>
-<a href="https://www.quora.com/makers-academy" target="_blank">Quora</a>
+<a target="_blank" href="https://www.quora.com/makers-academy">Quora</a>
 </li>
 <li>
-<a href="https://www.coursereport.com/schools/makers-academy#/reviews" target="_blank">Course Report</a>
+<a target="_blank" href="https://www.coursereport.com/schools/makers-academy#/reviews">Course Report</a>
 </li>
 </ul>
 <ul class='column'>
@@ -1583,7 +1583,7 @@ Talks by Industry Leaders
 </div>
 </div>
 <div class='footer-copyright'>
-<img src="http://assets.makersacademy.com/images/logo/ma-white.png" class="logo" alt="Ma white" />
+<img class="logo" src="http://assets.makersacademy.com/images/logo/ma-white.png" />
 <p>
 &copy; Makers Academy 2017
 </p>
@@ -1591,6 +1591,6 @@ Talks by Industry Leaders
 </div>
 </footer>
 
-<script src="/javascripts/website-69c8cc20.js"></script>
+<script src="/javascripts/website-d4a8888a.js" type="text/javascript"></script>
 </body>
 </html>
