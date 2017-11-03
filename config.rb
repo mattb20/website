@@ -29,10 +29,6 @@ activate :search_engine_sitemap
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 #
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
 
 ###
 # Helpers
@@ -130,6 +126,9 @@ redirect "employers/sponsors.html", to: "http://employers.makersacademy.com"
 redirect "employers/thank-you.html", to: "http://employers.makersacademy.com/request-a-call/success"
 redirect "employers/users.html", to: "http://employers.makersacademy.com"
 redirect "employers/contact.html", to: "http://employers.makersacademy.com/request-a-call"
+
+# trailing slashes gem configuration
+activate :trailing_slashes
 
 configure :development do
   activate :livereload
