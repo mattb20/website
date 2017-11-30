@@ -8,7 +8,7 @@
     <!--[if lte IE 8]><!-->
     = stylesheet_link_tag "compatibility"
     <![endif]-->
-    = partial :"partials/analytics_scripts"
+    = partial :"analytics_scripts"
     %script{src: "//use.typekit.net/fla8fba.js"}
     :javascript
       try{Typekit.load();}catch(e){}
@@ -23,18 +23,18 @@
     / Always force latest IE rendering engine or request Chrome Frame
     %meta{content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
     = display_meta_tags site: "Makers Academy - Learn to code in 12 weeks"
-    = partial :"partials/social_media_meta"
+    = partial :"social_media_meta"
     %link{href: image_path("favicons/favicon-32x32.png"), rel: "icon", sizes: "32x32", type: "image/png"}/
     %link{href: image_path("favicons/favicon-96x96.png"), rel: "icon", sizes: "96x96", type: "image/png"}/
     %link{href: image_path("favicons/favicon-16x16.png"), rel: "icon", sizes: "16x16", type: "image/png"}/
   %body{class: page_classes}
-    = partial :"partials/deprecated_browser_warning"
+    = partial :"deprecated_browser_warning"
     - unless @hide_nav
-      = partial :"partials/navigation"
+      = partial :"navigation"
 
     = yield
 
-    = partial :"partials/footer"
+    = partial :"footer"
 
     = javascript_include_tag  "website"
 

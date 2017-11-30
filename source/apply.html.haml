@@ -6,7 +6,7 @@
     .button-row
       = link_to "Apply Onsite", config.onsite_application_form_url, class: "button button--vertical apply-button", data: {track: "Clicked Onsite Apply Form Button"}
     
-= partial :"partials/benefits_table"
+= partial :"benefits_table"
 
 :javascript
   analytics.track('Viewed onsite/remote apply page');

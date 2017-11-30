@@ -6,7 +6,7 @@
       %h1 Become a Junior Developer
       %h4.subheader learn to code in 12 weeks
       %P Come and learn the principles of software craftsmanship and soon you'll be starting your career as a web developer. Makers Academy is Europe's leading Developer bootcamp. Over the past couple of years, we've graduated over #{stats.number_of_graduates} students into their dream jobs as junior developers - there's no reason why our next success story can't be you.
-    = partial :"partials/email-capture", locals: { segments: "website-career-changers-lr15" }
+    = partial :"email-capture", locals: { segments: "website-career-changers-lr15" }
 
 %section
   .article--centered
@@ -21,7 +21,7 @@
     %p
       Be in full control of your career and have creative freedom. Technology companies are notoriously known to have fun, playful offices and a relaxed, friendly working culture. On top of that, working in web development brings a wealth of opportunities to grow, learn and enjoy your work again. What are you waiting for?
 
-= partial :"partials/full_graduates", locals: { category: "career-changer" }
+= partial :"full_graduates", locals: { category: "career-changer" }
 
 %section.hero{style: "background-image: url(#{image_path("backgrounds/row-of-girls.jpg")});"}
   .container
@@ -85,9 +85,9 @@
 
 %hr
 
-= partial :"partials/benefits_table"
+= partial :"benefits_table"
 
-= partial :"partials/primary_call_to_action"
+= partial :"primary_call_to_action"
 
 / Analytics event for landing page
 :javascript
