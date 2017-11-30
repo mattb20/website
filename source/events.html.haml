@@ -1,0 +1,23 @@
+- description "Come to events"
+- title "Events at Makers Academy"
+
+%section.hero-splash{style: "background-image: url(#{image_path("placeholders/playing-magic.jpg")}"}
+  .container
+    .centered-row
+      %h1 events
+      %h4 at Makers Academy
+
+%section
+  .container
+    %table.responsive-table
+      %thead
+        %tr
+          %th Date
+          %th Event
+          %th Description
+      %tbody
+        - data.events.each do |event|
+          %tr
+            %td{data:{header: "Date"}}= event[:date]
+            %td{data:{header: "Event"}}= link_to event[:event], event[:url]
+            %td{data:{header: "Description"}}=event[:description]
