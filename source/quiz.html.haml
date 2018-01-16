@@ -1,4 +1,5 @@
-- description "Makers Academy is London's leading Web Developer Bootcamp. Learn to code in 12 Weeks by enrolling on one of our programming / web development courses! Learn Ruby, JavaScript and the best software practices."
+- description "Makers Academy is London's leading Web Developer Bootcamp. Learn Ruby, JavaScript and the best software practices. Become a web developer now."
+- title "Take our quiz to see if you've got what it takes to become a developer"
 
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/newrow-of-women.jpg")});"}
   .container
@@ -9,7 +10,7 @@
       %p Take our web developer quiz and find out if you've got what it takes to become a web developer!
 
 %section.typeform
-  .typeform-widget{style: "height:980px;", "data-text" => "Hire Graduates", "data-url" => "https://makersacademy.typeform.com/to/EOkP5P"}
+  .typeform-widget{style: "height:980px;", "data-text" => "Dev Quiz", "data-url" => "https://makersacademy.typeform.com/to/EOkP5P"}
 
 :javascript
   (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})();
@@ -19,7 +20,7 @@
     .centered-row
       %h2 How did you do?
       %P Did you get 9 out of 9? Makers Academy is Europe's leading Web Developer bootcamp. Get a free copy of our Learn Ruby In 15 Minutes e-book by signing up to our newsletter.
-    = partial :"email-capture"
+    = partial :"email-capture", locals: { segments: "website-entrepreneurs" }
 
 / Analytics event for landing pages
 :javascript
