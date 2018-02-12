@@ -1,3 +1,28 @@
+- date: Wednesday 28 Feb
+  event: ML & Chatbots with Amazon
+  description: Graph-Powered Machine Learning and Chatbots with Neo4j and Amazon Alexa
+  url: https://www.meetup.com/graphdb-london/events/247538662/
+
+# - date:
+#   event:
+#   description:
+#   url:
+#
+# - date:
+#   event:
+#   description:
+#   url:
+#
+# - date:
+#   event:
+#   description:
+#   url:
+#
+# - date:
+#   event:
+#   description:
+#   url:
+
 - date: Thursday 30 Nov
   event: Makers Talks
   description: Looking to meet awesome Makers Alumni and scooping up extra knowledge? Special guests include Dr SallyAnn Freudenberg, Rachel Davies (Makers Lead Engineer) and more from 18:00.
@@ -12,5 +37,3 @@
   event: Magic The Gathering
   description: We draft the latest MTG releases each Wednesday and are soon expanding to other table-top games!
   url: http://makersacademy.com/magic
-
-
