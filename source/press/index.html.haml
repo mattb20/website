@@ -1,0 +1,91 @@
+- description "Read if you're looking for information about Makers Academy in the press as well as the latest press release and news."
+- title "Press Page | Makers Academy "
+
+%section.hero-splash{style: "background-image: url(#{image_path("/backgrounds/presenter.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader The Makers Academy
+      %h1 Press Page
+      %p For press enquiries, contact georgia@makersacademy.com
+      .container
+      =link_to "Click here to read our latest press release", "", class: "button button--vertical employers-button", target: '_blank'
+
+
+%section.backgrounded
+  .three-width-row
+    .column
+      = link_to image_tag( "hiring-partners/Forbes.png", class: "image--medium"), "https://www.forbes.com/sites/madhvimavadiya/2017/10/11/makers-academy-coding-is-for-everyone/#7652d5a45986", target: '_blank'
+      %p “After a successful five years, Makers Academy continue to offer courses to students from all over the world, slowly diminishing the need for computer science students spending their evenings and weekends learning to code before they can start applying for jobs. While this can be done, as Shadchnev explained, it can take many years, a lot of frustration and many more dead ends. ‘To be a software developer, you not only need the technical skills, you need communication, collaboration, emotional intelligence and should be able to work well with others. This is why our course includes meditation, yoga and counselling,’ he said.”
+    .column
+      = link_to image_tag( "hiring-partners/Telegraph.png", style: "padding-top", class: "image--medium"), "http://www.telegraph.co.uk/technology/code-academy/computer-science-or-coding/", target: '_blank'
+      %p “Courses such as Makers Academy focus on practical, hands-on coding experience and are able to stay up-to-date with industry changes by updating the course curriculum every six weeks in line with feedback from the companies that hire Makers Academy graduates.”
+    .column
+      = link_to image_tag( "hiring-partners/Independent.png", class: "image--medium"), "http://www.independent.co.uk/student/career-planning/getting-job/its-5am-but-im-still-up-and-working-8949645.html", target:'_blank'
+      %p “This is where the boot camp environment at Makers Academy really comes into its own and why it is often worth investing in such a course for those serious about becoming a developer. There is no greater incentive than seeing those around you working hard, absorbed in what they are doing. When you get stuck, you don’t have to suffer in silence.”
+
+%section
+  .container
+    .centered-row
+      %h2 About us
+      %h4 Short description
+      %p Makers Academy is Europe's most competitive software engineering training course. We exist to help motivated beginners become awesome junior developers, and to connect awesome companies with top-notch tech talent. We have turned over 1,000 people into junior software engineers and placed developers with leading global brands such as Deloitte Digital, Deliveroo, Google, the Financial Times and Thoughtworks.
+    .centered-row
+      %h4 Long description
+      %p Makers Academy is Europe's most competitive software engineering training course. We exist to help motivated beginners become awesome junior developers, and to connect awesome companies with top-notch tech talent. We have turned over 1,000 people into junior software engineers and placed developers with leading global brands such as Deloitte Digital, Deliveroo, Google, the Financial Times and Thoughtworks.
+      %p Our students learn how to write great software in a more-than-full time 16 week course, that specifically prepares them for software engineering jobs with London’s top technology companies.
+      %p Backed by leading London technology investors Forward Partners, we are a champion of innovative British tech education and our story has been covered in the BBC, Forbes, Telegraph, Tech Crunch and The Guardian.
+      %p Our cutting-edge methodology creates London’s most emotionally intelligent full-stack developers. We emphasise holistic learning, combining workshops, engaging exercises, project work, pair programming, classroom break-out sessions, daily lectures, stand-ups and end-of-the-week tests. Our graduates are proficient in Ruby, Ruby on Rails, HTML, CSS, JavaScript & jQuery, Git and Heroku, Software Design, Agile and Lean methodologies.
+
+%section.backgrounded
+  .container
+    .centered-row
+      %h2 Key information
+      %ul
+        %li
+          50-52 Commercial St London E1 6LT
+        %li
+          .tel
+            = link_to "+44 (0)203 817 8870", "tel:02038178870"
+        %li
+          Website: http://www.makersacademy.com/
+        %li
+          Blog: https://blog.makersacademy.com/
+        %li
+          Facebook: https://www.facebook.com/MakersAcademy
+        %li
+          Twitter: https://twitter.com/makersacademy
+        %li
+          YouTube: https://www.youtube.com/user/makersacademy
+
+
+%section.backgrounded{style: "background-image: url(#{image_path("backgrounds/circle-of-students.jpg")});"}
+  .container
+    .centered-row
+      %h2 Diversity
+      %h4 <em>We’re committed to making the tech industry as diverse and inclusive as possible</em>
+      %p From our first year we offered a discount to female applicants to make the course slightly more accessible and to send a signal that women, being underrepresented in tech for no good reason, are particularly welcome to apply. Over 35% of our graduates have been women: two times higher than industry average.We partnered with Thoughtworks to fully fund 4 women, from socio-economically deprived backgrounds, through Makers Academy. The women were paid a salary while studying, and guaranteed jobs as software developers on graduation.
+      .container
+        .video-row
+          .video-wrapper
+            %iframe{src: "https://www.youtube.com/embed/6MDSCGclrvQ", frameborder: 0, allowfullscreen: true}
+      %p.small-padding-top    In the past, we have offered a free spot at Makers Academy to a refugee who had made it to the UK, who is now successfully employed at a leading company. We created our own fund to offer Londoners from difficult backgrounds through our training. Our first Fellow was a paintshop worker from Lewisham, who in 2 years has risen to become a tech lead at the Financial Times.We have taken a stand on diversity in the tech industry, interviewing our students and collating their commentary on recent scandals such as the James Damore incident at Google. Our team have been behind the creation of Muslamic Makers, Black Techies, and Code of Colour, as well as partnering with numerous organisations aimed at improving minority representation in tech.
+
+
+%section.backgrounded
+  .container
+  %h2 More stories
+  .three-width-row
+    .column
+      =link_to "CFA, MBA, or…coding course?", "https://news.efinancialcareers.com/uk-en/219839/cfa-mba-or-coding-course/", target: '_blank'
+      %p “In a world where a top MBA can leave you with a six figure debt and the CFA is arguably being devalued by the sheer number of people taking the qualifications, is an £8k four month course at Makers Academy the best bet for your career? Adrian and Jason think so. “It felt more dangerous staying in finance and not learning to code than leaving and taking this course,” says Adrian. Jason is a CFA Charterholder, but says it’s not enough: “The problem with the CFA is that it’s so broad that you learn a huge amount, but not enough in any depth.””
+    .column
+      =link_to "Why Women Still Do Not Get On At Work", "https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/rogertrapp/2017/03/08/why-women-still-do-not-get-on-at-work/&refURL=&referrer=#2d34db1f44f9", target: '_blank'
+      %p “Ruben Kostucki, chief operating officer of London-based Makers Academy, which trains people to write computer code, agrees that the approach that employers take to writing job descriptions is a huge part of the problem. A key aspect of this is that they list the requirements of the job, when there is well-known research indicating that, while men will apply for a post if they think they meet about 60% of the requirements, women will only apply if they feel they satisfy all or just about all of the criteria.”
+    .column
+      =link_to "Six ideas to get more women involved in the tech sector", "https://www.theguardian.com/technology/2013/aug/18/wasted-talent-female-tech-women", target: '_blank'
+      %p “Then last year, she came across Makers Academy, an intensive programme that promised to teach her how to code in just 12 weeks, despite her lack of computer science background. She now works as a junior developer for Enternships and says the reality of working in the field lives up to the stereotype. "I have been shocked by the lack of women around. I have been in a room in which it was forgotten a woman was present and it started to feel like a locker room."”
+
+
+
+:javascript
+  analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Press Page'});

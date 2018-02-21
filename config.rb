@@ -1,7 +1,7 @@
 activate :dotenv
 
 Dir["lib/*.rb"].each { |file| require file }
-
+Haml::TempleEngine.disable_option_validator!
 ###
 # Compass
 ###
@@ -75,7 +75,7 @@ set :precourse_beta_application_form_url, "http://apply.makersacademy.com/precou
 # Redirects from old site urls
 redirect "payments/new.html", to: "#{config.onsite_application_form_url}/payments/new"
 redirect "apply-for-ronin.html", to: config.onsite_application_form_url
-redirect "fellowship.html", to: "http://techcityfellowship.org/"
+# redirect "fellowship.html", to: "http://techcityfellowship.org/"
 redirect "life-at-makers.html", to: "about-us.html"
 redirect "talks.html", to: "employers.html"
 redirect "talks/apply.html", to: "employers.html"
@@ -87,7 +87,7 @@ redirect "testimonials.html", to: "graduates.html"
 redirect "alumni.html", to: "graduates.html"
 redirect "network.html", to: "employers.html"
 redirect "payment-plans.html", to: "payment.html"
-redirect "jobs.html", to: "join-the-team.html"
+redirect "jobs.html", to: "https://makers-academy.breezy.hr/"
 redirect "blog.html", to: "http://blog.makersacademy.com"
 redirect "payments.html", to: "payment.html"
 redirect "partners.html", to: "employers.html"
@@ -99,6 +99,7 @@ redirect "learn-to-code-5.html", to: "index.html"
 redirect "faq.html", to: "http://help.makersacademy.com"
 redirect "employers-startups.html", to: "startups.html"
 redirect "diversity.html", to: "employers/diversity.html"
+redirect "fellowships.html", to: "fellowship.html"
 
 # Uncomment to redirect all /employers routes to employers. subdomain
 redirect "employers.html", to: "http://employers.makersacademy.com"
