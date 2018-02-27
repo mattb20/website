@@ -1,0 +1,11 @@
+- companies ||= []
+
+.five-width-row.small-padding-top
+  - companies.first(5).each do |company|
+    .column
+      = image_tag company.logo_path, { alt: company.title, title: company.title, class: "image--medium" }
+
+.five-width-row
+  - companies.last(5).each do |company|
+    .column
+      = image_tag company.logo_path, { alt: company.title, title: company.title, class: "image--medium" }
