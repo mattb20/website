@@ -3,7 +3,7 @@
   .container
     .centered-row
       %h1 Learn to code in 12 weeks
-      %p.margin-bottom Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job at companies like these. 
+      %p.margin-bottom Makers Academy is Europe's leading Web Developer bootcamp. With our help, you'll learn the principles of software craftsmanship and we'll also help you get your first job at companies like these.
     = partial 'logos_grid', locals: { companies: data.static.homepage_grid_companies }
 
 %section.half-slider.graduates-slider
@@ -19,8 +19,6 @@
               = link_to "Read Grad Stories", "/graduates.html", class: "button button--horizontal"
       .column
         = partial :"preview_graduates"
-
-= partial :"hire_a_maker"
 
 = partial :"splash/curriculum"
 
