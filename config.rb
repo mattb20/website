@@ -100,6 +100,7 @@ redirect "faq.html", to: "http://help.makersacademy.com"
 redirect "employers-startups.html", to: "startups.html"
 redirect "diversity.html", to: "employers/diversity.html"
 redirect "fellowships.html", to: "fellowship.html"
+redirect "cards.html", to: "https://makersacademy.github.io/cards"
 
 # Uncomment to redirect all /employers routes to employers. subdomain
 redirect "employers.html", to: "http://employers.makersacademy.com"
