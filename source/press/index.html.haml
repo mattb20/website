@@ -8,7 +8,7 @@
       %h1 Press Page
       %p For press enquiries, contact georgia@makersacademy.com
       .container
-      =link_to "Click here to read our latest press release", "", class: "button button--vertical employers-button", target: '_blank'
+      =link_to "Click here to read our latest press release", "/press/tesco-and-makers-academy", class: "button button--vertical employers-button", target: '_blank'
 
 
 %section.backgrounded
@@ -36,27 +36,6 @@
       %p Backed by leading London technology investors Forward Partners, we are a champion of innovative British tech education and our story has been covered in the BBC, Forbes, Telegraph, Tech Crunch and The Guardian.
       %p Our cutting-edge methodology creates London’s most emotionally intelligent full-stack developers. We emphasise holistic learning, combining workshops, engaging exercises, project work, pair programming, classroom break-out sessions, daily lectures, stand-ups and end-of-the-week tests. Our graduates are proficient in Ruby, Ruby on Rails, HTML, CSS, JavaScript & jQuery, Git and Heroku, Software Design, Agile and Lean methodologies.
 
-%section.backgrounded
-  .container
-    .centered-row
-      %h2 Key information
-      %ul
-        %li
-          50-52 Commercial St London E1 6LT
-        %li
-          .tel
-            = link_to "+44 (0)203 817 8870", "tel:02038178870"
-        %li
-          Website: http://www.makersacademy.com/
-        %li
-          Blog: https://blog.makersacademy.com/
-        %li
-          Facebook: https://www.facebook.com/MakersAcademy
-        %li
-          Twitter: https://twitter.com/makersacademy
-        %li
-          YouTube: https://www.youtube.com/user/makersacademy
-
 
 %section.backgrounded{style: "background-image: url(#{image_path("backgrounds/circle-of-students.jpg")});"}
   .container
@@ -68,7 +47,7 @@
         .video-row
           .video-wrapper
             %iframe{src: "https://www.youtube.com/embed/6MDSCGclrvQ", frameborder: 0, allowfullscreen: true}
-      %p.small-padding-top    In the past, we have offered a free spot at Makers Academy to a refugee who had made it to the UK, who is now successfully employed at a leading company. We created our own fund to offer Londoners from difficult backgrounds through our training. Our first Fellow was a paintshop worker from Lewisham, who in 2 years has risen to become a tech lead at the Financial Times.We have taken a stand on diversity in the tech industry, interviewing our students and collating their commentary on recent scandals such as the James Damore incident at Google. Our team have been behind the creation of Muslamic Makers, Black Techies, and Code of Colour, as well as partnering with numerous organisations aimed at improving minority representation in tech.
+      %p.small-padding-top In the past, we have offered a free spot at Makers Academy to a refugee who had made it to the UK, who is now successfully employed at a leading company. We created our own fund to offer Londoners from difficult backgrounds through our training. Our first Fellow was a paintshop worker from Lewisham, who in 2 years has risen to become a tech lead at the Financial Times.We have taken a stand on diversity in the tech industry, interviewing our students and collating their commentary on recent scandals such as the James Damore incident at Google. Our team have been behind the creation of Muslamic Makers, Black Techies, and Code of Colour, as well as partnering with numerous organisations aimed at improving minority representation in tech.
 
 
 %section.backgrounded
@@ -85,7 +64,5 @@
       =link_to "Six ideas to get more women involved in the tech sector", "https://www.theguardian.com/technology/2013/aug/18/wasted-talent-female-tech-women", target: '_blank'
       %p “Then last year, she came across Makers Academy, an intensive programme that promised to teach her how to code in just 12 weeks, despite her lack of computer science background. She now works as a junior developer for Enternships and says the reality of working in the field lives up to the stereotype. "I have been shocked by the lack of women around. I have been in a room in which it was forgotten a woman was present and it started to feel like a locker room."”
 
-
-
 :javascript
-  analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Press Page'});
+  analytics.track('Viewed B2C Landing Page', {'Landing Page': 'Press Page'});
