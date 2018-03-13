@@ -21,7 +21,7 @@
 - title: Week 4
   image: db.png
   summary: Databases and User Management
-  blurb: "It's time to learn how to add a relational database to a Sinatra application using DataMapper. In this week you look at relational databases, key-value stores and SQL. You'll also spend a lot of time discussing proper management of user accounts along with hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. You'll write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. This is an important milestone as you'll now have a full picture of web development."
+  blurb: "It's time to learn how to add a relational database to a Sinatra application. In this week we talk about relational databases, key-value stores and SQL. Students will initially build their own ORM, from scratch, then progress to using DataMapper. We also spend a lot of time discussing proper management of user accounts: hashing and salting, choosing appropriate hashing algorithms and mitigating common security risks. Students write a user management system (sign up, sign in, sign out, etc) from scratch, paying special attention to the security aspects. Finally, students also learn how to use Capybara to test-drive web applications. The Friday challenge focuses on relational databases. This is a an important milestone as students now have a full picture of web development."
 
 - title: Week 5
   image: js.png
