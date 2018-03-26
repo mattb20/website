@@ -4,57 +4,50 @@
 %section.hero-splash{style: "background-image: url(#{image_path("backgrounds/circle.jpg")});"}
   .container
     .centered-row
-      %h4.leader Take your first step as a developer with our
-      %h1 Career Support
-      .five-width-row.small-padding-top
-        .column
-          = image_tag "hiring-partners/ThoughtWorks.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/compare-the-market.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/FT.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Deloitte-Digital.png", class:"image--medium"
-        .column
-          = image_tag "hiring-partners/Sky.png", class:"image--medium"
+      %h4.leader Learn to code
+      %h1 Become a Developer
+      %p.lead With the largest Career Support team of any UK bootcamp, we guarantee you a job offer within 6 months, or your money back. We're highly-selective about our Hiring Partners – no temp jobs or internships. Over 1,400 developers have started their careers with over 300 companies.
+    = partial 'logos_grid', locals: { companies: data.static.homepage_grid_companies }
 
 %section
   .container
     .centered-row
-      %h4 Are you
-      %h2 Hiring Developers?
-      %p Meet Europe’s most talented junior software developers all year round. Visit our dedicated employers site today.
-      .button-row
-        = link_to "Take me there", "http://employers.makersacademy.com/", target: "_blank", class: "button button--horizontal"
-
-%section.backgrounded
-  .container
-    .centered-row
-      %h2 We'll help you get the job you love
+      %h2 The fastest route
+      %h4.subheader into the tech industry
+      %p.lead Upskill and transition into a new career in 16 weeks.
     .three-width-row
       .column
-        %h5 £30-35k
-        %p The average salary for a Makers Academy graduate is £30-35k. Compare that to the starting salary for a UK University graduate, which ranges between £18-£24k.
+        %h4.leader Average Salary
+        %h2 £30-35k
+        %p Over the past five years, our historic average starting salary is £32k. Makers developers typically earn above £40k one year later.
       .column
-        %h5 ~40 days
-        %p The average time that our students take to get a job is 40 days. Once you've graduated, we want to help in any way that we can. We're committed to fully supporting you until you're happy in your new job as a developer.
+        %h4.leader Average Days Jobhunting
+        %h2 40
+        %p 1:1 Career Support coaching and frequent, well-attended Career Fairs get you introduced and accepted with the right company, fast.
       .column
-        %h5 300+
-        %p We work with over 300 companies, allowing you to find the perfect job. Our careers team will look after all post course arrangements, we offer interview help, job hunting advice and intros to our hiring partners.
+        %h4.leader Hiring Partners
+        %h2 300+
+        %p We're incredibly selective about our Hiring Partners: progressive organisations at the cutting-edge of digital innovation.
 
-%section.half-slider
+%section.backgrounded{style: "background-image: url(#{image_path("backgrounds/circle-of-students.jpg")});"}
   .container
-    .half-slider-row
-      .column
-        .copy.copy--left
-          %h3 Who they are
-          %p Makers Academy developers are passionate, driven, curious and engaging.
-          %p They solve their own problems, are exceptionally fast and effective learners, and understand the business context beyond the code.
-          %p The majority of our graduates have been successful in another industry, including law, marketing, banking, design, and many more: that's experience they'll bring to your company.
-      .column
-        = partial :"preview_graduates"
+    .centered-row
+      %h4.leader Get
+      %h2 Introduced
+      %p.lead Every four weeks, we run a Careers Fair. On average, 15 selected Hiring Partners attend, with between 20 and 40 roles available.
+      .container
+        .video-row
+          .video-wrapper
+            %iframe{src: "https://www.youtube.com/embed/SrKt9HYS92o", frameborder: 0, allowfullscreen: true}
 
-= partial :"developer_hero"
+%section
+  .container
+    %h2 Campus Tour
+    %p.lead We run campus tours in the heart of Shoreditch every Tuesday, Wednesday and Thursday at 11am with limited places available.
+    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=44451951985&ref=website", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
+
+
+
 
 :javascript
-  analytics.track('Viewed Employers Landing Page', {'Landing Page': 'Main 2.0 (Hired.com style)'});
+  analytics.track('Viewed Onsite Landing Page', {'Landing Page': 'career-support-2018'});
