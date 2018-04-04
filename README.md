@@ -2,7 +2,7 @@
 
 [ ![Codeship Status for makersacademy/website](https://codeship.com/projects/6c2574a0-2e49-0133-57fc-4ab88c866e91/status?branch=master)](https://codeship.com/projects/99059)
 
-Our new-look website, currently viewable at [http://www.makersacademy.com](http://www.makersacademy.com).
+Our new-look website, currently viewable at [https://www.makersacademy.com](https://www.makersacademy.com).
 
 ## Why are we open sourcing our website?
 
@@ -43,7 +43,7 @@ Here at Makers Academy we believe in practising what we preach - which means bot
 
 ## Adding images
 
-Our images are stored on the [makers assets GitHub repo](https://github.com/makersacademy/makers-assets) - we've split them out to a seperate repository to keep the size of this repository down. All assets from that repository can be accessed from http://assets.makersacademy.com.
+Our images are stored on the [makers assets GitHub repo](https://github.com/makersacademy/makers-assets) - we've split them out to a seperate repository to keep the size of this repository down. All assets from that repository can be accessed from https://assets.makersacademy.com.
 
 When adding a new image, add it to the [images directory](https://github.com/makersacademy/makers-assets/tree/gh-pages/images) of the [makers assets GitHub repo](https://github.com/makersacademy/makers-assets), and make sure that the image has been compressed using [image optim](https://imageoptim.com/) and are good quality images that fit the look and feel of the site.
 

@@ -9,7 +9,7 @@ Haml::TempleEngine.disable_option_validator!
 activate :directory_indexes
 activate :meta_tags
 
-set :url_root, 'http://www.makersacademy.com'
+set :url_root, 'https://www.makersacademy.com'
 activate :search_engine_sitemap
 
 # Change Compass configuration

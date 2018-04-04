@@ -506,8 +506,8 @@ pre[class*="language-"] {
 
 @font-face {
   font-family: "linea-arrows-10";
-  src: url("http://assets.makersacademy.com/fonts/linea-arrows-10.eot");
-  src: url("http://assets.makersacademy.com/fonts/linea-arrows-10.eot?#iefix") format("embedded-opentype"), url("http://assets.makersacademy.com/fonts/linea-arrows-10.woff") format("woff"), url("http://assets.makersacademy.com/fonts/linea-arrows-10.ttf") format("truetype"), url("http://assets.makersacademy.com/fonts/linea-arrows-10.svg#linea-arrows-10") format("svg");
+  src: url("https://assets.makersacademy.com/fonts/linea-arrows-10.eot");
+  src: url("https://assets.makersacademy.com/fonts/linea-arrows-10.eot?#iefix") format("embedded-opentype"), url("https://assets.makersacademy.com/fonts/linea-arrows-10.woff") format("woff"), url("https://assets.makersacademy.com/fonts/linea-arrows-10.ttf") format("truetype"), url("https://assets.makersacademy.com/fonts/linea-arrows-10.svg#linea-arrows-10") format("svg");
   font-weight: normal;
   font-style: normal; }
 button, input[type="button"], input[type="reset"], input[type="submit"],
@@ -2693,7 +2693,7 @@ footer {
   width: 100%; }
 
 .iti-flag {
-  background-image: url(http://assets.makersacademy.com/images/vendor/intl-tel-input/flags@2x.png); }
+  background-image: url(https://assets.makersacademy.com/images/vendor/intl-tel-input/flags@2x.png); }
 
 .the-elements {
   padding-bottom: 0 !important; }
