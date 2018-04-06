@@ -1,0 +1,69 @@
+- description "Change your career and get into fintech"
+- title "Fintech"
+
+%section.hero-splash{style: "background-image: url(#{image_path("backgrounds/circle.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader From Finance to Fintech
+      %h1 Kickstart your career as a software engineer
+      %p.lead Did you know that finance professionals like you have found creative and fulfilling careers in software development? If you’re interested in leading tomorrow’s industries, our intensive program sets you up to become a high quality professional software developer.
+    = partial 'logos_grid', locals: { companies: data.static.homepage_grid_companies }
+
+%section
+  .container
+    .centered-row
+      %h2 Change your future
+      %h4.subheader in only 12 weeks
+      %p.lead Our intensive course includes a month long PreCourse and 12 weeks full-time learning onsite.
+    .three-width-row.row-with-borders
+      .column
+        .header-container
+          %h4.leader Future Proof
+          %h3 Your Career
+          %p Learn to code if you want to keep on learning. Continue to be in demand with up-to-date skills after your current job becomes automated.
+      .column
+        .header-container
+          %h4.leader Fast Route
+          %h3 Into Tech
+          %p In just 4 months you could become a software engineer and become part of the future of FinTech
+      .column
+        .header-container
+          %h4.leader Be An
+          %h3 Innovator
+          %p Use your problem-solving powers for good. If you want a new intellectual challenge, start solving  problems in a way that is tangible.
+
+
+%section.backgrounded{style: "background-image: url(#{image_path("backgrounds/circle-of-students.jpg")});"}
+  .container
+    .centered-row
+      %h4.leader Secure your dream job
+      %h2 At a company of your choice
+      %p.lead We have the UK’s largest Careers team dedicated to finding you a job after the end of the course. Job offer guaranteed.
+      .container
+        .video-row
+          .video-wrapper
+            %iframe{src: "https://www.youtube.com/embed/7VqquwXCJQE", frameborder: 0, allowfullscreen: true}
+
+%section.no-padding-bottom
+  = partial :"full_graduates", locals: {category: "fintech-page" }
+
+%section.backgrounded
+  .three-width-row
+    .column
+      = link_to image_tag( "hiring-partners/Forbes.png", class: "image--medium"), "https://www.forbes.com/sites/madhvimavadiya/2017/10/11/makers-academy-coding-is-for-everyone/#7652d5a45986", target: '_blank'
+      %p “After a successful five years, Makers Academy continue to offer courses to students from all over the world. CEO Evgeny Shadchnev explained: ‘To be a software developer, you not only need the technical skills, you need communication, collaboration, emotional intelligence and should be able to work well with others.”
+    .column
+      = link_to image_tag( "hiring-partners/Telegraph.png", style: "padding-top", class: "image--medium"), "http://www.telegraph.co.uk/technology/code-academy/computer-science-or-coding/", target: '_blank'
+      %p “Courses such as Makers Academy focus on practical, hands-on coding experience and are able to stay up-to-date with industry changes by updating the course curriculum every six weeks in line with feedback from the companies that hire Makers Academy graduates.”
+    .column
+      = link_to image_tag( "hiring-partners/Independent.png", class: "image--medium"), "http://www.independent.co.uk/student/career-planning/getting-job/its-5am-but-im-still-up-and-working-8949645.html", target:'_blank'
+      %p “This is where the boot camp environment at Makers Academy really comes into its own and why it is often worth investing in such a course for those serious about becoming a developer. There is no greater incentive than seeing those around you working hard, absorbed in what they are doing. When you get stuck, you don’t have to suffer in silence.”
+
+%section
+  .container
+    %h2 Demo Day
+    %p.lead We’d love to show you around Makers, showcase what our developers have built and answer any questions you might have.
+    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=33334607709&ref=fintech", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
+
+:javascript
+  analytics.track('Viewed Onsite Landing Page', {'Landing Page': 'fintech-2018'});
