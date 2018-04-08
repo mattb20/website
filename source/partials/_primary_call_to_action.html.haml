@@ -15,7 +15,7 @@
           = link_to "Apply to Study", config.apply_url, class: "button button--horizontal"
 - else
 
-  %section.hero--apply{style: backgrounded ? "background-image: url(#{image_path("backgrounds/newpairing.jpg")});": ""}
+  %section.hero--apply.no-padding{style: backgrounded ? "background-image: url(#{image_path("backgrounds/newpairing.jpg")});": ""}
     .container
       .centered-row
         .column
@@ -34,3 +34,8 @@
             = link_to "See our Curriculum", "/curriculum.html", class: "button button--horizontal"
           - else
             = link_to "Learn More", "/about-us.html", class: "button button--horizontal"
+
+        .centered-row
+          %h2 Want to chat?
+          %h2
+            %a#main_phone_number.no-underline{ href: "tel:#{ data.static.main_phone_number }" }= data.static.main_phone_number
