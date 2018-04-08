@@ -829,6 +829,7 @@
   categories:
     - financial times
     - female
+    - fintech-page
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was working as a tech recruiter.
@@ -1602,6 +1603,7 @@
   categories:
     - career-changer
     - startup
+    - fintech-page
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was a working as a financial analyst at Amazon.
@@ -2407,8 +2409,8 @@
   categories:
     - career-changer
     - female
-    - acast
     - financial times
+    - fintech-page
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I used to be a lawyer and worked in project finance.
@@ -3542,6 +3544,7 @@
   blog_link: http://racetomakers.tumblr.com/
   categories:
     - education leaver
+    - fintech-page
   case_study:
     - question: What were you doing before joining Makers Academy?
       answer: I was an economics student, working as a waiter and an intern.
