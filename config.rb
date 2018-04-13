@@ -99,9 +99,10 @@ redirect "learn-to-code-5.html", to: "index.html"
 redirect "faq.html", to: "http://help.makersacademy.com"
 redirect "employers-startups.html", to: "startups.html"
 redirect "diversity.html", to: "employers/diversity.html"
-redirect "fellowships.html", to: "fellowship.html"
 redirect "cards.html", to: "https://makersacademy.github.io/cards"
 redirect "cosmo.html", to: "women.html"
+redirect "fellowship.html", to: "https://fellowship.makersacademy.com?utm_source=website&utm_medium=redirect"
+redirect "fellowships.html", to: "https://fellowship.makersacademy.com?utm_source=website&utm_medium=redirect"
 
 # Uncomment to redirect all /employers routes to employers. subdomain
 redirect "employers.html", to: "http://employers.makersacademy.com"
