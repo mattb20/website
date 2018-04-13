@@ -38,7 +38,7 @@
   cohort_year: 2017
   categories:
     - career-changer
-    - women
+    - female
   case_study:
    - question: What were you doing before joining Makers Academy?
      answer: Project Manager in a Market Research agency
@@ -79,40 +79,6 @@
      answer: I was worried I was not good enough and now it's flipped. My concern has now been if a company is good enough for me when I was interviewing for them.
    - question: Sum up your Makers Academy experience
      answer: It's been super intense with good times and bad times. It's been high pressure, but I've also met people who I think are going to be good friends for a long time.
-
-
-- first_name: Rebecca
-  last_name: Piper
-  image: rebecca.jpg
-  summary: Maths graduate to Junior Developer at Tombola
-  testimonial: Completing the course made me feel more prepared for working in industry and I have a great understanding which has benefitted me throughout my time in my current role.
-  cohort_month: April
-  cohort_year: 2016
-  blog_link: https://www.youtube.com/playlist?list=PLc4BYny7PXeQLLdl_meucEyKl8K9sI0SV
-  categories:
-    - female
-    - education-leaver
-    - remote
-  case_study:
-    - question: What were you doing before joining Makers Academy?
-      answer: I’d graduated from university in June 2015 and before joining Makers Academy. I was looking for work as well as trying to figure out what career I wanted to pursue.
-    - question: How did you come across Makers Academy and what made you decide to apply?
-      answer: I’d learned a bit of HTML and CSS in my spare time during my degree and when I was considering possible careers, I started looking into courses on web development and coding. I spent a few weeks working through the courses available at websites such as Codecademy and Code School, but I felt like this mainly taught me syntax and not how to apply it. I was interested in something more structured and I found Makers Academy. I decided to apply because it looked like the best compromise between doing a local course and doing an offline course, as I could do it from my own home but I would still be working with others.
-    - question: How did you find learning remotely?
-      answer: Initially I wasn’t sure what to expect, as I’d struggled a bit with motivation when I was doing the short online courses available on the other websites. I thought I would get distracted. I learn best with a structure, so I was worried that learning remotely wouldn’t be the best way for me to study, but because Makers involved remotely attending coding workshops and pair-programming, it made it much easier to remain motivated. I had to work to a schedule, instead of on my time, which was good. Makers involved lots of communication with others, with the coach and with the other students, which meant that, despite learning remotely, didn’t feel like the only one studying. There was a community of people available for discussion and for help all the time.
-    - question: What was your final project?
-      answer: My group designed and developed a website called <a href='https://youtu.be/HvAV9ZoBT84?list=PLc4BYny7PXeQLLdl_meucEyKl8K9sI0SV' target='_blank'>Recipedia.</a>. The idea was initially to have a website that would search recipes via combinations of ingredients – so that people could easily find meals that they could cook given ingredients they already had in their fridge. Users could add and edit their own recipes, and search by recipe name or by a list of ingredients, as well as give a recipe thumbs up or down.
-    - question: How has your life changed since finishing the course?
-      answer: Learning to code gave me confidence to apply for jobs within the development industry. Prior to doing the course I had researched roles in development and although many accepted maths graduates, I wasn’t sure about how I could apply my skills. Completing the course made me feel more prepared for working in industry and I have a great understanding which has benefited me throughout my time in my current role.
-    - question: What advice would you give to people thinking of changing career?
-      answer: Although I wasn’t opting for a career change when I decided to complete Makers, I would say that if coding is something you’re interested in and are considering as a career, Makers is a good place to start – get an understanding of how to develop a web application from the ground up, as well as having stand-up’s and retrospective’s and following coding best practices.
-    - question: What would you say to people who say £4000 is expensive for an online course?
-      answer: Makers is twelve very intense weeks – the course is planned and there were remote workshops almost every day. They provided help throughout the course, as well as assisting with career guidance and finding work once the course was over. It is expensive, but I had looked at other similarly priced courses before applying and none of them provided the same support and structure as Makers Academy Remote did.
-    - question: What was your biggest fear before joining Makers Academy and how do you feel about it now?
-      answer: I was worried the course would be too intense. It was a lot of hard work, but it wasn’t as many hours as I was worrying it would be. A few of the students did work late into the evenings, but after 9-5, it was quite flexible. I had other commitments in the evening and I was still able to manage everything and I didn’t feel like I was dropping behind because I wasn’t working late into the night.
-    - question: Sum up your Makers Academy experience
-      answer: It was a lot of hard work. I really enjoyed meeting people from various places and enjoyed seeing the different ways people approach similar problems. Learned more than I expected – I wasn’t sure how much could be learned in only twelve weeks, but even after one week, I felt like I’d learned more through Makers than I had on any of the other online courses I’d worked through.
-
 
 - first_name: Fergus
   last_name: Orbach
@@ -263,7 +229,7 @@
   cohort_year: 2017
   categories:
     - career-changer
-    - women
+    - female
     - ThoughtWorks
   case_study:
    - question: What were you doing before joining Makers Academy?
@@ -400,7 +366,6 @@
   cohort_month: September
   cohort_year: 2016
   categories:
-    - female
     - career-changer
     - podcast
   case_study:
@@ -482,6 +447,38 @@
      answer: Not knowing if I would enjoy coding or be good at it. Or if I would be able to get a job. The fear of not being able to get a job was there and I ended up getting a job within a week after graduation.
    - question: Sum up your Makers Academy experience
      answer: Fun. Friendships and full of learning and pushing myself beyond my limits.
+
+- first_name: Rebecca
+  last_name: Piper
+  image: rebecca.jpg
+  summary: Maths graduate to Junior Developer at Tombola
+  testimonial: Completing the course made me feel more prepared for working in industry and I have a great understanding which has benefitted me throughout my time in my current role.
+  cohort_month: April
+  cohort_year: 2016
+  blog_link: https://www.youtube.com/playlist?list=PLc4BYny7PXeQLLdl_meucEyKl8K9sI0SV
+  categories:
+    - female
+    - education-leaver
+    - remote
+  case_study:
+    - question: What were you doing before joining Makers Academy?
+      answer: I’d graduated from university in June 2015 and before joining Makers Academy. I was looking for work as well as trying to figure out what career I wanted to pursue.
+    - question: How did you come across Makers Academy and what made you decide to apply?
+      answer: I’d learned a bit of HTML and CSS in my spare time during my degree and when I was considering possible careers, I started looking into courses on web development and coding. I spent a few weeks working through the courses available at websites such as Codecademy and Code School, but I felt like this mainly taught me syntax and not how to apply it. I was interested in something more structured and I found Makers Academy. I decided to apply because it looked like the best compromise between doing a local course and doing an offline course, as I could do it from my own home but I would still be working with others.
+    - question: How did you find learning remotely?
+      answer: Initially I wasn’t sure what to expect, as I’d struggled a bit with motivation when I was doing the short online courses available on the other websites. I thought I would get distracted. I learn best with a structure, so I was worried that learning remotely wouldn’t be the best way for me to study, but because Makers involved remotely attending coding workshops and pair-programming, it made it much easier to remain motivated. I had to work to a schedule, instead of on my time, which was good. Makers involved lots of communication with others, with the coach and with the other students, which meant that, despite learning remotely, didn’t feel like the only one studying. There was a community of people available for discussion and for help all the time.
+    - question: What was your final project?
+      answer: My group designed and developed a website called <a href='https://youtu.be/HvAV9ZoBT84?list=PLc4BYny7PXeQLLdl_meucEyKl8K9sI0SV' target='_blank'>Recipedia.</a>. The idea was initially to have a website that would search recipes via combinations of ingredients – so that people could easily find meals that they could cook given ingredients they already had in their fridge. Users could add and edit their own recipes, and search by recipe name or by a list of ingredients, as well as give a recipe thumbs up or down.
+    - question: How has your life changed since finishing the course?
+      answer: Learning to code gave me confidence to apply for jobs within the development industry. Prior to doing the course I had researched roles in development and although many accepted maths graduates, I wasn’t sure about how I could apply my skills. Completing the course made me feel more prepared for working in industry and I have a great understanding which has benefited me throughout my time in my current role.
+    - question: What advice would you give to people thinking of changing career?
+      answer: Although I wasn’t opting for a career change when I decided to complete Makers, I would say that if coding is something you’re interested in and are considering as a career, Makers is a good place to start – get an understanding of how to develop a web application from the ground up, as well as having stand-up’s and retrospective’s and following coding best practices.
+    - question: What would you say to people who say £4000 is expensive for an online course?
+      answer: Makers is twelve very intense weeks – the course is planned and there were remote workshops almost every day. They provided help throughout the course, as well as assisting with career guidance and finding work once the course was over. It is expensive, but I had looked at other similarly priced courses before applying and none of them provided the same support and structure as Makers Academy Remote did.
+    - question: What was your biggest fear before joining Makers Academy and how do you feel about it now?
+      answer: I was worried the course would be too intense. It was a lot of hard work, but it wasn’t as many hours as I was worrying it would be. A few of the students did work late into the evenings, but after 9-5, it was quite flexible. I had other commitments in the evening and I was still able to manage everything and I didn’t feel like I was dropping behind because I wasn’t working late into the night.
+    - question: Sum up your Makers Academy experience
+      answer: It was a lot of hard work. I really enjoyed meeting people from various places and enjoyed seeing the different ways people approach similar problems. Learned more than I expected – I wasn’t sure how much could be learned in only twelve weeks, but even after one week, I felt like I’d learned more through Makers than I had on any of the other online courses I’d worked through.
 
 - first_name: Van
   last_name: Le
