@@ -3,50 +3,6 @@
 #   job_title:
 #   about:
 
-- name: Roury
-  image: Roury.jpg
-  job_title: Customer Champion
-  about: Roury is our Customer Champion. He's come from a music background, both teaching and performing. He's in charge of mentoring people through the application process as well as keeping them as happy as possible! Fun fact, Roury owned 33 gerbils at once.
-
-- name: Elspeth
-  image: Elspethbigger.jpg
-  job_title: Careers Team
-  about: Elspeth is part of the careers team, keeping her ear to the ground for employers who are in need of great developers. Despite being relatively new to the world of tech, Elspeth is very passionate about it, and cares a lot about connecting great organisations with great people. Other passions include food, (amateur) tennis and Scotland.
-
-- name: Florence
-  image: Florence.jpg
-  job_title: Head of Operations
-  about: Florence is our Head of Operations. She has over 6 years of experience working in startups. She has a passion for education, logistics and problem solving. In her free time, she likes to bake and watch sport in the pub.
-
-- name: Dana
-  image: DanaCutout.jpg
-  job_title: Chief Joy Officer
-  about: Dana is our Chief Joy Officer. As a holistic coach, she facilitates the well-being of the students and staff. Everything from one-to-one coaching and group sessions to daily meditation and teaching Emotional Intelligence through the “ACE Dev" curriculum. She is also our in-house Yoga teacher (RYT certified). Dana loves music and fun!
-
-- name: Max
-  image: max.jpg
-  job_title: Careers Team
-  about: Max is passionate about improving diversity in tech. Before Makers Academy he spent two years at Apps for Good, inspiring young people from all walks of life to build their digital skills. Now he is working with hiring partners to improve their recruitment processes and attract the best software talent from any background.
-
-- name: Jordan
-  image: jordan.jpg
-  job_title: Sales and Marketing Director
-  about: Jordan is our Sales and Marketing Director at Makers Academy. Jordan joined us as a student on our very first cohort. We were so impressed with his skills, we couldn't help ourselves but to make him an offer.
-
-- name: Ruben
-  image: ruben.jpg
-  job_title: Chief Operating Officer
-  about: Ruben is part of the founding team at Makers, having himself taken the second course and built the career side of the business. Today, his focus is on the organisational structure and culture, the team and our strategic growth. Ruben is passionate about new [un]management styles, education and food.
-
-- name: Ed
-  image: Ed.jpg
-  job_title: Coaching Team
-  about: Ed has seen the whole arc of a Makers student, from candidate interviews to leading a Makers consultant team. But as a coach he just likes to spin around in his chair. He's a big fan of tennis, MTG, and a two coffee day. Favourite languages are the grammatically reasonable ones.
-
-- name: Becks
-  image: Backs.jpg
-  job_title: Careers Team
-  about: Becks is our careers coach and supports our students into their first roles as junior developers. She worked as a coach and careers consultant in Universities and in an addiction clinic for the NHS until she took her own advice and made her home in tech. Now in a flat after years of living in a boat community, Becks is enjoying simple things like cooking a level omelette and not feeling slightly seasick.
 
 - name: Will
   image: will.jpg
@@ -72,6 +28,46 @@
   image: zara.jpg
   job_title: Careers Team
   about: Zara is our careers coach supporting students in the transition from student to getting their first job as a Junior Developer. Previously she worked at Working Chance, supporting women with criminal convictions back into work. On the side she sells Camphill pottery, plays Gauntlet on the Makers Academy PS4 and is training to be a psychotherapist.
+
+- name: Roury
+  image: Roury.jpg
+  job_title: Customer Champion
+  about: Roury is our Customer Champion. He's come from a music background, both teaching and performing. He's in charge of mentoring people through the application process as well as keeping them as happy as possible! Fun fact, Roury owned 33 gerbils at once.
+
+- name: Elspeth
+  image: Elspethbigger.jpg
+  job_title: Careers Team
+  about: Elspeth is part of the careers team, keeping her ear to the ground for employers who are in need of great developers. Despite being relatively new to the world of tech, Elspeth is very passionate about it, and cares a lot about connecting great organisations with great people. Other passions include food, (amateur) tennis and Scotland.
+
+- name: Florence
+  image: Florence.jpg
+  job_title: Head of Operations
+  about: Florence is our Head of Operations. She has over 6 years of experience working in startups. She has a passion for education, logistics and problem solving. In her free time, she likes to bake and watch sport in the pub.
+
+- name: Dana
+  image: DanaCutout.jpg
+  job_title: Chief Joy Officer
+  about: Dana is our Chief Joy Officer. As a holistic coach, she facilitates the well-being of the students and staff. Everything from one-to-one coaching and group sessions to daily meditation and teaching Emotional Intelligence through the “ACE Dev" curriculum. She is also our in-house Yoga teacher (RYT certified). Dana loves music and fun!
+
+- name: Max
+  image: max.jpg
+  job_title: Careers Team
+  about: Max is passionate about improving diversity in tech. Before Makers Academy he spent two years at Apps for Good, inspiring young people from all walks of life to build their digital skills. Now he is working with hiring partners to improve their recruitment processes and attract the best software talent from any background.
+
+- name: Ruben
+  image: ruben.jpg
+  job_title: Chief Operating Officer
+  about: Ruben is part of the founding team at Makers, having himself taken the second course and built the career side of the business. Today, his focus is on the organisational structure and culture, the team and our strategic growth. Ruben is passionate about new [un]management styles, education and food.
+
+- name: Ed
+  image: Ed.jpg
+  job_title: Coaching Team
+  about: Ed has seen the whole arc of a Makers student, from candidate interviews to leading a Makers consultant team. But as a coach he just likes to spin around in his chair. He's a big fan of tennis, MTG, and a two coffee day. Favourite languages are the grammatically reasonable ones.
+
+- name: Becks
+  image: Backs.jpg
+  job_title: Careers Team
+  about: Becks is our careers coach and supports our students into their first roles as junior developers. She worked as a coach and careers consultant in Universities and in an addiction clinic for the NHS until she took her own advice and made her home in tech. Now in a flat after years of living in a boat community, Becks is enjoying simple things like cooking a level omelette and not feeling slightly seasick.
 
 - name: Emily
   image: emily.jpg
