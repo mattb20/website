@@ -1,12 +1,38 @@
-%section.hero-splash{ style: "background-image: url(#{image_path("backgrounds/B11.jpg")});" }
-  .container.margin-bottom
+%section.hero-splash.backgrounded
+  .container
     .centered-row
-      %h4.leader Apply to
+      %h4.leader Ways to Apply To
       %h1 Makers Academy
+
+%section
+  .container
+    .centered-row
+      .column
+        %h2 Call us
+        %p Have a chat with an Onboarding Specialist and get the info you need. We'll call you at a time that works for you.
     .button-row
-      = link_to "Apply Onsite", config.onsite_application_form_url, class: "button button--vertical apply-button", data: {track: "Clicked Onsite Apply Form Button"}
-    
-= partial :"benefits_table"
+      %p
+        = link_to "Book a Call", "http://bit.ly/2vuFUXT", class: "button button--vertical button--large", target: "_blank", data: {track: "Apply Test Call"}
+%section.backgrounded
+  .container
+    .centered-row
+      .column
+        %h2 Drop In
+        %p Book a tour around Makers HQ in London and speak meet the team. We'll help you get setup to code on the day.
+    .button-row
+      %p
+        = link_to "Drop In", "https://visitmakers.youcanbook.me", class: "button button--vertical button--large", target: "_blank", data: {track: "Apply Test Drop In"}
+
+%section
+  .container
+    .centered-row
+      .column
+        %h2 Message Us
+        %p Already visited Makers? Complete this short form and we can send you the info you need.
+    .button-row
+      %p
+        = link_to "Apply", "https://apply.makersacademy.com?utm_source=website&utm_campaign=apply-test&utm_medium=apply-page", class: "button button--vertical button--large", target: "_blank", data: {track: "Apply Test Drop In"}
+
 
 :javascript
-  analytics.track('Viewed onsite/remote apply page');
+  analytics.track('Viewed Landing Page', {'Landing Page': 'apply-test-april2018'}, {'nonInteraction': 1});
