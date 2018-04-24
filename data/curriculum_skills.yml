@@ -33,3 +33,10 @@
 
 - title: Pairing
   about: Software projects fail when teams fail. Pairing is a set of techniques for co-authoring code that results in higher-quality, more durable applications.
+  weeks:
+    - week: pc-4
+      header: Try Pairing
+      content: In the final week of the PreCourse, we encourage you to try remote pairing. Working remotely is just one of the perks of being a developer.
+    - week: 1
+      header: Intro to Pairing
+      content: You'll swap pairs every day, and learn key pairing techniques that get both of you moving together as one.

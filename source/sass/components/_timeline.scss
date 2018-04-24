@@ -3,7 +3,7 @@ $timeline-padding: 16rem;
 
 .timeline {
   position: relative;
-  padding: $timeline-padding 0;
+  padding: $timeline-padding 100px;
   box-sizing: border-box;
 }
 
@@ -46,7 +46,7 @@ $timeline-padding: 16rem;
 
 .timeline__line {
   position: absolute;
-  width: 99%;
+  width: calc(99% - 200px);
   height: 2px;
   background: $medium-gray;
   top: $timeline__point-diameter/2 - 1px;
@@ -59,7 +59,8 @@ $timeline-padding: 16rem;
   left: -100px;
   right: -100px;
   padding: 1rem;
-  border: 1px solid $medium-gray;
+  border: 2px solid $medium-gray;
+  border-radius: $button-border-radius;
   h4 {
     margin-bottom: 0;
   }
