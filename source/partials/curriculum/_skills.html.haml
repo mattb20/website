@@ -1,0 +1,27 @@
+%section
+  .container
+    .curriculum-selector
+    %select.curriculum-selector__select#curriculum_select
+      - data.curriculum_skills.each do |skill|
+        = partial :"curriculum/skills-option", locals: { skill: skill }
+    %p.curriculum-selector__about
+      Select a skill above to view information about it.
+    .timeline.curriculum-selector__timeline
+      .timeline__line
+      .timeline__points
+        .timeline__point{ data: { label: "pc 1", week: "week-pc-1" } }
+        .timeline__point{ data: { label: "pc 2", week: "week-pc-2" } }
+        .timeline__point{ data: { label: "pc 3", week: "week-pc-3" } }
+        .timeline__point{ data: { label: "pc 4", week: "week-pc-4" } }
+        .timeline__point{ data: { label: "1", week: "week-1" } }
+        .timeline__point{ data: { label: "2", week: "week-2" } }
+        .timeline__point{ data: { label: "3", week: "week-3" } }
+        .timeline__point{ data: { label: "4", week: "week-4" } }
+        .timeline__point{ data: { label: "5", week: "week-5" } }
+        .timeline__point{ data: { label: "6", week: "week-6" } }
+        .timeline__point{ data: { label: "7", week: "week-7" } }
+        .timeline__point{ data: { label: "8", week: "week-8" } }
+        .timeline__point{ data: { label: "9", week: "week-9" } }
+        .timeline__point{ data: { label: "10", week: "week-10" } }
+        .timeline__point{ data: { label: "11", week: "week-11" } }
+        .timeline__point{ data: { label: "12", week: "week-12" } }

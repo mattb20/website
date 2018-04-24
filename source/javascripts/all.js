@@ -31,6 +31,7 @@
 //= require sliders
 //= require videos
 //= require tracking
+//= require timeline
 //= require vendor/intlTelInput/utils
 //= require vendor/intlTelInput/intlTelInput.min
 

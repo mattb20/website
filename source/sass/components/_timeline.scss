@@ -1,0 +1,91 @@
+$timeline__point-diameter: 16px;
+$timeline-padding: 16rem;
+
+.timeline {
+  position: relative;
+  padding: $timeline-padding 0;
+  box-sizing: border-box;
+}
+
+.timeline__points {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.timeline__point {
+  height: $timeline__point-diameter;
+  width: $timeline__point-diameter;
+  box-shadow: 0 0 0 2px $medium-gray;
+  border-radius: 100%;
+  background: $white;
+  position: relative;
+}
+
+.timeline__point:before {
+  content: attr(data-label);
+  position: absolute;
+  text-align: center;
+  top: $timeline__point-diameter * 1.5;
+  left: -1 * $timeline__point-diameter;
+  right: -1 * $timeline__point-diameter;
+  @include tiny-header;
+  color: $medium-gray;
+}
+
+.timeline__point--selected:after {
+  content: "";
+  position: absolute;
+  top: $timeline__point-diameter / 8;
+  left: $timeline__point-diameter / 8;
+  height: 3 * $timeline__point-diameter / 4;
+  width: 3 * $timeline__point-diameter / 4;
+  background: $medium-gray;
+  border-radius: 100%;
+}
+
+.timeline__line {
+  position: absolute;
+  width: 99%;
+  height: 2px;
+  background: $medium-gray;
+  top: $timeline__point-diameter/2 - 1px;
+  z-index: -1;
+  margin-top: $timeline-padding;
+}
+
+.point__info {
+  position: absolute;
+  left: -100px;
+  right: -100px;
+  padding: 1rem;
+  border: 1px solid $medium-gray;
+  h4 {
+    margin-bottom: 0;
+  }
+}
+
+.point__info:after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.timeline__point:nth-child(2n-1) .point__info {
+  top: $timeline__point-diameter * 4;
+  &:after {
+    bottom: 100%;
+    border-color: transparent transparent $medium-gray transparent;
+  }
+}
+
+.timeline__point:nth-child(2n) .point__info {
+  bottom: $timeline__point-diameter * 3;
+  &:after {
+    top: 100%;
+    border-color: $medium-gray transparent transparent transparent;
+  }
+};

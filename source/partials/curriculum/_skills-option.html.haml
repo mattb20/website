@@ -1,0 +1,2 @@
+- weeks = skill["weeks"] ? skill["weeks"].inject({}) { |accum, week| accum.merge({ "week-#{week["week"]}-header": week["header"], "week-#{week["week"]}-content": week["content"] }) } : {}
+%option{ value: skill["title"], default: skill["default"], data: { content: skill["about"] }.merge(weeks) }= skill["title"]

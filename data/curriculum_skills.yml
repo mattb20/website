@@ -1,0 +1,35 @@
+- title: Select a Skill
+  default: true
+  about: Select a skill above to view information about it.
+  weeks:
+    - week: pc-1
+      header: PreCourse Start
+      content: The course is split into the PreCourse and the Onsite Course.
+    - week: pc-4
+      header: PreCourse End
+      content: The PreCourse is taken remotely. It's 25 hours a week and trains you to code.
+    - week: 3
+      header: Main Course
+      content: The Main Course takes place at Makers Academy. It's full-time and trains you to become a software engineer.
+    - week: 6
+      header: Projects
+      content: From Onsite Week 6 onwards, the focus is on building software in Agile collaborative teams.
+    - week: 10
+      header: Jobhunting Skills
+      content: In the later part of the course, you learn to excel at technical tests and engineering interviews.
+    - week: 11
+      header: Final Projects
+      content: In the final weeks of the course, you'll build impressive capstone projects from scratch.
+
+- title: Test-Driven Development
+  about: Building scalable, well-designed applications step-by-step. A mark of quality in today's world of software.
+  weeks:
+    - week: 1
+      header: Intro to TDD
+      content: Learn how to Test-Drive simple applications. Understand the technique and the Red-Green-Refactor cycle.
+    - week: 2
+      header: Object-Oriented TDD
+      content: Test-Drive more complicated Object-Oriented code, focussing on refactoring.
+
+- title: Pairing
+  about: Software projects fail when teams fail. Pairing is a set of techniques for co-authoring code that results in higher-quality, more durable applications.
