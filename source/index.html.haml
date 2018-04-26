@@ -26,7 +26,7 @@
       %h4.leader Try our free ebook now
       %h2 Learn Ruby in 15 minutes
       %p Take the plunge. Get a free copy of our Learn Ruby In 15 Minutes ebook by signing up to our newsletter.
-    = partial :"email-capture", locals: { segments: "website-homepage-lr15", button_text: "Get e-book" }
+    = partial :"email-capture", locals: { segments: "website-homepage-lr15", lifecycle_stage: "lead", customer_type: "b2c", button_text: "Get e-book" }
 
 = partial :"splash/curriculum"
 
@@ -35,9 +35,5 @@
 = partial :"benefits_table"
 
 = partial :"primary_call_to_action"
-
-/ Analytics event for visiting homepage
-:javascript
-  analytics.track('Viewed homepage', {nonInteraction: 1});
 
 %script{:async => "async", :charset => "utf-8", :src => "//my.hellobar.com/a4d685534de7dd2955f70177e82b134e53c2309b.js", :type => "text/javascript"}
