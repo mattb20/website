@@ -3,7 +3,7 @@
   about: Select a skill above to view information about it.
   weeks:
     - week: pc-1
-      header: PreCourse Start
+      header: PreCourse
       content: The course is split into the PreCourse and the Onsite Course.
     - week: pc-4
       header: PreCourse End
@@ -15,7 +15,7 @@
       header: Projects
       content: From Onsite Week 6 onwards, the focus is on building software in Agile collaborative teams.
     - week: 10
-      header: Jobhunting Skills
+      header: Career Skills
       content: In the later part of the course, you learn to excel at technical tests and engineering interviews.
     - week: 11
       header: Final Projects
@@ -28,8 +28,14 @@
       header: Intro to TDD
       content: Learn how to Test-Drive simple applications. Understand the technique and the Red-Green-Refactor cycle.
     - week: 2
-      header: Object-Oriented TDD
+      header: OO TDD
       content: Test-Drive more complicated Object-Oriented code, focussing on refactoring.
+    - week: 3
+      header: Web BDD
+      content: Test-Drive the development of web applications, interface-first – critical for rapid prototyping.
+    - week: 4
+      header: Full-stack TDD
+      content: Use both London and Chicago Schools of TDD to Test-Drive a full-stack application.
 
 - title: Pairing
   about: Software projects fail when teams fail. Pairing is a set of techniques for co-authoring code that results in higher-quality, more durable applications.
@@ -40,3 +46,23 @@
     - week: 1
       header: Intro to Pairing
       content: You'll swap pairs every day, and learn key pairing techniques that get both of you moving together as one.
+
+- title: Object-Oriented Programming
+  about: An industry-standard approach to building modular, scalable software.
+  weeks:
+    - week: 1
+      header: Intro to OOP
+      content: Learn the principles of encapsulation and the Single Responsibility Principle by building a small test-driven OO project.
+    - week: 2
+      header: Clean OOP
+      content: You'll build a more complex application to learn techniques for designing, programming, and refactoring OO code, focusing on extensibility and maintenance.
+    - week: 5
+      header: OO JavaScript
+      content: Using object-oriented principles in a new setting – JavaScript.
+    - week: 7
+      header: Advanced OOP
+      content: You'll write a test framework, from scratch, using pure object-oriented JavaScript and refactoring techniques.
+    - week: 10
+      header: Tech tests
+      content: Writing code for interview. We focus tightly on clean coding, refactoring, and expressive, idiomatic OO code following industry-standard SOLID principles.
+

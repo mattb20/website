@@ -2,6 +2,7 @@ $(document).ready(function() {
   var POINTS = $('.timeline__point');
   var SELECT = $('#curriculum_select');
   var ABOUT  = $('.curriculum-selector__about');
+  var ANIMATED_TIMELINE = true;
 
   var WEEKS = [
     'week-pc-1',
@@ -37,8 +38,8 @@ $(document).ready(function() {
 
   function addInfoBox(weekData) {
     var point = '.timeline__point[data-week=' + weekData.week + ']';
-    var header = "<h4>" + weekData.header + "</h4>";
-    var content = "<p>" + weekData.content + "</p>";
+    var header = "<h4 class='info__header'>" + weekData.header + "</h4>";
+    var content = "<p class='info__content'>" + weekData.content + "</p>";
 
     $(point).html("<span class='point__info'>" + header + content + "</span>")
   };
@@ -67,10 +68,16 @@ $(document).ready(function() {
     for(var i = 0; i < contents.length; i++) {
       addInfoBox(contents[i]);
     };
+
+    addPointListeners();
   };
 
   function updateAbout(selected) {
     ABOUT.html(selected.attr('data-content'));
+  };
+
+  function selectFirst(selected) {
+    $('.timeline__point--selected').first().addClass('timeline__point--current');
   };
 
   function handleChange(e) {
@@ -79,8 +86,42 @@ $(document).ready(function() {
     updateAbout(selected);
     updatePoints(selected);
     updateInfoBoxes(selected);
+    cancelTimer();
+    selectFirst();
+    startTimelineAnimation();
+  };
+
+  function cancelTimer() {
+    clearInterval(ANIMATED_TIMELINE);
+  };
+
+  function addPointListeners() {
+    POINTS.removeClass('timeline__point--current');
+    POINTS.off('mouseenter');
+    $('.timeline__point--selected').on('mouseenter', function() {
+      cancelTimer();
+      POINTS.removeClass('timeline__point--current');
+      $(this).addClass('timeline__point--current');
+    });
+  };
+
+  function rotateCurrent() {
+    var $next = $('.timeline__point--current').nextAll('.timeline__point--selected').first();
+    POINTS.removeClass('timeline__point--current');
+
+    if($next.length !== 0) {
+      $next.addClass('timeline__point--current');
+    } else {
+      $('.timeline__point--selected').first().addClass('timeline__point--current');
+    };
+  };
+
+  function startTimelineAnimation() {
+    var ROTATION_TIME = 3000;
+    ANIMATED_TIMELINE = setInterval(rotateCurrent, ROTATION_TIME);
   };
 
   SELECT.change(handleChange);
+  addPointListeners(POINTS);
   handleChange.bind(SELECT)();
 });

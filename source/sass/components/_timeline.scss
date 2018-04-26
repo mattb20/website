@@ -1,27 +1,56 @@
 $timeline__point-diameter: 16px;
 $timeline-padding: 16rem;
+$global-transition: all 0.1s ease-in-out;
+$info-border-width: 1px;
+$point-border-width: 2px;
+$info-triangle-size: 10px;
+$bounce-in-distance: 15px;
+
+.curriculum-selector__about {
+  padding-left: 1.333rem;
+  padding-right: 1.333rem;
+}
+
+section .container--timeline {
+  @include media($mobile) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
 .timeline {
   position: relative;
   padding: $timeline-padding 100px;
   box-sizing: border-box;
+  @include media($mobile) {
+    padding: 0;
+  }
 }
 
 .timeline__points {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @include media($mobile) {
+    flex-direction: column;
+  }
 }
 
 .timeline__point {
   height: $timeline__point-diameter;
   width: $timeline__point-diameter;
-  box-shadow: 0 0 0 2px $medium-gray;
+  box-shadow: 0 0 0 $point-border-width $medium-gray;
   border-radius: 100%;
   background: $white;
   position: relative;
+  transition: $global-transition;
+  @include media($mobile) {
+    display: none;
+    box-shadow: none;
+  }
 }
 
+/* The label beneath the point */
 .timeline__point:before {
   content: attr(data-label);
   position: absolute;
@@ -31,8 +60,28 @@ $timeline-padding: 16rem;
   right: -1 * $timeline__point-diameter;
   @include tiny-header;
   color: $medium-gray;
+  transition: $global-transition;
+  @include media($mobile) {
+    content: "Week: " attr(data-label);
+    left: 0.2rem;
+    right: auto;
+    top: 0.2rem;
+    z-index: 2;
+    color: $white;
+  }
 }
 
+/* A point that is relevant to the current skill */
+.timeline__point--selected {
+  @include media($mobile) {
+    display: flex;
+    height: auto;
+    width: auto;
+    border-radius: 0;
+  }
+}
+
+/* The dot in the middle of the timeline */
 .timeline__point--selected:after {
   content: "";
   position: absolute;
@@ -42,51 +91,185 @@ $timeline-padding: 16rem;
   width: 3 * $timeline__point-diameter / 4;
   background: $medium-gray;
   border-radius: 100%;
+  transition: $global-transition;
+  @include media($mobile) {
+    display: none;
+  }
 }
 
 .timeline__line {
   position: absolute;
   width: calc(99% - 200px);
-  height: 2px;
+  height: $point-border-width;
   background: $medium-gray;
-  top: $timeline__point-diameter/2 - 1px;
+  top: $timeline__point-diameter/2 - $point-border-width/2;
   z-index: -1;
   margin-top: $timeline-padding;
+  @include media($mobile) {
+    display: none;
+  }
 }
 
 .point__info {
   position: absolute;
   left: -100px;
   right: -100px;
-  padding: 1rem;
-  border: 2px solid $medium-gray;
+  padding: 0;
+  color: $light-gray;
+  transition: $global-transition;
+  z-index: 0;
   border-radius: $button-border-radius;
-  h4 {
-    margin-bottom: 0;
+
+  @include media($mobile) {
+    position: static;
+    border-radius: 0;
+    display: flex;
+    opacity: 1;
+    color: $base-font-color;
+    transform: none !important;
+    border: none;
   }
 }
 
-.point__info:after {
+.info__header {
+  margin-bottom: 0;
+  color: $white;
+  padding: 0.5rem 1rem;
+  transition: $global-transition;
+  border-top-left-radius: $button-border-radius;
+  border-top-right-radius: $button-border-radius;
+  background: $light-gray;
+  @include media($mobile) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: $brand-secondary-color;
+    padding: 0.2rem;
+    padding-top: 1.5rem;
+    line-height: 1.2;
+    width: 40%;
+    text-align: left;
+  }
+}
+
+.info__content {
+  padding: 0.5rem 0.5rem 0.5rem;
+  border: $info-border-width solid $light-gray;
+  border-bottom-right-radius: $button-border-radius;
+  border-bottom-left-radius: $button-border-radius;
+  background: $lightest-gray;
+  border-top: none;
+  @include media($mobile) {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    border-right: none;
+    width: 60%;
+    background: $white;
+    text-align: left;
+  };
+}
+
+.timeline__point--selected:first-child .info__content {
+  @include media($mobile) {
+    border-top: 1px solid $light-gray;
+  }
+}
+
+.point__info:before {
   content: " ";
   position: absolute;
   left: 50%;
-  margin-left: -10px;
-  border-width: 10px;
+  margin-left: -1 * $info-triangle-size;
+  border-width: $info-triangle-size;
   border-style: solid;
+  transition: $global-transition;
+  @include media($mobile) {
+    display: none;
+  }
 }
 
 .timeline__point:nth-child(2n-1) .point__info {
+  transform: translateY($bounce-in-distance);
   top: $timeline__point-diameter * 4;
-  &:after {
+  &:before {
     bottom: 100%;
-    border-color: transparent transparent $medium-gray transparent;
+    border-color: transparent transparent $light-gray transparent;
   }
 }
 
 .timeline__point:nth-child(2n) .point__info {
+  transform: translateY(-1 * $bounce-in-distance);
   bottom: $timeline__point-diameter * 3;
-  &:after {
+  &:before {
     top: 100%;
-    border-color: $medium-gray transparent transparent transparent;
+    border-color: $light-gray transparent transparent transparent;
   }
-};
+
+  &:after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-left: -1 * $info-triangle-size;
+    border-width: $info-triangle-size;
+    border-style: solid;
+    transition: $global-transition;
+    top: 100%;
+    border-color: $lightest-gray transparent transparent transparent;
+    margin-top: -1.75 * $info-border-width;
+  }
+}
+
+/* JS HOVER INTERACTIONS */
+
+.timeline__point--current {
+  box-shadow: 0 0 0 $point-border-width $brand-primary-color;
+
+  @include media($mobile) {
+    box-shadow: none;
+  }
+
+  &:before {
+    color: $brand-primary-color;
+    @include media($mobile) {
+      color: $white;
+    }
+  }
+
+  &.timeline__point--selected:after {
+    background: $brand-primary-color;
+  }
+
+  &.timeline__point .point__info {
+    transform: translateY(0px);
+    opacity: 1;
+    z-index: 1;
+    color: $base-font-color;
+    .info__header { 
+      color: $white; 
+      border-color: $brand-secondary-color;
+      background: $brand-secondary-color;
+    }
+
+    .info__content {
+      background: $white;
+      border-color: $light-gray;
+    }
+  }
+
+  &.timeline__point:nth-child(2n-1) .point__info {
+    &:before {
+      border-color: transparent transparent $brand-secondary-color transparent;
+    }
+  }
+
+  &.timeline__point:nth-child(2n) .point__info {
+    &:before {
+      border-color: $light-gray transparent transparent transparent;
+    }
+
+    &:after {
+      border-color: $white transparent transparent transparent;
+    }
+  }
+}
+

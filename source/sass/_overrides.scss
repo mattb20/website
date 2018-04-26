@@ -27,6 +27,12 @@
   vertical-align: middle !important;
 }
 
+.hide-on-mobile {
+  @include media($mobile) {
+    display: none !important;
+  }
+}
+
 .show-for-mobile {
   @include media($mobile) {
     display: block !important;
