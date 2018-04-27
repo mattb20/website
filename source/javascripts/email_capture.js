@@ -33,30 +33,55 @@
 
       function sendToSegment() {
         analytics.alias(email.val());
-        analytics.identify(email.val(), analyticsProperties());
+        analytics.identify(email.val(), analyticsTraits(), function() {
+          // HubSpot requires a page call to flush information from Segment
+          // any such page calls should have a category of "null"
+          // and a page name of "Flush to HubSpot" (case-sensitive)
+          analytics.page('null', 'Flush to HubSpot');
+        });
         analytics.track(stage);
       }
 
-      function analyticsProperties() {
-        var values = {
+      function analyticsTraits() {
+        var traits = {
           email: email.val(),
           Newsletter: false
         };
 
-        return addSegments(values);
+        return addSegments(addLifecycleStage(addCustomerType(traits)));
       }
 
-      function addSegments(values) {
-
+      function addSegments(traits) {
         var segments = email.data("segments");
 
         if (segments) {
           segments.split(",").forEach(function(element) {
-            values[element.trim()] = true;
+            traits[element.trim()] = true;
           });
         }
 
-        return values;
+        return traits;
+      }
+
+      function addLifecycleStage(traits) {
+        var lifecycleStage = email.data("lifecyclestage");
+        var HUBSPOT_LIFECYCLE_STAGE_KEY = "lifecyclestage";
+
+        if(lifecycleStage) {
+          traits[HUBSPOT_LIFECYCLE_STAGE_KEY] = lifecycleStage.trim();
+        }
+
+        return traits;
+      }
+
+      function addCustomerType(traits) {
+        var customerType = email.data("customer-type");
+
+        if(customerType) {
+          traits[customerType.trim().toLowerCase()] = true;
+        }
+
+        return traits;
       }
     });
   };

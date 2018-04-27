@@ -1,5 +1,26 @@
+/ Email captures take four pieces of optional information:
+/ segment, lifecycle_stage, customer_type, and button_text.
+/
+/ segment is used by CustomerIO. It tracks *where* the user signed up for emails.
+/ By default, segment is "General".
+/
+/ lifecycle_stage is used by HubSpot. It tracks *where* the signup should be inserted in the Marketing Lifecycle.
+/ (most of the time, this is "subscriber". Sometimes it might be "lead").
+/ By default, lifecycle_stage is "subscriber".
+/
+/ customer_type is also used by HubSpot. It sets the b2c or b2b property on a HubSpot contact.
+/ It should be one of 'b2c' (a consumer/student/fellow) or 'b2b' (an employer/hiring partner).
+/ By default, customer_type is 'b2c'.
+/
+/ button_text is the text on the submission button.
+/ By default, button_text is "Send my e-book".
+/
+/ Here is an example way to render the email capture partial, setting all three properties:
+/
+/ = partial :"email-capture", locals: { segments: "website-homepage-lr15", lifecycle_stage: "lead", customer_type: "b2c", button_text: "Get e-book" }
+
 .email-capture-row
   %form.email-capture
     %label{for: "newsletter-email"}
-    %input{type: "email", id: "newsletter-email", placeholder: "Your Email Address", required: true, 'data-segments': locals.fetch(:segments, "General") }
+    %input{type: "email", id: "newsletter-email", placeholder: "Your Email Address", required: true, 'data-segments': locals.fetch(:segments, "General"), 'data-lifecyclestage': locals.fetch(:lifecycle_stage, "subscriber"), 'data-customer-type': locals.fetch(:customer_type, "b2c") }
     %input.button.button--horizontal{type: "submit", value: locals.fetch(:button_text, "Send my e-book") }
