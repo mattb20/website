@@ -21,6 +21,6 @@
 
 .email-capture-row
   %form.email-capture
-    %label{for: "newsletter-email"}
-    %input{type: "email", id: "newsletter-email", placeholder: "Your Email Address", required: true, 'data-segments': locals.fetch(:segments, "General"), 'data-lifecyclestage': locals.fetch(:lifecycle_stage, "subscriber"), 'data-customer-type': locals.fetch(:customer_type, "b2c") }
+    %label.email-capture__label{for: "newsletter-email"}
+    %input.email-capture__input{type: "email", id: "newsletter-email", placeholder: "Your Email Address", required: true, 'data-segments': locals.fetch(:segments, "General"), 'data-lifecyclestage': locals.fetch(:lifecycle_stage, "subscriber"), 'data-customer-type': locals.fetch(:customer_type, "b2c") }
     %input.button.button--horizontal{type: "submit", value: locals.fetch(:button_text, "Send my e-book") }
