@@ -8,24 +8,24 @@
       %h1 Final project demo day
       %p.margin-bottom Discover where 12 weeks of coding can take you. Soak in the Makers atmosphere and see what our developers have built.
 
-%section.full-slider.small-padding-top
-  .container.container--narrow
+%section.full-slider.medium-padding-top
+  .container
     .centered-row
-      %h2 Meet our community
+      %h4.leader meet
+      %h2 our community
       %p At Makers we equip you with the skills you need to become a professional software engineer. By Week 11 we’ve completely revolutionised your approach to learning and taught you the ability to master any software from scratch. Most teams choose an entirely new language or framework to build their final project. Our Open Day is a great opportunity to talk to staff and students about the steep learning curve you’ll experience here.
-
-  .slider
-    - data.team.each do | team_member |
-      .slide
-        .container
-          .profile-row
-            .image.show-desktop
-              = image_tag "team/#{team_member[:image]}"
-            .copy
-              %h2= team_member[:name]
-              %h4.subheader= team_member[:job_title]
-              %p= team_member[:about]
-              .button-row.shift-to-bottom
+    .slider
+      - data.team.each do | team_member |
+        .slide
+          .container
+            .profile-row
+              .image.show-desktop
+                = image_tag "team/#{team_member[:image]}"
+              .copy
+                %h2= team_member[:name]
+                %h4.subheader= team_member[:job_title]
+                %p= team_member[:about]
+                .button-row.shift-to-bottom
 
 %section.backgrounded.no-min-height
   .container
@@ -33,8 +33,10 @@
 
 %section
   .container
-    %h2 Book your ticket now
-    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=33334607709&ref=etckt", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
+    %h4.leader Book
+    %h2 your ticket
+    %h4.subheader now
+    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=32658194539&ref=etckt", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
 
 / Analytics event for landing page
 :javascript
