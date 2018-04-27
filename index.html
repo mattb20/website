@@ -3,7 +3,7 @@
 <head>
 <!-- Built using Middleman 4 -->
 <!--[if gt IE 8]><!-->
-<link href="/sass/all-3e128e81.css" rel="stylesheet" type="text/css" />
+<link href="/sass/all-eb7d94d2.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 <!--[if lte IE 8]><!-->
 <link href="/sass/compatibility-466a586b.css" rel="stylesheet" type="text/css" />
@@ -112,6 +112,34 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <h1>Learn to code in 12 weeks</h1>
 <p class='margin-bottom'>Makers Academy is Europe's leading Web Developer bootcamp. We believe the best way to learn is through practical hands-on education. Train with us and we’ll guarantee your first job as a software developer.</p>
 </div>
+<!-- Email captures take four pieces of optional information: -->
+<!-- segment, lifecycle_stage, customer_type, and button_text. -->
+<!--  -->
+<!-- segment is used by CustomerIO. It tracks *where* the user signed up for emails. -->
+<!-- By default, segment is "General". -->
+<!--  -->
+<!-- lifecycle_stage is used by HubSpot. It tracks *where* the signup should be inserted in the Marketing Lifecycle. -->
+<!-- (most of the time, this is "subscriber". Sometimes it might be "lead"). -->
+<!-- By default, lifecycle_stage is "subscriber". -->
+<!--  -->
+<!-- customer_type is also used by HubSpot. It sets the b2c or b2b property on a HubSpot contact. -->
+<!-- It should be one of 'b2c' (a consumer/student/fellow) or 'b2b' (an employer/hiring partner). -->
+<!-- By default, customer_type is 'b2c'. -->
+<!--  -->
+<!-- button_text is the text on the submission button. -->
+<!-- By default, button_text is "Send my e-book". -->
+<!--  -->
+<!-- Here is an example way to render the email capture partial, setting all three properties: -->
+<!--  -->
+<!-- = partial :"email-capture", locals: { segments: "website-homepage-lr15", lifecycle_stage: "lead", customer_type: "b2c", button_text: "Get e-book" } -->
+<div class='email-capture-row'>
+<form class='email-capture'>
+<label class='email-capture__label' for='newsletter-email'></label>
+<input class='email-capture__input' data-customer-type='b2c' data-lifecyclestage='subscriber' data-segments='website-homepage-newsletter' id='newsletter-email' placeholder='Your Email Address' required type='email'>
+<input class='button button--horizontal' type='submit' value='Stay in touch'>
+</form>
+</div>
+
 <div class='five-width-row small-padding-top'>
 <div class='column'>
 <img alt="ThoughtWorks" title="ThoughtWorks" class="image--medium" src="https://assets.makersacademy.com/images/hiring-partners/ThoughtWorks.png" />
@@ -1677,8 +1705,8 @@ and unfortunately your browser doesn't allow us to do this. We know you can't al
 <!-- = partial :"email-capture", locals: { segments: "website-homepage-lr15", lifecycle_stage: "lead", customer_type: "b2c", button_text: "Get e-book" } -->
 <div class='email-capture-row'>
 <form class='email-capture'>
-<label for='newsletter-email'></label>
-<input data-customer-type='b2c' data-lifecyclestage='lead' data-segments='website-homepage-lr15' id='newsletter-email' placeholder='Your Email Address' required type='email'>
+<label class='email-capture__label' for='newsletter-email'></label>
+<input class='email-capture__input' data-customer-type='b2c' data-lifecyclestage='lead' data-segments='website-homepage-lr15' id='newsletter-email' placeholder='Your Email Address' required type='email'>
 <input class='button button--horizontal' type='submit' value='Get e-book'>
 </form>
 </div>
