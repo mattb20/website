@@ -42,13 +42,17 @@
 
 %section
   .container
-    %h2 Come to our Demo Day
-    %p.lead Book your ticket to our next Demo Day here.
-    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=33334607709", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
+    %h4.leader Come to our
+    %h2 Demo Day
+    %p.lead Come see what you can build: book your ticket to our next Demo Day here.
+    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=32658194539", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
 
-%section.backgrounded
+%section.backgrounded.no-min-height
   .container
-    %blockquote Makers enabled me to change my life. I wanted to do something which I was passionate about, so I made the scary decision to change careers and pursue software development. I now work at one of the hottest tech startups and work with some of the most brilliant and talented people - building amazing solutions, learning at an accelerated pace and I love I what do. I never thought I would actually say that I look forward to going work. - Costas, Software Engineer
+    %blockquote Makers enabled me to change my life. I wanted to do something which I was passionate about, so I made the scary decision to change careers and pursue software development. I now work at one of the hottest tech startups and work with some of the most brilliant and talented people - building amazing solutions, learning at an accelerated pace and I love I what do. I never thought I would actually say that I look forward to going work.
+    %p – Costas, Software Engineer
+
+= partial :"primary_call_to_action"
 
 :javascript
   analytics.track('Viewed Onsite Landing Page', {'Landing Page': 'career-support-2018'});
