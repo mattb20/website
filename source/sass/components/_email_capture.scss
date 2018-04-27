@@ -1,0 +1,10 @@
+.email-capture__label {
+  text-align: center;
+}
+
+.email-capture__input {
+  &::placeholder {
+    color: $white;
+    opacity: 0.7;
+  }
+}
