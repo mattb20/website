@@ -40,9 +40,8 @@
   .container
     %h2 Come to our Demo Day
     %p.lead We’d love to show you around Makers, showcase what our developers have built and answer any questions you might have.
-    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=33334607709&ref=women2018", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
+    %iframe.padding-top{src: "//eventbrite.co.uk/tickets-external?eid=32658194539", frameborder: 0, height: "375", width: "100%", allowfullscreen: true}
 
 / Analytics for landing page
 :javascript
-  analytics.track('Viewed Landing Page', {'Landing Page': 'Women'});
-  analytics.identify({'Women': true});
+  analytics.track('Viewed Landing Page', {'Landing Page': 'Women 2018'}), {'nonInteraction': 1});
